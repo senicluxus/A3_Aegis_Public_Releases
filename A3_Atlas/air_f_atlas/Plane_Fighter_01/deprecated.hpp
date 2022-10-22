@@ -1,0 +1,3 @@
+DEPRECATED_CLASS(B_E_Ejection_Seat_Plane_Fighter_01_F,Atlas_B_G_Ejection_Seat_Plane_Fighter_01_F);
+DEPRECATED_CLASS(B_E_Plane_Fighter_01_F,Atlas_B_G_Plane_Fighter_01_F);
+DEPRECATED_CLASS(B_E_Plane_Fighter_01_Stealth_F,Atlas_B_G_Plane_Fighter_01_Stealth_F);

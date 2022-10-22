@@ -1,0 +1,2 @@
+DEPRECATED_CLASS(B_H_MBT_04_cannon_F,Atlas_B_H_MBT_04_cannon_F);
+DEPRECATED_CLASS(B_H_MBT_04_command_F,Atlas_B_H_MBT_04_command_F);

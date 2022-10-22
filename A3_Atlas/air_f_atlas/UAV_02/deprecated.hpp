@@ -1,0 +1,2 @@
+DEPRECATED_CLASS(B_G_UAV_02_dynamicLoadout_F,Atlas_B_G_UAV_02_dynamicLoadout_F);
+DEPRECATED_CLASS(I_I_UAV_02_dynamicLoadout_F,Atlas_I_I_UAV_02_dynamicLoadout_F);

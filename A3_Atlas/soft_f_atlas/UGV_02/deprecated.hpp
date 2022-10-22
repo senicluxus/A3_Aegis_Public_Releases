@@ -1,0 +1,3 @@
+DEPRECATED_CLASS(B_E_UGV_02_Demining_F,Atlas_B_G_UGV_02_Demining_F);
+DEPRECATED_CLASS(I_I_UGV_02_Demining_backpack_F,Atlas_I_I_UGV_02_Demining_backpack_F);
+DEPRECATED_CLASS(I_I_UGV_02_Demining_F,Atlas_I_I_UGV_02_Demining_F);

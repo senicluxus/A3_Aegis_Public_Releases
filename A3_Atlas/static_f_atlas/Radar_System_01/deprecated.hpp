@@ -1,0 +1,2 @@
+DEPRECATED_CLASS(B_E_Radar_System_01_F,Atlas_B_G_Radar_System_01_F);
+DEPRECATED_CLASS(I_I_Radar_System_01_F,Atlas_I_I_Radar_System_01_F);

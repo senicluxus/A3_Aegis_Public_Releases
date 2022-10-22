@@ -1,0 +1,2 @@
+DEPRECATED_CLASS(B_E_SAM_System_03_F,Atlas_B_G_SAM_System_03_F);
+DEPRECATED_CLASS(I_I_SAM_System_03_F,Atlas_I_I_SAM_System_03_F);

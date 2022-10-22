@@ -1,0 +1,3 @@
+DEPRECATED_CLASS(B_E_Static_Designator_01_F,Atlas_B_G_Static_Designator_01_F);
+DEPRECATED_CLASS(I_I_Static_Designator_01_F,Atlas_I_I_Static_Designator_01_F);
+DEPRECATED_CLASS(I_I_Static_Designator_01_weapon_F,Atlas_I_I_Static_Designator_01_weapon_F);

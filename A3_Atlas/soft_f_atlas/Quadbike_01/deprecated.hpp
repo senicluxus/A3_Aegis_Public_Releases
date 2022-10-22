@@ -1,0 +1,5 @@
+DEPRECATED_CLASS(O_W_Quadbike_01_F,Atlas_O_W_Quadbike_01_F);
+DEPRECATED_CLASS(B_L_Quadbike_01_F,Atlas_B_L_Quadbike_01_F);
+DEPRECATED_CLASS(B_E_Quadbike_01_F,Atlas_B_G_Quadbike_01_F);
+DEPRECATED_CLASS(B_H_Quadbike_01_F,Atlas_B_H_Quadbike_01_F);
+DEPRECATED_CLASS(I_I_Quadbike_01_F,Atlas_I_I_Quadbike_01_F);

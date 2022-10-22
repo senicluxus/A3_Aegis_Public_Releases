@@ -1,0 +1,1 @@
+DEPRECATED_CLASS(O_W_MBT_02_cannon_ghex_F,Atlas_O_W_MBT_02_cannon_ghex_F);

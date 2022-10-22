@@ -1,0 +1,5 @@
+DEPRECATED_CLASS(H_HelmetCrew_B_H,H_HelmetCrew_I);
+DEPRECATED_CLASS(H_PilotHelmetHeli_B_H,H_PilotHelmetHeli_O);
+DEPRECATED_CLASS(H_PilotHelmetHeli_I_I,H_PilotHelmetHeli_B);
+DEPRECATED_CLASS(H_CrewHelmetHeli_B_H,H_CrewHelmetHeli_O);
+DEPRECATED_CLASS(H_CrewHelmetHeli_I_I,H_CrewHelmetHeli_B);

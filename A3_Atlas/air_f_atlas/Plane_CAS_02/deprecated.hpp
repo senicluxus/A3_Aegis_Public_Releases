@@ -1,0 +1,2 @@
+DEPRECATED_CLASS(O_W_Ejection_Seat_Plane_CAS_02_F,Atlas_O_W_Ejection_Seat_Plane_CAS_02_F);
+DEPRECATED_CLASS(O_W_Plane_CAS_02_dynamicLoadout_ghex_F,Atlas_O_W_Plane_CAS_02_dynamicLoadout_ghex_F);

@@ -1,0 +1,7 @@
+DEPRECATED_CLASS(O_W_Truck_02_Ammo_F,Atlas_O_W_Truck_02_Ammo_F);
+DEPRECATED_CLASS(O_W_Truck_02_box_F,Atlas_O_W_Truck_02_box_F);
+DEPRECATED_CLASS(O_W_Truck_02_cargo_F,Atlas_O_W_Truck_02_cargo_F);
+DEPRECATED_CLASS(O_W_Truck_02_F,Atlas_O_W_Truck_02_F);
+DEPRECATED_CLASS(O_W_Truck_02_fuel_F,Atlas_O_W_Truck_02_fuel_F);
+DEPRECATED_CLASS(O_W_Truck_02_medical_F,Atlas_O_W_Truck_02_medical_F);
+DEPRECATED_CLASS(O_W_Truck_02_transport_F,Atlas_O_W_Truck_02_transport_F);

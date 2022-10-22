@@ -1,0 +1,3 @@
+DEPRECATED_CLASS(B_H_Offroad_02_AT_F,Atlas_B_H_Offroad_02_AT_F);
+DEPRECATED_CLASS(B_H_Offroad_02_LMG_F,Atlas_B_H_Offroad_02_LMG_F);
+DEPRECATED_CLASS(B_H_Offroad_02_unarmed_F,Atlas_B_H_Offroad_02_unarmed_F);

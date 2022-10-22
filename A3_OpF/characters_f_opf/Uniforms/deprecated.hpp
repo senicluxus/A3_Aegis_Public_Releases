@@ -1,0 +1,11 @@
+DEPRECATED_CLASS(O_ParamilitaryBody,Opf_O_ParamilitaryBody);
+DEPRECATED_CLASS(O_S_Gorka_01_autumn_F,Opf_O_S_Gorka_01_autumn_F);
+DEPRECATED_CLASS(O_S_Gorka_01_summer_F,Opf_O_S_Gorka_01_summer_F);
+DEPRECATED_CLASS(O_S_Uniform_01_taiga_F,Opf_O_S_Uniform_01_taiga_F);
+DEPRECATED_CLASS(O_S_Uniform_01_arid_F,Opf_O_S_Uniform_01_arid_F);
+DEPRECATED_CLASS(O_S_Uniform_01_sweater_F,Opf_O_S_Uniform_01_sweater_F);
+DEPRECATED_CLASS(IG_Guerilla3_3_F,Opf_IG_Guerilla3_3_F);
+DEPRECATED_CLASS(I_I_Uniform_01_hex_F,Opf_I_I_Uniform_01_hex_F);
+DEPRECATED_CLASS(I_I_Uniform_01_urb_F,Opf_I_I_Uniform_01_urb_F);
+DEPRECATED_CLASS(I_I_Uniform_01_ghex_F,Opf_I_I_Uniform_01_ghex_F);
+DEPRECATED_CLASS(I_I_Uniform_01_tshirt_black_F,Opf_I_I_Uniform_01_tshirt_black_F);

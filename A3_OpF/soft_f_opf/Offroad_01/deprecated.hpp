@@ -1,0 +1,6 @@
+DEPRECATED_CLASS(O_E_Offroad_01_armed_F,Opf_O_S_Offroad_01_armed_F);
+DEPRECATED_CLASS(O_E_Offroad_01_at_F,Opf_O_S_Offroad_01_at_F);
+DEPRECATED_CLASS(O_E_Offroad_01_F,Opf_O_S_Offroad_01_F);
+DEPRECATED_CLASS(I_T_Offroad_01_armed_F,Opf_I_I_Offroad_01_armed_F);
+DEPRECATED_CLASS(I_T_Offroad_01_at_F,Opf_I_I_Offroad_01_at_F);
+DEPRECATED_CLASS(I_T_Offroad_01_F,Opf_I_I_Offroad_01_F);

@@ -1,0 +1,6 @@
+DEPRECATED_CLASS(O_W_Mortar_01_F,Atlas_O_W_Mortar_01_F);
+DEPRECATED_CLASS(B_L_Mortar_01_F,Atlas_B_L_Mortar_01_F);
+DEPRECATED_CLASS(B_E_Mortar_01_F,Atlas_B_G_Mortar_01_F);
+DEPRECATED_CLASS(I_I_Mortar_01_F,Atlas_I_I_Mortar_01_F);
+DEPRECATED_CLASS(I_I_Mortar_01_support_F,Atlas_I_I_Mortar_01_support_F);
+DEPRECATED_CLASS(I_I_Mortar_01_weapon_F,Atlas_I_I_Mortar_01_weapon_F);

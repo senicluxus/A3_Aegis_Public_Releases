@@ -1,0 +1,2 @@
+DEPRECATED_CLASS(B_L_Heli_Light_01_F,B_Heli_Light_01_F);
+DEPRECATED_CLASS(B_L_Heli_Light_01_dynamicLoadout_F,B_Heli_Light_01_dynamicLoadout_F);

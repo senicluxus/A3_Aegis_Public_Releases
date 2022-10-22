@@ -1,0 +1,1 @@
+DEPRECATED_CLASS(O_E_Quadbike_01_F,Opf_O_S_Quadbike_01_F);

@@ -1,0 +1,1 @@
+DEPRECATED_CLASS(arifle_RFB_F,Opf_arifle_RFB_F);

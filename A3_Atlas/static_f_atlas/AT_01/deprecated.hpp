@@ -1,0 +1,5 @@
+DEPRECATED_CLASS(O_W_Static_AT_F,Atlas_O_W_Static_AT_F);
+DEPRECATED_CLASS(B_L_Static_AT_F,Atlas_B_L_Static_AT_F);
+DEPRECATED_CLASS(B_E_Static_AT_F,Atlas_B_G_Static_AT_F);
+DEPRECATED_CLASS(I_I_AT_01_weapon_F,Atlas_I_I_AT_01_weapon_F);
+DEPRECATED_CLASS(I_I_Static_AT_F,Atlas_I_I_Static_AT_F);
