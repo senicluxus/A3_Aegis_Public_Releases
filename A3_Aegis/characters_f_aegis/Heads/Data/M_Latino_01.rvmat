@@ -1,0 +1,77 @@
+class StageTI
+{
+	texture="a3\characters_f\heads\data\m_ti_ca.tga";
+};
+ambient[]={2,2,2,1};
+diffuse[]={0.45,0.42,0.4,1};
+forcedDiffuse[]={0.2,0.4,0.4,0.1};
+emmisive[]={0.8,0.3,0.65,0.7};
+specular[]={0.5,0.5,0.5,1};
+specularPower=30;
+PixelShaderID="Skin";
+VertexShaderID="Skin";
+class Stage1
+{
+	texture="a3_aegis\characters_f_aegis\heads\data\m_latino_01_nohq.tga";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="#(argb,8,8,3)color(0,0,0,0,MC)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage3
+{
+	texture="a3_aegis\characters_f_aegis\heads\data\m_latino_01_co.tga";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage4
+{
+	texture="a3\characters_f\heads\data\m_as.tga";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage5
+{
+	texture="a3_aegis\characters_f_aegis\heads\data\m_latino_01_smdi.tga";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage6
+{
+	texture="#(ai,64,64,1)fresnel(0.5,0.3)";
+	uvSource="none";
+};

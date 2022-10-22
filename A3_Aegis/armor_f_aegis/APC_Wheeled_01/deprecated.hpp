@@ -1,0 +1,3 @@
+//DEPRECATED_CLASS(B_APC_Wheeled_01_cannon_F,B_APC_Wheeled_01_base_F);
+DEPRECATED_CLASS(B_T_APC_Wheeled_01_cannon_F,B_APC_Wheeled_01_cannon_F);
+DEPRECATED_CLASS(B_W_APC_Wheeled_01_cannon_F,B_T_APC_Wheeled_01_cannon_F);

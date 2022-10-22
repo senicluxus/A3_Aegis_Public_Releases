@@ -1,0 +1,8 @@
+DEPRECATED_CLASS(B_T_soldier_UGV_02_Science_F,B_T_Soldier_UAV_F);
+DEPRECATED_CLASS(B_A_soldier_UGV_02_Science_F,B_A_Soldier_UAV_F);
+DEPRECATED_CLASS(B_A_soldier_UGV_02_Science_tna_F,B_A_Soldier_UAV_tna_F);
+DEPRECATED_CLASS(B_A_soldier_UGV_02_Science_wdl_F,B_A_Soldier_UAV_wdl_F);
+DEPRECATED_CLASS(O_soldier_UGV_02_Science_F,O_soldier_UAV_F);
+DEPRECATED_CLASS(O_T_soldier_UGV_02_Science_F,O_T_Soldier_UAV_F);
+DEPRECATED_CLASS(O_R_soldier_UGV_02_Science_F,O_R_Soldier_UAV_F);
+DEPRECATED_CLASS(O_R_soldier_UGV_02_Science_ard_F,O_R_soldier_UAV_ard_F);

@@ -1,0 +1,8 @@
+DEPRECATED_CLASS(B_T_UGV_02_Science_F,B_UGV_02_Science_F);
+DEPRECATED_CLASS(B_W_UGV_02_Science_F,B_UGV_02_Science_F);
+DEPRECATED_CLASS(B_A_UGV_02_Science_F,B_UGV_02_Science_F);
+DEPRECATED_CLASS(B_A_UGV_02_Science_tna_F,B_A_UGV_02_Science_F);
+DEPRECATED_CLASS(B_A_UGV_02_Science_wdl_F,B_A_UGV_02_Science_F);
+DEPRECATED_CLASS(O_T_UGV_02_Science_F,O_UGV_02_Science_F);
+DEPRECATED_CLASS(O_R_UGV_02_Science_F,O_UGV_02_Science_F);
+DEPRECATED_CLASS(O_R_UGV_02_Science_backpack_F,O_UGV_02_Science_backpack_F);

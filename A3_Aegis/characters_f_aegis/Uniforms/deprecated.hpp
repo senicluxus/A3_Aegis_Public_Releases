@@ -1,0 +1,5 @@
+DEPRECATED_CLASS(U_B_CombatUniform_mcam_worn,Uniform_Base);
+DEPRECATED_CLASS(U_O_SpecopsUniform_ocamo,Uniform_Base);
+DEPRECATED_CLASS(U_B_CTRG_Soldier_alt_1_F,U_B_CTRG_Soldier_Arid_F);
+DEPRECATED_CLASS(U_B_CTRG_Soldier_alt_2_F,U_B_CTRG_Soldier_2_Arid_F);
+DEPRECATED_CLASS(U_B_CTRG_Soldier_alt_3_F,U_B_CTRG_Soldier_3_Arid_F);

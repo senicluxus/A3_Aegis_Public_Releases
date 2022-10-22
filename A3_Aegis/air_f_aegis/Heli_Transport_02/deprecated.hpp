@@ -1,0 +1,4 @@
+DEPRECATED_CLASS(I_Heli_Transport_02_medevac_F,I_Heli_Transport_02_F);
+DEPRECATED_CLASS(B_A_Heli_Transport_02_medevac_F,B_A_Heli_Transport_02_F);
+DEPRECATED_CLASS(B_A_Heli_Transport_02_medevac_tna_F,B_A_Heli_Transport_02_tna_F);
+DEPRECATED_CLASS(B_A_Heli_Transport_02_medevac_wdl_F,B_A_Heli_Transport_02_wdl_F);

@@ -1,0 +1,7 @@
+DEPRECATED_CLASS(muzzle_snds_H_MG,muzzle_snds_H);
+DEPRECATED_CLASS(muzzle_snds_H_SW,muzzle_snds_H);
+DEPRECATED_CLASS(hgun_C1911_F,hgun_ACPC2_black_F);
+DEPRECATED_CLASS(arifle_SPAR_01_C_blk_F,arifle_SPAR_01_blk_F);
+DEPRECATED_CLASS(arifle_SPAR_01_C_khk_F,arifle_SPAR_01_khk_F);
+DEPRECATED_CLASS(arifle_SPAR_01_C_snd_F,arifle_SPAR_01_snd_F);
+DEPRECATED_CLASS(SMG_05_snd_F,SMG_05_F);

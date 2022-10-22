@@ -1,0 +1,182 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: map_tanoa_scenes_f\scenes\Tanoa_intro1.Tanoa\mission.sqm
+//Produced from mikero's Dos Tools Dll version 7.46
+//https://bytex.market/products/item/weodpphdknnzm70o0h8q/Mikero%27s%20Dos%20Tools
+//'now' is Sun Mar 29 09:40:32 2020 : 'file' last modified on Thu Nov 09 08:48:53 2017
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+version = 52;
+class EditorData
+{
+	moveGridStep = 1;
+	angleGridStep = 0.2617994;
+	scaleGridStep = 1;
+	autoGroupingDist = 10;
+	toggles = 1;
+	class ItemIDProvider
+	{
+		nextID = 8;
+	};
+	class MarkerIDProvider
+	{
+		nextID = 6;
+	};
+	class Camera
+	{
+		pos[] = {7500.2344,19.101133,7292.2695};
+		dir[] = {-0.8631082,-0.3200412,0.3906669};
+		up[] = {-0.29156604,0.9474033,0.13197082};
+		aside[] = {0.41235474,2.5262125e-08,0.9110244};
+	};
+};
+binarizationWanted = 0;
+addons[] = {"A3_Characters_F"};
+class AddonsMetaData
+{
+	class List
+	{
+		items = 1;
+		class Item0
+		{
+			className = "A3_Characters_F";
+			name = "Arma 3 Alpha - Characters and Clothing";
+			author = "Bohemia Interactive";
+			url = "https://www.arma3.com";
+		};
+	};
+};
+randomSeed = 343873;
+class ScenarioData
+{
+	author = "KarelMoricky";
+};
+class Intro
+{
+	class Intel
+	{
+		startWeather = 0.29999998;
+		startWind = 0.099999994;
+		startWaves = 0.099999994;
+		forecastWeather = 0.29999998;
+		forecastWind = 0.099999994;
+		forecastWaves = 0.099999994;
+		rainForced = 1;
+		lightningsForced = 1;
+		year = 2035;
+		month = 6;
+		day = 6;
+		hour = 12;
+		minute = 0;
+		startFogBase = 250;
+		forecastFogBase = 250;
+		startFogDecay = 0.018;
+		forecastFogDecay = 0.018;
+	};
+	class Entities
+	{
+		items = 1;
+		class Item0
+		{
+			dataType = "Group";
+			side = "West";
+			class Entities
+			{
+				items = 1;
+				class Item0
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7468.612,4.615899,7295.12};
+						angles[] = {0.026662467,0,0.05062324};
+					};
+					side = "West";
+					flags = 6;
+					class Attributes
+					{
+						skill = 0.6;
+						isPlayer = 1;
+						isPlayable = 1;
+					};
+					id = 7;
+					type = "B_Soldier_F";
+					atlOffset = -4.7683716e-07;
+				};
+			};
+			class Attributes{};
+			id = 6;
+			atlOffset = -4.7683716e-07;
+		};
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges = 1800.0002;
+		startWeather = 0;
+		startWind = 0.1;
+		startWaves = 0.1;
+		forecastWeather = 0;
+		forecastWind = 0.1;
+		forecastWaves = 0.1;
+		forecastLightnings = 0.1;
+		year = 2035;
+		month = 6;
+		day = 6;
+		hour = 12;
+		minute = 0;
+		startFogBase = 250;
+		forecastFogBase = 250;
+		startFogDecay = 0.018;
+		forecastFogDecay = 0.018;
+	};
+};
+class OutroLoose
+{
+	class Intel
+	{
+		timeOfChanges = 1800.0002;
+		startWeather = 0;
+		startWind = 0.1;
+		startWaves = 0.1;
+		forecastWeather = 0;
+		forecastWind = 0.1;
+		forecastWaves = 0.1;
+		forecastLightnings = 0.1;
+		year = 2035;
+		month = 6;
+		day = 6;
+		hour = 12;
+		minute = 0;
+		startFogBase = 250;
+		forecastFogBase = 250;
+		startFogDecay = 0.018;
+		forecastFogDecay = 0.018;
+	};
+};
+class OutroWin
+{
+	class Intel
+	{
+		timeOfChanges = 1800.0002;
+		startWeather = 0;
+		startWind = 0.1;
+		startWaves = 0.1;
+		forecastWeather = 0;
+		forecastWind = 0.1;
+		forecastWaves = 0.1;
+		forecastLightnings = 0.1;
+		year = 2035;
+		month = 6;
+		day = 6;
+		hour = 12;
+		minute = 0;
+		startFogBase = 250;
+		forecastFogBase = 250;
+		startFogDecay = 0.018;
+		forecastFogDecay = 0.018;
+	};
+};

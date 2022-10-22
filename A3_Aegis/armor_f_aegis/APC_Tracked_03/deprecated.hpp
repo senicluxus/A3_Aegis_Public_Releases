@@ -1,0 +1,5 @@
+DEPRECATED_CLASS(I_APC_tracked_03_cannon_F,I_APC_tracked_03_base_F);
+DEPRECATED_CLASS(I_E_APC_tracked_03_cannon_F,I_E_APC_tracked_03_base_F);
+DEPRECATED_CLASS(B_A_APC_tracked_03_cannon_F,B_A_APC_tracked_03_cannon_v2_F);
+DEPRECATED_CLASS(B_A_APC_tracked_03_cannon_tna_F,B_A_APC_tracked_03_cannon_v2_tna_F);
+DEPRECATED_CLASS(B_A_APC_tracked_03_cannon_wdl_F,B_A_APC_tracked_03_cannon_v2_wdl_F);

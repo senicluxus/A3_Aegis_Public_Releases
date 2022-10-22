@@ -1,0 +1,10 @@
+# Source textures
+*.tga
+
+# Spam files
+*.txt
+*.obf
+
+# Binarized files
+*.bin
+**.ignore

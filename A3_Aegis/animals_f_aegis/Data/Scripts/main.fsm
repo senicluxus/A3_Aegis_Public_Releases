@@ -1,0 +1,59 @@
+/*%FSM<COMPILE "E:\Bis\fsmeditor\scriptedFSM.cfg, Ambient Agent - Main">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"_",4,218,300.000000,-175.000000,400.000000,-125.000000,0.000000,""};
+item1[] = {"_",1,250,300.000000,-75.000000,400.000000,-25.000000,0.000000,""};
+item2[] = {"Init",0,4346,300.000000,-275.000000,400.000000,-225.000000,0.000000,"Init"};
+link0[] = {0,1};
+link1[] = {2,0};
+globals[] = {25.000000,1,0,1,16777215,640,480,1,19,6316128,1,63.789688,545.644897,161.137329,-524.669495,619,881,1};
+window[] = {2,-1,-1,-1,-1,955,225,1485,225,3,637};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "Ambient Agent - Main";
+  class States
+  {
+    /*%FSM<STATE "_">*/
+    class _
+    {
+      name = "_";
+      itemno = 1;
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Init">*/
+    class Init
+    {
+      name = "Init";
+      itemno = 2;
+      init = /*%FSM<STATEINIT""">*/"if (!isNil { Aegis_fnc_animalBehaviour }) then { [_agent] call Aegis_fnc_animalBehaviour };"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          itemno = 0;
+          priority = 0.000000;
+          to="_";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="Init";
+  finalStates[] =
+  {
+    "_",
+  };
+};
+/*%FSM</COMPILE>*/

@@ -1,0 +1,22 @@
+class CfgVehicles
+{
+    /* Definitions */
+	#include "\A3_Aegis\macros_itemHolders.hpp"
+
+    /* Bases */
+    class Weapon_Base_F;
+
+    /* Item Holders */
+	WEAPON_HOLDER(arifle_SCAR_L_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_SCAR_L_GL_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_GL_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_SCAR_L_short_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_short_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_SCAR_L_grip_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_grip_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_SCAR_L_black_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_black_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_SCAR_L_GL_black_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_GL_black_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_SCAR_L_short_black_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_short_black_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_SCAR_L_grip_black_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_grip_black_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_SCAR_L_khaki_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_khaki_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_SCAR_L_GL_khaki_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_GL_khaki_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_SCAR_L_short_khaki_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_short_khaki_F0,EdSubcat_AssaultRifles);
+	WEAPON_HOLDER(arifle_SCAR_L_grip_khaki_F,30Rnd_556x45_Stanag_Sand,$STR_A3_A_CfgWeapons_arifle_SCAR_L_grip_khaki_F0,EdSubcat_AssaultRifles);
+};

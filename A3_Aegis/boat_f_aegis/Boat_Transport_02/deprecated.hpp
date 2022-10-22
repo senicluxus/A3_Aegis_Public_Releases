@@ -1,0 +1,7 @@
+DEPRECATED_CLASS(B_Boat_Transport_02_F,I_C_Boat_Transport_02_F);
+DEPRECATED_CLASS(B_T_Boat_Transport_02_F,I_C_Boat_Transport_02_F);
+DEPRECATED_CLASS(B_A_Boat_Transport_02_F,I_C_Boat_Transport_02_F);
+DEPRECATED_CLASS(B_A_Boat_Transport_02_tna_F,I_C_Boat_Transport_02_F);
+DEPRECATED_CLASS(O_Boat_Transport_02_F,I_C_Boat_Transport_02_F);
+DEPRECATED_CLASS(O_T_Boat_Transport_02_F,I_C_Boat_Transport_02_F);
+DEPRECATED_CLASS(O_R_Boat_Transport_02_F,I_C_Boat_Transport_02_F);
