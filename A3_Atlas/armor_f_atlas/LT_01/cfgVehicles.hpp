@@ -19,6 +19,18 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class Sand
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_BWArid0;
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Main_sand_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Radar_sand_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_sand_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
 		class Turrets;
 	};
@@ -35,6 +47,17 @@ class CfgVehicles
 					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 					"\A3\Armor_F\Data\cage_olive_CO.paa"
 				};
+			};
+			class Sand: Sand
+			{
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Main_sand_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_AT_Sand_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_sand_CO.paa"
+				};
+				factions[] = {};
 			};
 		};
 		class Turrets: Turrets
@@ -56,6 +79,17 @@ class CfgVehicles
 					"\A3\Armor_F\Data\cage_olive_CO.paa"
 				};
 			};
+			class Sand: Sand
+			{
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Main_sand_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Radar_sand_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_sand_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
 		class Turrets: Turrets
 		{
@@ -76,6 +110,17 @@ class CfgVehicles
 					"\A3\Armor_F\Data\cage_olive_CO.paa"
 				};
 			};
+			class Sand: Sand
+			{
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Main_sand_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_AT_Sand_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_Sand_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
 		class Turrets: Turrets
 		{
@@ -95,6 +140,17 @@ class CfgVehicles
 					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 					"\A3\Armor_F\Data\cage_olive_CO.paa"
 				};
+			};
+			class Sand: Sand
+			{
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Main_sand_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\LT_01\Data\LT_01_Cannon_sand_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_Sand_CO.paa"
+				};
+				factions[] = {};
 			};
 		};
 		class Turrets: Turrets

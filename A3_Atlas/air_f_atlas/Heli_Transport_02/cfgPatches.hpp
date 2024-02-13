@@ -9,8 +9,12 @@ class CfgPatches
         {
             /* From "cfgGER.hpp" */
             Atlas_B_G_Heli_Transport_02_F,
-            Atlas_B_G_Heli_Transport_02_ard_F
-        };
+    	    Atlas_B_G_Heli_Transport_02_ard_F,
+
+			/* From "cfgUNO.hpp"*/
+			Atlas_I_UNO__Heli_Transport_02_VIP_F,
+			Atlas_I_UNO_Heli_Transport_02_Heavy_F
+		};
 		weapons[] = {/* Automated */};
 	};
 };

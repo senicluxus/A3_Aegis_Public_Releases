@@ -204,7 +204,7 @@ class Atlas_B_G_Plane_Fighter_01_F: B_Plane_Fighter_01_F
 	faction = Atlas_BLU_G_F;
 	crew = Atlas_B_G_Fighter_Pilot_F;
 	typicalCargo[] = {Atlas_B_G_Fighter_Pilot_F};
-	textureList[] = {/*DarkGrey,1*/};
+	textureList[] = {Luftwaffe,1};
 	hiddenSelectionsTextures[] =
     {
         "\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_01_CO.paa",
@@ -429,7 +429,7 @@ class Atlas_B_G_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
 	faction = Atlas_BLU_G_F;
 	crew = Atlas_B_G_Fighter_Pilot_F;
 	typicalCargo[] = {Atlas_B_G_Fighter_Pilot_F};
-	textureList[] = {/*DarkGrey,1*/};
+	textureList[] = {Luftwaffe,1};
 	hiddenSelectionsTextures[] =
     {
         "\A3_Atlas\Air_F_Atlas\Plane_Fighter_01\Data\Fighter_01_fuselage_01_CO.paa",
@@ -472,4 +472,57 @@ class Atlas_B_G_Ejection_Seat_Plane_Fighter_01_F: Ejection_Seat_Plane_Fighter_01
 	side = TWest;
 	faction = Atlas_BLU_G_F;
 	crew = Atlas_B_G_Fighter_Pilot_F;
+};
+
+/* Bundeswehr Arid */
+class Atlas_B_G_Plane_Fighter_01_ard_F: Atlas_B_G_Plane_Fighter_01_F
+{
+    scope = public;
+	scopeCurator = public;
+	side = TWest;
+	faction = Atlas_BLU_G_ard_F;
+	crew = Atlas_B_G_Fighter_Pilot_ard_F;
+	typicalCargo[] = {Atlas_B_G_Fighter_Pilot_ard_F};
+    class EjectionSystem: EjectionSystem
+	{
+		EjectionSeatClass = Atlas_B_G_Ejection_Seat_Plane_Fighter_01_ard_F;
+	};
+};
+class Atlas_B_G_Plane_Fighter_01_Stealth_ard_F: Atlas_B_G_Plane_Fighter_01_Stealth_F
+{
+    scope = public;
+	scopeCurator = public;
+	side = TWest;
+	faction = Atlas_BLU_G_ard_F;
+	crew = Atlas_B_G_Fighter_Pilot_ard_F;
+	typicalCargo[] = {Atlas_B_G_Fighter_Pilot_ard_F};
+    class EjectionSystem: EjectionSystem
+	{
+		EjectionSeatClass = Atlas_B_G_Ejection_Seat_Plane_Fighter_01_ard_F;
+	};
+};
+class Atlas_B_G_Ejection_Seat_Plane_Fighter_01_ard_F: Ejection_Seat_Plane_Fighter_01_base_F
+{
+	class SimpleObject
+	{
+		eden = false;
+		animate[] = {};
+		hide[] =
+		{
+            zasleh,
+            "zadni svetlo",
+            "brzdove svetlo",
+            clan,
+            "podsvit pristroju",
+            poskozeni
+		};
+		verticalOffset = 0.002;
+		verticalOffsetWorld = 0;
+		init = "[this, '', []] call bis_fnc_initVehicle";
+	};
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	side = TWest;
+	faction = Atlas_BLU_G_ard_F;
+	crew = Atlas_B_G_Fighter_Pilot_ard_F;
 };

@@ -17,7 +17,15 @@ class CfgPatches
             Opf_O_S_Truck_02_cargo_F,
             Opf_O_S_Truck_02_F,
             Opf_O_S_Truck_02_flatbed_F,
-            Opf_O_S_Truck_02_transport_F
+            Opf_O_S_Truck_02_transport_F,
+            Opf_O_S_Truck_02_AA_F,
+
+            // Partisans
+            Opf_B_P_Truck_02_cargo_F,
+            Opf_B_P_Truck_02_F,
+            Opf_B_P_Truck_02_flatbed_F,
+            Opf_B_P_Truck_02_transport_F,
+            Opf_B_P_Truck_02_AA_F
         };
 		weapons[] = {/* Automated */};
 	};

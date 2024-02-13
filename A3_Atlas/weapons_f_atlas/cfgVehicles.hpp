@@ -10,11 +10,11 @@
 		vehicleClass = WeaponsPrimary; \
 		class TransportWeapons \
 		{ \
-			weap_xx(##a##,1); \
+			weap_xx(a,1); \
 		}; \
 		class TransportMagazines \
 		{ \
-			mag_xx(##d##,1); \
+			mag_xx(d,1); \
 		}; \
 	};
 
@@ -30,11 +30,11 @@
 		vehicleClass = WeaponsHandguns; \
 		class TransportWeapons \
 		{ \
-			weap_xx(##a##,1); \
+			weap_xx(a,1); \
 		}; \
 		class TransportMagazines \
 		{ \
-			mag_xx(##c##,1); \
+			mag_xx(c,1); \
 		}; \
 	};
 
@@ -50,11 +50,11 @@
 		vehicleClass = WeaponsSecondary; \
 		class TransportWeapons \
 		{ \
-			weap_xx(##a##,1); \
+			weap_xx(a,1); \
 		}; \
 		class TransportMagazines \
 		{ \
-			mag_xx(##c##,1); \
+			mag_xx(c,1); \
 		}; \
 	};
 
@@ -70,7 +70,7 @@
 		vehicleClass = ##e##; \
 		class TransportItems \
 		{ \
-			item_xx(##a##,1); \
+			item_xx(a,1); \
 		}; \
 	};
 
@@ -87,7 +87,7 @@
 		model = ##c##; \
 		class TransportItems \
 		{ \
-			item_xx(##a##,1); \
+			item_xx(a,1); \
 		}; \
 	};
 

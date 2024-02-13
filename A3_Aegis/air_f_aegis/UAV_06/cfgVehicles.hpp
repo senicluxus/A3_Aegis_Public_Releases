@@ -77,4 +77,5 @@ class CfgVehicles
     #include "cfgRUS.hpp"       // Russia
     #include "cfgION.hpp"       // ION
 	#include "cfgRaven.hpp"		// Raven
+	#include "cfgBluEAF.hpp"	// BLUFOR LDF
 };

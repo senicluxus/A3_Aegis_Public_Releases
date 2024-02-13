@@ -145,7 +145,7 @@ class O_R_HMG_01_high_F: O_HMG_01_high_F
 		dissasembleTo[] =
 		{
             O_R_HMG_01_high_Weapon_F,
-            O_R_HMG_01_support_F
+            O_R_HMG_01_support_high_F
 		};
 	};
 };

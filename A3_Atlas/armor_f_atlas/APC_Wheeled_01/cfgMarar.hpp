@@ -1,6 +1,6 @@
 class Atlas_B_M_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 {
-	author = "BranFlakes";
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -222,6 +222,149 @@ class Atlas_B_M_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
         "\A3\Armor_F\Data\cage_sand_CO.paa"
 	};
 
+    /* Inventory */
+	class TransportWeapons
+	{
+		weap_xx(arifle_Mk20_plain_F,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_556x45_Stanag_red,12);
+		mag_xx(100Rnd_65x39_caseless_khaki_mag,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(MRAWS_HEAT55_F,5);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_marar,2);
+	};
+};
+class Atlas_B_M_APC_Wheeled_01_command_lxWS: APC_Wheeled_01_command_base_lxWS
+{
+    author = $STR_A3_A_BranFlakes;
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_M_APC_Wheeled_01_command_lxWS.jpg"; 
+    side = TWest;
+    displayName = $STR_A3_A_CfgVehicles_B_M_APC_Wheeled_01_CV_F0;
+	faction = Atlas_BLU_M_F;
+	crew = Atlas_B_M_Crew_F;
+	typicalCargo[] = {Atlas_B_M_Crew_F};
+    hiddenSelectionsTextures[] = 
+    {
+        "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_base_Marar_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_adds_Marar_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_tows_Marar_CO.paa",
+        "\A3\Armor_f\Data\camonet_CSAT_Stripe_Desert_CO.paa",
+        "\A3\Armor_F\Data\cage_sand_CO.paa",
+        "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_Marar_CO.paa"
+    };
+    textureList[] = {Marar, 1};
+    /* Inventory */
+	class TransportWeapons
+	{
+		weap_xx(arifle_Mk20_plain_F,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_556x45_Stanag_red,12);
+		mag_xx(100Rnd_65x39_caseless_khaki_mag,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(MRAWS_HEAT55_F,5);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_marar,2);
+	};
+};
+class Atlas_B_M_APC_Wheeled_01_mortar_lxWS: APC_Wheeled_01_mortar_base_lxWS
+{
+    author = $STR_A3_A_BranFlakes;
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_M_APC_Wheeled_01_mortar_lxWS.jpg"; 
+    side = TWest;
+    displayName = $STR_A3_A_CfgVehicles_B_M_APC_Wheeled_01_Mortar_F0;
+	faction = Atlas_BLU_M_F;
+	crew = Atlas_B_M_Crew_F;
+	typicalCargo[] = {Atlas_B_M_Crew_F};
+    hiddenSelectionsTextures[] = 
+    {
+        "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_base_Marar_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_adds_Marar_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_tows_Marar_CO.paa",
+        "\A3\Armor_f\Data\camonet_CSAT_Stripe_Desert_CO.paa",
+        "\A3\Armor_F\Data\cage_sand_CO.paa",
+        "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_Marar_CO.paa"
+    };
+    textureList[] = {Marar, 1};
+    /* Inventory */
+	class TransportWeapons
+	{
+		weap_xx(arifle_Mk20_plain_F,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_556x45_Stanag_red,12);
+		mag_xx(100Rnd_65x39_caseless_khaki_mag,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(MRAWS_HEAT55_F,5);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_marar,2);
+	};
+};
+class Atlas_B_M_APC_Wheeled_01_atgm_v2: APC_Wheeled_01_atgm_base_v2
+{
+    author = $STR_A3_A_BranFlakes;
+    scope = public;
+    scopeCurator = public;
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_M_APC_Wheeled_01_atgm_v2.jpg"; 
+    side = TWest;
+    displayName = $STR_A3_A_CfgVehicles_B_M_APC_Wheeled_01_ATGM_F0;
+	faction = Atlas_BLU_M_F;
+	crew = Atlas_B_M_Crew_F;
+	typicalCargo[] = {Atlas_B_M_Crew_F};
+    hiddenSelectionsTextures[] = 
+    {
+        "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_base_Marar_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_adds_Marar_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_tows_Marar_CO.paa",
+        "\A3\Armor_f\Data\camonet_CSAT_Stripe_Desert_CO.paa",
+        "\A3\Armor_F\Data\cage_sand_CO.paa",
+        "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_Marar_CO.paa"
+    };
+    textureList[] = {Marar, 1};
     /* Inventory */
 	class TransportWeapons
 	{

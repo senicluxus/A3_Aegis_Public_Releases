@@ -3,7 +3,7 @@ class B_Soldier_A_F;
 class Atlas_B_G_Soldier_A_F: B_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_A_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_A_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -45,15 +45,17 @@ class Atlas_B_G_Soldier_A_F: B_Soldier_A_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -62,7 +64,7 @@ class B_soldier_AAR_F;
 class Atlas_B_G_Soldier_AAR_F: B_soldier_AAR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAR_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -108,15 +110,17 @@ class Atlas_B_G_Soldier_AAR_F: B_soldier_AAR_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -125,7 +129,7 @@ class B_support_AMG_F;
 class Atlas_B_G_Support_AMG_F: B_support_AMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_AMG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_AMG_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -170,14 +174,14 @@ class Atlas_B_G_Support_AMG_F: B_support_AMG_F
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -186,7 +190,7 @@ class B_support_AMort_F;
 class Atlas_B_G_Support_AMort_F: B_support_AMort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_AMort_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_AMort_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -231,14 +235,14 @@ class Atlas_B_G_Support_AMort_F: B_support_AMort_F
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -247,7 +251,7 @@ class B_soldier_AAA_F;
 class Atlas_B_G_Soldier_AAA_F: B_soldier_AAA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAA_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -293,15 +297,17 @@ class Atlas_B_G_Soldier_AAA_F: B_soldier_AAA_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -310,7 +316,7 @@ class B_soldier_AAT_F;
 class Atlas_B_G_Soldier_AAT_F: B_soldier_AAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAT_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -356,15 +362,17 @@ class Atlas_B_G_Soldier_AAT_F: B_soldier_AAT_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -373,7 +381,7 @@ class B_soldier_AR_F;
 class Atlas_B_G_Soldier_AR_F: B_soldier_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AR_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -415,15 +423,17 @@ class Atlas_B_G_Soldier_AR_F: B_soldier_AR_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_CQB_F,
+		Aegis_V_CarrierRigKBT_01_CQB_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_CQB_F,
+		Aegis_V_CarrierRigKBT_01_CQB_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -432,7 +442,7 @@ class B_medic_F;
 class Atlas_B_G_Medic_F: B_medic_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Medic_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Medic_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -476,15 +486,17 @@ class Atlas_B_G_Medic_F: B_medic_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_CQB_F,
+		Aegis_V_CarrierRigKBT_01_CQB_Olive_F,
+		H_HelmetSpecB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_CQB_F,
+		Aegis_V_CarrierRigKBT_01_CQB_Olive_F,
+		H_HelmetSpecB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -493,7 +505,7 @@ class B_crew_F;
 class Atlas_B_G_Crew_F: B_crew_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Crew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Crew_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -534,14 +546,16 @@ class Atlas_B_G_Crew_F: B_crew_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_F,
+		V_CarrierRigKBT_01_olive_F,
 		H_HelmetCrew_B_oli_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_F,
+		V_CarrierRigKBT_01_olive_F,
 		H_HelmetCrew_B_oli_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -551,7 +565,7 @@ class B_engineer_F;
 class Atlas_B_G_Engineer_F: B_engineer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Engineer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Engineer_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -595,15 +609,17 @@ class Atlas_B_G_Engineer_F: B_engineer_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -612,7 +628,7 @@ class B_soldier_exp_F;
 class Atlas_B_G_Soldier_Exp_F: B_soldier_exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Exp_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Exp_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -656,15 +672,17 @@ class Atlas_B_G_Soldier_Exp_F: B_soldier_exp_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_GL_F,
+		V_CarrierRigKBT_01_Heavy_olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_GL_F,
+		V_CarrierRigKBT_01_Heavy_olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -672,7 +690,7 @@ class Atlas_B_G_Soldier_Exp_F: B_soldier_exp_F
 class Atlas_B_G_soldier_mine_F: Atlas_B_G_Soldier_Exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_mine_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_mine_F.jpg";
 	displayName = $STR_A3_B_T_soldier_mine_F0;
 	backpack = B_Carryall_flecktarn_Mine;
 };
@@ -680,7 +698,7 @@ class B_Soldier_GL_F;
 class Atlas_B_G_Soldier_GL_F: B_Soldier_GL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_GL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_GL_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -725,15 +743,17 @@ class Atlas_B_G_Soldier_GL_F: B_Soldier_GL_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_GL_F,
+		V_CarrierRigKBT_01_Heavy_olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_GL_F,
+		V_CarrierRigKBT_01_Heavy_olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -742,7 +762,7 @@ class B_support_GMG_F;
 class Atlas_B_G_Support_GMG_F: B_support_GMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_GMG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_GMG_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -787,14 +807,14 @@ class Atlas_B_G_Support_GMG_F: B_support_GMG_F
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -803,7 +823,7 @@ class B_support_MG_F;
 class Atlas_B_G_Support_MG_F: B_support_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_MG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_MG_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -848,14 +868,14 @@ class Atlas_B_G_Support_MG_F: B_support_MG_F
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -864,7 +884,7 @@ class B_support_Mort_F;
 class Atlas_B_G_Support_Mort_F: B_support_Mort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Support_Mort_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_Mort_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -909,14 +929,14 @@ class Atlas_B_G_Support_Mort_F: B_support_Mort_F
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -925,7 +945,7 @@ class B_HeavyGunner_F;
 class Atlas_B_G_HeavyGunner_F: B_HeavyGunner_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_HeavyGunner_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_HeavyGunner_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -966,15 +986,17 @@ class Atlas_B_G_HeavyGunner_F: B_HeavyGunner_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -983,7 +1005,7 @@ class B_helicrew_F;
 class Atlas_B_G_Helicrew_F: B_helicrew_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Helicrew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Helicrew_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1018,14 +1040,16 @@ class Atlas_B_G_Helicrew_F: B_helicrew_F
 	};
     linkedItems[] =
     {
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_F,
+		V_CarrierRigKBT_01_olive_F,
         H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
     respawnLinkedItems[] =
     {
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_F,
+		V_CarrierRigKBT_01_olive_F,
         H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
@@ -1035,7 +1059,7 @@ class B_Helipilot_F;
 class Atlas_B_G_Helipilot_F: B_Helipilot_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Helipilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Helipilot_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1070,14 +1094,16 @@ class Atlas_B_G_Helipilot_F: B_Helipilot_F
 	};
     linkedItems[] =
     {
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_F,
+		V_CarrierRigKBT_01_olive_F,
         H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
     respawnLinkedItems[] =
     {
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_F,
+		V_CarrierRigKBT_01_olive_F,
         H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles_INDEP
@@ -1087,7 +1113,7 @@ class B_soldier_M_F;
 class Atlas_B_G_soldier_M_F: B_soldier_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_M_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_M_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1130,15 +1156,17 @@ class Atlas_B_G_soldier_M_F: B_soldier_M_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1147,7 +1175,7 @@ class B_soldier_AA_F;
 class Atlas_B_G_Soldier_AA_F: B_soldier_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AA_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1193,15 +1221,17 @@ class Atlas_B_G_Soldier_AA_F: B_soldier_AA_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1210,7 +1240,7 @@ class B_soldier_AT_F;
 class Atlas_B_G_Soldier_AT_F: B_soldier_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_AT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AT_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1256,15 +1286,17 @@ class Atlas_B_G_Soldier_AT_F: B_soldier_AT_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1273,7 +1305,7 @@ class B_officer_F;
 class Atlas_B_G_Officer_F: B_officer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Officer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Officer_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1314,22 +1346,21 @@ class Atlas_B_G_Officer_F: B_officer_F
 	};
 	linkedItems[] =
 	{
-		V_Rangemaster_belt,
-		H_Beret_grn,
+		Aegis_V_CarrierRigKBT_01_holster_olive_F,
+		Atlas_H_FieldCap_flecktarn,
 		DefaultManLeaderLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_Rangemaster_belt,
-		H_Beret_grn,
+		Aegis_V_CarrierRigKBT_01_holster_olive_F,
+		Atlas_H_FieldCap_flecktarn,
 		DefaultManLeaderLinkedItems
 	};
 };
-class B_soldier_PG_F;
 class Atlas_B_G_Soldier_PG_F: B_soldier_PG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_PG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_PG_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1371,15 +1402,17 @@ class Atlas_B_G_Soldier_PG_F: B_soldier_PG_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1388,7 +1421,7 @@ class B_soldier_repair_F;
 class Atlas_B_G_Soldier_Repair_F: B_soldier_repair_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Repair_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Repair_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1401,7 +1434,7 @@ class Atlas_B_G_Soldier_Repair_F: B_soldier_repair_F
     scope = public;
     scopeCurator = public;
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
-	backpack = B_TacticalPack_rgr_BARepair_F;
+	backpack = B_AssaultPack_flecktarn_BERepair_F;
 	weapons[] =
 	{
 		arifle_G36C_Pointer_F,
@@ -1430,15 +1463,17 @@ class Atlas_B_G_Soldier_Repair_F: B_soldier_repair_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1446,7 +1481,7 @@ class Atlas_B_G_Soldier_Repair_F: B_soldier_repair_F
 class Atlas_B_G_Soldier_F: B_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1487,15 +1522,17 @@ class Atlas_B_G_Soldier_F: B_Soldier_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetSpecB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetSpecB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1504,7 +1541,7 @@ class B_soldier_LAT_F;
 class Atlas_B_G_Soldier_LAT_F: B_soldier_LAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_LAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_LAT_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1517,18 +1554,18 @@ class Atlas_B_G_Soldier_LAT_F: B_soldier_LAT_F
     scope = public;
     scopeCurator = public;
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
-	backpack = B_TacticalPack_rgr_BALAT_F;
+	backpack = B_AssaultPack_flecktarn_BELAT_F;
 	weapons[] =
 	{
 		arifle_G36_Holo_Pointer_F,
-		launch_NLAW_F,
+		Atlas_launch_Pzf3_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_G36_Holo_Pointer_F,
-		launch_NLAW_F,
+		Atlas_launch_Pzf3_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
@@ -1536,7 +1573,7 @@ class Atlas_B_G_Soldier_LAT_F: B_soldier_LAT_F
 	{
 		mag_6(30Rnd_65x39_caseless_msbs_mag),
 		mag_2(16Rnd_9x21_Mag),
-		NLAW_F,
+		Atlas_dm12_heat_f,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
@@ -1544,21 +1581,23 @@ class Atlas_B_G_Soldier_LAT_F: B_soldier_LAT_F
 	{
 		mag_6(30Rnd_65x39_caseless_msbs_mag),
 		mag_2(16Rnd_9x21_Mag),
-		NLAW_F,
+		Atlas_dm12_heat_f,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1567,7 +1606,7 @@ class B_Soldier_lite_F;
 class Atlas_B_G_Soldier_Lite_F: B_Soldier_lite_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_Lite_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Lite_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1608,23 +1647,24 @@ class Atlas_B_G_Soldier_Lite_F: B_Soldier_lite_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_F,
+		V_CarrierRigKBT_01_olive_F,
 		H_Headset_light,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_F,
+		V_CarrierRigKBT_01_olive_F,
 		H_Headset_light,
 		DefaultManLinkedItems
 	};
 };
 class B_Soldier_CQ_F;
-/*
 class Atlas_B_G_Soldier_CQ_F: B_Soldier_CQ_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_CQ_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_CQ_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1634,60 +1674,60 @@ class Atlas_B_G_Soldier_CQ_F: B_Soldier_CQ_F
 		Head_Enoch,
 		G_GER_default
 	};
-    scope = protected;
-    scopeCurator = private;
+    scope = public;
+    scopeCurator = public;
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
 	weapons[] =
 	{
-		arifle_G36_UBS_ACO_Pointer_F,
+		sgun_M4_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_UBS_ACO_Pointer_F,
+		sgun_M4_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
-        mag_3(6Rnd_12Gauge_Pellets),
-        mag_3(6Rnd_12Gauge_Slug),
+        mag_5(8Rnd_12Gauge_Pellets),
+        mag_5(8Rnd_12Gauge_Slug),
 		mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
-        mag_3(6Rnd_12Gauge_Pellets),
-        mag_3(6Rnd_12Gauge_Slug),
+        mag_5(8Rnd_12Gauge_Pellets),
+        mag_5(8Rnd_12Gauge_Slug),
 		mag_2(16Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_CQB_F,
+		Aegis_V_CarrierRigKBT_01_cqb_olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_CQB_F,
+		Aegis_V_CarrierRigKBT_01_cqb_olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 };
-*/
+
 class B_Soldier_SL_F;
 class Atlas_B_G_Soldier_SL_F: B_Soldier_SL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_SL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_SL_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1736,15 +1776,17 @@ class Atlas_B_G_Soldier_SL_F: B_Soldier_SL_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetSpecB_cover_fleck_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetSpecB_cover_fleck_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1753,7 +1795,7 @@ class B_Soldier_TL_F;
 class Atlas_B_G_Soldier_TL_F: B_Soldier_TL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_TL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_TL_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1806,14 +1848,16 @@ class Atlas_B_G_Soldier_TL_F: B_Soldier_TL_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
+		//V_CarrierRigBW_GL_F,
+		V_CarrierRigKBT_01_Heavy_olive_F,
 		H_HelmetSpecB_light_green,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
+		//V_CarrierRigBW_GL_F,
+		V_CarrierRigKBT_01_Heavy_olive_F,
 		H_HelmetSpecB_light_green,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
@@ -1822,23 +1866,25 @@ class Atlas_B_G_Soldier_TL_F: B_Soldier_TL_F
 class Atlas_B_G_Soldier_CBRN_F: Atlas_B_G_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_CBRN_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_CBRN_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
 	uniformClass = U_B_CBRN_Suit_01_Wdl_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
 		NVGoggles_INDEP
@@ -1886,20 +1932,22 @@ class Atlas_B_G_Soldier_CBRN_F: Atlas_B_G_Soldier_F
 class Atlas_B_G_RadioOperator_F: Atlas_B_G_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_RadioOperator_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1934,7 +1982,7 @@ class Atlas_B_G_RadioOperator_F: Atlas_B_G_Soldier_F
 class Atlas_B_G_Survivor_F: Atlas_B_G_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Survivor_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Survivor_F.jpg";
 	displayName = $STR_A3_CfgVehicles_b_survivor_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
@@ -1950,7 +1998,7 @@ class B_soldier_UAV_F;
 class Atlas_B_G_Soldier_UAV_F: B_soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Soldier_UAV_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_UAV_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -1992,16 +2040,18 @@ class Atlas_B_G_Soldier_UAV_F: B_soldier_UAV_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		B_UavTerminal,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetB_cover_fleck_F,
 		DefaultManLinkedItems,
 		B_UavTerminal,
 		NVGoggles_INDEP
@@ -2010,29 +2060,30 @@ class Atlas_B_G_Soldier_UAV_F: B_soldier_UAV_F
 class Atlas_B_G_soldier_UAV_06_F: Atlas_B_G_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UAV_06_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = B_UAV_06_backpack_F;
 };
 class Atlas_B_G_soldier_UAV_06_medical_F: Atlas_B_G_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UAV_06_medical_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = B_UAV_06_medical_backpack_F;
 };
 class Atlas_B_G_soldier_UGV_02_Demining_F: Atlas_B_G_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_soldier_UGV_02_Demining_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_UGV_02_Demining_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = B_UGV_02_Demining_backpack_F;
 };
+/* Recon */
 class B_recon_AR_F;
 class Atlas_B_G_Recon_AR_F: B_recon_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_AR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_AR_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2075,15 +2126,17 @@ class Atlas_B_G_Recon_AR_F: B_recon_AR_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
-		H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Shemag_olive_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
-		H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_Shemag_olive_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -2092,7 +2145,7 @@ class B_recon_exp_F;
 class Atlas_B_G_Recon_Exp_F: B_recon_exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_Exp_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_Exp_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2105,7 +2158,7 @@ class Atlas_B_G_Recon_Exp_F: B_recon_exp_F
     scope = public;
     scopeCurator = public;
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
-	backpack = B_Kitbag_rgr_Exp;
+	backpack = B_Kitbag_flecktarn_BEExp_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
@@ -2138,15 +2191,17 @@ class Atlas_B_G_Recon_Exp_F: B_recon_exp_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
-		H_Shemag_olive_hs,
+		//V_CarrierRigBW_CQB_F,
+		Aegis_V_CarrierRigKBT_01_CQB_Olive_F,
+		H_Cap_headphones,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
-		H_Shemag_olive_hs,
+		//V_CarrierRigBW_CQB_F,
+		Aegis_V_CarrierRigKBT_01_CQB_Olive_F,
+		H_Cap_headphones,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -2155,7 +2210,7 @@ class B_recon_GL_F;
 class Atlas_B_G_Recon_GL_F: B_recon_GL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_GL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_GL_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2202,15 +2257,17 @@ class Atlas_B_G_Recon_GL_F: B_recon_GL_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
-        H_Booniehat_flecktarn_hs,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Shemag_olive_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
-        H_Booniehat_flecktarn_hs,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Shemag_olive_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -2219,7 +2276,7 @@ class B_recon_JTAC_F;
 class Atlas_B_G_Recon_JTAC_F: B_recon_JTAC_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_JTAC_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_JTAC_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2232,7 +2289,7 @@ class Atlas_B_G_Recon_JTAC_F: B_recon_JTAC_F
     scope = public;
     scopeCurator = public;
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
-	backpack = B_RadioBag_01_wdl_F;
+	backpack = B_RadioBag_01_flecktarn_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
@@ -2271,15 +2328,17 @@ class Atlas_B_G_Recon_JTAC_F: B_recon_JTAC_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
-        H_Shemag_olive_hs,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Cap_headphones,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
-        H_Shemag_olive_hs,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Cap_headphones,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -2288,7 +2347,7 @@ class B_recon_MG_F;
 class Atlas_B_G_Recon_MG_F: B_recon_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_MG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_MG_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2299,7 +2358,7 @@ class Atlas_B_G_Recon_MG_F: B_recon_MG_F
 		G_NATO_recon
 	};
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
-	backpack = B_TacticalPack_rgr_BEReconMG_F;
+	backpack = B_AssaultPack_flecktarn_BEReconMG_F;
 	weapons[] =
 	{
 		MMG_01_black_LRCO_LP_S_F,
@@ -2330,15 +2389,17 @@ class Atlas_B_G_Recon_MG_F: B_recon_MG_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_CQB_F,
+		Aegis_V_CarrierRigKBT_01_CQB_Olive_F,
+		H_Shemag_olive_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
-		H_HelmetB_light_wdl,
+		//V_CarrierRigBW_CQB_F,
+		Aegis_V_CarrierRigKBT_01_CQB_Olive_F,
+		H_Shemag_olive_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -2347,7 +2408,7 @@ class B_recon_M_F;
 class Atlas_B_G_Recon_M_F: B_recon_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_M_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_M_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2392,14 +2453,16 @@ class Atlas_B_G_Recon_M_F: B_recon_M_F
 	};
 	linkedItems[] =
 	{
-		V_TacChestrig_grn_F,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
 		H_Booniehat_flecktarn_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacChestrig_grn_F,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
 		H_Booniehat_flecktarn_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
@@ -2409,7 +2472,7 @@ class B_recon_medic_F;
 class Atlas_B_G_Recon_Medic_F: B_recon_medic_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_Medic_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_Medic_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2422,7 +2485,7 @@ class Atlas_B_G_Recon_Medic_F: B_recon_medic_F
     scope = public;
     scopeCurator = public;
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
-	backpack = B_TacticalPack_rgr_BAReconMedic_F;
+	backpack = B_AssaultPack_flecktarn_BEMedic_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
@@ -2455,15 +2518,17 @@ class Atlas_B_G_Recon_Medic_F: B_recon_medic_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
-        H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Cap_headphones,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
-        H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Cap_headphones,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -2472,7 +2537,7 @@ class B_recon_F;
 class Atlas_B_G_Recon_F: B_recon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2517,15 +2582,17 @@ class Atlas_B_G_Recon_F: B_recon_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
-        H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Shemag_olive_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
-        H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Shemag_olive_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -2534,7 +2601,7 @@ class B_recon_LAT_F;
 class Atlas_B_G_Recon_LAT_F: B_recon_LAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_LAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_LAT_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2547,18 +2614,18 @@ class Atlas_B_G_Recon_LAT_F: B_recon_LAT_F
     scope = public;
     scopeCurator = public;
 	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
-	backpack = B_TacticalPack_rgr_BALAT_F;
+	backpack = B_AssaultPack_flecktarn_BELAT_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
-		launch_NLAW_F,
+		Atlas_launch_Pzf3_F,
 		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
-		launch_NLAW_F,
+		Atlas_launch_Pzf3_F,
 		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
@@ -2566,7 +2633,7 @@ class Atlas_B_G_Recon_LAT_F: B_recon_LAT_F
 	{
         mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16Rnd_9x21_Mag),
-        NLAW_F,
+        Atlas_dm12_heat_f,
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
@@ -2575,22 +2642,24 @@ class Atlas_B_G_Recon_LAT_F: B_recon_LAT_F
 	{
         mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16Rnd_9x21_Mag),
-        NLAW_F,
+        Atlas_dm12_heat_f,
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
-        H_HelmetB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Shemag_olive_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
-        H_HelmetB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Shemag_olive_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -2599,7 +2668,7 @@ class B_recon_TL_F;
 class Atlas_B_G_Recon_TL_F: B_recon_TL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Recon_TL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_TL_F.jpg";
 	faction = Atlas_BLU_G_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -2648,15 +2717,17 @@ class Atlas_B_G_Recon_TL_F: B_recon_TL_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
-        H_HelmetSpecB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Booniehat_flecktarn_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
-        H_HelmetSpecB_light_green,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+        H_Booniehat_flecktarn_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -2692,14 +2763,16 @@ class Atlas_B_G_Soldier_unarmed_F: Atlas_B_G_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetSpecB_cover_fleck_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_wdl,
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		H_HelmetSpecB_cover_fleck_F,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;
@@ -2714,7 +2787,7 @@ class B_Fighter_Pilot_F;
 class Atlas_B_G_Fighter_Pilot_F: B_Fighter_Pilot_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Fighter_Pilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Fighter_Pilot_F.jpg";
 	genericNames = GermanMen;
 	faction = Atlas_BLU_G_F;
 	identityTypes[] =
@@ -2746,36 +2819,39 @@ class Atlas_B_G_Fighter_Pilot_F: B_Fighter_Pilot_F
 	};
 };
 
-/* Bundeswehr (Arid) 
+// Bundeswehr (Arid) 
 class Atlas_B_G_Soldier_A_ard_F: Atlas_B_G_Soldier_A_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_A_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_A_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	backpack = B_Carryall_multitarn_BEAmmo_F;
 	weapons[] =
 	{
-		arifle_G36_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -2783,34 +2859,37 @@ class Atlas_B_G_Soldier_A_ard_F: Atlas_B_G_Soldier_A_F
 class Atlas_B_G_Soldier_AAR_ard_F: Atlas_B_G_Soldier_AAR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAR_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAR_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Kitbag_multitarn_BEAAR_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
 	weapons[] =
 	{
-		arifle_G36_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -2818,32 +2897,33 @@ class Atlas_B_G_Soldier_AAR_ard_F: Atlas_B_G_Soldier_AAR_F
 class Atlas_B_G_Support_AMG_ard_F: Atlas_B_G_Support_AMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_AMG_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_AMG_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	backpack = B_HMG_01_support;
+	backpack = B_HMG_01_support_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
 	weapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons
 	};
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -2851,32 +2931,33 @@ class Atlas_B_G_Support_AMG_ard_F: Atlas_B_G_Support_AMG_F
 class Atlas_B_G_Support_AMort_ard_F: Atlas_B_G_Support_AMort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_AMort_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_AMort_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	backpack = B_Mortar_01_support;
+	backpack = B_Mortar_01_support_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
 	weapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons
 	};
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -2884,34 +2965,37 @@ class Atlas_B_G_Support_AMort_ard_F: Atlas_B_G_Support_AMort_F
 class Atlas_B_G_Soldier_AAA_ard_F: Atlas_B_G_Soldier_AAA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAA_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAA_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Carryall_multitarn_BEAAA_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -2919,34 +3003,37 @@ class Atlas_B_G_Soldier_AAA_ard_F: Atlas_B_G_Soldier_AAA_F
 class Atlas_B_G_Soldier_AAT_ard_F: Atlas_B_G_Soldier_AAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAT_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAT_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Carryall_multitarn_BEAAT_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -2954,30 +3041,33 @@ class Atlas_B_G_Soldier_AAT_ard_F: Atlas_B_G_Soldier_AAT_F
 class Atlas_B_G_Soldier_AR_ard_F: Atlas_B_G_Soldier_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AR_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AR_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
 	weapons[] =
 	{
-		LMG_Mk200_pointer_F,
+		Atlas_LMG_MK200_plain_IR_BI_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		LMG_Mk200_pointer_F,
+		Atlas_LMG_MK200_plain_IR_BI_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -2986,32 +3076,35 @@ class Atlas_B_G_Soldier_AR_ard_F: Atlas_B_G_Soldier_AR_F
 class Atlas_B_G_Medic_ard_F: Atlas_B_G_Medic_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Medic_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Medic_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	backpack = B_TacticalPack_khk_BEMedic_F;
+	backpack = B_AssaultPack_multitarn_BEMedic_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36_Pointer_F,
+		arifle_G36_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_Pointer_F,
+		arifle_G36_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetSpecB_cover_multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetSpecB_cover_multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -3019,7 +3112,7 @@ class Atlas_B_G_Medic_ard_F: Atlas_B_G_Medic_F
 class Atlas_B_G_Crew_ard_F: Atlas_B_G_Crew_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Crew_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Crew_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	weapons[] =
 	{
@@ -3035,14 +3128,16 @@ class Atlas_B_G_Crew_ard_F: Atlas_B_G_Crew_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_multitarn_F,
+		V_CarrierRigKBT_01_Coyote_F,
 		H_HelmetCrew_B,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_multitarn_F,
+		V_CarrierRigKBT_01_Coyote_F,
 		H_HelmetCrew_B,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -3051,31 +3146,34 @@ class Atlas_B_G_Crew_ard_F: Atlas_B_G_Crew_F
 class Atlas_B_G_Engineer_ard_F: Atlas_B_G_Engineer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Engineer_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Engineer_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Kitbag_multitarn_BEEng_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -3084,32 +3182,35 @@ class Atlas_B_G_Engineer_ard_F: Atlas_B_G_Engineer_F
 class Atlas_B_G_Soldier_Exp_ard_F: Atlas_B_G_Soldier_Exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Exp_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Exp_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	backpack = B_Kitbag_tan_BEExp_F;
+	backpack = B_Kitbag_multitarn_BEExp_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
 	weapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_GL_multitarn_F,
+		V_CarrierRigKBT_01_Heavy_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_GL_multitarn_F,
+		V_CarrierRigKBT_01_Heavy_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -3117,37 +3218,40 @@ class Atlas_B_G_Soldier_Exp_ard_F: Atlas_B_G_Soldier_Exp_F
 class Atlas_B_G_soldier_mine_ard_F: Atlas_B_G_Soldier_Exp_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_soldier_mine_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_soldier_mine_ard_F.jpg";
 	displayName = $STR_A3_B_T_soldier_mine_F0;
 	backpack = B_Carryall_multitarn_Mine;
 };
 class Atlas_B_G_Soldier_GL_ard_F: Atlas_B_G_Soldier_GL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_GL_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_GL_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36_GL_ACO_F,
+		arifle_G36_GL_Sand_ACO_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_GL_ACO_F,
+		arifle_G36_GL_Sand_ACO_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
+		//V_CarrierRigBW_GL_multitarn_F,
+		V_CarrierRigKBT_01_Heavy_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
+		//V_CarrierRigBW_GL_multitarn_F,
+		V_CarrierRigKBT_01_Heavy_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -3156,32 +3260,33 @@ class Atlas_B_G_Soldier_GL_ard_F: Atlas_B_G_Soldier_GL_F
 class Atlas_B_G_Support_GMG_ard_F: Atlas_B_G_Support_GMG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_GMG_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_GMG_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	backpack = B_GMG_01_Weapon;
+	backpack = B_GMG_01_Weapon_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
 	weapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -3189,32 +3294,33 @@ class Atlas_B_G_Support_GMG_ard_F: Atlas_B_G_Support_GMG_F
 class Atlas_B_G_Support_MG_ard_F: Atlas_B_G_Support_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_MG_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_MG_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	backpack = B_HMG_01_Weapon;
+	backpack = B_HMG_01_Weapon_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
 	weapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -3222,32 +3328,33 @@ class Atlas_B_G_Support_MG_ard_F: Atlas_B_G_Support_MG_F
 class Atlas_B_G_Support_Mort_ard_F: Atlas_B_G_Support_Mort_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_Mort_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_Mort_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	backpack = B_Mortar_01_Weapon;
+	backpack = B_Mortar_01_Weapon_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
 	weapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_grn_F,
-		H_HelmetB_light_green,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -3255,30 +3362,33 @@ class Atlas_B_G_Support_Mort_ard_F: Atlas_B_G_Support_Mort_F
 class Atlas_B_G_HeavyGunner_ard_F: Atlas_B_G_HeavyGunner_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_HeavyGunner_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_HeavyGunner_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		MMG_01_black_LP_F,
+		MMG_01_tan_LP_BI_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		MMG_01_black_LP_F,
+		MMG_01_tan_LP_BI_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -3287,18 +3397,20 @@ class Atlas_B_G_HeavyGunner_ard_F: Atlas_B_G_HeavyGunner_F
 class Atlas_B_G_Helicrew_ard_F: Atlas_B_G_Helicrew_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Helicrew_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Helicrew_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
     linkedItems[] =
     {
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_multitarn_F,
+		V_CarrierRigKBT_01_Coyote_F,
         H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_multitarn_F,
+		V_CarrierRigKBT_01_Coyote_F,
         H_CrewHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
@@ -3307,7 +3419,7 @@ class Atlas_B_G_Helicrew_ard_F: Atlas_B_G_Helicrew_F
 class Atlas_B_G_Helipilot_ard_F: Atlas_B_G_Helipilot_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Helipilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Helipilot_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	weapons[] =
 	{
@@ -3321,14 +3433,16 @@ class Atlas_B_G_Helipilot_ard_F: Atlas_B_G_Helipilot_F
 	};
     linkedItems[] =
     {
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_multitarn_F,
+		V_CarrierRigKBT_01_Coyote_F,
         H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
     };
     respawnLinkedItems[] =
     {
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_multitarn_F,
+		V_CarrierRigKBT_01_Coyote_F,
         H_PilotHelmetHeli_O,
         DefaultManLinkedItems,
         NVGoggles
@@ -3337,32 +3451,35 @@ class Atlas_B_G_Helipilot_ard_F: Atlas_B_G_Helipilot_F
 class Atlas_B_G_soldier_M_ard_F: Atlas_B_G_soldier_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_soldier_M_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_soldier_M_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		srifle_DMR_03_LRCO_LP_BI_F,
+		srifle_DMR_03_tan_LRCO_LP_BI_F,
 		hgun_P07_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_03_LRCO_LP_BI_F,
+		srifle_DMR_03_tan_LRCO_LP_BI_F,
 		hgun_P07_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -3371,34 +3488,37 @@ class Atlas_B_G_soldier_M_ard_F: Atlas_B_G_soldier_M_F
 class Atlas_B_G_Soldier_AA_ard_F: Atlas_B_G_Soldier_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AA_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AA_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Kitbag_multitarn_BEAA_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_Sand_Holo_Pointer_F,
 		launch_B_Titan_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_Sand_Holo_Pointer_F,
 		launch_B_Titan_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -3406,34 +3526,37 @@ class Atlas_B_G_Soldier_AA_ard_F: Atlas_B_G_Soldier_AA_F
 class Atlas_B_G_Soldier_AT_ard_F: Atlas_B_G_Soldier_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AT_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AT_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Kitbag_multitarn_BEAT_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_Sand_Holo_Pointer_F,
 		launch_B_Titan_short_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Holo_Pointer_F,
+		arifle_G36C_Sand_Holo_Pointer_F,
 		launch_B_Titan_short_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -3441,51 +3564,67 @@ class Atlas_B_G_Soldier_AT_ard_F: Atlas_B_G_Soldier_AT_F
 class Atlas_B_G_Officer_ard_F: Atlas_B_G_Officer_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Officer_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Officer_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36C_F,
+		arifle_G36C_Sand_F,
 		hgun_P07_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_F,
+		arifle_G36C_Sand_F,
 		hgun_P07_F,
         DefaultManWeapons,
 		Binocular
+	};
+	linkedItems[] =
+	{
+		Aegis_V_CarrierRigKBT_01_holster_olive_F,
+		Atlas_H_FieldCap_multitarn,
+		DefaultManLeaderLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_CarrierRigKBT_01_holster_olive_F,
+		Atlas_H_FieldCap_multitarn,
+		DefaultManLeaderLinkedItems
 	};
 };
 class Atlas_B_G_Soldier_PG_ard_F: Atlas_B_G_Soldier_PG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_PG_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_PG_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -3493,32 +3632,35 @@ class Atlas_B_G_Soldier_PG_ard_F: Atlas_B_G_Soldier_PG_F
 class Atlas_B_G_Soldier_Repair_ard_F: Atlas_B_G_Soldier_Repair_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Repair_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Repair_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	backpack = B_TacticalPack_khk_BERepair_F;
+	backpack = B_AssaultPack_multitarn_BERepair_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_Pointer_F,
+		arifle_G36C_Sand_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -3526,31 +3668,34 @@ class Atlas_B_G_Soldier_Repair_ard_F: Atlas_B_G_Soldier_Repair_F
 class Atlas_B_G_Soldier_ard_F: Atlas_B_G_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36_Holo_Pointer_F,
+		arifle_G36_Sand_Holo_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_Holo_Pointer_F,
+		arifle_G36_Sand_Holo_Pointer_F,
 		hgun_P07_F,
 		DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetSpecB_cover_multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetSpecB_cover_multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -3558,34 +3703,37 @@ class Atlas_B_G_Soldier_ard_F: Atlas_B_G_Soldier_F
 class Atlas_B_G_Soldier_LAT_ard_F: Atlas_B_G_Soldier_LAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_LAT_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_LAT_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	backpack = B_TacticalPack_khk_BELAT_F;
+	backpack = B_AssaultPack_multitarn_BELAT_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36_Holo_Pointer_F,
-		launch_NLAW_F,
+		arifle_G36_Sand_Holo_Pointer_F,
+		Atlas_launch_Pzf3_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_Holo_Pointer_F,
-		launch_NLAW_F,
+		arifle_G36_Sand_Holo_Pointer_F,
+		Atlas_launch_Pzf3_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
@@ -3593,101 +3741,104 @@ class Atlas_B_G_Soldier_LAT_ard_F: Atlas_B_G_Soldier_LAT_F
 class Atlas_B_G_Soldier_Lite_ard_F: Atlas_B_G_Soldier_Lite_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Lite_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Lite_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36C_F,
+		arifle_G36C_Sand_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_F,
+		arifle_G36C_Sand_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_multitarn_F,
+		V_CarrierRigKBT_01_Coyote_F,
 		H_Headset_light,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_Green_F,
+		//V_CarrierRigBW_multitarn_F,
+		V_CarrierRigKBT_01_Coyote_F,
 		H_Headset_light,
 		DefaultManLinkedItems
 	};
 };
-/////////////////////////////////////////////////////////////////////////////////////
-///////////////////////      THIS WAS COMMENTED OUT    //////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////
 class Atlas_B_G_Soldier_CQ_ard_F: Atlas_B_G_Soldier_CQ_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_CQ_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_CQ_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
 	weapons[] =
 	{
-		arifle_G36_UBS_ACO_Pointer_F,
+		sgun_M4_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_UBS_ACO_Pointer_F,
+		sgun_M4_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_desert,
+		//V_CarrierRigBW_CQB_multitarn_F,
+		Aegis_V_CarrierRigKBT_01_CQB_Cbr_F,
+		H_HelmetB_cover_multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_desert,
+		//V_CarrierRigBW_CQB_multitarn_F,
+		Aegis_V_CarrierRigKBT_01_CQB_Cbr_F,
+		H_HelmetB_cover_multitarn_F,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 };
-/////////////////////////////////////////////////////////////////////////////////////
-///////////////////////      THIS WAS COMMENTED OUT    //////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////
 class Atlas_B_G_Soldier_SL_ard_F: Atlas_B_G_Soldier_SL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_SL_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_SL_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
 	weapons[] =
 	{
-		arifle_G36_LRCO_Pointer_F,
+		arifle_G36_Sand_LRCO_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_LRCO_Pointer_F,
+		arifle_G36_Sand_LRCO_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons,
 		Binocular
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetSpecB_cover_multitarn_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetSpecB_cover_multitarn_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -3695,33 +3846,36 @@ class Atlas_B_G_Soldier_SL_ard_F: Atlas_B_G_Soldier_SL_F
 class Atlas_B_G_Soldier_TL_ard_F: Atlas_B_G_Soldier_TL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_TL_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_TL_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_G36_GL_LRCO_Pointer_F,
+		arifle_G36_GL_Sand_LRCO_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_GL_LRCO_Pointer_F,
+		arifle_G36_GL_Sand_LRCO_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons,
 		Binocular
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetSpecB_light_green,
+		//V_CarrierRigBW_GL_multitarn_F,
+		V_CarrierRigKBT_01_Heavy_Coyote_F,
+		H_HelmetSpecB_cover_multitarn_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Green_F,
-		H_HelmetSpecB_light_green,
+		//V_CarrierRigBW_GL_multitarn_F,
+		V_CarrierRigKBT_01_Heavy_Coyote_F,
+		H_HelmetSpecB_cover_multitarn_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -3729,23 +3883,25 @@ class Atlas_B_G_Soldier_TL_ard_F: Atlas_B_G_Soldier_TL_F
 class Atlas_B_G_Soldier_CBRN_ard_F: Atlas_B_G_Soldier_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_CBRN_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_CBRN_ard_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
 	uniformClass = U_B_CBRN_Suit_01_MTP_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		G_AirPurifyingRespirator_01_F,
 		DefaultManCbrnLinkedItems,
 		NVGoggles
@@ -3753,13 +3909,13 @@ class Atlas_B_G_Soldier_CBRN_ard_F: Atlas_B_G_Soldier_ard_F
 	backpack = B_CombinationUnitRespirator_01_F;
 	weapons[] =
     {
-        arifle_G36C_Holo_FL_F,
+        arifle_G36C_Sand_Holo_FL_F,
         hgun_P07_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_G36C_Holo_FL_F,
+        arifle_G36C_Sand_Holo_FL_F,
         hgun_P07_F,
         DefaultManWeapons
     };
@@ -3793,18 +3949,21 @@ class Atlas_B_G_Soldier_CBRN_ard_F: Atlas_B_G_Soldier_ard_F
 class Atlas_B_G_RadioOperator_ard_F: Atlas_B_G_Soldier_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_RadioOperator_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_RadioOperator_ard_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -3812,13 +3971,13 @@ class Atlas_B_G_RadioOperator_ard_F: Atlas_B_G_Soldier_ard_F
 	backpack = B_RadioBag_01_multitarn_F;
 	weapons[] =
     {
-        arifle_G36_Holo_Pointer_F,
+        arifle_G36_Sand_Holo_Pointer_F,
         hgun_P07_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_G36_Holo_Pointer_F,
+        arifle_G36_Sand_Holo_Pointer_F,
         hgun_P07_F,
         DefaultManWeapons
     };
@@ -3840,7 +3999,7 @@ class Atlas_B_G_RadioOperator_ard_F: Atlas_B_G_Soldier_ard_F
 class Atlas_B_G_Survivor_ard_F: Atlas_B_G_Soldier_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Survivor_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Survivor_ard_F.jpg";
 	displayName = $STR_A3_CfgVehicles_b_survivor_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
@@ -3855,32 +4014,35 @@ class Atlas_B_G_Survivor_ard_F: Atlas_B_G_Soldier_ard_F
 class Atlas_B_G_Soldier_UAV_ard_F: Atlas_B_G_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_UAV_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_UAV_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
 	weapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_ACO_Pointer_F,
+		arifle_G36_Sand_ACO_Pointer_F,
 		hgun_P07_F,
         DefaultManWeapons
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		B_UavTerminal,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetB_cover_Multitarn_F,
 		DefaultManLinkedItems,
 		B_UavTerminal,
 		NVGoggles
@@ -3889,28 +4051,28 @@ class Atlas_B_G_Soldier_UAV_ard_F: Atlas_B_G_Soldier_UAV_F
 class Atlas_B_G_soldier_UAV_06_ard_F: Atlas_B_G_Soldier_UAV_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_soldier_UAV_06_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_soldier_UAV_06_ard_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = B_UAV_06_backpack_F;
 };
 class Atlas_B_G_soldier_UAV_06_medical_ard_F: Atlas_B_G_Soldier_UAV_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_soldier_UAV_06_medical_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_soldier_UAV_06_medical_ard_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = B_UAV_06_medical_backpack_F;
 };
 class Atlas_B_G_soldier_UGV_02_Demining_ard_F: Atlas_B_G_Soldier_UAV_ard_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_soldier_UGV_02_Demining_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_soldier_UGV_02_Demining_ard_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = B_UGV_02_Demining_backpack_F;
 };
 class Atlas_B_G_Recon_AR_ard_F: Atlas_B_G_Recon_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_AR_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_AR_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -3922,15 +4084,16 @@ class Atlas_B_G_Recon_AR_ard_F: Atlas_B_G_Recon_AR_F
 	};
     scope = public;
     scopeCurator = public;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
-		arifle_SPAR_02_snd_LRCO_Pointer_Bipod_Snds_F,
+		arifle_SPAR_02_blk_LRCO_Pointer_Bipod_Snds_F,
 		hgun_P07_snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_02_snd_LRCO_Pointer_Bipod_Snds_F,
+		arifle_SPAR_02_blk_LRCO_Pointer_Bipod_Snds_F,
 		hgun_P07_snds_F,
         DefaultManWeapons
 	};
@@ -3952,15 +4115,17 @@ class Atlas_B_G_Recon_AR_ard_F: Atlas_B_G_Recon_AR_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_oli,
-		H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_oli,
-		H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -3968,9 +4133,10 @@ class Atlas_B_G_Recon_AR_ard_F: Atlas_B_G_Recon_AR_F
 class Atlas_B_G_Recon_Exp_ard_F: Atlas_B_G_Recon_Exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_Exp_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_Exp_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -3980,7 +4146,7 @@ class Atlas_B_G_Recon_Exp_ard_F: Atlas_B_G_Recon_Exp_F
 	};
     scope = public;
     scopeCurator = public;
-	backpack = B_Kitbag_rgr_Exp;
+	backpack = B_Kitbag_multitarn_BEExp_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
@@ -4013,15 +4179,17 @@ class Atlas_B_G_Recon_Exp_ard_F: Atlas_B_G_Recon_Exp_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_oli,
-		H_Shemag_olive_hs,
+		//V_CarrierRigBW_CQB_multitarn_F,
+		Aegis_V_CarrierRigKBT_01_CQB_cbr_F,
+		H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_oli,
-		H_Shemag_olive_hs,
+		//V_CarrierRigBW_CQB_multitarn_F,
+		Aegis_V_CarrierRigKBT_01_CQB_cbr_F,
+		H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -4029,9 +4197,10 @@ class Atlas_B_G_Recon_Exp_ard_F: Atlas_B_G_Recon_Exp_F
 class Atlas_B_G_Recon_GL_ard_F: Atlas_B_G_Recon_GL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_GL_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_GL_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -4075,15 +4244,17 @@ class Atlas_B_G_Recon_GL_ard_F: Atlas_B_G_Recon_GL_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_oli,
-        H_Booniehat_multitarn_hs,
+		//V_CarrierRigBW_CQB_multitarn_F,
+		Aegis_V_CarrierRigKBT_01_CQB_cbr_F,
+        H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_oli,
-        H_Booniehat_multitarn_hs,
+		//V_CarrierRigBW_CQB_multitarn_F,
+		Aegis_V_CarrierRigKBT_01_CQB_cbr_F,
+        H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -4091,9 +4262,10 @@ class Atlas_B_G_Recon_GL_ard_F: Atlas_B_G_Recon_GL_F
 class Atlas_B_G_Recon_JTAC_ard_F: Atlas_B_G_Recon_JTAC_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_JTAC_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_JTAC_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
+	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -4103,7 +4275,7 @@ class Atlas_B_G_Recon_JTAC_ard_F: Atlas_B_G_Recon_JTAC_F
 	};
     scope = public;
     scopeCurator = public;
-	backpack = B_RadioBag_01_wdl_F;
+	backpack = B_RadioBag_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
@@ -4142,15 +4314,17 @@ class Atlas_B_G_Recon_JTAC_ard_F: Atlas_B_G_Recon_JTAC_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_oli,
-        H_Shemag_olive_hs,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+        H_Cap_headphones_tan,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_oli,
-        H_Shemag_olive_hs,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+        H_Cap_headphones_tan,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -4158,9 +4332,10 @@ class Atlas_B_G_Recon_JTAC_ard_F: Atlas_B_G_Recon_JTAC_F
 class Atlas_B_G_Recon_MG_ard_F: Atlas_B_G_Recon_MG_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_MG_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_MG_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -4168,7 +4343,7 @@ class Atlas_B_G_Recon_MG_ard_F: Atlas_B_G_Recon_MG_F
 		Head_Enoch,
 		G_NATO_recon
 	};
-	backpack = B_TacticalPack_rgr_BEReconMG_F;
+	backpack = B_AssaultPack_multitarn_BEReconMG_F;
 	weapons[] =
 	{
 		MMG_01_black_LRCO_LP_S_F,
@@ -4199,15 +4374,17 @@ class Atlas_B_G_Recon_MG_ard_F: Atlas_B_G_Recon_MG_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_oli,
-		H_HelmetB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_oli,
-		H_HelmetB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -4215,9 +4392,10 @@ class Atlas_B_G_Recon_MG_ard_F: Atlas_B_G_Recon_MG_F
 class Atlas_B_G_Recon_M_ard_F: Atlas_B_G_Recon_M_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_M_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_M_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -4259,15 +4437,17 @@ class Atlas_B_G_Recon_M_ard_F: Atlas_B_G_Recon_M_F
 	};
 	linkedItems[] =
 	{
-		V_TacChestrig_grn_F,
-		H_Booniehat_multitarn_hs,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_Booniehat_Multitarn_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacChestrig_grn_F,
-		H_Booniehat_multitarn_hs,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_Booniehat_Multitarn_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -4275,9 +4455,10 @@ class Atlas_B_G_Recon_M_ard_F: Atlas_B_G_Recon_M_F
 class Atlas_B_G_Recon_Medic_ard_F: Atlas_B_G_Recon_Medic_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_Medic_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_Medic_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
+	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -4287,7 +4468,7 @@ class Atlas_B_G_Recon_Medic_ard_F: Atlas_B_G_Recon_Medic_F
 	};
     scope = public;
     scopeCurator = public;
-	backpack = B_TacticalPack_rgr_BAReconMedic_F;
+	backpack = B_AssaultPack_multitarn_BEMedic_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
@@ -4320,15 +4501,17 @@ class Atlas_B_G_Recon_Medic_ard_F: Atlas_B_G_Recon_Medic_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_oli,
-        H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+        H_Cap_headphones_tan,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_oli,
-        H_HelmetB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+        H_Cap_headphones_tan,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -4336,7 +4519,7 @@ class Atlas_B_G_Recon_Medic_ard_F: Atlas_B_G_Recon_Medic_F
 class Atlas_B_G_Recon_ard_F: Atlas_B_G_Recon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -4348,6 +4531,7 @@ class Atlas_B_G_Recon_ard_F: Atlas_B_G_Recon_F
 	};
     scope = public;
     scopeCurator = public;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_LRCO_Pointer_Snds_F,
@@ -4380,15 +4564,17 @@ class Atlas_B_G_Recon_ard_F: Atlas_B_G_Recon_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_oli,
-        H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+        H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_oli,
-        H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+        H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -4396,7 +4582,7 @@ class Atlas_B_G_Recon_ard_F: Atlas_B_G_Recon_F
 class Atlas_B_G_Recon_LAT_ard_F: Atlas_B_G_Recon_LAT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_LAT_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_LAT_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -4408,19 +4594,19 @@ class Atlas_B_G_Recon_LAT_ard_F: Atlas_B_G_Recon_LAT_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
-	backpack = B_TacticalPack_rgr_BALAT_F;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	backpack = B_AssaultPack_multitarn_BELAT_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
-		launch_NLAW_F,
+		Atlas_launch_Pzf3_F,
 		hgun_P07_snds_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SPAR_01_blk_Holo_Pointer_Snds_F,
-		launch_NLAW_F,
+		Atlas_launch_Pzf3_F,
 		hgun_P07_snds_F,
         DefaultManWeapons
 	};
@@ -4428,7 +4614,7 @@ class Atlas_B_G_Recon_LAT_ard_F: Atlas_B_G_Recon_LAT_F
 	{
         mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16Rnd_9x21_Mag),
-        NLAW_F,
+        Atlas_dm12_heat_f,
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
@@ -4437,22 +4623,24 @@ class Atlas_B_G_Recon_LAT_ard_F: Atlas_B_G_Recon_LAT_F
 	{
         mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16Rnd_9x21_Mag),
-        NLAW_F,
+        Atlas_dm12_heat_f,
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
         mag_2(Chemlight_green)
 	};
 	linkedItems[] =
 	{
-		V_TacVest_oli,
-        H_HelmetB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+        H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_oli,
-        H_HelmetB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+        H_Shemag_khk_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -4460,7 +4648,7 @@ class Atlas_B_G_Recon_LAT_ard_F: Atlas_B_G_Recon_LAT_F
 class Atlas_B_G_Recon_TL_ard_F: Atlas_B_G_Recon_TL_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_TL_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_TL_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
 	identityTypes[] =
@@ -4472,6 +4660,7 @@ class Atlas_B_G_Recon_TL_ard_F: Atlas_B_G_Recon_TL_F
 	};
     scope = public;
     scopeCurator = public;
+	uniformClass = Atlas_U_B_G_CombatUniform_arid;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_LRCO_Pointer_Snds_F,
@@ -4508,15 +4697,17 @@ class Atlas_B_G_Recon_TL_ard_F: Atlas_B_G_Recon_TL_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_oli,
-        H_HelmetSpecB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+        H_Booniehat_Multitarn_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_oli,
-        H_HelmetSpecB_light_green,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+        H_Booniehat_Multitarn_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -4552,14 +4743,16 @@ class Atlas_B_G_Soldier_unarmed_ard_F: Atlas_B_G_Soldier_ard_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetSpecB_cover_multitarn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Green_F,
-		H_HelmetSpecB_light_desert,
+		//V_CarrierRigBW_Lite_multitarn_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		H_HelmetSpecB_cover_multitarn_F,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;
@@ -4585,4 +4778,3 @@ class Atlas_B_G_Fighter_Pilot_ard_F: Atlas_B_G_Fighter_Pilot_F
         DefaultManWeapons
 	};
 };
-*/

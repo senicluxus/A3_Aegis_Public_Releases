@@ -8,9 +8,15 @@ class CfgPatches
 		units[] =
         {
 			/* From "cfgGuerilla.hpp" */
-			B_G_ZU23_lxWS_F,
-			I_G_ZU23_lxWS_F,
-			O_G_ZU23_lxWS_F
+			Aegis_B_G_ZU23_lxWS_F,
+			Aegis_I_G_ZU23_lxWS_F,
+			Aegis_O_G_ZU23_lxWS_F,
+
+			/* From "cfgOpfor.hpp" */
+			Aegis_O_A_ZU23_lxWS_F,
+
+			/* From "cfgSyndikat.hpp" */
+			Aegis_I_C_ZU23_lxWS_F
 
         };
 		weapons[] = {/* Auto-compiled by pboProject */};

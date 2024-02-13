@@ -243,3 +243,93 @@ class I_C_Sharpshooter_F: I_C_Soldier_base_F
 		DefaultManGuerillaLinkedItems
 	};
 };
+class Aegis_I_C_Soldier_UAV_lxWS: I_C_Soldier_Para_1_F
+{
+	author = $STR_A3_A_Ravenholme;
+	displayName = "UAV Operator (IED)";
+	role = SpecialOperative;
+	uavHacker = true;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_C_Soldier_UAV_lxWS.jpg";
+	backpack = Aegis_I_C_UAV_02_IED_backpack_lxWS;
+	uniformClass = U_I_C_Soldier_Para_4_F;
+	weapons[] =
+	{
+		arifle_AKS_F,
+		DefaultManWeapons,
+      	Binocular
+	};
+	respawnWeapons[] =
+	{
+		arifle_AKS_F,
+		DefaultManWeapons,
+      	Binocular
+	};
+	magazines[] =
+    {
+        mag_6(30Rnd_545x39_Mag_F),
+        mag_2(HandGrenade_Guer)
+    };
+	respawnMagazines[] =
+    {
+        mag_6(30Rnd_545x39_Mag_F),
+        mag_2(HandGrenade_Guer)
+    };
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_khk_F,
+		I_UAVTerminal,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_khk_F,
+		I_UAVTerminal,
+		DefaultManGuerillaLinkedItems
+	};
+};
+class Aegis_I_C_Soldier_TechSpec_F: I_C_Soldier_Para_1_F
+{
+	author = $STR_A3_A_Ravenholme;
+	displayName = $STR_A3_A_CfgVehicles_I_G_Soldier_TechSpec_F0;
+    uavHacker = true;
+    canDeactivateMines = false;
+    cost = 150000;
+	role = SpecialOperative;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_C_Soldier_TechSpec_F.jpg";
+	backpack = B_Kitbag_rgr_G_TechSpec;
+	uniformClass = U_I_C_Soldier_Para_2_F;
+	weapons[] =
+	{
+		Aegis_arifle_AKS74_oak_F,
+		DefaultManWeapons,
+      	Binocular
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_AKS74_oak_F,
+		DefaultManWeapons,
+      	Binocular
+	};
+	magazines[] =
+    {
+        mag_6(30Rnd_545x39_Mag_F),
+        mag_2(HandGrenade_Guer)
+    };
+	respawnMagazines[] =
+    {
+        mag_6(30Rnd_545x39_Mag_F),
+        mag_2(HandGrenade_Guer)
+    };
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_grn_F,
+		I_UAVTerminal,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_grn_F,
+		I_UAVTerminal,
+		DefaultManGuerillaLinkedItems
+	};
+};

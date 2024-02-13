@@ -171,7 +171,7 @@ class Opf_O_S_MBT_02_cannon_F: O_MBT_02_cannon_F
 		verticalOffsetWorld = -0.185;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_S_MBT_02_cannon_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_S_MBT_02_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -183,12 +183,12 @@ class Opf_O_S_MBT_02_cannon_F: O_MBT_02_cannon_F
 		Opf_O_S_Soldier_1_F,
 		Opf_O_S_Soldier_1_F
 	};
-	textureList[] = {Green,1};
+	textureList[] = {Sep_01,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUkhk_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUkhk_CO.paa",
-		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUkhk_CO.paa",
+		"\A3_OpF\armor_f_opf\MBT_02\Data\MBT_02_body_opf_CO.paa",
+		"\A3_OpF\armor_f_opf\MBT_02\Data\MBT_02_turret_opf_CO.paa",
+	    "\A3_OpF\armor_f_opf\MBT_02\Data\MBT_02_opf_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 	};
 	class TransportWeapons

@@ -3,8 +3,11 @@ class CfgVehicles
     // Arma 3
     class Helicopter;
     class Helicopter_Base_F;
+    class Helicopter_Base_H;
     class Plane_Base_F;
 	class Boat_F;
+	class Heli_Attack_02_base_F;
+	class Tank_F;
 	class ParachuteBase: Helicopter
 	{
 		soundGetIn[] = {"\A3\Sounds_F\characters\parachute\parachute_open",db-4,1,50};
@@ -1194,4 +1197,2371 @@ class CfgVehicles
             };
         };
     };
+    class Aegis_Heli_Transport_02_Heavy_base_F: Helicopter_Base_H
+	{
+		attenuationEffectType="HeliAttenuation";
+		emptySound[]=
+		{
+			"",
+			0,
+			1
+		};
+		soundGeneralCollision1[]=
+		{
+			"A3\Sounds_F\vehicles\crashes\helis\Heli_coll_default_int_1",
+			1,
+			1,
+			100
+		};
+		soundGeneralCollision2[]=
+		{
+			"A3\Sounds_F\vehicles\crashes\helis\Heli_coll_default_int_2",
+			1,
+			1,
+			100
+		};
+		soundGeneralCollision3[]=
+		{
+			"A3\Sounds_F\vehicles\crashes\helis\Heli_coll_default_int_3",
+			1,
+			1,
+			100
+		};
+		soundCrashes[]=
+		{
+			"soundGeneralCollision1",
+			0.33000001,
+			"soundGeneralCollision2",
+			0.33000001,
+			"soundGeneralCollision3",
+			0.33000001
+		};
+		soundLandCrashes[]=
+		{
+			"emptySound",
+			0
+		};
+		soundBuildingCrash[]=
+		{
+			"soundGeneralCollision1",
+			1,
+			"soundGeneralCollision2",
+			1,
+			"soundGeneralCollision3",
+			1
+		};
+		soundArmorCrash[]=
+		{
+			"soundGeneralCollision1",
+			1,
+			"soundGeneralCollision2",
+			1,
+			"soundGeneralCollision3",
+			1
+		};
+		soundWoodCrash[]=
+		{
+			"soundGeneralCollision1",
+			1,
+			"soundGeneralCollision2",
+			1,
+			"soundGeneralCollision3",
+			1
+		};
+		soundBushCollision1[]=
+		{
+			"A3\Sounds_F\vehicles\crashes\helis\Heli_coll_bush_int_1",
+			1,
+			1,
+			100
+		};
+		soundBushCollision2[]=
+		{
+			"A3\Sounds_F\vehicles\crashes\helis\Heli_coll_bush_int_2",
+			1,
+			1,
+			100
+		};
+		soundBushCollision3[]=
+		{
+			"A3\Sounds_F\vehicles\crashes\helis\Heli_coll_bush_int_3",
+			1,
+			1,
+			100
+		};
+		soundBushCrash[]=
+		{
+			"soundBushCollision1",
+			0.33000001,
+			"soundBushCollision2",
+			0.33000001,
+			"soundBushCollision3",
+			0.33000001
+		};
+		soundWaterCollision1[]=
+		{
+			"A3\Sounds_F\vehicles\crashes\helis\Heli_coll_water_ext_1",
+			1,
+			1,
+			100
+		};
+		soundWaterCollision2[]=
+		{
+			"A3\Sounds_F\vehicles\crashes\helis\Heli_coll_water_ext_2",
+			1,
+			1,
+			100
+		};
+		soundWaterCrashes[]=
+		{
+			"soundWaterCollision1",
+			0.5,
+			"soundWaterCollision2",
+			0.5
+		};
+		soundDammage[]=
+		{
+			"A3\Sounds_F\vehicles\crashes\helis\Heli_crash_default_int_1",
+			10,
+			1
+		};
+		soundGetIn[]=
+		{
+			"A3\Sounds_F\vehicles\air\Heli_Transport_02\open",
+			1,
+			1
+		};
+		soundGetOut[]=
+		{
+			"A3\Sounds_F\vehicles\air\Heli_Transport_02\close",
+			1,
+			1,
+			50
+		};
+		soundEngineOnInt[]=
+		{
+			"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_int_start_v2",
+			0.31622776,
+			1
+		};
+		soundEngineOnExt[]=
+		{
+			"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_ext_start_v2",
+			2.2387211,
+			1,
+			600
+		};
+		soundEngineOffInt[]=
+		{
+			"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_int_stop_v2",
+			0.31622776,
+			1
+		};
+		soundEngineOffExt[]=
+		{
+			"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_ext_stop_v2",
+			2.2387211,
+			1,
+			600
+		};
+		soundLocked[]=
+		{
+			"\A3\Sounds_F\weapons\Rockets\locked_1",
+			1,
+			1
+		};
+		soundIncommingMissile[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\alarm_locked_by_missile_2",
+			0.31622776,
+			1
+		};
+		occludeSoundsWhenIn=0.56234133;
+		obstructSoundsWhenIn=0.31622776;
+		rotorDamageInt[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\heli_damage_rotor_int_1",
+			1,
+			1
+		};
+		rotorDamageOut[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\heli_damage_rotor_ext_1",
+			2.5118864,
+			1,
+			300
+		};
+		rotorDamage[]=
+		{
+			"rotorDamageInt",
+			"rotorDamageOut"
+		};
+		tailDamageInt[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\heli_damage_tail",
+			1,
+			1
+		};
+		tailDamageOut[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\heli_damage_tail",
+			1,
+			1,
+			300
+		};
+		tailDamage[]=
+		{
+			"tailDamageInt",
+			"tailDamageOut"
+		};
+		landingSoundInt0[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\landing_wheels_small_int1",
+			1,
+			1,
+			100
+		};
+		landingSoundInt1[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\landing_wheels_small_int2",
+			1,
+			1,
+			100
+		};
+		landingSoundInt[]=
+		{
+			"landingSoundInt0",
+			0.5,
+			"landingSoundInt1",
+			0.5
+		};
+		landingSoundOut0[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\landing_wheels_ext1",
+			1.7782794,
+			1,
+			100
+		};
+		landingSoundOut1[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\landing_wheels_ext2",
+			1.7782794,
+			1,
+			100
+		};
+		landingSoundOut[]=
+		{
+			"landingSoundOut0",
+			0.5,
+			"landingSoundOut1",
+			0.5
+		};
+		slingCargoAttach0[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\SL_engineDownEndINT",
+			1,
+			1
+		};
+		slingCargoAttach1[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\SL_1hookLock",
+			1.7782794,
+			1,
+			200
+		};
+		slingCargoAttach[]=
+		{
+			"slingCargoAttach0",
+			"slingCargoAttach1"
+		};
+		slingCargoDetach0[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\SL_engineUpEndINT",
+			1,
+			1
+		};
+		slingCargoDetach1[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\SL_1hookUnlock",
+			1.7782794,
+			1,
+			200
+		};
+		slingCargoDetach[]=
+		{
+			"slingCargoDetach0",
+			"slingCargoDetach1"
+		};
+		slingCargoDetachAir0[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\SL_unhook_air_int",
+			1,
+			1
+		};
+		slingCargoDetachAir1[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\SL_unhook_air_ext",
+			1,
+			1,
+			300
+		};
+		slingCargoDetachAir[]=
+		{
+			"slingCargoDetach0",
+			"slingCargoDetach1"
+		};
+		slingCargoRopeBreak0[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\SL_rope_break_int",
+			1,
+			1
+		};
+		slingCargoRopeBreak1[]=
+		{
+			"A3\Sounds_F\vehicles\air\noises\SL_rope_break_ext",
+			1,
+			1,
+			200
+		};
+		slingCargoRopeBreak[]=
+		{
+			"slingCargoDetach0",
+			"slingCargoDetach1"
+		};
+		gearUpExt[]=
+		{
+			"A3\Sounds_F\vehicles\air\Heli_Transport_01\gear_up_OUT",
+			1,
+			1,
+			1000
+		};
+		gearUpInt[]=
+		{
+			"A3\Sounds_F\vehicles\air\Heli_Transport_01\gear_up_IN",
+			1,
+			1,
+			100
+		};
+		gearUp[]=
+		{
+			"gearUpInt",
+			"gearUpExt"
+		};
+		gearDownInt[]=
+		{
+			"A3\Sounds_F\vehicles\air\Heli_Transport_01\gear_down_IN",
+			1,
+			1,
+			100
+		};
+		gearDownExt[]=
+		{
+			"A3\Sounds_F\vehicles\air\Heli_Transport_01\gear_down_OUT",
+			1,
+			1,
+			1000
+		};
+		gearDown[]=
+		{
+			"gearDownInt",
+			"gearDownExt"
+		};
+		class Sounds
+		{
+			class EngineExt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_ext_engine",
+					1.2589254,
+					1,
+					900
+				};
+				frequency="rotorSpeed";
+				volume="camPos*(rotorSpeed-0.72)*4";
+			};
+			class RotorExt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_ext_rotor",
+					1.7782794,
+					1,
+					2000
+				};
+				frequency="rotorSpeed * rotorSpeed * (1 - rotorThrust/6)";
+				volume="camPos*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)";
+				cone[]={1.6,3.1400001,1.6,0.94999999};
+			};
+			class RotorNoiseExt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\Heli_Transport_02\rotor_swist",
+					0.70794576,
+					1,
+					800
+				};
+				frequency=1;
+				volume="camPos * (rotorThrust factor [0.7, 0.9])";
+				cone[]={0.69999999,1.3,1,0};
+			};
+			class EngineInt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_int_engine",
+					1,
+					1
+				};
+				frequency="rotorSpeed";
+				volume="(1-camPos)*(rotorSpeed-0.75)*4";
+			};
+			class RotorInt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_int_rotor",
+					1.2589254,
+					1
+				};
+				frequency="rotorSpeed * rotorSpeed * (1 - rotorThrust/6)";
+				volume="(1-camPos)*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)";
+			};
+			class TransmissionDamageExt_phase1
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_ext_1",
+					1,
+					1,
+					150
+				};
+				frequency="0.66 + rotorSpeed / 3";
+				volume="camPos * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])";
+			};
+			class TransmissionDamageExt_phase2
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_ext_2",
+					1,
+					1,
+					150
+				};
+				frequency="0.66 + rotorSpeed / 3";
+				volume="camPos * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])";
+			};
+			class TransmissionDamageInt_phase1
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_int_1",
+					1,
+					1,
+					150
+				};
+				frequency="0.66 + rotorSpeed / 3";
+				volume="(1 - camPos) * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])";
+			};
+			class TransmissionDamageInt_phase2
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_int_2",
+					1,
+					1,
+					150
+				};
+				frequency="0.66 + rotorSpeed / 3";
+				volume="(1 - camPos) * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])";
+			};
+			class damageAlarmInt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\heli_alarm_opfor",
+					0.31622776,
+					1
+				};
+				frequency=1;
+				volume="engineOn * (1 - camPos) * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0.0, 0.001])";
+			};
+			class damageAlarmExt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\heli_alarm_opfor",
+					0.22387211,
+					1,
+					20
+				};
+				frequency=1;
+				volume="engineOn * camPos * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0, 0.001])";
+			};
+			class rotorLowAlarmInt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\heli_alarm_rotor_low",
+					0.31622776,
+					1
+				};
+				frequency=1;
+				volume="engineOn * (1 - camPos) * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])";
+			};
+			class rotorLowAlarmExt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\heli_alarm_rotor_low",
+					0.22387211,
+					1,
+					20
+				};
+				frequency=1;
+				volume="engineOn * camPos * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])";
+			};
+			class scrubLandInt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\wheelsInt",
+					1,
+					1,
+					100
+				};
+				frequency=1;
+				volume="2 * (1-camPos) * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+			};
+			class scrubLandExt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\dummysound",
+					1,
+					1,
+					100
+				};
+				frequency=1;
+				volume="camPos * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+			};
+			class scrubBuildingInt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\wheelsInt",
+					1,
+					1,
+					100
+				};
+				frequency=1;
+				volume="(1-camPos) * (scrubBuilding factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+			};
+			class scrubBuildingExt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\dummysound",
+					1,
+					1,
+					100
+				};
+				frequency=1;
+				volume="camPos * (scrubBuilding factor[0.02, 0.05])";
+			};
+			class scrubTreeInt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\scrubTreeInt",
+					1,
+					1,
+					100
+				};
+				frequency=1;
+				volume="(1 - camPos) * ((scrubTree) factor [0, 0.01])";
+			};
+			class scrubTreeExt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\scrubTreeExt",
+					1,
+					1,
+					100
+				};
+				frequency=1;
+				volume="camPos * ((scrubTree) factor [0, 0.01])";
+			};
+			class RainExt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\noises\rain1_ext",
+					1,
+					1,
+					100
+				};
+				frequency=1;
+				volume="camPos * (rain - rotorSpeed/2) * 2";
+			};
+			class RainInt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\noises\rain1_int",
+					1,
+					1,
+					100
+				};
+				frequency=1;
+				volume="(1-camPos)*(rain - rotorSpeed/2)*2";
+			};
+			class SlingLoadDownExt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\SL_engineDownEXT",
+					1.2589254,
+					1,
+					500
+				};
+				frequency=1;
+				volume="camPos*(slingLoadActive factor [0,-1])";
+			};
+			class SlingLoadUpExt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\SL_engineUpEXT",
+					1.2589254,
+					1,
+					500
+				};
+				frequency=1;
+				volume="camPos*(slingLoadActive factor [0,1])";
+			};
+			class SlingLoadDownInt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\SL_engineDownINT",
+					1,
+					1,
+					500
+				};
+				frequency=1;
+				volume="(1-camPos)*(slingLoadActive factor [0,-1])";
+			};
+			class SlingLoadUpInt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\SL_engineUpINT",
+					1,
+					1,
+					500
+				};
+				frequency=1;
+				volume="(1-camPos)*(slingLoadActive factor [0,1])";
+			};
+			class WindInt
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\air\noises\wind_closed",
+					0.70794576,
+					1,
+					50
+				};
+				frequency=1;
+				volume="(1-camPos)*(speed factor[5, 50])*(speed factor[5, 50])";
+			};
+			class GStress
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\noises\vehicle_stress2d",
+					0.70794576,
+					1,
+					50
+				};
+				frequency=1;
+				volume="engineOn * (1-camPos) * ((gmeterZ factor[1.5, 2.5]) + (gmeterZ factor[0.5, -0.5]))";
+			};
+			class SpeedStress
+			{
+				sound[]=
+				{
+					"A3\Sounds_F\vehicles\noises\vehicle_stress3",
+					0.70794576,
+					1,
+					50
+				};
+				frequency=1;
+				volume="(1-camPos)*(speed factor[40,60])";
+			};
+		};
+		class SoundsExt
+		{
+			class SoundEvents
+			{
+			};
+			class Sounds
+			{
+				class EngineExt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_ext_engine",
+						1.2589254,
+						1,
+						900
+					};
+					frequency="rotorSpeed";
+					volume="camPos*(rotorSpeed-0.72)*4";
+				};
+				class RotorExt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_ext_rotor",
+						1.7782794,
+						1,
+						2000
+					};
+					frequency="rotorSpeed * rotorSpeed * (1 - rotorThrust/6)";
+					volume="camPos*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)";
+					cone[]={1.6,3.1400001,1.6,0.94999999};
+				};
+				class RotorNoiseExt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\Heli_Transport_02\rotor_swist",
+						0.70794576,
+						1,
+						800
+					};
+					frequency=1;
+					volume="camPos * (rotorThrust factor [0.7, 0.9])";
+					cone[]={0.69999999,1.3,1,0};
+				};
+				class EngineInt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_int_engine",
+						1,
+						1
+					};
+					frequency="rotorSpeed";
+					volume="(1-camPos)*(rotorSpeed-0.75)*4";
+				};
+				class RotorInt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\Heli_Transport_02\Heli_Transport_02_int_rotor",
+						1.2589254,
+						1
+					};
+					frequency="rotorSpeed * rotorSpeed * (1 - rotorThrust/6)";
+					volume="(1-camPos)*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)";
+				};
+				class TransmissionDamageExt_phase1
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_ext_1",
+						1,
+						1,
+						150
+					};
+					frequency="0.66 + rotorSpeed / 3";
+					volume="camPos * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])";
+				};
+				class TransmissionDamageExt_phase2
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_ext_2",
+						1,
+						1,
+						150
+					};
+					frequency="0.66 + rotorSpeed / 3";
+					volume="camPos * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])";
+				};
+				class TransmissionDamageInt_phase1
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_int_1",
+						1,
+						1,
+						150
+					};
+					frequency="0.66 + rotorSpeed / 3";
+					volume="(1 - camPos) * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])";
+				};
+				class TransmissionDamageInt_phase2
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_int_2",
+						1,
+						1,
+						150
+					};
+					frequency="0.66 + rotorSpeed / 3";
+					volume="(1 - camPos) * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])";
+				};
+				class damageAlarmInt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\heli_alarm_opfor",
+						0.31622776,
+						1
+					};
+					frequency=1;
+					volume="engineOn * (1 - camPos) * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0.0, 0.001])";
+				};
+				class damageAlarmExt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\heli_alarm_opfor",
+						0.22387211,
+						1,
+						20
+					};
+					frequency=1;
+					volume="engineOn * camPos * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0, 0.001])";
+				};
+				class rotorLowAlarmInt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\heli_alarm_rotor_low",
+						0.31622776,
+						1
+					};
+					frequency=1;
+					volume="engineOn * (1 - camPos) * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])";
+				};
+				class rotorLowAlarmExt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\heli_alarm_rotor_low",
+						0.22387211,
+						1,
+						20
+					};
+					frequency=1;
+					volume="engineOn * camPos * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])";
+				};
+				class scrubLandInt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\wheelsInt",
+						1,
+						1,
+						100
+					};
+					frequency=1;
+					volume="2 * (1-camPos) * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+				};
+				class scrubLandExt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\dummysound",
+						1,
+						1,
+						100
+					};
+					frequency=1;
+					volume="camPos * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+				};
+				class scrubBuildingInt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\wheelsInt",
+						1,
+						1,
+						100
+					};
+					frequency=1;
+					volume="(1-camPos) * (scrubBuilding factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+				};
+				class scrubBuildingExt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\dummysound",
+						1,
+						1,
+						100
+					};
+					frequency=1;
+					volume="camPos * (scrubBuilding factor[0.02, 0.05])";
+				};
+				class scrubTreeInt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\scrubTreeInt",
+						1,
+						1,
+						100
+					};
+					frequency=1;
+					volume="(1 - camPos) * ((scrubTree) factor [0, 0.01])";
+				};
+				class scrubTreeExt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\scrubTreeExt",
+						1,
+						1,
+						100
+					};
+					frequency=1;
+					volume="camPos * ((scrubTree) factor [0, 0.01])";
+				};
+				class RainExt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\noises\rain1_ext",
+						1,
+						1,
+						100
+					};
+					frequency=1;
+					volume="camPos * (rain - rotorSpeed/2) * 2";
+				};
+				class RainInt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\noises\rain1_int",
+						1,
+						1,
+						100
+					};
+					frequency=1;
+					volume="(1-camPos)*(rain - rotorSpeed/2)*2";
+				};
+				class SlingLoadDownExt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\SL_engineDownEXT",
+						1,
+						1,
+						500
+					};
+					frequency=1;
+					volume="camPos*(slingLoadActive factor [0,-1])";
+				};
+				class SlingLoadUpExt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\SL_engineUpEXT",
+						1,
+						1,
+						500
+					};
+					frequency=1;
+					volume="camPos*(slingLoadActive factor [0,1])";
+				};
+				class SlingLoadDownInt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\SL_engineDownINT",
+						1,
+						1,
+						500
+					};
+					frequency=1;
+					volume="(1-camPos)*(slingLoadActive factor [0,-1])";
+				};
+				class SlingLoadUpInt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\SL_engineUpINT",
+						1,
+						1,
+						500
+					};
+					frequency=1;
+					volume="(1-camPos)*(slingLoadActive factor [0,1])";
+				};
+				class WindInt
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\air\noises\wind_closed",
+						0.70794576,
+						1,
+						50
+					};
+					frequency=1;
+					volume="(1-camPos)*(speed factor[5, 50])*(speed factor[5, 50])";
+				};
+				class GStress
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\noises\vehicle_stress2d",
+						0.70794576,
+						1,
+						50
+					};
+					frequency=1;
+					volume="engineOn * (1-camPos) * ((gmeterZ factor[1.5, 2.5]) + (gmeterZ factor[0.5, -0.5]))";
+				};
+				class SpeedStress
+				{
+					sound[]=
+					{
+						"A3\Sounds_F\vehicles\noises\vehicle_stress3",
+						0.70794576,
+						1,
+						50
+					};
+					frequency=1;
+					volume="(1-camPos)*(speed factor[40,60])";
+				};
+			};
+		};
+	};
+	class Aegis_Heli_Attack_04_base_F: Heli_Attack_02_base_F
+	{
+		attenuationEffectType="HeliAttenuation";
+		emptySound[]=
+		{
+			"",
+			0,
+			1
+		};
+		soundGeneralCollision1[]=
+		{
+			"\A3\Sounds_F\vehicles\crashes\helis\Heli_coll_default_int_1",
+			"db10",
+			1,
+			500
+		};
+		soundGeneralCollision2[]=
+		{
+			"\A3\Sounds_F\vehicles\crashes\helis\Heli_coll_default_int_2",
+			"db10",
+			1,
+			500
+		};
+		soundGeneralCollision3[]=
+		{
+			"\A3\Sounds_F\vehicles\crashes\helis\Heli_coll_default_int_3",
+			"db10",
+			1,
+			500
+		};
+		soundCrashes[]=
+		{
+			"soundGeneralCollision1",
+			"1/3",
+			"soundGeneralCollision2",
+			"1/3",
+			"soundGeneralCollision3",
+			"1/3"
+		};
+		soundLandCrashes[]=
+		{
+			"emptySound",
+			0
+		};
+		soundBuildingCrash[]=
+		{
+			"soundGeneralCollision1",
+			"1/3",
+			"soundGeneralCollision2",
+			"1/3",
+			"soundGeneralCollision3",
+			"1/3"
+		};
+		soundArmorCrash[]=
+		{
+			"soundGeneralCollision1",
+			"1/3",
+			"soundGeneralCollision2",
+			"1/3",
+			"soundGeneralCollision3",
+			"1/3"
+		};
+		soundWoodCrash[]=
+		{
+			"soundGeneralCollision1",
+			"1/3",
+			"soundGeneralCollision2",
+			"1/3",
+			"soundGeneralCollision3",
+			"1/3"
+		};
+		soundBushCollision1[]=
+		{
+			"\A3\Sounds_F\vehicles\crashes\helis\Heli_coll_bush_int_1",
+			"db10",
+			1,
+			500
+		};
+		soundBushCollision2[]=
+		{
+			"\A3\Sounds_F\vehicles\crashes\helis\Heli_coll_bush_int_2",
+			"db10",
+			1,
+			500
+		};
+		soundBushCollision3[]=
+		{
+			"\A3\Sounds_F\vehicles\crashes\helis\Heli_coll_bush_int_3",
+			"db10",
+			1,
+			500
+		};
+		soundBushCrash[]=
+		{
+			"soundBushCollision1",
+			"1/3",
+			"soundBushCollision2",
+			"1/3",
+			"soundBushCollision3",
+			"1/3"
+		};
+		soundWaterCollision1[]=
+		{
+			"\A3\Sounds_F\vehicles\crashes\helis\Heli_coll_water_ext_1",
+			"db0",
+			1,
+			300
+		};
+		soundWaterCollision2[]=
+		{
+			"\A3\Sounds_F\vehicles\crashes\helis\Heli_coll_water_ext_2",
+			"db0",
+			1,
+			300
+		};
+		soundWaterCrashes[]=
+		{
+			"soundWaterCollision1",
+			"1/2",
+			"soundWaterCollision2",
+			"1/2"
+		};
+		soundDammage[]=
+		{
+			"\A3\Sounds_F\vehicles\crashes\helis\Heli_crash_default_int_1",
+			10,
+			1
+		};
+		soundGetIn[]=
+		{
+			"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\close",
+			"db0",
+			1
+		};
+		soundGetOut[]=
+		{
+			"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\open",
+			"db0",
+			1,
+			50
+		};
+		soundEngineOnInt[]=
+		{
+			"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_int_start",
+			"db-7",
+			1
+		};
+		soundEngineOnExt[]=
+		{
+			"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_ext_start",
+			"db5",
+			1,
+			1200 //600
+		};
+		soundEngineOffInt[]=
+		{
+			"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_int_stop",
+			"db-7",
+			1
+		};
+		soundEngineOffExt[]=
+		{
+			"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_ext_stop",
+			"db5",
+			1,
+			1200 //600
+		};
+		soundLocked[]=
+		{
+			"\A3\Sounds_F\weapons\Rockets\locked_1",
+			"db0",
+			1
+		};
+		soundIncommingMissile[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\alarm_locked_by_missile_2",
+			"db-10",
+			1
+		};
+		rotorDamageInt[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\heli_damage_rotor_int_2",
+			"db0",
+			1
+		};
+		rotorDamageOut[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\heli_damage_rotor_ext_2",
+			"db8",
+			1,
+			300
+		};
+		rotorDamage[]=
+		{
+			"rotorDamageInt",
+			"rotorDamageOut"
+		};
+		tailDamageInt[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\heli_damage_tail",
+			"db0",
+			1
+		};
+		tailDamageOut[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\heli_damage_tail",
+			"db0",
+			1,
+			300
+		};
+		tailDamage[]=
+		{
+			"tailDamageInt",
+			"tailDamageOut"
+		};
+		landingSoundInt0[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\landing_wheels_small_int1",
+			"db10",
+			1,
+			100
+		};
+		landingSoundInt1[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\landing_wheels_small_int2",
+			"db10",
+			1,
+			100
+		};
+		landingSoundInt[]=
+		{
+			"landingSoundInt0",
+			"1/2",
+			"landingSoundInt1",
+			"1/2"
+		};
+		landingSoundOut0[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\landing_wheels_ext1",
+			"db15",
+			1,
+			500
+		};
+		landingSoundOut1[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\landing_wheels_ext2",
+			"db15",
+			1,
+			500
+		};
+		landingSoundOut[]=
+		{
+			"landingSoundOut0",
+			"1/2",
+			"landingSoundOut1",
+			"1/2"
+		};
+		slingCargoAttach0[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\SL_engineDownEndINT",
+			"db0",
+			1
+		};
+		slingCargoAttach1[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\SL_1hookLock",
+			"db5",
+			1,
+			200
+		};
+		slingCargoAttach[]=
+		{
+			"slingCargoAttach0",
+			"slingCargoAttach1"
+		};
+		slingCargoDetach0[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\SL_engineUpEndINT",
+			"db0",
+			1
+		};
+		slingCargoDetach1[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\SL_1hookUnlock",
+			"db5",
+			1,
+			200
+		};
+		slingCargoDetach[]=
+		{
+			"slingCargoDetach0",
+			"slingCargoDetach1"
+		};
+		slingCargoDetachAir0[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\SL_unhook_air_int",
+			"db0",
+			1
+		};
+		slingCargoDetachAir1[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\SL_unhook_air_ext",
+			"db0",
+			1,
+			300
+		};
+		slingCargoDetachAir[]=
+		{
+			"slingCargoDetach0",
+			"slingCargoDetach1"
+		};
+		slingCargoRopeBreak0[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\SL_rope_break_int",
+			"db0",
+			1
+		};
+		slingCargoRopeBreak1[]=
+		{
+			"\A3\Sounds_F\vehicles\air\noises\SL_rope_break_ext",
+			"db0",
+			1,
+			200
+		};
+		slingCargoRopeBreak[]=
+		{
+			"slingCargoDetach0",
+			"slingCargoDetach1"
+		};
+		class Sounds
+		{
+			class EngineExt
+			{
+				sound[]=
+				{
+					"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_ext_engine",
+					"db7",
+					1,
+					1200 //600
+				};
+				frequency="rotorSpeed";
+				volume="camPos*((rotorSpeed-0.72)*4)";
+			};
+			class RotorExt
+			{
+				sound[]=
+				{
+					"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_ext_rotor",
+					"db2",
+					1,
+					2500 //1100 //1700
+				};
+				frequency="1.4*(rotorSpeed * (1 - rotorThrust/5))";
+				volume="camPos*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)";
+				speed=2;
+			};
+			class RotorSwist
+			{
+				sound[]=
+				{
+					"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\swist",
+					"db0",
+					1,
+					300
+				};
+				frequency=1;
+				volume="camPos * (rotorThrust factor [0.7, 0.9])";
+			};
+			class EngineInt
+			{
+				sound[]=
+				{
+					"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_int_engine",
+					"db-5",
+					1
+				};
+				frequency="rotorSpeed";
+				volume="(1-camPos)*((rotorSpeed-0.75)*4)";
+			};
+			class RotorInt
+			{
+				sound[]=
+				{
+					"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_int_rotor",
+					"db1",
+					1
+				};
+				frequency="rotorSpeed * (1 - rotorThrust/5)";
+				volume="(1-camPos)*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)";
+			};
+			class TransmissionDamageExt_phase1
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_ext_1",
+					"db0",
+					1,
+					150
+				};
+				frequency="0.66 + rotorSpeed / 3";
+				volume="camPos * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])";
+			};
+			class TransmissionDamageExt_phase2
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_ext_2",
+					"db0",
+					1,
+					150
+				};
+				frequency="0.66 + rotorSpeed / 3";
+				volume="camPos * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])";
+			};
+			class TransmissionDamageInt_phase1
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_int_1",
+					"db0",
+					1,
+					150
+				};
+				frequency="0.66 + rotorSpeed / 3";
+				volume="(1 - camPos) * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])";
+			};
+			class TransmissionDamageInt_phase2
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_int_2",
+					"db0",
+					1,
+					150
+				};
+				frequency="0.66 + rotorSpeed / 3";
+				volume="(1 - camPos) * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])";
+			};
+			class damageAlarmInt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\heli_alarm_bluefor",
+					"db-10",
+					1
+				};
+				frequency=1;
+				volume="engineOn * (1 - camPos) * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0, 0.001])";
+			};
+			class damageAlarmExt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\heli_alarm_bluefor",
+					"db-13",
+					1,
+					20
+				};
+				frequency=1;
+				volume="engineOn * camPos * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0, 0.001])";
+			};
+			class rotorLowAlarmInt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\heli_alarm_rotor_low",
+					"db-10",
+					1
+				};
+				frequency=1;
+				volume="engineOn * (1 - camPos) * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])";
+			};
+			class rotorLowAlarmExt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\heli_alarm_rotor_low",
+					"db-13",
+					1,
+					20
+				};
+				frequency=1;
+				volume="engineOn * camPos * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])";
+			};
+			class scrubLandInt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\wheelsInt",
+					"db0",
+					1,
+					100
+				};
+				frequency=1;
+				volume="2 * (1-camPos) * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+			};
+			class scrubLandExt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\dummysound",
+					"db0",
+					1,
+					100
+				};
+				frequency=1;
+				volume="camPos * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+			};
+			class scrubBuildingInt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\wheelsInt",
+					"db0",
+					1,
+					100
+				};
+				frequency=1;
+				volume="(1-camPos) * (scrubBuilding factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+			};
+			class scrubBuildingExt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\dummysound",
+					"db0",
+					1,
+					100
+				};
+				frequency=1;
+				volume="camPos * (scrubBuilding factor[0.02, 0.05])";
+			};
+			class scrubTreeInt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\scrubTreeInt",
+					"db0",
+					1,
+					100
+				};
+				frequency=1;
+				volume="(1 - camPos) * ((scrubTree) factor [0, 0.01])";
+			};
+			class scrubTreeExt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\scrubTreeExt",
+					"db0",
+					1,
+					100
+				};
+				frequency=1;
+				volume="camPos * ((scrubTree) factor [0, 0.01])";
+			};
+			class RainExt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\noises\rain1_ext",
+					"db0",
+					1,
+					100
+				};
+				frequency=1;
+				volume="camPos * (rain - rotorSpeed/2) * 2";
+			};
+			class RainInt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\noises\rain1_int",
+					"db0",
+					1,
+					100
+				};
+				frequency=1;
+				volume="(1-camPos)*(rain - rotorSpeed/2)*2";
+			};
+			class SlingLoadDownExt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\SL_engineDownEXT",
+					"db2",
+					1,
+					500
+				};
+				frequency=1;
+				volume="camPos*(slingLoadActive factor [0,-1])";
+			};
+			class SlingLoadUpExt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\SL_engineUpEXT",
+					"db2",
+					1,
+					500
+				};
+				frequency=1;
+				volume="camPos*(slingLoadActive factor [0,1])";
+			};
+			class SlingLoadDownInt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\SL_engineDownINT",
+					"db0",
+					1,
+					500
+				};
+				frequency=1;
+				volume="(1-camPos)*(slingLoadActive factor [0,-1])";
+			};
+			class SlingLoadUpInt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\SL_engineUpINT",
+					"db0",
+					1,
+					500
+				};
+				frequency=1;
+				volume="(1-camPos)*(slingLoadActive factor [0,1])";
+			};
+			class WindInt
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\air\noises\wind_closed",
+					"db-8",
+					1,
+					50
+				};
+				frequency=1;
+				volume="(1-camPos)*(speed factor[5, 50])*(speed factor[5, 50])";
+			};
+			class GStress
+			{
+				sound[]=
+				{
+					"\A3\Sounds_F\vehicles\noises\vehicle_stress2b",
+					"db-8",
+					1,
+					50
+				};
+				frequency=1;
+				volume="engineOn * (1-camPos) * ((gmeterZ factor[1.5, 2.5]) + (gmeterZ factor[0.5, -0.5]))";
+			};
+		};
+		class SoundsExt
+		{
+			class SoundEvents
+			{
+			};
+			class Sounds
+			{
+				class EngineExt
+				{
+					sound[]=
+					{
+						"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_ext_engine",
+						"db7",
+						1,
+						1200 //600
+					};
+					frequency="rotorSpeed";
+					volume="camPos*((rotorSpeed-0.72)*4)";
+				};
+				class RotorExt
+				{
+					sound[]=
+					{
+						"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_ext_rotor",
+						"db2",
+						1,
+						2500 //1100 //1700
+					};
+					frequency="1.4*(rotorSpeed * (1 - rotorThrust/5))";
+					volume="camPos*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)";
+					speed=2;
+				};
+				class RotorSwist
+				{
+					sound[]=
+					{
+						"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\swist",
+						"db0",
+						1,
+						300
+					};
+					frequency=1;
+					volume="camPos * (rotorThrust factor [0.7, 0.9])";
+				};
+				class EngineInt
+				{
+					sound[]=
+					{
+						"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_int_engine",
+						"db-5",
+						1
+					};
+					frequency="rotorSpeed";
+					volume="(1-camPos)*((rotorSpeed-0.75)*4)";
+				};
+				class RotorInt
+				{
+					sound[]=
+					{
+						"\A3_Aegis\Sounds_F_Aegis\vehicles\air\Heli_Attack_04\Heli_Attack_04_int_rotor",
+						"db1",
+						1
+					};
+					frequency="rotorSpeed * (1 - rotorThrust/5)";
+					volume="(1-camPos)*(0 max (rotorSpeed-0.1))*(1 + rotorThrust)";
+				};
+				class TransmissionDamageExt_phase1
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_ext_1",
+						"db0",
+						1,
+						150
+					};
+					frequency="0.66 + rotorSpeed / 3";
+					volume="camPos * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])";
+				};
+				class TransmissionDamageExt_phase2
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_ext_2",
+						"db0",
+						1,
+						150
+					};
+					frequency="0.66 + rotorSpeed / 3";
+					volume="camPos * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])";
+				};
+				class TransmissionDamageInt_phase1
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_int_1",
+						"db0",
+						1,
+						150
+					};
+					frequency="0.66 + rotorSpeed / 3";
+					volume="(1 - camPos) * (transmissionDamage factor [0.3, 0.35]) * (transmissionDamage factor [0.5, 0.45]) * (rotorSpeed factor [0.2, 0.5])";
+				};
+				class TransmissionDamageInt_phase2
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\heli_damage_transmission_int_2",
+						"db0",
+						1,
+						150
+					};
+					frequency="0.66 + rotorSpeed / 3";
+					volume="(1 - camPos) * (transmissionDamage factor [0.45, 0.5]) * (rotorSpeed factor [0.2, 0.5])";
+				};
+				class damageAlarmInt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\heli_alarm_bluefor",
+						"db-10",
+						1
+					};
+					frequency=1;
+					volume="engineOn * (1 - camPos) * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0, 0.001])";
+				};
+				class damageAlarmExt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\heli_alarm_bluefor",
+						"db-13",
+						1,
+						20
+					};
+					frequency=1;
+					volume="engineOn * camPos * ( 1 - ((transmissionDamage factor [0.61, 0.60]) * (motorDamage factor [0.61, 0.60]) * (rotorDamage factor [0.51, 0.50]))) * (rotorSpeed factor [0, 0.001])";
+				};
+				class rotorLowAlarmInt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\heli_alarm_rotor_low",
+						"db-10",
+						1
+					};
+					frequency=1;
+					volume="engineOn * (1 - camPos) * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])";
+				};
+				class rotorLowAlarmExt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\heli_alarm_rotor_low",
+						"db-13",
+						1,
+						20
+					};
+					frequency=1;
+					volume="engineOn * camPos * (rotorSpeed factor [0.9, 0.8999]) * (rotorSpeed factor [-0.5, 1]) * (speed factor [3, 3.01])";
+				};
+				class scrubLandInt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\wheelsInt",
+						"db0",
+						1,
+						100
+					};
+					frequency=1;
+					volume="2 * (1-camPos) * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+				};
+				class scrubLandExt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\dummysound",
+						"db0",
+						1,
+						100
+					};
+					frequency=1;
+					volume="camPos * (scrubLand factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+				};
+				class scrubBuildingInt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\wheelsInt",
+						"db0",
+						1,
+						100
+					};
+					frequency=1;
+					volume="(1-camPos) * (scrubBuilding factor[0.02, 0.05]) * (1 - (lateralMovement factor [0.7,1]))";
+				};
+				class scrubBuildingExt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\dummysound",
+						"db0",
+						1,
+						100
+					};
+					frequency=1;
+					volume="camPos * (scrubBuilding factor[0.02, 0.05])";
+				};
+				class scrubTreeInt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\scrubTreeInt",
+						"db0",
+						1,
+						100
+					};
+					frequency=1;
+					volume="(1 - camPos) * ((scrubTree) factor [0, 0.01])";
+				};
+				class scrubTreeExt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\scrubTreeExt",
+						"db0",
+						1,
+						100
+					};
+					frequency=1;
+					volume="camPos * ((scrubTree) factor [0, 0.01])";
+				};
+				class RainExt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\noises\rain1_ext",
+						"db0",
+						1,
+						100
+					};
+					frequency=1;
+					volume="camPos * (rain - rotorSpeed/2) * 2";
+				};
+				class RainInt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\noises\rain1_int",
+						"db0",
+						1,
+						100
+					};
+					frequency=1;
+					volume="(1-camPos)*(rain - rotorSpeed/2)*2";
+				};
+				class SlingLoadDownExt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\SL_engineDownEXT",
+						"db0",
+						1,
+						500
+					};
+					frequency=1;
+					volume="camPos*(slingLoadActive factor [0,-1])";
+				};
+				class SlingLoadUpExt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\SL_engineUpEXT",
+						"db0",
+						1,
+						500
+					};
+					frequency=1;
+					volume="camPos*(slingLoadActive factor [0,1])";
+				};
+				class SlingLoadDownInt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\SL_engineDownINT",
+						"db0",
+						1,
+						500
+					};
+					frequency=1;
+					volume="(1-camPos)*(slingLoadActive factor [0,-1])";
+				};
+				class SlingLoadUpInt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\SL_engineUpINT",
+						"db0",
+						1,
+						500
+					};
+					frequency=1;
+					volume="(1-camPos)*(slingLoadActive factor [0,1])";
+				};
+				class WindInt
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\air\noises\wind_closed",
+						"db-8",
+						1,
+						50
+					};
+					frequency=1;
+					volume="(1-camPos)*(speed factor[5, 50])*(speed factor[5, 50])";
+				};
+				class GStress
+				{
+					sound[]=
+					{
+						"\A3\Sounds_F\vehicles\noises\vehicle_stress2b",
+						"db-9",
+						1,
+						50
+					};
+					frequency=1;
+					volume="engineOn * (1-camPos) * ((gmeterZ factor[1.5, 2.5]) + (gmeterZ factor[0.5, -0.5]))";
+				};
+			};
+		};
+	};
+	class Aegis_APC_Tracked_04_cannon_base_F: Tank_F
+	{
+		attenuationEffectType = "TankAttenuation";
+		occludeSoundsWhenIn = 1;
+		obstructSoundsWhenIn = 1;
+		soundGetIn[] = {"A3\sounds_f\vehicles\armor\noises\get_in_out",0.562341,1};
+		soundGetOut[] = {"A3\sounds_f\vehicles\armor\noises\get_in_out",0.562341,1,20};
+		soundDammage[] = {"",0.562341,1};
+		soundEngineOnInt[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_int_start",0.630957,1};
+		soundEngineOnExt[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_ext_start",0.794328,1,200};
+		soundEngineOffInt[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_int_stop",0.630957,1};
+		soundEngineOffExt[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_ext_stop",0.794328,1,200};
+		buildCrash0[] = {"A3\sounds_f\Vehicles\crashes\crash_08",1,1,200};
+		buildCrash1[] = {"A3\sounds_f\Vehicles\crashes\crash_09",1,1,200};
+		buildCrash2[] = {"A3\sounds_f\Vehicles\crashes\crash_10",1,1,200};
+		buildCrash3[] = {"A3\sounds_f\Vehicles\crashes\crash_11",1,1,200};
+		soundBuildingCrash[] = {"buildCrash0",0.25,"buildCrash1",0.25,"buildCrash2",0.25,"buildCrash3",0.25};
+		WoodCrash0[] = {"A3\sounds_f\Vehicles\crashes\crash_08",1,1,200};
+		WoodCrash1[] = {"A3\sounds_f\Vehicles\crashes\crash_09",1,1,200};
+		WoodCrash2[] = {"A3\sounds_f\Vehicles\crashes\crash_10",1,1,200};
+		WoodCrash3[] = {"A3\sounds_f\Vehicles\crashes\crash_11",1,1,200};
+		WoodCrash4[] = {"A3\sounds_f\Vehicles\crashes\crash_01",1,1,200};
+		WoodCrash5[] = {"A3\sounds_f\Vehicles\crashes\crash_08",1,1,200};
+		soundWoodCrash[] = {"woodCrash0",0.166,"woodCrash1",0.166,"woodCrash2",0.166,"woodCrash3",0.166,"woodCrash4",0.166,"woodCrash5",0.166};
+		ArmorCrash0[] = {"A3\sounds_f\Vehicles\crashes\crash_08",1,1,200};
+		ArmorCrash1[] = {"A3\sounds_f\Vehicles\crashes\crash_09",1,1,200};
+		ArmorCrash2[] = {"A3\sounds_f\Vehicles\crashes\crash_10",1,1,200};
+		ArmorCrash3[] = {"A3\sounds_f\Vehicles\crashes\crash_11",1,1,200};
+		soundArmorCrash[] = {"ArmorCrash0",0.25,"ArmorCrash1",0.25,"ArmorCrash2",0.25,"ArmorCrash3",0.25};
+		class Sounds
+		{
+			class Idle_ext
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_ext_rpm1",0.794328,1,200};
+				frequency = "0.95 + ((rpm/ 2640) factor[(400/ 2640),(900/ 2640)])*0.15";
+				volume = "engineOn*camPos*(((rpm/ 2640) factor[(100/ 2640),(200/ 2640)]) * ((rpm/ 2640) factor[(900/ 2640),(700/ 2640)]))";
+			};
+			class Engine
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_ext_rpm2",0.891251,1,240};
+				frequency = "0.8 + ((rpm/ 2640) factor[(700/ 2640),(1100/ 2640)])*0.2";
+				volume = "engineOn*camPos*(((rpm/ 2640) factor[(705/ 2640),(850/ 2640)]) * ((rpm/ 2640) factor[(1100 / 2640),(950/ 2640)]))";
+			};
+			class Engine1_ext
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_ext_rpm3",1.12202,1,280};
+				frequency = "0.8 + ((rpm/ 2640) factor[(950/ 2640),(1400/ 2640)])*0.2";
+				volume = "engineOn*camPos*(((rpm/ 2640) factor[(900/ 2640),(1050/ 2640)]) * ((rpm/ 2640) factor[(1400/ 2640),(1200/ 2640)]))";
+			};
+			class Engine2_ext
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_ext_rpm4",1.25893,1,320};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1200/ 2640),(1700/ 2640)])*0.2";
+				volume = "engineOn*camPos*(((rpm/ 2640) factor[(1170/ 2640),(1380/ 2640)]) * ((rpm/ 2640) factor[(1700/ 2640),(1500/ 2640)]))";
+			};
+			class Engine3_ext
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_ext_rpm5",1.41254,1,360};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1500/ 2640),(2100/ 2640)])*0.1";
+				volume = "engineOn*camPos*(((rpm/ 2640) factor[(1500/ 2640),(1670/ 2640)]) * ((rpm/ 2640) factor[(2100/ 2640),(1800/ 2640)]))";
+			};
+			class Engine4_ext
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_ext_rpm6",1.58489,1,400};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1800/ 2640),(2300/ 2640)])*0.1";
+				volume = "engineOn*camPos*(((rpm/ 2640) factor[(1780/ 2640),(2060/ 2640)]) * ((rpm/ 2640) factor[(2450/ 2640),(2200/ 2640)]))";
+			};
+			class Engine5_ext
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_ext_rpm7",1.77828,1,440};
+				frequency = "0.8 + ((rpm/ 2640) factor[(2100/ 2640),(2640/ 2640)])*0.1";
+				volume = "engineOn*camPos*((rpm/ 2640) factor[(2150/ 2640),(2500/ 2640)])";
+			};
+			class IdleThrust
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_ext_rpm1",1.12202,1,200};
+				frequency = "0.8 + ((rpm/ 2640) factor[(400/ 2640),(900/ 2640)])*0.15";
+				volume = "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(100/ 2640),(200/ 2640)]) * ((rpm/ 2640) factor[(900/ 2640),(700/ 2640)]))";
+			};
+			class EngineThrust
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_ext_rpm2",1.41254,1,200};
+				frequency = "0.8 + ((rpm/ 2640) factor[(700/ 2640),(1100/ 2640)])*0.2";
+				volume = "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(705/ 2640),(850/ 2640)]) * ((rpm/ 2640) factor[(1100 / 2640),(950/ 2640)]))";
+			};
+			class Engine1_Thrust_ext
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_ext_rpm3",1.77828,1,230};
+				frequency = "0.8 + ((rpm/ 2640) factor[(950/ 2640),(1400/ 2640)])*0.2";
+				volume = "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(900/ 2640),(1050/ 2640)]) * ((rpm/ 2640) factor[(1400/ 2640),(1200/ 2640)]))";
+			};
+			class Engine2_Thrust_ext
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_ext_rpm4",1.99526,1,290};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1200/ 2640),(1700/ 2640)])*0.2";
+				volume = "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1170/ 2640),(1380/ 2640)]) * ((rpm/ 2640) factor[(1700/ 2640),(1500/ 2640)]))";
+			};
+			class Engine3_Thrust_ext
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_ext_rpm5",1.77828,1,350};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1500/ 2640),(2100/ 2640)])*0.1";
+				volume = "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1500/ 2640),(1670/ 2640)]) * ((rpm/ 2640) factor[(2100/ 2640),(1800/ 2640)]))";
+			};
+			class Engine4_Thrust_ext
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_ext_rpm6",2.23872,1,400};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1800/ 2640),(2300/ 2640)])*0.1";
+				volume = "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1780/ 2640),(2060/ 2640)]) * ((rpm/ 2640) factor[(2450/ 2640),(2200/ 2640)]))";
+			};
+			class Engine5_Thrust_ext
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_ext_rpm7",2.51189,1,450};
+				frequency = "0.8 + ((rpm/ 2640) factor[(2100/ 2640),(2640/ 2640)])*0.1";
+				volume = "engineOn*camPos*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/ 2640) factor[(2150/ 2640),(2500/ 2640)])";
+			};
+			class Idle_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_int_rpm1",0.501187,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(400/ 2640),(900/ 2640)])*0.15";
+				volume = "engineOn*(1-camPos)*(((rpm/ 2640) factor[(100/ 2640),(200/ 2640)]) * ((rpm/ 2640) factor[(900/ 2640),(700/ 2640)]))";
+			};
+			class Engine_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_int_rpm2",0.354813,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(700/ 2640),(1100/ 2640)])*0.2";
+				volume = "engineOn*(1-camPos)*(((rpm/ 2640) factor[(705/ 2640),(850/ 2640)]) * ((rpm/ 2640) factor[(1100 / 2640),(950/ 2640)]))";
+			};
+			class Engine1_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_int_rpm3",0.398107,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(950/ 2640),(1400/ 2640)])*0.2";
+				volume = "engineOn*(1-camPos)*(((rpm/ 2640) factor[(900/ 2640),(1050/ 2640)]) * ((rpm/ 2640) factor[(1400/ 2640),(1200/ 2640)]))";
+			};
+			class Engine2_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_int_rpm4",0.446684,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1200/ 2640),(1700/ 2640)])*0.2";
+				volume = "engineOn*(1-camPos)*(((rpm/ 2640) factor[(1170/ 2640),(1380/ 2640)]) * ((rpm/ 2640) factor[(1700/ 2640),(1500/ 2640)]))";
+			};
+			class Engine3_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_int_rpm5",0.501187,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1500/ 2640),(2100/ 2640)])*0.1";
+				volume = "engineOn*(1-camPos)*(((rpm/ 2640) factor[(1500/ 2640),(1670/ 2640)]) * ((rpm/ 2640) factor[(2100/ 2640),(1800/ 2640)]))";
+			};
+			class Engine4_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_int_rpm6",0.562341,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1800/ 2640),(2300/ 2640)])*0.1";
+				volume = "engineOn*(1-camPos)*(((rpm/ 2640) factor[(1780/ 2640),(2060/ 2640)]) * ((rpm/ 2640) factor[(2450/ 2640),(2200/ 2640)]))";
+			};
+			class Engine5_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_engine_int_rpm7",0.630957,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(2100/ 2640),(2640/ 2640)])*0.1";
+				volume = "engineOn*(1-camPos)*((rpm/ 2640) factor[(2150/ 2640),(2500/ 2640)])";
+			};
+			class IdleThrust_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_int_rpm1",0.630957,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(400/ 2640),(900/ 2640)])*0.15";
+				volume = "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(100/ 2640),(200/ 2640)]) * ((rpm/ 2640) factor[(900/ 2640),(700/ 2640)]))";
+			};
+			class EngineThrust_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_int_rpm2",0.398107,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(700/ 2640),(1100/ 2640)])*0.2";
+				volume = "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(705/ 2640),(850/ 2640)]) * ((rpm/ 2640) factor[(1100 / 2640),(950/ 2640)]))";
+			};
+			class Engine1_Thrust_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_int_rpm3",0.446684,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(950/ 2640),(1400/ 2640)])*0.2";
+				volume = "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(900/ 2640),(1050/ 2640)]) * ((rpm/ 2640) factor[(1400/ 2640),(1200/ 2640)]))";
+			};
+			class Engine2_Thrust_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_int_rpm4",0.446684,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1200/ 2640),(1700/ 2640)])*0.2";
+				volume = "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1170/ 2640),(1380/ 2640)]) * ((rpm/ 2640) factor[(1700/ 2640),(1500/ 2640)]))";
+			};
+			class Engine3_Thrust_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_int_rpm5",0.501187,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1500/ 2640),(2100/ 2640)])*0.1";
+				volume = "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1500/ 2640),(1670/ 2640)]) * ((rpm/ 2640) factor[(2100/ 2640),(1800/ 2640)]))";
+			};
+			class Engine4_Thrust_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_int_rpm6",0.562341,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(1800/ 2640),(2300/ 2640)])*0.1";
+				volume = "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*(((rpm/ 2640) factor[(1780/ 2640),(2060/ 2640)]) * ((rpm/ 2640) factor[(2450/ 2640),(2200/ 2640)]))";
+			};
+			class Engine5_Thrust_int
+			{
+				sound[] = {"A3\Sounds_F\vehicles\armor\MBT_01\MBT1_exhaust_int_rpm7",0.630957,1};
+				frequency = "0.8 + ((rpm/ 2640) factor[(2100/ 2640),(2640/ 2640)])*0.1";
+				volume = "engineOn*(1-camPos)*(0.4+(0.6*(thrust factor[0.1,1])))*((rpm/ 2640) factor[(2150/ 2640),(2500/ 2640)])";
+			};
+			class NoiseInt
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\noises\noise_tank_int_1",0.501187,1};
+				frequency = "1";
+				volume = "(1-camPos)*(angVelocity max 0.04)*(speed factor[4, 15])";
+			};
+			class NoiseExt
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\noises\noise_tank_ext_1",0.891251,1,50};
+				frequency = "1";
+				volume = "camPos*(angVelocity max 0.04)*(speed factor[4, 15])";
+			};
+			class ThreadsOutH0
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_ext_treads_hard_01",0.398107,1,140};
+				frequency = "1";
+				volume = "engineOn*camPos*(1-grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-0) max 0)/ 60),(((-5) max 5)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-15) max 15)/ 60),(((-10) max 10)/ 60)]))";
+			};
+			class ThreadsOutH1
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_ext_treads_hard_02",0.446684,1,160};
+				frequency = "1";
+				volume = "engineOn*camPos*(1-grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-10) max 10)/ 60),(((-15) max 15)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-30) max 30)/ 60),(((-25) max 25)/ 60)]))";
+			};
+			class ThreadsOutH2
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_ext_treads_hard_03",0.501187,1,180};
+				frequency = "1";
+				volume = "engineOn*camPos*(1-grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-25) max 25)/ 60),(((-30) max 30)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-45) max 45)/ 60),(((-40) max 40)/ 60)]))";
+			};
+			class ThreadsOutH3
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_ext_treads_hard_04",0.562341,1,200};
+				frequency = "1";
+				volume = "engineOn*camPos*(1-grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-40) max 40)/ 60),(((-45) max 45)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-55) max 55)/ 60),(((-50) max 50)/ 60)]))";
+			};
+			class ThreadsOutH4
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_ext_treads_hard_05",0.562341,1,220};
+				frequency = "1";
+				volume = "engineOn*camPos*(1-grass)*((((-speed*3.6) max speed*3.6)/ 60) factor[(((-49) max 49)/ 60),(((-53) max 53)/ 60)])";
+			};
+			class ThreadsOutS0
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_ext_treads_soft_01",0.316228,1,120};
+				frequency = "1";
+				volume = "engineOn*(camPos)*(grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-0) max 0)/ 60),(((-5) max 5)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-15) max 15)/ 60),(((-10) max 10)/ 60)]))";
+			};
+			class ThreadsOutS1
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_ext_treads_soft_02",0.354813,1,140};
+				frequency = "1";
+				volume = "engineOn*(camPos)*(grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-10) max 10)/ 60),(((-15) max 15)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-30) max 30)/ 60),(((-25) max 25)/ 60)]))";
+			};
+			class ThreadsOutS2
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_ext_treads_soft_03",0.398107,1,160};
+				frequency = "1";
+				volume = "engineOn*(camPos)*(grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-25) max 25)/ 60),(((-30) max 30)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-45) max 45)/ 60),(((-40) max 40)/ 60)]))";
+			};
+			class ThreadsOutS3
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_ext_treads_soft_04",0.446684,1,180};
+				frequency = "1";
+				volume = "engineOn*(camPos)*(grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-40) max 40)/ 60),(((-45) max 45)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-55) max 55)/ 60),(((-50) max 50)/ 60)]))";
+			};
+			class ThreadsOutS4
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_ext_treads_soft_05",0.501187,1,200};
+				frequency = "1";
+				volume = "engineOn*(camPos)*(grass)*((((-speed*3.6) max speed*3.6)/ 60) factor[(((-49) max 49)/ 60),(((-53) max 53)/ 60)])";
+			};
+			class ThreadsInH0
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_int_treads_hard_01",0.251189,1};
+				frequency = "1";
+				volume = "engineOn*(1-camPos)*(1-grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-0) max 0)/ 60),(((-5) max 5)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-15) max 15)/ 60),(((-10) max 10)/ 60)]))";
+			};
+			class ThreadsInH1
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_int_treads_hard_02",0.281838,1};
+				frequency = "1";
+				volume = "engineOn*(1-camPos)*(1-grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-10) max 10)/ 60),(((-15) max 15)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-30) max 30)/ 60),(((-25) max 25)/ 60)]))";
+			};
+			class ThreadsInH2
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_int_treads_hard_03",0.316228,1};
+				frequency = "1";
+				volume = "engineOn*(1-camPos)*(1-grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-25) max 25)/ 60),(((-30) max 30)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-45) max 45)/ 60),(((-40) max 40)/ 60)]))";
+			};
+			class ThreadsInH3
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_int_treads_hard_04",0.354813,1};
+				frequency = "1";
+				volume = "engineOn*(1-camPos)*(1-grass)*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-40) max 40)/ 60),(((-45) max 45)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-55) max 55)/ 60),(((-50) max 50)/ 60)]))";
+			};
+			class ThreadsInH4
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_int_treads_hard_05",0.398107,1};
+				frequency = "1";
+				volume = "engineOn*(1-camPos)*(1-grass)*((((-speed*3.6) max speed*3.6)/ 60) factor[(((-49) max 49)/ 60),(((-53) max 53)/ 60)])";
+			};
+			class ThreadsInS0
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_int_treads_soft_01",0.316228,1};
+				frequency = "1";
+				volume = "engineOn*(1-camPos)*grass*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-0) max 0)/ 60),(((-5) max 5)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-15) max 15)/ 60),(((-10) max 10)/ 60)]))";
+			};
+			class ThreadsInS1
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_int_treads_soft_02",0.316228,1};
+				frequency = "1";
+				volume = "engineOn*(1-camPos)*grass*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-10) max 10)/ 60),(((-15) max 15)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-30) max 30)/ 60),(((-25) max 25)/ 60)]))";
+			};
+			class ThreadsInS2
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_int_treads_soft_03",0.354813,1};
+				frequency = "1";
+				volume = "engineOn*(1-camPos)*grass*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-25) max 25)/ 60),(((-30) max 30)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-45) max 45)/ 60),(((-40) max 40)/ 60)]))";
+			};
+			class ThreadsInS3
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_int_treads_soft_04",0.354813,1};
+				frequency = "1";
+				volume = "engineOn*(1-camPos)*grass*(((((-speed*3.6) max speed*3.6)/ 60) factor[(((-40) max 40)/ 60),(((-45) max 45)/ 60)]) * ((((-speed*3.6) max speed*3.6)/ 60) factor[(((-55) max 55)/ 60),(((-50) max 50)/ 60)]))";
+			};
+			class ThreadsInS4
+			{
+				sound[] = {"A3\sounds_f\vehicles\armor\treads\v2_int_treads_soft_05",0.398107,1};
+				frequency = "1";
+				volume = "engineOn*(1-camPos)*grass*((((-speed*3.6) max speed*3.6)/ 60) factor[(((-49) max 49)/ 60),(((-53) max 53)/ 60)])";
+			};
+		};
+	};
 };

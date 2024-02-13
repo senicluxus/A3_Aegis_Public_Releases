@@ -119,6 +119,19 @@ class CfgWeapons
 			Secondary
 		};
 	};
+	class Aegis_sgun_KSG_black_F: sgun_KSG_F
+	{
+		author = $STR_A3_A_Avery_Charms;
+		baseWeapon = Aegis_sgun_KSG_black_F;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_sgun_KSG_black_F0;
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Shotguns\KSG\Data\KSG_black_CO.paa"};
+		picture = "\A3_Aegis\Weapons_F_Aegis\Shotguns\KSG\Data\UI\icon_sgun_KSG_black_F_X_CA.paa";
+		class Secondary: Secondary
+		{
+			displayName = $STR_A3_A_CfgWeapons_sgun_KSG_black_F0;
+		};
+	};
 
     /* Accessorized Weapons */
 	#include "cfgWeaponsAcc.hpp"

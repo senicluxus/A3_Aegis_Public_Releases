@@ -91,6 +91,54 @@ class B_W_Static_Designator_01_weapon_F: B_Static_Designator_01_weapon_F
     displayName = $STR_A3_A_CfgVehicles_B_W_Static_Designator_01_weapon_F0;
 };
 
+/* US (Desert) */
+class Aegis_B_D_Static_Designator_01_F: B_Static_Designator_01_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SimpleObject
+	{
+		eden = true;
+		animate[] =
+		{
+            {mainturret,0},
+            {maingun,0},
+            {mainelevation_01,0},
+            {mainelevation_02,0},
+            {mainelevation_03,0},
+            {mainelevation_04,0},
+            {initturret,0},
+            {initgun,0},
+            {initelevation_01,0},
+            {initelevation_02,0},
+            {initelevation_03,0},
+            {initelevation_04,0}
+		};
+		hide[] =
+		{
+            light_back,
+            "brzdove svetlo",
+            clan,
+            "podsvit pristroju",
+            poskozeni
+		};
+		verticalOffset = 0.509;
+		verticalOffsetWorld = 0.001;
+		init = "''";
+	};
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Static_Designator_01_F.jpg";
+	side = TWest;
+	faction = BLU_NATO_LXWS;
+	crew = B_UAV_AI;
+	class assembleInfo
+	{
+		displayName = "";
+		assembleTo = "";
+		base = "";
+		primary = false;
+		dissasembleTo[] = {B_Static_Designator_01_weapon_F};
+	};
+};
+
 /* BAF */
 class B_A_Static_Designator_01_F: B_Static_Designator_01_F
 {

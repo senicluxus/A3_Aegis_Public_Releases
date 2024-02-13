@@ -194,10 +194,10 @@ class Atlas_B_G_Heli_Transport_02_F: Heli_Transport_02_base_F
 	};
 };
 
-/* Bundeswehr (Arid) 
+/* Bundeswehr (Arid) */
 class Atlas_B_G_Heli_Transport_02_ard_F: Atlas_B_G_Heli_Transport_02_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
     class SimpleObject
 	{
 		eden = true;
@@ -358,9 +358,28 @@ class Atlas_B_G_Heli_Transport_02_ard_F: Atlas_B_G_Heli_Transport_02_F
 		verticalOffsetWorld = -0.09;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Heli_Transport_02_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Heli_Transport_02_ard_F.jpg";
 	crew = Atlas_B_G_Helipilot_ard_F;
 	typicalCargo[] = {Atlas_B_G_Helicrew_ard_F};
 	faction = Atlas_BLU_G_ard_F;
+    textureList[] = {Arid,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Air_F_Atlas\Heli_Transport_02\Data\Heli_Transport_02_1_arid_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\Heli_Transport_02\Data\Heli_Transport_02_2_arid_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\Heli_Transport_02\Data\Heli_Transport_02_3_arid_CO.paa",
+		"\A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"
+	};
+
+    /* Inventory */
+    class TransportMagazines
+	{
+		mag_xx(SmokeShell,2);
+		mag_xx(SmokeShellBlue,2);
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,4);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_G36C_Sand_F,2);
+	};
 };
-*/

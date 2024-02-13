@@ -33,7 +33,13 @@ class CfgWeapons
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot{};
+			class MuzzleSlot: asdg_MuzzleSlot
+			{
+				linkProxy = "\A3\Data_F\proxies\weapon_slots\MUZZLE";
+				compatibleItems[] = {muzzle_snds_12Gauge_lxWS, muzzle_snds_12Gauge_snake_lxWS};
+				iconPosition[] = {-0.02,0.41};
+				iconScale = 0.2;
+			};
 			class CowsSlot: asdg_OpticRail1913_short
 			{
 				iconPosition[] =
@@ -74,7 +80,7 @@ class CfgWeapons
 		modes[] = {Single};
 		class Single: Mode_SemiAuto
 		{
-			sounds[] = {StandardSound};
+			sounds[] = {StandardSound, SilencedSound};
 			dispersion = 0.00087;
 			reloadTime = RPM_SEMI;
 			minRange = 1;

@@ -265,6 +265,11 @@ class CfgVehicles
 				};
 			};
 		};
+		/* Liveries */
+		class TextureSources
+		{
+			class SFIA{};
+		};
     };
 
 	/* Factions */

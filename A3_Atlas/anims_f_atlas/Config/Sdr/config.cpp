@@ -8,6 +8,8 @@ class CfgMovesBasic
 		GestureReloadAUG = "";
 		GestureReloadAUGSMG = "";
 		GestureReloadG36 = "";
+		GestureReloadFAMAS = "";
+		GestureReloadFAMASUGL = "";
 	};
 	class Actions
 	{
@@ -26,6 +28,16 @@ class CfgMovesBasic
 			GestureReloadG36[] =
 			{
 				GestureReloadG36,
+				Gesture
+			};
+			GestureReloadFAMAS[] =
+			{
+				GestureReloadFAMAS,
+				Gesture
+			};
+			GestureReloadFAMASUGL[] =
+			{
+				GestureReloadFAMASUGL,
 				Gesture
 			};
 		};
@@ -47,6 +59,16 @@ class CfgMovesBasic
 				GestureReloadG36Prone,
 				Gesture
 			};
+			GestureReloadFAMAS[] =
+			{
+				GestureReloadFAMASProne,
+				Gesture
+			};
+			GestureReloadFAMASUGL[] =
+			{
+				GestureReloadFAMASUGLProne,
+				Gesture
+			};
 		};
 		class RifleAdjustProneBaseActions;
 		class RifleAdjustFProneActions: RifleAdjustProneBaseActions
@@ -64,6 +86,16 @@ class CfgMovesBasic
 			GestureReloadG36[] =
 			{
 				GestureReloadG36Context,
+				Gesture
+			};
+			GestureReloadFAMAS[] =
+			{
+				GestureReloadFAMASContext,
+				Gesture
+			};
+			GestureReloadFAMASUGL[] =
+			{
+				GestureReloadFAMASUGLContext,
 				Gesture
 			};
 		};
@@ -84,6 +116,16 @@ class CfgMovesBasic
 				GestureReloadG36Context,
 				Gesture
 			};
+			GestureReloadFAMAS[] =
+			{
+				GestureReloadFAMASContext,
+				Gesture
+			};
+			GestureReloadFAMASUGL[] =
+			{
+				GestureReloadFAMASUGLContext,
+				Gesture
+			};
 		};
 		class RifleAdjustRProneActions: RifleAdjustProneBaseActions
 		{
@@ -100,6 +142,16 @@ class CfgMovesBasic
 			GestureReloadG36[] =
 			{
 				GestureReloadG36Context,
+				Gesture
+			};
+			GestureReloadFAMAS[] =
+			{
+				GestureReloadFAMASContext,
+				Gesture
+			};
+			GestureReloadFAMASUGL[] =
+			{
+				GestureReloadFAMASUGLContext,
 				Gesture
 			};
 		};
@@ -121,6 +173,16 @@ class CfgMovesBasic
 				GestureReloadG36Prone,
 				Gesture
 			};
+			GestureReloadFAMAS[] =
+			{
+				GestureReloadFAMASProne,
+				Gesture
+			};
+			GestureReloadFAMASUGL[] =
+			{
+				GestureReloadFAMASUGLProne,
+				Gesture
+			};
 		};
 		class DeployedProneActions: RifleProneActions
 		{
@@ -137,6 +199,16 @@ class CfgMovesBasic
 			GestureReloadG36[] =
 			{
 				GestureReloadG36Prone,
+				Gesture
+			};
+			GestureReloadFAMAS[] =
+			{
+				GestureReloadFAMASProne,
+				Gesture
+			};
+			GestureReloadFAMASUGL[] =
+			{
+				GestureReloadFAMASUGLProne,
 				Gesture
 			};
 		};
@@ -274,6 +346,78 @@ class CfgGesturesMale
 			mask = handsWeapon_context;
 		};
 		class GestureReloadG36ContextAnimDrive: GestureReloadG36
+		{
+			mask = handsWeapon_contextAnimDrive;
+		};
+
+		class GestureReloadFAMAS: GestureReloadBase
+		{
+			file = "\A3_Atlas\Anims_F_Atlas\Data\Anim\Sdr\Gst\GestureReloadFAMAS.rtm";
+			speed = -(128/30);
+            mask = handsWeapon;
+            headBobStrength = 0.25;
+            headBobMode = 2;
+			weaponIK = true;
+			leftHandIKCurve[] =
+			{
+				0,true,
+				(9/128),false,
+				(115/128),false,
+				1,true
+			};
+		};
+		class GestureReloadFAMASProne: GestureReloadFAMAS
+		{
+			file = "\A3_Atlas\Anims_F_Atlas\Data\Anim\Sdr\Gst\GestureReloadFAMASProne.rtm";
+			/*leftHandIKCurve[] =
+			{
+				0,true,
+				(5/101),false,
+				(87/101),false,
+				1,true
+			};*/
+		};
+		class GestureReloadFAMASContext: GestureReloadFAMAS
+		{
+			mask = handsWeapon_context;
+		};
+		class GestureReloadFAMASContextAnimDrive: GestureReloadFAMAS
+		{
+			mask = handsWeapon_contextAnimDrive;
+		};
+
+		class GestureReloadFAMASUGL: GestureReloadBase
+		{
+			file = "\A3_Atlas\Anims_F_Atlas\Data\Anim\Sdr\Gst\GestureReloadFAMASUGL.rtm";
+			speed = -(86/30);
+            mask = handsWeapon;
+            headBobStrength = 0.25;
+            headBobMode = 2;
+			weaponIK = true;
+			leftHandIKCurve[] =
+			{
+				0,true,
+				(7/86),false,
+				(73/86),false,
+				(75/86),true
+			};
+		};
+		class GestureReloadFAMASUGLProne: GestureReloadFAMASUGL
+		{
+			file = "\A3_Atlas\Anims_F_Atlas\Data\Anim\Sdr\Gst\GestureReloadFAMASUGLProne.rtm";
+			/*leftHandIKCurve[] =
+			{
+				0,true,
+				(5/101),false,
+				(87/101),false,
+				1,true
+			};*/
+		};
+		class GestureReloadFAMASUGLContext: GestureReloadFAMASUGL
+		{
+			mask = handsWeapon_context;
+		};
+		class GestureReloadFAMASUGLContextAnimDrive: GestureReloadFAMASUGL
 		{
 			mask = handsWeapon_contextAnimDrive;
 		};

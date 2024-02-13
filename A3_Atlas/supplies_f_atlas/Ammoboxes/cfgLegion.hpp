@@ -34,11 +34,12 @@ class L_supplyCrate_F: ReammoBox_F
 	{
 		mag_xx(50Rnd_570x28_SMG_03,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,30);
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,26);
+		mag_xx(20Rnd_762x51_mag,4);
 		mag_xx(200Rnd_556x45_Box_Red_F,3);
 		mag_xx(17Rnd_9x21_Mag,2);
-        mag_xx(6Rnd_12Gauge_Pellets,3);
-        mag_xx(6Rnd_12Gauge_Slug,3);
+        mag_xx(8Rnd_12Gauge_Pellets,3);
+        mag_xx(8Rnd_12Gauge_Slug,3);
 		mag_xx(chemlight_green,2);
 		mag_xx(B_IR_Grenade,2);
 		mag_xx(Laserbatteries,1);
@@ -54,10 +55,10 @@ class L_supplyCrate_F: ReammoBox_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
-		weap_xx(arifle_MSBS65_Mark_black_F,1);
-		weap_xx(arifle_MSBS65_GL_black_F,1);
-		weap_xx(arifle_MSBS65_UBS_black_F,1);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
+		weap_xx(arifle_SPAR_03_blk_F,1);
+		weap_xx(atlas_arifle_famasG4_GL_F,1);
+		weap_xx(sgun_M4_F,1);
 		weap_xx(LMG_03_F,1);
 		weap_xx(launch_NLAW_F,1);
 	};
@@ -72,8 +73,8 @@ class L_supplyCrate_F: ReammoBox_F
 		item_xx(Medikit,1);
 		item_xx(MineDetector,1);
 		item_xx(ToolKit,1);
-		item_xx(optic_ACO,2);
-		item_xx(optic_ico_01_black_f,2);
+		item_xx(optic_Holosight_blk_F,2);
+		item_xx(optic_Hamr,2);
 		item_xx(optic_SOS,2);
 		item_xx(Rangefinder,1);
 		item_xx(NVGoggles_INDEP,5);

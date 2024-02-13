@@ -11,7 +11,9 @@ class CfgWeapons
 	*/
     #include "cfgChKDZ.hpp"             // Separatists
 	#include "cfgTKM.hpp"               // Insurgents
+	#include "cfgMilitia.hpp"			//Militia
     /*
 	#include "cfgMilitia.hpp"           // Patriots
     */
+   #include "cfgPartisans.hpp"			// Partisans
 };

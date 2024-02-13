@@ -6,4 +6,5 @@ class CfgVehicles
 
     /* Factions */
 	#include "cfgION.hpp"   // ION
+	#include "cfgEAF.hpp"	// LDF - Blufor
 };

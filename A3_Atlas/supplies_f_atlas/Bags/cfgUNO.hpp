@@ -5,8 +5,8 @@ class B_Carryall_cbr_IUAmmo_F: B_Carryall_cbr
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,6);
-		mag_xx(200Rnd_65x39_cased_box_red,2);
+		mag_xx(30Rnd_556x45_stanag_sand_red,6);
+		mag_xx(200Rnd_556x45_Box_Red_F,2);
 		mag_xx(NLAW_F,1);
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);

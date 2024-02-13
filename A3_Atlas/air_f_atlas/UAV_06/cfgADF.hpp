@@ -203,7 +203,7 @@ class Atlas_B_A_UAV_06_backpack_F: UAV_06_backpack_base_F
 	author = "Bran Flakes";
 	scope = public;
 	scopeCurator = public;
-	displayName = "UAV Bag (AL-6, Medical) [ADF]";
+	displayName = "UAV Bag (AL-6) [ADF]";
 	faction = Atlas_BLU_A_F;
 	picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_I_I_UAV_06_backpack_F_CA.paa";
 	hiddenSelectionsTextures[] =

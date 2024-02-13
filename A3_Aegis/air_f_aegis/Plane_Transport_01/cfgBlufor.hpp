@@ -107,25 +107,12 @@ class B_A_Plane_Transport_01_infantry_F: B_Plane_Transport_01_infantry_F
 	faction = BLU_A_F;
 	crew = B_A_Pilot_F;
 	typicalCargo[] = {B_A_Pilot_F};
-	textureList[] = {Olive,1};
+	textureList[] = {BAF,1};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_olive_BAF_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_olive_BAF_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
-	};
-	class TextureSources: TextureSources
-	{
-		class Olive: Olive
-		{
-			textures[] =
-			{
-				"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_olive_BAF_CO.paa",
-				"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_olive_BAF_CO.paa",
-				"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
-			};
-			factions[] = {};
-		};
 	};
 };
 class B_A_Plane_Transport_01_vehicle_F: B_Plane_Transport_01_vehicle_F
@@ -138,25 +125,12 @@ class B_A_Plane_Transport_01_vehicle_F: B_Plane_Transport_01_vehicle_F
 	faction = BLU_A_F;
 	crew = B_A_Pilot_F;
 	typicalCargo[] = {B_A_Pilot_F};
-	textureList[] = {Olive,1};
+	textureList[] = {BAF,1};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_olive_BAF_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_olive_BAF_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
-	};
-	class TextureSources: TextureSources
-	{
-		class Olive: Olive
-		{
-			textures[] =
-			{
-				"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_olive_BAF_CO.paa",
-				"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_olive_BAF_CO.paa",
-				"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
-			};
-			factions[] = {};
-		};
 	};
 };
 

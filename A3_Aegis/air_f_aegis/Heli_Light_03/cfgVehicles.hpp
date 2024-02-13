@@ -96,4 +96,5 @@ class CfgVehicles
 		textureList[] = {Indep,1};
 	};
 	#include "cfgBLUFOR.hpp"    // BAF
+	#include "cfgEAF.hpp"		// LDF BLUFOR & Arid
 };

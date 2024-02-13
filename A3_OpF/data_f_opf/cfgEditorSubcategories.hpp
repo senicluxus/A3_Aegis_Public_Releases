@@ -25,4 +25,16 @@ class CfgEditorSubcategories
 	{
 		displayName = "Ammo (Preppers)";
 	};
+	class EdSubcat_Personnel_Tribal
+	{
+		displayName = "Men (Bandits)";
+	};
+	class EdSubcat_Ammo_Partisans
+	{
+		displayName = "Ammo (Partisans)";
+	};
+	class EdSubcat_Personnel_Militants
+	{
+		displayName = "Men (Militants)";
+	};
 };

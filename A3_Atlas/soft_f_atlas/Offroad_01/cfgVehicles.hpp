@@ -40,6 +40,7 @@ class CfgVehicles
         class EventHandlers;
     };
     class Offroad_01_military_comms_base_F: Offroad_01_military_covered_base_F{};
+    class I_G_Offroad_01_F: Offroad_01_military_base_F{};
 	// Arma 3 Atlas
 	#include "cfgUNO.hpp"               // UNO
 };

@@ -39,13 +39,15 @@ class CfgVehicles
 		{
 			camo1,
 			camo2,
-			camo3
+			camo3,
+			camo4
 		};
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_blue_CO.paa",
 			"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_blue_CO.paa",
-			"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
+			"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+			""
 		};
 		weapons[] = {CMFlareLauncher_Quadruples};
 		magazines[] = {240Rnd_CMFlare_Chaff_Magazine};
@@ -777,25 +779,40 @@ class CfgVehicles
 		{
 			class Blue
 			{
-				displayName = $STR_A3_TEXTURESOURCES_BLUE0;
+				displayName = $STR_A3_A_TextureSources_USBLUE0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_blue_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_blue_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
+				};
+				factions[] = {};
+			};
+			class BAF
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_BAF0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_olive_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_olive_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
 				};
 				factions[] = {};
 			};
 			class Olive
 			{
-				displayName = $STR_A3_TEXTURESOURCES_OLIVE0;
+				displayName = $STR_A3_A_TEXTURESOURCES_USOLIVE0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_olive_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_olive_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
 				};
 				factions[] = {};
 			};
@@ -807,7 +824,8 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_OPFOR_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_OPFOR_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_OPFOR_CO.paa"
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_OPFOR_CO.paa",
+					""
 				};
 				factions[] = {};
 			};
@@ -819,7 +837,8 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_ghex_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_ghex_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_OPFOR_CO.paa"
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_OPFOR_CO.paa",
+					""
 				};
 				factions[] = {};
 			};
@@ -831,7 +850,8 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_grey_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_grey_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_OPFOR_CO.paa"
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_OPFOR_CO.paa",
+					""
 				};
 				factions[] = {};
 			};
@@ -843,10 +863,50 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_INDP_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_INDP_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
 				};
 				factions[] = {};
 			};
+			class GenBlue
+			{
+				displayName = $STR_A3_TEXTURESOURCES_BLUE0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_gblu_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_gblu_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
+				};
+				factions[] = {};
+			};
+			class GenOlive
+			{
+				displayName = $STR_A3_TEXTURESOURCES_OLIVE0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_ggrn_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_ggrn_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
+				};
+				factions[] = {};
+			};
+			/*class UNA
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_UNA0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_white_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_UNA_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
+				};
+				factions[] = {};
+			};*/
 		};
 		animationList[] = {};
 		textureList[] =
@@ -856,7 +916,9 @@ class CfgVehicles
 			Hex,0,
 			GreenHex,0,
 			Grey,0,
-			Indep,0
+			Indep,0,
+			GenBlue,0,
+			GenOlive,0
 		};
 		#include "PhysX.hpp"
 		extCameraPosition[] = {0,3,-40};
@@ -1174,6 +1236,116 @@ class CfgVehicles
 			bag_xx(B_Parachute,3);
 		};
 	};
+	class Aegis_Plane_Transport_01_civil_base_F: Plane_Transport_01_vehicle_base_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = private;
+		scopeCurator = private;
+		weapons[] = {};
+		magazines[] = {};
+		fuelCapacity = 9000;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_airalt_CO.paa",
+			"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_airalt_CO.paa",
+			"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+			""
+		};
+		class TextureSources
+		{
+			class IDAP
+			{
+				displayName = $STR_A3_A_TextureSources_IDAP0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_white_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_IDAP_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
+				};
+				factions[] = {};
+			};
+			class AltAir
+			{
+				displayName = $STR_A3_A_TextureSources_AltAir0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_airalt_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_airalt_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
+				};
+				factions[] = {};
+			};
+			class White
+			{
+				displayName = $STR_A3_A_TextureSources_White0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_white_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_white_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
+				};
+				factions[] = {};
+			};
+			class WhiteTwoTone
+			{
+				displayName = $STR_A3_A_TextureSources_WhiteTwoTone0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_white_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_twotone_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
+				};
+				factions[] = {};
+			};
+			/*class Armazon
+			{
+				displayName = $STR_A3_A_TextureSources_Armazon;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_white_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_twotone_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
+				};
+				factions[] = {};
+			};*/
+			class AirFreight
+			{
+				displayName = $STR_A3_A_TextureSources_Cargo0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_cargo_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_cargo_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					""
+				};
+				factions[] = {};
+			};
+		};
+		textureList[] =
+		{
+			AltAir,1,
+			White,0,
+			WhiteTwoTone,0,
+			//Armazon,0,
+			IDAP,0,
+			AirFreight,0
+		};
+		class Library
+		{
+			libTextDesc = "";
+		};
+	};
 	class Plane_Transport_01_Wreck_F: PlaneWreck
 	{
 		class SimpleObject
@@ -1204,4 +1376,5 @@ class CfgVehicles
     #include "cfgBLUFOR.hpp"    // US & BAF
     #include "cfgOPFOR.hpp"     // IAF & China
     #include "cfgIndep.hpp"     // AAF
+	#include "cfgCivil.hpp"		// Civilian and IDAP
 };

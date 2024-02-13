@@ -17,7 +17,7 @@ class CfgVehicles
             { \
                 class ##a## \
                 { \
-                    name = ##a##; \
+                    weapon = ##a##; \
                     count = 1; \
                 }; \
             }; \
@@ -25,12 +25,12 @@ class CfgVehicles
             { \
                 class ##b## \
                 { \
-                    name = ##b##; \
+                    magazine = ##b##; \
                     count = 1; \
                 }; \
                 class ##c## \
                 { \
-                    name = ##c##; \
+                    magazine = ##c##; \
                     count = 1; \
                 }; \
             }; \
@@ -40,5 +40,6 @@ class CfgVehicles
     class Weapon_Base_F;
 
     /* Item Holders */
-	WEAPON_HOLDER(sgun_KSG_F,8Rnd_12Gauge_Pellets,8Rnd_12Gauge_Slug,$STR_A3_A_CfgWeapons_sgun_KSG_F0,EdSubcat_Shotguns);
+	WEAPON_HOLDER(sgun_KSG_F,8Rnd_12Gauge_Pellets,8Rnd_12Gauge_Slug,$STR_A3_A_CfgWeapons_sgun_KSG_F0);
+    WEAPON_HOLDER(Aegis_sgun_KSG_black_F,8Rnd_12Gauge_Pellets,8Rnd_12Gauge_Slug,$STR_A3_A_CfgWeapons_sgun_KSG_black_F0);
 };

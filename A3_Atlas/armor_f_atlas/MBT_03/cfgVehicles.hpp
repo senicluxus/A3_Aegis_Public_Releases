@@ -60,7 +60,7 @@ class CfgVehicles
 			};
 			class Woodland_01
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+				displayName = $STR_A3_A_TEXTURESOURCES_BW0;
 				author = $STR_A3_A_wsxcgy;
 				textures[] =
 				{
@@ -73,7 +73,7 @@ class CfgVehicles
 			};
 			class Desert_01
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_DESERT0;
+				displayName = $STR_A3_A_TEXTURESOURCES_BWArid0;
 				author = $STR_A3_A_wsxcgy;
 				textures[] =
 				{
@@ -82,7 +82,7 @@ class CfgVehicles
 					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_desert_CO.paa",
 					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
 				};
-				factions[] = {Atlas_BLU_A_F};
+				factions[] = {};
 			};
 			class ADF_01
 			{

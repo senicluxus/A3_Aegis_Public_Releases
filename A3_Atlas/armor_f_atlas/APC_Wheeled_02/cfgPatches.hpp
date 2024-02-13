@@ -9,9 +9,12 @@
         {
             // Belarus
             Atlas_O_W_APC_Wheeled_02_rcws_v2_ghex_F,
+			Atlas_O_W_APC_Wheeled_02_unarmed_lxWS,
 
             // Takistani Army
-            Atlas_O_T_APC_Wheeled_02_rcws_v2_F
+            Atlas_O_T_APC_Wheeled_02_rcws_v2_F,
+			Atlas_O_T_APC_Wheeled_02_hmg_lxWS,
+			Atlas_O_T_APC_Wheeled_02_unarmed_lxWS
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

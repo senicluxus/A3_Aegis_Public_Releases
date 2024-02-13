@@ -46,11 +46,18 @@ class CfgPatches
 
             /* From "cfgEAF.hpp" */
             I_E_UGV_01_medical_F,
+            Aegis_B_E_UGV_01_F,
+            Aegis_B_E_UGV_01_RCWS_F,
+            Aegis_B_E_UGV_01_medical_F,
 
             /* From "cfgION.hpp" */
-            B_ION_UGV_01_F,
-            B_ION_UGV_01_rcws_F,
-            B_ION_UGV_01_medical_F
+            Aegis_B_ION_UGV_01_F,
+            Aegis_B_ION_UGV_01_rcws_F,
+            Aegis_B_ION_UGV_01_medical_F,
+
+            /* From "cfgSyndikat.hpp" */
+            Aegis_I_C_UGV_01_F,
+            Aegis_I_C_UGV_01_rcws_F
         };
 		weapons[] = {/* Automated */};
 	};

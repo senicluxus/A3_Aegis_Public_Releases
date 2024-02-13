@@ -408,6 +408,7 @@ class Atlas_I_I_MBT_01_cannon_F: B_MBT_01_cannon_F
 			{
 				class CommanderOptics: CommanderOptics{};
 			};
+            weapons[] = {"cannon_120mm","LMG_coax"};
 			magazines[] =
 			{
 				24Rnd_120mm_APFSDS_shells_Tracer_Yellow,

@@ -16,10 +16,10 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_INDP_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_INDP_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -29,10 +29,23 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+				};
+				factions[] = {};
+			};
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Whex_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -49,10 +62,10 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_INDP_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_INDP_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -62,10 +75,23 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+				};
+				factions[] = {};
+			};
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Whex_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -82,11 +108,11 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_Marar_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
-				"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_Marar_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
@@ -96,11 +122,25 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_UN_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
-				"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_UN_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+				};
+				factions[] = {};
+			};
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_Whex_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
@@ -116,10 +156,10 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_Marar_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_Marar_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -129,10 +169,10 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_UN_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_UN_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -149,11 +189,11 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
-				"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
@@ -163,11 +203,25 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
-				"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+				};
+				factions[] = {};
+			};
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Whex_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
@@ -184,11 +238,11 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_Marar_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
-				"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_Marar_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
@@ -198,11 +252,25 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_UN_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
-				"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_UN_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+				};
+				factions[] = {};
+			};
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_ammo_Whex_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
@@ -251,10 +319,10 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_fuel_Marar_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_fuel_Marar_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -264,10 +332,23 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_fuel_UN_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_fuel_UN_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+				};
+				factions[] = {};
+			};
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_fuel_Whex_CO.paa", // Needs to be subbed for repair parts
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -284,11 +365,11 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
-				"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
@@ -298,11 +379,25 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
-				"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+				};
+				factions[] = {};
+			};
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Whex_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
@@ -318,10 +413,10 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -331,10 +426,10 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -352,10 +447,10 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_Marar_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Marar_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -365,15 +460,35 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-				"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-				"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-				"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_UN_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
 				factions[] = {};
 			};
 		};
 	};*/
+	class Truck_02_MRL_base_F: Truck_02_base_F
+	{
+		class TextureSources
+		{
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_MRL_WHex_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+				};
+				factions[] = {};
+			};
+		};
+	};
+	class Truck_02_aa_base_lxWS;
 
 	class O_Truck_02_covered_F;
     class O_Truck_02_transport_F;
@@ -381,11 +496,12 @@ class CfgVehicles
 	class O_Truck_02_medical_F;
 	class O_Truck_02_Ammo_F;
 	class O_Truck_02_fuel_F;
-    class Truck_02_MRL_base_F;
+	class O_Truck_02_MRL_F;
+    
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"       // Belarus
 	#include "cfgOpfor_Atlas.hpp"       // Takistani Army
-	#include "cfgVenezuela.hpp"		// Venezuela
+	//#include "cfgVenezuela.hpp"		// Venezuela
 	#include "cfgMarar.hpp"			// Marar
 	#include "cfgUNO.hpp"			// United Nations
     /*

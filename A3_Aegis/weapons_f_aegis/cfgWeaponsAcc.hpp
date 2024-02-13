@@ -990,6 +990,15 @@ class Aegis_MMG_01_black_ARCO_LP_F: MMG_01_black_F
         LINKED_UNDERBARREL(bipod_02_F_blk);
 	};
 };
+class Aegis_MMG_01_tan_ARCO_LP_F: MMG_01_tan_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_Arco);
+        LINKED_SIDE(acc_pointer_IR_sand_lxWS);
+        LINKED_UNDERBARREL(bipod_02_F_tan);
+	};
+};
 class Aegis_sgun_AA40_ACO_LP_snds_LxWS: sgun_AA40_lxWS
 {
 	class LinkedItems
@@ -999,11 +1008,28 @@ class Aegis_sgun_AA40_ACO_LP_snds_LxWS: sgun_AA40_lxWS
     	LINKED_MUZZLE(muzzle_snds_12Gauge_lxWS);
 	};
 };
+class Aegis_sgun_AA40_tan_ACO_LP_snds_LxWS: sgun_AA40_tan_lxWS
+{
+	class LinkedItems
+	{
+		LINKED_TOP(optic_ACO_grn);
+    	LINKED_SIDE(acc_pointer_IR_sand_LXWS);
+    	LINKED_MUZZLE(muzzle_snds_12Gauge_lxWS);
+	};
+};
 class Aegis_sgun_AA40_ACO_LP_LxWS: sgun_AA40_lxWS
 {
 	class LinkedItems
 	{
 		LINKED_TOP(optic_ACO_grn);
     	LINKED_SIDE(acc_pointer_IR);
+	};
+};
+class Aegis_sgun_AA40_tan_ACO_LP_LxWS: sgun_AA40_tan_lxWS
+{
+	class LinkedItems
+	{
+		LINKED_TOP(optic_ACO_grn);
+    	LINKED_SIDE(acc_pointer_IR_sand_LXWS);
 	};
 };

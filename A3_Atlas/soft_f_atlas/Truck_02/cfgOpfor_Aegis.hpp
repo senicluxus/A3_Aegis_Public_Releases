@@ -91,20 +91,20 @@ class Atlas_O_W_Truck_02_F: O_Truck_02_covered_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_02_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
 	faction = Atlas_OPF_W_F;
 	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] = {Atlas_O_W_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_ghex_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Whex_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class Atlas_O_W_Truck_02_transport_F: O_Truck_02_transport_F
@@ -200,20 +200,20 @@ class Atlas_O_W_Truck_02_transport_F: O_Truck_02_transport_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_transport_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_02_transport_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TEast;
     faction = Atlas_OPF_W_F;
     crew = Atlas_O_W_Soldier_F;
     typicalCargo[] = {Atlas_O_W_Soldier_F};
-    textureList[] = {GreenHex,1};
+    textureList[] = {WoodlandHex,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_ghex_CO.paa",
-        "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Whex_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
     };
 };
 class Atlas_O_W_Truck_02_box_F: O_Truck_02_box_F
@@ -309,20 +309,20 @@ class Atlas_O_W_Truck_02_box_F: O_Truck_02_box_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_box_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_02_box_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
 	faction = Atlas_OPF_W_F;
 	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] = {Atlas_O_W_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_ghex_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_Whex_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
@@ -419,20 +419,20 @@ class Atlas_O_W_Truck_02_medical_F: O_Truck_02_medical_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_medical_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_02_medical_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
 	faction = Atlas_OPF_W_F;
 	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] = {Atlas_O_W_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_ghex_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Whex_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
@@ -529,7 +529,7 @@ class Atlas_O_W_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_Ammo_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_02_Ammo_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	scopeArsenal = private;
@@ -538,13 +538,13 @@ class Atlas_O_W_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 	faction = Atlas_OPF_W_F;
 	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] = {Atlas_O_W_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_ghex_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_ammo_Whex_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
@@ -641,20 +641,20 @@ class Atlas_O_W_Truck_02_fuel_F: O_Truck_02_fuel_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_fuel_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_02_fuel_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
 	faction = Atlas_OPF_W_F;
 	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] = {Atlas_O_W_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_fuel_ghex_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_fuel_Whex_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class Atlas_O_W_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
@@ -669,7 +669,7 @@ class Atlas_O_W_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 			verticalOffsetWorld = -0.202;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_cargo_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_02_cargo_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_cargo_base_F0;
@@ -677,14 +677,14 @@ class Atlas_O_W_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 	faction = Atlas_OPF_W_F;
 	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] = {Atlas_O_W_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
 	{
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_ghex_CO.paa",
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
-	"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Whex_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
 class Atlas_O_W_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
@@ -699,7 +699,7 @@ class Atlas_O_W_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 			verticalOffsetWorld = -0.202;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_flatbed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_02_flatbed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_flatbed_base_F0;
@@ -707,13 +707,32 @@ class Atlas_O_W_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 	faction = Atlas_OPF_W_F;
 	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] = {Atlas_O_W_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
 	{
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_ghex_CO.paa",
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
-	"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_Whex_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+	};
+};
+class Atlas_O_W_Truck_02_MRL_F: O_Truck_02_MRL_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	scopeCurator = public;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_02_MRL_F.jpg";
+	side = TEast;
+	faction = Atlas_OPF_W_F;
+	crew = Atlas_O_W_Soldier_F;
+	typicalCargo[] = {Atlas_O_W_Soldier_F};
+	textureList[] = {WoodlandHex,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_WHex_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUKHK_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_MRL_WHex_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 	};
 };

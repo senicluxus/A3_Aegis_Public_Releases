@@ -51,9 +51,21 @@ class CfgWeapons
 		hasBipod = true;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot{};
-			class CowsSlot{};
-			class PointerSlot{};
+			class MuzzleSlot: asdg_MuzzleSlot_762R
+			{  
+				iconPosition[] = {-0.02,0.41};
+				iconScale = 0.2;
+			};
+			class CowsSlot: CowsSlot_Rail
+			{
+				iconPosition[] = {0.55,0.28};
+				iconScale = 0.2;
+			};
+			class PointerSlot: asdg_PistolUnderRail
+			{
+				iconPosition[] = {0.2,0.44};
+				iconScale = 0.2;
+			};
 			class UnderBarrelSlot{};
 			mass = 155;
 		};
@@ -103,6 +115,28 @@ class CfgWeapons
         ACE_barrelTwist = 195.04;
         ACE_barrelLength = 590;
 	};
+	class Aegis_arifle_RPK74_base_F: arifle_RPK_base_F
+	{
+		descriptionShort = $STR_A3_A_CfgWeapons_arifle_AK12_545_base_F1;
+		recoil = recoil_rpk74;
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot: asdg_MuzzleSlot_545R
+			{  
+				iconPosition[] = {-0.02,0.41};
+				iconScale = 0.2;
+			};
+			mass = 155;
+		};
+		/*magazines[] =
+		{
+			Aegis_45Rnd_545x39_Mag_F,
+			Aegis_45Rnd_545x39_Mag_Green_F,
+			Aegis_45Rnd_545x39_Mag_Tracer_F,
+			Aegis_45Rnd_545x39_Mag_Tracer_Green_F
+		};*/
+		magazineWell[] = {AK_545x39};
+	};
 
     /* Weapons */
 	class arifle_RPK_F: arifle_RPK_base_F
@@ -112,5 +146,14 @@ class CfgWeapons
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\RPK\Data\UI\icon_arifle_RPK_F_X_CA.paa";
 		displayName = $STR_A3_A_CfgWeapons_arifle_RPK_F0;
 		baseWeapon = arifle_RPK_F;
+	};
+	class Aegis_arifle_RPK74_F: Aegis_arifle_RPK74_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_and_BOOLY;
+		scope = private;
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\RPK\Data\UI\icon_arifle_RPK_F_X_CA.paa";
+		//hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\RPK\Data\RPK_alt_CO.paa"};
+		displayName = $STR_A3_A_CfgWeapons_arifle_rpk74_f0;
+		baseWeapon = Aegis_arifle_RPK74_F;
 	};
 };

@@ -266,3 +266,105 @@ class O_A_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F
 		bag_xx(B_FieldPack_ocamo,2);
 	};
 };
+class Aegis_O_A_APC_Wheeled_02_unarmed_lxWS: APC_Wheeled_02_unarmed_base_lxws
+{
+   scope = public;
+   scopeCurator = public;
+   editorPreview = "\A3_Aegis\editorpreviews_f_aegis\Data\CfgVehicles\O_APC_Wheeled_02_unarmed_lxWS.jpg";
+   faction = OPF_A_F;
+   side = TEast;
+   crew = O_A_crew_lxWS;
+   typicalCargo[] = {O_A_Soldier_lxWS};
+   textureList[] = {Hex,1};
+	hiddenSelectionsTextures[] = 
+	{
+      "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_01_opfor_co.paa",
+      "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_02_opfor_co.paa",
+      "A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
+      "A3\armor_f\data\cage_csat_co.paa",
+      "lxWS\vehicles_1_f_lxws\APC_Wheeled_02\data\APC_Wheeled_02_adds_02_hex_CO.paa"
+	};
+   animationList[] = {"showBags",0,"showCanisters",0,"showTools",0,"showCamonetHull",0,"showSLATHull",0};
+   class TransportWeapons
+	{
+		weap_xx(arifle_VelkoR5_lxws,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(35rnd_556x45_velko_reload_tracer_red_lxws,8);
+        mag_xx(20rnd_762x51_slr_lxWS,6);
+		mag_xx(150Rnd_762x54_box,4);
+        mag_xx(100Rnd_762x51_s77_green_lxws,2);
+		mag_xx(HandGrenade_Guer,4);
+		mag_xx(HandGrenade,4);
+		mag_xx(1Rnd_40mm_HE_lxWS,6);
+		mag_xx(1Rnd_58mm_AT_lxWS,4);
+	    mag_xx(1Rnd_50mm_smoke_lxWS,8);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellRed,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellYellow,8);
+		mag_xx(RPG32_F,5);
+		mag_xx(RPG32_HE_F,2);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_FieldPack_ocamo,2);
+	};
+};
+class Aegis_O_A_APC_Wheeled_02_hmg_lxWS: APC_Wheeled_02_hmg_base_lxws
+{
+   scope = public;
+   scopeCurator = public;
+   editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_A_APC_Wheeled_02_hmg_lxWS.jpg";
+   faction = OPF_A_F;
+   side = TEast;
+   crew = O_A_crew_lxWS;
+   typicalCargo[] = {O_A_Soldier_lxWS};
+   textureList[] = {Hex,1};
+	hiddenSelectionsTextures[] = 
+	{
+      "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_01_opfor_co.paa",
+      "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_02_opfor_co.paa",
+      "lxWS\vehicles_1_f_lxws\APC_Wheeled_02\data\APC_Wheeled_02_adds_01_hex_CO.paa",
+      "A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
+      "A3\armor_f\data\cage_csat_co.paa",
+      "lxWS\vehicles_1_f_lxws\APC_Wheeled_02\data\APC_Wheeled_02_adds_02_hex_CO.paa"
+	};
+   class Turrets : Turrets
+   {
+      class MainTurret : MainTurret{};
+      class mg_station : mg_station
+      {
+        gunnerType = O_A_Soldier_lxWS;
+        magazines[] = {mag_4("100Rnd_127x99_mag_Tracer_Green")};
+      };
+   };
+   animationList[] = {"showBags",0,"showCanisters",0,"showTools",0,"showCamonetHull",0,"showSLATHull",0, "mg_hide_armor_front",0, "mg_hide_armor_rear",0, "mg_Hide_Rail", 0};
+   class TransportWeapons
+	{
+		weap_xx(arifle_VelkoR5_lxws,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(35rnd_556x45_velko_reload_tracer_red_lxws,8);
+        mag_xx(20rnd_762x51_slr_lxWS,6);
+		mag_xx(150Rnd_762x54_box,4);
+        mag_xx(100Rnd_762x51_s77_green_lxws,2);
+		mag_xx(HandGrenade_Guer,4);
+		mag_xx(HandGrenade,4);
+		mag_xx(1Rnd_40mm_HE_lxWS,6);
+		mag_xx(1Rnd_58mm_AT_lxWS,4);
+	    mag_xx(1Rnd_50mm_smoke_lxWS,8);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellRed,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellYellow,8);
+		mag_xx(RPG32_F,5);
+		mag_xx(RPG32_HE_F,2);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_FieldPack_ocamo,2);
+	};
+};

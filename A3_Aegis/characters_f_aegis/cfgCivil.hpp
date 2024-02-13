@@ -818,3 +818,84 @@ class C_Man_casual_9_F_tanoan: C_Man_casual_9_F
     };
 	genericNames = TanoanMen;
 };
+
+/* Civil Cargo Pilots*/
+class Aegis_C_Man_CargoPilot_F: C_man_pilot_F
+{
+    author = $STR_A3_A_Ravenholme;
+    displayName = $STR_A3_A_CfgVehicles_C_Man_CargoPilot_F0;
+    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_C_Man_CargoPilot_F.jpg";
+    uniformClass = U_C_Uniform_Formal_01_white_F;
+    backpack = ;
+    headgearList[] =
+    {
+        H_HeadSet_black_F,1
+    };
+	linkedItems[] =
+    {
+        H_HeadSet_black_F,
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+	respawnLinkedItems[] =
+    {
+        H_HeadSet_black_F,
+        ItemSmartPhone,
+        ItemWatch,
+        ItemRadio
+    };
+};
+class Aegis_C_Man_CargoPilot_afro_F: Aegis_C_Man_CargoPilot_F
+{
+    author = $STR_A3_A_Ravenholme;
+     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_C_Man_CargoPilot_F.jpg";
+    vehicleClass = Afroamerican;
+    editorSubcategory = EdSubcat_Personnel_African;
+    identityTypes[] =
+    {
+        Head_African,
+        G_CIVIL_male
+    };
+	genericNames = AfroMen;
+};
+class Aegis_C_Man_CargoPilot_euro_F: Aegis_C_Man_CargoPilot_F
+{
+    author = $STR_A3_A_Ravenholme;
+     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_C_Man_CargoPilot_F.jpg";
+    vehicleClass = European;
+    editorSubcategory = EdSubcat_Personnel_European;
+    identityTypes[] =
+    {
+        Head_Euro,
+        G_CIVIL_male
+    };
+	genericNames = NATOMen;
+};
+class Aegis_C_Man_CargoPilot_asia_F: Aegis_C_Man_CargoPilot_F
+{
+    author = $STR_A3_A_Ravenholme;
+     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_C_Man_CargoPilot_F.jpg";
+    vehicleClass = Asian;
+    editorSubcategory = EdSubcat_Personnel_Asian;
+    identityTypes[] =
+    {
+        Head_Asian,
+        G_CIVIL_male
+    };
+	genericNames = AsianMen;
+};
+class Aegis_C_Man_CargoPilot_tna_F: Aegis_C_Man_CargoPilot_F
+{
+    author = $STR_A3_A_Ravenholme;
+     //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_C_Man_CargoPilot_F.jpg";
+    vehicleClass = MenTanoan;
+    editorSubcategory = EdSubcat_Personnel_Tanoan;
+     identityTypes[] =
+    {
+        LanguageFRE_F,
+        Head_Tanoan,
+        G_CIV_exp
+    };
+	genericNames = TanoanMen;
+};

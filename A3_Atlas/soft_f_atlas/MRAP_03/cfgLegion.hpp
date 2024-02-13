@@ -1,7 +1,7 @@
 class Atlas_B_L_MRAP_03_F: MRAP_03_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_MRAP_03_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_MRAP_03_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -17,6 +17,7 @@ class Atlas_B_L_MRAP_03_F: MRAP_03_base_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,16);
+		mag_xx(20Rnd_762x51_mag,4);
 		mag_xx(200Rnd_556x45_Box_Red_F,3);
 		mag_xx(HandGrenade,10);
 		mag_xx(SmokeShell,4);
@@ -33,13 +34,13 @@ class Atlas_B_L_MRAP_03_F: MRAP_03_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
 	};
 };
 class Atlas_B_L_MRAP_03_gmg_F: MRAP_03_hmg_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_MRAP_03_gmg_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_MRAP_03_gmg_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -63,6 +64,7 @@ class Atlas_B_L_MRAP_03_gmg_F: MRAP_03_hmg_base_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,16);
+		mag_xx(20Rnd_762x51_mag,4);
 		mag_xx(200Rnd_556x45_Box_Red_F,3);
 		mag_xx(HandGrenade,10);
 		mag_xx(SmokeShell,4);
@@ -79,13 +81,13 @@ class Atlas_B_L_MRAP_03_gmg_F: MRAP_03_hmg_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
 	};
 };
 class Atlas_B_L_MRAP_03_hmg_F: MRAP_03_gmg_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_MRAP_03_hmg_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_MRAP_03_hmg_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -101,6 +103,7 @@ class Atlas_B_L_MRAP_03_hmg_F: MRAP_03_gmg_base_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,16);
+		mag_xx(20Rnd_762x51_mag,4);
 		mag_xx(200Rnd_556x45_Box_Red_F,3);
 		mag_xx(HandGrenade,10);
 		mag_xx(SmokeShell,4);
@@ -117,6 +120,6 @@ class Atlas_B_L_MRAP_03_hmg_F: MRAP_03_gmg_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
 	};
 };

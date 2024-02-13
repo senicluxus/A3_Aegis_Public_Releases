@@ -51,3 +51,52 @@ class Atlas_B_G_UGV_01_medical_F: UGV_01_medical_base_F
         "\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
     };
 };
+
+/* Bundeswehr Arid */
+class Atlas_B_G_UGV_01_ard_F: Atlas_B_G_UGV_01_F
+{
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
+    faction = Atlas_BLU_G_ard_F;
+    crew = B_UAV_AI;
+    typicalCargo[] = {Atlas_B_G_Soldier_ard_F};
+    textureList[] = {Blufor,1};
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Drones_F\Soft_F_Gamma\UGV_01\Data\UGV_01_ext_CO.paa",
+        "\A3\Drones_F\Soft_F_Gamma\UGV_01\Data\UGV_01_int_CO.paa"
+    };
+};
+class Atlas_B_G_UGV_01_rcws_ard_F: Atlas_B_G_UGV_01_rcws_F
+{
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
+    faction = Atlas_BLU_G_ard_F;
+    crew = B_UAV_AI;
+    typicalCargo[] = {Atlas_B_G_Soldier_ard_F};
+    textureList[] = {Blufor,1};
+    hiddenSelectionsTextures[] =
+    {
+        "\A3\Drones_F\Soft_F_Gamma\UGV_01\Data\UGV_01_ext_CO.paa",
+        "\A3\Drones_F\Soft_F_Gamma\UGV_01\Data\UGV_01_int_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\Turret_CO.paa"
+    };
+};
+class Atlas_B_G_UGV_01_medical_ard_F: Atlas_B_G_UGV_01_medical_F
+{
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
+    faction = Atlas_BLU_G_ard_F;
+    crew = B_UAV_AI;
+    typicalCargo[] = {Atlas_B_G_Soldier_ard_F};
+    textureList[] = {Blufor,1};
+    hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_CO.paa",
+		"\A3\Drones_F\Soft_F_Gamma\UGV_01\Data\UGV_01_int_CO.paa",
+		"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
+    };
+};

@@ -199,8 +199,8 @@ class O_R_Heli_Transport_04_F: O_Heli_Transport_04_F
 	textureList[] = {Russian2,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_RUS_02_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_RUS2_02_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_RUS_01_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_RUS_02_CO.paa"
 	};
 
     /* Turrets */
@@ -886,7 +886,7 @@ class O_R_Heli_Transport_04_box_F: O_Heli_Transport_04_box_F
 		mag_xx(30Rnd_9x21_Mag_SMG_02,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(30Rnd_545x39_AK12_Mag_F,24);
-		mag_xx(75Rnd_762x39_AK12_Mag_F,8);
+		mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,8);
 		mag_xx(10Rnd_93x64_DMR_05_Mag,6);
 		mag_xx(17Rnd_9x21_Mag,2);
 		mag_xx(chemlight_red,2);

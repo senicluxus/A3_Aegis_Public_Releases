@@ -142,11 +142,11 @@ class Atlas_O_T_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,4);
+		mag_xx(30Rnd_556x45_stanag_sand_green,4);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_AUG_C_black_F,2);
+		weap_xx(arifle_SCAR_L_Short_F,2);
 	};
 };
 class Atlas_O_T_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
@@ -286,19 +286,19 @@ class Atlas_O_T_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 	typicalCargo[] = {Atlas_O_T_Helipilot_F};
 	textureList[] =
 	{
-		Hex,0,
-		Black,1,
+		Hex,1,
+		Black,0,
 		Blackcustom,0
 	};
-	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_OPFOR_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,4);
+		mag_xx(30Rnd_556x45_stanag_sand_green,4);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_AUG_C_black_F,2);
+		weap_xx(arifle_SCAR_L_Short_F,2);
 	};
 };

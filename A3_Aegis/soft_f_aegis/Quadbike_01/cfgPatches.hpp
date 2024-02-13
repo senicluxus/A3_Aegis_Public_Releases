@@ -29,7 +29,10 @@ class CfgPatches
             B_GEN_Quadbike_01_F,
 
             /* From "cfgRUS.hpp" */
-            O_R_Quadbike_01_F
+            O_R_Quadbike_01_F,
+
+            /* From "cfgEAF.hpp" */
+            Aegis_B_E_Quadbike_01_F
         };
 		weapons[] = {/* Automated */};
 	};

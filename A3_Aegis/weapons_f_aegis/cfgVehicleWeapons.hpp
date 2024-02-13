@@ -143,6 +143,14 @@ class GMG_20mm: GMG_F
     {
         displayName = $STR_A3_A_CfgWeapons_GMG_20mm0;
     };
+	magazines[] = {"200Rnd_20mm_G_belt","40Rnd_20mm_g_belt","40Rnd_20mm_ab_g_belt"};
+	class EventHandlers
+	{
+		class Aegis
+		{
+			fired = "_this call Aegis_fnc_airburstInit";
+		};
+	};
 };
 class autocannon_30mm_CTWS: autocannon_Base_F
 {
@@ -958,3 +966,198 @@ class weapon_AGM_154Launcher: RocketPods
     lockedTargetSound[] = {"\A3\Sounds_F\weapons\Rockets\locked_3",db-5,2.5};
     lockingTargetSound[] = {"\A3\Sounds_F\weapons\Rockets\locked_1",db-5,1};
 };
+
+class GMG_40mm: GMG_F
+{
+	magazines[] = {
+		"200Rnd_40mm_G_belt",
+		"96Rnd_40mm_G_belt",
+		"64Rnd_40mm_G_belt",
+		"32Rnd_40mm_G_belt",
+		"64Rnd_40mm_AB_G_belt"
+	};
+	class EventHandlers
+	{
+		class Aegis
+		{
+			fired = "_this call Aegis_fnc_airburstInit";
+		};
+	};
+};
+class Aegis_Autocannon_Heli_Attack_04_HE_F: CannonCore
+	{
+		scope=1;
+		displayName="Autocannon 20mm";
+		magazines[]=
+		{
+			"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_F",
+			"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Yellow_F",
+			"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Green_F",
+			"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Red_F",
+			"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_White_F",
+		};
+		canLock=0;
+		ballisticsComputer="1 + 2 + 16";
+		cursor="EmptyCursor";
+		cursorAim="mg";
+		showAimCursorInternal=0;
+		modes[]=
+		{
+			"AutoFast",
+			"close",
+			"short",
+			"medium",
+			"far"
+		};
+		nameSound="cannon";
+		shotFromTurret=1;
+		autoFire=1;
+		burst=5;
+		reloadTime=0.02;
+		FCSMaxLeadSpeed=30.555599;
+		FCSZeroingDelay=0.5;
+		maxZeroing=2500;
+		aiDispersionCoefY=0.5;
+		aiDispersionCoefX=0.5;
+		class GunParticles
+		{
+			class Effect
+			{
+				effectName="";
+				positionName="";
+				directionName="";
+			};
+		};
+		class AutoFast: Mode_FullAuto
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			soundContinuous=0;
+			autoFire=1;
+			flash="gunfire";
+			flashSize=0.1;
+			recoil="Empty";
+			ffMagnitude=0.5;
+			ffFrequency=11;
+			ffCount=6;
+			reloadTime=0.133333;
+			dispersion=0.0044;
+			aiRateOfFire=1;
+			aiRateOfFireDistance=10;
+			minRange=0;
+			minRangeProbab=0.0099999998;
+			midRange=1;
+			midRangeProbab=0.0099999998;
+			maxRange=2;
+			maxRangeProbab=0.0099999998;
+			textureType="fullAuto";
+		};
+		class close: AutoFast
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=16;
+			burstRangeMax=37;
+			aiRateOfFire=0.5;
+			aiRateOfFireDispersion=1;
+			aiRateOfFireDistance=50;
+			minRange=0;
+			minRangeProbab=0.1;
+			midRange=50;
+			midRangeProbab=0.64999998;
+			maxRange=400;
+			maxRangeProbab=0.75;
+		};
+		class near: close
+		{
+		};
+		class short: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=12;
+			burstRangeMax=32;
+			aiRateOfFire=1;
+			aiRateOfFireDispersion=2;
+			aiRateOfFireDistance=200;
+			minRange=200;
+			minRangeProbab=0.64999998;
+			midRange=400;
+			midRangeProbab=0.75;
+			maxRange=1000;
+			maxRangeProbab=0.69999999;
+		};
+		class medium: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=12;
+			burstRangeMax=28;
+			aiRateOfFire=2;
+			aiRateOfFireDispersion=2;
+			aiRateOfFireDistance=800;
+			minRange=800;
+			minRangeProbab=0.69999999;
+			midRange=1400;
+			midRangeProbab=0.40000001;
+			maxRange=1800;
+			maxRangeProbab=0.15000001;
+		};
+		class far: close
+		{
+			aiBurstTerminable=1;
+			showToPlayer=0;
+			burst=9;
+			burstRangeMax=20;
+			aiRateOfFire=4;
+			aiRateOfFireDispersion=4;
+			aiRateOfFireDistance=1400;
+			minRange=1400;
+			minRangeProbab=0.5;
+			midRange=1800;
+			midRangeProbab=0.15000001;
+			maxRange=2500;
+			maxRangeProbab=0.050000001;
+		};
+	};	
+	class Aegis_Autocannon_Heli_Attack_04_AP_F: Aegis_Autocannon_Heli_Attack_04_HE_F
+	{
+		magazines[]=
+		{
+			"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_F",
+			"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Yellow_F",
+			"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Green_F",
+			"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Red_F",
+			"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_White_F",
+		};
+	};
+    /* BMP-M Weapons*/
+    class Aegis_Autocannon_57mm: autocannon_40mm_CTWS
+    {
+	    displayName="Cannon 57mm";
+	    scope = public;
+	    muzzles[]=
+	    {
+		    HE,
+		    AP
+	    };
+	    class HE: autocannon_Base_F
+	    {
+		    displayName="Cannon 57mm";
+		    magazines[]=
+		    {
+		    	Aegis_340Rnd_57mm_GPR_shells,
+			    Aegis_340Rnd_57mm_GPR_shells_Tracer,
+		    };
+	    };
+	    class AP: autocannon_Base_F
+	    {
+		    displayName="Cannon 57mm";
+		    magazines[]=
+		    {
+			    Aegis_160Rnd_57mm_APFSDS_shells
+		    };
+        };
+    };

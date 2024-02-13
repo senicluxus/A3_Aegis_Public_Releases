@@ -455,6 +455,7 @@ class I_Soldier_AA_F: I_Soldier_02_F
 };
 class I_medic_F: I_Soldier_02_F
 {
+    backpack = I_AssaultPack_dgtl_Medic;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_medic_F.jpg";
 	magazines[] =
 	{
@@ -493,6 +494,7 @@ class I_medic_F: I_Soldier_02_F
 };
 class I_Soldier_repair_F: I_Soldier_02_F
 {
+    backpack = I_AssaultPack_dgtl_Repair;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Soldier_repair_F.jpg";
     weapons[] =
     {

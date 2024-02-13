@@ -15,7 +15,9 @@ class CfgPatches
             B_T_Heli_Transport_03_F,
             B_T_Heli_Transport_03_unarmed_F,
             B_W_Heli_Transport_03_F,
-            B_W_Heli_Transport_03_unarmed_F
+            B_W_Heli_Transport_03_unarmed_F,
+			Aegis_B_D_Heli_Transport_03_F,
+			Aegis_B_D_Heli_Transport_03_unarmed_F
         };
 		weapons[] = {/* Automated */};
 	};

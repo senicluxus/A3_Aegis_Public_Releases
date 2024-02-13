@@ -16,6 +16,7 @@ class CfgWeapons
 	};
 	class H_MilCap_oucamo;
 	class H_Cap_headphones;
+	class H_Watchcap_blk;
 	class H_Shemag_khk: HelmetBase
 	{
 		scope = public;
@@ -131,6 +132,13 @@ class CfgWeapons
 		{
 			uniformModel = "\A3\Characters_F_EPB\Guerrilla\headgear_shemagmask_hs.p3d";
 		};
+	};
+	class H_Watchcap_flora: H_Watchcap_blk
+	{
+		author = $STR_A3_A_Jamie;
+		picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_Watchcap_Flora_CA.paa";
+		displayName = $STR_A3_O_CfgWeapons_H_Watchcap_flora0;
+		hiddenSelectionsTextures[] = {"\A3_Opf\Characters_F_Opf\Headgear\Data\woolhat_flora_CO.paa"};
 	};
     /*
 	class H_Cap_redburger: H_Cap_red

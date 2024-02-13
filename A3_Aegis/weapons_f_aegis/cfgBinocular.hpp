@@ -31,7 +31,7 @@ class O_NVGoggles_ghex_F: O_NVGoggles_hex_F
 {
     modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
 };
-class NVGogglesB_blk_F: NVGoggles
+/*class NVGogglesB_blk_F: NVGoggles
 {
     modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
 };
@@ -42,7 +42,7 @@ class NVGogglesB_grn_F: NVGoggles
 class NVGogglesB_gry_F: NVGoggles
 {
     modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
-};
+};*/
 class Laserdesignator_02_blk_F: Laserdesignator_02
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -79,6 +79,8 @@ class O_NVGoggles_blk_F: O_NVGoggles_hex_F
 		modelOff = "\A3\Weapons_F_Exp\Binocular\O_NVGoggles_blk_off_F.p3d";
 	};
 };
+
+/* NVG Slot Goggles */
 class Goggles: NVGoggles
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -115,7 +117,267 @@ class Goggles_grn_F: Goggles
 	picture = "\A3\Characters_F_Exp\BLUFOR\Data\UI\icon_G_Combat_Goggles_tna_F_CA.paa";
 	class ItemInfo: ItemInfo
 	{
-		uniformModel = "\A3_Aegis\Weapons_F_Aegis\Binocular\Goggles_grn_F.p3d";
-		modelOff = "\A3_Aegis\Weapons_F_Aegis\Binocular\Goggles_grn_F.p3d";
+		uniformModel = "\A3_Aegis\Weapons_f_aegis\Binocular\Goggles_grn_F.p3d";
+		modelOff = "\A3_Aegis\Weapons_f_aegis\Binocular\Goggles_grn_F.p3d";
+	};
+};
+
+/* IVAS */
+class Aegis_nvg_IVAS_01_base: NVGoggles
+{
+	scope = Protected;
+	scopeArsenal = Protected;
+	author = $STR_A3_A_BranFlakes;
+	displayName = "IVAS";
+	model = "\A3_Aegis\Weapons_F_Aegis\Binocular\IVAS_off.p3d";
+	hiddenSelections[] =
+	{
+		Camo1,	// Frames component
+		Camo2,	// Tight straps
+		Camo3	// Wide straps
+	};
+
+	//--- Vision
+	modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
+	visionMode[] =
+	{
+		Normal,
+		NVG,
+		TI
+	};
+	thermalMode[] = {0};
+	class ItemInfo: ItemInfo
+	{
+		uniformModel = "\A3_Aegis\Weapons_F_Aegis\Binocular\IVAS_on.p3d";
+		modelOff = "\A3_Aegis\Weapons_F_Aegis\Binocular\IVAS_off.p3d";
+		hiddenSelections[] =
+		{
+			Camo1,	// Frames component
+			Camo2,	// Tight straps
+			Camo3	// Wide straps
+		};
+		mass = 30;
+	};
+};
+class Aegis_NVG_IVAS_01_tan_F: Aegis_nvg_IVAS_01_base
+{
+	scope = public;
+	scopeArsenal = public;
+	author = $STR_A3_A_AveryTheKitty_and_Defcon;
+	picture = "\A3_Aegis\Weapons_F_Aegis\Binocular\Data\UI\icon_Aegis_nvg_IVAS_01_tan_CA.paa";
+	displayName = $STR_A3_A_CfgWeapons_Aegis_NVG_IVAS_tan_F0;
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\IVAS_tan_CO.paa",
+		"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\IVAS_tan_CO.paa"
+	};
+};
+class Aegis_NVG_IVAS_01_blk_F: Aegis_nvg_IVAS_01_base
+{
+	scope = public;
+	scopeArsenal = public;
+	author = $STR_A3_A_AveryTheKitty_and_Defcon;
+	picture = "\A3_Aegis\Weapons_F_Aegis\Binocular\Data\UI\icon_Aegis_nvg_IVAS_01_black_CA.paa";
+	displayName = $STR_A3_A_CfgWeapons_Aegis_NVG_IVAS_blk_F0;
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\IVAS_black_CO.paa",
+		"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\IVAS_black_CO.paa"
+	};
+};
+class Aegis_NVG_IVAS_01_grn_F: Aegis_nvg_IVAS_01_base
+{
+	scope = public;
+	scopeArsenal = public;
+	author = $STR_A3_A_AveryTheKitty_and_Defcon;
+	picture = "\A3_Aegis\Weapons_F_Aegis\Binocular\Data\UI\icon_Aegis_nvg_IVAS_01_green_CA.paa";
+	displayName = $STR_A3_A_CfgWeapons_Aegis_NVG_IVAS_grn_F0;
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\IVAS_green_CO.paa",
+		"\A3_Aegis\Weapons_F_Aegis\Binocular\Data\IVAS_green_CO.paa"
+	};
+};
+
+/* NVG Slot Armbands */
+class Aegis_NV_G_Armband_Blu_F: NVGoggles
+{
+	author = $STR_A3_A_Jamie;
+	displayName = $STR_A3_A_CfgGlasses_G_Armband_BLU_F0;
+	modelOptics = "\A3\Weapons_F\Reticle\optics_empty.p3d";
+	model = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband.p3d";
+	picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_BLU_F_CA.paa";
+	hiddenSelections[] =
+	{
+		camo
+	};
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_blu_CO.paa"
+	};
+	visionMode[] = {Normal};
+	descriptionShort = $STR_A3_A_CfgGlasses_G_Armband1;
+	class ItemInfo: ItemInfo
+	{
+		uniformModel = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband.p3d";
+		modelOff = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband.p3d";
+		mass = 2;
+		hiddenSelections[] =
+		{
+			camo
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_blu_CO.paa"
+		};
+	};
+};
+class Aegis_NV_G_Armband_IND_F: Aegis_NV_G_Armband_Blu_F
+{
+	author = $STR_A3_A_Jamie;
+	displayName = $STR_A3_A_CfgGlasses_G_Armband_IND_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IND_F_CA.paa";
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_indep_CO.paa"
+	};
+	class ItemInfo: ItemInfo
+	{
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_indep_CO.paa"
+		};
+	};
+};
+class Aegis_NV_G_Armband_OPF_F: Aegis_NV_G_Armband_Blu_F
+{
+	author = $STR_A3_A_Jamie;
+	displayName = $STR_A3_A_CfgGlasses_G_Armband_OPF_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_OPF_F_CA.paa";
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_opf_CO.paa"
+	};
+	class ItemInfo: ItemInfo
+	{
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_opf_CO.paa"
+		};
+	};
+};
+class Aegis_NV_G_Armband_CSAT_F: Aegis_NV_G_Armband_Blu_F
+{
+	author = $STR_A3_A_Jamie;
+	displayName = $STR_A3_A_CfgGlasses_G_Armband_CSAT_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_CSAT_F_CA.paa";
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_CSAT_CO.paa"
+	};
+	class ItemInfo: ItemInfo
+	{
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_CSAT_CO.paa"
+		};
+	};
+};
+class Aegis_NV_G_Armband_FIA_F: Aegis_NV_G_Armband_Blu_F
+{
+	author = $STR_A3_A_Jamie;
+	displayName = $STR_A3_A_CfgGlasses_G_Armband_FIA_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_FIA_F_CA.paa";
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_FIA_CO.paa"
+	};
+	class ItemInfo: ItemInfo
+	{
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_FIA_CO.paa"
+		};
+	};
+};
+class Aegis_NV_G_Armband_Blu_Alt_F: Aegis_NV_G_Armband_Blu_F
+{
+	author = $STR_A3_A_Jamie;
+	displayName = $STR_A3_A_CfgGlasses_G_Armband_BLU_alt_F0;
+	model = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
+	picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_BLU_F_CA.paa";
+	class ItemInfo: ItemInfo
+	{
+		uniformModel = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
+		modelOff = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
+		mass = 2;
+	};
+};
+class Aegis_NV_G_Armband_IND_alt_F: Aegis_NV_G_Armband_Blu_Alt_F
+{
+	author = $STR_A3_A_Jamie;
+	displayName = $STR_A3_A_CfgGlasses_G_Armband_IND_alt_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IND_F_CA.paa";
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_indep_CO.paa"
+	};
+	class ItemInfo: ItemInfo
+	{
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_indep_CO.paa"
+		};
+	};
+};
+class Aegis_NV_G_Armband_OPF_alt_F: Aegis_NV_G_Armband_Blu_Alt_F
+{
+	author = $STR_A3_A_Jamie;
+	displayName = $STR_A3_A_CfgGlasses_G_Armband_OPF_alt_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_OPF_F_CA.paa";
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_opf_CO.paa"
+	};
+	class ItemInfo: ItemInfo
+	{
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_opf_CO.paa"
+		};
+	};
+};
+class Aegis_NV_G_Armband_CSAT_alt_F: Aegis_NV_G_Armband_Blu_Alt_F
+{
+	author = $STR_A3_A_Jamie;
+	displayName = $STR_A3_A_CfgGlasses_G_Armband_CSAT_alt_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_CSAT_F_CA.paa";
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_CSAT_CO.paa"
+	};
+	class ItemInfo: ItemInfo
+	{
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_CSAT_CO.paa"
+		};
+	};
+};
+class Aegis_NV_G_Armband_FIA_alt_F: Aegis_NV_G_Armband_Blu_Alt_F
+{
+	author = $STR_A3_A_Jamie;
+	displayName = $STR_A3_A_CfgGlasses_G_Armband_FIA_alt_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_FIA_F_CA.paa";
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_FIA_CO.paa"
+	};
+	class ItemInfo: ItemInfo
+	{
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_FIA_CO.paa"
+		};
 	};
 };

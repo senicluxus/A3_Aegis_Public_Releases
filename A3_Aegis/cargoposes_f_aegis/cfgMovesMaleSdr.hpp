@@ -223,5 +223,73 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			soundEnabled = false;
 			connectTo[] = {Unconscious,0.1};
 		};
+		class KIA_Heli_Attack_04_pilot: DefaultDie
+		{
+			actions = DeadActions;
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\Heli_Attack_04_pilot_KIA.rtm";
+			speed = 0.5;
+			looped = 0;
+			terminal = 1;
+			soundEnabled = 0;
+			connectTo[]=
+			{
+				"Unconscious",
+				0.1
+			};
+		};
+		class Heli_Attack_04_pilot: Crew
+		{
+			file="\A3_Aegis\Cargoposes_F_Aegis\Anim\Heli_Attack_04_pilot.rtm";
+			interpolateTo[]=
+			{
+				"KIA_Heli_Attack_04_pilot",
+				1
+			};
+			leftHandIKCurve[] = {1};
+			rightHandIKCurve[] = {1};
+			leftHandIKBeg = 1;
+			leftHandIKEnd = 1;
+			leaning = "crewShake_half";
+		};
+		class KIA_Heli_Attack_04_gunner: DefaultDie
+		{
+			actions = DeadActions;
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\Heli_Attack_04_gunner_KIA.rtm";
+			speed = 0.5;
+			looped = 0;
+			terminal = 1;
+			soundEnabled = 0;
+			connectTo[]=
+			{
+				"Unconscious",
+				0.1
+			};
+		};
+		class Heli_Attack_04_gunner: Crew
+		{
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\Heli_Attack_04_gunner.rtm";
+			interpolateTo[]=
+			{
+				"KIA_Heli_Attack_04_gunner",
+				1
+			};
+			leaning = "crewShake_half";
+		};
+		class KIA_Passenger_Heli_Attack_04: DefaultDie
+		{
+			actions = DeadActions;
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\Heli_Attack_04_cargo_KIA.rtm";
+			looped = false;
+			terminal = true;
+			soundEnabled = false;
+			connectTo[] = {Unconscious,0.1};
+		};
+		class Passenger_Heli_Attack_04: Crew
+		{
+			file = "\A3_Aegis\Cargoposes_F_Aegis\Anim\Heli_Attack_04_cargo.rtm";
+			interpolateTo[] = {KIA_Passenger_Heli_Attack_04,true};
+			leftHandIKCurve[] = {1};
+			rightHandIKCurve[] = {1};
+		};
 	};
 };

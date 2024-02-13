@@ -138,8 +138,8 @@ class Atlas_O_W_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Heli_Attack_02_dynamicLoadout_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	scope = protected;
+	scopeCurator = protected;
 	side = TEast;
 	faction = Atlas_OPF_W_F;
 	crew = Atlas_O_W_Helipilot_F;
@@ -147,12 +147,13 @@ class Atlas_O_W_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout
 	textureList[] =
 	{
 		Black,0,
-		GreenHex,1
+		GreenHex,0,
+        WoodlandHex,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body1_ghex_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body2_ghex_CO.paa"
+		"\A3_Atlas\Air_F_Atlas\Heli_Attack_02\Data\Heli_Attack_02_body1_whex_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\Heli_Attack_02\Data\Heli_Attack_02_body2_whex_CO.paa"
 	};
 	class TransportMagazines
 	{

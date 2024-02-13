@@ -1,0 +1,90 @@
+ambient[]={1,1,1,1};
+diffuse[]={1,1,1,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,0};
+specular[]={0.30000001,0.30000001,0.30000001,1};
+specularPower=150;
+PixelShaderID="Super";
+VertexShaderID="Super";
+class Stage1
+{
+	texture="a3_aegis\air_f_aegis\Heli_Transport_02\data\Heli_Transport_02_int_02_NOHQ.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,0.5,1,DT)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={10,0,0};
+		up[]={0,10,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage3
+{
+	texture="a3\data_f\destruct\damage_metalsheet_mca.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={3,0,0};
+		up[]={0,3,0};
+		dir[]={0,0,0};
+		pos[]={0.34999999,0.1,0};
+	};
+};
+class Stage4
+{
+	texture="#(argb,8,8,3)color(1,1,1,1,AS)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,1};
+	};
+};
+class Stage5
+{
+	texture="a3_aegis\air_f_aegis\Heli_Transport_02\data\Heli_Transport_02_int_02_SMDI.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,1};
+	};
+};
+class Stage6
+{
+	texture="#(ai,64,64,1)fresnel(2.0,0.1)";
+	uvSource="none";
+};
+class Stage7
+{
+	useWorldEnvMap="true";
+	texture="a3\data_f\env_land_ca.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class StageTI
+{
+	texture="a3_aegis\air_f_aegis\Heli_Transport_02\data\Heli_Transport_02_int_02_TI_CA.paa";
+};

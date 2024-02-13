@@ -60,6 +60,13 @@ class CfgVehicles
 				textures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa"};
 				factions[] = {};
 			};
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_A3_A_Ravenholme;
+				textures[] = {"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Light_01_ext_sand_CO.paa"};
+				factions[] = {};
+			};
 		};
 	};
     class Heli_Light_01_unarmed_base_F: Heli_Light_01_base_F{};
@@ -91,6 +98,14 @@ class CfgVehicles
                     "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa",
                     "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
                 };
+			};
+			class Sand: Sand
+			{
+				textures[] = 
+				{
+					"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Light_01_ext_sand_CO.paa",
+					"a3\air_f\heli_light_01\data\heli_light_01_dot_ca.paa"
+				};
 			};
 		};
     };

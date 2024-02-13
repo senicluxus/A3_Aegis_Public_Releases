@@ -56,13 +56,6 @@ class CfgVehicles
 			};
 		};
 	};
-	
-    /* Factions */
-    #include "cfgBLUFOR.hpp"
-    #include "cfgOPFOR.hpp"
-    #include "cfgSyndikat.hpp"
-    #include "cfgGendarmerie.hpp"
-    #include "cfgRUS.hpp"
 	class I_E_Quadbike_01_F: Quadbike_01_base_F
 	{
 		hiddenSelectionsTextures[] =
@@ -71,4 +64,12 @@ class CfgVehicles
 			"\A3_Aegis\Soft_F_Aegis\Quadbike_01\Data\Quadbike_01_wheel_EAF_CO.paa"
 		};
 	};
+    /* Factions */
+    #include "cfgBLUFOR.hpp"
+    #include "cfgOPFOR.hpp"
+    #include "cfgSyndikat.hpp"
+    #include "cfgGendarmerie.hpp"
+    #include "cfgRUS.hpp"
+	#include "cfgEAF.hpp"
+	
 };

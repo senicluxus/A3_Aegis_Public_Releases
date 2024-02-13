@@ -42,7 +42,7 @@ class B_Carryall_CBR_ammo_F: B_Carryall_cbr
 	{
 		mag_xx(30Rnd_556x45_Stanag_red,6);
 		mag_xx(200Rnd_556x45_Box_Red_F,2);
-		mag_xx(RPG7_F,1);
+		mag_xx(MRAWS_HEAT55_F,1);
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);
 		mag_xx(1Rnd_HE_Grenade_shell,6);

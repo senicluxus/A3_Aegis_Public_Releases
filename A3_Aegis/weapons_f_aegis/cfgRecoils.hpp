@@ -111,6 +111,24 @@ class CfgRecoils
 		temporary = 0.01;
 	};
 
+	/* RPK-12 */
+	class recoil_rpk12_545: recoil_default
+	{
+		muzzleOuter[] =
+		{
+			0.2,
+			0.7,
+			0.3,
+			0.3
+		};
+		kickBack[] =
+		{
+			0.02,
+			0.05
+		};
+		temporary = 0.01;
+	};
+
     /* L85A3 */
 	class recoil_sa80: recoil_default
 	{
@@ -179,6 +197,24 @@ class CfgRecoils
 		{
 			0.04,
 			0.08
+		};
+		temporary = 0.01;
+	};
+	
+	/* RPK-74 */
+	class recoil_rpk74: recoil_default
+	{
+		muzzleOuter[] =
+		{
+			0.2,
+			0.9,
+			0.3,
+			0.3
+		};
+		kickBack[] =
+		{
+			0.03,
+			0.07
 		};
 		temporary = 0.01;
 	};
@@ -272,4 +308,37 @@ class CfgRecoils
 		};
 		temporary = 0.01;
 	};
+	/* Mk11 / M110 */
+	class Aegis_recoil_rifle_SR25: recoil_default
+	{
+		muzzleOuter[] = 
+		{
+			0.30000001,
+			1.5,
+			0.5,
+			0.40000001
+		};
+		kickBack[] = 
+		{
+			0.029999999,
+			0.059999999
+		};
+		temporary = 0.0099999998;
+	};
+
+	/* M4A1 Recoil*/
+	class Aegis_recoil_rifle_M4A1: recoil_default
+    {
+        muzzleOuter[] = {
+			0.2,
+			0.80000001,
+			0.30000001,
+			0.2
+		};
+        kickBack[] = {
+			0.0099999998,
+			0.029999999
+		};
+        temporary = 0.0099999998;
+    };
 };

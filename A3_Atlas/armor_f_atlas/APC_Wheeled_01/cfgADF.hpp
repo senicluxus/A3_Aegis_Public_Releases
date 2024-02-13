@@ -250,6 +250,141 @@ class Atlas_B_A_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 	};
 };
 
+class Atlas_B_A_APC_Wheeled_01_command_lxWS: APC_Wheeled_01_command_base_lxWS
+{
+      author = $STR_A3_A_BranFlakes;
+      editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_A_APC_Wheeled_01_command_lxWS.jpg"; 
+      crew = Atlas_B_A_Crew_F;
+      typicalCargo[] = {Atlas_B_A_Crew_F};
+	faction = Atlas_BLU_A_F;
+      hiddenSelectionsTextures[] = 
+      {
+            "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_base_ADF_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_adds_ADF_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_tows_ADF_CO.paa",
+            "\A3\Armor_f\Data\camonet_CSAT_Stripe_Desert_CO.paa",
+            "\A3\Armor_F\Data\cage_sand_CO.paa",
+            "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_adf_co.paa"
+      };
+      textureList[] = {ADF, 1};
+       /* Inventory */
+	class TransportWeapons
+	{
+		weap_xx(arifle_AUG_F,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_556x45_AUG_Mag_F,12);
+		mag_xx(200Rnd_556x45_Box_Red_F,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,4);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(MRAWS_HEAT55_F,5);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_aucamo_F,2);
+	};
+};
+class Atlas_B_A_APC_Wheeled_01_mortar_lxWS: APC_Wheeled_01_mortar_base_lxWS
+{
+      author = $STR_A3_A_BranFlakes;
+      editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_A_APC_Wheeled_01_mortar_lxWS.jpg"; 
+      crew = Atlas_B_A_Crew_F;
+      typicalCargo[] = {Atlas_B_A_Crew_F};
+	faction = Atlas_BLU_A_F;
+      hiddenSelectionsTextures[] = 
+      {
+            "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_base_ADF_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_adds_ADF_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_tows_ADF_CO.paa",
+            "\A3\Armor_f\Data\camonet_CSAT_Stripe_Desert_CO.paa",
+            "\A3\Armor_F\Data\cage_sand_CO.paa",
+            "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_adf_co.paa"
+      };
+      textureList[] = {ADF, 1};
+       /* Inventory */
+	class TransportWeapons
+	{
+		weap_xx(arifle_AUG_F,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_556x45_AUG_Mag_F,12);
+		mag_xx(200Rnd_556x45_Box_Red_F,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,4);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(MRAWS_HEAT55_F,5);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_aucamo_F,2);
+	};
+};
+class Atlas_B_A_APC_Wheeled_01_atgm_v2: APC_Wheeled_01_atgm_base_v2
+{
+      author = $STR_A3_A_BranFlakes;
+      scope = public;
+      scopeCurator = public;
+      editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_A_APC_Wheeled_01_atgm_v2.jpg"; 
+      crew = Atlas_B_A_Crew_F;
+      typicalCargo[] = {Atlas_B_A_Crew_F};
+	faction = Atlas_BLU_A_F;
+      hiddenSelectionsTextures[] = 
+      {
+            "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_base_ADF_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_adds_ADF_CO.paa",
+		"\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_tows_ADF_CO.paa",
+            "\A3\Armor_f\Data\camonet_CSAT_Stripe_Desert_CO.paa",
+            "\A3\Armor_F\Data\cage_sand_CO.paa",
+            "\A3_Atlas\Armor_f_Atlas\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_adf_co.paa"
+      };
+      textureList[] = {ADF, 1};
+       /* Inventory */
+	class TransportWeapons
+	{
+		weap_xx(arifle_AUG_F,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_556x45_AUG_Mag_F,12);
+		mag_xx(200Rnd_556x45_Box_Red_F,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,4);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(MRAWS_HEAT55_F,5);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_aucamo_F,2);
+	};
+};
+
 /* ADF Arid */
 class Atlas_B_A_APC_Wheeled_01_cannon_v2_ard_F: Atlas_B_A_APC_Wheeled_01_cannon_v2_F
 {
@@ -258,8 +393,45 @@ class Atlas_B_A_APC_Wheeled_01_cannon_v2_ard_F: Atlas_B_A_APC_Wheeled_01_cannon_
 	typicalCargo[] = {Atlas_B_A_Crew_ard_F};
 };
 
+class Atlas_B_A_APC_Wheeled_01_command_ard_lxWS: Atlas_B_A_APC_Wheeled_01_command_lxWS
+{
+      faction = Atlas_BLU_A_ard_F;
+	crew = Atlas_B_A_Crew_ard_F;
+	typicalCargo[] = {Atlas_B_A_Crew_ard_F};
+};
+class Atlas_B_A_APC_Wheeled_01_mortar_ard_lxWS: Atlas_B_A_APC_Wheeled_01_mortar_lxWS
+{
+      faction = Atlas_BLU_A_ard_F;
+	crew = Atlas_B_A_Crew_ard_F;
+	typicalCargo[] = {Atlas_B_A_Crew_ard_F};
+};
+class Atlas_B_A_APC_Wheeled_01_atgm_ard_v2: Atlas_B_A_APC_Wheeled_01_atgm_v2
+{
+      faction = Atlas_BLU_A_ard_F;
+	crew = Atlas_B_A_Crew_ard_F;
+	typicalCargo[] = {Atlas_B_A_Crew_ard_F};
+};
+
 /* ADF Tropic */
 class Atlas_B_A_APC_Wheeled_01_cannon_v2_trp_F: Atlas_B_A_APC_Wheeled_01_cannon_v2_F
+{
+      faction = Atlas_BLU_A_trp_F;
+	crew = Atlas_B_A_Crew_trp_F;
+	typicalCargo[] = {Atlas_B_A_Crew_trp_F};
+};
+class Atlas_B_A_APC_Wheeled_01_command_trp_lxWS: Atlas_B_A_APC_Wheeled_01_command_lxWS
+{
+      faction = Atlas_BLU_A_trp_F;
+	crew = Atlas_B_A_Crew_trp_F;
+	typicalCargo[] = {Atlas_B_A_Crew_trp_F};
+};
+class Atlas_B_A_APC_Wheeled_01_mortar_trp_lxWS: Atlas_B_A_APC_Wheeled_01_mortar_lxWS
+{
+      faction = Atlas_BLU_A_trp_F;
+	crew = Atlas_B_A_Crew_trp_F;
+	typicalCargo[] = {Atlas_B_A_Crew_trp_F};
+};
+class Atlas_B_A_APC_Wheeled_01_atgm_trp_v2: Atlas_B_A_APC_Wheeled_01_atgm_v2
 {
       faction = Atlas_BLU_A_trp_F;
 	crew = Atlas_B_A_Crew_trp_F;

@@ -1075,6 +1075,7 @@ class B_CTRG_Soldier_JTAC_F: B_CTRG_Soldier_F
         NVGogglesB_blk_F
 	};
 };
+/* Group 13 */
 class B_CTRG_Soldier_TL_arid_F: B_CTRG_Soldier_arid_F
 {
 	author = $STR_A3_A_Heliotrope;
@@ -1126,7 +1127,7 @@ class B_CTRG_Soldier_TL_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
 		G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 	respawnLinkedItems[] =
 	{
@@ -1134,7 +1135,7 @@ class B_CTRG_Soldier_TL_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
 		G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 };
 class B_CTRG_Soldier_Exp_arid_F: B_CTRG_Soldier_arid_F
@@ -1189,7 +1190,7 @@ class B_CTRG_Soldier_Exp_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetSpecB_light_black,
         G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_blk_F
 	};
 	respawnLinkedItems[] =
 	{
@@ -1197,7 +1198,7 @@ class B_CTRG_Soldier_Exp_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetSpecB_light_black,
         G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_blk_F
 	};
 };
 class B_CTRG_Soldier_Medic_arid_F: B_CTRG_Soldier_arid_F
@@ -1250,7 +1251,7 @@ class B_CTRG_Soldier_Medic_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetSpecB_light_black,
         G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_blk_F
 	};
 	respawnLinkedItems[] =
 	{
@@ -1258,7 +1259,7 @@ class B_CTRG_Soldier_Medic_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetSpecB_light_black,
         G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_blk_F
 	};
 };
 class B_CTRG_Soldier_M_arid_F: B_CTRG_Soldier_arid_F
@@ -1308,7 +1309,7 @@ class B_CTRG_Soldier_M_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetSpecB_light_black,
         G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_blk_F
 	};
 	respawnLinkedItems[] =
 	{
@@ -1316,7 +1317,7 @@ class B_CTRG_Soldier_M_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetSpecB_light_black,
         G_Balaclava_TI_blk_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_blk_F
 	};
 	items[] =
 	{
@@ -1375,7 +1376,7 @@ class B_CTRG_Soldier_arid_v2_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
         G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 	respawnLinkedItems[] =
 	{
@@ -1383,7 +1384,7 @@ class B_CTRG_Soldier_arid_v2_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
         G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 };
 class B_CTRG_Soldier_LAT_arid_F: B_CTRG_Soldier_arid_F
@@ -1443,7 +1444,7 @@ class B_CTRG_Soldier_LAT_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
         G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 	respawnLinkedItems[] =
 	{
@@ -1451,7 +1452,7 @@ class B_CTRG_Soldier_LAT_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
         G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 };
 class B_CTRG_Soldier_LAT2_arid_F: B_CTRG_Soldier_arid_F
@@ -1511,7 +1512,7 @@ class B_CTRG_Soldier_LAT2_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
         G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 	respawnLinkedItems[] =
 	{
@@ -1519,7 +1520,7 @@ class B_CTRG_Soldier_LAT2_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
         G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 };
 class B_CTRG_Soldier_AR_arid_F: B_CTRG_Soldier_arid_F
@@ -1574,7 +1575,7 @@ class B_CTRG_Soldier_AR_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
         G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 	respawnLinkedItems[] =
 	{
@@ -1582,7 +1583,7 @@ class B_CTRG_Soldier_AR_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
         G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 	items[] =
 	{
@@ -1655,7 +1656,7 @@ class B_CTRG_Soldier_JTAC_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
         G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 	respawnLinkedItems[] =
 	{
@@ -1663,7 +1664,7 @@ class B_CTRG_Soldier_JTAC_arid_F: B_CTRG_Soldier_arid_F
 		H_HelmetB_TI_arid_F,
         G_Balaclava_TI_G_alt_F,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_blk_F
+        Aegis_NVG_IVAS_01_grn_F
 	};
 };
 class B_CTRG_ghillie_base_F: B_ghillie_base_F
@@ -2454,21 +2455,21 @@ class B_CTRG_Miller_F: B_CTRG_Soldier_3_F
 class B_CTRG_Soldier_urb_1_F: B_CTRG_Soldier_F
 {
     faction = BLU_CTRG_tna_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing1_mtp_urban_CO.paa"};
+	//hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing1_mtp_urban_CO.paa"};
 };
 class B_CTRG_Soldier_urb_2_F: B_CTRG_Soldier_2_F
 {
     faction = BLU_CTRG_tna_F;
-	hiddenSelectionsTextures[] =
+	/*hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing1_mtp_urban_CO.paa",
 		"\A3\Characters_F_Exp\BLUFOR\Data\U_BT_Soldier_AR_F_tna_01_CO.paa"
-	};
+	};*/
 };
 class B_CTRG_Soldier_urb_3_F: B_CTRG_Soldier_3_F
 {
     faction = BLU_CTRG_tna_F;
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing1_mtp_urban_CO.paa"};
+	//hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing1_mtp_urban_CO.paa"};
 };
 class B_CTRG_Soldier_LAT2_tna_F: B_CTRG_Soldier_F
 {
@@ -3258,4 +3259,38 @@ class B_CTRG_ghillie_spotter_tna_F: B_CTRG_ghillie_tna_F
 		FirstAidKit,
 		optic_tws
 	};
+};
+
+/* West Saharan CTRG */
+class B_D_CTRG_Soldier_Exp_LxWS: B_CTRG_Soldier_Exp_tna_F
+{
+    faction = BLU_CTRG_F;
+};
+class B_D_CTRG_Soldier_HG_LxWS: B_CTRG_Soldier_AR_tna_F
+{
+    faction = BLU_CTRG_F;
+};
+class B_D_CTRG_Soldier_JTAC_LxWS: B_CTRG_Soldier_JTAC_tna_F
+{
+    faction = BLU_CTRG_F;
+};
+class B_D_CTRG_Soldier_M_LxWS: B_CTRG_Soldier_M_tna_F
+{
+    faction = BLU_CTRG_F;
+};
+class B_D_CTRG_Soldier_Medic_LxWS: B_CTRG_Soldier_Medic_tna_F
+{
+    faction = BLU_CTRG_F;
+};
+class B_D_CTRG_Soldier_LxWS: B_CTRG_Soldier_F
+{
+    faction = BLU_CTRG_F;
+};
+class B_D_CTRG_Soldier_LAT2_LxWS: B_CTRG_Soldier_LAT2_tna_F
+{
+    faction = BLU_CTRG_F;
+};
+class B_D_CTRG_Soldier_TL_LxWS: B_CTRG_Soldier_TL_tna_F
+{
+    faction = BLU_CTRG_F;
 };

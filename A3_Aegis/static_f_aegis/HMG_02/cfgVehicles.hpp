@@ -38,6 +38,7 @@ class CfgVehicles
 	/* Factions */
     #include "cfgBLUFOR.hpp"    // US & BAF
     #include "cfgOPFOR.hpp"     // IAF & Argana
+	#include "cfgEAF.hpp"		// BLUFOR LDF
 	class I_G_HMG_02_support_F: B_HMG_02_support_F
 	{
 		hiddenSelectionsTextures[] = {"\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_blk_CO.paa"};

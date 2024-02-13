@@ -13,7 +13,8 @@ class CfgPatches
         {
             /* From "cfgBLUFOR.hpp" */
             B_T_UAV_05_F,
-            B_W_UAV_05_F
+            B_W_UAV_05_F,
+			Aegis_B_D_UAV_05_F
         };
 		weapons[] = {/* Automated */};
 	};

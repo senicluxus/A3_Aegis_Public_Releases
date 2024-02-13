@@ -249,7 +249,7 @@ class Atlas_B_L_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
 		verticalOffsetWorld = -0.092;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_AFV_Wheeled_01_cannon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_AFV_Wheeled_01_cannon_F.jpg";
 	side = TWest;
 	faction = Atlas_BLU_L_F;
     scope = public;
@@ -278,7 +278,7 @@ class Atlas_B_L_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
 	};
 	class TransportItems
 	{
@@ -562,7 +562,7 @@ class Atlas_B_L_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
 		verticalOffsetWorld = -0.091;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_AFV_Wheeled_01_up_cannon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_AFV_Wheeled_01_up_cannon_F.jpg";
 	side = TWest;
 	faction = Atlas_BLU_L_F;
 	crew = Atlas_B_L_Crew_F;
@@ -593,7 +593,7 @@ class Atlas_B_L_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
 	};
 	class TransportItems
 	{

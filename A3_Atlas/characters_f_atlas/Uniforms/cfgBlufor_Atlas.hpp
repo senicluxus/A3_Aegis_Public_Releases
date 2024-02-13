@@ -15,9 +15,26 @@ class Atlas_U_B_G_CombatUniform_wdl: Uniform_Base
 		mass = 40;
 	};
 };
+class Atlas_U_B_G_CombatUniform_arid: Uniform_Base
+{
+	author = $STR_A3_A_BranFlakes;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_B_G_CombatUniform_arid0;
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\Atlas_U_B_G_CombatUniform_arid_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_G_Soldier_01_Pants_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_B_G_CombatFatigues_01_arid_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
 class Atlas_U_B_G_CombatUniform_tshirt_wdl: Uniform_Base
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_B_G_CombatUniform_tshirt_wdl0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_B_G_CombatUniform_tshirt_wdl_CA.paa";
@@ -28,6 +45,23 @@ class Atlas_U_B_G_CombatUniform_tshirt_wdl: Uniform_Base
 	{
 		uniformModel = "-";
 		uniformClass = Atlas_B_G_CombatFatigues_01_Tshirt_wdl_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_B_G_CombatUniform_tshirt_arid: Uniform_Base
+{
+	author = $STR_A3_A_BranFlakes;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_B_G_CombatUniform_tshirt_arid0;
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\Atlas_U_B_G_CombatUniform_tshirt_arid_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_G_Soldier_01_TankTop_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_B_G_CombatFatigues_01_Tshirt_arid_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
@@ -45,6 +79,23 @@ class Atlas_U_B_G_CombatUniform_vest_wdl: Uniform_Base
 	{
 		uniformModel = "-";
 		uniformClass = Atlas_B_G_CombatFatigues_01_RolledUp_wdl_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_B_G_CombatUniform_vest_arid: Uniform_Base
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_B_G_CombatUniform_vest_arid0;
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\Atlas_U_B_G_CombatUniform_vest_arid_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_G_Soldier_01_Pants_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_B_G_CombatFatigues_01_RolledUp_arid_F;
 		containerClass = Supply40;
 		mass = 40;
 	};

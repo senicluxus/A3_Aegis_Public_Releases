@@ -20,6 +20,7 @@ class Opf_O_P_soldier_base_F: O_G_Soldier_F
 	model = "\A3\Characters_F\OPFOR\O_Paramilitary.p3d";
 	modelSides[] = {TFriendly};
 	uniformClass = Opf_U_O_ParamilitaryBody;
+	editorSubcategory = EdSubcat_Personnel_Militants;
     class Wounds
     {
         tex[] = {};
@@ -74,51 +75,39 @@ class Opf_O_P_soldier_1_F: Opf_O_P_soldier_base_F
 	role = Rifleman;
 	weapons[] = 
 	{
-		arifle_TRG21_black_FL_F,
+		Aegis_arifle_AK74_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_TRG21_black_FL_F,
+		Aegis_arifle_AK74_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_556x45_Stanag_green),
+        mag_6(30Rnd_545x39_Mag_F),
         mag_2(HandGrenade_Guer)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_556x45_Stanag_green),
+        mag_6(30Rnd_545x39_Mag_F),
         mag_2(HandGrenade_Guer)
 	};
 	linkedItems[] = 
 	{
 		V_ChestrigF_rgr,
-		H_ShemagOpen_khk,
+		lxWS_H_Turban_01_red,
+		G_Shemag_red,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_ChestrigF_rgr,
-		H_ShemagOpen_khk,
+		lxWS_H_Turban_01_red,
+		G_Shemag_red,
 		DefaultManGuerillaLinkedItems
 	};
-    headgearList[] = 
-    {
-        H_Bandanna_gry,1,
-        H_Bandanna_gry_hs,1,
-        H_Bandanna_blu,1,
-        H_Beret_gry,1,
-        H_MilCap_gry,2,
-        H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
-        H_ShemagOpen_khk,2,
-        H_ShemagOpen_khk_hs,2,
-        H_Shemag_blk,2,
-        H_Shemag_blk_hs,2,
-        H_FakeHeadgear_Para_F,2
-    };
+    headgearList[] = {"",1};
 };
 class Opf_O_P_soldier_GL_F: Opf_O_P_soldier_base_F
 {
@@ -128,53 +117,41 @@ class Opf_O_P_soldier_GL_F: Opf_O_P_soldier_base_F
 	displayName = $STR_B_Soldier_GL_F0;
 	weapons[] = 
 	{
-		arifle_TRG21_GL_black_FL_F,
+		arifle_SLR_GL_lxWS,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_TRG21_GL_black_FL_F,
+		arifle_SLR_GL_lxWS,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_556x45_Stanag_green),
-        mag_5(1Rnd_HE_Grenade_shell)
+        mag_6(20Rnd_762x51_slr_lxWS),
+        mag_3(1Rnd_40mm_HE_lxWS),
+        mag_2(1Rnd_58mm_AT_lxWS)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_556x45_Stanag_green),
-        mag_5(1Rnd_HE_Grenade_shell)
+        mag_6(20Rnd_762x51_slr_lxWS),
+        mag_3(1Rnd_40mm_HE_lxWS),
+        mag_2(1Rnd_58mm_AT_lxWS)
 	};
 	cost = 200000;
 	role = Grenadier;
 	linkedItems[] = 
 	{
 		V_HarnessOGL_blk,
-		H_ShemagOpen_khk_hs,
+		lxWS_H_Turban_03_red,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_HarnessOGL_blk,
-		H_ShemagOpen_khk_hs,
+		lxWS_H_Turban_03_red,
 		DefaultManGuerillaLinkedItems
 	};
-    headgearList[] = 
-    {
-        H_Bandanna_gry,1,
-        H_Bandanna_gry_hs,1,
-        H_Bandanna_blu,1,
-        H_Beret_gry,1,
-        H_MilCap_gry,2,
-        H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
-        H_ShemagOpen_khk,2,
-        H_ShemagOpen_khk_hs,2,
-        H_Shemag_blk,2,
-        H_Shemag_blk_hs,2,
-        H_FakeHeadgear_Para_F,2
-    };
+    headgearList[] = {"",1};
 };
 class Opf_O_P_soldier_AR_F: Opf_O_P_soldier_base_F
 {
@@ -184,22 +161,22 @@ class Opf_O_P_soldier_AR_F: Opf_O_P_soldier_base_F
 	displayName = $STR_B_soldier_AR_F0;
 	weapons[] = 
 	{
-		LMG_Zafir_FL_F,
+		arifle_RPK_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		LMG_Zafir_FL_F,
+		arifle_RPK_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(150Rnd_762x54_Box),
+        mag_6(75Rnd_762x39_Mag_Green_F),
         mag_2(HandGrenade_Guer)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(150Rnd_762x54_Box),
+        mag_6(75Rnd_762x39_Mag_Green_F),
         mag_2(HandGrenade_Guer)
 	};
 	cost = 220000;
@@ -208,30 +185,16 @@ class Opf_O_P_soldier_AR_F: Opf_O_P_soldier_base_F
 	linkedItems[] = 
 	{
 		V_HarnessO_blk,
-		H_PASGT_basic_black_F,
+		lxWS_H_Turban_02_red,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_HarnessO_blk,
-		H_PASGT_basic_black_F,
+		lxWS_H_Turban_02_red,
 		DefaultManGuerillaLinkedItems
 	};
-    headgearList[] = 
-    {
-        H_Bandanna_gry,1,
-        H_Bandanna_gry_hs,1,
-        H_Bandanna_blu,1,
-        H_Beret_gry,1,
-        H_MilCap_gry,2,
-        H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
-        H_ShemagOpen_khk,2,
-        H_ShemagOpen_khk_hs,2,
-        H_Shemag_blk,2,
-        H_Shemag_blk_hs,2,
-        H_FakeHeadgear_Para_F,2
-    };
+    headgearList[] = {"",1};
 };
 class Opf_O_P_soldier_TL_F: Opf_O_P_soldier_base_F
 {
@@ -241,27 +204,27 @@ class Opf_O_P_soldier_TL_F: Opf_O_P_soldier_base_F
 	displayName = $STR_B_Soldier_TL_F0;
 	weapons[] = 
 	{
-		arifle_Katiba_FL_F,
+		Aegis_arifle_AK74_F,
 		hgun_Rook40_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] = 
 	{
-		arifle_Katiba_FL_F,
+		Aegis_arifle_AK74_F,
 		hgun_Rook40_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_65x39_caseless_green),
+        mag_6(30Rnd_545x39_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_Guer)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_65x39_caseless_green),
+        mag_6(30Rnd_545x39_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_Guer)
 	};
@@ -273,12 +236,14 @@ class Opf_O_P_soldier_TL_F: Opf_O_P_soldier_base_F
 	{
 		V_TacVest_gry,
 		H_Beret_gry,
+		G_Shemag_red,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_TacVest_gry,
 		H_Beret_gry,
+		G_Shemag_red,
 		DefaultManGuerillaLinkedItems
 	};
     headgearList[] = {H_Beret_gry,1};
@@ -319,30 +284,18 @@ class Opf_O_P_soldier_M_F: Opf_O_P_soldier_base_F
 	linkedItems[] = 
 	{
 		V_ChestrigF_rgr,
-		H_Bandanna_gry,
+		lxWS_H_Turban_01_red,
+		G_Shemag_red,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_ChestrigF_rgr,
-		H_Bandanna_gry,
+		lxWS_H_Turban_01_red,
+		G_Shemag_red,
 		DefaultManGuerillaLinkedItems
 	};
-    headgearList[] = 
-    {
-        H_Bandanna_gry,1,
-        H_Bandanna_gry_hs,1,
-        H_Bandanna_blu,1,
-        H_Beret_gry,1,
-        H_MilCap_gry,2,
-        H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
-        H_ShemagOpen_khk,2,
-        H_ShemagOpen_khk_hs,2,
-        H_Shemag_blk,2,
-        H_Shemag_blk_hs,2,
-        H_FakeHeadgear_Para_F,2
-    };
+    headgearList[] = {"",1};
 };
 class Opf_O_P_soldier_LAT_F: Opf_O_P_soldier_base_F
 {
@@ -364,24 +317,24 @@ class Opf_O_P_soldier_LAT_F: Opf_O_P_soldier_base_F
 	backpack = B_TacticalPack_blk_LAT;
 	weapons[] = 
 	{
-		arifle_TRG20_black_FL_F,
+		Aegis_arifle_AKS74_F,
         launch_RPG32_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_TRG20_black_FL_F,
+		Aegis_arifle_AKS74_F,
         launch_RPG32_black_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_556x45_Stanag_green),
+        mag_6(30Rnd_545x39_Mag_F),
         RPG32_F
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_556x45_Stanag_green),
+        mag_6(30Rnd_545x39_Mag_F),
         RPG32_F
 	};
 	cost = 130000;
@@ -391,12 +344,14 @@ class Opf_O_P_soldier_LAT_F: Opf_O_P_soldier_base_F
 	linkedItems[] = 
 	{
 		V_TacVest_gry,
+		lxWS_H_Turban_02_red,
 		G_Balaclava_blk,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_TacVest_gry,
+		lxWS_H_Turban_02_red,
 		G_Balaclava_blk,
 		DefaultManGuerillaLinkedItems
 	};
@@ -423,16 +378,16 @@ class Opf_O_P_medic_F: Opf_O_P_soldier_base_F
 	attendant = true;
 	weapons[] = 
 	{
-		arifle_Katiba_C_FL_F,
+		Aegis_arifle_AKS74_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_Katiba_C_FL_F,
+		Aegis_arifle_AKS74_F,
 		DefaultManWeapons
 	};
-	magazines[] = {mag_6(30Rnd_65x39_caseless_green)};
-	respawnMagazines[] = {mag_6(30Rnd_65x39_caseless_green)};
+	magazines[] = {mag_6(30Rnd_545x39_Mag_F)};
+	respawnMagazines[] = {mag_6(30Rnd_545x39_Mag_F)};
 	camouflage = 1.6;
 	icon = iconManMedic;
 	role = CombatLifeSaver;
@@ -440,31 +395,17 @@ class Opf_O_P_medic_F: Opf_O_P_soldier_base_F
 	linkedItems[] = 
 	{
 		V_TacVest_gry,
-		H_MilCap_gry,
+		lxWS_H_Turban_04_red,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_TacVest_gry,
-		H_MilCap_gry,
+		lxWS_H_Turban_04_red,
 		DefaultManGuerillaLinkedItems
 	};
 	picture = pictureHeal;
-    headgearList[] = 
-    {
-        H_Bandanna_gry,1,
-        H_Bandanna_gry_hs,1,
-        H_Bandanna_blu,1,
-        H_Beret_gry,1,
-        H_MilCap_gry,2,
-        H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
-        H_ShemagOpen_khk,2,
-        H_ShemagOpen_khk_hs,2,
-        H_Shemag_blk,2,
-        H_Shemag_blk_hs,2,
-        H_FakeHeadgear_Para_F,2
-    };
+    headgearList[] = {"",1};
 };
 class Opf_O_P_soldier_exp_F: Opf_O_P_soldier_base_F
 {
@@ -477,48 +418,34 @@ class Opf_O_P_soldier_exp_F: Opf_O_P_soldier_base_F
 	backpack = B_TacticalPack_blk_Exp;
 	weapons[] = 
 	{
-		SMG_02_flash_F,
+		Aegis_arifle_AKS74_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		SMG_02_flash_F,
+		Aegis_arifle_AKS74_F,
 		DefaultManWeapons
 	};
-	magazines[] = {mag_6(30Rnd_9x21_Mag_SMG_02_Tracer_Green)};
-	respawnMagazines[] = {mag_6(30Rnd_9x21_Mag_SMG_02_Tracer_Green)};
+	magazines[] = {mag_5(30Rnd_545x39_Mag_F)};
+	respawnMagazines[] = {mag_5(30Rnd_545x39_Mag_F)};
 	canDeactivateMines = true;
 	detectSkill = 38;
 	linkedItems[] = 
 	{
 		V_TacVest_gry,
-		H_Bandanna_gry,
+		lxWS_H_Turban_01_red,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_TacVest_gry,
-		H_Bandanna_gry,
+		lxWS_H_Turban_01_red,
 		DefaultManGuerillaLinkedItems
 	};
 	icon = iconManExplosive;
 	role = Sapper;
 	picture = pictureExplosive;
-    headgearList[] = 
-    {
-        H_Bandanna_gry,1,
-        H_Bandanna_gry_hs,1,
-        H_Bandanna_blu,1,
-        H_Beret_gry,1,
-        H_MilCap_gry,2,
-        H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
-        H_ShemagOpen_khk,2,
-        H_ShemagOpen_khk_hs,2,
-        H_Shemag_blk,2,
-        H_Shemag_blk_hs,2,
-        H_FakeHeadgear_Para_F,2
-    };
+    headgearList[] = {"",1};
 };
 class Opf_O_P_Soldier_universal_F: Opf_O_P_soldier_1_F
 {
@@ -554,13 +481,15 @@ class Opf_O_P_Soldier_unarmed_F: Opf_O_P_soldier_1_F
 	linkedItems[] = 
 	{
 		V_ChestrigF_rgr,
-		H_ShemagOpen_khk,
+		lxWS_H_Turban_01_red,
+		G_shemag_red,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		V_ChestrigF_rgr,
-		H_ShemagOpen_khk,
+		lxWS_H_Turban_01_red,
+		G_shemag_red,
 		DefaultManGuerillaLinkedItems
 	};
 	role = Unarmed;

@@ -144,7 +144,7 @@ class O_R_MRAP_02_F: O_MRAP_02_F
     class TransportMagazines
     {
         mag_xx(30Rnd_545x39_AK12_Mag_F,16);
-        mag_xx(75Rnd_762x39_AK12_Mag_F,8);
+        mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,8);
         mag_xx(HandGrenade_East,10);
         mag_xx(SmokeShell,4);
         mag_xx(SmokeShellRed,4);
@@ -312,7 +312,7 @@ class O_R_MRAP_02_hmg_F: O_MRAP_02_hmg_F
     class TransportMagazines
     {
         mag_xx(30Rnd_545x39_AK12_Mag_F,16);
-        mag_xx(75Rnd_762x39_AK12_Mag_F,8);
+        mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,8);
         mag_xx(HandGrenade_East,10);
         mag_xx(SmokeShell,4);
         mag_xx(SmokeShellRed,4);
@@ -480,7 +480,7 @@ class O_R_MRAP_02_gmg_F: O_MRAP_02_gmg_F
     class TransportMagazines
     {
         mag_xx(30Rnd_545x39_AK12_Mag_F,16);
-        mag_xx(75Rnd_762x39_AK12_Mag_F,8);
+        mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,8);
         mag_xx(HandGrenade_East,10);
         mag_xx(SmokeShell,4);
         mag_xx(SmokeShellRed,4);

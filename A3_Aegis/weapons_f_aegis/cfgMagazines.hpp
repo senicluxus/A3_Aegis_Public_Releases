@@ -115,6 +115,7 @@ class CfgMagazines
 	};
 	class 150Rnd_762x54_Box: 150Rnd_762x51_Box
 	{
+		author = $STR_A3_A_Avery;
 		scope = public;
 	};
 	class 11Rnd_45ACP_Mag: CA_Magazine
@@ -684,65 +685,65 @@ class CfgMagazines
     */
 	class 30Rnd_545x39_Black_Mag_F: 30Rnd_545x39_Mag_Green_F
 	{
-		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd Black Mag";
+		displayName = "5.45 mm 30Rnd Black Reload Tracer (Green) Mag";
+		picture = "\A3_Aegis\weapons_f_aegis\Data\UI\icon_30Rnd_545x39_Black_Mag_F_ca.paa";
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
 	};
 	class 30Rnd_545x39_Black_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_Green_F
 	{
-		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_Tracer_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd Black Tracer Mag";
+		displayName = "5.45 mm 30Rnd Black Tracer (Green) Mag";
+		picture = "\A3_Aegis\weapons_f_aegis\Data\UI\icon_30Rnd_545x39_Black_Mag_Green_F_ca.paa";
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
 	};
 	class 30Rnd_545x39_AK12_Mag_F: 30Rnd_545x39_Mag_Green_F
 	{
-		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK-12 Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Reload Tracer (Green) Mag";
+		picture = "\A3_Aegis\weapons_f_aegis\Data\UI\icon_30Rnd_545x39_Black_Mag_F_ca.paa";
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
 	};
 	class 30Rnd_545x39_AK12_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_Green_F
 	{
-		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_Tracer_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK-12 Tracer Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Tracer (Green) Mag";
+		picture = "\A3_Aegis\weapons_f_aegis\Data\UI\icon_30Rnd_545x39_Black_Mag_Green_F_ca.paa";
 		hiddenSelections[] = {camo};
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
 	};
 	class 30Rnd_545x39_AK12_Lush_Mag_F: 30Rnd_545x39_AK12_Mag_F
 	{
-		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK-12 Khaki Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Lush Reload Tracer (Green) Mag";
+		picture = "\A3_Aegis\weapons_f_aegis\Data\UI\icon_30Rnd_545x39_AK12_Lush_Mag_F_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki.rvmat"};
 	};
 	class 30Rnd_545x39_AK12_Lush_Mag_Tracer_F: 30Rnd_545x39_AK12_Mag_Tracer_F
 	{
-		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_Tracer_Green_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK-12 Tracer Khaki Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Lush Tracer (Green) Mag";
+		picture = "\A3_Aegis\weapons_f_aegis\Data\UI\icon_30Rnd_545x39_AK12_Lush_Mag_Green_F_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_khaki.rvmat"};
 	};
 	class 30Rnd_545x39_AK12_Arid_Mag_F: 30Rnd_545x39_AK12_Mag_F
 	{
-		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK-12 Sand Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Arid Reload Tracer (Green) Mag";
+		picture = "\A3_Aegis\weapons_f_aegis\Data\UI\icon_30Rnd_545x39_AK12_Arid_Mag_F_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo.rvmat"};
 	};
 	class 30Rnd_545x39_AK12_Arid_Mag_Tracer_F: 30Rnd_545x39_AK12_Mag_Tracer_F
 	{
-		picture = "\A3\Weapons_F_Exp\Data\UI\icon_30Rnd_545x39_Mag_Tracer_Green_F_CA.paa";
 		author = $STR_A3_A_AveryTheKitty;
-		displayName = "5.45 mm 30Rnd AK-12 Tracer Sand Mag";
+		displayName = "5.45 mm 30Rnd AK-12 Arid Tracer (Green) Mag";
+		picture = "\A3_Aegis\weapons_f_aegis\Data\UI\icon_30Rnd_545x39_AK12_Arid_Mag_Green_F_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_camo.rvmat"};
 	};
@@ -965,6 +966,352 @@ class CfgMagazines
 		descriptionShort = "Caliber: 25x40 mm Airburst<br />Rounds: 5 <br />Used in: Punisher";
 	};
 
+	/* AK-74M Magazines*/
+	class 30Rnd_545x39_Mag_Tracer_F;
+	class 30Rnd_545x39_Black_Mag_Yellow_F: 30Rnd_545x39_Mag_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = "5.45 mm 30Rnd Black Reload Tracer (Yellow) Mag";
+		picture = "\A3_Aegis\weapons_f_aegis\Data\UI\icon_30Rnd_545x39_Black_Mag_F_ca.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
+	};
+	class 30Rnd_545x39_Black_Mag_Tracer_Yellow_F: 30Rnd_545x39_Mag_Tracer_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = "5.45 mm 30Rnd Black Tracer (Yellow) Mag";
+		picture = "\A3_Aegis\weapons_f_aegis\Data\UI\icon_30Rnd_545x39_Black_Mag_Yellow_F_ca.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Data\magazine_AK74_black_CO.paa"};
+	};
+	class 30Rnd_545x39_Mag_Sand_F: 30Rnd_545x39_Mag_F
+	{
+		displayName = "5.45 mm 30Rnd Sand Reload Tracer (Yellow) Mag";	// todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Sand_Mag_F_ca.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\magazine_ak74_sand_co.paa"};
+	};
+	class 30Rnd_545x39_Mag_Tracer_Sand_F: 30Rnd_545x39_Mag_Tracer_F
+	{
+		displayName = "5.45 mm 30Rnd Sand Tracer (Yellow) Mag";	// todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Sand_Mag_Yellow_F_ca.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\magazine_ak74_sand_co.paa"};
+	};
+	class 30Rnd_545x39_Mag_Sand_Green_F: 30Rnd_545x39_Mag_Green_F
+	{
+		displayName = "5.45 mm 30Rnd Sand Reload Tracer (Green) Mag";	// todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Sand_Mag_F_ca.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\magazine_ak74_sand_co.paa"};
+	};
+	class 30Rnd_545x39_Mag_Tracer_Sand_Green_F: 30Rnd_545x39_Mag_Tracer_Green_F
+	{
+		displayName = "5.45 mm 30Rnd Sand Tracer (Green) Mag";	// todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Sand_Mag_Green_F_ca.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\magazine_ak74_sand_co.paa"};
+	};
+
+	class 30Rnd_545x39_Mag_Olive_F: 30Rnd_545x39_Mag_Sand_F
+	{
+		scope = protected;
+		displayName = "5.45 mm 30Rnd Olive Reload Tracer (Yellow) Mag";	// todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Olive_Mag_F_ca.paa";
+		hiddenSelectionsTextures[] = {"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\magazine_ak74_Olive_co.paa"};
+	};
+	class 30Rnd_545x39_Mag_Tracer_Olive_F: 30Rnd_545x39_Mag_Tracer_Sand_F
+	{
+		scope = protected;
+		displayName = "5.45 mm 30Rnd Olive Tracer (Yellow) Mag";	// todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Olive_Mag_Yellow_F_ca.paa";
+		hiddenSelectionsTextures[] = {"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\magazine_ak74_Olive_co.paa"};
+	};
+	
+	class 30Rnd_545x39_Steel_Mag_F: 30Rnd_545x39_Mag_F
+	{
+		displayName = "5.45 mm 30Rnd Tantal Reload Tracer (Yellow) Mag"; // todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Steel_Mag_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_39_steel.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_39_steel_co.paa"
+		};
+	};
+	class 30Rnd_545x39_Steel_Tracer_Mag_F: 30Rnd_545x39_Mag_Tracer_F
+	{
+		displayName = "5.45 mm 30Rnd Tantal Tracer (Yellow) Mag"; // todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Steel_Mag_Yellow_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_39_steel.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_39_steel_co.paa"
+		};
+	};
+	class 30rnd_545x39_Steel_Mag_Red_F: 30rnd_545x39_Steel_Mag_F
+	{
+		displayName = "5.45 mm 30Rnd Tantal Reload Tracer (Red) Mag"; // todo localize
+		ammo="B_545x39_Ball_Red_F";
+	};
+	class 30rnd_545x39_Steel_Tracer_Mag_Red_F: 30Rnd_545x39_Steel_Tracer_Mag_F
+	{
+		displayName = "5.45 mm 30Rnd Tantal Tracer (Red) Mag"; // todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Steel_Mag_Red_F_ca.paa";
+		ammo="B_545x39_Ball_Red_F";
+	};
+	class 30Rnd_545x39_Steel_Mag_Green_F: 30Rnd_545x39_Mag_Green_F
+	{
+		displayName = "5.45 mm 30Rnd Tantal Reload Tracer (Green) Mag"; // todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Steel_Mag_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_39_steel.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_39_steel_co.paa"
+		};
+	};
+	class 30Rnd_545x39_Steel_Tracer_Mag_Green_F: 30Rnd_545x39_Mag_Tracer_Green_F
+	{
+		displayName = "5.45 mm 30Rnd Tantal Tracer (Green) Mag"; // todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Steel_Mag_Green_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_39_steel.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_39_steel_co.paa"
+		};
+	};
+	class 30Rnd_545x39_Steel_Gold_Mag_F: 30Rnd_545x39_Steel_Mag_F
+	{
+		displayName = "5.45 mm 30Rnd Gold Reload Tracer (Yellow) Mag"; // todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Gold_Mag_F_ca.paa";
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_39_steel_gold_co.paa"
+		};
+		hiddenSelectionsMaterials[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_39_steel_gold.rvmat"
+		};
+	};
+	class 30Rnd_545x39_Steel_Gold_Tracer_Mag_F: 30Rnd_545x39_Steel_Tracer_Mag_F
+	{
+		displayName = "5.45 mm 30Rnd Gold Tracer (Yellow) Mag"; // todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Gold_Mag_Yellow_F_ca.paa";
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_39_steel_gold_co.paa"
+		};
+		hiddenSelectionsMaterials[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_39_steel_gold.rvmat"
+		};
+	};
+	/*class Aegis_45Rnd_545x39_Mag_F: 30Rnd_545x39_Mag_F
+	{
+		displayName = "5.45 mm 45Rnd Bakelite Reload Tracer (Yellow) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_45rnd_545_mag_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_45rnd.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_45rnd_bakelite_co.paa"
+		};
+		count = 45;
+		mass = 20;
+	};
+	class Aegis_45Rnd_545x39_Mag_Green_F: 30Rnd_545x39_Mag_Green_F
+	{
+		displayName = "5.45 mm 45Rnd Bakelite Reload Tracer (Green) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_45rnd_545_mag_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_45rnd.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_45rnd_bakelite_co.paa"
+		};
+		count = 45;
+		mass = 20;
+	};
+	class Aegis_45Rnd_545x39_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_F
+	{
+		displayName = "5.45 mm 45Rnd Bakelite Tracer (Yellow) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_45rnd_545_mag_Yellow_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_45rnd.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_45rnd_bakelite_co.paa"
+		};
+		count = 45;
+		mass = 20;
+	};
+	class Aegis_45Rnd_545x39_Mag_Tracer_Green_F: 30Rnd_545x39_Mag_Tracer_Green_F
+	{
+		displayName = "5.45 mm 45Rnd Bakelite Tracer (Green) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_45rnd_545_mag_Green_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_45rnd.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_45rnd_bakelite_co.paa"
+		};
+		count = 45;
+		mass = 20;
+	};*/
+	class Aegis_60Rnd_545x39_Mag_F: 30Rnd_545x39_Mag_F
+	{
+		displayName = "5.45 mm 60Rnd AK-12 Reload Tracer (Yellow) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_60Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_60rnd_545_mag_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_60rnd.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_60rnd_co.paa"
+		};
+		count = 60;
+		mass = 22;
+	};
+	class Aegis_60Rnd_545x39_Mag_Green_F: 30Rnd_545x39_Mag_Green_F
+	{
+		displayName = "5.45 mm 60Rnd AK-12 Reload Tracer (Green) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_60Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_60rnd_545_mag_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_60rnd.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_60rnd_co.paa"
+		};
+		count = 60;
+		mass = 22;
+	};
+	class Aegis_60Rnd_545x39_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_F
+	{
+		displayName = "5.45 mm 60Rnd AK-12 Tracer (Yellow) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_60Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_60rnd_545_mag_Yellow_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_60rnd.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_60rnd_co.paa"
+		};
+		count = 60;
+		mass = 22;
+	};
+	class Aegis_60Rnd_545x39_Mag_Tracer_Green_F: 30Rnd_545x39_Mag_Tracer_Green_F
+	{
+		displayName = "5.45 mm 60Rnd AK-12 Tracer (Green) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_60Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_60rnd_545_mag_Green_F_ca.paa";
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_60rnd.p3d";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_60rnd_co.paa"
+		};
+		count = 60;
+		mass = 22;
+	};
+
+	/* AK-103 magazines */
+	class 30Rnd_762x39_Mag_Tracer_F;
+	class 30Rnd_762x39_Mag_Tracer_Green_F;
+	class 30Rnd_762x39_Mag_Green_F;
+	class 30Rnd_762x39_polymer_Black_Mag_F: 30Rnd_762x39_Mag_F
+	{
+		displayName = "7.62 mm 30Rnd AK-103 Reload Tracer (Yellow) Mag";	// todo localize
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_762_39_polymer.p3d";
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_762x39_polymer_Black_Mag_F_CA.paa";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_762_39_polymer_black_co.paa"
+		};
+	};
+	class 30Rnd_762x39_polymer_Black_Mag_Green_F: 30Rnd_762x39_Mag_Green_F
+	{
+		displayName = "7.62 mm 30Rnd AK-103 Reload Tracer (Green) Mag";	// todo localize
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_762_39_polymer.p3d";
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_762x39_polymer_Black_Mag_F_CA.paa";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_762_39_polymer_black_co.paa"
+		};
+	};
+	class 30Rnd_762x39_polymer_Black_Mag_Tracer_F: 30Rnd_762x39_Mag_Tracer_F
+	{
+		displayName = "7.62 mm 30Rnd AK-103 Tracer (Yellow) Mag";	// todo localize
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_762_39_polymer.p3d";
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_762x39_polymer_Black_Mag_Yellow_F_CA.paa";
+		hiddenSelections[] = {
+			"camo"
+		};
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_762_39_polymer_black_co.paa"
+		};
+	};
+	class 30Rnd_762x39_polymer_Black_Mag_Tracer_Green_F: 30Rnd_762x39_Mag_Tracer_Green_F
+	{
+		displayName = "7.62 mm 30Rnd AK-103 Tracer (Green) Mag";	// todo localize
+		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_762_39_polymer.p3d";
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_762x39_polymer_Black_Mag_Green_F_CA.paa";
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_762_39_polymer_black_co.paa"
+		};
+	};
+	class 30Rnd_762x39_polymer_Plum_Mag_F: 30Rnd_762x39_polymer_Black_Mag_F
+	{
+		displayName = "7.62 mm 30Rnd AK-103 Plum Reload Tracer (Yellow) Mag";	// todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_762x39_polymer_Plum_Mag_F_CA.paa";
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_762_39_polymer_plum_co.paa"
+		};
+	};
+	class 30Rnd_762x39_polymer_Plum_Mag_Green_F: 30Rnd_762x39_polymer_Black_Mag_Green_F
+	{
+		displayName = "7.62 mm 30Rnd AK-103 Plum Reload Tracer (Green) Mag";	// todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_762x39_polymer_Plum_Mag_F_CA.paa";
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_762_39_polymer_plum_co.paa"
+		};
+	};
+	class 30Rnd_762x39_polymer_Plum_Mag_Tracer_F: 30Rnd_762x39_polymer_Black_Mag_Tracer_F
+	{
+		displayName = "7.62 mm 30Rnd AK-103 Plum Tracer (Yellow) Mag";	// todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_762x39_polymer_Plum_Mag_Yellow_F_CA.paa";
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_762_39_polymer_plum_co.paa"
+		};
+	};
+	class 30Rnd_762x39_polymer_Plum_Mag_Tracer_Green_F: 30Rnd_762x39_polymer_Black_Mag_Tracer_Green_F
+	{
+		displayName = "7.62 mm 30Rnd AK-103 Plum Tracer (Green) Mag";	// todo localize
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_762x39_polymer_Plum_Mag_Green_F_CA.paa";
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_762_39_polymer_plum_co.paa"
+		};
+	};
+
 	/* West Sahara Magazines */
 	class 100Rnd_762x51_S77_Red_lxWS: 150Rnd_762x51_Box
 	{
@@ -998,48 +1345,270 @@ class CfgMagazines
 	class 8Rnd_12Gauge_AA40_HE_lxWS;
 	class 20Rnd_12Gauge_AA40_Smoke_lxWS;
 	class 8Rnd_12Gauge_AA40_Smoke_lxWS;
+	class 20Rnd_762x51_slr_reload_tracer_green_lxWS;
+	class 30Rnd_762x51_slr_reload_tracer_green_lxWS;
+	class 20Rnd_762x51_slr_tracer_green_lxWS;
+	class 30Rnd_762x51_slr_tracer_green_lxWS;
 	
 	class Aegis_20Rnd_12Gauge_AA40_Pellets_khk_lxWS: 20Rnd_12Gauge_AA40_Pellets_lxWS
 	{
 		displayName = "12 Gauge 20Rnd Pellet Khaki Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\Shotguns\AA40\Data\aa40_khk_co.paa","\a3\weapons_f_enoch\MagazineProxies\data\12GA_Pellets_CO.paa"};
+		picture = "\A3_Aegis\Weapons_F_Aegis\Shotguns\AA40\Data\UI\icon_20rnd_12gauge_pellet_khk_ca.paa";
 	};
 	class Aegis_8Rnd_12Gauge_AA40_Pellets_khk_lxWS: 8Rnd_12Gauge_AA40_Pellets_lxWS
 	{
 		displayName = "12 Gauge 8Rnd Pellet Khaki Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\Shotguns\AA40\Data\aa40_khk_co.paa","\a3\weapons_f_enoch\MagazineProxies\data\12GA_Pellets_CO.paa"};
+		picture = "\A3_Aegis\Weapons_F_Aegis\Shotguns\AA40\Data\UI\icon_8rnd_12gauge_pellet_khk_ca.paa";
 	};
 	class Aegis_20Rnd_12Gauge_AA40_Slug_khk_lxWS: 20Rnd_12Gauge_AA40_Slug_lxWS
 	{
 		displayName = "12 Gauge 20Rnd Slug Khaki Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\Shotguns\AA40\Data\aa40_khk_co.paa","\a3\weapons_f_enoch\MagazineProxies\data\12GA_Pellets_CO.paa"};
+		picture = "\A3_Aegis\Weapons_F_Aegis\Shotguns\AA40\Data\UI\icon_20rnd_12gauge_slug_khk_ca.paa";
 	};
 	class Aegis_8Rnd_12Gauge_AA40_Slug_khk_lxWS: 8Rnd_12Gauge_AA40_Slug_lxWS
 	{
 		displayName = "12 Gauge 8Rnd Slug Khaki Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\Shotguns\AA40\Data\aa40_khk_co.paa","\a3\weapons_f_enoch\MagazineProxies\data\12GA_Slug_CO.paa"};
+		picture = "\A3_Aegis\Weapons_F_Aegis\Shotguns\AA40\Data\UI\icon_8rnd_12gauge_slug_khk_ca.paa";
 	};
 	class Aegis_20Rnd_12Gauge_AA40_HE_khk_lxWS: 20Rnd_12Gauge_AA40_HE_lxWS
 	{
 		displayName = "12 Gauge 20Rnd HE Khaki Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\Shotguns\AA40\Data\aa40_khk_co.paa","\lxWS\weapons_f_lxWS\Rifles\XMS\data\12GA_HE_CO.paa"};
+		picture = "\A3_Aegis\Weapons_F_Aegis\Shotguns\AA40\Data\UI\icon_20rnd_12gauge_he_khk_ca.paa";
 	};
 	class Aegis_8Rnd_12Gauge_AA40_HE_khk_lxWS: 8Rnd_12Gauge_AA40_HE_lxWS
 	{
 		displayName = "12 Gauge 8Rnd HE Khaki Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\Shotguns\AA40\Data\aa40_khk_co.paa","\lxWS\weapons_f_lxWS\Rifles\XMS\data\12GA_HE_CO.paa"};
+		picture = "\A3_Aegis\Weapons_F_Aegis\Shotguns\AA40\Data\UI\icon_8rnd_12gauge_he_khk_ca.paa";
 	};
 	class Aegis_20Rnd_12Gauge_AA40_Smoke_khk_lxWS: 20Rnd_12Gauge_AA40_Smoke_lxWS
 	{
 		displayName = "12 Gauge 20Rnd Smoke Khaki Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\Shotguns\AA40\Data\aa40_khk_co.paa","\lxWS\weapons_f_lxWS\Rifles\XMS\data\12GA_Smoke_CO.paa"};
+		picture = "\A3_Aegis\Weapons_F_Aegis\Shotguns\AA40\Data\UI\icon_20rnd_12gauge_smoke_khk_ca.paa";
 	};
 	class Aegis_8Rnd_12Gauge_AA40_Smoke_khk_lxWS: 8Rnd_12Gauge_AA40_Smoke_lxWS
 	{
 		displayName = "12 Gauge 8Rnd Smoke Khaki Mag";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\Shotguns\AA40\Data\aa40_khk_co.paa","\lxWS\weapons_f_lxWS\Rifles\XMS\data\12GA_Smoke_CO.paa"};
+		picture = "\A3_Aegis\Weapons_F_Aegis\Shotguns\AA40\Data\UI\icon_8rnd_12gauge_smoke_khk_ca.paa";
+	};
+	class Aegis_20Rnd_762x51_slr_reload_tracer_yellow_lxWS: 20Rnd_762x51_slr_reload_tracer_green_lxWS
+	{
+		displayName = "7.62 mm 20Rnd Reload Tracer (Yellow) Mag";
+		ammo = "B_762x51_Tracer_Yellow";
+	};
+	class Aegis_30Rnd_762x51_slr_reload_tracer_yellow_lxWS: 30Rnd_762x51_slr_reload_tracer_green_lxWS
+	{
+		displayName = "7.62 mm 30Rnd Reload Tracer (Yellow) Mag";
+		ammo = "B_762x51_Tracer_Yellow";
+	};
+	class Aegis_20Rnd_762x51_slr_tracer_yellow_lxWS: 20Rnd_762x51_slr_tracer_green_lxWS
+	{
+		displayName = "7.62 mm 20Rnd Tracer (Yellow) Mag";
+		ammo = "B_762x51_Tracer_Yellow";
+	};
+	class Aegis_30Rnd_762x51_slr_tracer_yellow_lxWS: 30Rnd_762x51_slr_tracer_green_lxWS
+	{
+		displayName = "7.62 mm 30Rnd Tracer (Yellow) Mag";
+		ammo = "B_762x51_Tracer_Yellow";
+	};
+	class Aegis_20Rnd_762x51_slr_reload_tracer_red_lxWS: 20Rnd_762x51_slr_reload_tracer_green_lxWS
+	{
+		displayName = "7.62 mm 20Rnd Reload Tracer (Red) Mag";
+		ammo = "B_762x51_Tracer_Red";
+	};
+	class Aegis_30Rnd_762x51_slr_reload_tracer_red_lxWS: 30Rnd_762x51_slr_reload_tracer_green_lxWS
+	{
+		displayName = "7.62 mm 30Rnd Reload Tracer (Red) Mag";
+		ammo = "B_762x51_Tracer_Red";
+	};
+	class Aegis_20Rnd_762x51_slr_tracer_red_lxWS: 20Rnd_762x51_slr_tracer_green_lxWS
+	{
+		displayName = "7.62 mm 20Rnd Tracer (Red) Mag";
+		ammo = "B_762x51_Tracer_Red";
+	};
+	class Aegis_30Rnd_762x51_slr_tracer_red_lxWS: 30Rnd_762x51_slr_tracer_green_lxWS
+	{
+		displayName = "7.62 mm 30Rnd Tracer (Red) Mag";
+		ammo = "B_762x51_Tracer_Red";
 	};
 
+	/* Mk11/M110 7.62 Magazines */
+	////Black
+	//No Tracer
+	class Aegis_20Rnd_762x51_SMAG: CA_MAGazine
+	{
+		author="Grave";
+		scope=2;
+		displayName="7.62 mm 20Rnd Mag";
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\icon_20Rnd_762x51_SMAG_ca.paa";
+		modelSpecial="A3_Aegis\weapons_f_aegis\MagazineProxies\Mag_20Rnd_762_SMAG.p3d";
+		modelSpecialIsProxy=1;
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"A3_Aegis\weapons_f_aegis\MagazineProxies\data\mag_20Rnd_762_SMAG_black_CO.paa"
+		};
+		ammo="B_762x51_Ball";
+		count=20;
+		mass=9;
+		initSpeed=850;
+		tracersEvery=0;
+		lastRoundsTracer=4;
+		descriptionShort="Caliber: 7.62x51 mm<br />Rounds: 20<br />Used in: Mk11, M110";
+	};	
+
+	//Reload Tracer	
+	class Aegis_20Rnd_762x51_Red_SMAG: Aegis_20Rnd_762x51_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Reload Tracer (Red) Mag";
+		ammo="B_762x51_Tracer_Red";
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\icon_20Rnd_762x51_Red_SMAG_ca.paa";
+		lastRoundsTracer=4;
+	};
+	class Aegis_20Rnd_762x51_Green_SMAG: Aegis_20Rnd_762x51_Red_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Reload Tracer (Green) Mag";
+		ammo="B_762x51_Tracer_Green";
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\icon_20Rnd_762x51_Green_SMAG_ca.paa";
+	};
+	class Aegis_20Rnd_762x51_Yellow_SMAG: Aegis_20Rnd_762x51_Red_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Reload Tracer (Yellow) Mag";
+		ammo="B_762x51_Tracer_Yellow";
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\icon_20Rnd_762x51_Yellow_SMAG_ca.paa";
+	};
+
+	//Full Tracer
+	class Aegis_20Rnd_762x51_Tracer_Red_SMAG: Aegis_20Rnd_762x51_Red_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Tracer (Red) Mag";
+		ammo="B_762x51_Tracer_Red";
+		tracersEvery=1;
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\icon_20Rnd_762x51_Red_SMAG_ca.paa";
+	};
+	class Aegis_20Rnd_762x51_Tracer_Green_SMAG: Aegis_20Rnd_762x51_Tracer_Red_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Tracer (Green) Mag";
+		ammo="B_762x51_Tracer_Green";
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\icon_20Rnd_762x51_Green_SMAG_ca.paa";
+	};
+	class Aegis_20Rnd_762x51_Tracer_Yellow_SMAG: Aegis_20Rnd_762x51_Tracer_Red_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Tracer (Yellow) Mag";
+		ammo="B_762x51_Tracer_Yellow";
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\icon_20Rnd_762x51_Yellow_SMAG_ca.paa";
+	};
+
+	//Sand
+	//No Tracer
+	class Aegis_20Rnd_762x51_Sand_SMAG: Aegis_20Rnd_762x51_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Sand Mag";
+		hiddenSelections[]=
+		{
+			"Camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"A3_Aegis\weapons_f_aegis\MagazineProxies\data\mag_20Rnd_762_SMAG_sand_CO.paa"
+		};
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\Icon_20Rnd_762x51_SMAG_sand_CA.paa";
+	};
+
+	//Reload Tracer	
+	class Aegis_20Rnd_762x51_Red_Sand_SMAG: Aegis_20Rnd_762x51_Sand_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Reload Tracer (Red) Sand Mag";
+		ammo="B_762x51_Tracer_Red";
+		lastRoundsTracer=4;
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\Icon_20Rnd_762x51_Red_SMAG_sand_CA.paa";
+	};
+	class Aegis_20Rnd_762x51_Green_Sand_SMAG: Aegis_20Rnd_762x51_Sand_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Reload Tracer (Green) Sand Mag";
+		ammo="B_762x51_Tracer_Green";
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\Icon_20Rnd_762x51_Green_SMAG_sand_CA.paa";
+	};
+	class Aegis_20Rnd_762x51_Yellow_Sand_SMAG: Aegis_20Rnd_762x51_Sand_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Reload Tracer (Yellow) Sand Mag";
+		ammo="B_762x51_Tracer_Yellow";
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\Icon_20Rnd_762x51_Yellow_SMAG_sand_CA.paa";
+	};
+
+	//Full Tracer
+	class Aegis_20Rnd_762x51_Tracer_Red_Sand_SMAG: Aegis_20Rnd_762x51_Sand_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Tracer (Red) Sand Mag";
+		ammo="B_762x51_Tracer_Red";
+		tracersEvery=1;
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\Icon_20Rnd_762x51_Red_SMAG_sand_CA.paa";
+	};
+	class Aegis_20Rnd_762x51_Tracer_Green_Sand_SMAG: Aegis_20Rnd_762x51_Tracer_Red_Sand_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Tracer (Green) Sand Mag";
+		ammo="B_762x51_Tracer_Green";
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\Icon_20Rnd_762x51_Green_SMAG_sand_CA.paa";
+	};
+	class Aegis_20Rnd_762x51_Tracer_Yellow_Sand_SMAG: Aegis_20Rnd_762x51_Tracer_Red_Sand_SMAG
+	{
+		author="Grave";
+		displayName="7.62 mm 20Rnd Tracer (Yellow) Sand Mag";
+		ammo="B_762x51_Tracer_Yellow";
+		picture="\A3_Aegis\weapons_f_aegis\data\UI\Icon_20Rnd_762x51_Yellow_SMAG_sand_CA.paa";
+	};
+	/* Mk11/M110 7.62 Magazines - END */
+
+	/* Hand Flare Magazines*/
+	class Aegis_HandFlare_Red: CA_Magazine
+	{
+		author = $STR_A3_A_Grave;
+		mass = 8;
+		scope = public;
+		value = 1;
+		displayName = $STR_A3_A_CfgMagazines_HandFlare_Red;
+		picture = "\A3_Aegis\weapons_f_Aegis\Explosives\data\UI\Icon_HandFlare_red_F_CA.paa";
+		model = "A3_Aegis\weapons_f_Aegis\Explosives\HandFlare_Red_F";
+		type = 256;
+		ammo = "Aegis_GrenadeAmmo_HandFlare_Red";
+		count = 1;
+		initSpeed = 18;
+		nameSound = "handgrenade";
+		maxLeadSpeed = 6.9444399;
+		descriptionShort = $STR_A3_A_CfgMagazines_HandFlare_Red_desc_short;
+		displayNameShort = $STR_A3_A_CfgMagazines_HandFlare_Red;
+	};
+	class Aegis_HandFlare_Green: Aegis_HandFlare_Red
+	{
+		author = $STR_A3_A_Grave;
+		displayName = $STR_A3_A_CfgMagazines_HandFlare_Green;
+		picture = "\A3_Aegis\weapons_f_Aegis\Explosives\data\UI\Icon_HandFlare_green_F_CA.paa";
+		model = "A3_Aegis\weapons_f_Aegis\Explosives\HandFlare_Green_F";
+		ammo = "Aegis_GrenadeAmmo_HandFlare_Green";
+		displayNameShort = $STR_A3_A_CfgMagazines_HandFlare_Green;
+	};
     /* Vehicles' Magazines */
     #include "cfgVehicleMagazines.hpp"
 
@@ -1075,4 +1644,19 @@ class CfgMagazines
     {
         scope = protected;
     };
+	
+	class 40Rnd_20mm_AB_G_belt: 40Rnd_20mm_G_belt
+	{
+		displayName = "20 mm HE Airburst Grenade Mag";
+		displayNameShort = "AB";
+		descriptionShort = "Caliber: Airburst 20 mm<br/>Rounds: 40<br />Used in: Grenade Launcher";
+		ammo = "B_25x40mm_airburst";
+	};
+	class 64Rnd_40mm_G_belt;
+	class 64Rnd_40mm_AB_G_belt: 64Rnd_40mm_G_belt
+	{
+		displayName = "40 mm HE Airburst Grenade Mag";
+		descriptionShort = "Caliber: Airburst 40 mm <br/>Rounds: 200 DSS<br />Used in: Grenade Launcher, RCWS";
+		ammo = "G_40mm_AB";
+	};
 };

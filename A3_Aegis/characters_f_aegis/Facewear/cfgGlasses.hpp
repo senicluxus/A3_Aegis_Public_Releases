@@ -892,6 +892,78 @@ class CfgGlasses
 		identityTypes[] = {NoGlasses,0};
 		mass = 6;
 	};
+	class G_Headset_Tactical: None
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_H_Headset_tactical_blk0;
+		model = "\A3_Aegis\Characters_F_Aegis\Headgear\H_Headset_Tactical.p3d";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Headset_light_CA.paa";
+		hiddenSelections[] =
+		{
+			camo1,
+			camo2,
+			camo3
+		};
+		descriptionShort = $STR_A3_SP_noarmor;
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_blk_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+		mass = 6;
+	};
+	class G_Headset_Tactical_khk: None
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_H_Headset_tactical_khk0;
+		model = "\A3_Aegis\Characters_F_Aegis\Headgear\H_Headset_Tactical.p3d";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Headset_light_CA.paa";
+		hiddenSelections[] =
+		{
+			camo1,
+			camo2,
+			camo3
+		};
+		descriptionShort = $STR_A3_SP_noarmor;
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_khk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_khk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_khk_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+		mass = 6;
+	};
+	class G_Headset_Tactical_grn: None
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_H_Headset_tactical_grn0;
+		model = "\A3_Aegis\Characters_F_Aegis\Headgear\H_Headset_Tactical.p3d";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Headset_light_CA.paa";
+		hiddenSelections[] =
+		{
+			camo1,
+			camo2,
+			camo3
+		};
+		descriptionShort = $STR_A3_SP_noarmor;
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_grn_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+		mass = 6;
+	};
 	class G_Bandanna_kawaii: G_Bandanna_blk
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -1299,5 +1371,242 @@ class CfgGlasses
 			G_W_NATO_SF,25
 		};
 		mass = 10;
+	};
+
+	/*Facewear versions of LoW Headsets*/
+	class Aegis_G_Headset_black_F: None
+	{
+		author = $STR_A3_Bohemia_Interactive;
+		displayName = $STR_A3_CfgWeapons_H_HeadSet_black_F0;
+		model = "\A3\Characters_F_Orange\Headgear\H_HeadSet_F.p3d";
+		picture = "\A3\Characters_F_Orange\Headgear\Data\UI\icon_H_HeadSet_black_F_CA.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Orange\Headgear\Data\H_Construction_Black_CO.paa"};
+		identityTypes[] = {};
+		mass = 10;
+	};
+	class Aegis_G_Headset_red_F: Aegis_G_Headset_black_F
+	{
+		author = $STR_A3_Bohemia_Interactive;
+		displayName = $STR_A3_CfgWeapons_H_HeadSet_red_F0;
+		model = "\A3\Characters_F_Orange\Headgear\H_HeadSet_F.p3d";
+		picture = "\A3\Characters_F_Orange\Headgear\Data\UI\icon_H_HeadSet_red_F_CA.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Orange\Headgear\Data\H_Construction_red_CO.paa"};
+		identityTypes[] = {};
+		mass = 10;
+	};
+	class Aegis_G_Headset_orange_F: Aegis_G_Headset_black_F
+	{
+		author = $STR_A3_Bohemia_Interactive;
+		displayName = $STR_A3_CfgWeapons_H_HeadSet_orange_F0;
+		model = "\A3\Characters_F_Orange\Headgear\H_HeadSet_F.p3d";
+		picture = "\A3\Characters_F_Orange\Headgear\Data\UI\icon_H_HeadSet_orange_F_CA.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Orange\Headgear\Data\H_Construction_Orange_CO.paa"};
+		identityTypes[] = {};
+		mass = 10;
+	};
+	class Aegis_G_Headset_white_F: Aegis_G_Headset_black_F
+	{
+		author = $STR_A3_Bohemia_Interactive;
+		displayName = $STR_A3_CfgWeapons_H_HeadSet_white_F0;
+		model = "\A3\Characters_F_Orange\Headgear\H_HeadSet_F.p3d";
+		picture = "\A3\Characters_F_Orange\Headgear\Data\UI\icon_H_HeadSet_white_F_CA.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Orange\Headgear\Data\H_Construction_white_CO.paa"};
+		identityTypes[] = {};
+		mass = 10;
+	};
+	class Aegis_G_Headset_Yellow_F: Aegis_G_Headset_black_F
+	{
+		author = $STR_A3_Bohemia_Interactive;
+		displayName = $STR_A3_CfgWeapons_H_HeadSet_Yellow_F0;
+		model = "\A3\Characters_F_Orange\Headgear\H_HeadSet_F.p3d";
+		picture = "\A3\Characters_F_Orange\Headgear\Data\UI\icon_H_HeadSet_Yellow_F_CA.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Orange\Headgear\Data\H_Construction_Yellow_CO.paa"};
+		identityTypes[] = {};
+		mass = 10;
+	};
+	class Aegis_G_Headset_Olive_F: Aegis_G_Headset_black_F
+	{
+		author = $STR_A3_A_POLPOX;
+		displayName = $STR_A3_A_CfgWeapons_H_HeadSet_olive_F0;
+		model = "\A3\Characters_F_Orange\Headgear\H_HeadSet_F.p3d";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HeadSet_olive_F_CA.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Construction_Olive_CO.paa"};
+		identityTypes[] = {};
+		mass = 10;
+	};
+	class Aegis_G_Headset_Sand_F: Aegis_G_Headset_black_F
+	{
+		author = $STR_A3_A_POLPOX;
+		displayName = $STR_A3_A_CfgWeapons_H_HeadSet_Sand_F0;
+		model = "\A3\Characters_F_Orange\Headgear\H_HeadSet_F.p3d";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HeadSet_Sand_F_CA.paa";
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Construction_Sand_CO.paa"};
+		identityTypes[] = {};
+		mass = 10;
+	};
+
+	/* Condor EyePro*/
+	class Aegis_G_Condor_EyePro_F: None
+	{
+		author = $STR_A3_A_JC980;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Condor_EyePro_F0;
+		model = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Condor_EyePro.p3d";
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Condor_EyePro_F_CA.paa";
+		hiddenSelections[] =
+		{
+			camo
+		};
+		descriptionShort = $STR_A3_SP_noarmor;
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\condor_eyepro_co.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+		mass = 6;
+	};
+
+	/* Armbands */
+	class Aegis_G_Armband_BLU_F: None
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_BLU_F0;
+		model = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband.p3d";
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_BLU_F_CA.paa";
+		hiddenSelections[] =
+		{
+			camo
+		};
+		descriptionShort = $STR_A3_SP_noarmor;
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_blu_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+		mass = 6;
+	};
+	class Aegis_G_Armband_IND_F: Aegis_G_Armband_BLU_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_IND_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IND_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_indep_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_OPF_F: Aegis_G_Armband_BLU_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_OPF_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_OPF_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_opf_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_CSAT_F: Aegis_G_Armband_BLU_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_CSAT_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_CSAT_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_csat_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_FIA_F: Aegis_G_Armband_BLU_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_FIA_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_FIA_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_FIA_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_BLU_alt_F: Aegis_G_Armband_BLU_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_BLU_alt_F0;
+		model = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_BLU_F_CA.paa";
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_IND_alt_F: Aegis_G_Armband_BLU_alt_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_IND_alt_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IND_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_indep_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_OPF_alt_F: Aegis_G_Armband_BLU_alt_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_OPF_alt_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_OPF_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_opf_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_CSAT_alt_F: Aegis_G_Armband_BLU_alt_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_CSAT_alt_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_CSAT_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_csat_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_FIA_alt_F: Aegis_G_Armband_BLU_alt_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_FIA_alt_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_FIA_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_FIA_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
 	};
 };

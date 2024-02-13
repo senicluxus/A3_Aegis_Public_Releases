@@ -1,7 +1,7 @@
 class Atlas_B_L_LSV_01_armed_F: LSV_01_armed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_armed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_LSV_01_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -24,6 +24,7 @@ class Atlas_B_L_LSV_01_armed_F: LSV_01_armed_base_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,16);
+		mag_xx(20Rnd_762x51_mag,4);
 		mag_xx(200Rnd_556x45_Box_Red_F,3);
 		mag_xx(HandGrenade,10);
 		mag_xx(1Rnd_HE_Grenade_shell,10);
@@ -40,13 +41,13 @@ class Atlas_B_L_LSV_01_armed_F: LSV_01_armed_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
 	};
 };
 class Atlas_B_L_LSV_01_AT_F: LSV_01_AT_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_AT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_LSV_01_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -71,6 +72,7 @@ class Atlas_B_L_LSV_01_AT_F: LSV_01_AT_base_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_65x39_caseless_msbs_mag,16);
+		mag_xx(20Rnd_762x51_mag,4);
 		mag_xx(200Rnd_556x45_Box_Red_F,3);
 		mag_xx(HandGrenade,10);
 		mag_xx(1Rnd_HE_Grenade_shell,10);
@@ -87,9 +89,9 @@ class Atlas_B_L_LSV_01_AT_F: LSV_01_AT_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
 	};
-	class TextureSources: TextureSources
+	/*class TextureSources: TextureSources
 	{
 		class France
 		{
@@ -103,12 +105,12 @@ class Atlas_B_L_LSV_01_AT_F: LSV_01_AT_base_F
                 "\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_INDP_CO.paa"
             };
 		};
-	};
+	};*/
 };
 class Atlas_B_L_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_unarmed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_LSV_01_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -147,13 +149,13 @@ class Atlas_B_L_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
 	};
 };
 class Atlas_B_L_LSV_01_light_F: LSV_01_light_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_light_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_LSV_01_light_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -192,6 +194,6 @@ class Atlas_B_L_LSV_01_light_F: LSV_01_light_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
 	};
 };

@@ -131,7 +131,7 @@ class Atlas_B_L_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_bas
 		verticalOffsetWorld = -0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_Heli_light_03_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_Heli_light_03_dynamicLoadout_F.jpg";
 	scope = public;
 	side = TWest;
 	faction = Atlas_BLU_L_F;
@@ -151,7 +151,7 @@ class Atlas_B_L_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_bas
 	};
 	textureList[] =
     {
-        Green,0,
+        GreenFR,0,
         Jagged,1
     };
 	magazines[] =
@@ -169,7 +169,7 @@ class Atlas_B_L_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_bas
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
 	};
 };
 class Atlas_B_L_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
@@ -302,7 +302,7 @@ class Atlas_B_L_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
 		verticalOffsetWorld = -0.143;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_Heli_light_03_unarmed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_Heli_light_03_unarmed_F.jpg";
 	scope = public;
 	side = TWest;
 	faction = Atlas_BLU_L_F;
@@ -312,7 +312,7 @@ class Atlas_B_L_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_03\Data\Heli_Light_03_base_CO.paa"};
 	textureList[] =
     {
-        Green,1,
+        GreenFR,1,
         Jagged,0
     };
 
@@ -325,6 +325,6 @@ class Atlas_B_L_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_MSBS65_black_F,2);
+		weap_xx(atlas_arifle_famasG4_Grip_F,2);
 	};
 };

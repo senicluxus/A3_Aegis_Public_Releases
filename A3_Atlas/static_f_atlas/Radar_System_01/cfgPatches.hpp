@@ -9,6 +9,7 @@ class CfgPatches
         {
             // Germany
             Atlas_B_G_Radar_System_01_F,
+            Atlas_B_G_Radar_System_01_ard_F,
 
             // ADF
             Atlas_B_O_Radar_System_01_F,

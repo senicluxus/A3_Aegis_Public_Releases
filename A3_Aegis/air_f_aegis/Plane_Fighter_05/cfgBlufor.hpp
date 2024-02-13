@@ -590,8 +590,8 @@ class B_A_Ejection_Seat_Plane_Fighter_05_wdl_F: B_A_Ejection_Seat_Plane_Fighter_
 	crew = B_A_Fighter_Pilot_wdl_F;
 };
 
-/* USMC */
-class B_USMC_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
+/* US (Desert) */
+class B_D_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
 {
 	class SimpleObject
 	{
@@ -615,14 +615,14 @@ class B_USMC_Plane_Fighter_05_F: Plane_Fighter_05_Base_F
 	};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_USMC_Ejection_Seat_Plane_Fighter_05_F;
+		EjectionSeatClass = B_D_Ejection_Seat_Plane_Fighter_05_F;
 	};
 	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	faction = BLU_NATO_lxWS;
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_Plane_Fighter_05_Base_US_F0;
 };
-class B_USMC_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
+class B_D_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty_and_OlliKoskelainen;
 	scope = public;
@@ -632,7 +632,7 @@ class B_USMC_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
 
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_USMC_Ejection_Seat_Plane_Fighter_05_F;
+		EjectionSeatClass = B_D_Ejection_Seat_Plane_Fighter_05_F;
 	};
 
     /* Animation Sources */
@@ -834,7 +834,7 @@ class B_USMC_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F
 		};
 	};
 };
-class B_USMC_Ejection_Seat_Plane_Fighter_05_F: Ejection_Seat_Plane_Fighter_05_base_F
+class B_D_Ejection_Seat_Plane_Fighter_05_F: Ejection_Seat_Plane_Fighter_05_base_F
 {
 	class SimpleObject
 	{

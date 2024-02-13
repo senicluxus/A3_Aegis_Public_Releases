@@ -605,3 +605,56 @@ class B_W_Heli_Transport_03_unarmed_F: B_Heli_Transport_03_unarmed_F
 		weap_xx(arifle_MXC_Black_F,2);
 	};
 };
+
+/* US (Desert) */
+class Aegis_B_D_Heli_Transport_03_F: B_Heli_Transport_03_F
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_B_D_Heli_Transport_03_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	scopeArsenal = private;
+    forceInGarage = false;
+	side = TWest;
+	faction = BLU_NATO_lxWS;
+	crew = B_D_HeliPilot_lxWS;
+	typicalCargo[] = {B_D_Soldier_lite_lxWS};
+    textureList[] = {Sand,1};
+    hiddenSelectionsTextures[] =
+	{
+		"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Transport_03_ext01_sand_CO.paa",
+		"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Transport_03_ext02_sand_CO.paa"
+	};
+     /* Turrets */
+	class Turrets: Turrets
+	{
+		class CopilotTurret;
+		class MainTurret: MainTurret
+		{
+		    gunnerType = Aegis_B_D_Helicrew_F;
+		};
+		class RightDoorGun: RightDoorGun
+		{
+		    gunnerType = Aegis_B_D_Helicrew_F;
+		};
+	};
+};
+class Aegis_B_D_Heli_Transport_03_unarmed_F: B_Heli_Transport_03_unarmed_F
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_B_D_Heli_Transport_03_unarmed_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	scopeArsenal = private;
+    forceInGarage = false;
+	side = TWest;
+	faction = BLU_NATO_lxWS;
+	crew = B_D_HeliPilot_lxWS;
+	typicalCargo[] = {B_D_Soldier_lite_lxws};
+    textureList[] = {Sand,1};
+    hiddenSelectionsTextures[] =
+	{
+		"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Transport_03_ext01_sand_CO.paa",
+		"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Transport_03_ext02_sand_CO.paa"
+	};
+};

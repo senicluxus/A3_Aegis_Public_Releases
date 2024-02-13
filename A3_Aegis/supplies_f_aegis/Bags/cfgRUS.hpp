@@ -24,8 +24,8 @@ class B_FieldPack_green_AAR_F: B_FieldPack_green_F
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(75Rnd_762x39_AK12_Mag_F,1);
-		mag_xx(75Rnd_762x39_AK12_Mag_Tracer_F,1);
+		mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,1);
+		mag_xx(Aegis_60Rnd_545x39_Mag_Tracer_Green_F,1);
 	};
 	class TransportItems
 	{
@@ -143,7 +143,7 @@ class B_Carryall_green_Ammo_F: B_Carryall_green_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_545x39_AK12_Mag_F,6);
-		mag_xx(75Rnd_762x39_AK12_Mag_F,1);
+		mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,1);
 		mag_xx(RPG32_F,1);
 		mag_xx(HandGrenade_East,2);
 		mag_xx(MiniGrenade,2);
@@ -280,5 +280,25 @@ class B_Carryall_taiga_Mine: B_Carryall_taiga_F
 	{
 		item_xx(ToolKit,1);
 		item_xx(MineDetector,1);
+	};
+};
+
+/* Conscript Backpacks */
+class Aegis_B_FieldPack_Taiga_ConLAT_F: B_FieldPack_taiga_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(RPG7_F,3);
+	};
+};
+class Aegis_B_FieldPack_Green_ConLAT_F: B_FieldPack_green_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(RPG7_F,3);
 	};
 };

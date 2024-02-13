@@ -253,7 +253,7 @@ class Atlas_B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 		mag_xx(SmokeShellGreen,8);
 		mag_xx(SmokeShellOrange,8);
 		mag_xx(SmokeShellBlue,8);
-		mag_xx(MRAWS_HEAT_F,5);
+		mag_xx(Atlas_DM12_Heat_F,4);
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AP,2);
 		mag_xx(Titan_AA,2);
@@ -264,12 +264,12 @@ class Atlas_B_G_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_wdl_F,2);
+		bag_xx(B_AssaultPack_flecktarn,2);
 	};
 };
 
 
-/* Bundeswehr (Arid) 
+//Bundeswehr (Arid) 
 class Atlas_B_G_APC_Wheeled_03_cannon_ard_F: Atlas_B_G_APC_Wheeled_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -470,7 +470,7 @@ class Atlas_B_G_APC_Wheeled_03_cannon_ard_F: Atlas_B_G_APC_Wheeled_03_cannon_F
 		verticalOffsetWorld = -0.087;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_APC_Wheeled_03_cannon_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_APC_Wheeled_03_cannon_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	crew = Atlas_B_G_Crew_ard_F;
 	typicalCargo[] = {Atlas_B_G_Soldier_ard_F};
@@ -489,10 +489,33 @@ class Atlas_B_G_APC_Wheeled_03_cannon_ard_F: Atlas_B_G_APC_Wheeled_03_cannon_F
 		"\A3\Armor_F\Data\cage_sand_CO.paa"
 	};
 
-    /* Inventory 
+    /* Inventory */ 
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,12);
+		mag_xx(200Rnd_65x39_cased_box_Red,3);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,6);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(Atlas_DM12_Heat_F,4);
+		mag_xx(Titan_AT,2);
+		mag_xx(Titan_AP,2);
+		mag_xx(Titan_AA,2);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_G36_Sand_F,2);
+	};
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_mcamo,2);
+		bag_xx(B_AssaultPack_multitarn,2);
 	};
 };
-*/

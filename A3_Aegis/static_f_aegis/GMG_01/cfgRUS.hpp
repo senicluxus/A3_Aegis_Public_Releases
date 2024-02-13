@@ -141,7 +141,7 @@ class O_R_GMG_01_high_F: O_GMG_01_high_F
 		dissasembleTo[] =
 		{
             O_R_GMG_01_high_Weapon_F,
-            O_R_HMG_01_support_F
+            O_R_HMG_01_support_high_F
 		};
 	};
 };
@@ -230,6 +230,7 @@ class O_R_GMG_01_Weapon_F: B_GMG_01_weapon_F
 	{
 		displayName = $STR_A3_CfgVehicles_B_GMG_01_Wpn_assembleInfo0;
 		assembleTo = O_R_GMG_01_F;
+            base[] = {SUPPORT_BAGS_HMG_01};
 	};
 };
 class O_R_GMG_01_A_Weapon_F: B_GMG_01_A_weapon_F
@@ -242,6 +243,7 @@ class O_R_GMG_01_A_Weapon_F: B_GMG_01_A_weapon_F
 	class assembleInfo: assembleInfo
 	{
 		assembleTo = O_R_GMG_01_A_F;
+            base[] = {SUPPORT_BAGS_HMG_01};
 	};
 };
 class O_R_GMG_01_high_Weapon_F: B_GMG_01_high_weapon_F
@@ -254,6 +256,7 @@ class O_R_GMG_01_high_Weapon_F: B_GMG_01_high_weapon_F
 	class assembleInfo: assembleInfo
 	{
 		assembleTo = O_R_GMG_01_high_F;
+            base[] = {SUPPORT_BAGS_HMG_01_HIGH};
 	};
 };
 

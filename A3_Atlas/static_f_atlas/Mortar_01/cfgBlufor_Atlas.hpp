@@ -41,3 +41,22 @@ class Atlas_B_G_Mortar_01_F: B_Mortar_01_F
 		};
 	};
 };
+
+/* Bundeswehr Arid */
+class Atlas_B_G_Mortar_01_ard_F: Atlas_B_G_Mortar_01_F
+{
+	faction = Atlas_BLU_G_ard_F;
+	crew = Atlas_B_G_Soldier_ard_F;
+	class assembleInfo
+	{
+		displayName = "";
+		assembleTo = "";
+		base = "";
+		primary = false;
+		dissasembleTo[] =
+		{
+			B_Mortar_01_Weapon_F,
+			B_Mortar_01_support_F
+		};
+	};
+};

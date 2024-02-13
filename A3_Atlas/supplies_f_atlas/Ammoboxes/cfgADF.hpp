@@ -20,7 +20,7 @@ class Box_ADF_Wps_F: Box_NATO_Wps_F
         weap_xx(arifle_AUG_GL_F,2);
         weap_xx(arifle_AUG_C_F,2);
 		weap_xx(LMG_03_F,2);
-		weap_xx(srifle_EBR_blk_F,2);
+		weap_xx(Aegis_arifle_SR25_blk_F,2);
 	};
 	class TransportItems{};
 };
@@ -90,7 +90,7 @@ class Atlas_B_A_supplyCrate_F: O_supplyCrate_F
 		init = "''";
 	};
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_A_supplyCrate_F.jpg";
-	displayName = $STR_A3_A_CfgVehicles_B_A_supplyCrate_F0;
+	displayName = $STR_A3_A_CfgVehicles_B_ADF_supplyCrate_F0;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Ammoboxes\Data\Supplydrop_CO.paa"};
     editorSubcategory = EdSubcat_Ammo_ADF;
 	class TransportMagazines
@@ -99,7 +99,7 @@ class Atlas_B_A_supplyCrate_F: O_supplyCrate_F
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(30Rnd_556x45_AUG_Mag_F,32);
 		mag_xx(20Rnd_762x51_Mag,6);
-		mag_xx(16Rnd_9x21_Mag_v2,2);
+		mag_xx(17Rnd_9x21_Mag,2);
 		mag_xx(chemlight_red,2);
 		mag_xx(B_IR_Grenade,2);
 		mag_xx(Laserbatteries,1);
@@ -120,7 +120,7 @@ class Atlas_B_A_supplyCrate_F: O_supplyCrate_F
 		weap_xx(arifle_AUG_GL_F,1);
 		weap_xx(arifle_AUG_C_F,1);
 		weap_xx(LMG_03_F,1);
-		weap_xx(srifle_EBR_blk_F,1);
+		weap_xx(Aegis_arifle_SR25_blk_F,1);
 		weap_xx(launch_MRAWS_coyote_F,1);
 	};
 	class TransportItems

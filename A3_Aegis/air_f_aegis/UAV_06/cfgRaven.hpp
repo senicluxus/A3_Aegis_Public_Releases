@@ -204,7 +204,7 @@ class I_Raven_UAV_06_backpack_F: UAV_06_backpack_base_F
 	author = $STR_A3_A_Heliotrope;
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_UAV_06_backpack_F0;
+	displayName = $STR_A3_A_CfgVehicles_I_Raven_UAV_06_backpack_F0;
 	faction = IND_Raven_F;
 	picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_O_R_UAV_06_backpack_F_CA.paa";
 	hiddenSelectionsTextures[] =
@@ -223,7 +223,7 @@ class I_Raven_UAV_06_medical_backpack_F: UAV_06_medical_backpack_base_F
 	author = $STR_A3_A_Heliotrope;
 	scope = public;
 	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_UAV_06_medical_backpack_F0;
+	displayName = $STR_A3_A_CfgVehicles_I_Raven_UAV_06_medical_backpack_F0;
 	faction = IND_Raven_F;
 	picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_O_R_UAV_06_medical_backpack_F_CA.paa";
 	hiddenSelectionsTextures[] =
@@ -313,7 +313,7 @@ class O_Raven_UAV_06_F: UAV_06_base_F
 		base = "";
 		assembleTo = "";
 		displayName = "";
-		dissasembleTo[] = {I_Raven_UAV_06_backpack_F};
+		dissasembleTo[] = {O_R_UAV_06_backpack_F};
 	};
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\UAV_06\Data\O_R_UAV_06_CO.paa"};
 };
@@ -391,7 +391,7 @@ class O_Raven_UAV_06_medical_F: UAV_06_medical_base_F
 		base = "";
 		assembleTo = "";
 		displayName = "";
-		dissasembleTo[] = {O_Raven_UAV_06_medical_backpack_F};
+		dissasembleTo[] = {O_R_UAV_06_medical_backpack_F};
 	};
 	hiddenSelectionsTextures[] =
 	{
@@ -437,43 +437,5 @@ class Box_O_Raven_UAV_06_medical_F: Box_UAV_06_medical_base_F
 	{
 		"\A3_Aegis\Air_F_Aegis\UAV_06\Data\O_R_UAV_06_medical_CO.paa",
 		"\A3_Aegis\Air_F_Aegis\UAV_06\Data\O_R_UAV_06_medical_CO.paa"
-	};
-};
-class O_Raven_UAV_06_backpack_F: UAV_06_backpack_base_F
-{
-	author = $STR_A3_A_Heliotrope;
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_UAV_06_backpack_F0;
-	faction = OPF_Raven_F;
-	picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_O_R_UAV_06_backpack_F_CA.paa";
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_RUkhk_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\UAV_06\Data\O_R_UAV_06_CO.paa"
-	};
-	class assembleInfo: assembleInfo
-	{
-		displayName = $STR_A3_A_CfgVehicles_O_R_UAV_06_backpack_F_assembleInfo0;
-		assembleTo = O_Raven_UAV_06_F;
-	};
-};
-class O_Raven_UAV_06_medical_backpack_F: UAV_06_medical_backpack_base_F
-{
-	author = $STR_A3_A_Heliotrope;
-	scope = public;
-	scopeCurator = public;
-	displayName = $STR_A3_A_CfgVehicles_O_R_UAV_06_medical_backpack_F0;
-	faction = OPF_Raven_F;
-	picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_O_R_UAV_06_medical_backpack_F_CA.paa";
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_RUkhk_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\UAV_06\Data\O_R_UAV_06_medical_CO.paa"
-	};
-	class assembleInfo: assembleInfo
-	{
-		displayName = $STR_A3_A_CfgVehicles_O_R_UAV_06_medical_backpack_F_assembleInfo0;
-		assembleTo = O_Raven_UAV_06_medical_F;
 	};
 };

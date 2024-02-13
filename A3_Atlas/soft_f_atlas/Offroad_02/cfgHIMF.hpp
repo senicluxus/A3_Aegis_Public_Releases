@@ -136,11 +136,11 @@ class Atlas_B_H_Offroad_02_unarmed_F: Offroad_02_unarmed_base_F
 	{
 		mag_xx(SmokeShell,4);
 		mag_xx(HandGrenade,4);
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
+		mag_xx(30Rnd_556x45_stanag_red,8);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_G36C_F,2);
+		weap_xx(Aegis_arifle_M4A1_grip_F,2);
 	};
 };
 class Atlas_B_H_Offroad_02_LMG_F: Offroad_02_LMG_base_F
@@ -360,11 +360,11 @@ class Atlas_B_H_Offroad_02_LMG_F: Offroad_02_LMG_base_F
 	{
 		mag_xx(SmokeShell,4);
 		mag_xx(HandGrenade,4);
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
+		mag_xx(30Rnd_556x45_stanag_red,8);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_G36C_F,2);
+		weap_xx(Aegis_arifle_M4A1_grip_F,2);
 	};
 	class Turrets: Turrets
 	{
@@ -539,10 +539,10 @@ class Atlas_B_H_Offroad_02_AT_F: Offroad_02_AT_base_F
 	{
 		mag_xx(SmokeShell,4);
 		mag_xx(HandGrenade,4);
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
+		mag_xx(30Rnd_556x45_stanag_red,8);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_G36C_F,2);
+		weap_xx(Aegis_arifle_M4A1_grip_F,2);
 	};
 };

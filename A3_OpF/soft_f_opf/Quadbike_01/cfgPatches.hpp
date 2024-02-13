@@ -13,6 +13,9 @@ class CfgPatches
             // Separatists
             Opf_O_S_Quadbike_01_F,
 
+            // Partisans
+            Opf_B_P_Quadbike_01_F,
+
             // Patriots
             Opf_I_P_Quadbike_01_F
         };

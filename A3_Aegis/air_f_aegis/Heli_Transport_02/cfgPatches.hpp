@@ -15,12 +15,23 @@ class CfgPatches
             B_A_Heli_Transport_02_F,
             B_A_Heli_Transport_02_tna_F,
             B_A_Heli_Transport_02_wdl_F,
+			Aegis_B_A_Heli_Transport_02_F,
+			Aegis_B_A_Heli_Transport_02_tna_F,
+			Aegis_B_A_Heli_Transport_02_wdl_F
 
             /* From "cfgCivil.hpp" */
             C_Heli_Transport_02_civil_F,
+			Aegis_C_Heli_Transport_02_VIP_F,
+
+			/* From "cfgIndep.hpp" */
+			Aegis_I_Heli_Transport_02_Heavy_F,
 
             /* From "cfgION.hpp" */
-            B_ION_Heli_Transport_02_F
+            B_ION_Heli_Transport_02_F,
+			Aegis_B_ION_Heli_Transport_02_VIP_F,
+
+			/* From "cfgUNA.hpp" */
+			Aegis_B_UN_lxWS_Heli_Transport_02_VIP_F
         };
 		weapons[] = {/* Automated */};
 	};

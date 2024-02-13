@@ -10,5 +10,6 @@ class CfgVehicles
 	#include "cfgRaven.hpp"
 	*/
     #include "cfgChKDZ.hpp"
+	#include "cfgPartisans.hpp"
 	#include "cfgTKM.hpp"
 };

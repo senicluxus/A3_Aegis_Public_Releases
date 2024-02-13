@@ -24,6 +24,13 @@ class CfgVehicles
 				textures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_02\Data\Heli_Light_02_ext_UN_CO.paa"};
 				faction[] = {};
 			};
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_02\Data\Heli_Light_02_ext_whex_CO.paa"};
+				faction[] = {};
+			};
 		};
 	};
 	class Heli_Light_02_unarmed_base_F: Heli_Light_02_base_F{};

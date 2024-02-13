@@ -18,8 +18,8 @@ class Atlas_I_UNO_supplyCrate_F: I_supplyCrate_F
 	{
 		mag_xx(30Rnd_9x21_Mag_SMG_02,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,24);
-		mag_xx(200rnd_65x39_cased_box,3);
+		mag_xx(30Rnd_556x45_stanag_sand_red,24);
+		mag_xx(200Rnd_556x45_Box_Red_F,3);
         mag_xx(20Rnd_762x51_Mag,6);
 		mag_xx(9Rnd_45ACP_Mag,2);
 		mag_xx(chemlight_blue,2);
@@ -37,26 +37,26 @@ class Atlas_I_UNO_supplyCrate_F: I_supplyCrate_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_G36_F,2);
-		weap_xx(arifle_G36_GL_F,1);
-		weap_xx(arifle_G36C_F,1);
-		weap_xx(LMG_03_F,1);
-		weap_xx(srifle_EBR_blk_F,1);
+		weap_xx(Aegis_arifle_M4A1_sand_F,2);
+		weap_xx(Aegis_arifle_M4A1_GL_sand_F,1);
+		weap_xx(Aegis_arifle_M4A1_Short_sand_F,1);
+		weap_xx(LMG_03_snd_F,1);
+		weap_xx(Aegis_arifle_SR25_MR_Snd_F,1);
 		weap_xx(launch_NLAW_F,1);
 	};
 	class TransportItems
 	{
-		item_xx(bipod_01_F_blk,2);
+		item_xx(bipod_01_F_snd,2);
 		item_xx(FirstAidKit,10);
-		item_xx(acc_flashlight,5);
-		item_xx(acc_pointer_IR,5);
+		item_xx(saber_light_sand_lxWS,5);
+		item_xx(acc_pointer_IR_sand_lxWS,5);
 		item_xx(Binocular,1);
 		item_xx(Medikit,1);
 		item_xx(MineDetector,1);
 		item_xx(ToolKit,1);
-		item_xx(optic_Holosight_blk_F,2);
-		item_xx(optic_MRCO,2);
-		item_xx(optic_AMS,2);
+		item_xx(optic_Holosight,2);
+		item_xx(Aegis_optic_ACOG_sand,2);
+		item_xx(optic_AMS_snd,2);
 		item_xx(Rangefinder,1);
 		item_xx(NVGoggles_INDEP,5);
 	};

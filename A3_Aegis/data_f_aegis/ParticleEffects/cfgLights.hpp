@@ -172,4 +172,70 @@ class CfgLights
             0.25    // B
         };
 	};
+	class Aegis_HandFlare_Light_Red
+	{
+		color[]={1,0.25,0};
+		diffuse[]={0.80000001,0.35,0.25};
+		ambient[]={2,0.3,0};
+		///brightness=10000;
+		intensity=20000;
+		drawLight=0;
+		class Attenuation
+		{
+			start=0;
+			constant=0;
+			linear=0;
+			quadratic=0;
+		};
+		dayLight=0;
+		useFlare=1;
+		flareSize=5;
+		flareMaxDistance=600;
+		position[]={0,0.019,-0.125};
+	};
+	class Aegis_HandFlare_Light_Green //Could inherit from red for slimmer code
+	{
+		color[]={0.5,1,0.25};
+		diffuse[]={0.5,0.80000001,0.25};
+		ambient[]={0.25,2,0.25};
+		///brightness=10000;
+		intensity=20000;
+		drawLight=0;
+		class Attenuation
+		{
+			start=0;
+			constant=0;
+			linear=0;
+			quadratic=0;
+		};
+		dayLight=0;
+		useFlare=1;
+		flareSize=5;
+		flareMaxDistance=600;
+		position[]={0,0.019,-0.125};
+	};
+	
+	//light for sparks
+	class Aegis_HandFlare_Light_Sparks 
+	{
+		color[]={0.10000001,0.10000001,0.10000001};
+		diffuse[]={0.80000001,0.2,0};
+		ambient[]={0,0,0,0};
+		brightness=5;
+		intensity=500;
+		drawLight=0;
+		class Attenuation
+		{
+			start=0;
+			constant=0;
+			linear=0;
+			quadratic=6;
+			hardLimitStart=40;
+			hardLimitEnd=80;
+		};
+		dayLight=1;
+		useFlare=0;
+		blinking=0;
+		position[]={0,0.019,-0.125};
+	};
 };

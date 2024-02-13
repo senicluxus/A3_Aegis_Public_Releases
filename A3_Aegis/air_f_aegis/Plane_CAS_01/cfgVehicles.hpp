@@ -23,6 +23,17 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_A3_A_Ravenholme;
+				textures[] = 
+				{
+					"lxWS\air_f_lxWS\Data\NATO\lxWS_A164_ext01_desert_CO.paa",
+					"lxWS\air_f_lxWS\Data\NATO\lxWS_A164_ext02_desert_CO.paa"
+				};
+				factions[] = {};
+			};
         };
 	};
 	class Plane_CAS_01_dynamicLoadout_base_F: Plane_CAS_01_base_F{};

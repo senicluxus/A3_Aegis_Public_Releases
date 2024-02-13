@@ -100,12 +100,13 @@ class CfgVehicles
 				};
                 
                 /* Weapons & Ammunition */
+				weapons[] = {"cannon_120mm","MMG_02_coax"};
 				magazines[] =
 				{
 					24Rnd_120mm_APFSDS_shells_Tracer_Red,
 					12Rnd_120mm_HE_shells_Tracer_Red,
 					12Rnd_120mm_HEAT_MP_T_Red,
-					mag_20(200Rnd_762x51_Belt_Red),
+					mag_20(200Rnd_338_Mag),
 					4Rnd_120mm_LG_cannon_missiles
 				};
 

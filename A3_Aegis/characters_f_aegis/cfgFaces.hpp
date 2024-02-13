@@ -76,7 +76,7 @@ class CfgFaces
 		class TanoanHead_A3_01;
 		class WhiteHead_23: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Orange_EOD,
 				Head_NATO,
@@ -85,7 +85,7 @@ class CfgFaces
 		};
 		class GreekHead_A3_11: GreekHead_A3_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Orange_Officer,
 				Head_Greek
@@ -93,7 +93,7 @@ class CfgFaces
 		};
 		class GreekHead_A3_12: GreekHead_A3_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Orange_Civilian,
 				Head_Greek
@@ -101,7 +101,7 @@ class CfgFaces
 		};
 		class GreekHead_A3_13: GreekHead_A3_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Orange_FIA,
 				Head_Greek
@@ -109,7 +109,7 @@ class CfgFaces
 		};
 		class GreekHead_A3_14: GreekHead_A3_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Orange_AAF,
 				Head_Greek
@@ -117,7 +117,7 @@ class CfgFaces
 		};
 		class WhiteHead_24: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro
@@ -125,7 +125,7 @@ class CfgFaces
 		};
 		class WhiteHead_25: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro
@@ -133,7 +133,7 @@ class CfgFaces
 		};
 		class WhiteHead_26: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro
@@ -141,7 +141,7 @@ class CfgFaces
 		};
 		class WhiteHead_27: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro
@@ -149,7 +149,7 @@ class CfgFaces
 		};
 		class WhiteHead_28: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro
@@ -157,7 +157,7 @@ class CfgFaces
 		};
 		class WhiteHead_29: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro
@@ -165,7 +165,7 @@ class CfgFaces
 		};
 		class WhiteHead_30: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO
@@ -173,7 +173,7 @@ class CfgFaces
 		};
 		class WhiteHead_31: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro
@@ -181,7 +181,7 @@ class CfgFaces
 		};
 		class WhiteHead_32: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro
@@ -189,7 +189,7 @@ class CfgFaces
 		};
 		class LivonianHead_1: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO
@@ -197,7 +197,7 @@ class CfgFaces
 		};
 		class LivonianHead_2: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO
@@ -205,7 +205,7 @@ class CfgFaces
 		};
 		class LivonianHead_3: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO
@@ -213,7 +213,7 @@ class CfgFaces
 		};
 		class LivonianHead_4: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO
@@ -221,7 +221,7 @@ class CfgFaces
 		};
 		class LivonianHead_5: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO
@@ -229,7 +229,7 @@ class CfgFaces
 		};
 		class LivonianHead_7: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO
@@ -237,7 +237,7 @@ class CfgFaces
 		};
 		class LivonianHead_8: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO
@@ -245,7 +245,7 @@ class CfgFaces
 		};
 		class LivonianHead_9: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO
@@ -253,7 +253,7 @@ class CfgFaces
 		};
 		class LivonianHead_10: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO
@@ -300,7 +300,7 @@ class CfgFaces
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_2_CO.paa";
 			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_White_33_injury.rvmat";
 			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_White_33_injury.rvmat";
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro
@@ -313,7 +313,7 @@ class CfgFaces
 			texture = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_01_CO.paa";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_Black_bald_CO.paa";
 			head = GreekHead_A3;
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Latino

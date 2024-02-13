@@ -19,7 +19,7 @@ class Atlas_B_L_Man_Base_F: B_Soldier_F
 };
 class Atlas_B_L_Soldier_base_F: Atlas_B_L_Man_Base_F
 {
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
 };
 class Atlas_B_L_Soldier_A_F: Atlas_B_L_Soldier_base_F
 {
@@ -28,17 +28,17 @@ class Atlas_B_L_Soldier_A_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
-    uniformClass = U_B_CombatUniform_sgg;
+    uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -46,13 +46,13 @@ class Atlas_B_L_Soldier_A_F: Atlas_B_L_Soldier_base_F
 	backpack = B_Carryall_green_BLAmmo_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons
 	};
@@ -86,17 +86,17 @@ class Atlas_B_L_Soldier_AAR_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_O_SOLDIERU_AAR_F0;
-    uniformClass = U_B_CombatUniform_sgg_tshirt;
+    uniformClass = Atlas_U_B_CombatUniform_ffl_tshirt;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -104,14 +104,14 @@ class Atlas_B_L_Soldier_AAR_F: Atlas_B_L_Soldier_base_F
 	backpack = B_Kitbag_sgg_BLAAR_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -149,7 +149,7 @@ class Atlas_B_L_Support_AMG_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_AMG_F0;
-    uniformClass = U_B_CombatUniform_sgg_tshirt;
+    uniformClass = Atlas_U_B_CombatUniform_ffl_tshirt;
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
@@ -167,14 +167,14 @@ class Atlas_B_L_Support_AMG_F: Atlas_B_L_Soldier_base_F
 	backpack = B_HMG_01_support_grn_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_aco_pointer_F,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_aco_pointer_F,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -213,7 +213,7 @@ class Atlas_B_L_Support_AMort_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_AMort_F0;
-    uniformClass = U_B_CombatUniform_sgg_tshirt;
+    uniformClass = Atlas_U_B_CombatUniform_ffl_tshirt;
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
@@ -231,14 +231,14 @@ class Atlas_B_L_Support_AMort_F: Atlas_B_L_Soldier_base_F
 	backpack = B_Mortar_01_support_grn_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_aco_pointer_F,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_aco_pointer_F,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -277,17 +277,17 @@ class Atlas_B_L_Soldier_AAA_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_AAA_F0;
-    uniformClass = U_B_CombatUniform_sgg;
+    uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -295,14 +295,14 @@ class Atlas_B_L_Soldier_AAA_F: Atlas_B_L_Soldier_base_F
 	backpack = B_Carryall_green_AAA_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -341,17 +341,17 @@ class Atlas_B_L_Soldier_AAT_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_AAT_F0;
-    uniformClass = U_B_CombatUniform_sgg;
+    uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -359,14 +359,14 @@ class Atlas_B_L_Soldier_AAT_F: Atlas_B_L_Soldier_base_F
 	backpack = B_Carryall_green_AAT_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -416,17 +416,17 @@ class Atlas_B_L_Soldier_AR_F: Atlas_B_L_Soldier_base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
-    uniformClass = U_B_CombatUniform_sgg_tshirt;
+    uniformClass = Atlas_U_B_CombatUniform_ffl_tshirt;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -480,17 +480,17 @@ class Atlas_B_L_Medic_F: Atlas_B_L_Soldier_base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
-    uniformClass = U_B_CombatUniform_sgg;
+    uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -498,13 +498,13 @@ class Atlas_B_L_Medic_F: Atlas_B_L_Soldier_base_F
 	backpack = B_AssaultPack_sgg_BLMedic_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
@@ -541,11 +541,11 @@ class Atlas_B_L_Medic_F: Atlas_B_L_Soldier_base_F
 class Atlas_B_L_Crew_F: Atlas_B_L_Soldier_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_Crew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_L_Crew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_crew_F0;
-	uniformClass = U_B_CombatUniform_sgg_vest;
+	uniformClass = Atlas_U_B_CombatUniform_ffl_vest;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_Olive_F,
@@ -562,13 +562,13 @@ class Atlas_B_L_Crew_F: Atlas_B_L_Soldier_base_F
 	};
 	weapons[] =
 	{
-		arifle_MSBS65_black_aco_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_aco_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
@@ -598,17 +598,17 @@ class Atlas_B_L_Engineer_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
-	uniformClass = U_B_CombatUniform_sgg_vest;
+	uniformClass = Atlas_U_B_CombatUniform_ffl_vest;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -616,13 +616,13 @@ class Atlas_B_L_Engineer_F: Atlas_B_L_Soldier_base_F
 	backpack = B_Kitbag_sgg_BLEng_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
@@ -667,17 +667,17 @@ class Atlas_B_L_Soldier_Exp_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_exp_F0;
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Olive_F,
+		V_CarrierRigKBT_01_heavy_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Olive_F,
+		V_CarrierRigKBT_01_heavy_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -685,13 +685,13 @@ class Atlas_B_L_Soldier_Exp_F: Atlas_B_L_Soldier_base_F
 	backpack = B_Kitbag_sgg_IIExp_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons
 	};
@@ -733,30 +733,30 @@ class Atlas_B_L_Soldier_GL_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Olive_F,
+		V_CarrierRigKBT_01_heavy_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Olive_F,
+		V_CarrierRigKBT_01_heavy_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	weapons[] =
 	{
-		arifle_MSBS65_GL_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_GL_Holo_LP_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_GL_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_GL_Holo_LP_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
@@ -797,7 +797,7 @@ class Atlas_B_L_Support_GMG_F: Atlas_B_L_Soldier_base_F
 	scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_GMG_F0;
-    uniformClass = U_B_CombatUniform_sgg_tshirt;
+    uniformClass = Atlas_U_B_CombatUniform_ffl_tshirt;
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
@@ -815,14 +815,14 @@ class Atlas_B_L_Support_GMG_F: Atlas_B_L_Soldier_base_F
 	backpack = B_GMG_01_Weapon_grn_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_aco_pointer_F,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_aco_pointer_F,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -861,7 +861,7 @@ class Atlas_B_L_Support_MG_F: Atlas_B_L_Soldier_base_F
 	scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_MG_F0;
-    uniformClass = U_B_CombatUniform_sgg_tshirt;
+    uniformClass = Atlas_U_B_CombatUniform_ffl_tshirt;
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
@@ -879,14 +879,14 @@ class Atlas_B_L_Support_MG_F: Atlas_B_L_Soldier_base_F
 	backpack = B_HMG_01_Weapon_grn_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_aco_pointer_F,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_aco_pointer_F,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -925,7 +925,7 @@ class Atlas_B_L_Support_Mort_F: Atlas_B_L_Soldier_base_F
 	scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_Mort_F0;
-    uniformClass = U_B_CombatUniform_sgg_tshirt;
+    uniformClass = Atlas_U_B_CombatUniform_ffl_tshirt;
 	linkedItems[] =
 	{
 		V_TacChestrig_grn_F,
@@ -943,14 +943,14 @@ class Atlas_B_L_Support_Mort_F: Atlas_B_L_Soldier_base_F
 	backpack = B_Mortar_01_Weapon_grn_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_aco_pointer_F,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_aco_pointer_F,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -1000,7 +1000,7 @@ class Atlas_B_L_Helicrew_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_helicrew_F0;
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_Olive_F,
@@ -1017,12 +1017,12 @@ class Atlas_B_L_Helicrew_F: Atlas_B_L_Soldier_base_F
     };
 	weapons[] =
 	{
-		arifle_MSBS65_black_aco_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_aco_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1063,7 +1063,7 @@ class Atlas_B_L_Helipilot_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Helipilot_F0;
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
     linkedItems[] =
     {
 		V_CarrierRigKBT_01_Olive_F,
@@ -1117,45 +1117,45 @@ class Atlas_B_L_soldier_M_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	weapons[] =
 	{
-		arifle_MSBS65_Mark_black_DMS_LP_BI_F,
+		Atlas_arifle_SPAR_03_blk_DMS_LP_BI_F,
 		hgun_G17_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_Mark_black_DMS_LP_BI_F,
+		Atlas_arifle_SPAR_03_blk_DMS_LP_BI_F,
 		hgun_G17_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	magazines[] =
 	{
-		mag_8(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(20Rnd_762x51_mag),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_8(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(20Rnd_762x51_mag),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -1189,17 +1189,17 @@ class Atlas_B_L_Soldier_AA_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_AA_F0;
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1207,14 +1207,14 @@ class Atlas_B_L_Soldier_AA_F: Atlas_B_L_Soldier_base_F
 	backpack = B_Kitbag_sgg_BLAA_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		launch_B_Titan_olive_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		launch_B_Titan_olive_F,
 		hgun_G17_F,
         DefaultManWeapons
@@ -1260,17 +1260,17 @@ class Atlas_B_L_Soldier_AT_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_soldier_AT_F0;
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1278,14 +1278,14 @@ class Atlas_B_L_Soldier_AT_F: Atlas_B_L_Soldier_base_F
 	backpack = B_Kitbag_sgg_BLAT_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		launch_I_Titan_short_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		launch_I_Titan_short_F,
 		hgun_G17_F,
         DefaultManWeapons
@@ -1331,7 +1331,7 @@ class Atlas_B_L_Officer_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
 		V_Rangemaster_belt,
@@ -1392,17 +1392,17 @@ class Atlas_B_L_Soldier_Repair_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_repair_F0;
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1410,13 +1410,13 @@ class Atlas_B_L_Soldier_Repair_F: Atlas_B_L_Soldier_base_F
 	backpack = B_AssaultPack_sgg_BLRepair_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons
 	};
@@ -1459,33 +1459,34 @@ class Atlas_B_L_Soldier_F: Atlas_B_L_Soldier_base_F
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
 		mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_3(1Rnd_40mm_HE_lxWS),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -1493,6 +1494,7 @@ class Atlas_B_L_Soldier_F: Atlas_B_L_Soldier_base_F
 	respawnMagazines[] =
 	{
 		mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_3(1Rnd_40mm_HE_lxWS),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -1517,17 +1519,17 @@ class Atlas_B_L_Soldier_LAT_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1535,14 +1537,14 @@ class Atlas_B_L_Soldier_LAT_F: Atlas_B_L_Soldier_base_F
 	backpack = B_AssaultPack_sgg_BLLAT_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		launch_NLAW_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		launch_NLAW_F,
 		hgun_G17_F,
         DefaultManWeapons
@@ -1576,28 +1578,28 @@ class Atlas_B_L_Soldier_Lite_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_lite_F0;
-	uniformClass = U_B_CombatUniform_sgg_vest;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_Olive_F,
+		V_CarrierRigKBT_01_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_Olive_F,
+		V_CarrierRigKBT_01_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems
 	};
 	weapons[] =
 	{
-		arifle_MSBS65_black_F,
+		atlas_arifle_famasG4_Grip_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_F,
+		atlas_arifle_famasG4_Grip_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
@@ -1631,47 +1633,45 @@ class Atlas_B_L_Soldier_CQ_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
-	uniformClass = U_B_CombatUniform_sgg;
+	uniformClass = Atlas_U_B_CombatUniform_ffl;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		Atlas_V_CarrierRigKBT_01_CQB_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		Atlas_V_CarrierRigKBT_01_CQB_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	weapons[] =
 	{
-		arifle_MSBS65_UBS_black_ico_pointer_f,
+		Atlas_sgun_M4_Holo_FL_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_UBS_black_ico_pointer_f,
+		Atlas_sgun_M4_Holo_FL_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
-        mag_3(6Rnd_12Gauge_Pellets),
-        mag_3(6Rnd_12Gauge_Slug),
+        mag_5(8Rnd_12Gauge_Pellets),
+        mag_5(8Rnd_12Gauge_Slug),
 		mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
-        mag_3(6Rnd_12Gauge_Pellets),
-        mag_3(6Rnd_12Gauge_Slug),
+        mag_5(8Rnd_12Gauge_Pellets),
+        mag_5(8Rnd_12Gauge_Slug),
 		mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -1686,10 +1686,10 @@ class Atlas_B_L_Soldier_SL_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
-	uniformClass = U_B_CombatUniform_sgg_vest;
+	uniformClass = Atlas_U_B_CombatUniform_ffl_vest;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetSpecB_green,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1697,7 +1697,7 @@ class Atlas_B_L_Soldier_SL_F: Atlas_B_L_Soldier_base_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetSpecB_green,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1705,14 +1705,14 @@ class Atlas_B_L_Soldier_SL_F: Atlas_B_L_Soldier_base_F
 	};
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_RCO_LP_F,
 		hgun_G17_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_RCO_LP_F,
 		hgun_G17_F,
         DefaultManWeapons,
 		Binocular
@@ -1721,6 +1721,7 @@ class Atlas_B_L_Soldier_SL_F: Atlas_B_L_Soldier_base_F
 	{
 		mag_4(30Rnd_65x39_caseless_msbs_mag),
 		mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
+		mag_3(1Rnd_40mm_HE_lxWS),
 		mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(B_IR_Grenade),
@@ -1731,6 +1732,7 @@ class Atlas_B_L_Soldier_SL_F: Atlas_B_L_Soldier_base_F
 	{
 		mag_4(30Rnd_65x39_caseless_msbs_mag),
 		mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
+		mag_3(1Rnd_40mm_HE_lxWS),
 		mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(B_IR_Grenade),
@@ -1749,10 +1751,10 @@ class Atlas_B_L_Soldier_TL_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
-	uniformClass = U_B_CombatUniform_sgg_vest;
+	uniformClass = Atlas_U_B_CombatUniform_ffl_vest;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Olive_F,
+		V_CarrierRigKBT_01_heavy_france_F,
 		H_HelmetSpecB_green,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1760,7 +1762,7 @@ class Atlas_B_L_Soldier_TL_F: Atlas_B_L_Soldier_base_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_Olive_F,
+		V_CarrierRigKBT_01_heavy_france_F,
 		H_HelmetSpecB_green,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1768,14 +1770,14 @@ class Atlas_B_L_Soldier_TL_F: Atlas_B_L_Soldier_base_F
 	};
 	weapons[] =
 	{
-		arifle_MSBS65_GL_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_GL_RCO_LP_F,
 		hgun_G17_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_GL_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_GL_RCO_LP_F,
 		hgun_G17_F,
         DefaultManWeapons,
 		Binocular
@@ -1816,17 +1818,17 @@ class Atlas_B_L_RadioOperator_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = U_B_CombatUniform_sgg_vest;
+	uniformClass = Atlas_U_B_CombatUniform_ffl_vest;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1834,19 +1836,20 @@ class Atlas_B_L_RadioOperator_F: Atlas_B_L_Soldier_base_F
 	backpack = B_RadioBag_01_green_F;
 	weapons[] =
     {
-        arifle_MSBS65_black_ico_pointer_f,
+        Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
         hgun_G17_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_MSBS65_black_ico_pointer_f,
+        Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
         hgun_G17_F,
         DefaultManWeapons
     };
     magazines[] =
     {
         mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_3(1Rnd_40mm_HE_lxWS),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -1854,6 +1857,7 @@ class Atlas_B_L_RadioOperator_F: Atlas_B_L_Soldier_base_F
     respawnMagazines[] =
     {
         mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_3(1Rnd_40mm_HE_lxWS),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -1890,10 +1894,10 @@ class Atlas_B_L_Soldier_UAV_F: Atlas_B_L_Soldier_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_B_SOLDIER_UAV_F0;
-	uniformClass = U_B_CombatUniform_sgg_vest;
+	uniformClass = Atlas_U_B_CombatUniform_ffl_vest;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		B_UavTerminal,
@@ -1901,7 +1905,7 @@ class Atlas_B_L_Soldier_UAV_F: Atlas_B_L_Soldier_base_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_Beret_grn,
 		DefaultManLinkedItems,
 		B_UavTerminal,
@@ -1910,13 +1914,13 @@ class Atlas_B_L_Soldier_UAV_F: Atlas_B_L_Soldier_base_F
 	backpack = B_UAV_01_backpack_F;
 	weapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_MSBS65_black_ico_pointer_f,
+		Atlas_Arifle_FamasG4_Grip_Holo_LP_F,
 		hgun_G17_F,
         DefaultManWeapons
 	};
@@ -1978,13 +1982,13 @@ class Atlas_B_L_Soldier_unarmed_F: Atlas_B_L_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		V_CarrierRigKBT_01_light_france_F,
 		H_HelmetB_green,
 		DefaultManLinkedItems
 	};

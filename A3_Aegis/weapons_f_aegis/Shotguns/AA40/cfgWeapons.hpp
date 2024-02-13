@@ -30,7 +30,7 @@ class CfgWeapons
 			Aegis_8Rnd_12Gauge_AA40_Smoke_khk_lxWS,
 			Aegis_8Rnd_12Gauge_AA40_HE_khk_lxWS
 		};
-		picture = "\lxWS\weapons_1_f_lxws\Shotguns\AA40\Data\ui\icon_sgun_aa40_lxWS_CA.paa";
+		picture = "\A3_Aegis\weapons_f_aegis\Shotguns\AA40\Data\UI\icon_sgun_aa40_lxws_khk_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\Shotguns\AA40\Data\aa40_khk_co.paa"};
 		hiddenSelectionsMaterials[] = {"\lxws\weapons_1_f_lxWS\shotguns\aa40\data\aa40.rvmat"};
 	};

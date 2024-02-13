@@ -93,10 +93,11 @@ class Atlas_I_I_MRAP_01_F: MRAP_01_base_F
         verticalOffsetWorld = -0.154;
         init = "''";
     };
-    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MRAP_01_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_MRAP_01_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TGuerrila;
+    displayName = $STR_A3_A_CfgVehicles_I_I_MRAP_01_F0;
     faction = Atlas_IND_I_F;
     crew = Atlas_I_I_Soldier_F;
     typicalCargo[] = {Atlas_I_I_Soldier_lite_F};
@@ -227,9 +228,10 @@ class Atlas_I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
         verticalOffsetWorld = -0.154;
         init = "''";
     };
-    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MRAP_01_gmg_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_MRAP_01_gmg_F.jpg";
     scope = public;
     scopeCurator = public;
+    displayName = $STR_A3_A_CfgVehicles_I_I_MRAP_01_gmg_F0;
     side = TGuerrila;
     faction = Atlas_IND_I_F;
     crew = Atlas_I_I_Soldier_F;
@@ -358,9 +360,10 @@ class Atlas_I_I_MRAP_01_hmg_F: MRAP_01_hmg_base_F
         verticalOffsetWorld = -0.154;
         init = "''";
     };
-    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_MRAP_01_hmg_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_MRAP_01_hmg_F.jpg";
     scope = public;
     scopeCurator = public;
+    displayName = $STR_A3_A_CfgVehicles_I_I_MRAP_01_hmg_F0;
     side = TGuerrila;
     faction = Atlas_IND_I_F;
     crew = Atlas_I_I_Soldier_F;

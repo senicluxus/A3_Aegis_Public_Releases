@@ -460,6 +460,38 @@ class CfgSoundSets
 	{
 		soundShaders[] = {SMG04_silencerTailInterior_SoundShader};
 	};
+	// M4A1 5.56M
+	class Aegis_M4A1_Shot_SoundSet: Rifle_Shot_Base_SoundSet
+	{
+		soundShaders[]=
+		{
+			"Aegis_M4A1_Closure_SoundShader",
+			"Aegis_M4A1_closeShot_SoundShader",
+			"Aegis_M4A1_midShot_SoundShader",
+			"Aegis_M4A1_distShot_SoundShader"
+		};
+		volumeFactor=1.9;
+	};
+	class Aegis_M4A1_tail_SoundSet: Rifle_Tail_Base_SoundSet
+	{
+		soundShaders[]=
+		{
+			"Aegis_M4A1_tailDistant_SoundShader",
+			"Aegis_M4A1_tailForest_SoundShader",
+			"Aegis_M4A1_tailHouses_SoundShader",
+			"Aegis_M4A1_tailInterior_SoundShader",
+			"Aegis_M4A1_tailMeadows_SoundShader",
+			"Aegis_M4A1_tailTrees_SoundShader"
+		};
+	};
+	class Aegis_M4A1_InteriorTail_SoundSet: Rifle_InteriorTail_Base_SoundSet
+	{
+		soundShaders[]=
+		{
+			"Aegis_M4A1_tailInterior_SoundShader"
+		};
+	};
+	// Misc Plane Soundsets
 	class Plane_Fighter_RainExt_SoundSet
 	{
 		soundShaders[] = {Plane_Fighter_RainExt_SoundShader};

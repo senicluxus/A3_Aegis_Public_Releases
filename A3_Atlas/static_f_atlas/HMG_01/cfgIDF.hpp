@@ -88,7 +88,7 @@ class Atlas_I_I_HMG_01_high_F: I_HMG_01_high_F
 		dissasembleTo[] =
 		{
             Atlas_I_I_HMG_01_high_weapon_F,
-            Atlas_I_I_HMG_01_support_F
+            Atlas_I_I_HMG_01_support_high_F
 		};
 	};
 };
@@ -130,6 +130,7 @@ class Atlas_I_I_HMG_01_weapon_F: I_HMG_01_weapon_F
 	class assembleInfo: assembleInfo
 	{
 		assembleTo = Atlas_I_I_HMG_01_F;
+		base[] = {SUPPORT_BAGS_HMG_01};
 	};
 };
 class Atlas_I_I_HMG_01_support_high_F: I_HMG_01_support_high_F
@@ -150,6 +151,7 @@ class Atlas_I_I_HMG_01_A_weapon_F: I_HMG_01_A_weapon_F
 	class assembleInfo: assembleInfo
 	{
 		assembleTo = Atlas_I_I_HMG_01_A_F;
+		base[] = {SUPPORT_BAGS_HMG_01};
 	};
 };
 class Atlas_I_I_HMG_01_high_weapon_F: I_HMG_01_high_weapon_F
@@ -162,5 +164,6 @@ class Atlas_I_I_HMG_01_high_weapon_F: I_HMG_01_high_weapon_F
 	class assembleInfo: assembleInfo
 	{
 		assembleTo = Atlas_I_I_HMG_01_high_F;
+		base[] = {SUPPORT_BAGS_HMG_01_HIGH};
 	};
 };

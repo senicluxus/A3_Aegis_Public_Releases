@@ -16,8 +16,10 @@ class CfgWeapons
 		model = "\A3_Aegis\Weapons_F_Aegis\GrenadeLaunchers\XM25\XM25_F.p3d";
 		picture = "\A3_Aegis\Weapons_F_Aegis\GrenadeLaunchers\XM25\Data\UI\icon_GL_XM25_F_X_CA.paa";
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_gl_CA.paa";
-		weaponInfoType = RscOptics_punisher;
-		modelOptics = "\A3\Weapons_F\Acc\reticle_cdtes.p3d";
+		weaponInfoType = "Aegis_RscOptics_Punisher";
+		modelOptics = "\A3_Aegis\weapons_f_aegis\Acc\reticle_punisher.p3d";
+		//modelOptics = "\A3\Weapons_F\Acc\reticle_cdtes.p3d";
+
 		magazines[] =
 		{
 			5Rnd_25x40mm_HE,
@@ -118,5 +120,53 @@ class CfgWeapons
 				effectName = GrenadeLauncherCloud;
 			};
 		};
+		
+		class EventHandlers
+		{
+			class Aegis
+			{
+				fired = "_this call Aegis_fnc_airburstInit";
+				reloaded = "[uiNamespace getVariable ['Aegis_RscOptics_Punisher_disp',displayNull],getText (configFile >> 'CfgMagazines' >> (_this#3#0) >> 'ammo'),(_this#3#1)] call Aegis_fnc_airburstSerial ;";
+			};
+		};
+	};
+};
+
+// Temp
+class CfgAmmo
+{
+	class B_25x40mm_base;
+	class B_25x40mm_airburst: B_25x40mm_base
+	{
+		simulation = "shotBullet";
+		simulationStep = 0.001;
+
+    	explosive = 1;
+		
+    	delete warheadName;
+
+		//--- Submunition
+    	delete submunitionAmmo;
+    	delete submunitionConeType;
+		delete submunitionDirectionType;
+		delete submunitionCount;
+		delete submunitionConeAngle;
+		delete submunitionConeAngleHorizontal;
+		delete submunitionParentSpeedCoef;
+		delete submunitionInitialOffset;
+		delete deleteParentWhenTriggered;
+		delete triggerOnImpact;
+		delete triggerDistance;
+		delete triggerSpeedCoef;
+
+		delete deflecting;
+		delete explosionTime;
+		delete timeToLive;
+
+		//--- SFX
+		delete soundSetExplosion;
+		
+		hit = 20; indirectHit = 2; indirectHitRange = 4;
+		Aegis_isAirburst = true;
 	};
 };

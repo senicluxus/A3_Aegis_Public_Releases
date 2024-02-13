@@ -4,8 +4,9 @@ class B_Carryall_semiarid_Ammo_F: B_Carryall_semiarid
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,12);
-		mag_xx(75Rnd_762x39_Mag_Green_F,4);
+		mag_xx(30Rnd_556x45_stanag_sand_green,8);
+		mag_xx(20Rnd_762x51_Mag,4);
+		mag_xx(200rnd_556x45_box_f,2);
 	};
 };
 class B_FieldPack_semiarid_Medic_F: B_FieldPack_semiarid
@@ -58,5 +59,14 @@ class B_FieldPack_semiarid_LAT_F: B_FieldPack_semiarid
 	{
 		mag_xx(RPG32_F,1);
 		mag_xx(RPG32_HE_F,1);
+	};
+};
+class B_FieldPack_semiarid_LAT_conscript: B_FieldPack_semiarid
+{
+	author = $STR_A3_A_Heliotrope;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(RPG7_F,3);
 	};
 };

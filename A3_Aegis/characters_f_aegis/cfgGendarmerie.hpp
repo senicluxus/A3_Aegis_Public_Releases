@@ -266,14 +266,14 @@ class B_GEN_Soldier_LAT_F: B_GEN_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AKS_F,
-		launch_RPG7_F,
+		Aegis_launch_RPG7M_F,
 		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AKS_F,
-		launch_RPG7_F,
+		Aegis_launch_RPG7M_F,
 		hgun_ACPC2_black_F,
 		DefaultManWeapons
 	};

@@ -54,3 +54,30 @@ class Atlas_B_G_Static_Designator_01_F: B_Static_Designator_01_F
 		dissasembleTo[] = {B_W_Static_Designator_01_weapon_F};
 	};
 };
+
+/* Bundeswehr Arid */
+class Atlas_B_G_Static_Designator_01_ard_F: Atlas_B_G_Static_Designator_01_F
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Static_Designator_01_F.jpg";
+	side = TWest;
+	faction = Atlas_BLU_G_ard_F;
+	crew = B_UAV_AI;
+	hiddenSelections[] =
+	{
+		camo,
+		camo1
+	};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3\Static_F_Mark\Designator_01\Data\LD01_remote_CO.paa",
+		"\A3\Weapons_F_Mark\binocular\data\ltlm_snd_co.paa"
+	};
+	class assembleInfo
+	{
+		displayName = "";
+		assembleTo = "";
+		base = "";
+		primary = false;
+		dissasembleTo[] = {B_Static_Designator_01_weapon_F};
+	};	
+};

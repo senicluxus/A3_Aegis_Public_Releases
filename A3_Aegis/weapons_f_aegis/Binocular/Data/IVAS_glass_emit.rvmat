@@ -1,0 +1,16 @@
+class StageTI
+{
+	texture="a3\data_f\default_vehicle_ti_ca.tga";
+};
+ambient[]={1,1,1,1};
+diffuse[]={1,1,1,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={150,180,200,1};
+specular[]={0,0,0,1};
+specularPower=1;
+renderFlags[]=
+{
+	"NoReceiveShadow"
+};
+PixelShaderID="Normal";
+VertexShaderID="Basic";

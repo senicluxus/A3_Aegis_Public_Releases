@@ -883,15 +883,35 @@ class B_W_MBT_01_TUSK_F: B_MBT_01_TUSK_F
 	};
 };
 
-/* US Marines */
+/* US (Desert) */
 class B_D_MBT_01_cannon_lxWS : B_MBT_01_cannon_F
 {
-   scope = protected;
-   scopeCurator = protected;
+    class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_desert_lxWS,2);
+	};
 };
 
 class B_D_MBT_01_TUSK_lxWS : B_MBT_01_TUSK_F
 {
-   scope = protected;
-   scopeCurator = protected;
+    class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_desert_lxWS,2);
+	};
 };
+
+class B_D_MBT_01_arty_lxWS : B_MBT_01_arty_F
+{
+    class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_desert_lxWS,2);
+	};
+};  
+
+class B_D_MBT_01_mlrs_lxWS : B_MBT_01_mlrs_F
+{
+    class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_desert_lxWS,2);
+	};
+};  

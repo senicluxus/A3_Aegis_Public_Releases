@@ -19,6 +19,10 @@ class CfgPatches
 
             /* From "cfgEAF.hpp" */
             I_E_Offroad_01_armed_F,
+			Aegis_B_E_Offroad_01_F,
+			Aegis_B_E_Offroad_01_covered_F,
+			Aegis_B_E_Offroad_01_comms_F,
+			Aegis_B_E_Offroad_01_armed_F,
 
             /* From "cfgION.hpp" */
             B_ION_Offroad_01_F,

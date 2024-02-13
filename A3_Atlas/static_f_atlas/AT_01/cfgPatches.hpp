@@ -15,6 +15,7 @@ class CfgPatches
 
             // Germany
             Atlas_B_G_Static_AT_F,
+            Atlas_B_G_Static_AT_ard_F,
 
             // Takistani Army
             Atlas_O_T_Static_AT_F,

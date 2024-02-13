@@ -13,3 +13,19 @@ class Atlas_B_G_SAM_System_03_F: SAM_System_03_base_F
 	faction = Atlas_BLU_G_F;
 	crew = B_UAV_AI;
 };
+
+/* Bundeswehr Arid */
+class Atlas_B_G_SAM_System_03_ard_F: Atlas_B_G_SAM_System_03_F
+{
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_SAM_System_03_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3\Static_F_Sams\SAM_System_03\Data\Sam_system_03_mat_01_CO.paa",
+		"\A3\Static_F_Sams\SAM_System_03\Data\Sam_system_03_mat_02_CO.paa"
+	};
+	side = TWest;
+	faction = Atlas_BLU_G_ard_F;
+	crew = B_UAV_AI;
+};

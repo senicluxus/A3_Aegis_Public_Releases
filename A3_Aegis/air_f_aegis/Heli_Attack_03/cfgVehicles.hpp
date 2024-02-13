@@ -262,6 +262,8 @@ class CfgVehicles
 		showAllTargets = LockLaser;
 		radarTargetSize = 1.1;
 		irTargetSize = 1.2;
+		receiveRemoteTargets = 1;
+		reportOwnPosition = 1;
 		class Components: Components
 		{
 			class SensorsManagerComponent
@@ -654,12 +656,24 @@ class CfgVehicles
 			class BAF
 			{
 				displayName = $STR_A3_A_TextureSources_BAF0;
-				author = $STR_A3_A_AveryTheKitty;
+				author = $STR_A3_A_Grave;
 				textures[] =
 				{
                     "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_body_CO.paa",
                     "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_details_CO.paa",
                     "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_adds_CO.paa"
+				};
+				factions[] = {};
+			};
+			class BAF_Old
+			{
+				displayName = $STR_A3_A_TextureSources_BAF_Old0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_body_BAF_CO.paa",
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_details_BAF_CO.paa",
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_adds_BAF_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -686,6 +700,54 @@ class CfgVehicles
                     "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_body_INDP_CO.paa",
                     "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_details_INDP_CO.paa",
                     "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_adds_INDP_CO.paa"
+				};
+				factions[] = {};
+			};
+			/*class EAF_01
+			{
+				displayName = $STR_A3_C_CfgVehicles_Offroad_01_civil_base_F_TextureSources_EAF0;
+				author = $STR_A3_A_Grave;
+				textures[] =
+				{
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_body_EAF_CO.paa",
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_details_EAF_CO.paa",
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_adds_EAF_CO.paa"
+				};
+				factions[] = {};
+			};*/
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_A3_A_Grave;
+				textures[]=
+				{
+					"\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_body_sand_CO.paa",
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_details_sand_CO.paa",
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_adds_sand_CO.paa"
+				};
+				factions[] = {};
+			};
+			class Green
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_Grave;
+				textures[]=
+				{
+					"\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_body_green_CO.paa",
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_details_green_CO.paa",
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_adds_green_CO.paa"
+				};
+				factions[] = {};
+			};
+			class Black
+			{
+				displayName = $STR_A3_TEXTURESOURCES_BLACK0;
+				author = $STR_A3_A_Grave;
+				textures[]=
+				{
+					"\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_body_black_CO.paa",
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_details_black_CO.paa",
+                    "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\Heli_Attack_03_adds_black_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -961,4 +1023,5 @@ class CfgVehicles
     /* Factions */
     #include "cfgBLUFOR.hpp"    // BAF
     #include "cfgIndep.hpp"     // AAF
+	//#include "cfgEAF.hpp"		// LDF
 };

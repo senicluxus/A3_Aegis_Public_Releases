@@ -252,6 +252,7 @@ class CfgVehicles
 		irTargetSize = 1.0;
 		reportRemoteTargets = true;
 		reportOwnPosition = true;
+		receiveRemoteTargets = 1;
 		namesound = veh_air_plane_s;
 		class Components: Components
 		{

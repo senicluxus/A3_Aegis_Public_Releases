@@ -50,4 +50,5 @@ class CfgVehicles
 			"\A3_Aegis\Static_F_Aegis\SAM_System_03\Data\Sam_system_03_mat_02_EAF_CO.paa"
 		};
 	};
+	#include "cfgEAF.hpp"	// LDF BLUFOR
 };

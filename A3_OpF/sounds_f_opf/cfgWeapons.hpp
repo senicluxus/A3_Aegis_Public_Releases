@@ -20,6 +20,15 @@ class CfgWeapons
 					SKS_InteriorTail_SoundSet
 				};
 			};
+			class SilencedSound: BaseSoundModeType
+			{
+				SoundSetShot[] = 
+				{
+					AK12_silencerShot_SoundSet,
+					AK12_silencerTail_SoundSet,
+					AK12_silencerInteriorTail_SoundSet
+				};
+			};
 	  	};
 	  	class FullAuto: Mode_FullAuto
 	  	{
@@ -31,6 +40,15 @@ class CfgWeapons
 					SKS_Shot_SoundSet,
 					SKS_Tail_SoundSet,
 					SKS_InteriorTail_SoundSet
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				SoundSetShot[] = 
+				{
+					AK12_silencerShot_SoundSet,
+					AK12_silencerTail_SoundSet,
+					AK12_silencerInteriorTail_SoundSet
 				};
 			};
 	  	};

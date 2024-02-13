@@ -52,14 +52,14 @@ class Atlas_B_M_Soldier_F: Atlas_B_M_Soldier_Base_F
     {
 		mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
 		mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
 	cost = 100000;
@@ -105,7 +105,7 @@ class Atlas_B_M_TL_F: Atlas_B_M_Soldier_Base_F
         mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         SmokeShell,
         SMOKESHELLS_BLUFOR,
         1Rnd_Smoke_Grenade_shell,
@@ -116,7 +116,7 @@ class Atlas_B_M_TL_F: Atlas_B_M_Soldier_Base_F
         mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         SmokeShell,
         SMOKESHELLS_BLUFOR,
         1Rnd_Smoke_Grenade_shell,
@@ -163,7 +163,7 @@ class Atlas_B_M_GL_F: Atlas_B_M_Soldier_Base_F
         mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         SmokeShell,
         SMOKESHELLS_BLUFOR,
         1Rnd_Smoke_Grenade_shell,
@@ -174,7 +174,7 @@ class Atlas_B_M_GL_F: Atlas_B_M_Soldier_Base_F
         mag_6(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         SmokeShell,
         SMOKESHELLS_BLUFOR,
         1Rnd_Smoke_Grenade_shell,
@@ -275,14 +275,14 @@ class Atlas_B_M_M_F: Atlas_B_M_Soldier_Base_F
     {
         mag_8(20rnd_762x51_mag),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_8(20rnd_762x51_mag),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     cost = 100000;
@@ -326,7 +326,7 @@ class Atlas_B_M_medic_F: Atlas_B_M_Soldier_Base_F
     {
         mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         SmokeShell,
         SMOKESHELLS_MEDIC
     };
@@ -334,7 +334,7 @@ class Atlas_B_M_medic_F: Atlas_B_M_Soldier_Base_F
     {
         mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         SmokeShell,
         SMOKESHELLS_MEDIC
     };
@@ -387,7 +387,7 @@ class Atlas_B_M_Soldier_LAT_F: Atlas_B_M_Soldier_Base_F
 		mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         MRAWS_HEAT55_F,
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -395,7 +395,7 @@ class Atlas_B_M_Soldier_LAT_F: Atlas_B_M_Soldier_Base_F
 		mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
         MRAWS_HEAT55_F,
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
 	cost = 100000;
@@ -439,14 +439,14 @@ class Atlas_B_M_A_F: Atlas_B_M_Soldier_Base_F
     {
 		mag_12(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
 		mag_12(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
 	cost = 100000;
@@ -536,14 +536,14 @@ class Atlas_B_M_Helicrew_F: Atlas_B_M_Soldier_Base_F
     {
 		mag_4(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        HandGrenade_East,
+        HandGrenade,
         SmokeShell
     };
     respawnMagazines[] =
     {
 		mag_4(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        HandGrenade_East,
+        HandGrenade,
         SmokeShell
     };
 	camouflage = 2;
@@ -588,14 +588,14 @@ class Atlas_B_M_Crew_F: Atlas_B_M_Soldier_Base_F
     {
 		mag_4(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        HandGrenade_East,
+        HandGrenade,
         SmokeShell
     };
     respawnMagazines[] =
     {
 		mag_4(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        HandGrenade_East,
+        HandGrenade,
         SmokeShell
     };
 	camouflage = 2;
@@ -640,7 +640,7 @@ class Atlas_B_M_SL_F: Atlas_B_M_Soldier_Base_F
     {
 		mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
@@ -741,14 +741,14 @@ class Atlas_B_M_RadioOperator_F: Atlas_B_M_Soldier_Base_F
     {
         mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     cost = 100000;
@@ -792,14 +792,14 @@ class Atlas_B_M_Engineer_F: Atlas_B_M_Soldier_Base_F
     {
         mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
         mag_8(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(B_IR_Grenade),
         mag_2(SmokeShell)
     };
@@ -882,14 +882,14 @@ class Atlas_B_M_Soldier_CBRN_F: Atlas_B_M_Soldier_Base_F
     {
 		mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
 		mag_10(30Rnd_556x45_Stanag_red),
         mag_2(17Rnd_9x21_Mag),
-        mag_2(HandGrenade_East),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
     };
     cost = 93000;
@@ -937,12 +937,12 @@ class Atlas_B_M_Fighter_Pilot_F: Atlas_B_M_Soldier_Base_F
     };
     magazines[] =
     {
-        mag_2(11Rnd_45ACP_Mag),
+        mag_2(17Rnd_9x21_Mag),
         SMOKESHELLS_BLUFOR
     };
     respawnMagazines[] =
     {
-        mag_2(11Rnd_45ACP_Mag),
+        mag_2(17Rnd_9x21_Mag),
         SMOKESHELLS_BLUFOR
     };
     camouflage = 2;

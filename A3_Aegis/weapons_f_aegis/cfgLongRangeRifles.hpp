@@ -62,6 +62,7 @@ class srifle_EBR_F: EBR_base_F
             };
             iconScale = 0.2;
         };
+        mass = 110;
     };
 };
 class DMR_01_base_F: Rifle_Long_Base_F

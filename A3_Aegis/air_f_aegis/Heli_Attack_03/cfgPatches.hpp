@@ -7,6 +7,11 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
+			/* From "cfgBLUFOR.hpp" */
+			Aegis_B_A_Heli_Attack_03_F,
+			Aegis_B_A_Heli_Attack_03_tna_F,
+			Aegis_B_A_Heli_Attack_03_wdl_F,
+
             /* From "cfgIndep.hpp" */
             I_Heli_Attack_03_F
         };

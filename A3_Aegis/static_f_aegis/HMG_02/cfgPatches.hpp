@@ -29,7 +29,11 @@ class CfgPatches
 
             /* From "cfgOPFOR.hpp" */
             O_A_HMG_02_F,
-            O_A_HMG_02_high_F
+            O_A_HMG_02_high_F,
+
+            /* From "cfgEAF.hpp" */
+            Aegis_B_E_HMG_02_F,
+            Aegis_B_E_HMG_02_high_F
         };
 		weapons[] = {/* Automated */};
 	};

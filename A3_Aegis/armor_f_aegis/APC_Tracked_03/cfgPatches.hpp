@@ -21,7 +21,8 @@
             I_APC_tracked_03_cannon_v2_F,
 
             /* From "cfgEAF.hpp" */
-            I_E_APC_tracked_03_cannon_v2_F
+            I_E_APC_tracked_03_cannon_v2_F,
+			Aegis_B_E_APC_tracked_03_cannon_v2_F
         };
 		weapons[] = {/* Automated */};
 	};

@@ -18,17 +18,17 @@ class Box_Tanoan_Wps_F: ReammoBox_F
     editorSubcategory = EdSubcat_Ammo_HIMF;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
+		mag_xx(30Rnd_556x45_stanag_red,8);
 		mag_xx(200Rnd_556x45_Box_Red_F,2);
-		mag_xx(20Rnd_762x51_weathered_Mag,2);
+		mag_xx(20Rnd_762x51_Mag,2);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_G36_F,4);
-		weap_xx(arifle_G36_GL_F,2);
-		weap_xx(arifle_G36C_F,2);
+		weap_xx(Aegis_arifle_M4A1_grip_F,4);
+		weap_xx(Aegis_arifle_M4A1_GL_F,2);
+		weap_xx(Aegis_arifle_M4A1_short_F,2);
 		weap_xx(LMG_03_F,2);
-		weap_xx(srifle_DMR_06_hunter_F,2);
+		weap_xx(srifle_DMR_06_black_F,2);
 	};
 	class TransportItems{};
 };
@@ -52,9 +52,9 @@ class Box_Tanoan_Ammo_F: ReammoBox_F
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,48);
+		mag_xx(30Rnd_556x45_stanag_red,48);
 		mag_xx(200Rnd_556x45_Box_Red_F,6);
-		mag_xx(20Rnd_762x51_weathered_Mag,12);
+		mag_xx(20Rnd_762x51_Mag,12);
 	};
 	class TransportWeapons{};
 	class TransportItems{};
@@ -132,9 +132,9 @@ class H_supplyCrate_F: ReammoBox_F
 	{
 		mag_xx(30Rnd_9x21_Mag_SMG_02,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,24);
+		mag_xx(30Rnd_556x45_stanag_red,24);
 		mag_xx(200Rnd_556x45_Box_Red_F,3);
-		mag_xx(20Rnd_762x51_weathered_Mag,6);
+		mag_xx(20Rnd_762x51_Mag,6);
 		mag_xx(9Rnd_45ACP_Mag,2);
 		mag_xx(chemlight_green,2);
 		mag_xx(UGL_FlareGreen_F,2);
@@ -150,11 +150,11 @@ class H_supplyCrate_F: ReammoBox_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_G36_F,2);
-		weap_xx(arifle_G36_GL_F,1);
-		weap_xx(arifle_G36C_F,1);
+		weap_xx(Aegis_arifle_M4A1_grip_F,1);
+		weap_xx(Aegis_arifle_M4A1_GL_F,1);
+		weap_xx(Aegis_arifle_M4A1_short_F,1);
 		weap_xx(LMG_03_F,1);
-		weap_xx(srifle_DMR_06_hunter_F,1);
+		weap_xx(srifle_DMR_06_black_F,1);
 		weap_xx(launch_MRAWS_olive_rail_F,1);
 	};
 	class TransportItems
@@ -166,9 +166,9 @@ class H_supplyCrate_F: ReammoBox_F
 		item_xx(Medikit,1);
 		item_xx(MineDetector,1);
 		item_xx(ToolKit,1);
-		item_xx(optic_ACO,2);
-		item_xx(optic_MRCO,2);
-		item_xx(optic_KHS_old,2);
+		item_xx(Aegis_optic_ROS,2);
+		item_xx(Aegis_optic_ACOG,2);
+		item_xx(optic_KHS_black,2);
 	};
 	class TransportBackpacks
 	{

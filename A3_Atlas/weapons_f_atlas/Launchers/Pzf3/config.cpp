@@ -1,0 +1,12 @@
+#include "\A3_Aegis\basicDefines_A3.hpp"
+#include "cfgPatches.hpp"
+#include "cfgVehicles.hpp"
+#include "\A3_Atlas\Weapons_F_Atlas\ASDG.hpp"
+class Mode_SemiAuto;
+class Mode_Burst;
+class Mode_FullAuto;
+class SlotInfo;
+class CowsSlot_Rail;
+class PointerSlot_Rail;
+class UnderBarrelSlot_rail;
+#include "cfgWeapons.hpp"

@@ -193,7 +193,7 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
-			class Rus
+			/*class Rus
 			{
 				displayName = $STR_A3_A_TextureSources_Rus0;
 				author = $STR_A3_A_AveryTheKitty;
@@ -204,7 +204,7 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 				factions[] = {};
-			};
+			};*/
 		};
 	};
 	class MBT_04_cannon_base_F: MBT_04_base_F{};
@@ -376,7 +376,7 @@ class CfgVehicles
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
 			};
-			class Rus: Rus
+			/*class Rus: Rus
 			{
 				textures[] =
 				{
@@ -385,7 +385,7 @@ class CfgVehicles
 					"\A3\Armor_F_Tank\MBT_04\Data\MBT_04_command_CO.paa",
 					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
 				};
-			};
+			};*/
 		};
 	};
 

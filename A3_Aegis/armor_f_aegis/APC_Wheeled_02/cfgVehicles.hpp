@@ -120,6 +120,75 @@ class CfgVehicles
 			showSLATHull,0
 		};
 	};
+	class APC_Wheeled_02_hmg_base_lxWS: APC_Wheeled_02_base_v2_F
+	{
+		class TextureSources
+		{
+			class Hex
+			{
+				factions[] = {};
+			};
+			class GreenHex
+			{
+				factions[] = {};
+			};
+			class SFIA
+			{
+				factions[] = {};
+			};
+			class UN_White
+			{
+				factions[] = {};
+			};
+			class Sand
+			{
+				factions[] = {};
+			};
+			class Sand_Desert
+			{
+				factions[] = {};
+			};
+			class Black
+			{
+				factions[] = {};
+			};
+		};
+		class mg_station;
+	};
+	class APC_Wheeled_02_unarmed_base_lxws : APC_Wheeled_02_base_v2_F
+	{
+		class TextureSources
+		{
+			class Hex
+			{
+				factions[] = {};
+			};
+			class GreenHex
+			{
+				factions[] = {};
+			};
+			class SFIA
+			{
+				factions[] = {};
+			};
+			class UN_White
+			{
+				factions[] = {};
+			};
+			class Sand
+			{
+				factions[] = {};
+			};
+			class Sand_Desert
+			{
+				factions[] = {};
+			};
+			class Black
+			{
+				factions[] = {};
+			};
+		};
+	};
 
     /* Factions */
     #include "cfgOPFOR.hpp" // IAF, China, & Argana

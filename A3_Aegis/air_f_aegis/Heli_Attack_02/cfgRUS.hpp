@@ -145,10 +145,10 @@ class O_R_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout_F
 	faction = OPF_R_F;
 	crew = O_R_helipilot_F;
 	typicalCargo[] = {O_R_helipilot_F};
-	textureList[] = {Black,1};
+	textureList[] = {Russian,1};
 	hiddenSelectionsTextures[] =
 	{
-        "\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body1_RUS2_CO.paa",
+        "\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body1_RUS_CO.paa",
         "\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body2_RUS_CO.paa"
     };
 

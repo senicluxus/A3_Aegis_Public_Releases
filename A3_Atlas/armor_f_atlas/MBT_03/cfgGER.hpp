@@ -207,7 +207,7 @@ class Atlas_B_G_MBT_03_cannon_F: Atlas_B_G_MBT_03_base_F
 		verticalOffsetWorld = -0.171;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_MBT_03_cannon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_MBT_03_cannon_F.jpg";
 	scope = public;
 	displayName = $STR_A3_A_CfgVehicles_B_G_MBT_03_cannon_F0;
 	textureList[] = {Woodland_01,1};
@@ -232,7 +232,7 @@ class Atlas_B_G_MBT_03_cannon_F: Atlas_B_G_MBT_03_base_F
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_wdl_F,2);
+		bag_xx(B_AssaultPack_flecktarn,2);
 	};
 
     /* Turrets */
@@ -265,7 +265,7 @@ class Atlas_B_G_MBT_03_cannon_F: Atlas_B_G_MBT_03_base_F
 	};
 };
 
-/* Bundeswehr (Arid) 
+// Bundeswehr (Arid) 
 class Atlas_B_G_MBT_03_cannon_ard_F: Atlas_B_G_MBT_03_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -457,7 +457,7 @@ class Atlas_B_G_MBT_03_cannon_ard_F: Atlas_B_G_MBT_03_cannon_F
 		verticalOffsetWorld = -0.171;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_MBT_03_cannon_ard_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_MBT_03_cannon_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	crew = Atlas_B_G_Crew_ard_F;
 	typicalCargo[] = {Atlas_B_G_Soldier_ard_F};
@@ -470,10 +470,19 @@ class Atlas_B_G_MBT_03_cannon_ard_F: Atlas_B_G_MBT_03_cannon_F
 		"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
 	};
 
-    /* Inventory 
+    /* Inventory */
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,6);
+		mag_xx(SmokeShell,2);
+		mag_xx(SmokeShellBlue,2);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_G36C_Sand_F,2);
+	};
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_mcamo,2);
+		bag_xx(B_AssaultPack_multitarn,2);
 	};
 };
-*/

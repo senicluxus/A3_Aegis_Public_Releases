@@ -40,8 +40,8 @@ class Atlas_I_I_supplyCrate_F: I_supplyCrate_F
 		weap_xx(arifle_TRG21_black_F,2);
 		weap_xx(arifle_TRG20_black_F,1);
 		weap_xx(arifle_TRG21_GL_black_F,1);
-		weap_xx(LMG_Zafir_black_F,1);
-		weap_xx(srifle_EBR_F,1);
+		weap_xx(Atlas_LMG_Negev_black_F,1);
+		weap_xx(Aegis_arifle_M4A1_F,1);
 		weap_xx(launch_MRAWS_olive_rail_F,1);
 	};
 	class TransportItems
@@ -55,8 +55,8 @@ class Atlas_I_I_supplyCrate_F: I_supplyCrate_F
 		item_xx(Medikit,1);
 		item_xx(MineDetector,1);
 		item_xx(ToolKit,1);
-		item_xx(optic_ACO_grn,2);
-		item_xx(optic_MRCO,2);
+		item_xx(Aegis_optic_ICO,2);
+		item_xx(Aegis_optic_ACOG,2);
 		item_xx(optic_SOS,2);
 		item_xx(Rangefinder,1);
 		item_xx(NVGoggles_INDEP,5);

@@ -68,7 +68,7 @@ class Atlas_U_B_H_Officer_F: Uniform_Base
 };
 class Atlas_U_B_H_Soldier_commando_F: Uniform_Base
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_B_CombatUniform_commando0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_H_Soldier_commando_F_CA.paa";
@@ -85,7 +85,7 @@ class Atlas_U_B_H_Soldier_commando_F: Uniform_Base
 };
 class Atlas_U_B_H_Soldier_commando_shortsleeve_F: Uniform_Base
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	scope = public;
 	displayName = $STR_A3_A_CfgWeapons_U_B_CombatUniform_commando_vest0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_H_Soldier_commando_shortsleeve_F_CA.paa";

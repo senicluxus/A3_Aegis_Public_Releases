@@ -193,3 +193,33 @@ class B_ION_Heli_Transport_02_F: Heli_Transport_02_civil_base_F
 		weap_xx(arifle_MXC_Black_F,2);
 	};
 };
+	class Aegis_B_ION_Heli_Transport_02_VIP_F: Aegis_Heli_Transport_02_VIP_base_F
+	{
+		author = $STR_A3_A_Grave;
+		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_B_ION_Heli_Transport_02_VIP_F.jpg";
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_Heli_Transport_02_vip_base_F0;
+		side = TWest;
+		faction = BLU_ION_lxWS;
+		crew = B_ION_Helipilot_lxWS;
+		typicalCargo[]=
+		{
+			B_ION_Soldier_lxWS
+		};
+        hiddenSelectionsTextures[]=
+		{
+			"\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_01_ION_lxWS_CO.paa",
+			"\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_02_ION_lxWS_CO.paa",
+			"\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_02_ION_lxWS_CO.paa", ///update texture
+			"\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_int_02_GenCiv_CO.paa"
+		};
+        textureList[] = 
+        {
+            ION_lxWS,1,
+            ION,0
+        };
+        class TransportItems
+		{
+			item_xx(FirstAidKit,10);
+		};
+	};

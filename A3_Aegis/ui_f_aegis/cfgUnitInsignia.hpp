@@ -21,6 +21,13 @@ class CfgUnitInsignia
 		author = $STR_A3_A_Kydoimos;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
+	class CSAT_DragonRegiment
+	{
+		displayName = "Dragon Regiment";
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\CSAT_DragonRegiment_CA.paa";
+		author = $STR_A3_A_BranFlakes;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
 	class Spetsnaz454thRegiment
 	{
 		displayName = $STR_A3_A_CfgUnitInsignia_Spetsnaz454thRegiment0;
@@ -33,6 +40,20 @@ class CfgUnitInsignia
 		displayName = $STR_A3_A_CfgUnitInsignia_CSAT_Patch0;
 		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\CSAT_Patch_CA.paa";
 		author = $STR_A3_A_Heliotrope;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class Aegis_MP_Black
+	{
+		displayName = $STR_A3_A_CfgUnitInsignia_MP_Black_Patch0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\MP_Black_CA.paa";
+		author = $STR_A3_A_TheMightySultan;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class Aegis_MP_Red
+	{
+		displayName = $STR_A3_A_CfgUnitInsignia_MP_Red_Patch0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\MP_Red_CA.paa";
+		author = $STR_A3_A_TheMightySultan;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 };

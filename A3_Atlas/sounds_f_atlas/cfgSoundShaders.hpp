@@ -464,4 +464,117 @@ class CfgSoundShaders
 		};
 		limitation = true;
 	};
+	// Panzerfaust 3
+	class Atlas_PzF3_closeShot1_SoundShader
+	{
+		samples[] =
+        {
+            {"\A3_Atlas\sounds_f_atlas\arsenal\weapons\Launchers\Pzf3\PzF3_closeShot_01",1}
+        };
+		volume = 1;
+		range = 100;
+		rangeCurve[] =
+        {
+            {0,1},
+            {30,1},
+            {100,0}
+        };
+	};
+	class Atlas_PzF3_closeShot2_SoundShader
+	{
+		samples[] =
+        {
+            {"\A3_Atlas\sounds_f_atlas\arsenal\weapons\Launchers\Pzf3\PzF3_closeShot_02",1}
+        };
+		volume = 1;
+		range = 300;
+		rangeCurve[] =
+        {
+            {0,1},
+            {30,1},
+            {100,0}
+        };
+	};
+	class Atlas_PzF3_Launch_SoundShader
+	{
+		samples[] =
+        {
+            {"\A3_Atlas\sounds_f_atlas\arsenal\weapons\Launchers\Pzf3\PzF3_launch_01",1},
+            {"\A3_Atlas\sounds_f_atlas\arsenal\weapons\Launchers\Pzf3\PzF3_launch_02",1}
+        };
+		volume = 0.5;
+		range = 300;
+		rangeCurve[] =
+        {
+            {0,1},
+            {300,0}
+        };
+	};
+	class Atlas_PzF3_distShot_SoundShader
+	{
+		samples[] =
+        {
+            {"\A3_Atlas\sounds_f_atlas\arsenal\weapons\Launchers\Pzf3\PzF3_distShot_01",1}
+        };
+		volume = 1.9952624;
+		range = 4000;
+		rangeCurve[] =
+        {
+            {0,0},
+            {30,0},
+            {300,1},
+            {4000,1}
+        };
+	};
+	class Atlas_PzF3_tailForest_SoundShader
+	{
+		samples[] =
+        {
+            {"\A3_Atlas\sounds_f_atlas\arsenal\weapons\Launchers\Pzf3\PzF3_tailForest_01",1},
+            {"\A3_Atlas\sounds_f_atlas\arsenal\weapons\Launchers\Pzf3\PzF3_tailForest_02",1}
+        };
+		volume = forest;
+		range = 2500;
+		limitation = 1;
+		rangeCurve[] =
+        {
+            {0,1},
+            {250,1},
+            {2500,0}
+        };
+	};
+	class Atlas_PzF3_tailMeadows_SoundShader
+	{
+		samples[] =
+        {
+            {"\A3_Atlas\sounds_f_atlas\arsenal\weapons\Launchers\Pzf3\PzF3_tailMeadows_01",1},
+            {"\A3_Atlas\sounds_f_atlas\arsenal\weapons\Launchers\Pzf3\PzF3_tailMeadows_02",1}
+        };
+		volume = meadows max sea/2;
+		range = 2500;
+		limitation = 1;
+		rangeCurve[] =
+        {
+            {0,1},
+            {250,1},
+            {2500,0}
+        };
+	};
+	class Atlas_PzF3_tailHouses_SoundShader
+	{
+		samples[] =
+        {
+            {"\A3_Atlas\sounds_f_atlas\arsenal\weapons\Launchers\Pzf3\PzF3_tailHouses_01",1},
+            {"\A3_Atlas\sounds_f_atlas\arsenal\weapons\Launchers\Pzf3\PzF3_tailHouses_02",1}
+        };
+		volume = houses;
+		range = 2500;
+		limitation = 1;
+		rangeCurve[] =
+        {
+            {0,1},
+            {250,1},
+            {2500,0}
+        };
+	};
 };

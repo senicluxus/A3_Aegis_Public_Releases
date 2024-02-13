@@ -9,8 +9,10 @@ class CfgVehicles
         /* Liveries */
 		class TextureSources
 		{
-			class Green
+			class Green_FR
 			{
+				displayName = $STR_A3_A_TEXTURESOURCES_GreenFR0;
+				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
 					"\A3_Atlas\Air_F_Atlas\Heli_Light_03\Data\Heli_Light_03_base_CO.paa",

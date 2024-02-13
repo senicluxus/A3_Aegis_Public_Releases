@@ -52,6 +52,11 @@ class CfgAmmo
 		model = "\A3\Weapons_F\Data\bullettracer\tracer_red.p3d";
 		nvgOnly = false;
 	};
+	class B_545x39_Ball_F;
+	class B_545x39_Ball_Red_F: B_545x39_Ball_F
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_red.p3d";
+	};
 	class GrenadeHand: Grenade{};
 	class mini_Grenade: GrenadeHand
 	{
@@ -343,11 +348,12 @@ class CfgAmmo
 		indirectHit = 6;
 		indirectHitRange = 4;
 		cartridge = FxCartridge_25x40;
+		timeToLive = 8;
 	};
 	class B_25x40mm_HE: B_25x40mm_base{};
 	class B_25x40mm_airburst: B_25x40mm_base
 	{
-		simulation = shotSubmunitions;
+		/*simulation = shotSubmunitions;
 		simulationStep = 0.05;
 
 		hit = 10; indirectHit = 5; indirectHitRange = 4;
@@ -382,7 +388,11 @@ class CfgAmmo
 		};
 
 		//--- VFX
-		explosionEffects = ExploAmmoExplosion;
+		explosionEffects = ExploAmmoExplosion;*/
+		
+		hit = 8; indirectHit = 5; indirectHitRange = 8;
+		Aegis_isAirburst = true;
+		Aegis_airburstFuseDistance = 3;
 	};
 	class B_25x40mm_airburst_deploy: B_25x40mm_HE
 	{
@@ -804,4 +814,622 @@ class CfgAmmo
 		model = "\A3\Weapons_F_Sams\Ammo\Bomb_06_F_fly.p3d";
 		proxyShape = "\A3\Weapons_F_Sams\Ammo\Bomb_06_F.p3d";
 	};
+	
+	class G_40mm_AB: G_40mm_HEDP
+	{
+		hit = 80;
+		indirectHit = 5;
+		indirectHitRange = 12;
+		caliber = 3;
+		warheadName = "AB";
+		Aegis_isAirburst = true;
+		Aegis_airburstFuseDistance = 5;
+		class CamShakeHit
+		{
+			power = 20;
+			duration = 0.4;
+			frequency = 20;
+			distance = 1;
+		};
+	};
+	
+	/* Mi-35 Krokodil Ammo*/
+	class Aegis_Autocannon_HE_Heli_Attack_04_F: BulletBase
+	{
+		cost=30;
+		hit=60;
+		indirectHit=6;
+		indirectHitRange=1.6;
+		caliber=3.4000001;
+		explosive=0.40000001;
+		weaponType="cannon";
+		warheadName="HE";
+		airLock=1;
+		deflecting=5;
+		airFriction=-0.00078;
+		typicalSpeed=1030;
+		visibleFire=32;
+		audibleFire=200;
+		visibleFireTime=4;
+		fuseDistance=10;
+		dangerRadiusBulletClose=16;
+		dangerRadiusHit=40;
+		suppressionRadiusBulletClose=10;
+		suppressionRadiusHit=14;
+		tracerScale=2;
+		tracerStartTime=0.050000001;
+		tracerEndTime=1;
+		soundFly[]=
+		{
+			"",
+			1,
+			1,
+			50
+		};
+		explosionSoundEffect="DefaultExplosion";
+		explosionEffects="ExploAmmoExplosion";
+		CraterEffects="ExploAmmoCrater";
+		model="";
+		muzzleEffect="";
+		allowAgainstInfantry=1;
+		soundHit1[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\grenades\Explosion_mini_grenade_01",
+			1.7782794,
+			1,
+			1300
+		};
+		soundHit2[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\grenades\Explosion_mini_grenade_02",
+			1.7782794,
+			1,
+			1300
+		};
+		soundHit3[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\grenades\Explosion_mini_grenade_03",
+			1.7782794,
+			1,
+			1300
+		};
+		soundHit4[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\grenades\Explosion_mini_grenade_04",
+			1.7782794,
+			1,
+			1300
+		};
+		multiSoundHit[]=
+		{
+			"soundHit1",
+			0.25,
+			"soundHit2",
+			0.25,
+			"soundHit3",
+			0.25,
+			"soundHit4",
+			0.25
+		};
+		class CamShakeExplode
+		{
+			power=4;
+			duration=0.80000001;
+			frequency=20;
+			distance=43.7771;
+		};
+		class CamShakeHit
+		{
+			power=20;
+			duration=0.40000001;
+			frequency=20;
+			distance=1;
+		};
+		class CamShakeFire
+		{
+			power=2.1147399;
+			duration=0.80000001;
+			frequency=20;
+			distance=35.7771;
+		};
+		class CamShakePlayerFire
+		{
+			power=0.0099999998;
+			duration=0.1;
+			frequency=20;
+			distance=1;
+		};
+		class HitEffects
+		{
+			Hit_Foliage_green="ImpactLeavesGreen";
+			Hit_Foliage_Dead="ImpactLeavesDead";
+			Hit_Foliage_Green_big="ImpactLeavesGreenBig";
+			Hit_Foliage_Palm="ImpactLeavesPalm";
+			Hit_Foliage_Pine="ImpactLeavesPine";
+			hitFoliage="ImpactLeaves";
+			hitGlass="";
+			hitGlassArmored="";
+			hitWood="ImpactWood";
+			hitHay="ImpactHay";
+			hitMetal="";
+			hitMetalPlate="";
+			hitBuilding="";
+			hitPlastic="";
+			hitRubber="";
+			hitConcrete="";
+			hitMan="";
+			hitGroundSoft="";
+			hitGroundHard="";
+			hitWater="ImpactEffectsWater";
+			hitVirtual="";
+		};
+	};
+	class Aegis_Autocannon_HE_Heli_Attack_04_Yellow_F: Aegis_Autocannon_HE_Heli_Attack_04_F
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+	};
+	class Aegis_Autocannon_HE_Heli_Attack_04_Green_F: Aegis_Autocannon_HE_Heli_Attack_04_F
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_green";
+	};
+	class Aegis_Autocannon_HE_Heli_Attack_04_Red_F: Aegis_Autocannon_HE_Heli_Attack_04_F
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_green";
+	};
+	class Aegis_Autocannon_HE_Heli_Attack_04_White_F: Aegis_Autocannon_HE_Heli_Attack_04_F
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_green";
+	};
+
+	///Mi-25 AP
+	class Aegis_Autocannon_AP_Heli_Attack_04_F: BulletBase
+	{
+		cost=35;
+		hit=60;
+		indirectHit=8;
+		indirectHitRange=0.2;
+		caliber=3.4000001;
+		weaponType="cannon";
+		warheadName="AP";
+		airlock=1;
+		deflecting=15;
+		airFriction=-0.00042;
+		typicalSpeed=1120;
+		visibleFire=32;
+		audibleFire=200;
+		visibleFireTime=3;
+		fuseDistance=10;
+		dangerRadiusBulletClose=16;
+		dangerRadiusHit=40;
+		suppressionRadiusBulletClose=10;
+		suppressionRadiusHit=14;
+		tracerScale=2;
+		tracerStartTime=0.1;
+		tracerEndTime=2;
+		soundFly[]=
+		{
+			"",
+			1,
+			1,
+			50
+		};
+		explosionSoundEffect="DefaultExplosion";
+		explosionEffects="ExploAmmoExplosion";
+		CraterEffects="ExploAmmoCrater";
+		model="";
+		muzzleEffect="";
+		allowAgainstInfantry=0;
+		soundHit1[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_01",
+			1.7782794,
+			1,
+			1600
+		};
+		soundHit2[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_02",
+			1.7782794,
+			1,
+			1600
+		};
+		soundHit3[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_03",
+			1.7782794,
+			1,
+			1600
+		};
+		soundHit4[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_04",
+			1.7782794,
+			1,
+			1600
+		};
+		multiSoundHit[]=
+		{
+			"soundHit1",
+			0.25,
+			"soundHit2",
+			0.25,
+			"soundHit3",
+			0.25,
+			"soundHit4",
+			0.25
+		};
+		class CamShakeExplode
+		{
+			power=5;
+			duration=1;
+			frequency=20;
+			distance=56;
+		};
+		class CamShakeHit
+		{
+			power=50;
+			duration=0.60000002;
+			frequency=20;
+			distance=1;
+		};
+		class CamShakeFire
+		{
+			power=2.2360699;
+			duration=1;
+			frequency=20;
+			distance=40;
+		};
+		class CamShakePlayerFire
+		{
+			power=0.0099999998;
+			duration=0.1;
+			frequency=20;
+			distance=1;
+		};
+	};
+	class Aegis_Autocannon_AP_Heli_Attack_04_Yellow_F: Aegis_Autocannon_AP_Heli_Attack_04_F
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+	};
+	class Aegis_Autocannon_AP_Heli_Attack_04_Green_F: Aegis_Autocannon_AP_Heli_Attack_04_F
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_green";
+	};
+	class Aegis_Autocannon_AP_Heli_Attack_04_Red_F: Aegis_Autocannon_AP_Heli_Attack_04_F
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_green";
+	};
+	class Aegis_Autocannon_AP_Heli_Attack_04_White_F: Aegis_Autocannon_AP_Heli_Attack_04_F
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_green";
+	};
+
+	/* BMP-M 57mm */
+	class B_40mm_GPR;
+	class B_40mm_APFSDS;
+	class Aegis_B_57mm_GPR: B_40mm_GPR
+	{
+		hit=90;
+		indirectHit=10;
+		indirectHitRange=6;
+		warheadName="AP";
+		caliber=4.5999999;
+		deflecting=10;
+		cost=40;
+		airFriction=-0.00060000004;
+		timeToLive=15;
+		soundHit1[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_01",
+			1.7782794,
+			1,
+			1600
+		};
+		soundHit2[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_02",
+			1.7782794,
+			1,
+			1600
+		};
+		soundHit3[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_03",
+			1.7782794,
+			1,
+			1600
+		};
+		soundHit4[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_04",
+			1.7782794,
+			1,
+			1600
+		};
+		multiSoundHit[]=
+		{
+			"soundHit1",
+			0.25,
+			"soundHit2",
+			0.25,
+			"soundHit3",
+			0.25,
+			"soundHit4",
+			0.25
+		};
+		class CamShakeExplode
+		{
+			power=8;
+			duration=1.2;
+			frequency=20;
+			distance=82.596397;
+		};
+		class CamShakeHit
+		{
+			power=40;
+			duration=0.60000002;
+			frequency=20;
+			distance=1;
+		};
+		class CamShakeFire
+		{
+			power=2.5148699;
+			duration=1.2;
+			frequency=20;
+			distance=50.596401;
+		};
+		class CamShakePlayerFire
+		{
+			power=0.0099999998;
+			duration=0.1;
+			frequency=20;
+			distance=1;
+		};
+	};
+	class Aegis_B_57mm_APFSDS: B_40mm_APFSDS
+	{
+		hit=180;
+		indirectHit=10;
+		indirectHitRange=0.4;
+		warheadName="AP";
+		typicalSpeed=1150;
+		caliber=10;
+		airFriction=-0.00014;
+		cost=100;
+		soundHit1[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_01",
+			1.7782794,
+			1,
+			1600
+		};
+		soundHit2[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_02",
+			1.7782794,
+			1,
+			1600
+		};
+		soundHit3[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_03",
+			1.7782794,
+			1,
+			1600
+		};
+		soundHit4[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\shells\30mm40mm_shell_explosion_04",
+			1.7782794,
+			1,
+			1600
+		};
+		multiSoundHit[]=
+		{
+			"soundHit1",
+			0.25,
+			"soundHit2",
+			0.25,
+			"soundHit3",
+			0.25,
+			"soundHit4",
+			0.25
+		};
+		class CamShakeExplode
+		{
+			power=7.7459698;
+			duration=1.6;
+			frequency=20;
+			distance=23.2379;
+		};
+		class CamShakeHit
+		{
+			power=60;
+			duration=0.60000002;
+			frequency=20;
+			distance=1;
+		};
+		class CamShakeFire
+		{
+			power=2.5148699;
+			duration=1.2;
+			frequency=20;
+			distance=50.596401;
+		};
+		class CamShakePlayerFire
+		{
+			power=0.0099999998;
+			duration=0.1;
+			frequency=20;
+			distance=1;
+		};
+	};
+	/* Hand Flare Begin*/
+	class Aegis_GrenadeAmmo_HandFlare_Red: GrenadeHand
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		model = "A3_Aegis\weapons_f_aegis\Explosives\HandFlare_Red_Throw_F";
+		mass = 4;
+		hit = 0;
+		indirectHit = 0;
+		indirectHitRange = 0.2;
+		dangerRadiusHit = -1;
+		suppressionRadiusHit = -1;
+		typicalspeed = 22;
+		cost = 100;
+		simulation = "shotSmokeX";
+		explosive = 0;
+		deflecting = 30;
+		explosionTime = 0.05;
+		timeToLive = 600; //10 Minutes.
+		triggerTime = 0.01;
+		triggerSpeedCoef = 1;
+		fuseDistance = 0;
+		soundHit[]=
+		{
+			"",
+			0,
+			1
+		};
+		SmokeShellSoundHit1[]=
+		{
+			"A3\Sounds_F\weapons\smokeshell\smoke_1",
+			1.2589254,
+			1,
+			100
+		};
+		SmokeShellSoundHit2[]=
+		{
+			"A3\Sounds_F\weapons\smokeshell\smoke_2",
+			1.2589254,
+			1,
+			100
+		};
+		SmokeShellSoundHit3[]=
+		{
+			"A3\Sounds_F\weapons\smokeshell\smoke_3",
+			1.2589254,
+			1,
+			100
+		};
+		SmokeShellSoundLoop1[]=
+		{
+			"A3\Sounds_F\weapons\smokeshell\smoke_loop1",
+			0.12589253,
+			1,
+			70
+		};
+		SmokeShellSoundLoop2[]=
+		{
+			"A3\Sounds_F\weapons\smokeshell\smoke_loop2",
+			0.12589253,
+			1,
+			70
+		};
+		grenadeFireSound[]=
+		{
+			"SmokeShellSoundHit1",
+			0.25,
+			"SmokeShellSoundHit2",
+			0.25,
+			"SmokeShellSoundHit3",
+			0.5
+		};
+		grenadeBurningSound[]=
+		{
+			"SmokeShellSoundLoop1",
+			2.2,
+			"SmokeShellSoundLoop2",
+			2.2
+		};
+		aiAmmoUsageFlags = "4 + 2";
+		smokeColor[] = {0.84380001,0.1383,0.1353,1};
+		effectsSmoke = "Aegis_HandFlare_Effect_Red";
+		whistleDist = 0;
+	};
+	class Aegis_GrenadeAmmo_HandFlare_Green: GrenadeHand
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		model = "A3_Aegis\weapons_f_aegis\Explosives\HandFlare_Green_Throw_F";
+		mass = 4;
+		hit=0;
+		indirectHit = 0;
+		indirectHitRange = 0.2;
+		dangerRadiusHit = -1;
+		suppressionRadiusHit = -1;
+		typicalspeed = 22;
+		cost = 100;
+		simulation = "shotSmokeX";
+		explosive = 0;
+		deflecting = 30;
+		explosionTime = 0.05;
+		timeToLive = 600;
+		triggerTime = 0.01;
+		triggerSpeedCoef = 1;
+		fuseDistance = 0;
+		soundHit[]=
+		{
+			"",
+			0,
+			1
+		};
+		SmokeShellSoundHit1[]=
+		{
+			"A3\Sounds_F\weapons\smokeshell\smoke_1",
+			1.2589254,
+			1,
+			100
+		};
+		SmokeShellSoundHit2[]=
+		{
+			"A3\Sounds_F\weapons\smokeshell\smoke_2",
+			1.2589254,
+			1,
+			100
+		};
+		SmokeShellSoundHit3[]=
+		{
+			"A3\Sounds_F\weapons\smokeshell\smoke_3",
+			1.2589254,
+			1,
+			100
+		};
+		SmokeShellSoundLoop1[]=
+		{
+			"A3\Sounds_F\weapons\smokeshell\smoke_loop1",
+			0.12589253,
+			1,
+			70
+		};
+		SmokeShellSoundLoop2[]=
+		{
+			"A3\Sounds_F\weapons\smokeshell\smoke_loop2",
+			0.12589253,
+			1,
+			70
+		};
+		grenadeFireSound[]=
+		{
+			"SmokeShellSoundHit1",
+			0.25,
+			"SmokeShellSoundHit2",
+			0.25,
+			"SmokeShellSoundHit3",
+			0.5
+		};
+		grenadeBurningSound[]=
+		{
+			"SmokeShellSoundLoop1",
+			2.2,
+			"SmokeShellSoundLoop2",
+			2.2
+		};
+		aiAmmoUsageFlags = "4 + 2";
+		smokeColor[] = {0.84380001,0.1383,0.1353,1};
+		effectsSmoke = "Aegis_HandFlare_Effect_Green";
+		whistleDist = 0;
+	};
+	/* Hand Flare End */
 };

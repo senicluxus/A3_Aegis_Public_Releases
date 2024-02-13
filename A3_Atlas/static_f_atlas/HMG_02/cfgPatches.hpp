@@ -14,6 +14,8 @@ class CfgPatches
             // Germany
             Atlas_B_G_HMG_02_F,
             Atlas_B_G_HMG_02_high_F,
+            Atlas_B_G_HMG_02_ard_F,
+            Atlas_B_G_HMG_02_high_ard_F,
 
             // Takistani Army
             Atlas_O_T_HMG_02_F,

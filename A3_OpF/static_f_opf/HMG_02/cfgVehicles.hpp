@@ -31,6 +31,8 @@ class CfgVehicles
     /* Factions */
 	#include "cfgChKDZ.hpp"     // Separatists
 	#include "cfgTKM.hpp"       // Insurgents
+	#include "cfgPartisans.hpp"	// Partisans
+	#include "cfgPara.hpp"		// Paramilitary
     /*
 	#include "cfgMilitia.hpp"   // Preppers
     */

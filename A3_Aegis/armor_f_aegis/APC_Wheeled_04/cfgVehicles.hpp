@@ -350,6 +350,34 @@ class CfgVehicles
                 };
 				factions[] = {};
 			};
+			class Hex
+			{
+				displayName = $STR_A3_TEXTURESOURCES_HEX0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+                {
+                    "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body_Hex_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body2_Hex_CO.paa",
+                    "lxws\vehicles_1_f_lxws\apc_tracked_02\Data\apc_tracked_02_30mm_hex_co.paa",
+                    "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+                };
+				factions[] = {};
+			};
+			class GreenHex
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREENHEX0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+                {
+                    "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body_Ghex_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body2_Ghex_CO.paa",
+                    "lxws\vehicles_1_f_lxws\apc_tracked_02\Data\apc_tracked_02_30mm_ghex_co.paa",
+                    "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+                };
+				factions[] = {};
+			};
 		};
 		textureList[] = {Green,1};
 
@@ -508,7 +536,7 @@ class CfgVehicles
         class TransportMagazines
         {
             mag_xx(30Rnd_545x39_AK12_Mag_F,12);
-            mag_xx(75Rnd_762x39_AK12_Mag_F,8);
+            mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,8);
             mag_xx(HandGrenade,6);
             mag_xx(MiniGrenade,6);
             mag_xx(1Rnd_HE_Grenade_shell,6);
@@ -555,7 +583,7 @@ class CfgVehicles
 			class reload_cannon
 			{
 				source = reload;
-				weapon = autocannon_30mm_APC_Wheeled_04;
+				weapon = autocannon_30mm_lxWS;
 			};
             /* Requires interior MFDs
 			class revolving_cannon
@@ -567,7 +595,7 @@ class CfgVehicles
 			class Missiles_revolving
 			{
 				source = revolving;
-				weapon = missiles_Vorona_vehicle;
+				weapon = missiles_Vorona_vehicle_lxWS;
 			};
 			class Missiles_reloadMagazine: Missiles_revolving
 			{
@@ -577,13 +605,13 @@ class CfgVehicles
 			class muzzle_rot
 			{
 				source = ammorandom;
-				weapon = autocannon_30mm_APC_Wheeled_04;
+				weapon = autocannon_30mm_lxWS;
 			};
             */
 			class muzzle_hide
 			{
 				source = reload;
-				weapon = autocannon_30mm_APC_Wheeled_04;
+				weapon = autocannon_30mm_lxWS;
 			};
 			class HitEngine_src
 			{

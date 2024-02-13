@@ -111,7 +111,7 @@ class Atlas_O_W_MRAP_02_F: O_MRAP_02_F
 		verticalOffsetWorld = -0.133;
 		init = "''";
 	};
-    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_MRAP_02_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_MRAP_02_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_F0;
@@ -123,16 +123,16 @@ class Atlas_O_W_MRAP_02_F: O_MRAP_02_F
         Atlas_O_W_Soldier_F,
         Atlas_O_W_Soldier_F
     };
-    textureList[] = {GreenHex,1};
+    textureList[] = {WoodlandHex,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3\Soft_F_Exp\MRAP_02\Data\MRAP_02_ext_01_ghex_CO.paa",
-        "\A3\Soft_F_Exp\MRAP_02\Data\MRAP_02_ext_02_ghex_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\MRAP_02_ext_01_Whex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\MRAP_02_ext_02_Whex_CO.paa"
     };
     class TransportMagazines
     {
         mag_xx(30Rnd_545x39_AK12_Mag_F,16);
-        mag_xx(75Rnd_762x39_AK12_Mag_F,8);
+        mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,8);
         mag_xx(HandGrenade_East,10);
         mag_xx(SmokeShell,4);
         mag_xx(SmokeShellRed,4);
@@ -272,7 +272,7 @@ class Atlas_O_W_MRAP_02_hmg_F: O_MRAP_02_hmg_F
 		verticalOffsetWorld = -0.134;
 		init = "''";
 	};
-    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_MRAP_02_hmg_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_MRAP_02_hmg_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_hmg_F0;
@@ -284,17 +284,17 @@ class Atlas_O_W_MRAP_02_hmg_F: O_MRAP_02_hmg_F
         Atlas_O_W_Soldier_F,
         Atlas_O_W_Soldier_F
     };
-    textureList[] = {GreenHex,1};
+    textureList[] = {WoodlandHex,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3\Soft_F_Exp\MRAP_02\Data\MRAP_02_ext_01_ghex_CO.paa",
-        "\A3\Soft_F_Exp\MRAP_02\Data\MRAP_02_ext_02_ghex_CO.paa",
-        "\A3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\MRAP_02_ext_01_Whex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\MRAP_02_ext_02_Whex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\Turret_whex_CO.paa"
     };
     class TransportMagazines
     {
         mag_xx(30Rnd_545x39_AK12_Mag_F,16);
-        mag_xx(75Rnd_762x39_AK12_Mag_F,8);
+        mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,8);
         mag_xx(HandGrenade_East,10);
         mag_xx(SmokeShell,4);
         mag_xx(SmokeShellRed,4);
@@ -434,7 +434,7 @@ class Atlas_O_W_MRAP_02_gmg_F: O_MRAP_02_gmg_F
 		verticalOffsetWorld = -0.134;
 		init = "''";
 	};
-    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_MRAP_02_gmg_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_MRAP_02_gmg_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_O_R_MRAP_02_gmg_F0;
@@ -446,17 +446,17 @@ class Atlas_O_W_MRAP_02_gmg_F: O_MRAP_02_gmg_F
         Atlas_O_W_Soldier_F,
         Atlas_O_W_Soldier_F
     };
-    textureList[] = {GreenHex,1};
+    textureList[] = {WoodlandHex,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3\Soft_F_Exp\MRAP_02\Data\MRAP_02_ext_01_ghex_CO.paa",
-        "\A3\Soft_F_Exp\MRAP_02\Data\MRAP_02_ext_02_ghex_CO.paa",
-        "\A3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa"
+        "\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\MRAP_02_ext_01_Whex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\MRAP_02_ext_02_Whex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\Turret_whex_CO.paa"
     };
     class TransportMagazines
     {
         mag_xx(30Rnd_545x39_AK12_Mag_F,16);
-        mag_xx(75Rnd_762x39_AK12_Mag_F,8);
+        mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,8);
         mag_xx(HandGrenade_East,10);
         mag_xx(SmokeShell,4);
         mag_xx(SmokeShellRed,4);

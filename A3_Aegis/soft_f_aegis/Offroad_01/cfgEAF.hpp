@@ -62,3 +62,43 @@ class I_E_Offroad_01_armed_F: Offroad_01_armed_base_F
 		killed = "_this call (uinamespace getvariable 'BIS_fnc_effectKilled'); _this select 0 animate [""DamageUnHideConstruction"",0];";
 	};
 };
+
+/* LDF - BLUFOR */
+class Aegis_B_E_Offroad_01_armed_F: I_E_Offroad_01_armed_F
+{
+	author = $STR_A3_A_Ravenholme;
+	side = TWest;
+	faction = BLU_EAF_F;
+	crew = Aegis_B_E_Soldier_F;
+	typicalCargo[] = {Aegis_B_E_Soldier_F};
+};
+
+class I_E_Offroad_01_F;
+class Aegis_B_E_Offroad_01_F: I_E_Offroad_01_F
+{
+	author = $STR_A3_A_Ravenholme;
+	side = TWest;
+	faction = BLU_EAF_F;
+	crew = Aegis_B_E_Soldier_F;
+	typicalCargo[] = {Aegis_B_E_Soldier_F};
+};
+
+class I_E_Offroad_01_covered_F;
+class Aegis_B_E_Offroad_01_covered_F: I_E_Offroad_01_covered_F
+{
+	author = $STR_A3_A_Ravenholme;
+	side = TWest;
+	faction = BLU_EAF_F;
+	crew = Aegis_B_E_Soldier_F;
+	typicalCargo[] = {Aegis_B_E_Soldier_F};
+};
+
+class I_E_Offroad_01_comms_F;
+class Aegis_B_E_Offroad_01_comms_F: I_E_Offroad_01_comms_F
+{
+	author = $STR_A3_A_Ravenholme;
+	side = TWest;
+	faction = BLU_EAF_F;
+	crew = Aegis_B_E_Soldier_F;
+	typicalCargo[] = {Aegis_B_E_Soldier_F};
+};

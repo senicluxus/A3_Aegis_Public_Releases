@@ -73,6 +73,14 @@ class CfgVehicles
 						NVG
 					};
 				};
+				
+				magazines[] = {
+					"40Rnd_20mm_g_belt",
+					"40Rnd_20mm_g_belt",
+					"40Rnd_20mm_g_belt",
+					"40Rnd_20mm_g_belt",
+					"40Rnd_20mm_ab_g_belt"
+				};
 			};
 		};
         
@@ -158,10 +166,12 @@ class CfgVehicles
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_eaf_CO.paa"};
 		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_TacticalPack_eaf_F_CA.paa";
+		class assembleInfo;
 	};
 	class I_E_GMG_01_high_Weapon_F: I_GMG_01_high_weapon_F
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_eaf_CO.paa"};
 		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_TacticalPack_eaf_F_CA.paa";
 	};
+	#include "cfgEAF.hpp"	//Blufor LDF
 };

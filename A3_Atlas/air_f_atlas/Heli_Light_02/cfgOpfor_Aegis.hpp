@@ -124,7 +124,7 @@ class Atlas_O_W_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 		verticalOffsetWorld = 0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Heli_Light_02_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Heli_Light_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -135,9 +135,10 @@ class Atlas_O_W_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 	{
 		Black,0,
 		Blackcustom,0,
-		GreenHex,1
+		GreenHex,0,
+        WoodlandHex,1
 	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Light_02\Data\Heli_Light_02_ext_ghex_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_02\Data\Heli_Light_02_ext_whex_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
@@ -275,7 +276,7 @@ class Atlas_O_W_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 		verticalOffsetWorld = 0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Heli_Light_02_unarmed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Heli_Light_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	scopeArsenal = private;
@@ -286,11 +287,12 @@ class Atlas_O_W_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 	typicalCargo[] = {Atlas_O_W_Helipilot_F};
 	textureList[] =
 	{
-		Black,1,
+		Black,0,
 		Blackcustom,0,
-		GreenHex,0
+		GreenHex,0,
+        WoodlandHex,1
 	};
-	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_02\Data\Heli_Light_02_ext_whex_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);

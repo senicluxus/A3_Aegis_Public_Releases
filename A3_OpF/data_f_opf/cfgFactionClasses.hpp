@@ -64,4 +64,12 @@ class CfgFactionClasses
 		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_IND_P_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_USNavyJack_CO.paa";
 	};
+	class Opf_BLU_P_F
+	{
+		displayName = $STR_A3_O_CfgFactionClasses_BLU_P_F0;
+		priority = 3;
+		side = TWest;
+		icon = "\A3_Opf\Data_F_Opf\FactionIcons\CfgFactionClasses_BLU_P_CA.paa";
+		flag = "\A3_Opf\Data_F_Opf\Flags\flag_Partisan_CO.paa";
+	};
 };

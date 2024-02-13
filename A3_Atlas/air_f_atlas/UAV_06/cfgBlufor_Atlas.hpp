@@ -80,7 +80,7 @@ class Atlas_B_G_UAV_06_F: UAV_06_base_F
 		class Blufor: Blufor
 		{
 			textures[] = {"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_G_UAV_06_CO.paa"};
-			factions[]= {Atlas_BLU_G_F};
+			factions[]= {Atlas_BLU_G_F, Atlas_BLU_G_ard_F};
 		};
 	};
 };
@@ -174,7 +174,21 @@ class Atlas_B_G_UAV_06_medical_F: UAV_06_medical_base_F
 				"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_G_UAV_06_medical_CO.paa",
 				"\A3_Atlas\Air_F_Atlas\UAV_06\Data\B_G_UAV_06_medical_CO.paa"
 			};
-			factions[]= {Atlas_BLU_G_F};
+			factions[]= {Atlas_BLU_G_F, Atlas_BLU_G_ard_F};
 		};
 	};
+};
+
+/* Bundeswehr Arid */
+class Atlas_B_G_UAV_06_ard_F: Atlas_B_G_UAV_06_F
+{
+	scope = public;
+	side = TWest;
+	faction = Atlas_BLU_G_ard_F;
+};
+class Atlas_B_G_UAV_06_medical_ard_F: Atlas_B_G_UAV_06_medical_F
+{
+	scope = public;
+	side = TWest;
+	faction = Atlas_BLU_G_ard_F;
 };

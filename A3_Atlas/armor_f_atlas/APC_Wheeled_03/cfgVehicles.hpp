@@ -52,7 +52,7 @@ class CfgVehicles
 			};
 			class Woodland_01
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+				displayName = $STR_A3_A_TEXTURESOURCES_BW0;
 				author = $STR_A3_A_wsxcgy;
 				textures[] =
 				{
@@ -67,7 +67,7 @@ class CfgVehicles
 			};
 			class Desert_01
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_DESERT0;
+				displayName = $STR_A3_A_TEXTURESOURCES_BWArid0;
 				author = $STR_A3_A_wsxcgy;
 				textures[] =
 				{

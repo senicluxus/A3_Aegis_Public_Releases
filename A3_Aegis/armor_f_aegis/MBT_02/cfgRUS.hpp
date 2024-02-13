@@ -772,3 +772,64 @@ class O_R_MBT_02_arty_ard_F: O_R_MBT_02_arty_F
 		bag_xx(B_FieldPack_green_F,2);
 	};
 };
+
+/* T-100X Futura */
+class Aegis_O_R_MBT_02_Railgun_F: O_MBT_02_railgun_base_F
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_MBT_02_railgun_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	side = TEast;
+	faction = OPF_R_F;
+	crew = O_R_crew_F;
+	typicalCargo[] =
+	{
+		O_R_Soldier_F,
+		O_R_Soldier_F,
+		O_R_Soldier_F
+	};
+	textureList[] = {Green,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUkhk_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUkhk_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUkhk_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
+	};
+
+    /* Inventory */
+	class TransportWeapons
+	{
+		weap_xx(arifle_AK12U_545_F,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(SmokeShell,2);
+		mag_xx(SmokeShellRed,2);
+		mag_xx(30Rnd_545x39_AK12_Mag_F,4);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_FieldPack_taiga_F,2);
+	};
+};
+
+class Aegis_O_R_MBT_02_Railgun_ard_F: Aegis_O_R_MBT_02_Railgun_F
+{
+    author = $STR_A3_A_Ravenholme;
+	faction = OPF_R_ard_F;
+	crew = O_R_crew_ard_F;
+	typicalCargo[] =
+	{
+		O_R_Soldier_ard_F,
+		O_R_Soldier_ard_F,
+		O_R_Soldier_ard_F
+	};
+
+    /* Inventory */
+	class TransportBackpacks
+	{
+		bag_xx(B_FieldPack_green_F,2);
+	};
+};

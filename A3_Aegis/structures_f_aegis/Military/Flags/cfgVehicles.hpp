@@ -10,6 +10,28 @@ class CfgVehicles
 			init = "(_this select 0) setFlagTexture '\A3_Aegis\Data_F_Aegis\Flags\flag_ION_CO.paa'";
 		};
 	};
+	class Flag_US_F: FlagCarrier
+	{
+		author = "$STR_A3_Bohemia_Interactive";
+		class SimpleObject
+		{
+			eden = 0;
+			animate[] = {{"flag",0}};
+			hide[] = {};
+			verticalOffset = 3.977;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Flag_US_F.jpg";
+		_generalMacro = "Flag_US_F";
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "$STR_A3_CfgVehicles_Flag_US_F0";
+		class EventHandlers
+		{
+			init = "(_this select 0) setFlagTexture '\A3_Aegis\data_f_aegis\Flags\flag_USA_51_CO.paa'";
+		};
+	};
 	// Arma 3 Enoch
 	class Flag_EAF_F: FlagCarrier_Asym
 	{

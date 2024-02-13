@@ -1,8 +1,8 @@
 /* FIA BLUFOR */
-class B_G_ZU23_lxWS_F: zu23_base_lxWS
+class Aegis_B_G_ZU23_lxWS_F: zu23_base_lxWS
 {
 	author = $STR_A3_A_Ravenholme;
-    //editorPreview = "\A3_Aegis\Editorpreviews_f_Aegis\Data\CfgVehicles\B_G_ZU23_lxWS_F.jpg";
+   	editorPreview = "\A3_Aegis\Editorpreviews_f_Aegis\Data\CfgVehicles\Aegis_O_G_ZU23_lxWS_F.jpg";
     DLC = lxWS;
 	scope = public;
 	scopeCurator = public;
@@ -10,6 +10,7 @@ class B_G_ZU23_lxWS_F: zu23_base_lxWS
 	faction = BLU_G_F;
     crew = B_G_Soldier_F;
     typicalCargo[] = {B_G_Soldier_F};
+	textureList[] = {Green,1};
     hiddenSelectionsTextures[] = 
     {
         "lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
@@ -20,10 +21,10 @@ class B_G_ZU23_lxWS_F: zu23_base_lxWS
 };
 
 /* FIA INDEP */
-class I_G_ZU23_lxWS_F: B_G_ZU23_lxWS_F
+class Aegis_I_G_ZU23_lxWS_F: Aegis_B_G_ZU23_lxWS_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\Editorpreviews_f_Aegis\Data\CfgVehicles\B_G_ZU23_lxWS_F.jpg";
+	editorPreview = "\A3_Aegis\Editorpreviews_f_Aegis\Data\CfgVehicles\Aegis_O_G_ZU23_lxWS_F.jpg";
     DLC = lxWS;
 	scope = public;
 	scopeCurator = public;
@@ -34,10 +35,10 @@ class I_G_ZU23_lxWS_F: B_G_ZU23_lxWS_F
 };
 
 /* FIA OPFOR */
-class O_G_ZU23_lxWS_F: B_G_ZU23_lxWS_F
+class Aegis_O_G_ZU23_lxWS_F: Aegis_B_G_ZU23_lxWS_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Aegis\Editorpreviews_f_Aegis\Data\CfgVehicles\B_G_ZU23_lxWS_F.jpg";
+	editorPreview = "\A3_Aegis\Editorpreviews_f_Aegis\Data\CfgVehicles\Aegis_O_G_ZU23_lxWS_F.jpg";
     DLC = lxWS;
 	scope = public;
 	scopeCurator = public;

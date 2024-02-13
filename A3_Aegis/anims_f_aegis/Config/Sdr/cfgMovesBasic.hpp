@@ -5,6 +5,7 @@ class CfgMovesBasic
 	{
 		GestureReloadSA80 = "";
 		GestureReloadWF50 = "";
+		GestureReloadAKM74 = "";
 	};
 	class Actions
 	{
@@ -18,6 +19,11 @@ class CfgMovesBasic
 			GestureReloadWF50[] =
 			{
 				GestureReloadWF50,
+				Gesture
+			};
+			GestureReloadAKM74[] =
+			{
+				GestureReloadAKM74,
 				Gesture
 			};
 		};
@@ -34,6 +40,11 @@ class CfgMovesBasic
 				GestureReloadWF50Prone,
 				Gesture
 			};
+			GestureReloadAKM74[] =
+			{
+				GestureReloadAKM74Prone,
+				Gesture
+			};
 		};
 		class RifleAdjustProneBaseActions;
 		class RifleAdjustFProneActions: RifleAdjustProneBaseActions
@@ -46,6 +57,11 @@ class CfgMovesBasic
 			GestureReloadWF50[] =
 			{
 				GestureReloadWF50Context,
+				Gesture
+			};
+			GestureReloadAKM74[] =
+			{
+				GestureReloadAKM74Context,
 				Gesture
 			};
 		};
@@ -61,6 +77,11 @@ class CfgMovesBasic
 				GestureReloadWF50Context,
 				Gesture
 			};
+			GestureReloadAKM74[] =
+			{
+				GestureReloadAKM74Context,
+				Gesture
+			};
 		};
 		class RifleAdjustRProneActions: RifleAdjustProneBaseActions
 		{
@@ -72,6 +93,11 @@ class CfgMovesBasic
 			GestureReloadWF50[] =
 			{
 				GestureReloadWF50Context,
+				Gesture
+			};
+			GestureReloadAKM74[] =
+			{
+				GestureReloadAKM74Context,
 				Gesture
 			};
 		};
@@ -88,6 +114,11 @@ class CfgMovesBasic
 				GestureReloadWF50Prone,
 				Gesture
 			};
+			GestureReloadAKM74[] =
+			{
+				GestureReloadAKM74Prone,
+				Gesture
+			};
 		};
 		class DeployedProneActions: RifleProneActions
 		{
@@ -99,6 +130,11 @@ class CfgMovesBasic
 			GestureReloadWF50[] =
 			{
 				GestureReloadWF50Prone,
+				Gesture
+			};
+			GestureReloadAKM74[] =
+			{
+				GestureReloadAKM74Prone,
 				Gesture
 			};
 		};

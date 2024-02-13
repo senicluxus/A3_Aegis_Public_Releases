@@ -10,11 +10,11 @@
 		vehicleClass = WeaponsPrimary; \
 		class TransportWeapons \
 		{ \
-			weap_xx(##a##,1); \
+			weap_xx(a,1); \
 		}; \
 		class TransportMagazines \
 		{ \
-			mag_xx(##d##,1); \
+			mag_xx(d,1); \
 		}; \
 	};
 
@@ -25,4 +25,7 @@ class CfgVehicles
 	WEAPON_HOLDER(arifle_G36_F,$STR_A3_A_CfgWeapons_arifle_G36_F0,EdSubcat_AssaultRifles,30Rnd_65x39_caseless_msbs_mag)
 	WEAPON_HOLDER(arifle_G36_GL_F,$STR_A3_A_CfgWeapons_arifle_G36_GL_F0,EdSubcat_AssaultRifles,30Rnd_65x39_caseless_msbs_mag)
 	WEAPON_HOLDER(arifle_G36C_F,$STR_A3_A_CfgWeapons_arifle_G36C_F0,EdSubcat_AssaultRifles,30Rnd_65x39_caseless_msbs_mag)
+	WEAPON_HOLDER(arifle_G36_Sand_F,$STR_A3_A_CfgWeapons_arifle_G36_Sand_F0,EdSubcat_AssaultRifles,30Rnd_65x39_caseless_msbs_mag)
+	WEAPON_HOLDER(arifle_G36_GL_Sand_F,$STR_A3_A_CfgWeapons_arifle_G36_GL_Sand_F0,EdSubcat_AssaultRifles,30Rnd_65x39_caseless_msbs_mag)
+	WEAPON_HOLDER(arifle_G36C_Sand_F,$STR_A3_A_CfgWeapons_arifle_G36C_Sand_F0,EdSubcat_AssaultRifles,30Rnd_65x39_caseless_msbs_mag)
 };

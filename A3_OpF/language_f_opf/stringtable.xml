@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project name="Arma3Opfor">
 	<Package name="Language_Opfor">
+	<Container name="Air_F">
+			<Key ID="STR_A3_A_CfgVehicles_Opf_O_S_UAV_IED_lxWS_backpack_F0">
+				<Original>UAV Bag (IED Drone) [Separatist]</Original>
+				<Chinese>無人機袋子（IED Drone）[Separatist]</Chinese>
+				<French>Sac drone (IED Drone) [Separatist]</French>
+				<Spanish>Bolsa de VANT (IED Drone) [Separatist]</Spanish>
+				<Italian>Borsa UAV (IED Drone) [Separatist]</Italian>
+				<Polish>Torba na drona (IED Drone) [Separatist]</Polish>
+				<Russian>Сумка для БПЛА (IED Drone) [Separatist]</Russian>
+				<German>UAV-Tasche (IED Drone) [Separatist]</German>
+				<Czech>UAV vak (IED Drone) [Separatist]</Czech>
+				<English>UAV Bag (IED Drone) [Separatist]</English>
+				<Portuguese>Compartimento de VANT (IED Drone) [Separatist]</Portuguese>
+				<Korean>UAV 가방 (IED Drone) [Separatist]</Korean>
+				<Chinesesimp>UAV 包（IED Drone）[Separatist]</Chinesesimp>
+				<Japanese>UAV バッグ（IED Drone）[Separatist]</Japanese>
+				<Turkish>İHA Çantası (IED Drone) [Separatist]</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Opf_I_I_UAV_IED_lxWS_backpack_F0">
+				<Original>UAV Bag (IED Drone) [Insurgent]</Original>
+				<Chinese>無人機袋子（IED Drone）[Insurgent]</Chinese>
+				<French>Sac drone (IED Drone) [Insurgent]</French>
+				<Spanish>Bolsa de VANT (IED Drone) [Insurgent]</Spanish>
+				<Italian>Borsa UAV (IED Drone) [Insurgent]</Italian>
+				<Polish>Torba na drona (IED Drone) [Insurgent]</Polish>
+				<Russian>Сумка для БПЛА (IED Drone) [Insurgent]</Russian>
+				<German>UAV-Tasche (IED Drone) [Insurgent]</German>
+				<Czech>UAV vak (IED Drone) [Insurgent]</Czech>
+				<English>UAV Bag (IED Drone) [Insurgent]</English>
+				<Portuguese>Compartimento de VANT (IED Drone) [Insurgent]</Portuguese>
+				<Korean>UAV 가방 (IED Drone) [Insurgent]</Korean>
+				<Chinesesimp>UAV 包（IED Drone）[Insurgent]</Chinesesimp>
+				<Japanese>UAV バッグ（IED Drone）[Insurgent]</Japanese>
+				<Turkish>İHA Çantası (IED Drone) [Insurgent]</Turkish>
+			</Key>
+			</container>
+		</Container>
 		<Container name="Characters_F">
+			<Key ID="STR_A3_A_CfgVehicles_Opf_B_P_Soldier_Exp_F0">
+                <Original>Saboteur</Original>
+                <English>Saboteur</English>
+                <Czech>Saboteur</Czech>
+                <German>Saboteur</German>
+                <Russian>Saboteur</Russian>
+                <Polish>Saboteur</Polish>
+                <Italian>Saboteur</Italian>
+                <Spanish>Saboteur</Spanish>
+                <French>Saboteur</French>
+                <Chinese>Saboteur</Chinese>
+                <Japanese>Saboteur</Japanese>
+                <Korean>Saboteur</Korean>
+                <Portuguese>Saboteur</Portuguese>
+                <Chinesesimp>Saboteur</Chinesesimp>
+                <Turkish>Saboteur</Turkish>
+			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Opf_B_P_Soldier_Advisor_F0">
+                <Original>Advisor</Original>
+                <English>Advisor</English>
+                <Czech>Advisor</Czech>
+                <German>Advisor</German>
+                <Russian>Advisor</Russian>
+                <Polish>Advisor</Polish>
+                <Italian>Advisor</Italian>
+                <Spanish>Advisor</Spanish>
+                <French>Advisor</French>
+                <Chinese>Advisor</Chinese>
+                <Japanese>Advisor</Japanese>
+                <Korean>Advisor</Korean>
+                <Portuguese>Advisor</Portuguese>
+                <Chinesesimp>Advisor</Chinesesimp>
+                <Turkish>Advisor</Turkish>
+			</Key>
 			<Container name="Groups">
 			</Container>
 			<Container name="Headgear">
@@ -22,76 +93,8 @@
 					<Japanese>シュマグ（カーキ）</Japanese>
 					<Turkish>Poşu (Haki)</Turkish>
 				</Key>
-				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_F0">
-					<Original>Raven Helmet (Spraypaint)</Original>
-					<Chinese>Raven 頭盔（噴漆）</Chinese>
-					<French>Casque Raven (Aérosol)</French>
-					<Spanish>Casco de Raven (pintado con spray)</Spanish>
-					<Italian>Elmetto Raven (vernice a spruzzo)</Italian>
-					<Polish>Hełm Raven (smugi)</Polish>
-					<Russian>Шлем Raven (распыление)</Russian>
-					<German>Raven Helm (Sprühlack)</German>
-					<Czech>Přilba Raven (sprejová barva)</Czech>
-					<English>Raven Helmet (Spraypaint)</English>
-					<Portuguese>Capacete Raven (Tinta spray)</Portuguese>
-					<Korean>레이븐 헬멧(스프레이페인트)</Korean>
-					<Chinesesimp>Raven 头盔（喷漆）</Chinesesimp>
-					<Japanese>レイヴンヘルメット（スプレーペイント）</Japanese>
-					<Turkish>Avcı Miğfer (Sprey Boya)</Turkish>
-				</Key>
-				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_paint_headset_F0">
-					<Original>Raven Helmet (Spraypaint, Headset)</Original>
-					<Chinese>Raven 頭盔（噴漆，耳機）</Chinese>
-					<French>Casque Raven (Aérosol, micro-casque)</French>
-					<Spanish>Casco de Raven (pintado con spray, auricular)</Spanish>
-					<Italian>Elmetto Raven (vernice a spruzzo, cuffia)</Italian>
-					<Polish>Hełm Raven (smugi, głowa)</Polish>
-					<Russian>Шлем Raven (распыление, гарнитура)</Russian>
-					<German>Raven Helm (Sprühlack, Headset)</German>
-					<Czech>Přilba Raven (sprejová barva, náhlavní souprava)</Czech>
-					<English>Raven Helmet (Spraypaint, Headset)</English>
-					<Portuguese>Capacete Raven (Tinta spray, headset)</Portuguese>
-					<Korean>레이븐 헬멧(스프레이페인트, 헤드셋)</Korean>
-					<Chinesesimp>Raven 头盔（喷漆，头戴式耳机）</Chinesesimp>
-					<Japanese>レイヴンヘルメット（スプレーペイント、ヘッドセット）</Japanese>
-					<Turkish>Avcı Miğfer (Sprey Boya, Mik. Kulaklık)</Turkish>
-				</Key>
-				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_khaki_F0">
-					<Original>Raven Helmet (Cover B)</Original>
-					<Chinese>Raven 頭盔（B 型）</Chinese>
-					<French>Casque Raven (tenue B)</French>
-					<Spanish>Casco de Raven (cobertura B)</Spanish>
-					<Italian>Elmetto Raven (copertura B)</Italian>
-					<Polish>Hełm Raven (wariant B)</Polish>
-					<Russian>Шлем Raven (подкладка Т)</Russian>
-					<German>Raven Helm (B-Bezug)</German>
-					<Czech>Přilba Raven (kryt B)</Czech>
-					<English>Raven Helmet (Cover B)</English>
-					<Portuguese>Capacete Raven (cobertura B)</Portuguese>
-					<Korean>레이븐 헬멧(커버 B)</Korean>
-					<Chinesesimp>Raven 头盔（B 罩）</Chinesesimp>
-					<Japanese>レイヴンヘルメット（B カバー）</Japanese>
-					<Turkish>Avcı Miğfer (Siper B)</Turkish>
-				</Key>
-				<Key ID="STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_taiga_F0">
-					<Original>Raven Helmet (Cover T)</Original>
-					<Chinese>Raven 頭盔（T 型）</Chinese>
-					<French>Casque Raven (tenue T)</French>
-					<Spanish>Casco de Raven (cobertura T)</Spanish>
-					<Italian>Elmetto Raven (copertura T)</Italian>
-					<Polish>Hełm Raven (wariant T)</Polish>
-					<Russian>Шлем Raven (подкладка Т)</Russian>
-					<German>Raven Helm (T-Bezug)</German>
-					<Czech>Přilba Raven (kryt T)</Czech>
-					<English>Raven Helmet (Cover T)</English>
-					<Portuguese>Capacete Raven (cobertura T)</Portuguese>
-					<Korean>레이븐 헬멧(커버 T)</Korean>
-					<Chinesesimp>Raven 头盔（T 罩）</Chinesesimp>
-					<Japanese>レイヴンヘルメット（T カバー）</Japanese>
-					<Turkish>Avcı Miğfer (Siper T)</Turkish>
-				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_khk_hs0">
-					<Original>Shemag (Khaki, Headset)</Original>
+					<Original>Shemag (Headset, Khaki)</Original>
 					<Chinese>阿拉伯頭巾（卡其色，耳機）</Chinese>
 					<French>Keffieh (kaki, micro-casque)</French>
 					<Spanish>Palestina (caqui, auricular)</Spanish>
@@ -100,7 +103,7 @@
 					<Russian>Шемаг (хаки, гарнитура)</Russian>
 					<German>Shemag (Khaki, Headset)</German>
 					<Czech>Shemag (khaki, náhlavní souprava)</Czech>
-					<English>Shemag (Khaki, Headset)</English>
+					<English>Shemag (Headset, Khaki)</English>
 					<Portuguese>Shemag (cáqui, headset)</Portuguese>
 					<Korean>쉬마그(카키, 헤드셋)</Korean>
 					<Chinesesimp>阿拉伯头巾（卡其色，头戴式耳机）</Chinesesimp>
@@ -208,6 +211,23 @@
 					<Chinesesimp>无檐帽（Raven Security，头戴式耳机）</Chinesesimp>
 					<Japanese>キャップ（レイヴン・セキュリティ、ヘッドセット）</Japanese>
 					<Turkish>Şapka (Kuzgun Güvenliği, Baş Giysisi)</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_H_Watchcap_flora0">
+					<Original>Beanie (Flora)</Original>
+					<Chinese>毛線帽（Flora）</Chinese>
+					<French>Bonnet (Flora)</French>
+					<Spanish>Gorro (Flora)</Spanish>
+					<Italian>Berretto (Flora)</Italian>
+					<Polish>Czapka narciarska (Flora)</Polish>
+					<Russian>Шапочка (Flora)</Russian>
+					<German>Beanie-Mütze (Flora)</German>
+					<Czech>Kulich (Flora)</Czech>
+					<English>Beanie (Flora)</English>
+					<Portuguese>Gorro (Flora)</Portuguese>
+					<Korean>비니(Flora)</Korean>
+					<Chinesesimp>便帽（Flora）</Chinesesimp>
+					<Japanese>ビーニー帽（Flora）</Japanese>
+					<Turkish>Bere (Flora)</Turkish>
 				</Key>
 			</Container>
 			<Container name="Uniforms">
@@ -347,6 +367,23 @@
                     <Japanese>脱走兵の服（セーター）</Japanese>
                     <Turkish>Bakaya Kıyafeti (Kazak)</Turkish>
                 </Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_O_S_Uniform_01_sweater_flora_F0">
+                    <Original>Deserter Clothes (Flora Sweater)</Original>
+                    <Chinese>逃兵衣服（Flora 毛衣）</Chinese>
+                    <French>Vêtements de déserteur (Flora pullover)</French>
+                    <Spanish>Ropa de desertor (Flora jersey)</Spanish>
+                    <Italian>Vestiti da disertore (Flora maglione)</Italian>
+                    <Polish>Odzież dezertera (Flora sweter)</Polish>
+                    <Russian>Одежда дезертира (Flora свитер)</Russian>
+                    <German>Deserteur-Kleidung (Flora Pullover)</German>
+                    <Czech>Oblečení rabujícího (Flora svetr)</Czech>
+                    <English>Deserter Clothes (Flora Sweater)</English>
+                    <Portuguese>Roupas de desertor (Flora suéter)</Portuguese>
+                    <Korean>탈영병 옷 (Flora 스웨터)</Korean>
+                    <Chinesesimp>逃兵服装（Flora 毛衣）</Chinesesimp>
+                    <Japanese>脱走兵の服（Flora セーター）</Japanese>
+                    <Turkish>Bakaya Kıyafeti (Flora Kazak)</Turkish>
+                </Key>
                 <Key ID="STR_A3_O_CfgWeapons_U_IG_Guerilla3_3_F0">
                     <Original>Guerilla Smocks (Grey)</Original>
                     <Chinese>游擊外衣（灰）</Chinese>
@@ -432,6 +469,159 @@
 					<Japanese>着古した衣服（黒）</Japanese>
 					<Turkish>Giyilmiş Kıyafetler (Siyah)</Turkish>
 				</Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_B_P_Uniform_01_F0">
+                    <Original>Partisan Uniform</Original>
+                    <Chinese>Partisan Uniform</Chinese>
+                    <French>Partisan Uniform</French>
+                    <Spanish>Partisan Uniform</Spanish>
+                    <Italian>Partisan Uniform</Italian>
+                    <Polish>Partisan Uniform</Polish>
+                    <Russian>Partisan Uniform</Russian>
+                    <German>Partisan Uniform</German>
+                    <Czech>Partisan Uniform</Czech>
+                    <English>Partisan Uniform</English>
+                    <Portuguese>Partisan Uniform</Portuguese>
+                    <Korean>Partisan Uniform</Korean>
+                    <Chinesesimp>Partisan Uniform</Chinesesimp>
+                    <Japanese>Partisan Uniform</Japanese>
+                    <Turkish>Partisan Uniform</Turkish>
+                </Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_B_P_Uniform_01_Shortsleeve_F0">
+                    <Original>Partisan Uniform (Rolled-up)</Original>
+                    <Chinese>Partisan Uniform (Rolled-up)</Chinese>
+                    <French>Partisan Uniform (Rolled-up)</French>
+                    <Spanish>Partisan Uniform (Rolled-up)</Spanish>
+                    <Italian>Partisan Uniform (Rolled-up)</Italian>
+                    <Polish>Partisan Uniform (Rolled-up)</Polish>
+                    <Russian>Partisan Uniform (Rolled-up)</Russian>
+                    <German>Partisan Uniform (Rolled-up)</German>
+                    <Czech>Partisan Uniform (Rolled-up)</Czech>
+                    <English>Partisan Uniform (Rolled-up)</English>
+                    <Portuguese>Partisan Uniform (Rolled-up)</Portuguese>
+                    <Korean>Partisan Uniform (Rolled-up)</Korean>
+                    <Chinesesimp>Partisan Uniform (Rolled-up)</Chinesesimp>
+                    <Japanese>Partisan Uniform (Rolled-up)</Japanese>
+                    <Turkish>Partisan Uniform (Rolled-up)</Turkish>
+                </Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_B_P_FieldJacket_01_F0">
+                    <Original>Partisan Jacket (Alpenflage)</Original>
+                    <Chinese>Partisan Jacket (Alpenflage)</Chinese>
+                    <French>Partisan Jacket (Alpenflage)</French>
+                    <Spanish>Partisan Jacket (Alpenflage)</Spanish>
+                    <Italian>Partisan Jacket (Alpenflage)</Italian>
+                    <Polish>Partisan Jacket (Alpenflage)</Polish>
+                    <Russian>Partisan Jacket (Alpenflage)</Russian>
+                    <German>Partisan Jacket (Alpenflage)</German>
+                    <Czech>Partisan Jacket (Alpenflage)</Czech>
+                    <English>Partisan Jacket (Alpenflage)</English>
+                    <Portuguese>Partisan Jacket (Alpenflage)</Portuguese>
+                    <Korean>Partisan Jacket (Alpenflage)</Korean>
+                    <Chinesesimp>Partisan Jacket (Alpenflage)</Chinesesimp>
+                    <Japanese>Partisan Jacket (Alpenflage)</Japanese>
+                    <Turkish>Partisan Jacket (Alpenflage)</Turkish>
+                </Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_B_P_FieldJacket_02_F0">
+                    <Original>Partisan Jacket (CCE)</Original>
+                    <Chinese>Partisan Jacket (CCE)</Chinese>
+                    <French>Partisan Jacket (CCE)</French>
+                    <Spanish>Partisan Jacket (CCE)</Spanish>
+                    <Italian>Partisan Jacket (CCE)</Italian>
+                    <Polish>Partisan Jacket (CCE)</Polish>
+                    <Russian>Partisan Jacket (CCE)</Russian>
+                    <German>Partisan Jacket (CCE)</German>
+                    <Czech>Partisan Jacket (CCE)</Czech>
+                    <English>Partisan Jacket (CCE)</English>
+                    <Portuguese>Partisan Jacket (CCE)</Portuguese>
+                    <Korean>Partisan Jacket (CCE)</Korean>
+                    <Chinesesimp>Partisan Jacket (CCE)</Chinesesimp>
+                    <Japanese>Partisan Jacket (CCE)</Japanese>
+                    <Turkish>Partisan Jacket (CCE)</Turkish>
+                </Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_B_P_FieldJacket_03_F0">
+                    <Original>Partisan Jacket (DPM)</Original>
+                    <Chinese>Partisan Jacket (DPM)</Chinese>
+                    <French>Partisan Jacket (DPM)</French>
+                    <Spanish>Partisan Jacket (DPM)</Spanish>
+                    <Italian>Partisan Jacket (DPM)</Italian>
+                    <Polish>Partisan Jacket (DPM)</Polish>
+                    <Russian>Partisan Jacket (DPM)</Russian>
+                    <German>Partisan Jacket (DPM)</German>
+                    <Czech>Partisan Jacket (DPM)</Czech>
+                    <English>Partisan Jacket (DPM)</English>
+                    <Portuguese>Partisan Jacket (DPM)</Portuguese>
+                    <Korean>Partisan Jacket (DPM)</Korean>
+                    <Chinesesimp>Partisan Jacket (DPM)</Chinesesimp>
+                    <Japanese>Partisan Jacket (DPM)</Japanese>
+                    <Turkish>Partisan Jacket (DPM)</Turkish>
+                </Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_B_P_Uniform_Advisor_F0">
+                    <Original>Partisan Advisor Uniform</Original>
+                    <Chinese>Partisan Advisor Uniform</Chinese>
+                    <French>Partisan Advisor Uniform</French>
+                    <Spanish>Partisan Advisor Uniform</Spanish>
+                    <Italian>Partisan Advisor Uniform</Italian>
+                    <Polish>Partisan Advisor Uniform</Polish>
+                    <Russian>Partisan Advisor Uniform</Russian>
+                    <German>Partisan Advisor Uniform</German>
+                    <Czech>Partisan Advisor Uniform</Czech>
+                    <English>Partisan Advisor Uniform</English>
+                    <Portuguese>Partisan Advisor Uniform</Portuguese>
+                    <Korean>Partisan Advisor Uniform</Korean>
+                    <Chinesesimp>Partisan Advisor Uniform</Chinesesimp>
+                    <Japanese>Partisan Advisor Uniform</Japanese>
+                    <Turkish>Partisan Advisor Uniform</Turkish>
+                </Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_O_P_Uniform_01_PLR_F0">
+                    <Original>Paramilitary Combat Uniform</Original>
+                    <Chinese>Paramilitary Combat Uniform</Chinese>
+                    <French>Paramilitary Combat Uniform</French>
+                    <Spanish>Paramilitary Combat Uniform</Spanish>
+                    <Italian>Paramilitary Combat Uniform</Italian>
+                    <Polish>Paramilitary Combat Uniform</Polish>
+                    <Russian>Paramilitary Combat Uniform</Russian>
+                    <German>Paramilitary Combat Uniform</German>
+                    <Czech>Paramilitary Combat Uniform</Czech>
+                    <English>Paramilitary Combat Uniform</English>
+                    <Portuguese>Paramilitary Combat Uniform</Portuguese>
+                    <Korean>Paramilitary Combat Uniform</Korean>
+                    <Chinesesimp>Paramilitary Combat Uniform</Chinesesimp>
+                    <Japanese>Paramilitary Combat Uniform</Japanese>
+                    <Turkish>Paramilitary Combat Uniform</Turkish>
+                </Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_O_P_Uniform_02_PLR_F0">
+                    <Original>Paramilitary Combat Uniform (Rolled-up)</Original>
+                    <Chinese>Paramilitary Combat Uniform (Rolled-up)</Chinese>
+                    <French>Paramilitary Combat Uniform (Rolled-up)</French>
+                    <Spanish>Paramilitary Combat Uniform (Rolled-up)</Spanish>
+                    <Italian>Paramilitary Combat Uniform (Rolled-up)</Italian>
+                    <Polish>Paramilitary Combat Uniform (Rolled-up)</Polish>
+                    <Russian>Paramilitary Combat Uniform (Rolled-up)</Russian>
+                    <German>Paramilitary Combat Uniform (Rolled-up)</German>
+                    <Czech>Paramilitary Combat Uniform (Rolled-up)</Czech>
+                    <English>Paramilitary Combat Uniform (Rolled-up)</English>
+                    <Portuguese>Paramilitary Combat Uniform (Rolled-up)</Portuguese>
+                    <Korean>Paramilitary Combat Uniform (Rolled-up)</Korean>
+                    <Chinesesimp>Paramilitary Combat Uniform (Rolled-up)</Chinesesimp>
+                    <Japanese>Paramilitary Combat Uniform (Rolled-up)</Japanese>
+                    <Turkish>Paramilitary Combat Uniform (Rolled-up)</Turkish>
+                </Key>
+				<Key ID="STR_A3_O_CfgWeapons_U_O_P_Uniform_03_PLR_F0">
+                    <Original>Paramilitary Combat Uniform (Tee)</Original>
+                    <Chinese>Paramilitary Combat Uniform (Tee)</Chinese>
+                    <French>Paramilitary Combat Uniform (Tee)</French>
+                    <Spanish>Paramilitary Combat Uniform (Tee)</Spanish>
+                    <Italian>Paramilitary Combat Uniform (Tee)</Italian>
+                    <Polish>Paramilitary Combat Uniform (Tee)</Polish>
+                    <Russian>Paramilitary Combat Uniform (Tee)</Russian>
+                    <German>Paramilitary Combat Uniform (Tee)</German>
+                    <Czech>Paramilitary Combat Uniform (Tee)</Czech>
+                    <English>Paramilitary Combat Uniform (Tee)</English>
+                    <Portuguese>Paramilitary Combat Uniform (Tee)</Portuguese>
+                    <Korean>Paramilitary Combat Uniform (Tee)</Korean>
+                    <Chinesesimp>Paramilitary Combat Uniform (Tee)</Chinesesimp>
+                    <Japanese>Paramilitary Combat Uniform (Tee)</Japanese>
+                    <Turkish>Paramilitary Combat Uniform (Tee)</Turkish>
+                </Key>
 			</Container>
 			<Container name="Vests">
                 <Key ID="STR_A3_O_CfgWeapons_V_Pocketed_hunter_F0">
@@ -573,6 +763,23 @@
 					<Chinesesimp>Preppers</Chinesesimp>
 					<Japanese>Preppers</Japanese>
 					<Turkish>Preppers</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgFactionClasses_BLU_P_F0">
+					<Original>Partisans</Original>
+					<Chinese>Partisans</Chinese>
+					<French>Partisans</French>
+					<Spanish>Partisans</Spanish>
+					<Italian>Partisans</Italian>
+					<Polish>Partisans</Polish>
+					<Russian>Partisans</Russian>
+					<German>Partisans</German>
+					<Czech>Partisans</Czech>
+					<English>Partisans</English>
+					<Portuguese>Partisans</Portuguese>
+					<Korean>Partisans</Korean>
+					<Chinesesimp>Partisans</Chinesesimp>
+					<Japanese>Partisans</Japanese>
+					<Turkish>Partisans</Turkish>
 				</Key>
 			</Container>
 		</Container>
@@ -1089,6 +1296,57 @@
 					<Japanese>物資箱 [レイヴン]</Japanese>
 					<Turkish>İkmal Kutusu [Kuzgun]</Turkish>
 				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_Partisans_Wps_F0">
+					<Original>Basic Weapons [Partisans]</Original>
+					<Chinese>基本武器（Partisans）</Chinese>
+					<French>Armes standard [Partisans]</French>
+					<Spanish>Armas básicas [Partisans]</Spanish>
+					<Italian>Armi di base [Partisans]</Italian>
+					<Polish>Broń podstawowa [Partisans]</Polish>
+					<Russian>Основное оружие [Partisans]</Russian>
+					<German>Basiswaffen [Partisans]</German>
+					<Czech>Základní zbraně [Partisans]</Czech>
+					<English>Basic Weapons [Partisans]</English>
+					<Portuguese>Armas básicas [Partisans]</Portuguese>
+					<Korean>기본무기[Partisans]</Korean>
+					<Chinesesimp>基本武器 [Partisans]</Chinesesimp>
+					<Japanese>基本武器 [Partisans]</Japanese>
+					<Turkish>Temel Silahlar [Partisans]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_Partisans_Ammo_F0">
+					<Original>Basic Ammo [Partisans]</Original>
+					<Chinese>基本彈藥（Partisans）</Chinese>
+					<French>Munitions standard [Partisans]</French>
+					<Spanish>Munición básica [Partisans]</Spanish>
+					<Italian>Munizioni di base [Partisans]</Italian>
+					<Polish>Amunicja podstawowa [Partisans]</Polish>
+					<Russian>Основные боеприпасы [Partisans]</Russian>
+					<German>Basismunition [Partisans]</German>
+					<Czech>Základní munice [Partisans]</Czech>
+					<English>Basic Ammo [Partisans]</English>
+					<Portuguese>Munição básica [Partisans]</Portuguese>
+					<Korean>기본탄약[Partisans]</Korean>
+					<Chinesesimp>基本弹药 [Partisans]</Chinesesimp>
+					<Japanese>基本弾薬 [Partisans]</Japanese>
+					<Turkish>Temel Mühimmat [Partisans]</Turkish>
+				</Key>
+				<Key ID="STR_A3_O_CfgVehicles_Box_Partisans_WpsLaunch_F0">
+					<Original>Launchers [Partisans]</Original>
+					<Chinese>發射器（Partisans）</Chinese>
+					<French>Lanceurs [Partisans]</French>
+					<Spanish>Lanzadores [Partisans]</Spanish>
+					<Italian>Lanciatori [Partisans]</Italian>
+					<Polish>Wyrzutnie [Partisans]</Polish>
+					<Russian>Пусковые установки [Partisans]</Russian>
+					<German>Werfer [Partisans]</German>
+					<Czech>Raketomety [Partisans]</Czech>
+					<English>Launchers [Partisans]</English>
+					<Portuguese>Lançadores [Partisans]</Portuguese>
+					<Korean>발사기[Partisans]</Korean>
+					<Chinesesimp>发射器 [Partisans]</Chinesesimp>
+					<Japanese>ランチャー [Partisans]</Japanese>
+					<Turkish>Fırlatıcılar [Partisans]</Turkish>
+				</Key>
 			</Container>
 		</Container>
 		<Container name="Weapons_F">
@@ -1181,6 +1439,23 @@
 						<Japanese>SKS-M 7.62mm</Japanese>
 						<Turkish>SKS-M 7.62 mm</Turkish>
 					</Key>
+					<Key ID="STR_A3_O_CfgWeapons_arifle_SKS_oak_F0">
+						<Original>SKS-M 7.62 mm (Oak)</Original>
+						<Chinese>SKS-M 7.62 mm (Oak)</Chinese>
+						<French>SKS-M 7,62 mm (Oak)</French>
+						<Spanish>SKS-M 7,62 mm (Oak)</Spanish>
+						<Italian>SKS-M 7,62 mm (Oak)</Italian>
+						<Polish>SKS-M 7,62 mm (Oak)</Polish>
+						<Russian>SKS-M 7,62 мм (Oak)</Russian>
+						<German>SKS-M 7,62 mm (Oak)</German>
+						<Czech>SKS-M 7,62 mm (Oak)</Czech>
+						<English>SKS-M 7.62 mm (Oak)</English>
+						<Portuguese>SKS-M 7,62 mm (Oak)</Portuguese>
+						<Korean>SKS-M 7.62mm (Oak)</Korean>
+						<Chinesesimp>SKS-M 7.62 毫米 (Oak)</Chinesesimp>
+						<Japanese>SKS-M 7.62mm (Oak)</Japanese>
+						<Turkish>SKS-M 7.62 mm (Oak)</Turkish>
+					</Key>
 				</Container>
 				<Container name="Library">
 					<Key ID="STR_A3_O_CfgWeapons_arifle_RFB_base_F_Library0">
@@ -1224,6 +1499,27 @@
 				</Container>
 				<Container name="DisplayName">
 				</Container>
+			</Container>
+		</Container>
+		<Container name="Groups_F">
+			<Container name="OPFOR Groups">
+					<Key ID="STR_A3_O_CfgGroups_East_OPF_P_Militants0">
+						<Original>Militants</Original>
+						<Chinese>Militants</Chinese>
+						<French>Militants</French>
+						<Spanish>Militants</Spanish>
+						<Italian>Militants</Italian>
+						<Polish>Militants</Polish>
+						<Russian>Militants</Russian>
+						<German>Militants</German>
+						<Czech>Militants</Czech>
+						<English>Militants</English>
+						<Portuguese>Militants</Portuguese>
+						<Korean>Militants</Korean>
+						<Chinesesimp>Militants</Chinesesimp>
+						<Japanese>Militants</Japanese>
+						<Turkish>Militants</Turkish>
+					</Key>
 			</Container>
 		</Container>
 	</Package>

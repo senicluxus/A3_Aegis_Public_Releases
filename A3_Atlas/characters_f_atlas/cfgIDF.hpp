@@ -20,7 +20,7 @@ class Atlas_I_I_Soldier_Base_F: Atlas_I_I_Man_Base_F
 class Atlas_I_I_Soldier_A_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_A_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_A_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
@@ -42,13 +42,13 @@ class Atlas_I_I_Soldier_A_F: Atlas_I_I_Soldier_Base_F
 	backpack = B_Carryall_oli_IIAmmo_F;
 	weapons[] =
 	{
-		arifle_TRG21_black_ACO_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		hgun_ACPC2_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_black_ACO_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		hgun_ACPC2_F,
 		DefaultManWeapons
 	};
@@ -71,7 +71,7 @@ class Atlas_I_I_Soldier_A_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_soldier_AAR_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_AAR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_AAR_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_O_SOLDIERU_AAR_F0;
@@ -93,14 +93,14 @@ class Atlas_I_I_soldier_AAR_F: Atlas_I_I_Soldier_Base_F
 	backpack = B_ViperHarness_oli_IIAAR_F;
 	weapons[] =
 	{
-		arifle_TRG21_black_ACO_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_black_ACO_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
@@ -126,7 +126,7 @@ class Atlas_I_I_soldier_AAR_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_soldier_AAA_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_AAA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_AAA_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_AAA_F0;
@@ -148,14 +148,14 @@ class Atlas_I_I_soldier_AAA_F: Atlas_I_I_Soldier_Base_F
 	backpack = I_Carryall_oli_AAA;
 	weapons[] =
 	{
-		arifle_TRG21_black_ACO_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_black_ACO_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
@@ -182,7 +182,7 @@ class Atlas_I_I_soldier_AAA_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_soldier_AAT_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_AAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_AAT_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_AAT_F0;
@@ -204,14 +204,14 @@ class Atlas_I_I_soldier_AAT_F: Atlas_I_I_Soldier_Base_F
 	backpack = I_Carryall_oli_AAT;
 	weapons[] =
 	{
-		arifle_TRG21_black_ACO_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_black_ACO_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
@@ -238,7 +238,7 @@ class Atlas_I_I_soldier_AAT_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_support_AMG_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_support_AMG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_support_AMG_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_AMG_F0;
@@ -260,14 +260,14 @@ class Atlas_I_I_support_AMG_F: Atlas_I_I_Soldier_Base_F
 	backpack = Atlas_I_I_HMG_01_support_F;
 	weapons[] =
 	{
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
@@ -294,7 +294,7 @@ class Atlas_I_I_support_AMG_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_support_AMort_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_support_AMort_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_support_AMort_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_AMort_F0;
@@ -316,14 +316,14 @@ class Atlas_I_I_support_AMort_F: Atlas_I_I_Soldier_Base_F
 	backpack = Atlas_I_I_Mortar_01_support_F;
 	weapons[] =
 	{
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
@@ -361,7 +361,7 @@ class Atlas_I_I_Soldier_AR_F: Atlas_I_I_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
 	nameSound = veh_infantry_MG_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_AR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_AR_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
@@ -383,13 +383,13 @@ class Atlas_I_I_Soldier_AR_F: Atlas_I_I_Soldier_Base_F
     backpack = B_ViperLightHarness_oli_IIAR_F;
 	weapons[] =
 	{
-		LMG_Zafir_black_MRCO_pointer_F,
+		Atlas_LMG_Negev_black_ACOG_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		LMG_Zafir_black_MRCO_pointer_F,
+		Atlas_LMG_Negev_black_ACOG_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
@@ -426,7 +426,7 @@ class Atlas_I_I_medic_F: Atlas_I_I_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Medic_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Medic_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
@@ -448,13 +448,13 @@ class Atlas_I_I_medic_F: Atlas_I_I_Soldier_Base_F
 	backpack = B_AssaultPack_khk_IIMedic_F;
 	weapons[] =
 	{
-		arifle_TRG21_black_SRS_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_black_SRS_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
@@ -483,7 +483,7 @@ class Atlas_I_I_medic_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_crew_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_crew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_crew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_crew_F0;
@@ -536,7 +536,7 @@ class Atlas_I_I_crew_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_engineer_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_engineer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_engineer_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
@@ -558,13 +558,13 @@ class Atlas_I_I_engineer_F: Atlas_I_I_Soldier_Base_F
 	backpack = B_Kitbag_sgg_IIEng_F;
 	weapons[] =
 	{
-		arifle_TRG20_black_SRS_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG20_black_SRS_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
@@ -597,7 +597,7 @@ class Atlas_I_I_engineer_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_soldier_exp_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_exp_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_exp_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_exp_F0;
@@ -619,13 +619,13 @@ class Atlas_I_I_soldier_exp_F: Atlas_I_I_Soldier_Base_F
 	backpack = B_Kitbag_sgg_IIExp_F;
     weapons[] =
     {
-		arifle_TRG20_black_SRS_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG20_black_SRS_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
     };
@@ -656,14 +656,14 @@ class Atlas_I_I_soldier_exp_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_soldier_mine_F: Atlas_I_I_soldier_exp_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_mine_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_mine_F.jpg";
 	displayName = $STR_A3_B_T_soldier_mine_F0;
 	backpack = B_Carryall_oli_Mine;
 };
 class Atlas_I_I_Soldier_GL_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_GL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_GL_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
@@ -685,13 +685,13 @@ class Atlas_I_I_Soldier_GL_F: Atlas_I_I_Soldier_Base_F
     backpack = B_ViperHarness_oli_IIGL_F;
 	weapons[] =
 	{
-		arifle_TRG21_GL_black_ACO_pointer_F,
+		Atlas_arifle_TRG21_GL_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_GL_black_ACO_pointer_F,
+		Atlas_arifle_TRG21_GL_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
@@ -713,7 +713,7 @@ class Atlas_I_I_Soldier_GL_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_support_GMG_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_support_GMG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_support_GMG_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_GMG_F0;
@@ -735,14 +735,14 @@ class Atlas_I_I_support_GMG_F: Atlas_I_I_Soldier_Base_F
 	backpack = Atlas_I_I_GMG_01_weapon_F;
 	weapons[] =
 	{
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
@@ -769,7 +769,7 @@ class Atlas_I_I_support_GMG_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_support_MG_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_support_MG_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_support_MG_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_MG_F0;
@@ -791,14 +791,14 @@ class Atlas_I_I_support_MG_F: Atlas_I_I_Soldier_Base_F
 	backpack = Atlas_I_I_HMG_01_weapon_F;
 	weapons[] =
 	{
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
@@ -825,7 +825,7 @@ class Atlas_I_I_support_MG_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_support_Mort_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_support_Mort_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_support_Mort_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_support_Mort_F0;
@@ -847,14 +847,14 @@ class Atlas_I_I_support_Mort_F: Atlas_I_I_Soldier_Base_F
 	backpack = Atlas_I_I_Mortar_01_weapon_F;
 	weapons[] =
 	{
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
@@ -892,7 +892,7 @@ class Atlas_I_I_helipilot_F: Atlas_I_I_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_helipilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_helipilot_F.jpg";
 	identityTypes[] =
 	{
 		LanguageGRE_F,
@@ -955,7 +955,7 @@ class Atlas_I_I_helicrew_F: Atlas_I_I_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_helicrew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_helicrew_F.jpg";
 	identityTypes[] =
 	{
 		LanguageGRE_F,
@@ -1007,7 +1007,7 @@ class Atlas_I_I_helicrew_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_soldier_M_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_M_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_M_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
@@ -1028,14 +1028,14 @@ class Atlas_I_I_soldier_M_F: Atlas_I_I_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_TRG21_black_SOS_pointer_F,
+		Atlas_arifle_M4A1_ACOG_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_black_SOS_pointer_F,
+		Atlas_arifle_M4A1_ACOG_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Rangefinder
@@ -1071,7 +1071,7 @@ class Atlas_I_I_soldier_AA_F: Atlas_I_I_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_AA_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_AA_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_AA_F0;
@@ -1093,14 +1093,14 @@ class Atlas_I_I_soldier_AA_F: Atlas_I_I_Soldier_Base_F
 	backpack = B_Kitbag_sgg_IIAA_F;
 	weapons[] =
 	{
-		arifle_TRG20_black_SRS_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		launch_B_Titan_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG20_black_SRS_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		launch_B_Titan_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
@@ -1140,7 +1140,7 @@ class Atlas_I_I_soldier_AT_F: Atlas_I_I_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_AT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_AT_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_soldier_AT_F0;
@@ -1162,14 +1162,14 @@ class Atlas_I_I_soldier_AT_F: Atlas_I_I_Soldier_Base_F
 	backpack = B_Kitbag_sgg_IIAT_F;
 	weapons[] =
 	{
-		arifle_TRG20_black_SRS_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		launch_B_Titan_short_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG20_black_SRS_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		launch_B_Titan_short_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
@@ -1209,7 +1209,7 @@ class Atlas_I_I_officer_F: Atlas_I_I_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_officer_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_officer_p;
 	nameSound = veh_infantry_officer_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_officer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_officer_F.jpg";
     scope = public;
     scopeCurator = public;
 	identityTypes[] =
@@ -1222,14 +1222,14 @@ class Atlas_I_I_officer_F: Atlas_I_I_Soldier_Base_F
 	uniformClass = Atlas_U_I_I_OfficerUniform;
 	linkedItems[] =
 	{
-		V_Rangemaster_belt,
+		Aegis_V_CarrierRigKBT_01_holster_cbr_F,
 		H_Headset_light,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_Rangemaster_belt,
+		Aegis_V_CarrierRigKBT_01_holster_cbr_F,
 		H_Headset_light,
 		ItemGPS,
 		DefaultManLinkedItems
@@ -1268,7 +1268,7 @@ class Atlas_I_I_officer_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_Soldier_repair_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_repair_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_repair_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_Soldier_repair_F0;
@@ -1290,13 +1290,13 @@ class Atlas_I_I_Soldier_repair_F: Atlas_I_I_Soldier_Base_F
 	backpack = B_AssaultPack_khk_IIRepair_F;
     weapons[] =
     {
-		arifle_TRG20_black_SRS_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG20_black_SRS_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
     };
@@ -1325,7 +1325,7 @@ class Atlas_I_I_Soldier_repair_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_Soldier_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
@@ -1346,13 +1346,13 @@ class Atlas_I_I_Soldier_F: Atlas_I_I_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_TRG21_black_MRCO_pointer_F,
+		arifle_TRG21_black_ACOG_pointer_F,
 		hgun_ACPC2_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_black_MRCO_pointer_F,
+		arifle_TRG21_black_ACOG_pointer_F,
 		hgun_ACPC2_F,
 		DefaultManWeapons
 	};
@@ -1386,7 +1386,7 @@ class Atlas_I_I_Soldier_LAT_F: Atlas_I_I_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_LAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_LAT_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
@@ -1408,14 +1408,14 @@ class Atlas_I_I_Soldier_LAT_F: Atlas_I_I_Soldier_Base_F
 	backpack = B_AssaultPack_khk_IILAT_F;
 	weapons[] =
 	{
-		arifle_TRG21_black_SRS_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		launch_MRAWS_black_rail_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_black_SRS_pointer_F,
+		Atlas_arifle_TRG21_black_ICO_pointer_F,
 		launch_MRAWS_black_rail_F,
 		hgun_ACPC2_F,
         DefaultManWeapons
@@ -1445,7 +1445,7 @@ class Atlas_I_I_Soldier_LAT_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_Soldier_lite_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_lite_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_lite_F.jpg";
 	identityTypes[] =
 	{
 		LanguageGRE_F,
@@ -1496,7 +1496,7 @@ class Atlas_I_I_Soldier_lite_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_Soldier_CQ_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_CQ_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_CQ_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
@@ -1548,7 +1548,7 @@ class Atlas_I_I_Soldier_CQ_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_Soldier_SL_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_SL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_SL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
@@ -1571,14 +1571,14 @@ class Atlas_I_I_Soldier_SL_F: Atlas_I_I_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_TRG21_black_MRCO_pointer_F,
+		arifle_TRG21_black_ACOG_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_black_MRCO_pointer_F,
+		arifle_TRG21_black_ACOG_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Binocular
@@ -1611,7 +1611,7 @@ class Atlas_I_I_Soldier_SL_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_Soldier_TL_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_TL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_TL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
@@ -1634,14 +1634,14 @@ class Atlas_I_I_Soldier_TL_F: Atlas_I_I_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_TRG21_GL_black_MRCO_pointer_F,
+		arifle_TRG21_GL_black_ACOG_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG21_GL_black_MRCO_pointer_F,
+		arifle_TRG21_GL_black_ACOG_pointer_F,
 		hgun_ACPC2_F,
         DefaultManWeapons,
 		Binocular
@@ -1678,7 +1678,7 @@ class Atlas_I_I_Soldier_TL_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_Soldier_UAV_F: Atlas_I_I_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_UAV_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_UAV_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_B_SOLDIER_UAV_F0;
@@ -1702,13 +1702,13 @@ class Atlas_I_I_Soldier_UAV_F: Atlas_I_I_Soldier_Base_F
 	backpack = Atlas_I_I_UAV_01_backpack_F;
 	weapons[] =
     {
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_TRG20_black_ACO_pointer_F,
+		Atlas_arifle_TRG20_black_ICO_pointer_F,
 		hgun_ACPC2_F,
 		DefaultManWeapons
 	};
@@ -1733,28 +1733,35 @@ class Atlas_I_I_Soldier_UAV_F: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_soldier_UAV_06_F: Atlas_I_I_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_UAV_06_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = Atlas_I_I_UAV_06_backpack_F;
 };
 class Atlas_I_I_soldier_UAV_06_medical_F: Atlas_I_I_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_UAV_06_medical_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = Atlas_I_I_UAV_06_medical_backpack_F;
 };
 class Atlas_I_I_soldier_UGV_02_Demining_F: Atlas_I_I_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_soldier_UGV_02_Demining_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_UGV_02_Demining_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = Atlas_I_I_UGV_02_Demining_backpack_F;
+};
+class Atlas_I_I_soldier_UAV_02_lxWS_F: Atlas_I_I_Soldier_UAV_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_soldier_UAV_06_medical_F.jpg";
+	displayName = "UAV Operator (AP-5)";
+	backpack = Atlas_I_I_UAV_02_backpack_lxWS;
 };
 class Atlas_I_I_Soldier_CBRN_F: Atlas_I_I_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Soldier_CBRN_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Soldier_CBRN_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_C_B_W_Soldier_CBRN_F0;
@@ -1818,7 +1825,7 @@ class Atlas_I_I_Soldier_CBRN_F: Atlas_I_I_Soldier_F
 class Atlas_I_I_RadioOperator_F: Atlas_I_I_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_RadioOperator_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
 	linkedItems[] =
@@ -1838,13 +1845,13 @@ class Atlas_I_I_RadioOperator_F: Atlas_I_I_Soldier_F
 	backpack = B_RadioBag_01_sage_F;
 	weapons[] =
     {
-        arifle_TRG21_black_SRS_pointer_F,
+        Atlas_arifle_TRG21_black_ICO_pointer_F,
         hgun_ACPC2_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_TRG21_black_SRS_pointer_F,
+        Atlas_arifle_TRG21_black_ICO_pointer_F,
         hgun_ACPC2_F,
         DefaultManWeapons
     };
@@ -1893,7 +1900,7 @@ class Atlas_I_I_Soldier_diver_base: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_diver_F: Atlas_I_I_Soldier_diver_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_diver_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_diver_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_diver_F0;
@@ -1942,7 +1949,7 @@ class Atlas_I_I_diver_F: Atlas_I_I_Soldier_diver_base
 class Atlas_I_I_diver_exp_F: Atlas_I_I_Soldier_diver_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_diver_exp_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_diver_exp_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_diver_exp_F0;
@@ -1994,7 +2001,7 @@ class Atlas_I_I_diver_exp_F: Atlas_I_I_Soldier_diver_base
 class Atlas_I_I_diver_TL_F: Atlas_I_I_Soldier_diver_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_diver_TL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_diver_TL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_diver_TL_F0;
@@ -2060,6 +2067,7 @@ class Atlas_I_I_Soldier_recon_base: Atlas_I_I_Soldier_Base_F
     textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
     textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
     nameSound = veh_infantry_SF_s;
+	uniformClass = Atlas_U_I_I_SFUniform_olive;
 	identityTypes[] =
 	{
 		LanguageGRE_F,
@@ -2087,11 +2095,11 @@ class Atlas_I_I_Soldier_recon_base: Atlas_I_I_Soldier_Base_F
 class Atlas_I_I_recon_AR_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_AR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_recon_AR_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_C_O_R_recon_AR_F0;
-	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_SFUniform_tee_olive;
 	items[] =
 	{
 		FirstAidKit,
@@ -2104,29 +2112,29 @@ class Atlas_I_I_recon_AR_F: Atlas_I_I_Soldier_recon_base
 	};
 	linkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_headset_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_headset_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        LMG_Zafir_black_MRCO_pointer_snds_F,
+        Atlas_LMG_Negev_black_ACOG_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        LMG_Zafir_black_MRCO_pointer_snds_F,
+        Atlas_LMG_Negev_black_ACOG_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };
@@ -2154,39 +2162,39 @@ class Atlas_I_I_recon_AR_F: Atlas_I_I_Soldier_recon_base
 class Atlas_I_I_recon_exp_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_exp_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_recon_exp_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_exp_F0;
-	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_SFUniform_shortsleeve_olive;
 	backpack = B_Kitbag_blk_IIReconExp_F;
 	linkedItems[] =
 	{
-		V_TacVest_blk,
-		H_Watchcap_khk_hs,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetB_light_idfsf,
 		G_Shemag_tan,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_blk,
-		H_Watchcap_khk_hs,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetB_light_idfsf,
 		G_Shemag_tan,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_TRG20_black_SRS_pointer_snds_F,
+        Atlas_arifle_M4A1_ICO_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_TRG20_black_SRS_pointer_snds_F,
+        Atlas_arifle_M4A1_ICO_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };
@@ -2217,35 +2225,35 @@ class Atlas_I_I_recon_exp_F: Atlas_I_I_Soldier_recon_base
 class Atlas_I_I_recon_GL_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_GL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_recon_GL_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_C_O_R_recon_GL_F0;
 	linkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetSpecB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetSpecB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_TRG21_GL_black_MRCO_pointer_snds_F,
+        Atlas_arifle_M4A1_GL_ACOG_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_TRG21_GL_black_MRCO_pointer_snds_F,
+        Atlas_arifle_M4A1_GL_ACOG_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };
@@ -2275,38 +2283,38 @@ class Atlas_I_I_recon_GL_F: Atlas_I_I_Soldier_recon_base
 class Atlas_I_I_recon_JTAC_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_JTAC_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_recon_JTAC_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_JTAC_F0;
-	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_SFUniform_shortsleeve_olive;
 	backpack = B_RadioBag_01_black_F;
 	linkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_headset_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetSpecB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_headset_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetSpecB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_TRG20_black_SRS_pointer_snds_F,
+        Atlas_arifle_M4A1_ICO_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
-        arifle_TRG20_black_SRS_pointer_snds_F,
+        Atlas_arifle_M4A1_ICO_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
@@ -2349,7 +2357,7 @@ class Atlas_I_I_recon_M_F: Atlas_I_I_Soldier_recon_base
 	textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
 	nameSound = veh_infantry_sniper_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_M_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_recon_M_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_M_F0;
@@ -2365,39 +2373,39 @@ class Atlas_I_I_recon_M_F: Atlas_I_I_Soldier_recon_base
 	};
 	linkedItems[] =
 	{
-		V_TacVest_blk,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
 		H_Booniehat_mgrn_hs,
 		G_Bandanna_oli,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_blk,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
 		H_Booniehat_mgrn_hs,
 		G_Bandanna_oli,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_TRG21_black_SOS_pointer_snds_F,
+        Atlas_arifle_SR25_blk_SOS_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_TRG21_black_SOS_pointer_snds_F,
+        Atlas_arifle_SR25_blk_SOS_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     magazines[] =
     {
-        mag_8(30Rnd_556x45_Stanag),
+        mag_6(Aegis_20Rnd_762x51_Yellow_SMAG),
         mag_2(9Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -2405,7 +2413,7 @@ class Atlas_I_I_recon_M_F: Atlas_I_I_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_556x45_Stanag),
+        mag_6(Aegis_20Rnd_762x51_Yellow_SMAG),
         mag_2(9Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -2421,37 +2429,37 @@ class Atlas_I_I_recon_M_F: Atlas_I_I_Soldier_recon_base
 class Atlas_I_I_recon_medic_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_medic_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_recon_medic_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_medic_F0;
-	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_SFUniform_shortsleeve_olive;
 	backpack = B_AssaultPack_blk_IIReconMedic_F;
 	linkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_headset_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_headset_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_TRG20_black_SRS_pointer_snds_F,
+        Atlas_arifle_M4A1_ICO_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_TRG20_black_SRS_pointer_snds_F,
+        Atlas_arifle_M4A1_ICO_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };
@@ -2482,37 +2490,37 @@ class Atlas_I_I_recon_medic_F: Atlas_I_I_Soldier_recon_base
 class Atlas_I_I_recon_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_recon_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_recon_F0;
-	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_SFUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_headset_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetSpecB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_headset_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetSpecB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_TRG20_black_MRCO_pointer_snds_F,
+        Atlas_arifle_M4A1_ACOG_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        arifle_TRG20_black_MRCO_pointer_snds_F,
+        Atlas_arifle_M4A1_ACOG_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Binocular
@@ -2537,37 +2545,37 @@ class Atlas_I_I_recon_F: Atlas_I_I_Soldier_recon_base
 class Atlas_I_I_recon_LAT_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_LAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_recon_LAT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_LAT_F0;
 	backpack = B_AssaultPack_blk_IIReconLAT_F;
 	linkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_TRG20_black_SRS_pointer_snds_F,
+        Atlas_arifle_M4A1_ICO_pointer_snds_F,
 		launch_MRAWS_black_rail_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_TRG20_black_SRS_pointer_snds_F,
+        Atlas_arifle_M4A1_ICO_pointer_snds_F,
 		launch_MRAWS_black_rail_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons
@@ -2599,37 +2607,37 @@ class Atlas_I_I_recon_LAT_F: Atlas_I_I_Soldier_recon_base
 class Atlas_I_I_recon_TL_F: Atlas_I_I_Soldier_recon_base
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_recon_TL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_recon_TL_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_recon_TL_F0;
-	uniformClass = Atlas_U_I_I_CombatUniform_shortsleeve_olive;
+	uniformClass = Atlas_U_I_I_SFUniform_shortsleeve_olive;
 	linkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_headset_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetSpecB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_blk,
-		H_HelmetSpecter_black_headset_F,
+		Atlas_V_CarrierRigKBT_01_recon_idfsf_F,
+		H_HelmetSpecB_light_idfsf,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	weapons[] =
     {
-        arifle_TRG21_black_MRCO_pointer_snds_F,
+        Atlas_arifle_M4A1_ACOG_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_TRG21_black_MRCO_pointer_snds_F,
+        Atlas_arifle_M4A1_ACOG_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Rangefinder
@@ -2714,7 +2722,7 @@ class Atlas_I_I_spotter_F: Atlas_I_I_Soldier_sniper_base
 	textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
 	nameSound = veh_infantry_SF_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_spotter_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_spotter_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_spotter_F0;
@@ -2733,25 +2741,25 @@ class Atlas_I_I_spotter_F: Atlas_I_I_Soldier_sniper_base
 		V_TacChestrig_oli_F,
         ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_oli_F,
         ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
     weapons[] =
     {
-        arifle_TRG21_black_MRCO_pointer_snds_F,
+        Atlas_arifle_M4A1_ACOG_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
-        arifle_TRG21_black_MRCO_pointer_snds_F,
+        Atlas_arifle_M4A1_ACOG_pointer_snds_F,
         hgun_ACPC2_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
@@ -2799,7 +2807,7 @@ class Atlas_I_I_sniper_F: Atlas_I_I_Soldier_sniper_base
 	textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
 	nameSound = veh_infantry_sniper_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_sniper_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_sniper_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_sniper_F0;
@@ -2808,14 +2816,14 @@ class Atlas_I_I_sniper_F: Atlas_I_I_Soldier_sniper_base
 		V_TacChestrig_oli_F,
         ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacChestrig_oli_F,
         ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_OPFOR
+		NVGogglesB_grn_F
 	};
 	weapons[] =
 	{
@@ -2856,7 +2864,7 @@ class Atlas_I_I_sniper_F: Atlas_I_I_Soldier_sniper_base
 class Atlas_I_I_Survivor_F: Atlas_I_I_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Survivor_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Survivor_F.jpg";
     displayName = $STR_A3_CfgVehicles_b_survivor_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
@@ -2926,7 +2934,7 @@ class Atlas_I_I_Fighter_Pilot_F: Atlas_I_I_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Fighter_Pilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Fighter_Pilot_F.jpg";
 	identityTypes[] =
 	{
 		LanguageGRE_F,
@@ -2988,7 +2996,7 @@ class Atlas_I_I_Pilot_F: Atlas_I_I_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_I_Pilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Pilot_F.jpg";
 	identityTypes[] =
 	{
 		LanguageGRE_F,

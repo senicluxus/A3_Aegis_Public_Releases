@@ -91,7 +91,7 @@ class Atlas_O_W_Truck_03_transport_ghex_F: O_Truck_03_transport_F
 		verticalOffsetWorld = -0.159;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_03_transport_ghex_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_03_transport_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -102,12 +102,12 @@ class Atlas_O_W_Truck_03_transport_ghex_F: O_Truck_03_transport_F
         Atlas_O_W_Soldier_F,
         Atlas_O_W_Soldier_F
     };
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
     {
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cargo_ghex_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext01_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext02_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_cargo_whex_CO.paa"
     };
 };
 class Atlas_O_W_Truck_03_covered_ghex_F: O_Truck_03_covered_F
@@ -203,7 +203,7 @@ class Atlas_O_W_Truck_03_covered_ghex_F: O_Truck_03_covered_F
 		verticalOffsetWorld = -0.131;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_03_covered_ghex_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_03_covered_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -214,13 +214,13 @@ class Atlas_O_W_Truck_03_covered_ghex_F: O_Truck_03_covered_F
         Atlas_O_W_Soldier_F,
         Atlas_O_W_Soldier_F
     };
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
     {
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cargo_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cover_ghex_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext01_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext02_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_cargo_whex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_cover_whex_CO.paa"
     };
 };
 class Atlas_O_W_Truck_03_repair_ghex_F: O_Truck_03_repair_F
@@ -316,7 +316,7 @@ class Atlas_O_W_Truck_03_repair_ghex_F: O_Truck_03_repair_F
 		verticalOffsetWorld = -0.141;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_03_repair_ghex_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_03_repair_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -327,12 +327,12 @@ class Atlas_O_W_Truck_03_repair_ghex_F: O_Truck_03_repair_F
         Atlas_O_W_Soldier_F,
         Atlas_O_W_Soldier_F
     };
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
     {
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ammo_ghex_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext01_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext02_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ammo_whex_CO.paa"
     };
 };
 class Atlas_O_W_Truck_03_ammo_ghex_F: O_Truck_03_ammo_F
@@ -428,7 +428,7 @@ class Atlas_O_W_Truck_03_ammo_ghex_F: O_Truck_03_ammo_F
 		verticalOffsetWorld = -0.178;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_03_ammo_ghex_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_03_ammo_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -439,12 +439,12 @@ class Atlas_O_W_Truck_03_ammo_ghex_F: O_Truck_03_ammo_F
         Atlas_O_W_Soldier_F,
         Atlas_O_W_Soldier_F
     };
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
     {
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cargo_ghex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext01_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext02_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_cargo_whex_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_03\Data\Containers_02_set_ghex_CO.paa"
     };
 };
@@ -541,7 +541,7 @@ class Atlas_O_W_Truck_03_fuel_ghex_F: O_Truck_03_fuel_F
 		verticalOffsetWorld = -0.199;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_03_fuel_ghex_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_03_fuel_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -552,12 +552,12 @@ class Atlas_O_W_Truck_03_fuel_ghex_F: O_Truck_03_fuel_F
         Atlas_O_W_Soldier_F,
         Atlas_O_W_Soldier_F
     };
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
     {
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_fuel_ghex_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext01_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext02_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_Fuel_whex_CO.paa"
     };
 };
 class Atlas_O_W_Truck_03_medical_ghex_F: O_Truck_03_medical_F
@@ -653,7 +653,7 @@ class Atlas_O_W_Truck_03_medical_ghex_F: O_Truck_03_medical_F
 		verticalOffsetWorld = -0.131;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_03_medical_ghex_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Truck_03_medical_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -664,12 +664,12 @@ class Atlas_O_W_Truck_03_medical_ghex_F: O_Truck_03_medical_F
         Atlas_O_W_Soldier_F,
         Atlas_O_W_Soldier_F
     };
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
     {
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext01_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_ext02_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cargo_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Truck_03\Data\Truck_03_cover_ghex_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext01_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_ext02_whex_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_cargo_whex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_03\Data\Truck_03_cover_whex_CO.paa"
     };
 };

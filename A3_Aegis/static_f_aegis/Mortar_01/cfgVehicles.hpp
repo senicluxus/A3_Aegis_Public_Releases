@@ -59,6 +59,7 @@ class CfgVehicles
     #include "cfgBLUFOR.hpp"    // US & BAF
     #include "cfgOPFOR.hpp"     // IAF, China & Argana
     #include "cfgRUS.hpp"       // Russia
+	#include "cfgEAF.hpp"		// LDF Blufor
 	class I_E_Mortar_01_support_F: I_Mortar_01_support_F
 	{
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_eaf_CO.paa"};

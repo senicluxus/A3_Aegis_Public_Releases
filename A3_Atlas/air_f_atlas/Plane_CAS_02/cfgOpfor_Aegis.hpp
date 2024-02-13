@@ -166,7 +166,7 @@ class Atlas_O_W_Plane_CAS_02_dynamicLoadout_ghex_F: O_Plane_CAS_02_dynamicLoadou
 		verticalOffsetWorld = -0.108;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Plane_CAS_02_dynamicLoadout_ghex_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Plane_CAS_02_dynamicLoadout_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -176,12 +176,12 @@ class Atlas_O_W_Plane_CAS_02_dynamicLoadout_ghex_F: O_Plane_CAS_02_dynamicLoadou
 	textureList[] =
 	{
 		Grey,0,
-		GreenHex,1
+		WoodlandHex,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext01_ghex_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext02_ghex_CO.paa"
+		"\A3_Atlas\Air_F_Atlas\Plane_CAS_02\Data\Fighter02_ext01_WHEX_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\Plane_CAS_02\Data\Fighter02_ext02_WHEX_CO.paa"
 	};
     class EjectionSystem: EjectionSystem
 	{

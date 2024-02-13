@@ -650,9 +650,9 @@ class B_W_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
 	};
 };
 
-/* US Marines */
+/* US (Desert) */
 class B_AFV_Wheeled_01_cannon_F;
-class B_marines_AFV_Wheeled_01_cannon_F: B_AFV_Wheeled_01_cannon_F
+class B_D_AFV_Wheeled_01_cannon_F: B_AFV_Wheeled_01_cannon_F
 {
 	faction = BLU_NATO_lxWS;
 	crew = B_D_crew_lxWS;
@@ -682,7 +682,7 @@ class B_marines_AFV_Wheeled_01_cannon_F: B_AFV_Wheeled_01_cannon_F
 	};
 };
 class B_AFV_Wheeled_01_up_cannon_F;
-class B_marines_AFV_Wheeled_01_up_cannon_F: B_AFV_Wheeled_01_up_cannon_F
+class B_D_AFV_Wheeled_01_up_cannon_F: B_AFV_Wheeled_01_up_cannon_F
 {
 	faction = BLU_NATO_lxWS;
 	crew = B_D_crew_lxWS;

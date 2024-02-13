@@ -9,6 +9,7 @@ class CfgPatches
         {
             // Germany
             Atlas_B_G_SAM_System_03_F,
+            Atlas_B_G_SAM_System_03_ard_F,
 
             // ADF
             Atlas_B_A_SAM_System_03_F,

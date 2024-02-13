@@ -18,7 +18,7 @@ class CfgWeapons
     {
         author = "Grave";
         displayName = $STR_A3_A_CfgWeapons_launch_RPG7M_F0;
-        //picture = "\A3_Aegis\Weapons_F_Aegis\Launchers\RPG7\Data\UI\icon_launch_RPG7M_F_ca.paa";
+        picture = "\A3_Aegis\Weapons_F_Aegis\Launchers\RPG7\Data\UI\icon_launch_RPG7M_F_ca.paa";
         hiddenSelectionsTextures[]=
 		{
 			"\A3_Aegis\weapons_f_Aegis\Launchers\RPG7\Data\rpg7_black_co.paa"

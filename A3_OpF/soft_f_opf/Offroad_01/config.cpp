@@ -116,6 +116,22 @@ class CfgVehicles
 				};
 				faction[] = {IND_T_F};
 			};
+			class Sep_01
+			{
+				displayName = "Separatist";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_sep_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_sep_CO.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {};
+			};
 		};
 	};
 	class Offroad_01_military_base_F: Offroad_01_base_F
@@ -219,6 +235,22 @@ class CfgVehicles
 				};
 				faction[] = {IND_T_F};
 			};
+			class Sep_01
+			{
+				displayName = "Separatist";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_sep_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_sep_CO.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {};
+			};
 		};
 	};
 	class I_G_Offroad_01_F;
@@ -249,12 +281,413 @@ class CfgVehicles
     // Arma 3 Enoch
 	class Offroad_01_military_covered_base_F: Offroad_01_military_base_F{};
 	class Offroad_01_military_comms_base_F: Offroad_01_military_covered_base_F{};
+	// Arma 3 - West Sahara
+	class Offroad_01_base_lxWS;
+	class Offroad_01_armed_lxWS: I_G_Offroad_01_armed_F{};
+	class Offroad_01_AT_lxWS: I_G_Offroad_01_AT_F{};
+	class Offroad_01_armor_base_lxWS: Offroad_01_base_lxWS
+	{
+		class TextureSources
+        {
+			class Insurgent_01
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_010;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS01_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS01_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_02
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_020;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS02_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS02_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_03
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_030;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS03_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS03_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_04
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_040;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS04_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS04_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_05
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_050;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS05_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS05_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_06
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_060;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS06_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS06_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Sep_01
+			{
+				displayName = "Separatist";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_sep_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_sep_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {};
+			};
+		};	
+	};
+	class Offroad_01_armor_armed_lxWS: Offroad_01_armed_lxWS
+	{
+		class TextureSources
+        {
+			class Insurgent_01
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_010;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS01_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS01_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_02
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_020;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS02_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS02_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_03
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_030;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS03_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS03_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_04
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_040;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS04_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS04_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_05
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_050;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS05_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS05_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_06
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_060;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS06_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS06_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Sep_01
+			{
+				displayName = "Separatist";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_sep_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_sep_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {};
+			};
+		};	
+	};
+	class Offroad_01_armor_AT_lxWS: Offroad_01_AT_lxWS
+	{
+		class TextureSources
+        {
+			class Insurgent_01
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_010;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS01_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS01_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_02
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_020;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS02_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS02_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_03
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_030;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS03_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS03_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_04
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_040;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS04_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS04_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_05
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_050;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS05_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS05_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Insurgent_06
+			{
+				displayName = $STR_A3_O_TEXTURESOURCES_INSURGENT_060;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS06_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_INS06_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {IND_T_F};
+			};
+			class Sep_01
+			{
+				displayName = "Separatist";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_sep_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Offroad_01\Data\Offroad_01_ext_sep_CO.paa",
+					"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_adds_black_co.paa",
+         			"\lxws\vehicles_f_lxws\Offroad_01\data\offroad_01_armor_rust_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {};
+			};
+		};	
+	};
+	class B_G_Offroad_01_repair_F;
+	class I_E_Offroad_01_covered_F;
 	// Arma 3 Opposing Forces
-    /*
     #include "cfgPara.hpp"
-	*/
 	#include "cfgChKDZ.hpp"
 	#include "cfgTKM.hpp"
+	#include "cfgPartisans.hpp"
     /*
     #include "cfgMilitia.hpp"
     */

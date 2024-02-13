@@ -5,7 +5,8 @@ class B_Carryall_green_BLAmmo_F: B_Carryall_green_F
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
+		mag_xx(30Rnd_65x39_caseless_msbs_mag,6);
+		mag_xx(20Rnd_762x51_mag,2);
 		mag_xx(200Rnd_556x45_Box_Red_F,1);
 		mag_xx(NLAW_F,1);
 		mag_xx(HandGrenade,2);

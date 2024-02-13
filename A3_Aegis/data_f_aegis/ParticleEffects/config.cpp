@@ -223,3 +223,110 @@ class ExploAmmoExplosionPlaneCAS
     EXPLOSION_REFRACT(ExplosionRefractSmall)
 };
 */
+/* Hand Flare Effects*/
+class Aegis_HandFlare_Effect_Red
+{
+	//Lights
+	class Aegis_HandFlare_Light_Red
+	{
+		simulation="light";
+		type="Aegis_HandFlare_Light_Red";
+		lifeTime=590; //Flare light cuts out ten seconds before end of model
+	};
+	class Aegis_HandFlare_Light_Sparks
+	{
+		simulation="light";
+		type="Aegis_HandFlare_Light_Sparks";
+		position[]={0,0,0};
+		intensity=0.0080000004;
+		interval=1;
+		lifeTime=560; //Spark Light cuts out as sparks do
+	};
+	//Particles
+	class Aegis_HandFlare_Effect_Smoke_Red
+	{
+		simulation="particles";
+		type="Aegis_HandFlare_Effect_Smoke_Red";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=600; //smoke cuts out at same time as model does
+	};
+	class Aegis_HandFlare_Effect_Smoke_Red_UW
+	{
+		simulation="particles";
+		type="Aegis_HandFlare_Effect_Smoke_Red_UW";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=590; //UW bubbles cut out at same time as flame does
+	};
+	class Aegis_HandFlare_Effect_Sparks
+	{
+		simulation="particles";
+		type="Aegis_HandFlare_Effect_Sparks";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=560; //sparks cut out fourty seconds before end of model
+	};
+	class Aegis_HandFlare_Effect_Flame
+	{
+		simulation="particles";
+		type="Aegis_HandFlare_Effect_Flame";
+		lifeTime=590; //flame cuts out ten seconds before end of model
+	};
+};
+class Aegis_HandFlare_Effect_Green
+{
+	//Lights
+	class Aegis_HandFlare_Light_Green
+	{
+		simulation="light";
+		type="Aegis_HandFlare_Light_Green";
+		lifeTime=590;
+	};
+	class Aegis_HandFlare_Light_Sparks
+	{
+		simulation="light";
+		type="Aegis_HandFlare_Light_Sparks";
+		position[]={0,0,0};
+		intensity=0.0080000004;
+		interval=1;
+		lifeTime=560;
+	};
+	//Particles
+	class Aegis_HandFlare_Effect_Smoke_Green
+	{
+		simulation="particles";
+		type="Aegis_HandFlare_Effect_Smoke_Green";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=600;
+	};
+	class Aegis_HandFlare_Effect_Smoke_Green_UW
+	{
+		simulation="particles";
+		type="Aegis_HandFlare_Effect_Smoke_Green_UW";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=590;
+	};
+	class Aegis_HandFlare_Effect_Sparks
+	{
+		simulation="particles";
+		type="Aegis_HandFlare_Effect_Sparks";
+		position[]={0,0,0};
+		intensity=1;
+		interval=1;
+		lifeTime=560;
+	};
+	class Aegis_HandFlare_Effect_Flame
+	{
+		simulation="particles";
+		type="Aegis_HandFlare_Effect_Flame";
+		lifeTime=590;
+	};
+};

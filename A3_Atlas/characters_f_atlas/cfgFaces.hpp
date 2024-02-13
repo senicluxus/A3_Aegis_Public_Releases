@@ -8,7 +8,7 @@ class CfgFaces
         class WhiteHead_01;
 		class WhiteHead_05: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro,
@@ -17,7 +17,7 @@ class CfgFaces
 		};
 		class WhiteHead_11: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro,
@@ -26,7 +26,7 @@ class CfgFaces
 		};
 		class WhiteHead_16: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro,
@@ -35,7 +35,7 @@ class CfgFaces
 		};
 		class WhiteHead_18: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro,
@@ -45,7 +45,7 @@ class CfgFaces
 		class GreekHead_A3_01;
 		class GreekHead_A3_09: Default
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Greek,
 				Head_NATO,
@@ -55,7 +55,7 @@ class CfgFaces
 		class Kerry;
 		class Kerry_C_F: Kerry
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro,
@@ -65,7 +65,7 @@ class CfgFaces
         // Arma 3 Laws of War
 		class GreekHead_A3_12: GreekHead_A3_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Orange_Civilian,
 				Head_Greek,
@@ -74,7 +74,7 @@ class CfgFaces
 		};
 		class GreekHead_A3_14: GreekHead_A3_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Orange_AAF,
 				Head_Greek,
@@ -84,7 +84,7 @@ class CfgFaces
         // Arma 3 Tacops
 		class Mavros: GreekHead_A3_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Greek,
 				Head_IDF
@@ -93,7 +93,7 @@ class CfgFaces
         // Arma 3 Enoch
 		class LivonianHead_7: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO,
@@ -102,7 +102,7 @@ class CfgFaces
 		};
 		class LivonianHead_8: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO,
@@ -111,7 +111,7 @@ class CfgFaces
 		};
 		class LivonianHead_9: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO,
@@ -120,7 +120,7 @@ class CfgFaces
 		};
 		class LivonianHead_10: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_Enoch,
 				Head_NATO,
@@ -130,7 +130,7 @@ class CfgFaces
         // Arma 3 Aegis
 		class WhiteHead_33: WhiteHead_01
 		{
-			identityTypes[] =
+			identityTypes[] +=
 			{
 				Head_NATO,
 				Head_Euro,

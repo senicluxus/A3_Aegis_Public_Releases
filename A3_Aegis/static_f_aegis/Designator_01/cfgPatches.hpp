@@ -15,6 +15,7 @@ class CfgPatches
             /* From "cfgBLUFOR.hpp" */
             B_T_Static_Designator_01_F,
             B_T_Static_Designator_01_Weapon_F,
+            Aegis_B_D_Static_Designator_01_F,
             B_A_Static_Designator_01_F,
             B_A_Static_Designator_01_tna_F,
             B_A_Static_Designator_01_wdl_F,
@@ -25,7 +26,9 @@ class CfgPatches
 
             /* From "cfgEAF.hpp" */
             I_E_Static_Designator_01_F,
-            I_E_Static_Designator_01_weapon_F
+            I_E_Static_Designator_01_weapon_F,
+            Aegis_B_E_Static_Designator_01_F,
+            Aegis_B_E_Static_Designator_01_weapon_F
         };
 		weapons[] = {/* Automated */};
 	};

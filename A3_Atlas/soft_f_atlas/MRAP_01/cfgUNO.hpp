@@ -114,12 +114,12 @@ class Atlas_I_UNO_MRAP_01_F: MRAP_01_base_F
 	class Turrets{};
     class TransportWeapons
     {
-        weap_xx(arifle_G36_F,2);
+        weap_xx(Aegis_arifle_M4A1_sand_F,2);
     };
     class TransportMagazines
     {
-        mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
-        mag_xx(200Rnd_65x39_cased_box_red,2);
+        mag_xx(30Rnd_556x45_stanag_sand_red,8);
+        mag_xx(200Rnd_556x45_Box_Red_F,2);
         mag_xx(HandGrenade,4);
         mag_xx(MiniGrenade,4);
         mag_xx(1Rnd_HE_Grenade_shell,4);
@@ -245,12 +245,12 @@ class Atlas_I_UNO_MRAP_01_gmg_F: MRAP_01_gmg_base_F
     };
     class TransportWeapons
     {
-        weap_xx(arifle_G36_F,2);
+        weap_xx(Aegis_arifle_M4A1_sand_F,2);
     };
     class TransportMagazines
     {
-        mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
-        mag_xx(200Rnd_65x39_cased_box_red,2);
+        mag_xx(30Rnd_556x45_stanag_sand_red,8);
+        mag_xx(200Rnd_556x45_Box_Red_F,2);
         mag_xx(HandGrenade,4);
         mag_xx(MiniGrenade,4);
         mag_xx(1Rnd_HE_Grenade_shell,4);
@@ -383,12 +383,12 @@ class Atlas_I_UNO_MRAP_01_hmg_F: MRAP_01_hmg_base_F
 	};
     class TransportWeapons
     {
-        weap_xx(arifle_G36_F,2);
+        weap_xx(Aegis_arifle_M4A1_sand_F,2);
     };
     class TransportMagazines
     {
-        mag_xx(30Rnd_65x39_caseless_msbs_mag,8);
-        mag_xx(200Rnd_65x39_cased_box_red,2);
+        mag_xx(30Rnd_556x45_stanag_sand_red,8);
+        mag_xx(200Rnd_556x45_Box_Red_F,2);
         mag_xx(HandGrenade,4);
         mag_xx(MiniGrenade,4);
         mag_xx(1Rnd_HE_Grenade_shell,4);

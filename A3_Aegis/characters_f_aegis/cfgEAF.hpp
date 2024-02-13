@@ -1176,6 +1176,7 @@ class I_E_Soldier_MP_F: I_E_Soldier_F
 class I_E_Crew_F: I_E_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_Crew_F.jpg";
+	uniformClass = U_I_E_Uniform_01_coveralls_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_EAF_F,
@@ -1340,6 +1341,12 @@ class I_E_soldier_UAV_06_medical_F: I_E_Soldier_UAV_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UAV_06_medical_F.jpg";
 };
+class I_E_soldier_UAV_02_lxWS_F: I_E_Soldier_UAV_F
+{
+	displayName = "UAV Operator (AP-5)";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UAV_06_medical_F.jpg";
+	backpack = Aegis_I_E_UAV_02_backpack_lxWS;
+};
 class I_E_soldier_UGV_02_Science_F: I_E_Soldier_UAV_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UGV_02_Science_F.jpg";
@@ -1362,14 +1369,14 @@ class I_E_Soldier_CQ_F: I_E_Soldier_base_F
 	uniformClass = U_I_E_Uniform_01_shortsleeve_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_cqb_EAF_F,
 		H_HelmetHBK_ear_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_cqb_EAF_F,
 		H_HelmetHBK_ear_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1521,14 +1528,14 @@ class I_E_recon_AR_F: I_E_Soldier_recon_base
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -1582,14 +1589,14 @@ class I_E_recon_exp_F: I_E_Soldier_recon_base
 	backpack = B_Carryall_eaf_exp_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_Booniehat_eaf_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_Booniehat_eaf_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -1640,14 +1647,14 @@ class I_E_recon_GL_F: I_E_Soldier_recon_base
 	uniformClass = U_I_E_Uniform_01_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -1698,14 +1705,14 @@ class I_E_recon_JTAC_F: I_E_Soldier_recon_base
 	backpack = B_RadioBag_01_eaf_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_Watchcap_camo_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_Watchcap_camo_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -1844,14 +1851,14 @@ class I_E_recon_medic_F: I_E_Soldier_recon_base
 	backpack = B_AssaultPack_eaf_IEReconMedic_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -1907,14 +1914,14 @@ class I_E_recon_F: I_E_Soldier_recon_base
 	uniformClass = U_I_E_Uniform_01_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -1961,14 +1968,14 @@ class I_E_recon_LAT_F: I_E_Soldier_recon_base
 	backpack = B_AssaultPack_eaf_IELAT2_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -2021,14 +2028,14 @@ class I_E_recon_TL_F: I_E_Soldier_recon_base
 	uniformClass = U_I_E_Uniform_01_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_chops_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_chops_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -3588,6 +3595,42 @@ class I_E_soldier_UAV_06_medical_ard_F: I_E_soldier_UAV_06_medical_F
 		DefaultManWeapons
 	};
 };
+class I_E_soldier_UAV_02_lxWS_ard_F: I_E_soldier_UAV_02_lxWS_F
+{
+    author = $STR_A3_A_Ravenholme;
+	displayName = "UAV Operator (AP-5)";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_E_soldier_UAV_06_medical_ard_F.jpg";
+    faction = IND_E_ard_F;
+    uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_EAF_F,
+		H_HelmetHBK_arid_F,
+        I_UAVTerminal,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_EAF_F,
+		H_HelmetHBK_arid_F,
+        I_UAVTerminal,
+		DefaultManLinkedItems,
+		NVGoggles_INDEP
+	};
+    weapons[] =
+	{
+		arifle_MSBS65_sand_ico_pointer_F,
+		hgun_Pistol_heavy_01_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_MSBS65_sand_ico_pointer_F,
+		hgun_Pistol_heavy_01_F,
+		DefaultManWeapons
+	};
+};
 class I_E_soldier_UGV_02_Science_ard_F: I_E_soldier_UGV_02_Science_F
 {
     author = $STR_A3_A_Ravenholme;
@@ -3699,14 +3742,14 @@ class I_E_Soldier_CQ_ard_F: I_E_Soldier_CQ_F
     uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_cqb_EAF_F,
 		H_HelmetHBK_arid_ear_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_cqb_EAF_F,
 		H_HelmetHBK_arid_ear_F,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -3767,14 +3810,14 @@ class I_E_recon_AR_ard_F: I_E_recon_AR_F
 	uniformClass = U_I_E_Uniform_01_arid_tanktop_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -3800,14 +3843,14 @@ class I_E_recon_exp_ard_F: I_E_recon_exp_F
 	uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_Booniehat_eaf_arid_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_Booniehat_eaf_arid_hs,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -3833,14 +3876,14 @@ class I_E_recon_GL_ard_F: I_E_recon_GL_F
 	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -3867,14 +3910,14 @@ class I_E_recon_JTAC_ard_F: I_E_recon_JTAC_F
 	uniformClass = U_I_E_Uniform_01_arid_shortsleeve_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_Watchcap_khk,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_Watchcap_khk,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -3938,14 +3981,14 @@ class I_E_recon_medic_ard_F: I_E_recon_medic_F
 	uniformClass = U_I_E_Uniform_01_arid_tanktop_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -3971,14 +4014,14 @@ class I_E_recon_ard_F: I_E_recon_F
 	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_headset_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -4006,14 +4049,14 @@ class I_E_recon_LAT_ard_F: I_E_recon_LAT_F
 	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_ear_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
@@ -4041,14 +4084,14 @@ class I_E_recon_TL_ard_F: I_E_recon_TL_F
 	uniformClass = U_I_E_Uniform_01_arid_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_chops_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_EAF_F,
+		Aegis_V_CarrierRigKBT_01_recon_EAF_F,
 		H_HelmetHBK_arid_chops_F,
         DefaultManLeaderLinkedItems,
 		NVGogglesB_grn_F

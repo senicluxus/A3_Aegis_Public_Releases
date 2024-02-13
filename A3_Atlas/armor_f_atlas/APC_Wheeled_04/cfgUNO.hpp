@@ -1,7 +1,8 @@
+// Sahrani UNO
 class Atlas_I_UNO_APC_Wheeled_04_cannon_F: O_R_APC_Wheeled_04_cannon_F
 {
     author = $STR_A3_A_AveryTheKitty_and_Lakarak;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_APC_Wheeled_04_cannon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_APC_Wheeled_04_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
     forceInGarage = false;
@@ -21,12 +22,12 @@ class Atlas_I_UNO_APC_Wheeled_04_cannon_F: O_R_APC_Wheeled_04_cannon_F
     /* Inventory */
     class TransportWeapons
     {
-         weap_xx(arifle_G36_F,2);
+         weap_xx(Aegis_arifle_M4A1_sand_F,2);
     };
     class TransportMagazines
     {
-        mag_xx(30Rnd_65x39_caseless_msbs_mag,10);
-        mag_xx(200Rnd_65x39_cased_box_red,6);
+        mag_xx(30Rnd_556x45_stanag_sand_red,10);
+        mag_xx(200Rnd_556x45_Box_Red_F,6);
         mag_xx(HandGrenade,6);
         mag_xx(MiniGrenade,6);
         mag_xx(1Rnd_HE_Grenade_shell,6);
@@ -51,6 +52,7 @@ class Atlas_I_UNO_APC_Wheeled_04_cannon_F: O_R_APC_Wheeled_04_cannon_F
         bag_xx(B_FieldPack_cbr,2);
     };
 };
+// Chernarussian UNO
 class Atlas_I_UNO_wdl_APC_Wheeled_04_cannon_F: Atlas_I_UNO_APC_Wheeled_04_cannon_F
 {
 	faction = Atlas_IND_UNO_wdl_F;

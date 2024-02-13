@@ -28,7 +28,10 @@ class CfgPatches
             /* From "cfgRUS.hpp" */
             O_R_AA_01_weapon_F,
             O_R_Static_AA_ard_F,
-            O_R_Static_AA_F
+            O_R_Static_AA_F,
+            
+            /* From "cfgEAF.hpp" */
+            Aegis_B_E_Static_AA_F
         };
 		weapons[] = {/* Automated */};
 	};

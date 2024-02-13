@@ -16,4 +16,5 @@ class CfgVehicles
 	*/
     #include "cfgChKDZ.hpp"
 	#include "cfgTKM.hpp"
+    #include "cfgPartisans.hpp"
 };

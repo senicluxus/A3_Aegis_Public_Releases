@@ -18,12 +18,13 @@ class CfgVehicles
     class B_pilot_F;
     class B_Diver_F;
     class B_CBRN_Man_Oversuit_01_MTP_F;
+    class B_soldier_PG_F;
     #include "cfgCivil.hpp"     // Civilians
     class B_Soldier_base_F: SoldierWB
     {
         class EventHandlers;
     };
-    #include "cfgADF.hpp"       //Australia
+    #include "cfgADF.hpp"       // Australia
     #include "cfgViper.hpp"     // Viper
     #include "cfgLegion.hpp"    // Legionnaires
 	#include "cfgGER.hpp"		// Bundeswehr
@@ -32,7 +33,9 @@ class CfgVehicles
     #include "cfgIDF.hpp"       // IDF
     #include "cfgUNO.hpp"       // UNO
     #include "cfgVenezuela.hpp" // Venezuela
-    #include "cfgMarar.hpp"		//Marar
+    #include "cfgMarar.hpp"		// Marar
+    #include "cfgEAF.hpp"       // LDF Reservists
+    #include "cfgJSOC.hpp"      // US JSOC
 
     /* Uniforms */
     #include "cfgUniforms.hpp"

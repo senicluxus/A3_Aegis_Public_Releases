@@ -9,6 +9,7 @@ class CfgPatches
         {
             // Germany
             Atlas_B_G_Static_Designator_01_F,
+            Atlas_B_G_Static_Designator_01_ard_F,
 
             // ADF
             Atlas_B_A_Static_Designator_01_F,

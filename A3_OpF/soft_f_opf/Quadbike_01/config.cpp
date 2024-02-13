@@ -11,6 +11,7 @@ class CfgVehicles
 	#include "cfgPara.hpp"
 	*/
 	#include "cfgChKDZ.hpp"
+	#include "cfgPartisans.hpp"
     /*
 	#include "cfgMilitia.hpp"
     */

@@ -134,10 +134,11 @@ class O_R_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 	typicalCargo[] = {O_R_helipilot_F};
 	textureList[] =
 	{
-		Black,1,
-		Blackcustom,0
+		Russian,1,
+		Russian2,0,
+        Black,0
 	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Light_02\Data\Heli_Light_02_ext_RUS2_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Light_02\Data\Heli_Light_02_ext_RUS_CO.paa"};
 
     /* Inventory */
 	class TransportMagazines
@@ -361,10 +362,11 @@ class O_R_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 	typicalCargo[] = {O_R_helipilot_F};
 	textureList[] =
 	{
-		Black,1,
-		Blackcustom,0
+		Russian,1,
+		Russian2,0,
+        Black,0
 	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Light_02\Data\Heli_Light_02_ext_RUS2_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Light_02\Data\Heli_Light_02_ext_RUS_CO.paa"};
 
     /* Inventory */
 	class TransportMagazines

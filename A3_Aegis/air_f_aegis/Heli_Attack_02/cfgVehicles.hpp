@@ -31,6 +31,28 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class Green
+			{
+				displayName = $STR_A3_TextureSources_Green0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body1_grn_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body2_grn_CO.paa"
+				};
+				factions[] = {};
+			};
+			class Blue
+			{
+				displayName = $STR_A3_TextureSources_Blue0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body1_blu_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body2_blu_CO.paa"
+				};
+				factions[] = {};
+			};
 			class Russian
 			{
 				displayName = $STR_A3_TEXTURESOURCES_RUSSIANSTAR0;
@@ -52,6 +74,26 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body2_RUS_CO.paa"
 				};
 				faction[] = {};
+			};
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				factions[] = {};
+				textures[] =
+				{
+					"lxWS\air_f_lxWS\Data\Heli_Attack_02\kajman_sand1_co.paa",
+					"lxWS\air_f_lxWS\Data\Heli_Attack_02\kajman_sand2_co.paa"
+				};
+			};
+			class SFIA
+			{
+				displayName = $STR_LXWS_FACTION_SFIA;
+				factions[] = {};
+				textures[] =
+				{
+					"lxWS\air_f_lxWS\Data\Heli_Attack_02\kajman_africa1_co.paa",
+					"lxWS\air_f_lxWS\Data\Heli_Attack_02\kajman_africa2_co.paa"
+				};
 			};
 		};
 	};

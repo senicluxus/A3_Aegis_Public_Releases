@@ -188,8 +188,7 @@ class O_R_MBT_04_cannon_F: MBT_04_cannon_base_F
 	typicalCargo[] = {O_R_Soldier_F};
 	textureList[] =
     {
-        Green,1,
-        Rus,0
+        Green,1
     };
 	hiddenSelectionsTextures[] =
 	{
@@ -411,8 +410,7 @@ class O_R_MBT_04_command_F: MBT_04_command_base_F
 	typicalCargo[] = {O_R_Soldier_F};
 	textureList[] =
     {
-        Green,1,
-        Rus,0
+        Green,1
     };
 	hiddenSelectionsTextures[] =
 	{

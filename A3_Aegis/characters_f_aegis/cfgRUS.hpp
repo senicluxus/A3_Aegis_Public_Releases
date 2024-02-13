@@ -157,26 +157,26 @@ class O_R_Soldier_AR_F: O_R_Soldier_Base_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_AR_F.jpg";
     weapons[] =
     {
-        arifle_RPK12_arco_pointer_F,
+        Aegis_arifle_RPK12_545_arco_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_RPK12_arco_pointer_F,
+        Aegis_arifle_RPK12_545_arco_pointer_F,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_8(75Rnd_762x39_AK12_Mag_F),
+        mag_8(Aegis_60Rnd_545x39_Mag_Green_F),
         mag_2(17Rnd_9x21_Mag),
         HandGrenade_East,
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_8(75Rnd_762x39_AK12_Mag_F),
+        mag_8(Aegis_60Rnd_545x39_Mag_Green_F),
         mag_2(17Rnd_9x21_Mag),
         HandGrenade_East,
         mag_2(SmokeShell)
@@ -420,14 +420,16 @@ class O_R_recon_TL_F: O_R_Soldier_recon_base
 	weapons[] =
     {
         arifle_AK12_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Rangefinder
     };
     respawnWeapons[] =
     {
         arifle_AK12_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Rangefinder
     };
@@ -480,13 +482,15 @@ class O_R_recon_exp_F: O_R_Soldier_recon_base
 	weapons[] =
     {
         arifle_AK12U_lush_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AK12U_lush_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -528,13 +532,15 @@ class O_R_recon_AR_F: O_R_Soldier_recon_base
 	weapons[] =
     {
         arifle_RPK12_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_RPK12_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -621,13 +627,15 @@ class O_R_recon_medic_F: O_R_Soldier_recon_base
 	weapons[] =
     {
         arifle_AK12U_lush_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AK12U_lush_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -676,13 +684,15 @@ class O_R_recon_GL_F: O_R_Soldier_recon_base
 	weapons[] =
     {
         arifle_AK12_GL_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AK12_GL_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -728,14 +738,16 @@ class O_R_recon_LAT_F: O_R_Soldier_recon_base
     {
         arifle_AK12U_lush_holo_snds_pointer_F,
 		launch_RPG32_green_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AK12U_lush_holo_snds_pointer_F,
 		launch_RPG32_green_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -784,14 +796,16 @@ class O_R_recon_JTAC_F: O_R_Soldier_recon_base
 	weapons[] =
     {
         arifle_AK12U_lush_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Laserdesignator_03
     };
     respawnWeapons[] =
     {
         arifle_AK12U_lush_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Laserdesignator_03
     };
@@ -1796,7 +1810,8 @@ class O_R_officer_F: O_R_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
-	uniformClass = U_O_R_OfficerUniform_taiga_F;
+	//uniformClass = Aegis_U_O_Luchnik_officer_taiga_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_rutaiga_F;
 	linkedItems[] =
 	{
 		V_Rangemaster_belt_taiga_F,
@@ -2368,6 +2383,71 @@ class O_R_soldier_UGV_02_Demining_F: O_R_Soldier_UAV_F
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = O_R_UGV_02_Demining_backpack_F;
 };
+class O_R_soldier_UAV_02_lxWS_F: O_R_soldier_UAV_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UAV_02_LxWS_F.jpg";
+	displayName = "UAV Operator (AP-5)";
+	backpack = Aegis_O_R_UAV_02_backpack_lxWS;
+};
+class O_R_Soldier_PG_F: O_Soldier_PG_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_PG_F.jpg";
+	faction = OPF_R_F;
+	genericNames = RussianMen;
+	uniformClass = U_O_R_CombatUniform_taiga_F;
+	backpack = B_Parachute;
+	identityTypes[] =
+	{
+		LanguageRUS_F,
+		Head_Russian,
+		Head_Euro,
+		Head_Enoch,
+		Head_Asian,
+		G_RUS_default
+	};
+	linkedItems[] =
+	{
+		V_SmershVest_01_F,
+		H_HelmetAggressor_cover_taiga_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_SmershVest_01_F,
+		H_HelmetAggressor_cover_taiga_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
+	weapons[] =
+    {
+        arifle_AK12_545_arco_pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_AK12_545_arco_pointer_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+		mag_10(30Rnd_545x39_AK12_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+		mag_10(30Rnd_545x39_AK12_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+};
 class O_R_Soldier_diver_base: O_R_Soldier_Base_F
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -2401,8 +2481,8 @@ class O_R_diver_F: O_R_Soldier_diver_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_diver_F.jpg";
-    scope = protected;
-    scopeCurator = private;
+    scope = public;
+    scopeCurator = public;
     displayName = $STR_B_diver_F0;
 	linkedItems[] =
 	{
@@ -2419,12 +2499,14 @@ class O_R_diver_F: O_R_Soldier_diver_base
 	weapons[] =
 	{
 		arifle_SDAR_F,
+		//Aegis_hgun_VektorSR1_snds_LP_f,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SDAR_F,
+		//Aegis_hgun_VektorSR1_snds_LP_f,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons
 	};
@@ -2450,8 +2532,8 @@ class O_R_diver_exp_F: O_R_Soldier_diver_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_diver_exp_F.jpg";
-    scope = protected;
-    scopeCurator = private;
+    scope = public;
+    scopeCurator = public;
     displayName = $STR_B_diver_exp_F0;
 	backpack = B_FieldPack_blk_DiverExp;
 	linkedItems[] =
@@ -2469,12 +2551,14 @@ class O_R_diver_exp_F: O_R_Soldier_diver_base
 	weapons[] =
 	{
 		arifle_SDAR_F,
+		//Aegis_hgun_VektorSR1_snds_LP_f,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SDAR_F,
+		//Aegis_hgun_VektorSR1_snds_LP_f,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons
 	};
@@ -2502,8 +2586,8 @@ class O_R_diver_TL_F: O_R_Soldier_diver_base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_diver_TL_F.jpg";
-    scope = protected;
-    scopeCurator = private;
+    scope = public;
+    scopeCurator = public;
     displayName = $STR_B_diver_TL_F0;
 	linkedItems[] =
 	{
@@ -2520,14 +2604,16 @@ class O_R_diver_TL_F: O_R_Soldier_diver_base
     weapons[] =
     {
         arifle_SDAR_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
         arifle_SDAR_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Binocular
     };
@@ -2576,14 +2662,16 @@ class O_R_recon_F: O_R_Soldier_recon_base
 	weapons[] =
     {
         arifle_AK12U_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
         arifle_AK12U_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Binocular
     };
@@ -2629,13 +2717,15 @@ class O_R_recon_CQ_F: O_R_Soldier_recon_base
     weapons[] =
     {
         sgun_Mp153_black_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         sgun_Mp153_black_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -2729,14 +2819,16 @@ class O_R_spotter_F: O_R_Soldier_sniper_base
     weapons[] =
     {
         arifle_AK12_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         arifle_AK12_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -2807,6 +2899,7 @@ class O_R_sniper_F: O_R_Soldier_sniper_base
 	weapons[] =
 	{
 		srifle_GM6_LRPS_F,
+		//Aegis_hgun_VektorSR1_snds_LP_f,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -2814,6 +2907,7 @@ class O_R_sniper_F: O_R_Soldier_sniper_base
 	respawnWeapons[] =
 	{
 		srifle_GM6_LRPS_F,
+		//Aegis_hgun_VektorSR1_snds_LP_f,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -2953,6 +3047,7 @@ class O_R_ghillie_base_F: O_R_Soldier_sniper_base
 	weapons[] =
 	{
 		srifle_GM6_LRPS_F,
+		//Aegis_hgun_VektorSR1_snds_LP_f,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -2960,6 +3055,7 @@ class O_R_ghillie_base_F: O_R_Soldier_sniper_base
 	respawnWeapons[] =
 	{
 		srifle_GM6_LRPS_F,
+		//Aegis_hgun_VektorSR1_snds_LP_f,
 		hgun_Rook40_snds_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -3053,14 +3149,16 @@ class O_R_ghillie_spotter_wdl_F: O_R_ghillie_wdl_F
 	weapons[] =
     {
         arifle_AK12_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         arifle_AK12_lush_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -3458,7 +3556,8 @@ class O_R_officer_ard_F: O_R_officer_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_officer_ard_F.jpg";
 	faction = OPF_R_ard_F;
-	uniformClass = U_O_R_OfficerUniform_arid_F;
+	//uniformClass = Aegis_U_O_Luchnik_officer_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
 	linkedItems[] =
 	{
 		V_Rangemaster_belt,
@@ -3758,6 +3857,34 @@ class O_R_soldier_UGV_02_Demining_ard_F: O_R_soldier_UAV_ard_F
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = O_R_UGV_02_Demining_backpack_F;
 };
+class O_R_soldier_UAV_02_ard_lxWS_F: O_R_soldier_UAV_ard_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_UAV_02_ard_LxWS_F.jpg";
+	displayName = "UAV Operator (AP-5)";
+	backpack = Aegis_O_R_UAV_02_backpack_lxWS;
+};
+class O_R_Soldier_PG_ard_F: O_R_Soldier_PG_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Soldier_PG_ard_F.jpg";
+	faction = OPF_R_ard_F;
+	uniformClass = U_O_R_CombatUniform_arid_F;
+	linkedItems[] =
+	{
+		V_SmershVest_01_F,
+		H_HelmetAggressor_cover_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_SmershVest_01_F,
+		H_HelmetAggressor_cover_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
+};
 class O_R_diver_ard_F: O_R_diver_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -3805,14 +3932,16 @@ class O_R_recon_TL_ard_F: O_R_recon_TL_F
 	weapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Rangefinder
     };
     respawnWeapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Rangefinder
     };
@@ -3846,13 +3975,15 @@ class O_R_recon_exp_ard_F: O_R_recon_exp_F
 	weapons[] =
     {
         arifle_AK12U_arid_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AK12U_arid_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -3897,13 +4028,15 @@ class O_R_recon_AR_ard_F: O_R_recon_AR_F
 	weapons[] =
     {
         arifle_RPK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_RPK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -3954,13 +4087,15 @@ class O_R_recon_medic_ard_F: O_R_recon_medic_F
 	weapons[] =
     {
         arifle_AK12U_arid_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AK12U_arid_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -3991,13 +4126,15 @@ class O_R_recon_GL_ard_F: O_R_recon_GL_F
 	weapons[] =
     {
         arifle_AK12_GL_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AK12_GL_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -4031,14 +4168,16 @@ class O_R_recon_LAT_ard_F: O_R_recon_LAT_F
     {
         arifle_AK12U_arid_holo_snds_pointer_F,
 		launch_RPG32_green_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AK12U_arid_holo_snds_pointer_F,
 		launch_RPG32_green_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -4084,14 +4223,16 @@ class O_R_recon_JTAC_ard_F: O_R_recon_JTAC_F
 	weapons[] =
     {
         arifle_AK12U_arid_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Laserdesignator_03
     };
     respawnWeapons[] =
     {
         arifle_AK12U_arid_holo_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Laserdesignator_03
     };
@@ -4141,14 +4282,16 @@ class O_R_recon_ard_F: O_R_recon_F
 	weapons[] =
     {
         arifle_AK12U_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Binocular
     };
     respawnWeapons[] =
     {
         arifle_AK12U_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
 		Binocular
     };
@@ -4185,14 +4328,16 @@ class O_R_spotter_ard_F: O_R_spotter_F
 	weapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -4390,14 +4535,16 @@ class O_R_ghillie_spotter_ard_F: O_R_ghillie_ard_F
 	weapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -4448,14 +4595,16 @@ class O_R_ghillie_spotter_lsh_F: O_R_ghillie_lsh_F
 	weapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -4506,14 +4655,16 @@ class O_R_ghillie_spotter_sard_F: O_R_ghillie_sard_F
 	weapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         arifle_AK12_arid_arco_snds_pointer_F,
-        hgun_Rook40_snds_F,
+        //Aegis_hgun_VektorSR1_snds_LP_f,
+		hgun_Rook40_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -4548,4 +4699,692 @@ class O_R_Fighter_Pilot_ard_F: O_R_Fighter_Pilot_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Fighter_Pilot_ard_F.jpg";
 	faction = OPF_R_ard_F;
 	uniformClass = U_O_R_PilotCoveralls;
+};
+
+
+/* Russian Conscripts */
+
+/* RU Taiga */
+class Aegis_O_R_Conscript_Base_F: O_R_Soldier_Base_F
+{
+	editorSubcategory = EdSubcat_Personnel_Conscripts;
+	//uniformClass = Aegis_U_O_Luchnik_taiga_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_rutaiga_F;
+};
+class Aegis_O_R_Conscript_SL_F: Aegis_O_R_Conscript_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_SL_F.jpg";
+	scope = public;
+    scopeCurator = public;
+    displayName = $STR_B_Soldier_SL_F0;
+	backpack = B_RadioBag_01_taiga_F;
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLeaderLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLeaderLinkedItems
+	};
+	weapons[] =
+    {
+        arifle_AK12U_545_aco_flash_F,
+        //Aegis_hgun_VektorSR1_f,
+		hgun_Rook40_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_AK12U_545_aco_flash_F,
+        //Aegis_hgun_VektorSR1_f,
+		hgun_Rook40_F,
+        DefaultManWeapons,
+        Binocular
+    };
+	magazines[] =
+    {
+        mag_4(30Rnd_545x39_AK12_Mag_F),
+        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_545x39_AK12_Mag_F),
+        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_OPFOR
+    };
+    cost = 500000;
+	camouflage = 1.4;
+	icon = iconManLeader;
+	role = Rifleman;
+};
+class Aegis_O_R_Conscript_TL_F: Aegis_O_R_Conscript_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+    scopeCurator = public;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_TL_F.jpg";
+	displayName = $STR_B_Soldier_TL_F0;
+	//uniformClass = Aegis_U_O_Luchnik_RolledUp_taiga_F;
+	role = Grenadier;
+	icon = iconManLeader;
+    cost = 250000;
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+    weapons[] =
+    {
+        Aegis_arifle_AK12_GL_545_aco_flash_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    respawnWeapons[] =
+    {
+        Aegis_arifle_AK12_GL_545_aco_flash_F,
+        DefaultManWeapons,
+        Binocular
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_545x39_AK12_Mag_F),
+        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
+        mag_4(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_545x39_AK12_Mag_F),
+        mag_2(30Rnd_545x39_AK12_Mag_Tracer_F),
+        mag_4(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_OPFOR
+    };
+};
+class Aegis_O_R_Conscript_F: Aegis_O_R_Conscript_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+    scopeCurator = public;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_F.jpg";
+	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
+	cost = 100000;
+	weapons[] =
+	{
+		arifle_AK12_545_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_AK12_545_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_545x39_AK12_Mag_F),
+        HandGrenade_East,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_545x39_AK12_Mag_F),
+        HandGrenade_East,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_AT_F: Aegis_O_R_Conscript_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_AT_s};
+			speechPlural[] = {veh_infantry_AT_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
+	nameSound = veh_infantry_AT_s;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_AT_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_soldier_LAT_F0;
+	role = MissileSpecialist;
+	icon = iconManAT;
+	cost = 130000;
+	threat[] =
+    {
+        0.8,    // Soft
+        0.8,    // Armor
+        0.3     // Air
+    };
+	secondaryAmmoCoef = 0.5;
+    backpack = Aegis_B_FieldPack_Taiga_ConLAT_F;
+	//uniform = Aegis_U_O_Luchnik_RolledUp_taiga_F;
+	weapons[] =
+	{
+		arifle_AK12U_545_F,
+		Aegis_Launch_RPG7M_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_AK12U_545_F,
+		Aegis_Launch_RPG7M_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_545x39_AK12_Mag_F),
+		RPG7_F,
+        HandGrenade_East,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_545x39_AK12_Mag_F),
+		RPG7_F,
+        HandGrenade_East,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_M_F: Aegis_O_R_Conscript_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_M_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_soldier_M_F0;
+	role = Marksman;
+	cost = 250000;
+	weapons[] =
+	{
+		srifle_DMR_01_black_ARCO_F,
+		DefaultManWeapons,
+		Binocular
+	};
+	respawnWeapons[] =
+	{
+		srifle_DMR_01_black_ARCO_F,
+		DefaultManWeapons,
+		Binocular
+	};
+	magazines[] =
+	{
+		mag_8(10Rnd_762x54_Mag),
+		mag_2(SmokeShell),
+        HandGrenade_East
+	};
+	respawnMagazines[] =
+	{
+		mag_8(10Rnd_762x54_Mag),
+		mag_2(SmokeShell),
+        HandGrenade_East
+	};
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_GL_F: Aegis_O_R_Conscript_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_GL_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_GL_F0;
+    role = Grenadier;
+	cost = 200000;
+	weapons[] =
+    {
+        arifle_AK12_GL_545_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_AK12_GL_545_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_4(1Rnd_HE_Grenade_shell),
+        HandGrenade_East,
+        SmokeShell,
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_4(1Rnd_HE_Grenade_shell),
+        HandGrenade_East,
+        SmokeShell,
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_AR_F: Aegis_O_R_Conscript_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_MG_s};
+			speechPlural[] = {veh_infantry_MG_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
+	nameSound = veh_infantry_MG_s;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_AR_F.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = $STR_B_soldier_AR_F0;
+	role = MachineGunner;
+	icon = iconManMG;
+	cost = 125000;
+	threat[] =
+    {
+        1,      // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+	//uniformClass = Aegis_U_O_Luchnik_RolledUp_taiga_F;
+	weapons[] =
+	{
+		Aegis_arifle_RPK12_545_aco_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_RPK12_545_aco_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_4(Aegis_60Rnd_545x39_Mag_Green_F),
+        HandGrenade_East,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_4(Aegis_60Rnd_545x39_Mag_Green_F),
+        HandGrenade_East,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_Medic_F: Aegis_O_R_Conscript_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_medic_s};
+			speechPlural[] = {veh_infantry_medic_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
+	nameSound = veh_infantry_medic_s;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_Medic_F.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = $STR_B_medic_F0;
+	role = CombatLifeSaver;
+	icon = iconManMedic;
+	picture = pictureHeal;
+	camouflage = 1.6;
+	attendant = true;
+	backpack = B_FieldPack_taiga_Medic_F;
+	weapons[] =
+	{
+		arifle_AK12U_545_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_AK12U_545_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_545x39_AK12_Mag_F),
+        HandGrenade_East,
+        mag_2(SmokeShell),
+		SMOKESHELLS_MEDIC
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_545x39_AK12_Mag_F),
+        HandGrenade_East,
+        mag_2(SmokeShell),
+		SMOKESHELLS_MEDIC
+	};
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_Repair_F: Aegis_O_R_Conscript_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_Repair_F.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_O_R_Conscript_Pioneer_F0;
+	icon = iconManEngineer;
+    picture = pictureRepair;
+	cost = 220000;
+    role = Sapper;
+	engineer = true;
+	camouflage = 1.6;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.5,    // Armor
+        0.1     // Air
+    };
+	backpack = B_FieldPack_taiga_Repair_F;
+	weapons[] =
+	{
+		arifle_AK12U_545_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_AK12U_545_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_545x39_AK12_Mag_F),
+        HandGrenade_East,
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_545x39_AK12_Mag_F),
+        HandGrenade_East,
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUtaiga_F,
+		H_HelmetLuchnik_cover_rutaiga_F,
+		DefaultManLinkedItems
+	};
+};
+
+/* RU Arid */
+class Aegis_O_R_Conscript_SL_ard_F: Aegis_O_R_Conscript_SL_F
+{
+	faction = OPF_R_ard_F;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_SL_ard_F.jpg";
+	backpack = B_RadioBag_01_arid_F;
+	//uniformClass = Aegis_U_O_Luchnik_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLeaderLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLeaderLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_TL_ard_F: Aegis_O_R_Conscript_TL_F
+{
+	faction = OPF_R_ard_F;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_TL_ard_F.jpg";
+	//uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_ard_F: Aegis_O_R_Conscript_F
+{
+	faction = OPF_R_ard_F;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_ard_F.jpg";
+	//uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_AT_ard_F: Aegis_O_R_Conscript_AT_F
+{
+	faction = OPF_R_ard_F;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_AT_ard_F.jpg";
+	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
+	backpack = Aegis_B_FieldPack_Green_ConLAT_F;
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_M_ard_F: Aegis_O_R_Conscript_M_F
+{
+	faction = OPF_R_ard_F;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_M_ard_F.jpg";
+	//uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_GL_ard_F: Aegis_O_R_Conscript_GL_F
+{
+	faction = OPF_R_ard_F;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_GL_ard_F.jpg";
+	//uniformClass = Aegis_U_O_Luchnik_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_AR_ard_F: Aegis_O_R_Conscript_AR_F
+{
+	faction = OPF_R_ard_F;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_AR_ard_F.jpg";
+	uniformClass =  U_O_R_CombatUniform_tshirt_arid_F;
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_Medic_ard_F: Aegis_O_R_Conscript_Medic_F
+{
+	faction = OPF_R_ard_F;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_Medic_ard_F.jpg";
+	//uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	backpack = B_FieldPack_green_Medic_F;
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+};
+class Aegis_O_R_Conscript_Repair_ard_F: Aegis_O_R_Conscript_Repair_F
+{
+	faction = OPF_R_ard_F;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_Repair_ard_F.jpg";
+	//uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	backpack = B_FieldPack_green_Repair_F;
+	linkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Aegis_V_ChestrigEast_RUarid_F,
+		H_HelmetLuchnik_cover_ruarid_F,
+		DefaultManLinkedItems
+	};
 };

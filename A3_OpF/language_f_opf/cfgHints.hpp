@@ -1,6 +1,6 @@
 class CfgHints
 {
-    class WeaponList
+    class AegisWeaponList
 	{
 		class RFB
 		{
@@ -14,7 +14,7 @@ class CfgHints
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
 			weapon = Opf_arifle_RFB_F;
-			logicalOrder = 45;
+			logicalOrder = 100;
 		};
 		class SKS
 		{
@@ -28,7 +28,7 @@ class CfgHints
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
 			weapon = Opf_arifle_SKS_F;
-			logicalOrder = 45;
+			logicalOrder = 118;
 		};
     };
 };

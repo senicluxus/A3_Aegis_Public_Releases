@@ -9,6 +9,8 @@ class CfgAddons
                 A3_Atlas_Air_F_Atlas,
                 A3_Atlas_Air_F_Atlas_Heli_Attack_01,
                 A3_Atlas_Air_F_Atlas_Heli_Attack_02,
+                A3_Atlas_Air_F_Atlas_Heli_Attack_03,
+                A3_Atlas_Air_F_Atlas_Heli_Attack_04,
                 A3_Atlas_Air_F_Atlas_Heli_Light_01,
                 A3_Atlas_Air_F_Atlas_Heli_Light_02,
                 A3_Atlas_Air_F_Atlas_Heli_Light_03,

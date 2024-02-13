@@ -174,11 +174,11 @@ class O_R_Plane_CAS_02_dynamicLoadout_F: O_Plane_CAS_02_dynamicLoadout_F
 	faction = OPF_R_F;
 	crew = O_R_Fighter_Pilot_F;
 	typicalCargo[] = {O_R_Fighter_Pilot_F};
-	textureList[] = {Blue,1};
+	textureList[] = {RuBlue,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext01_blue_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext02_blue_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext01_rublue_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext02_rublue_CO.paa"
 	};
 	class EjectionSystem: EjectionSystem
 	{

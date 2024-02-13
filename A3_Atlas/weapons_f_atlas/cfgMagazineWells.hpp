@@ -18,4 +18,25 @@ class CfgMagazineWells
             30Rnd_556x45_AUG_Mag_Tracer_Green_F
         };
     };
+    class Negev_762x51
+    {
+        Atlas_Magazines[] =
+        {
+            150Rnd_762x51_Box_Yellow,
+			150Rnd_762x51_Box_Tracer_Yellow
+        };
+    };
+    class Atlas_FAMAS_556x54
+	{
+		Atlas_Magazines[] =
+		{
+			Atlas_25Rnd_556x45_Famas,		
+			Atlas_25Rnd_556x45_Famas_green,
+			Atlas_25Rnd_556x45_Famas_red,
+            Atlas_25Rnd_556x45_Famas_yellow,
+			Atlas_25Rnd_556x45_Famas_Tracer_Red,
+			Atlas_25Rnd_556x45_Famas_Tracer_Green,
+			Atlas_25Rnd_556x45_Famas_Tracer_Yellow
+		};
+	};
 };

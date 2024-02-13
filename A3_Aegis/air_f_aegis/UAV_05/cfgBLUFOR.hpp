@@ -190,3 +190,16 @@ class B_W_UAV_05_F: B_UAV_05_F
 	crew = B_UAV_AI;
 	typicalCargo[] = {B_UAV_AI};
 };
+
+/* US (Desert) */
+class Aegis_B_D_UAV_05_F: B_W_UAV_05_F
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_UAV_05_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	side = TWest;
+	faction = BLU_NATO_LXWS;
+	crew = B_UAV_AI;
+	typicalCargo[] = {B_UAV_AI};
+};

@@ -8,15 +8,37 @@ class CowsSlot: SlotInfo
 		optic_tws_sniper,
 		optic_srs,
 		optic_dcl,
-		optic_ACOG,
-		optic_ACO_grn_AK_F
+		optic_ACO_grn_AK_F,
+        aegis_optic_ROS,
+        aegis_optic_ROS_SMG,
+        Aegis_optic_ICO,
+        Aegis_optic_ICO_khaki,
+        Aegis_optic_ICO_sand,
+        Aegis_optic_ACOG,
+        Aegis_optic_ACOG_Sand,
+        Aegis_optic_ACOG_khaki
 	};
 };
 class PointerSlot
 {
     compatibleItems[] +=
 	{
-		acc_flashlight_ir
+		acc_flashlight_ir,
+		Aegis_acc_pointer_compact_red,
+		Aegis_acc_pointer_compact_green,
+        Aegis_acc_pointer_DM,
+        Aegis_acc_pointer_DM_Sand,
+        Aegis_acc_pointer_DM_Khaki,
+        Aegis_acc_pointer_DM_Arid,
+        Aegis_acc_pointer_DM_Lush
+	};
+};
+class PointerSlot_Pistol: PointerSlot
+{
+	class compatibleItems
+	{
+		Aegis_acc_pointer_compact_red = true;
+		Aegis_acc_pointer_compact_green = true;
 	};
 };
 class UnderBarrelSlot;
@@ -52,6 +74,28 @@ class MuzzleSlot_MG: MuzzleSlot
 		muzzle_mzls_H = true;
 	};
 };
+class Aegis_MuzzleSlot_SR25: MuzzleSlot_762
+{
+	class compatibleItems
+	{
+		aegis_muzzle_snds_sr25_blk = true;
+        aegis_muzzle_snds_sr25_snd = true;
+        aegis_muzzle_snds_sr25_khk = true;
+        muzzle_snds_B = true;
+        muzzle_snds_B_khk_F = true;
+        muzzle_snds_B_snd_F = true;
+        muzzle_snds_B_arid_F = true;
+        muzzle_snds_B_lush_F = true;
+        muzzle_snds_B_wdm_F = true;
+        suppressor_h_lxws = true;
+        suppressor_h_lush_lxws = true;
+        suppressor_h_arid_lxws = true;
+        suppressor_h_sand_lxws = true;
+        suppressor_h_khaki_lxws = true;
+        suppressor_h_snake_lxws = true;
+		muzzle_mzls_B = true;
+	};
+};
 class CowsSlot_Rail: CowsSlot
 {
 	class compatibleItems
@@ -59,8 +103,15 @@ class CowsSlot_Rail: CowsSlot
 		optic_tws_sniper = true;
 		optic_srs = true;
 		optic_dcl = true;
-		optic_ACOG = true;
+		Aegis_optic_ACOG = true;
+        Aegis_optic_ACOG_Sand = true;
+        Aegis_optic_ACOG_khaki = true;
 		optic_ACO_grn_AK_F = true;
+        aegis_optic_ROS = true;
+        aegis_optic_ROS_SMG = true;
+        Aegis_optic_ICO = true;
+        Aegis_optic_ICO_khaki = true;
+        Aegis_optic_ICO_sand = true;
 	};
 };
 class CowsSlot_AK: CowsSlot
@@ -78,7 +129,25 @@ class CowsSlot_F2000: CowsSlot_Rail
 		acc_o_FMS = true;
 	};
 };
-class PointerSlot_Rail;
+class PointerSlot_Rail: PointerSlot
+{
+    class compatibleItems
+    {
+		acc_flashlight_ir = true;
+		Aegis_acc_pointer_compact_red = true;
+		Aegis_acc_pointer_compact_green = true;
+        Aegis_acc_pointer_DM = true;
+        Aegis_acc_pointer_DM_visible_Red = true;
+        Aegis_acc_pointer_DM_Sand = true;
+        Aegis_acc_pointer_DM_Sand_visible_Red = true;
+        Aegis_acc_pointer_DM_Khaki = true;
+        Aegis_acc_pointer_DM_Khaki_visible_Red = true;
+        Aegis_acc_pointer_DM_Arid = true;
+        Aegis_acc_pointer_DM_Arid_visible_Red = true;
+        Aegis_acc_pointer_DM_Lush = true;
+        Aegis_acc_pointer_DM_Lush_visible_Red = true;
+    };
+};
 class UnderBarrelSlot_rail;
 
 /* Slots used by CBA's Joint Rails functionality */
@@ -90,10 +159,29 @@ class asdg_FrontSideRail
     class compatibleItems
     {
 		acc_flashlight_ir = true;
+		Aegis_acc_pointer_compact_red = true;
+		Aegis_acc_pointer_compact_green = true;
+        Aegis_acc_pointer_DM = true;
+        Aegis_acc_pointer_DM_visible_Red = true;
+        Aegis_acc_pointer_DM_Sand = true;
+        Aegis_acc_pointer_DM_Sand_visible_Red = true;
+        Aegis_acc_pointer_DM_Khaki = true;
+        Aegis_acc_pointer_DM_Khaki_visible_Red = true;
+        Aegis_acc_pointer_DM_Arid = true;
+        Aegis_acc_pointer_DM_Arid_visible_Red = true;
+        Aegis_acc_pointer_DM_Lush = true;
+        Aegis_acc_pointer_DM_Lush_visible_Red = true;
     };
 };
 class asdg_UnderSlot;
-class asdg_PistolUnderRail;
+class asdg_PistolUnderRail
+{
+    class compatibleItems
+    {
+		Aegis_acc_pointer_compact_pistol_red = true;
+		Aegis_acc_pointer_compact_pistol_green = true;
+    };
+};;
 class asdg_PistolOpticMount;
 class asdg_PistolOpticRail1913;
 class asdg_OpticRail1913: asdg_OpticRail
@@ -103,8 +191,15 @@ class asdg_OpticRail1913: asdg_OpticRail
 		optic_tws_sniper = true;
 		optic_srs = true;
 		optic_dcl = true;
-		optic_ACOG = true;
+		Aegis_optic_ACOG = true;
+        Aegis_optic_ACOG_Sand = true;
+        Aegis_optic_ACOG_khaki = true;
 		optic_ACO_grn_AK_F = true;
+        aegis_optic_ROS = true;
+        aegis_optic_ROS_SMG = true;
+        Aegis_optic_ICO = true;
+        Aegis_optic_ICO_khaki = true;
+        Aegis_optic_ICO_sand = true;
     };
 };
 class asdg_OpticRail1913_short;
@@ -185,6 +280,9 @@ class asdg_MuzzleSlot_545R: asdg_MuzzleSlot
         muzzle_snds_545_lush_F = true;
         muzzle_snds_545_arid_F = true;
         muzzle_mzls_545 = true;
+        aegis_muzzle_snds_pbs_545_blk = true;
+        aegis_muzzle_snds_pbs_545_arid = true;
+        aegis_muzzle_snds_pbs_545_lush = true;
     };
 };
 class asdg_MuzzleSlot_762R: asdg_MuzzleSlot
@@ -196,6 +294,9 @@ class asdg_MuzzleSlot_762R: asdg_MuzzleSlot
         muzzle_snds_B_lush_F = true;
         muzzle_snds_B_arid_F = true;
         muzzle_mzls_B = true;
+        aegis_muzzle_snds_pbs_762_blk = true;
+        aegis_muzzle_snds_pbs_762_arid = true;
+        aegis_muzzle_snds_pbs_762_lush = true;
     };
 };
 class asdg_MuzzleSlot_762R_PK: asdg_MuzzleSlot
@@ -207,6 +308,9 @@ class asdg_MuzzleSlot_762R_PK: asdg_MuzzleSlot
         muzzle_snds_B_lush_F = true;
         muzzle_snds_B_arid_F = true;
         muzzle_mzls_B = true;
+        aegis_muzzle_snds_pbs_762_blk = true;
+        aegis_muzzle_snds_pbs_762_arid = true;
+        aegis_muzzle_snds_pbs_762_lush = true;
     };
 };
 class asdg_MuzzleSlot_762R_SVD: asdg_MuzzleSlot
@@ -218,6 +322,9 @@ class asdg_MuzzleSlot_762R_SVD: asdg_MuzzleSlot
         muzzle_snds_B_lush_F = true;
         muzzle_snds_B_arid_F = true;
         muzzle_mzls_B = true;
+        aegis_muzzle_snds_pbs_762_blk = true;
+        aegis_muzzle_snds_pbs_762_arid = true;
+        aegis_muzzle_snds_pbs_762_lush = true;
     };
 };
 class asdg_MuzzleSlot_58: asdg_MuzzleSlot
@@ -232,5 +339,7 @@ class asdg_MuzzleSlot_46: asdg_MuzzleSlot
     class compatibleItems
     {
         muzzle_snds_460 = true;
+        Aegis_muzzle_snds_460_khaki = true;
+        Aegis_muzzle_snds_460_sand = true;
     };
 };

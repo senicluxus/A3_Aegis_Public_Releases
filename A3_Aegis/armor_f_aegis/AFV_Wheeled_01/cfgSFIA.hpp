@@ -250,14 +250,14 @@ class Aegis_O_SFIA_AFV_Wheeled_01: AFV_Wheeled_01_base_F
 		verticalOffsetWorld = -0.092;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_SFIA_AFV_Wheeled_01.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_SFIA_AFV_Wheeled_01.jpg";
     side = TEast;
 	faction = OPF_SFIA_lxWS;
 	scope = public;
 	scopeCurator = public;
     crew = O_SFIA_crew_lxWS;
     typicalCargo[] = {O_SFIA_Soldier_lxWS};
-    textureList[] = {SFIA,1,};
+    textureList[] = {SFIA,1};
     hiddenSelectionsTextures[] = 
     {
 		"\lxws\vehicles_f_lxws\data\AFV_Wheeled_01\Rhino_Africa1_CO.paa",

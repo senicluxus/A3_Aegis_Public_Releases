@@ -51,7 +51,22 @@ class CfgVehicles
 				};
 			};
 		};
-
+		class TextureSources
+		{
+			class EAF_01
+			{
+				displayName = $STR_A3_C_CfgVehicles_Offroad_01_civil_base_F_TextureSources_EAF0;
+				author = $STR_A3_A_Grave;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext01_EAF_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext02_EAF_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_rcws_EAF_CO.paa",
+					"A3\Armor_F_Enoch\apc_tracked_03\Data\camonet_EAF_green_CO.paa"
+				};
+				factions[] = {};
+			};
+		};
 		textureList[] =
 		{
 			Indep_01,1,
@@ -80,4 +95,7 @@ class CfgVehicles
 			bag_xx(B_AssaultPack_dgtl,2);
 		};
 	};
+
+	/* Arma 3 Aegis */
+	#include "cfgEAF.hpp"	// Livonian Defence Force
 };

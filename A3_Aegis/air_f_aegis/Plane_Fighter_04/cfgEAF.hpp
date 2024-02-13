@@ -196,3 +196,22 @@ class I_E_Ejection_Seat_Plane_Fighter_04_F: Ejection_Seat_Plane_Fighter_04_base_
 	faction = IND_E_F;
 	crew = I_E_Fighter_Pilot_F;
 };
+
+/* BLUFOR LDF */
+class Aegis_B_E_Plane_Fighter_04_F: I_E_Plane_Fighter_04_F
+{
+    side = TWest;
+	faction = BLU_EAF_F;
+	crew = Aegis_B_E_Fighter_Pilot_F;
+	typicalCargo[] = {Aegis_B_E_Fighter_Pilot_F};
+    class EjectionSystem: EjectionSystem
+	{
+		EjectionSeatClass = Aegis_B_E_Ejection_Seat_Plane_Fighter_04_F;
+	};
+};
+class Aegis_B_E_Ejection_Seat_Plane_Fighter_04_F: I_E_Ejection_Seat_Plane_Fighter_04_F
+{
+    side = TWest;
+	faction = BLU_EAF_F;
+	crew = Aegis_B_E_Fighter_Pilot_F;
+};

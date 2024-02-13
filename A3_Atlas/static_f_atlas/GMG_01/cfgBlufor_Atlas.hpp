@@ -110,3 +110,58 @@ class Atlas_B_G_GMG_01_A_F: B_GMG_01_A_F
 		};
 	};
 };
+/* Bundeswehr Arid */
+class Atlas_B_G_GMG_01_ard_F: Atlas_B_G_GMG_01_F
+{
+	faction = Atlas_BLU_G_ard_F;
+	crew = Atlas_B_G_Soldier_ard_F;
+	class assembleInfo
+	{
+		displayName = "";
+		assembleTo = "";
+		base = "";
+		primary = false;
+		dissasembleTo[] =
+		{
+			B_GMG_01_Weapon_F,
+			B_HMG_01_support_F
+		};
+	};
+};
+class Atlas_B_G_GMG_01_high_ard_F: Atlas_B_G_GMG_01_high_F
+{
+	faction = Atlas_BLU_G_ard_F;
+	crew = Atlas_B_G_Soldier_ard_F;
+	class assembleInfo
+	{
+		displayName = "";
+		assembleTo = "";
+		base = "";
+		primary = false;
+		dissasembleTo[] =
+		{
+			B_GMG_01_high_Weapon_F,
+			B_HMG_01_support_high_F
+		};
+	};
+};
+class Atlas_B_G_GMG_01_A_ard_F: Atlas_B_G_GMG_01_A_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_GMG_01_A_F.jpg";
+	scopeArsenal = private;
+	forceInGarage = false;
+	faction = Atlas_BLU_G_ard_F;
+	class assembleInfo
+	{
+		displayName = "";
+		assembleTo = "";
+		base = "";
+		primary = false;
+		dissasembleTo[] =
+		{
+            B_GMG_01_A_Weapon_F,
+            B_HMG_01_support_F
+		};
+	};
+};

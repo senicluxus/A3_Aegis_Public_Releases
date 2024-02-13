@@ -30,7 +30,19 @@ class CfgVehicles
 					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_int_brown_CO.paa",
 					"\A3_Atlas\Data_F_Atlas\Vehicles\Turret_brown_CO.paa"
 				};
-				factions[] = {Atlas_IND_I_F};
+				factions[] = {};
+			};
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_ext_WHEX_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_int_WHEX_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\Turret_WHEX_CO.paa"
+				};
+				factions[] = {};
 			};
 		};
 	};
@@ -56,9 +68,19 @@ class CfgVehicles
 					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
 				};
 			};
+			class WoodlandHex: WoodlandHex
+			{
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_ext_medevac_WHEX_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\UGV_01\Data\UGV_01_int_WHEX_CO.paa",
+					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
+				};
+			};
 		};
 	};
 	// Arma 3 Atlas
+	#include "cfgOpfor_Aegis.hpp"		// Belarus
 	#include "cfgLegion.hpp"            // Legionnaires
 	#include "cfgBlufor_Atlas.hpp"      // Germany
     /*

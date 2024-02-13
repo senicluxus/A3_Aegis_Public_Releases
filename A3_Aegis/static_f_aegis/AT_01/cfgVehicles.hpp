@@ -41,4 +41,5 @@ class CfgVehicles
 		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_TacticalPack_eaf_F_CA.paa";
 	};
     #include "cfgRUS.hpp"       // Russia
+	#include "cfgEAF.hpp"		// LDF Blufor
 };

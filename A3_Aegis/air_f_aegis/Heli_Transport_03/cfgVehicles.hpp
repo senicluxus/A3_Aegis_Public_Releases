@@ -26,14 +26,14 @@ class CfgVehicles
                 /* Weapons & Ammunition
                 - Let's replace its 6.5 mm rounds with 7.62 mm rounds
                 */
-				magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Red_Splash)};
+				magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Red)};
 			};
 			class RightDoorGun: MainTurret
 			{
                 /* Weapons & Ammunition
                 - Let's replace its 6.5 mm rounds with 7.62 mm rounds
                 */
-				magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Red_Splash)};
+				magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Red)};
 			};
 		};
 
@@ -61,6 +61,17 @@ class CfgVehicles
 				{
 					"\A3_Aegis\Air_F_Aegis\Heli_Transport_03\Data\Heli_Transport_03_ext01_grey_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Heli_Transport_03\Data\Heli_Transport_03_ext02_grey_CO.paa"
+				};
+				factions[] = {};
+			};
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_A3_A_Ravenholme;
+				textures[] = 
+				{
+					"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Transport_03_ext01_sand_CO.paa",
+					"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Transport_03_ext02_sand_CO.paa"
 				};
 				factions[] = {};
 			};

@@ -18,6 +18,13 @@ class CfgVehicles
 			camo3,
 			camo4
 		};
+		hiddenSelectionsTextures[] 	= 
+		{	
+			"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
+        	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
+        	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+        	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa"
+		};
 		class AnimationSources: AnimationSources
 		{
 			class spz_hide;
@@ -146,6 +153,19 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_LXWS_Author;
+				textures[]=
+				{
+					"\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_sand_CO.paa",
+					"\lxws\vehicles_f_lxws\data\Truck_02\truck_02_kuz_africa_brown_CO.paa",
+					"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa",
+				};
+				factions[] = {};
+			};
 		};
 
         /* Scripts */
@@ -259,6 +279,19 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_LXWS_Author;
+				textures[]=
+				{
+					"\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_sand_CO.paa",
+					"\lxws\vehicles_f_lxws\data\Truck_02\truck_02_kuz_africa_brown_CO.paa",
+					"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa",
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class Truck_02_box_base_F: Truck_02_base_F
@@ -357,10 +390,23 @@ class CfgVehicles
 				displayName = $STR_LXWS_FACTION_SFIA;
 				textures[] =
 				{
-					"lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_sfia_CO.paa",
-					"lxws\vehicles_f_lxws\data\Truck_02\zamak_repair_africa_co.paa",
+					"\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_sfia_CO.paa",
+					"\lxws\vehicles_f_lxws\data\Truck_02\zamak_repair_africa_co.paa",
 					"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
 					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa"
+				};
+				factions[] = {};
+			};
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_LXWS_Author;
+				textures[]=
+				{
+					"\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_sand_CO.paa",
+					"\lxws\vehicles_f_lxws\data\Truck_02\zamak_repair_africa_co.paa",
+					"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -429,6 +475,19 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_LXWS_Author;
+				textures[]=
+				{
+					"\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_sand_CO.paa",
+					"\lxws\vehicles_f_lxws\data\Truck_02\truck_02_kuz_africa_brown_CO.paa",
+					"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class Truck_02_Ammo_base_F: Truck_02_base_F
@@ -491,6 +550,19 @@ class CfgVehicles
 					"lxws\vehicles_f_lxws\data\Truck_02\zamak_repair_africa_co.paa",
 					"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
 					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa"
+				};
+				factions[] = {};
+			};
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_LXWS_Author;
+				textures[]=
+				{
+					"\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_sand_CO.paa",
+					"\lxws\vehicles_f_lxws\data\Truck_02\zamak_repair_africa_co.paa",
+					"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -1239,4 +1311,5 @@ class CfgVehicles
     #include "ION.h"
     #include "SFIA.h"
 	#include "cargo_and_flatbed.h"
+	#include "cfgEAF.hpp"	// LDF/BLUFOR
 };

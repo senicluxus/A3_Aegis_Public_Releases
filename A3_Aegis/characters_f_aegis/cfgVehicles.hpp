@@ -30,7 +30,7 @@ class CfgVehicles
 
     /* Factions */
     #include "cfgBLUFOR.hpp"        // US & BAF
-    #include "cfgUSMC.hpp"
+    #include "cfgBluLXWS.hpp"        // US (Desert)
     #include "cfgOPFOR.hpp"         // IAF, China & Argana
     #include "cfgIndep.hpp"         // AAF
     #include "cfgCivil.hpp"         // Civilians
@@ -46,9 +46,12 @@ class CfgVehicles
     #include "cfgIDAP.hpp"          // IDAP
     #include "cfgRUS.hpp"           // Russia
     #include "cfgEAF.hpp"           // LDF
+    #include "cfgBluEAF.hpp"        // LDF BLUFOR
     #include "cfgLooters.hpp"       // Looters
     #include "cfgION.hpp"           // ION
     #include "cfgRaven.hpp"         // Raven Security
+    #include "cfgTura.hpp"          // West Sahara Tura
+    #include "cfgUNA.hpp"           // West Sahara UNA
 
     /* Uniforms */
 	#include "cfgUniforms.hpp"

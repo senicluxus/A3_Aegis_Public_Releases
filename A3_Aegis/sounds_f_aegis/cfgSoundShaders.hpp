@@ -2310,6 +2310,228 @@ class CfgSoundShaders
 		};
 		limitation = true;
 	};
+	// M4A1 5.56mm
+	class Aegis_M4A1_Closure_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_closure_01",
+				1
+			},
+			
+			{
+				"\A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_closure_02",
+				1
+			}
+		};
+		range=5;
+		volume=0.44668359;
+	};
+	class Aegis_M4A1_closeShot_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_closeShot_01",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_closeShot_02",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_closeShot_03",
+				1
+			}
+		};
+		volume=1;
+		range=50;
+		rangeCurve="closeShotCurve";
+	};
+	class Aegis_M4A1_midShot_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_midShot_01",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_midShot_02",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_midShot_03",
+				1
+			}
+		};
+		volume=0.50118721;
+		range=2000;
+		rangeCurve[]=
+		{
+			{0,0.2},
+			{50,1},
+			{300,0},
+			{2000,0}
+		};
+	};
+	class Aegis_M4A1_distShot_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_distShot_01",
+				1
+			},
+			
+			{
+				"\A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_distShot_02",
+				1
+			},
+			
+			{
+				"\A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_distShot_03",
+				1
+			}
+		};
+		volume=1;
+		range=2000;
+		rangeCurve[]=
+		{
+			{0,0},
+			{50,0},
+			{300,1},
+			{2000,1}
+		};
+	};
+	class Aegis_M4A1_tailDistant_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_taildistant",
+				1
+			}
+		};
+		volume=1;
+		range=2000;
+		rangeCurve[]=
+		{
+			{0,0},
+			{600,0.69999999},
+			{2000,1}
+		};
+		limitation=1;
+	};
+	class Aegis_M4A1_tailForest_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_tailforest",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*forest/3";
+		range=2000;
+		rangeCurve[]=
+		{
+			{0,1},
+			{2000,0}
+		};
+		limitation=1;
+	};
+	class Aegis_M4A1_tailHouses_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_tailhouses",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*houses/3";
+		range=1500;
+		rangeCurve[]=
+		{
+			{0,1},
+			{250,0.30000001},
+			{1500,0}
+		};
+		limitation=1;
+	};
+	class Aegis_M4A1_tailInterior_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_tailinterior",
+				1
+			}
+		};
+		volume="interior";
+		range=220;
+		rangeCurve[]=
+		{
+			{0,1},
+			{50,0.40000001},
+			{100,0.2},
+			{350,0}
+		};
+		limitation=1;
+	};
+	class Aegis_M4A1_tailMeadows_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_tailmeadows",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range=2000;
+		rangeCurve[]=
+		{
+			{0,1},
+			{2000,0}
+		};
+		limitation=1;
+	};
+	class Aegis_M4A1_tailTrees_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_tailtrees",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*trees/3";
+		range=2000;
+		rangeCurve[]=
+		{
+			{0,1},
+			{2000,0}
+		};
+		limitation=1;
+	};
+	// Misc Plane SoundShader
 	class Plane_Fighter_RainExt_SoundShader
 	{
 		samples[] =

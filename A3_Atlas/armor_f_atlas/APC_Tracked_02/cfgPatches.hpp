@@ -9,6 +9,8 @@
         {
             // Belarus
             Atlas_O_W_APC_Tracked_02_cannon_ghex_F,
+            Atlas_O_W_APC_Tracked_02_AA_F,
+            Atlas_O_W_APC_Tracked_02_30mm_lxWS,
 
             // Takistani Army
             Atlas_O_T_APC_Tracked_02_cannon_F,

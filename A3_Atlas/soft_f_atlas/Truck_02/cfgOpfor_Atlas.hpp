@@ -91,7 +91,7 @@ class Atlas_O_T_Truck_02_F: O_Truck_02_covered_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Truck_02_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -200,7 +200,7 @@ class Atlas_O_T_Truck_02_transport_F: O_Truck_02_transport_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_transport_F.jpg";
+    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Truck_02_transport_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TEast;
@@ -309,7 +309,7 @@ class Atlas_O_T_Truck_02_box_F: O_Truck_02_box_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Truck_02_box_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -419,7 +419,7 @@ class Atlas_O_T_Truck_02_medical_F: O_Truck_02_medical_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Truck_02_medical_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -528,7 +528,7 @@ class Atlas_O_T_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Truck_02_Ammo_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	scopeArsenal = private;
@@ -640,7 +640,7 @@ class Atlas_O_T_Truck_02_fuel_F: O_Truck_02_fuel_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Truck_02_fuel_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -668,7 +668,7 @@ class Atlas_O_T_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 			verticalOffsetWorld = -0.202;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_cargo_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Truck_02_cargo_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_cargo_base_F0;
@@ -698,7 +698,7 @@ class Atlas_O_T_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 			verticalOffsetWorld = -0.202;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Truck_02_flatbed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_flatbed_base_F0;
@@ -715,4 +715,40 @@ class Atlas_O_T_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
 	"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
+};
+class Atlas_O_T_Truck_02_aa_lxWS: Truck_02_aa_base_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	scopeCurator = public;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Truck_02_aa_lxWS.jpg";
+	side = TEast;
+	faction = Atlas_OPF_T_F;
+	crew = Atlas_O_T_soldier_F;
+	typicalCargo[] = {Atlas_O_T_soldier_F};
+	textureList[] = {Opfor,1};
+	animationList[] = {"hideSpareWheel",0.5, "hideBumper",1, "hideWindowProtector",0, "hideCrates",0, "shield_hide", 1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
+        "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
+        "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+        "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
+		"lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
+		"lxws\vehicles_f_lxws\zu23\data\zu23_green_co.paa",
+		"lxws\vehicles_f_lxws\zu23\data\zu23_addon_1_green_co.paa",
+		"lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_green_co.paa",
+		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+	};
+};
+class Atlas_O_T_Truck_02_MRL_F: O_Truck_02_MRL_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	scopeCurator = public;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Truck_02_MRL_F.jpg";
+	side = TEast;
+	faction = Atlas_OPF_T_F;
+	crew = Atlas_O_T_soldier_F;
+	typicalCargo[] = {Atlas_O_T_soldier_F};
 };

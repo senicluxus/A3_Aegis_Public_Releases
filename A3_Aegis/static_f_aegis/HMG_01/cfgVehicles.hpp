@@ -200,4 +200,5 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\backpack_small_eaf_CO.paa"};
 		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_B_TacticalPack_eaf_F_CA.paa";
 	};
+	#include "cfgEAF.hpp"	// BLUFOR LDF
 };

@@ -2488,28 +2488,28 @@ class O_Soldier_CQ_F: O_Soldier_base_F
     };
     weapons[] =
     {
-        sgun_AA40_F,
+        Aegis_sgun_AA40_ACO_LP_LxWS,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        sgun_AA40_F,
+        Aegis_sgun_AA40_ACO_LP_LxWS,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_3(8Rnd_12Gauge_Pellets),
-        mag_3(8Rnd_12Gauge_Slug),
+        mag_3(8Rnd_12Gauge_AA40_Pellets_lxWS),
+        mag_3(8Rnd_12Gauge_AA40_Slug_lxWS),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_3(8Rnd_12Gauge_Pellets),
-        mag_3(8Rnd_12Gauge_Slug),
+        mag_3(8Rnd_12Gauge_AA40_Pellets_lxWS),
+        mag_3(8Rnd_12Gauge_AA40_Slug_lxWS),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
@@ -2544,28 +2544,28 @@ class O_soldierU_CQ_F: O_Soldier_Urban_base
     };
     weapons[] =
     {
-        sgun_AA40_F,
+        Aegis_sgun_AA40_ACO_LP_LxWS,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        sgun_AA40_F,
+        Aegis_sgun_AA40_ACO_LP_LxWS,
         hgun_Rook40_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_3(8Rnd_12Gauge_Pellets),
-        mag_3(8Rnd_12Gauge_Slug),
+        mag_3(8Rnd_12Gauge_AA40_Pellets_lxWS),
+        mag_3(8Rnd_12Gauge_AA40_Slug_lxWS),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_3(8Rnd_12Gauge_Pellets),
-        mag_3(8Rnd_12Gauge_Slug),
+        mag_3(8Rnd_12Gauge_AA40_Pellets_lxWS),
+        mag_3(8Rnd_12Gauge_AA40_Slug_lxWS),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
@@ -2600,28 +2600,28 @@ class O_recon_CQ_F: O_Soldier_recon_base
     };
     weapons[] =
     {
-        sgun_AA40_F,
+        Aegis_sgun_AA40_ACO_LP_snds_LxWS,
         hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        sgun_AA40_F,
+        Aegis_sgun_AA40_ACO_LP_snds_LxWS,
         hgun_Rook40_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_3(8Rnd_12Gauge_Pellets),
-        mag_3(8Rnd_12Gauge_Slug),
+        mag_3(8Rnd_12Gauge_AA40_Pellets_lxWS),
+        mag_3(8Rnd_12Gauge_AA40_Slug_lxWS),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_3(8Rnd_12Gauge_Pellets),
-        mag_3(8Rnd_12Gauge_Slug),
+        mag_3(8Rnd_12Gauge_AA40_Pellets_lxWS),
+        mag_3(8Rnd_12Gauge_AA40_Slug_lxWS),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell)
@@ -4112,6 +4112,11 @@ class O_T_Soldier_UAV_F: O_soldier_UAV_F
         mag_2(SmokeShell)
     };
 };
+class O_T_Soldier_UAV_02_lxWS_F: O_T_Soldier_UAV_F
+{
+    displayName = "UAV Operator (AP-5)";
+    backpack = Aegis_O_T_UAV_02_backpack_lxWS;
+};
 class O_T_Diver_F: O_diver_F
 {
     identityTypes[] =
@@ -5318,19 +5323,9 @@ class O_A_soldier_base_F: O_officer_F
         G_IRAN_officer,
         G_IRAN_african
     };
-    hiddenSelectionsTextures[] = {"\A3\Characters_F\OPFOR\Data\Officer_noInsignia_hex_CO.paa"};
+    uniformClass = U_O_LCF_noInsignia_hex_lxWS;
 	magazines[] = {};
 	respawnMagazines[] = {};
-    class Wounds
-    {
-        mat[] =
-        {
-            "A3\Characters_F\OPFOR\Data\Officer_noInsignia.rvmat",
-            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_injury_noInsignia.rvmat",
-            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_injury_noInsignia.rvmat"
-        };
-        tex[] = {};
-    };
     faction = OPF_A_F;
     genericNames = lxWS_WSaharaMen;
 };
@@ -5511,6 +5506,7 @@ class O_A_officer_F: O_A_soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_A_officer_F.jpg";
 	scope = public;
+    uniformClass = U_O_Officer_noInsignia_hex_F;
     linkedItems[] =
     {
         V_Rangemaster_belt_khk,
@@ -5920,7 +5916,9 @@ class O_A_helipilot_F: O_helipilot_F
 	identityTypes[] =
 	{
 		LanguageFRE_F,
-		Head_African,
+		Head_TK,
+        Head_African,
+        lxWS_Head_African,
 		G_IRAN_default
 	};
     faction = OPF_A_F;
@@ -6131,34 +6129,1921 @@ class O_A_officer_lxWS : O_officer_F
 {
     faction = OPF_A_F;
     editorSubcategory = EdSubcat_Personnel_Conscripts;
+    class EventHandlers: EventHandlers
+	{
+		init = "[_this select 0,'CSAT_ScimitarRegiment'] call bis_fnc_setUnitInsignia;";
+	};
+	class AttributeValues
+	{
+			unitInsignia = "CSAT_ScimitarRegiment";
+	};
 };
 class O_A_Soldier_TL_lxWS : O_Soldier_TL_F
 {
     faction = OPF_A_F;
     editorSubcategory = EdSubcat_Personnel_Conscripts;
+    class EventHandlers: EventHandlers
+	{
+		init = "[_this select 0,'CSAT_ScimitarRegiment'] call bis_fnc_setUnitInsignia;";
+	};
+	class AttributeValues
+	{
+			unitInsignia = "CSAT_ScimitarRegiment";
+	};
 };
 class O_A_Soldier_lxWS : O_Soldier_F
 {
     faction = OPF_A_F;
     editorSubcategory = EdSubcat_Personnel_Conscripts;
+    class EventHandlers: EventHandlers
+	{
+		init = "[_this select 0,'CSAT_ScimitarRegiment'] call bis_fnc_setUnitInsignia;";
+	};
+	class AttributeValues
+	{
+			unitInsignia = "CSAT_ScimitarRegiment";
+	};
 };
 class O_A_Soldier_GL_lxWS : O_Soldier_GL_F
 {
     faction = OPF_A_F;
     editorSubcategory = EdSubcat_Personnel_Conscripts;
+    class EventHandlers: EventHandlers
+	{
+		init = "[_this select 0,'CSAT_ScimitarRegiment'] call bis_fnc_setUnitInsignia;";
+	};
+	class AttributeValues
+	{
+			unitInsignia = "CSAT_ScimitarRegiment";
+	};
 };
 class O_A_medic_lxWS : O_medic_F
 {
     faction = OPF_A_F;
     editorSubcategory = EdSubcat_Personnel_Conscripts;
+    class EventHandlers: EventHandlers
+	{
+		init = "[_this select 0,'CSAT_ScimitarRegiment'] call bis_fnc_setUnitInsignia;";
+	};
+	class AttributeValues
+	{
+			unitInsignia = "CSAT_ScimitarRegiment";
+	};
 };
 class O_A_crew_lxWS : O_crew_F
 {
     faction = OPF_A_F;
     editorSubcategory = EdSubcat_Personnel_Conscripts;
+    class EventHandlers: EventHandlers
+	{
+		init = "[_this select 0,'CSAT_ScimitarRegiment'] call bis_fnc_setUnitInsignia;";
+	};
+	class AttributeValues
+	{
+			unitInsignia = "CSAT_ScimitarRegiment";
+	};
 };
 class O_A_Soldier_AR_lxWS : O_Soldier_AR_F
 {
     faction = OPF_A_F;
     editorSubcategory = EdSubcat_Personnel_Conscripts;
+    class EventHandlers: EventHandlers
+	{
+		init = "[_this select 0,'CSAT_ScimitarRegiment'] call bis_fnc_setUnitInsignia;";
+	};
+	class AttributeValues
+	{
+			unitInsignia = "CSAT_ScimitarRegiment";
+	};
+};
+class O_A_Soldier_LAT_lxWS: O_Soldier_LAT_F
+{
+    faction = OPF_A_F;
+    editorSubcategory = EdSubcat_Personnel_Conscripts;
+    class EventHandlers: EventHandlers
+	{
+		init = "[_this select 0,'CSAT_ScimitarRegiment'] call bis_fnc_setUnitInsignia;";
+	};
+	class AttributeValues
+	{
+			unitInsignia = "CSAT_ScimitarRegiment";
+	};
+};
+
+/* China (Desert) */
+class Aegis_O_C_D_Soldier_A_F: O_T_Soldier_A_F
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_A_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_Carryall_oicamo_OCDAmmo_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_AAR_F: O_T_Soldier_AAR_F
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_AAR_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_Carryall_oicamo_OCDAAR_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Support_AMG_F: O_T_Support_AMG_F
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Support_AMG_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Support_AMort_F: O_T_Support_AMort_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Support_AMort_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_AAA_F: O_T_Soldier_AAA_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_AAA_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_Carryall_oicamo_OCDAAA_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_AAT_F: O_T_Soldier_AAT_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_AAT_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_Carryall_oicamo_OCDAAT_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_AR_F: O_T_Soldier_AR_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_AR_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTARS_tan_ARCO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTARS_tan_ARCO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Medic_F: O_T_Medic_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Medic_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_FieldPack_oicamo_Medic_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Crew_F: O_T_Crew_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Crew_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_f,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_f,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_BandollierB_cbr,
+		H_HelmetCrew_O,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_BandollierB_cbr,
+		H_HelmetCrew_O,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Engineer_F: O_T_Engineer_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Engineer_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_carryall_oicamo_Eng_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_Exp_F: O_T_Soldier_Exp_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_Exp_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_carryall_oicamo_Exp_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_GL_F: O_T_Soldier_GL_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_GL_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_GL_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_GL_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessOGL_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOGL_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Support_GMG_F: O_T_Support_GMG_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Support_GMG_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Support_MG_F: O_T_Support_MG_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Support_MG_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Support_Mort_F: O_T_Support_Mort_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Support_Mort_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Helicrew_F: O_T_helicrew_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Helicrew_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_PilotCoveralls;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+    {
+        H_CrewHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+    respawnLinkedItems[] =
+    {
+        H_CrewHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+};
+class Aegis_O_C_D_Helipilot_F: O_T_helipilot_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Helipilot_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_PilotCoveralls;
+    linkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+    respawnLinkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+};
+class Aegis_O_C_D_Soldier_M_F: O_T_Soldier_M_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_M_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_AA_F: O_T_Soldier_AA_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_AA_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_FieldPack_oicamo_AA_F;
+    weapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+        launch_O_Titan_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+        launch_O_Titan_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_AT_F: O_T_Soldier_AT_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_AT_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_FieldPack_oicamo_AT_F;
+    weapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+        launch_O_Titan_short_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+        launch_O_Titan_short_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Officer_F: O_T_Officer_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_OFficer_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_OfficerUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_F,
+	    hgun_Pistol_Heavy_02_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_F,
+	    hgun_Pistol_Heavy_02_F,
+		DefaultManWeapons
+	};
+	linkedItems[] =
+    {
+        V_Rangemaster_belt_cbr,
+        H_Beret_CSAT_01_F,
+        ItemGPS,
+        DefaultManLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_Rangemaster_belt_cbr,
+        H_Beret_CSAT_01_F,
+        ItemGPS,
+        DefaultManLinkedItems
+    };
+};
+class Aegis_O_C_D_Soldier_PG_F: O_T_Soldier_PG_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_PG_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Pilot_F: O_T_Pilot_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Pilot_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_Pilot_Coveralls;
+    linkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+    respawnLinkedItems[] =
+    {
+        H_PilotHelmetHeli_O,
+        DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+};
+class Aegis_O_C_D_Soldier_Repair_F: O_T_Soldier_Repair_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_Repair_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_FieldPack_oicamo_RepSpec_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_F: O_T_Soldier_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ARCO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ARCO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_LAT_F: O_T_Soldier_LAT_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_LAT_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_FieldPack_oicamo_LAT_F;
+    weapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+        launch_RPG32_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+        launch_RPG32_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_SL_F: O_T_Soldier_SL_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_SL_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ARCO_Pointer_F,
+	    hgun_Rook40_F,
+        Binocular,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ARCO_Pointer_F,
+	    hgun_Rook40_F,
+        Binocular,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_TacVest_brn,
+		H_HelmetLeaderO_oicamo,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_brn,
+		H_HelmetLeaderO_oicamo,
+        DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_TL_F: O_T_Soldier_TL_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_TL_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_GL_tan_ARCO_Pointer_F,
+	    hgun_Rook40_F,
+        Binocular,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_GL_tan_ARCO_Pointer_F,
+	    hgun_Rook40_F,
+        Binocular,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessOGL_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOGL_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_UAV_F: O_T_Soldier_UAV_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_UAV_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_HAT_F: O_T_Soldier_HAT_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_HAT_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_FieldPack_oicamo_HAT_F;
+    weapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+        launch_O_Vorona_brown_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+        launch_O_Vorona_brown_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_AHAT_F: O_T_Soldier_AHAT_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_AHAT_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_Carryall_oicamo_OCDAHAT_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_Lite_F: O_T_Soldier_Lite_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_Lite_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_BandollierB_cbr,
+        H_MilCap_oicamo,
+        DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_BandollierB_cbr,
+        H_MilCap_oicamo,
+        DefaultManLinkedItems
+	};
+};
+class Aegis_O_C_D_Soldier_CQ_F: O_T_Soldier_CQ_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_CQ_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+    {
+        Aegis_sgun_AA40_tan_ACO_LP_LxWS,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        Aegis_sgun_AA40_tan_ACO_LP_LxWS,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_3(8Rnd_12Gauge_AA40_Pellets_tan_lxWS),
+        mag_3(8Rnd_12Gauge_AA40_Slug_tan_lxWS),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_3(8Rnd_12Gauge_AA40_Pellets_tan_lxWS),
+        mag_3(8Rnd_12Gauge_AA40_Slug_tan_lxWS),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    linkedItems[] =
+    {
+        V_TacVest_brn,
+        H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacVest_brn,
+        H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+    };
+};
+class Aegis_O_C_D_HeavyGunner_F: O_T_HeavyGunner_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_HeavyGunner_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+    {
+        Aegis_MMG_01_tan_ARCO_LP_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        Aegis_MMG_01_tan_ARCO_LP_F,
+        hgun_Rook40_F,
+        DefaultManWeapons
+    };
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Fighter_Pilot_F: O_T_Fighter_Pilot_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Fighter_Pilot_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_Pilot_F;
+};
+class Aegis_O_C_D_Soldier_CBRN_F: O_T_Soldier_CBRN_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_CBRN_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+    {
+        V_TacVest_brn,
+        H_HelmetO_oicamo,
+        G_AirPurifyingRespirator_02_sand_F,
+		DefaultManCbrnLinkedItems,
+		O_NVGoggles_hex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacVest_brn,
+        H_HelmetO_oicamo,
+        G_AirPurifyingRespirator_02_sand_F,
+		DefaultManCbrnLinkedItems,
+		O_NVGoggles_hex_F
+    };
+};
+class Aegis_O_C_D_RadioOperator_F: O_T_RadioOperator_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_RadioOperator_F.jpg";
+    faction = OPF_CD_F;
+    backpack = B_RadioBag_01_oicamo_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Soldier_UGV_02_Demining_F: Aegis_O_C_D_Soldier_UAV_F
+{
+    author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_soldier_UGV_02_Demining_F.jpg";
+	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
+	backpack = O_UGV_02_Demining_backpack_F;
+};
+class O_T_Soldier_UAV_06_F;
+class Aegis_O_C_D_Soldier_UAV_06_F: O_T_Soldier_UAV_06_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_UAV_06_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class O_T_Soldier_UAV_06_medical_F;
+class Aegis_O_C_D_Soldier_UAV_06_medical_F: O_T_Soldier_UAV_06_medical_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_UAV_06_medical_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_F,
+	    hgun_Rook40_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class O_T_Soldier_unarmed_F;
+class Aegis_O_C_D_Soldier_unarmed_F: O_T_Soldier_unarmed_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Soldier_Unarmed_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Sharpshooter_F: O_T_Sharpshooter_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Sharpshooter_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetO_oicamo,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Recon_Exp_F: O_T_Recon_Exp_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Recon_Exp_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_carryall_oicamo_Exp_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Recon_JTAC_F: O_T_Recon_JTAC_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Recon_JTAC_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_RadioBag_01_oicamo_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+        Laserdesignator_02,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+        laserdesignator_02,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessOGL_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOGL_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Recon_M_F: O_T_Recon_M_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Recon_M_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    linkedItems[] =
+	{
+		V_TacVest_brn,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_brn,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Recon_Medic_F: O_T_Recon_Medic_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Recon_Medic_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_FieldPack_oicamo_Medic_F;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ACO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Recon_F: O_T_Recon_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Recon_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ARCO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ARCO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessOSpec_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOSpec_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Recon_LAT_F: O_T_Recon_LAT_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Recon_LAT_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    backpack = B_FieldPack_oicamo_LAT_F;
+    weapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ACO_Pointer_Snds_F,
+        launch_RPG32_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ACO_Pointer_Snds_F,
+        launch_RPG32_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    linkedItems[] =
+	{
+		V_TacVest_brn,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_brn,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Recon_TL_F: O_T_Recon_TL_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Recon_TL_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ARCO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+        Rangefinder,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_tan_ARCO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+        Rangefinder,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessOSpec_oicamo,
+		H_HelmetLeaderO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOSpec_oicamo,
+		H_HelmetLeaderO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Sniper_F: O_sniper_F
+{
+    Author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Sniper_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_C_D_Sniper_oicamo_F;
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa",
+        "\A3\characters_f\Common\Data\ghillie_desert_CO.paa"
+    };
+    weapons[]=
+	{
+		srifle_GM6_LRPS_F,
+		hgun_Rook40_snds_F,
+		DefaultManWeapons,
+		Rangefinder
+		};
+	respawnWeapons[]=
+	{
+		srifle_GM6_LRPS_F,
+		hgun_Rook40_snds_F,
+		DefaultManWeapons,
+		Rangefinder
+	};
+    magazines[] =
+    {
+        mag_4(5Rnd_127x108_Mag),
+        mag_2(5Rnd_127x108_APDS_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_4(5Rnd_127x108_Mag),
+        mag_2(5Rnd_127x108_APDS_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    linkedItems[] =
+    {
+        V_TacChestrig_cbr_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacChestrig_cbr_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+};
+class Aegis_O_C_D_Spotter_F: O_spotter_F
+{
+    Author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Spotter_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_C_D_Sniper_oicamo_F;
+    identityTypes[] =
+    {
+        LanguageCHI_F,
+        Head_Asian,
+        G_IRAN_default
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa",
+        "\A3\characters_f\Common\Data\ghillie_desert_CO.paa"
+    };
+    weapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Laserdesignator_02
+    };
+    respawnWeapons[] =
+    {
+        Aegis_arifle_CTAR_tan_ARCO_Pointer_Snds_F,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons,
+        Laserdesignator_02
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(MiniGrenade),
+        mag_2(O_IR_Grenade),
+        Laserbatteries,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(MiniGrenade),
+        mag_2(O_IR_Grenade),
+        Laserbatteries,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    linkedItems[] =
+    {
+        V_TacChestrig_cbr_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacChestrig_cbr_F,
+        ItemGPS,
+        DefaultManLinkedItems,
+        O_NVGoggles_hex_F
+    };
+};
+class Aegis_O_C_D_Recon_CQ_F: O_T_Recon_CQ_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Recon_CQ_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+    {
+        Aegis_sgun_AA40_tan_ACO_LP_snds_LxWS,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        Aegis_sgun_AA40_tan_ACO_LP_snds_LxWS,
+        hgun_Rook40_snds_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_3(8Rnd_12Gauge_AA40_Pellets_tan_lxWS),
+        mag_3(8Rnd_12Gauge_AA40_Slug_tan_lxWS),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_3(8Rnd_12Gauge_AA40_Pellets_tan_lxWS),
+        mag_3(8Rnd_12Gauge_AA40_Slug_tan_lxWS),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell)
+    };
+    linkedItems[] =
+	{
+		V_TacVest_brn,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_brn,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Recon_AR_F: O_T_Recon_AR_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Recon_AR_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTARS_tan_ARCO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTARS_tan_ARCO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessOSpec_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOSpec_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Recon_GL_F: O_T_Recon_GL_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Recon_GL_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    weapons[] =
+	{
+		Aegis_arifle_CTAR_GL_tan_ARCO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_CTAR_GL_tan_ARCO_Pointer_Snds_F,
+	    hgun_Rook40_snds_F,
+		DefaultManWeapons
+	};
+    linkedItems[] =
+	{
+		V_HarnessOGL_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOGL_oicamo,
+		H_HelmetSpecO_oicamo,
+		DefaultManLeaderLinkedItems,
+		O_NVGoggles_hex_F
+	};
+};
+class Aegis_O_C_D_Pathfinder_F: O_T_Pathfinder_F
+{
+    Author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_C_D_Pathfinder_F.jpg";
+    faction = OPF_CD_F;
+    uniformClass = U_O_CombatUniform_oicamo;
+    linkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetSpecO_oicamo,
+        ItemGPS,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_oicamo,
+		H_HelmetSpecO_oicamo,
+        ItemGPS,
+		DefaultManLinkedItems,
+		O_NVGoggles_hex_F
+	};
 };

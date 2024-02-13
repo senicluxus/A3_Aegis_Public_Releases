@@ -27,6 +27,9 @@ class CfgPatches
             Atlas_O_T_Truck_02_fuel_F,
             Atlas_O_T_Truck_02_medical_F,
             Atlas_O_T_Truck_02_transport_F,
+            Atlas_O_T_Truck_02_aa_lxWS,
+            Atlas_O_T_Truck_02_MRL_F,
+
 
             // HIMF
             Atlas_B_H_Truck_02_cargo_F,

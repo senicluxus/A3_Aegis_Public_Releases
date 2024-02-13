@@ -200,6 +200,163 @@ class O_LightFatigues_01_oicamo_F: O_A_officer_F
 	uniformClass = U_O_officer_noInsignia_oicamo_F;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_oicamo_CO.paa"};
 };
+class Aegis_O_CombatFatigues_F: O_A_officer_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_F;
+	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\Aegis_OCombatUniform_F.p3d";
+	hiddenSelections[] =
+	{
+		camo,
+		camo1,
+		camo2,
+		insignia
+	};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_hex_CO.paa",
+		"\A3\characters_f\OPFOR\Data\clothing_co.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa"
+	};
+	class Wounds
+	{
+		tex[]={};
+		mat[]=
+		{
+			"A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform.rvmat",
+			"A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_injury.rvmat",
+			"A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_injury.rvmat",
+			"A3\Characters_F\OPFOR\Data\clothing.rvmat",
+			"A3\Characters_F\OPFOR\Data\clothing_injury.rvmat",
+			"A3\Characters_F\OPFOR\Data\clothing_injury.rvmat",
+			"a3\characters_f\heads\data\m_white_01.rvmat",
+			"a3\characters_f\heads\data\m_white_01_injury.rvmat",
+			"a3\characters_f\heads\data\m_white_01_injury.rvmat",
+			"A3\Characters_F\Common\Data\basicbody.rvmat",
+			"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+			"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+			"a3\characters_f\heads\data\hl_white.rvmat",
+			"a3\characters_f\heads\data\hl_white_injury.rvmat",
+			"a3\characters_f\heads\data\hl_white_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+			"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
+		};
+	};
+};
+class Aegis_O_CombatFatigues_02_F: O_A_officer_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_02_F;
+	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\Aegis_OCombatUniform_02_F.p3d";
+	hiddenSelections[] =
+	{
+		camo,
+		camo1,
+		camo2,
+		insignia
+	};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_hex_CO.paa",
+		"\A3\characters_f\OPFOR\Data\clothing_co.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa"
+		
+	};
+	class Wounds
+	{
+		tex[]={};
+		mat[]=
+		{
+			"A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform.rvmat",
+			"A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_injury.rvmat",
+			"A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_injury.rvmat",
+			"A3\Characters_F\OPFOR\Data\clothing.rvmat",
+			"A3\Characters_F\OPFOR\Data\clothing_injury.rvmat",
+			"A3\Characters_F\OPFOR\Data\clothing_injury.rvmat",
+			"a3\characters_f\heads\data\m_white_01.rvmat",
+			"a3\characters_f\heads\data\m_white_01_injury.rvmat",
+			"a3\characters_f\heads\data\m_white_01_injury.rvmat",
+			"A3\Characters_F\Common\Data\basicbody.rvmat",
+			"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+			"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+			"a3\characters_f\heads\data\hl_white.rvmat",
+			"a3\characters_f\heads\data\hl_white_injury.rvmat",
+			"a3\characters_f\heads\data\hl_white_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_02_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+			"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+			"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_tanoan_bald_muscular_injury.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat",
+			"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
+		};
+	};
+};
+class Aegis_O_LightCombatFatigues_hex_F: O_A_Soldier_lxWS
+{
+	scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_LightCombatFatigues_hex_F;
+	hiddenSelectionsTextures[] = 
+	{
+		"lxWS\characters_1_f_lxws\uniform\data\lxws_gloves_brown_co.paa",
+		"\A3\characters_f\OPFOR\Data\Officer_noinsignia_hex_CO.paa",
+		"\a3\characters_f\OPFOR\Data\clothing_CO.paa"
+	};
+};
+class Aegis_O_LightCombatFatigues_urb_F: O_A_Soldier_lxWS
+{
+	scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_LightCombatFatigues_urb_F;
+	hiddenSelectionsTextures[] = 
+	{
+		"\a3\characters_f_beta\INDEP\Data\ia_soldier_01_clothing_co.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_urb_CO.paa",
+		"\a3\characters_f\OPFOR\Data\clothing_oucamo_CO.paa"
+	};
+};
 
 /* China */
 class O_LightFatigues_01_ghex_F: O_A_officer_F
@@ -209,7 +366,91 @@ class O_LightFatigues_01_ghex_F: O_A_officer_F
 	uniformClass = U_O_T_officer_noInsignia_ghex_F;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_tna_CO.paa"};
 };
-
+class O_C_D_Sniper_oicamo_F: Aegis_O_C_D_Sniper_F
+{
+	scope = protected;
+    scopeCurator = private;
+	uniformClass = U_O_C_D_Sniper_oicamo_F;
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_oicamo_CO.paa",
+        "\A3\characters_f\Common\Data\ghillie_desert_CO.paa"
+    };
+};
+class Aegis_O_CombatFatigues_ghex_F: Aegis_O_CombatFatigues_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_ghex_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_ghex_CO.paa",
+		"\A3\characters_f_exp\OPFOR\Data\clothing_tna_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa"
+		
+	};
+};
+class Aegis_O_CombatFatigues_02_ghex_F: Aegis_O_CombatFatigues_02_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_02_ghex_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_ghex_CO.paa",
+		"\A3\characters_f_exp\OPFOR\Data\clothing_tna_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa"
+	};
+};
+class Aegis_O_CombatFatigues_dst_F: Aegis_O_CombatFatigues_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_dst_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_dst_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa"
+	};
+};
+class Aegis_O_CombatFatigues_02_dst_F: Aegis_O_CombatFatigues_02_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_02_dst_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_dst_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa"
+	};
+};
+class Aegis_O_LightCombatFatigues_ghex_F: O_A_Soldier_lxWS
+{
+	scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ghex_F;
+	hiddenSelectionsTextures[] = 
+	{
+		"\a3\characters_f_beta\INDEP\Data\ia_soldier_01_clothing_co.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_tna_CO.paa",
+		"\A3\characters_f_exp\OPFOR\Data\clothing_tna_CO.paa"
+	};
+};
+class Aegis_O_LightCombatFatigues_dst_F: O_A_Soldier_lxWS
+{
+	scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_LightCombatFatigues_dst_F;
+	hiddenSelectionsTextures[] = 
+	{
+		"lxWS\characters_1_f_lxws\uniform\data\lxws_gloves_brown_co.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noinsignia_oicamo_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa"
+	};
+};
 /* Civilians */
 class B_CBRN_Man_Base_F: B_Soldier_F
 {
@@ -448,6 +689,260 @@ class O_R_LightFatigues_01_arid_F: O_R_LightFatigues_01_taiga_F
 	uniformClass = U_O_R_officer_noInsignia_arid_F;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noInsignia_RUarid_CO.paa"};
 };
+// Luchniks - Redacted Pending Model Rework
+/*class Aegis_O_Luchnik_01_taiga_F: O_A_officer_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_taiga_F;
+	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\Aegis_O_Soldier_03.p3d";
+	hiddenSelections[] =
+	{
+		camo,
+		camo1,
+		camo2,
+		insignia
+	};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_rutaiga_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa"
+	};
+};
+class Aegis_O_Luchnik_01_shortsleeve_taiga_F: O_A_officer_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_taiga_F;
+	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\Aegis_O_Soldier_04.p3d";
+	hiddenSelections[] =
+	{
+		camo,
+		camo1,
+		camo2,
+		insignia
+	};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_rutaiga_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa"
+	};
+};
+class Aegis_O_Luchnik_01_officer_taiga_F: O_A_officer_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_officer_taiga_F;
+	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\Aegis_O_Officer_02.p3d";
+	hiddenSelections[] =
+	{
+		camo,
+		camo2,
+		insignia
+	};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_officer_rutaiga_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa"
+	};
+};
+class Aegis_O_Luchnik_01_arid_F: Aegis_O_Luchnik_01_taiga_F
+
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_taiga_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_ruarid_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa"
+	};
+};
+class Aegis_O_Luchnik_01_shortsleeve_arid_F: Aegis_O_Luchnik_01_shortsleeve_taiga_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_taiga_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_ruarid_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa"
+	};
+};
+class Aegis_O_Luchnik_01_officer_arid_F: Aegis_O_Luchnik_01_officer_taiga_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_officer_taiga_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_officer_ruarid_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa"
+	};
+};
+class Aegis_O_Luchnik_01_hex_F: Aegis_O_Luchnik_01_taiga_F
+
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_hex_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_hex_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa",
+		"\A3\characters_f\OPFOR\Data\clothing_co.paa"
+	};
+};
+class Aegis_O_Luchnik_01_shortsleeve_hex_F: Aegis_O_Luchnik_01_shortsleeve_taiga_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_hex_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_hex_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa",
+		"\A3\characters_f\OPFOR\Data\clothing_co.paa"
+	};
+};
+class Aegis_O_Luchnik_01_ghex_F: Aegis_O_Luchnik_01_taiga_F
+
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_ghex_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_ghex_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa",
+		"\A3\characters_f_exp\OPFOR\Data\clothing_tna_CO.paa"
+	};
+};
+class Aegis_O_Luchnik_01_shortsleeve_ghex_F: Aegis_O_Luchnik_01_shortsleeve_taiga_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_ghex_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_ghex_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa",
+		"\A3\characters_f_exp\OPFOR\Data\clothing_tna_CO.paa"
+	};
+};
+class Aegis_O_Luchnik_01_dst_F: Aegis_O_Luchnik_01_taiga_F
+
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_dst_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_dst_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa"
+	};
+};
+class Aegis_O_Luchnik_01_shortsleeve_dst_F: Aegis_O_Luchnik_01_shortsleeve_taiga_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_dst_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_dst_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa"
+	};
+};*/
+class Aegis_O_LightCombatFatigues_rutaiga_F: O_A_Soldier_lxWS
+{
+	scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_LightCombatFatigues_rutaiga_F;
+	hiddenSelectionsTextures[] = 
+	{
+		"\a3\characters_f_enoch\Uniforms\Data\I_E_Soldier_01_Pants_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noInsignia_RUtaiga_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa"
+	};
+	hiddenSelectionsMaterials[] = 
+	{
+		"\lxws\characters_1_f_lxws\uniform\data\ia_soldier_01_gloves.rvmat",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noInsignia_RUtaiga.rvmat",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga.rvmat"
+	};
+};
+class Aegis_O_LightCombatFatigues_ruarid_F: O_A_Soldier_lxWS
+{
+	scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	hiddenSelectionsTextures[] = 
+	{
+		"\a3\characters_f_enoch\Uniforms\Data\I_E_Soldier_01_Pants_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noInsignia_RUarid_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUArid_CO.paa"
+	};
+	hiddenSelectionsMaterials[] = 
+	{
+		"\lxws\characters_1_f_lxws\uniform\data\ia_soldier_01_gloves.rvmat",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noInsignia_RUtaiga.rvmat",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga.rvmat"
+	};
+};
+class Aegis_O_CombatFatigues_rutaiga_F: Aegis_O_CombatFatigues_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_rutaiga_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_rutaiga_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa"
+	};
+};
+class Aegis_O_CombatFatigues_02_rutaiga_F: Aegis_O_CombatFatigues_02_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_02_rutaiga_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_rutaiga_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa"
+	};
+};
+class Aegis_O_CombatFatigues_ruarid_F: Aegis_O_CombatFatigues_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_ruarid_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_ruarid_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa"
+	};
+};
+class Aegis_O_CombatFatigues_02_ruarid_F: Aegis_O_CombatFatigues_02_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_02_ruarid_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_ruarid_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa"
+	};
+};
 
 /* LDF */
 class I_E_Uniform_01_F: I_E_Man_Base_F
@@ -659,5 +1154,103 @@ class I_Uniform_01_tanktop_F: I_E_Uniform_01_tanktop_F
 			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing_injury.rvmat",
 			INJURY_PERSONALITY_MATERIALS
 		};
+	};
+};
+
+/* Opfor Light Fatigues (tee) */
+class Aegis_O_Fatigues_01_Tshirt_hex_F: O_R_Fatigues_01_Tshirt_taiga_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatUniform_tshirt_hex_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\basicbody_CSAT_CO.paa",
+		"\A3\characters_f\OPFOR\Data\clothing_co.paa"
+	};
+};
+class Aegis_O_Fatigues_01_Tshirt_dst_F: O_R_Fatigues_01_Tshirt_taiga_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatUniform_tshirt_dst_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\basicbody_CSAT_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa"
+	};
+};
+class Aegis_O_Fatigues_01_Tshirt_ghex_F: O_R_Fatigues_01_Tshirt_taiga_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatUniform_tshirt_ghex_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\basicbody_CSAT_CO.paa",
+		"\A3\characters_f_exp\OPFOR\Data\clothing_tna_CO.paa"
+	};
+};
+class Aegis_O_Fatigues_01_Tshirt_urb_F: O_R_Fatigues_01_Tshirt_taiga_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatUniform_urb_ghex_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\basicbody_CSAT_CO.paa",
+		"\A3\characters_f\OPFOR\Data\clothing_oucamo_co.paa"
+	};
+};
+
+/* Generic CSAT Combat Fatigues*/
+class Aegis_O_CombatFatigues_oli_F: Aegis_O_CombatFatigues_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_oli_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_oli_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oli_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa"
+		
+	};
+};
+class Aegis_O_CombatFatigues_02_oli_F: Aegis_O_CombatFatigues_02_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_02_oli_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_oli_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oli_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa"
+	};
+};
+class Aegis_O_CombatFatigues_khk_F: Aegis_O_CombatFatigues_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_khk_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_khk_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_khk_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa"
+		
+	};
+};
+class Aegis_O_CombatFatigues_02_khk_F: Aegis_O_CombatFatigues_02_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_CombatFatigues_02_khk_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_khk_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_khk_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa"
 	};
 };

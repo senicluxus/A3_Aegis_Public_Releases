@@ -3,11 +3,11 @@ class StageTI
 	texture="a3\data_f\default_ti_ca.tga";
 };
 ambient[]={1,1,1,1};
-diffuse[]={1,1,1,1};
+diffuse[]={80/4,35/4,5/4,1};
 forcedDiffuse[]={0,0,0,1};
 emmisive[]={0,0,0,1};
-specular[]={0.99999976,0.99999976,0.99999976,1};
-specularPower=500;
+specular[]={25/5,3/5,10/5,1};
+specularPower=350;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="#(argb,8,8,3)color(0,0.6,1,1,SMDI)";
+	texture="#(argb,8,8,3)color(0,0.06,0.7,1,SMDI)";
 	uvSource="tex";
 	class uvTransform
 	{

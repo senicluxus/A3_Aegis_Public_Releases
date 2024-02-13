@@ -1,6 +1,7 @@
 /* US */
 class B_LSV_01_armed_F: LSV_01_armed_base_F{};
 class B_LSV_01_unarmed_F;
+class B_LSV_01_AT_F;
 class B_LSV_01_light_F: LSV_01_light_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -523,6 +524,49 @@ class B_W_LSV_01_light_F: LSV_01_light_base_F
 		};
 	};
 };
+
+/* US (Desert) */
+class Aegis_B_D_LSV_01_armed_F: B_LSV_01_armed_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	scopeCurator = public;
+	side = TWest;
+	faction = BLU_NATO_lxWS;
+	crew = B_D_Soldier_lxWS;
+	typicalCargo[] = {B_D_Soldier_lxWS};
+};
+class Aegis_B_D_LSV_01_AT_F: B_LSV_01_AT_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	scopeCurator = public;
+	side = TWest;
+	faction = BLU_NATO_lxWS;
+	crew = B_D_Soldier_lxWS;
+	typicalCargo[] = {B_D_Soldier_lxWS};
+};
+class Aegis_B_D_LSV_01_unarmed_F: B_LSV_01_unarmed_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	scopeCurator = public;
+	side = TWest;
+	faction = BLU_NATO_lxWS;
+	crew = B_D_Soldier_lxWS;
+	typicalCargo[] = {B_D_Soldier_lxWS};
+};
+class Aegis_B_D_LSV_01_light_F: B_LSV_01_light_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	scopeCurator = public;
+	side = TWest;
+	faction = BLU_NATO_lxWS;
+	crew = B_D_Soldier_lxWS;
+	typicalCargo[] = {B_D_Soldier_lxWS};
+};
+
 
 /* BAF */
 class B_A_LSV_01_armed_F: LSV_01_armed_base_F

@@ -185,6 +185,32 @@ class CfgVehicles
 		};
 	};
 
+	/* T-100X Futura */
+	class MBT_02_railgun_base_F;
+	class O_MBT_02_railgun_base_F: MBT_02_railgun_base_F
+	{
+		class TextureSources
+		{
+			class Green
+        	{
+            	displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+            	author = $STR_A3_A_AveryTheKitty;
+            	textures[] =
+            	{
+                	"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_body_RUkhk_CO.paa",
+                	"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_turret_RUkhk_CO.paa",
+                	"\A3_Aegis\Armor_F_Aegis\MBT_02\Data\MBT_02_RUkhk_CO.paa",
+                	"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa"
+            	};
+            	factions[] = {};
+        	};
+		};
+		class TransportBackpacks
+		{
+			bag_xx(B_FieldPack_ocamo,2);
+		};
+	};
+
     /* Factions */
     #include "cfgOPFOR.hpp" // IAF, China & Argana
     #include "cfgRUS.hpp"   // Russia

@@ -20,6 +20,9 @@ class CfgPatches
             Atlas_B_G_HMG_01_A_F,
             Atlas_B_G_HMG_01_F,
             Atlas_B_G_HMG_01_high_F,
+            Atlas_B_G_HMG_01_A_ard_F,
+            Atlas_B_G_HMG_01_ard_F,
+            Atlas_B_G_HMG_01_high_ard_F,
 
             // Takistani Army
             Atlas_O_T_HMG_01_F,

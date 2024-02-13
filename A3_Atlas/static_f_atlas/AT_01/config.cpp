@@ -2,6 +2,9 @@
 #include "cfgPatches.hpp"
 class CfgVehicles
 {
+	/* Definitions */
+    #include "\A3_Aegis\macros_supportBags.hpp"
+	
 	// Arma 3
 	class B_static_AT_F;
 	class O_static_AT_F;

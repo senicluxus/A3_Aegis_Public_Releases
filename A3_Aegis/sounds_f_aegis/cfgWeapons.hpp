@@ -708,9 +708,9 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					AK47_silencerShot_SoundSet,
-					AK47_silencerTail_SoundSet,
-					AK47_silencerInteriorTail_SoundSet
+					AK12_silencerShot_SoundSet,
+					AK12_silencerTail_SoundSet,
+					AK12_silencerInteriorTail_SoundSet
 				};
 			};
 	  	};
@@ -730,9 +730,9 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					AK47_silencerShot_SoundSet,
-					AK47_silencerTail_SoundSet,
-					AK47_silencerInteriorTail_SoundSet
+					AK12_silencerShot_SoundSet,
+					AK12_silencerTail_SoundSet,
+					AK12_silencerInteriorTail_SoundSet
 				};
 			};
 	  	};
@@ -919,7 +919,7 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					SPAR02_Shot_SoundSet,
+					XMS_Shot_SoundSet,
 					SPAR02_tail_SoundSet,
 					SPAR02_InteriorTail_SoundSet
 				};
@@ -928,9 +928,9 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					SPAR02_silencerShot_SoundSet,
-					SPAR02_silencerTail_SoundSet,
-					SPAR02_silencerInteriorTail_SoundSet
+					Msbs65_01_Shot_Silencer_SoundSet,
+					SPAR01_silencerTail_SoundSet,
+					Msbs65_01_Tail_Int_Silencer_SoundSet
 				};
 			};
 	  	};
@@ -941,7 +941,7 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					SPAR02_Shot_SoundSet,
+					XMS_Shot_SoundSet,
 					SPAR02_tail_SoundSet,
 					SPAR02_InteriorTail_SoundSet
 				};
@@ -950,9 +950,9 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					SPAR02_silencerShot_SoundSet,
-					SPAR02_silencerTail_SoundSet,
-					SPAR02_silencerInteriorTail_SoundSet
+					Msbs65_01_Shot_Silencer_SoundSet,
+					SPAR01_silencerTail_SoundSet,
+					Msbs65_01_Tail_Int_Silencer_SoundSet
 				};
 			};
 	  	};
@@ -1143,6 +1143,15 @@ class CfgWeapons
 					M4_SSAS_interiorTail_SoundSet
 				};
 			};
+			class SilencedSound: BaseSoundModeType
+			{
+				SoundSetShot[]=
+				{
+					"AA40_silencerShot_SoundSet",
+					"SyndikatLMG_silencerTail_SoundSet",
+					"SyndikatLMG_silencerInteriorTail_SoundSet"
+				};
+			};
 		};
 	};
 	class sgun_Mp153_black_F: Rifle_Base_F
@@ -1186,6 +1195,15 @@ class CfgWeapons
 					MP153_Shot_SoundSet,
 					MP153_Tail_SoundSet,
 					MP153_interiorTail_SoundSet
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				SoundSetShot[]=
+				{
+					"AA40_silencerShot_SoundSet",
+					"SyndikatLMG_silencerTail_SoundSet",
+					"SyndikatLMG_silencerInteriorTail_SoundSet"
 				};
 			};
 		};
@@ -1266,5 +1284,381 @@ class CfgWeapons
 				};
 			};
 		};
+	};
+	class Aegis_Autocannon_Heli_Attack_04_HE_F: CannonCore
+	{
+		class AutoFast: Mode_FullAuto
+		{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"Autocannon30mmTurret_Shot_SoundSet",
+					"Autocannon30mmTurret_Tail_SoundSet"
+				};
+			};
+		};
+	};
+	class Aegis_arifle_SR25_base_F: Rifle_Base_F
+	{
+		bullet1[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\metal_762_01",
+			"db-6",
+			1,
+			15
+		};
+		bullet2[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\metal_762_02",
+			"db-6",
+			1,
+			15
+		};
+		bullet3[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\metal_762_03",
+			"db-6",
+			1,
+			15
+		};
+		bullet4[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\metal_762_04",
+			"db-6",
+			1,
+			15
+		};
+		bullet5[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\dirt_762_01",
+			"db-8",
+			1,
+			15
+		};
+		bullet6[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\dirt_762_02",
+			"db-8",
+			1,
+			15
+		};
+		bullet7[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\dirt_762_03",
+			"db-8",
+			1,
+			15
+		};
+		bullet8[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\dirt_762_04",
+			"db-8",
+			1,
+			15
+		};
+		bullet9[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\grass_762_01",
+			"db-12",
+			1,
+			15
+		};
+		bullet10[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\grass_762_02",
+			"db-12",
+			1,
+			15
+		};
+		bullet11[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\grass_762_03",
+			"db-12",
+			1,
+			15
+		};
+		bullet12[]=
+		{
+			"\A3\Sounds_F\weapons\shells\7_62\grass_762_04",
+			"db-12",
+			1,
+			15
+		};
+		soundBullet[]=
+		{
+			"bullet1",
+			"1/12",
+			"bullet2",
+			"1/12",
+			"bullet3",
+			"1/12",
+			"bullet4",
+			"1/12",
+			"bullet5",
+			"1/12",
+			"bullet6",
+			"1/12",
+			"bullet7",
+			"1/12",
+			"bullet8",
+			"1/12",
+			"bullet9",
+			"1/12",
+			"bullet10",
+			"1/12",
+			"bullet11",
+			"1/12",
+			"bullet12",
+			"1/12"
+		};
+		drySound[]=
+		{
+			"\A3_Aegis\sounds_f_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_dry",
+			"db-5",
+			1,
+			10
+		};		
+		reloadMagazineSound[]=
+		{
+			"\A3_Aegis\sounds_f_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_reload",
+			"db0",
+			1,
+			10
+		};
+		class Single: Mode_SemiAuto
+		{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"lxWS_FAL_Shot_SoundSet",
+					"DMR06_tail_SoundSet",
+					"DMR06_InteriorTail_SoundSet"
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"Msbs65_01_Shot_Silencer_SoundSet",
+					"SPAR01_silencerTail_SoundSet",
+					"Msbs65_01_Tail_Int_Silencer_SoundSet"
+				};
+			};
+		};
+	};
+	class Aegis_arifle_M4A1_base_F: Rifle_Base_F
+	{
+		bullet1[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_01",
+			0.44668359,
+			1,
+			15
+		};
+		bullet2[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_02",
+			0.44668359,
+			1,
+			15
+		};
+		bullet3[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_03",
+			0.44668359,
+			1,
+			15
+		};
+		bullet4[]=
+		{
+			"A3\sounds_f\weapons\shells\5_56\Shellcase_556_Metal_04",
+			0.44668359,
+			1,
+			15
+		};
+		bullet5[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_01",
+			0.56234133,
+			1,
+			15
+		};
+		bullet6[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_02",
+			0.56234133,
+			1,
+			15
+		};
+		bullet7[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_03",
+			0.56234133,
+			1,
+			15
+		};
+		bullet8[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Dirt_04",
+			0.56234133,
+			1,
+			15
+		};
+		bullet9[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_01",
+			0.56234133,
+			1,
+			15
+		};
+		bullet10[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_02",
+			0.56234133,
+			1,
+			15
+		};
+		bullet11[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_03",
+			0.56234133,
+			1,
+			15
+		};
+		bullet12[]=
+		{
+			"A3\sounds_f\weapons\shells\7_62\Shellcase_762_Grass_04",
+			0.56234133,
+			1,
+			15
+		};
+		soundBullet[]=
+		{
+			"bullet1",
+			0.086999997,
+			"bullet2",
+			0.082999997,
+			"bullet3",
+			0.082999997,
+			"bullet4",
+			0.082999997,
+			"bullet5",
+			0.082999997,
+			"bullet6",
+			0.082999997,
+			"bullet7",
+			0.082999997,
+			"bullet8",
+			0.082999997,
+			"bullet9",
+			0.082999997,
+			"bullet10",
+			0.082999997,
+			"bullet11",
+			0.082999997,
+			"bullet12",
+			0.082999997
+		};
+		drySound[]=
+		{
+			"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_dry",
+			0.56234133,
+			1,
+			10
+		};
+		reloadMagazineSound[]=
+		{
+			"A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_reload",
+			15,
+			1,
+			10
+		};
+		changeFiremodeSound[]=
+		{
+			"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_firemode",
+			0.17782794,
+			1,
+			5
+		};
+		class Single: Mode_SemiAuto
+		{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"Aegis_M4A1_Shot_SoundSet",
+					"Aegis_M4A1_Tail_SoundSet",
+					"Aegis_M4A1_InteriorTail_SoundSet"
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"VelkoR5_silencerShot_SoundSet",
+					"AK12_silencerTail_SoundSet",
+					"AK12_silencerInteriorTail_SoundSet"
+				};
+			};
+		};
+		class FullAuto: Mode_FullAuto
+		{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"Aegis_M4A1_Shot_SoundSet",
+					"Aegis_M4A1_Tail_SoundSet",
+					"Aegis_M4A1_InteriorTail_SoundSet"
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"VelkoR5_silencerShot_SoundSet",
+					"AK12_silencerTail_SoundSet",
+					"AK12_silencerInteriorTail_SoundSet"
+				};
+			};
+		};
+	};		
+	class Aegis_arifle_M4A1_GL_base_F: Aegis_arifle_M4A1_base_F
+	{
+		class EGLM: UGL_F
+		{
+			reloadMagazineSound[]=
+			{
+				"A3\Sounds_F_Exp\arsenal\weapons\Rifles\SPAR01\SPAR01_UGL_reload",
+				1,
+				1,
+				10
+			};
+			class Single: Mode_SemiAuto
+			{
+				sounds[]=
+				{
+					"StandardSound"
+				};
+				class StandardSound
+				{
+					soundSetShot[]=
+					{
+						"Msbs65_01_Ugl_Shot_SoundSet",
+						"Msbs65_01_Ugl_Tail_SoundSet",
+						"Msbs65_01_Ugl_InteriorTail_SoundSet"
+					};
+				};
+			};
+		};
+	};
+	class Aegis_arifle_M4A1_short_base_F: Aegis_arifle_M4A1_base_F
+	{
 	};
 };

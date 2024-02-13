@@ -25,6 +25,7 @@ class CfgVehicles
 	};
     #include "cfgRUS.hpp"       // Russia
     #include "cfgION.hpp"       // ION
+	#include "cfgEAF.hpp"		// Blufor LDF
 
     /* Deprecated */
     #include "deprecated.hpp"

@@ -10,6 +10,7 @@ class CfgPatches
             /* From "cfgBLUFOR.hpp" */
             B_T_UAV_02_dynamicLoadout_F,
             B_W_UAV_02_dynamicLoadout_F,
+            Aegis_B_D_UAV_02_dynamicLoadout_F,
             B_A_UAV_02_dynamicLoadout_F,
             B_A_UAV_02_dynamicLoadout_tna_F,
             B_A_UAV_02_dynamicLoadout_wdl_F,

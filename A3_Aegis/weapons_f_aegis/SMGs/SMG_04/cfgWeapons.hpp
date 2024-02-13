@@ -13,7 +13,7 @@ class CfgWeapons
 		scope = private;
 		displayName = $STR_A3_A_CfgWeapons_SMG_04_base_F0;
 		descriptionShort = $STR_A3_A_CfgWeapons_SMG_04_base_F1;
-		model = "\A3_Aegis\Weapons_F_Aegis\SMGs\SMG_04\SMG_04_F.p3d";
+		model = "\A3_Aegis\Weapons_F_Aegis\SMGs\SMG_04\SMG_04_Rail_F.p3d";
 		UiPicture = "\A3\Weapons_F\Data\UI\icon_regular_CA.paa";
 		hiddenSelections[] = {camo};
 		handAnim[] =
@@ -53,7 +53,12 @@ class CfgWeapons
 			class MuzzleSlot: asdg_MuzzleSlot_46
 			{
 				linkProxy = "\A3\Data_F\Proxies\weapon_slots\MUZZLE";
-				compatibleItems[] = {muzzle_snds_460};
+				compatibleItems[] = 
+				{
+					muzzle_snds_460,
+					aegis_muzzle_snds_460_khaki,
+					aegis_muzzle_snds_460_sand
+				};
 				iconPosition[] =
 				{
 					0.13,   // X
@@ -70,8 +75,7 @@ class CfgWeapons
 				};
 				iconScale = 0.15;
 			};
-			class PointerSlot{};
-	        /*
+			/*class PointerSlot{};*/
 			class PointerSlot: asdg_FrontSideRail
 			{
 				iconPosition[] =
@@ -81,7 +85,6 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-	        */
 			mass = 40;
 		};
 		distanceZoomMin = 50;

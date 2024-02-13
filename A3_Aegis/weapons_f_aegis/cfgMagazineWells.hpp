@@ -11,7 +11,31 @@ class CfgMagazineWells
             30Rnd_545x39_AK12_Arid_Mag_F,
             30Rnd_545x39_AK12_Arid_Mag_Tracer_F,
             30Rnd_545x39_Black_Mag_F,
-            30Rnd_545x39_Black_Mag_Tracer_F
+			30Rnd_545x39_Black_Mag_Yellow_F,
+            30Rnd_545x39_Black_Mag_Tracer_F,
+			30Rnd_545x39_Black_Mag_Tracer_Yellow_F,
+			30Rnd_545x39_Mag_Sand_Green_F,
+			30Rnd_545x39_Mag_Sand_F,
+			30Rnd_545x39_Mag_Tracer_Sand_Green_F,
+            30Rnd_545x39_Mag_Tracer_Sand_F,
+            30Rnd_545x39_Mag_Olive_F,
+            30Rnd_545x39_Mag_Tracer_Olive_F,
+			30Rnd_545x39_Steel_Mag_F,
+			30rnd_545x39_Steel_Mag_Green_F,
+			30rnd_545x39_Steel_Mag_Red_F,
+			30Rnd_545x39_Steel_Tracer_Mag_F,
+			30rnd_545x39_Steel_Tracer_Mag_Green_F,
+			30rnd_545x39_Steel_Tracer_Mag_Red_F,
+			30Rnd_545x39_Steel_gold_Mag_F,
+			30Rnd_545x39_Steel_gold_Tracer_Mag_F,
+			/*Aegis_45Rnd_545x39_Mag_Green_F,
+			Aegis_45Rnd_545x39_Mag_F,
+			Aegis_45Rnd_545x39_Mag_Tracer_Green_F,
+			Aegis_45Rnd_545x39_Mag_Tracer_F,*/
+			Aegis_60Rnd_545x39_Mag_Green_F,
+			Aegis_60Rnd_545x39_Mag_F,
+			Aegis_60Rnd_545x39_Mag_Tracer_Green_F,
+			Aegis_60Rnd_545x39_Mag_Tracer_F
         };
 		Aegis_Compatibility_Magazines[] =
 		{
@@ -30,6 +54,14 @@ class CfgMagazineWells
             75Rnd_762x39_Mag_Green_F,
             75Rnd_762x39_Mag_Tracer_Green_F
             */
+		   30Rnd_762x39_polymer_Black_Mag_F,
+		   30Rnd_762x39_polymer_Black_Mag_Green_F,
+		   30Rnd_762x39_polymer_Black_Mag_Tracer_F,
+		   30Rnd_762x39_polymer_Black_Mag_Tracer_Green_F,
+		   30Rnd_762x39_polymer_Plum_Mag_F,
+		   30Rnd_762x39_polymer_Plum_Mag_Green_F,
+		   30Rnd_762x39_polymer_Plum_Mag_Tracer_F,
+		   30Rnd_762x39_polymer_Plum_Mag_Tracer_Green_F
         };
     };
 	class M14_762x51
@@ -208,6 +240,40 @@ class CfgMagazineWells
 			Aegis_8Rnd_12Gauge_AA40_Slug_khk_lxWS,
 			Aegis_8Rnd_12Gauge_AA40_Smoke_khk_lxWS,
 			Aegis_8Rnd_12Gauge_AA40_HE_khk_lxWS
+		};
+	};
+	class SLR_762x51
+	{
+		Aegis_Magazines[] =
+		{
+			Aegis_20Rnd_762x51_slr_reload_tracer_yellow_lxWS,
+			Aegis_30Rnd_762x51_slr_reload_tracer_yellow_lxWS,
+			Aegis_20Rnd_762x51_slr_tracer_yellow_lxWS,
+			Aegis_30Rnd_762x51_slr_tracer_yellow_lxWS,
+			Aegis_20Rnd_762x51_slr_reload_tracer_red_lxWS,
+			Aegis_30Rnd_762x51_slr_reload_tracer_red_lxWS,
+			Aegis_20Rnd_762x51_slr_tracer_red_lxWS,
+			Aegis_30Rnd_762x51_slr_tracer_red_lxWS,
+		};
+	};
+	class Aegis_SR25_762x51
+	{
+		Aegis_Magazines[] =
+		{
+			Aegis_20Rnd_762x51_SMAG,
+			Aegis_20Rnd_762x51_Red_SMAG,
+			Aegis_20Rnd_762x51_Green_SMAG,
+			Aegis_20Rnd_762x51_Yellow_SMAG,
+			Aegis_20Rnd_762x51_Tracer_Red_SMAG,
+			Aegis_20Rnd_762x51_Tracer_Green_SMAG,
+			Aegis_20Rnd_762x51_Tracer_Yellow_SMAG,
+			Aegis_20Rnd_762x51_sand_SMAG,
+			Aegis_20Rnd_762x51_Red_sand_SMAG,
+			Aegis_20Rnd_762x51_Green_sand_SMAG,
+			Aegis_20Rnd_762x51_Yellow_sand_SMAG,
+			Aegis_20Rnd_762x51_Tracer_Red_sand_SMAG,
+			Aegis_20Rnd_762x51_Tracer_Green_sand_SMAG,
+			Aegis_20Rnd_762x51_Tracer_Yellow_sand_SMAG,
 		};
 	};
 

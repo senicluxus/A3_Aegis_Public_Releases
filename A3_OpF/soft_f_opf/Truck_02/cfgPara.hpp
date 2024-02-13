@@ -91,25 +91,23 @@ class Opf_O_P_Truck_02_F: O_Truck_02_covered_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_Truck_02_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_P_Truck_02_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
 	faction = Opf_OPF_P_F;
-	crew = Opf_O_P_Soldier_1_F;
-	typicalCargo[] = {Opf_O_P_Soldier_1_F};
+	crew = Opf_O_P_M_Soldier_1_F;
+	typicalCargo[] = {Opf_O_P_M_Soldier_1_F};
 	textureList[] =
 	{
-		Separatist_01,1,
-		Separatist_02,1,
-		Separatist_03,1
+		Sand,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+		"\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_sand_CO.paa",
+		"\lxws\vehicles_f_lxws\data\Truck_02\truck_02_kuz_africa_brown_CO.paa",
+		"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
 	};
 };
 class Opf_O_P_Truck_02_transport_F: O_Truck_02_transport_F
@@ -205,26 +203,24 @@ class Opf_O_P_Truck_02_transport_F: O_Truck_02_transport_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_Truck_02_transport_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_P_Truck_02_transport_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_C_Truck_02_Dump0;
 	side = TEast;
 	faction = Opf_OPF_P_F;
-	crew = Opf_O_P_Soldier_1_F;
-	typicalCargo[] = {Opf_O_P_Soldier_1_F};
+	crew = Opf_O_P_M_Soldier_1_F;
+	typicalCargo[] = {Opf_O_P_M_Soldier_1_F};
 	textureList[] =
 	{
-		Separatist_01,1,
-		Separatist_02,1,
-		Separatist_03,1
+		Sand,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+		"\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_sand_CO.paa",
+		"\lxws\vehicles_f_lxws\data\Truck_02\truck_02_kuz_africa_brown_CO.paa",
+		"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
 	};
 };
 class Opf_O_P_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
@@ -239,26 +235,24 @@ class Opf_O_P_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 			verticalOffsetWorld = -0.202;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_Truck_02_cargo_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_P_Truck_02_cargo_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_cargo_base_F0;
 	side = TEast;
 	faction = Opf_OPF_P_F;
-	crew = Opf_O_P_Soldier_1_F;
-	typicalCargo[] = {Opf_O_P_Soldier_1_F};
+	crew = Opf_O_P_M_Soldier_1_F;
+	typicalCargo[] = {Opf_O_P_M_Soldier_1_F};
 	textureList[] =
 	{
-		Separatist_01,1,
-		Separatist_02,1,
-		Separatist_03,1
+		Sand,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+		"\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_sand_CO.paa",
+		"\lxws\vehicles_f_lxws\Truck_02\data\truck_02_cargo_olive_CO.paa",
+		"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
@@ -274,26 +268,24 @@ class Opf_O_P_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 			verticalOffsetWorld = -0.202;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_P_Truck_02_flatbed_F.jpg";
+	//editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_P_Truck_02_flatbed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_flatbed_base_F0;
 	side = TEast;
 	faction = Opf_OPF_P_F;
-	crew = Opf_O_P_Soldier_1_F;
-	typicalCargo[] = {Opf_O_P_Soldier_1_F};
+	crew = Opf_O_P_M_Soldier_1_F;
+	typicalCargo[] = {Opf_O_P_M_Soldier_1_F};
 	textureList[] =
 	{
-		Separatist_01,1,
-		Separatist_02,1,
-		Separatist_03,1
+		Sand,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+		"\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_sand_CO.paa",
+		"\lxws\vehicles_f_lxws\Truck_02\data\truck_02_cargo_olive_CO.paa",
+		"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };

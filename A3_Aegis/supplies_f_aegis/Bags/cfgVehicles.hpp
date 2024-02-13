@@ -518,6 +518,21 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
+	class Aegis_B_RadioBag_01_des_lxWS: B_RadioBag_01_base_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_RadioBag_01_des_lxWS0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_RadioBag_01_des_lxWS_CA.paa";
+		hiddenSelectionsTextures[] = {"\lxws\characters_f_lxws\data\NATO\B_RadioBag_01_desert_CO.paa"};
+		/* TFAR */
+		tf_dialog = rt1523g_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_west_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
 	class B_Bergen_taiga_F: B_Bergen_Base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -645,6 +660,162 @@ class CfgVehicles
 			"\A3\Supplies_F_Enoch\Bags\Data\backpack_compact_wdl_CO.paa",
 			"\A3_Aegis\Characters_F_Aegis\Vests\Data\vests_wdl_CO.paa"
 		};
+	};
+	class Aegis_B_AssaultPackSpec_des_lxWS: B_AssaultPackSpec_Base
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_AssaultPackSpec_desert_lxWS0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_AssaultPackSpec_des_lxWS_CA.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\lxws\characters_f_lxws\data\NATO\backpack_compact_desert_CO.paa",
+			"\lxws\characters_f_lxws\vests\data\vests_desert_CO.paa"
+		};
+	};
+	/*Patrol Backpack*/
+	class Aegis_B_patrolBackpack_blk_F: B_Kitbag_Base
+	{
+		author = $STR_A3_A_Lowaltitude;
+		mapSize = 0.6;
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_blk_F0;
+		model = "\A3\Drones_F\air_f_gamma\uav_01\uav_01_backpack_f.p3d";
+		editorCategory = EdCat_Equipment;
+		editorSubcategory = EdSubcat_Backpacks;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_blk_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_blk_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\A3\Drones_F\Air_F_Gamma\UAV_01\data\uav_01_backpack_fab.rvmat"};
+		maximumLoad = 400;
+	};
+	class Aegis_B_patrolBackpack_aaf_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_aaf_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_aaf_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_digi_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_cbr_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_cbr_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_cbr_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_cbr_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_grn_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_grn_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_grn_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_rgr_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_hex_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_hex_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_hex_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_hex_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_dhex_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_dhex_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_dhex_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_dhex_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_ghex_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_ghex_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_ghex_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_ghex_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_uhex_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_uhex_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_uhex_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_uhex_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_khk_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_khk_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_khk_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_khk_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_eaf_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_eaf_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_eaf_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_geometric_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_mcu_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_mcu_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_mcu_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_mcu_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_mcamo_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_mcamo_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_mcamo_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_mcamo_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_tna_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_tna_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_tna_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_tna_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_wdl_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_wdl_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_wdl_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_wdl_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_oli_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_oli_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_oli_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_oli_CO.paa"};
+	};	
+	class Aegis_B_patrolBackpack_RUtaiga_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_rutaiga_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_RUtaiga_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_RUtaiga_CO.paa"};
+	};
+	class Aegis_B_patrolBackpack_RUarid_F: Aegis_B_patrolBackpack_blk_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgVehicles_B_patrolBackpack_ruarid_F0;
+		picture = "\A3_Aegis\Supplies_F_Aegis\Bags\Data\UI\icon_Aegis_B_patrolBackpack_RUarid_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Supplies_F_Aegis\Bags\Data\UAV_backpack_patrol_RUarid_CO.paa"};
 	};
 
     /* Factions */

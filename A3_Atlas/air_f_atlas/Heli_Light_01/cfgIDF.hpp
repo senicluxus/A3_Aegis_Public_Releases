@@ -137,7 +137,7 @@ class Atlas_I_I_Heli_Light_01_F: Heli_Light_01_unarmed_base_F
 		verticalOffsetWorld = 0.006;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Heli_Light_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Heli_Light_01_F.jpg";
 	scope = public;
 	scopeArsenal = private;
 	forceInGarage = false;
@@ -298,7 +298,7 @@ class Atlas_I_I_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_bas
 		verticalOffsetWorld = 0.006;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Heli_Light_01_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Heli_Light_01_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeArsenal = private;
 	forceInGarage = false;

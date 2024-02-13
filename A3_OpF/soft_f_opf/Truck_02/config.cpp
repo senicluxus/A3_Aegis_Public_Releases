@@ -13,20 +13,20 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class Separatist_01
+			class Sep_01
 			{
-				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_010;
-				author = $STR_A3_A_AveryTheKitty;
+				displayName = "Separatist";
+				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Truck_02\Data\Truck_02_kab_Sep_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {Atlas_OPF_S_F};
+				factions[] = {};
 			};
-			class Separatist_02
+			/*class Separatist_02
 			{
 				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_020;
 				author = $STR_A3_A_AveryTheKitty;
@@ -51,7 +51,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
 				factions[] = {Atlas_OPF_S_F};
-			};
+			};*/
 		};
 		class AnimationSources: AnimationSources
 		{
@@ -63,20 +63,20 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class Separatist_01
+			class Sep_01
 			{
-				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_010;
-				author = $STR_A3_A_AveryTheKitty;
+				displayName = "Separatist";
+				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Truck_02\Data\Truck_02_kab_Sep_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
-				factions[] = {Atlas_OPF_S_F};
+				factions[] = {};
 			};
-			class Separatist_02
+			/*class Separatist_02
 			{
 				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_020;
 				author = $STR_A3_A_AveryTheKitty;
@@ -101,7 +101,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 				};
 				factions[] = {Atlas_OPF_S_F};
-			};
+			};*/
 		};
 	};
     class O_Truck_02_covered_F;
@@ -112,13 +112,13 @@ class CfgVehicles
 		hiddenSelections[] = {camo1, camo2, camo3, camo4, camo9};
 		class TextureSources
 		{
-			class Separatist_01
+			class Sep_01
 			{
-				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_010;
-				author = $STR_A3_A_AveryTheKitty;
+				displayName = "Separatist";
+				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
+					"\A3_Opf\Soft_F_Opf\Truck_02\Data\Truck_02_kab_Sep_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
@@ -126,7 +126,7 @@ class CfgVehicles
 				};
 				factions[] = {Atlas_OPF_S_F};
 			};
-			class Separatist_02
+			/*class Separatist_02
 			{
 				displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_020;
 				author = $STR_A3_A_AveryTheKitty;
@@ -153,15 +153,38 @@ class CfgVehicles
 					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {Atlas_OPF_S_F};
-			};
+			};*/
 		};
 	};
 	class Truck_02_flatbed_base_lxWS: Truck_02_cargo_base_lxWS{};
+	class Truck_02_aa_base_lxWS: Truck_02_base_F
+	{
+		class TextureSources
+		{
+			class Sep_01
+			{
+				displayName = "Separatist";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Opf\Soft_F_Opf\Truck_02\Data\Truck_02_kab_Sep_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_cargo_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
+					"lxws\vehicles_f_lxws\zu23\data\zu23_green_co.paa",
+					"lxws\vehicles_f_lxws\zu23\data\zu23_addon_1_green_co.paa",
+					"lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_green_co.paa",
+               		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+				};
+				factions[] = {};
+			};
+		};
+	};
 	// Arma 3 Opposing Forces
-    /*
     #include "cfgPara.hpp"
-	*/
 	#include "cfgChKDZ.hpp"
+	#include "cfgPartisans.hpp"
 	// Deprecated Classes! C:
     #include "deprecated.hpp"
 };

@@ -34,5 +34,18 @@ class CfgFunctions
 				//postInit = true;
 			};
         };
+		class Weapons
+		{
+			file = "A3_Aegis\Functions_F_Aegis\Weapons";
+			class airburstInit {};
+			class airburstSerial {};
+			class laseRangeAutoZeroing {
+				//postInit = true;
+			};
+			class punisherHUD {
+				//postInit = true;
+			};
+			class cameraFlash {};
+		};
     };
 };

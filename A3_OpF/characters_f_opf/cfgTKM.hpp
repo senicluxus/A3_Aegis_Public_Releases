@@ -603,3 +603,259 @@ class Opf_I_I_Officer_F: Opf_I_I_Soldier_Base_F
 		H_Beret_brn,1
 	};
 };
+class Opf_I_I_Soldier_UAV_lxWS: Opf_I_I_Soldier_1_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_I_I_Soldier_UAV_lxWS.jpg";
+	scope = public;
+	scopeCurator = public;
+	displayName = "UAV Operator (IED Drone)";
+	backpack = Opf_I_I_UAV_02_IED_backpack_lxWS;
+	linkedItems[] = 
+	{
+		H_PASGT_basic_olive_F,
+		V_Pocketed_coyote_F,
+		I_UAVTerminal,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] = 
+	{
+		H_PASGT_basic_olive_F,
+		V_Pocketed_coyote_F,
+		I_UAVTerminal,
+		DefaultManGuerillaLinkedItems
+	};
+	weapons[] = 
+	{
+		arifle_AKS_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] = 
+	{
+		arifle_AKS_F,
+		DefaultManWeapons
+	};
+	magazines[] = 
+	{
+        mag_6(30Rnd_545x39_Mag_F),
+        mag_2(HandGrenade_Guer)
+	};
+	respawnMagazines[] = 
+	{
+        mag_6(30Rnd_545x39_Mag_F),
+        mag_2(HandGrenade_Guer)
+	};
+};
+
+class I_C_Soldier_base_F;
+class I_C_Soldier_Bandit_4_F;
+class I_C_Soldier_Bandit_5_F;
+class I_SFIA_scout_lxWS;
+class I_C_Soldier_Para_2_F;
+class I_SFIA_hireling_lxWS;
+class I_SFIA_medic2_lxWS;
+class I_SFIA_thug_lxWS;
+class I_SFIA_enforcer_lxWS;
+class I_SFIA_watcher_lxWS;
+class B_FieldPack_khk_Bandit_2_lxWS;
+class Opf_I_I_tribal_scout : I_SFIA_scout_lxWS
+{
+    faction = Opf_IND_I_F;
+	genericNames = TakistaniMen;
+	identityTypes[] = 
+	{
+		LanguagePER_F,
+		Head_TK,
+		G_GUERIL_default
+	};
+    editorSubcategory = EdSubcat_Personnel_Tribal;
+};
+class Opf_I_I_tribal_watcher : I_SFIA_watcher_lxWS
+{
+    faction = Opf_IND_I_F;
+	genericNames = TakistaniMen;
+	identityTypes[] = 
+	{
+		LanguagePER_F,
+		Head_TK,
+		G_GUERIL_default
+	};
+    editorSubcategory = EdSubcat_Personnel_Tribal;
+
+	weapons[] = 
+	{
+		Opf_arifle_SKS_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] = 
+	{
+		Opf_arifle_SKS_F,
+		DefaultManWeapons
+	};
+	magazines[] = 
+	{
+        mag_6(30Rnd_762x39_Mag_Green_F),
+        mag_2(HandGrenade_Guer)
+	};
+	respawnMagazines[] = 
+	{
+        mag_6(30Rnd_762x39_Mag_Green_F),
+        mag_2(HandGrenade_Guer)
+	};
+};
+class Opf_I_I_tribal_enforcer : I_SFIA_enforcer_lxWS
+{
+    faction = Opf_IND_I_F;
+	genericNames = TakistaniMen;
+	identityTypes[] = 
+	{
+		LanguagePER_F,
+		Head_TK,
+		G_GUERIL_default
+	};
+
+	weapons[] = 
+	{
+		arifle_RPK_F,
+        hgun_Pistol_01_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] = 
+	{
+		arifle_RPK_F,
+        hgun_Pistol_01_F,
+		DefaultManWeapons
+	};
+	magazines[] = 
+	{
+        mag_8(75Rnd_762x39_Mag_F),
+        mag_2(10Rnd_9x21_Mag)
+	};
+	respawnMagazines[] = 
+	{
+        mag_8(75Rnd_762x39_Mag_F),
+        mag_2(10Rnd_9x21_Mag)
+	};
+    editorSubcategory = EdSubcat_Personnel_Tribal;
+};
+class Opf_I_I_tribal_hireling : I_SFIA_hireling_lxWS
+{
+    faction = Opf_IND_I_F;
+	genericNames = TakistaniMen;
+	identityTypes[] = 
+	{
+		LanguagePER_F,
+		Head_TK,
+		G_GUERIL_default
+	};
+    editorSubcategory = EdSubcat_Personnel_Tribal;
+};
+class Opf_I_I_tribal_medic : I_SFIA_medic2_lxWS
+{
+    faction = Opf_IND_I_F;
+	genericNames = TakistaniMen;
+	identityTypes[] = 
+	{
+		LanguagePER_F,
+		Head_TK,
+		G_GUERIL_default
+	};
+
+	weapons[] = 
+	{
+		Aegis_arifle_AKS74_F,
+		hgun_Pistol_01_F,
+		DefaultManWeapons,
+		Binocular
+	};
+	respawnWeapons[] = 
+	{
+		Aegis_arifle_AKS74_F,
+		hgun_Pistol_01_F,
+		DefaultManWeapons,
+		Binocular
+	};
+	magazines[] = 
+	{
+        mag_6(30Rnd_545x39_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer)
+	};
+	respawnMagazines[] = 
+	{
+        mag_6(30Rnd_545x39_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer)
+	};
+    editorSubcategory = EdSubcat_Personnel_Tribal;
+};
+
+// Sapper backpack
+class B_FieldPack_khk_Bandit_2_tribal: B_FieldPack_khk_Bandit_2_lxWS
+{
+   scope = 1;
+   hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_gorod_khk_co.paa"};
+   class TransportMagazines
+   {
+      mag_xx(IEDLandSmall_Remote_Mag, 2);
+   };
+   class TransportItems
+   {
+      item_xx(ToolKit, 1);
+   };
+};
+
+class Opf_I_I_tribal_sapper : I_SFIA_thug_lxWS
+{
+    faction = Opf_IND_I_F;
+	genericNames = TakistaniMen;
+	identityTypes[] = 
+	{
+		LanguagePER_F,
+		Head_TK,
+		G_GUERIL_default
+	};
+    editorSubcategory = EdSubcat_Personnel_Tribal;
+	backpack = "B_FieldPack_khk_Bandit_2_tribal";
+};
+
+class I_SFIA_deserter_lxWS;
+class Opf_I_I_tribal_deserter : I_SFIA_deserter_lxWS
+{
+    faction = Opf_IND_I_F;
+	genericNames = TakistaniMen;
+	identityTypes[] = 
+	{
+		LanguagePER_F,
+		Head_TK,
+		G_GUERIL_default
+	};
+
+	weapons[] = 
+	{
+		arifle_Katiba_F,
+		hgun_Pistol_01_F,
+		DefaultManWeapons,
+		Binocular
+	};
+	respawnWeapons[] = 
+	{
+		arifle_Katiba_F,
+		hgun_Pistol_01_F,
+		DefaultManWeapons,
+		Binocular
+	};
+	magazines[] = 
+	{
+        mag_6(30Rnd_65x39_caseless_green),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer)
+	};
+	respawnMagazines[] = 
+	{
+        mag_6(30Rnd_65x39_caseless_green),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer)
+	};
+    editorSubcategory = EdSubcat_Personnel_Tribal;
+};

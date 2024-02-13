@@ -50,4 +50,5 @@ class CfgVehicles
 			"\A3_Aegis\Static_F_Aegis\Radar_System_01\Data\Radar_system_01_mat_02_EAF_CO.paa"
 		};
 	};
+	#include "cfgEAF.hpp"	// LDF BLUFOR
 };

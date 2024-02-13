@@ -12,6 +12,7 @@ class CfgPatches
 
             // Germany
             Atlas_B_G_UAV_01_F,
+            Atlas_B_G_UAV_01_ard_F,
 
             // ADF
             Atlas_B_A_UAV_01_backpack_F,

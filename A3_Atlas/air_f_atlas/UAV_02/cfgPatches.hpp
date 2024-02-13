@@ -9,6 +9,7 @@ class CfgPatches
         {
             // Germany
             Atlas_B_G_UAV_02_dynamicLoadout_F,
+			Atlas_B_G_UAV_02_dynamicLoadout_ard_F,
 
             // IDF
             Atlas_I_I_UAV_02_dynamicLoadout_F

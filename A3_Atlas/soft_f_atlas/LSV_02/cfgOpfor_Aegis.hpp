@@ -84,7 +84,7 @@ class Atlas_O_W_LSV_02_armed_F: LSV_02_armed_base_F
 		verticalOffsetWorld = -0.131;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_armed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_LSV_02_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_armed_F0;
@@ -95,13 +95,14 @@ class Atlas_O_W_LSV_02_armed_F: LSV_02_armed_base_F
 	textureList[] =
 	{
 		Black,0,
-		GreenHex,1
+		GreenHex,0,
+        WoodlandHex,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_ghex_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_01_WHEX_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_02_WHEX_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_03_WHEX_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -215,7 +216,7 @@ class Atlas_O_W_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_unarmed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_LSV_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_unarmed_F0;
@@ -226,13 +227,14 @@ class Atlas_O_W_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	textureList[] =
 	{
 		Black,0,
-		GreenHex,1
+		GreenHex,0,
+        WoodlandHex,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_ghex_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_01_WHEX_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_02_WHEX_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_03_WHEX_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -344,7 +346,7 @@ class Atlas_O_W_LSV_02_AT_F: LSV_02_AT_base_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_AT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_LSV_02_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_LSV_02_AT_F0;
@@ -355,20 +357,21 @@ class Atlas_O_W_LSV_02_AT_F: LSV_02_AT_base_F
 	textureList[] =
 	{
 		Black,0,
-		GreenHex,1
+		GreenHex,0,
+        WoodlandHex,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_ghex_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_01_WHEX_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_02_WHEX_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_03_WHEX_CO.paa",
 		"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
 		"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
 	};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_545x39_AK12_Mag_F,16);
-		mag_xx(75Rnd_762x39_Mag_F,8);
+		mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,8);
 		mag_xx(HandGrenade_East,10);
 		mag_xx(SmokeShell,4);
 		mag_xx(SmokeShellRed,4);

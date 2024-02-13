@@ -127,4 +127,26 @@ class CfgFactionClasses
 		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_IND_R_CA.paa";
 		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_RUS_CO.paa";
 	};
+	class BLU_EAF_F
+	{
+		displayName = "$STR_A3_C_CfgFactionClasses_IND_E_F0";
+		priority = 3;
+		side = TWest;
+		icon = "\a3\Data_F_Enoch\FactionIcons\icon_EAF_CA.paa";
+		flag = "\a3\Data_F_Enoch\Flags\flag_EAF_co.paa";
+	};
+	class OPF_CD_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_CD_F0;
+		priority = 3;
+		side = TEast;
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_T_CA.paa";
+		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_China_CO.paa";
+	};
+	class BLU_NATO_lxWS
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_D_lxWS0;
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_BLU_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_US_CO.paa";
+	};
 };

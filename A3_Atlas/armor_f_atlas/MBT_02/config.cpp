@@ -30,6 +30,9 @@ class CfgVehicles
 				};
 			};
 		};
+	};
+    class O_MBT_02_base_F: MBT_02_base_F
+	{
 		class TextureSources
 		{
 			/*
@@ -47,14 +50,26 @@ class CfgVehicles
 				factions[] = {Atlas_IND_C_F};
 			};
 			*/
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] = 
+				{
+					"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\MBT_02_Body_WHEX_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\MBT_02_Turret_WHEX_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\MBT_02_WHEX_CO.paa",
+					"\A3\Armor_F\Data\camonet_CSAT_Hex_Green_CO.paa"
+				};
+				faction[] = {};
+			};
 		};
 	};
-    class O_MBT_02_base_F: MBT_02_base_F{};
     class O_MBT_02_cannon_F: O_MBT_02_base_F{};
 	// Arma 3 Atlas
     #include "cfgOpfor_Aegis.hpp"       // Belarus
     #include "cfgOpfor_Atlas.hpp"       // Takistani Army
-    #include "cfgVenezuela.hpp"			//Venezuela
+    #include "cfgVenezuela.hpp"			// Venezuela
     /*
 	#include "cfgCDF.hpp"               // CDF
     */

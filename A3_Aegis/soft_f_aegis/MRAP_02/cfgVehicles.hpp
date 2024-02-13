@@ -41,7 +41,7 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
-			class Rus
+			/*class Rus
 			{
 				displayName = $STR_A3_A_TextureSources_Rus0;
 				author = $STR_A3_A_AveryTheKitty;
@@ -52,7 +52,7 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\Turret_RUcamo_CO.paa"
 				};
 				factions[] = {};
-			};
+			};*/
 		};
 	};
 	class MRAP_02_hmg_base_F: MRAP_02_base_F

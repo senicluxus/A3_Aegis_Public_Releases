@@ -1,6 +1,14 @@
+class CfgHintCategories
+{
+	class AegisAssets
+	{
+		displayName = $STR_A3_A_AegisAssets0;
+		logicalOrder = 41;
+	};
+};
 class CfgHints
 {
-	class FactionList
+	/*class FactionList
 	{
 		displayName = $STR_A3_A_FactionList0;
 		logicalOrder = 22;
@@ -86,7 +94,7 @@ class CfgHints
 			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\ION_CA.paa";
 			logicalOrder = 7;
 		};
-	};
+	};*/
 	class WeaponList
 	{
 		/* From "\A3\Language_F\config.cpp" */
@@ -109,120 +117,25 @@ class CfgHints
 		{
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Shotguns_CA.paa";
 		};
-
+	};
+	class AegisWeaponList
+	{
+		displayName = $STR_A3_A_AegisWeapons0;
+		logicalOrder = 10;
+		category = AegisAssets;
 		/* From "\A3_Aegis\Language_F_Aegis\config.cpp" */
-		class M32
+		class AKM74
 		{
 			displayName = %11;
 			description = %12;
 			tip = "";
 			arguments[] =
 			{
-				{STR_A3_A_CfgWeapons_GL_M32_F0},
-				{STR_A3_A_CfgWeapons_GL_M32_F_Library0}
-			};
-			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\GL_CA.paa";
-			weapon = GL_M32_F;
-			logicalOrder = 20;
-		};
-		class XM25
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgWeapons_GL_XM25_F0},
-				{STR_A3_A_CfgWeapons_GL_XM25_F_Library0}
-			};
-			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\GL_CA.paa";
-			weapon = GL_XM25_F;
-			logicalOrder = 40;
-		};
-        /*
-		class WF50
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgWeapons_srifle_WF50_F0},
-				{STR_A3_A_CfgWeapons_srifle_WF50_F_Library0}
-			};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Ranged_CA.paa";
-			weapon = srifle_WF50_F;
-			logicalOrder = 57;
-		};
-        */
-		class G17
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgWeapons_hgun_G17_F0},
-				{STR_A3_A_CfgWeapons_hgun_G17_F_Library0}
-			};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Handgun_CA.paa";
-			weapon = hgun_G17_F;
-			logicalOrder = 35;
-		};
-		class Mk26
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgWeapons_hgun_Mk26_F0},
-				{STR_A3_A_CfgWeapons_hgun_Mk26_F_Library0}
-			};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Handgun_CA.paa";
-			weapon = hgun_Mk26_F;
-			logicalOrder = 28;
-		};
-		class SA80
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgWeapons_arifle_SA80_base_F0},
-				{STR_A3_A_CfgWeapons_arifle_SA80_base_F_Library0}
+				{STR_A3_A_CfgWeapons_arifle_AK74_F0},
+				{STR_A3_A_CfgWeapons_arifle_AKM74_base_F_Library0}
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
-			weapon = arifle_SA80_blk_F;
-			logicalOrder = 45;
-		};
-		class SCAR
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgWeapons_arifle_SCAR_F0},
-				{STR_A3_A_CfgWeapons_arifle_SCAR_base_F_Library0}
-			};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
-			weapon = arifle_SCAR_F;
-			logicalOrder = 45;
-		};
-		class AA40
-		{
-			displayName = %11;
-			description = %12;
-			tip = "";
-			arguments[] =
-			{
-				{STR_A3_A_CfgWeapons_sgun_AA40_F0},
-				{STR_A3_A_CfgWeapons_sgun_AA40_F_Library0}
-			};
-			image = "\A3\UI_F\Data\GUI\cfg\hints\Shotguns_CA.paa";
-			weapon = sgun_AA40_F;
+			weapon = Aegis_arifle_AK74_F;
 			logicalOrder = 2;
 		};
 		class KSG
@@ -239,6 +152,62 @@ class CfgHints
 			weapon = sgun_KSG_F;
 			logicalOrder = 8;
 		};
+		class G17
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_hgun_G17_F0},
+				{STR_A3_A_CfgWeapons_hgun_G17_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Handgun_CA.paa";
+			weapon = hgun_G17_F;
+			logicalOrder = 42;
+		};
+		class SA80
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_arifle_SA80_base_F0},
+				{STR_A3_A_CfgWeapons_arifle_SA80_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
+			weapon = arifle_SA80_blk_F;
+			logicalOrder = 67;
+		};
+		/*class M16A2
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_arifle_M16_base_F0},
+				{STR_A3_A_CfgWeapons_arifle_M16_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
+			weapon = Aegis_arifle_M16A2_F;
+			logicalOrder = 70;
+		};*/
+		class M32
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_GL_M32_F0},
+				{STR_A3_A_CfgWeapons_GL_M32_F_Library0}
+			};
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\GL_CA.paa";
+			weapon = GL_M32_F;
+			logicalOrder = 71;
+		};
 		class M4
 		{
 			displayName = %11;
@@ -251,7 +220,49 @@ class CfgHints
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Shotguns_CA.paa";
 			weapon = sgun_M4_F;
-			logicalOrder = 17;
+			logicalOrder = 75;
+		};
+		class M4A1
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_arifle_M4A1_F0},
+				{STR_A3_A_CfgWeapons_arifle_M4A1_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
+			weapon = Aegis_arifle_M4A1_Grip_F;
+			logicalOrder = 76;
+		};
+		class SR25
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_arifle_SR25_F0},
+				{STR_A3_A_CfgWeapons_arifle_SR25_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
+			weapon = Aegis_arifle_SR25_blk_F;
+			logicalOrder = 78;
+		};
+		class Mk26
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_hgun_Mk26_F0},
+				{STR_A3_A_CfgWeapons_hgun_Mk26_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Handgun_CA.paa";
+			weapon = hgun_Mk26_F;
+			logicalOrder = 81;
 		};
 		class Mp153
 		{
@@ -265,7 +276,7 @@ class CfgHints
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Shotguns_CA.paa";
 			weapon = sgun_Mp153_classic_F;
-			logicalOrder = 32;
+			logicalOrder = 7;
 		};
 		class SMG_04
 		{
@@ -279,11 +290,84 @@ class CfgHints
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifles_CA.paa";
 			weapon = SMG_04_blk_F;
-			logicalOrder = 17;
+			logicalOrder = 82;
 		};
+		class Aegis_RPK762
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_arifle_RPK_base_F0},
+				{STR_A3_A_CfgWeapons_arifle_RPK_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
+			weapon = arifle_RPK_F;
+			logicalOrder = 102;
+		};
+		class XM25
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_GL_XM25_F0},
+				{STR_A3_A_CfgWeapons_GL_XM25_F_Library0}
+			};
+			image = "\A3_Aegis\UI_F_Aegis\Data\CfgHints\GL_CA.paa";
+			weapon = GL_XM25_F;
+			logicalOrder = 98;
+		};
+		class SCARL
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_arifle_SCAR_L_F0},
+				{STR_A3_A_CfgWeapons_arifle_SCAR_L_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
+			weapon = arifle_SCAR_L_F;
+			logicalOrder = 79;
+		};
+		class SCAR
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_arifle_SCAR_F0},
+				{STR_A3_A_CfgWeapons_arifle_SCAR_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
+			weapon = arifle_SCAR_F;
+			logicalOrder = 80;
+		};
+		/*class VektorSR1
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_hgun_VektorSR1_F0},
+				{STR_A3_A_CfgWeapons_hgun_VektorSR1_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Handgun_CA.paa";
+			weapon = Aegis_hgun_VektorSR1_F;
+			logicalOrder = 120;
+		};*/
 	};
-	class VehicleList
+	class AegisVehicleList
 	{
+		displayName = $STR_A3_A_AegisVehicles0;
+		logicalOrder = 12;
+		category = AegisAssets;
 		class Heli_Attack_03
 		{
 			displayName = %11;
@@ -297,7 +381,22 @@ class CfgHints
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
 			vehicle = I_Heli_Attack_03_F;
 			modelScale = 0.6;
-			logicalOrder = 42;
+			logicalOrder = 5;
+		};
+		class Heli_Attack_04
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgVehicles_Heli_Attack_04_base_F0},
+				{STR_A3_A_CfgVehicles_Heli_Attack_04_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			vehicle = Aegis_O_A_Heli_Attack_04_F;
+			modelScale = 0.6;
+			logicalOrder = 20;
 		};
 		class Plane_Fighter_05
 		{
@@ -312,7 +411,7 @@ class CfgHints
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
 			vehicle = B_Plane_Fighter_05_F;
 			modelScale = 0.4;
-			logicalOrder = 42;
+			logicalOrder = 15;
 		};
 		class Plane_Transport_01
 		{
@@ -327,7 +426,7 @@ class CfgHints
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
 			vehicle = B_Plane_Transport_01_infantry_F;
 			modelScale = 0.3;
-			logicalOrder = 42;
+			logicalOrder = 10;
 		};
 		class APC_Wheeled_04
 		{
@@ -343,7 +442,7 @@ class CfgHints
 			vehicle = O_R_APC_Wheeled_04_cannon_F;
 			logicalOrder = 8;
 		};
-		class APC_Wheeled_04_Nosorog
+		/*class APC_Wheeled_04_Nosorog
 		{
 			displayName = %11;
 			description = %12;
@@ -356,7 +455,7 @@ class CfgHints
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
 			vehicle = O_R_APC_Wheeled_04_cannon_v2_F;
 			logicalOrder = 8;
-		};
+		};*/
 		class Boat_Civil_02
 		{
 			displayName = %11;
@@ -370,7 +469,7 @@ class CfgHints
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
 			vehicle = C_Boat_Civil_02_F;
 			modelScale = 1.2;
-			logicalOrder = 42;
+			logicalOrder = 40;
 		};
 	};
 };

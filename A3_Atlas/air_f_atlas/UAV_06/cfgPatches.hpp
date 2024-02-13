@@ -10,6 +10,8 @@ class CfgPatches
             // Germany
             Atlas_B_G_UAV_06_F,
             Atlas_B_G_UAV_06_medical_F,
+            Atlas_B_G_UAV_06_ard_F,
+            Atlas_B_G_UAV_06_medical_ard_F,
 
             // IDF
             Atlas_I_I_UAV_06_backpack_F,

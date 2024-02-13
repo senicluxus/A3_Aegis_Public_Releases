@@ -72,7 +72,16 @@ class Atlas_B_G_UAV_02_dynamicLoadout_F: B_UAV_02_dynamicLoadout_F
 		class Blufor: Blufor
 		{
 			textures[] = {"\A3_Atlas\Air_F_Atlas\UAV_02\Data\UAV_02_CO.paa"};
-			factions[] = {Atlas_BLU_G_F};
+			factions[] = {Atlas_BLU_G_F, Atlas_B_G_Ard_F};
 		};
 	};
+};
+
+/* Bundeswehr Arid */
+class Atlas_B_G_UAV_02_dynamicLoadout_ard_F: Atlas_B_G_UAV_02_dynamicLoadout_F
+{
+	scope = public;
+	scopeCurator = public;
+	side = TWest;
+	faction = Atlas_BLU_G_ard_F;
 };

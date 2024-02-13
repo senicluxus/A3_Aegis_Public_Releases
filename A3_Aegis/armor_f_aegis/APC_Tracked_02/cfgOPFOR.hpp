@@ -56,6 +56,32 @@ class O_APC_Tracked_02_cannon_F: O_APC_Tracked_02_base_F
             };
             factions[] = {};
         };
+        class SFIA
+		{
+			displayName = $STR_LXWS_FACTION_SFIA;
+			factions[] = {};
+			textures[] =
+			{
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_africa1_co.paa",
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_africa2_co.paa",
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_africa3_co.paa",
+				"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
+				"A3\armor_f\data\cage_csat_co.paa"
+			};
+        };
+        class Sand
+		{
+			displayName = $STR_A3_TEXTURESOURCES_SAND0;
+			factions[] = {};
+			textures[] =
+			{
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_sand1_co.paa",
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_sand2_co.paa",
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_sand3_co.paa",
+				"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
+				"A3\armor_f\data\cage_csat_co.paa"
+			};
+		};
     };
     /* Inventory */
     class TransportMagazines
@@ -132,6 +158,32 @@ class O_APC_Tracked_02_AA_F: O_APC_Tracked_02_base_F
             };
             factions[] = {};
         };
+        class SFIA
+		{
+			displayName = $STR_LXWS_FACTION_SFIA;
+			factions[] = {};
+			textures[] =
+			{
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_aa_africa1_co.paa",
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_africa2_co.paa",
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_aa_africa3_co.paa",
+				"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
+				"A3\armor_f\data\cage_csat_co.paa"
+			};
+        };
+        class Sand
+		{
+			displayName = $STR_A3_TEXTURESOURCES_SAND0;
+			factions[] = {};
+			textures[] =
+			{
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_aa_sand1_co.paa",
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_sand2_co.paa",
+				"lxws\vehicles_f_lxws\data\APC_Tracked_02\kamysh_aa_sand3.paa",
+				"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
+				"A3\armor_f\data\cage_csat_co.paa"
+			};
+		};
     };
     /* Inventory */
     class TransportMagazines
@@ -451,6 +503,84 @@ class O_A_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 		mag_xx(RPG32_HE_F,2);
 		mag_xx(Titan_AT,2);
 		mag_xx(Titan_AA,2);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_FieldPack_ocamo,2);
+	};
+};
+
+/* West Sahara BTR-T Iskatel */
+class O_APC_Tracked_02_30mm_lxWS: O_APC_Tracked_02_cannon_F
+{
+    scopeCurator = public;
+    class TextureSources
+    {
+        class Hex
+        {
+            factions[] = {};
+        };
+        class GreenHex
+        {
+            factions[] = {};
+        };
+        class Green
+        {
+            displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+            author = $STR_A3_A_AveryTheKitty;
+            textures[] =
+            {
+                "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_01_RUkhk_CO.paa",
+                "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUkhk_CO.paa",
+                "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\apc_tracked_02_ext_03_RUkhk_co.paa",
+                "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_30mm_RUkhk_CO.paa",
+                "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
+                "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+            };
+            factions[] = {};
+        };
+        class SFIA
+		{
+			factions[] = {};
+        };
+        class Grey
+		{
+			factions[] = {};
+		};
+    };
+};
+class Aegis_O_A_APC_Tracked_02_30mm_lxWS: O_APC_Tracked_02_30mm_lxWS
+{
+
+    scope = public;
+    scopeCurator = public;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_A_APC_Tracked_02_30mm_lxWS.jpg";
+    faction = OPF_A_F;
+    side = TEast;
+    crew = O_A_crew_lxWS;
+    typicalCargo[] = {O_A_Soldier_lxWS};
+    textureList[] = {Hex,1};
+    class TransportWeapons
+	{
+		weap_xx(arifle_VelkoR5_lxws,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(35rnd_556x45_velko_reload_tracer_red_lxws,8);
+        mag_xx(20rnd_762x51_slr_lxWS,6);
+		mag_xx(150Rnd_762x54_box,4);
+        mag_xx(100Rnd_762x51_s77_green_lxws,2);
+		mag_xx(HandGrenade_Guer,4);
+		mag_xx(HandGrenade,4);
+		mag_xx(1Rnd_40mm_HE_lxWS,6);
+		mag_xx(1Rnd_58mm_AT_lxWS,4);
+	    mag_xx(1Rnd_50mm_smoke_lxWS,8);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellRed,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellYellow,8);
+		mag_xx(RPG32_F,5);
+		mag_xx(RPG32_HE_F,2);
 	};
 	class TransportBackpacks
 	{

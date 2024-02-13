@@ -27,7 +27,7 @@ class Atlas_B_G_supplyCrate_F: B_supplyCrate_F
 		mag_xx(Laserbatteries,1);
 		mag_xx(UGL_FlareGreen_F,2);
 		mag_xx(UGL_FlareWhite_F,2);
-		mag_xx(NLAW_F,3);
+		mag_xx(Atlas_dm12_heat_f,3);
 		mag_xx(MiniGrenade,6);
 		mag_xx(HandGrenade,6);
 		mag_xx(SmokeShellGreen,2);
@@ -42,7 +42,7 @@ class Atlas_B_G_supplyCrate_F: B_supplyCrate_F
 		weap_xx(arifle_G36C_F,1);
 		weap_xx(LMG_Mk200_black_F,1);
 		weap_xx(srifle_DMR_03_F,1);
-		weap_xx(launch_NLAW_F,1);
+		weap_xx(Atlas_Launch_Pzf3_F,1);
 	};
 	class TransportItems
 	{

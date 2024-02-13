@@ -18,7 +18,7 @@ class Atlas_I_UNO_Soldier_Base_F: Atlas_I_UNO_Man_Base_F
 class Atlas_I_UNO_Soldier_A_F: Atlas_I_UNO_Soldier_Base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_A_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_A_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
@@ -27,36 +27,36 @@ class Atlas_I_UNO_Soldier_A_F: Atlas_I_UNO_Soldier_Base_F
 	backpack = B_Carryall_cbr_IUAmmo_F;
 	weapons[] =
 	{
-		arifle_G36_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(30Rnd_556x45_stanag_sand_red),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(30Rnd_556x45_stanag_sand_red),
         HandGrenade,
         SmokeShell
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 };
@@ -74,7 +74,7 @@ class Atlas_I_UNO_Soldier_AR_F: Atlas_I_UNO_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
 	nameSound = veh_infantry_MG_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_AR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_AR_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
@@ -85,36 +85,36 @@ class Atlas_I_UNO_Soldier_AR_F: Atlas_I_UNO_Soldier_Base_F
     uniformClass = Atlas_U_I_U_CombatUniform_shortsleeve_UNO;
 	weapons[] =
 	{
-		LMG_Mk200_black_F,
+		Atlas_lmg_03_snd_Holo_FL_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		LMG_Mk200_black_F,
+		Atlas_lmg_03_snd_Holo_FL_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_2(200Rnd_65x39_cased_box_red),
+		mag_2(200Rnd_556x45_box_f),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_2(200Rnd_65x39_cased_box_red),
+		mag_2(200Rnd_556x45_box_f),
         HandGrenade,
         SmokeShell
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 };
@@ -132,7 +132,7 @@ class Atlas_I_UNO_Medic_F: Atlas_I_UNO_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Medic_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Medic_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
@@ -145,45 +145,45 @@ class Atlas_I_UNO_Medic_F: Atlas_I_UNO_Soldier_Base_F
 	backpack = B_AssaultPack_cbr_IUMedic_F;
 	weapons[] =
 	{
-		arifle_G36_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(30Rnd_556x45_stanag_sand_red),
         HandGrenade,
         SmokeShell,
         SMOKESHELLS_MEDIC
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(30Rnd_556x45_stanag_sand_red),
         HandGrenade,
         SmokeShell,
         SMOKESHELLS_MEDIC
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		Aegis_H_Booniehat_UNO_hs_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		Aegis_H_Booniehat_UNO_hs_F,
 		DefaultManLinkedItems
 	};
 };
 class Atlas_I_UNO_Engineer_F: Atlas_I_UNO_Soldier_Base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Engineer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Engineer_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
@@ -199,43 +199,43 @@ class Atlas_I_UNO_Engineer_F: Atlas_I_UNO_Soldier_Base_F
 	backpack = B_Carryall_cbr_IUEng_F;
 	weapons[] =
 	{
-		arifle_G36_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(30Rnd_556x45_stanag_sand_red),
         SmokeShell,
         SmokeShellYellow
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(30Rnd_556x45_stanag_sand_red),
         SmokeShell,
         SmokeShellYellow
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_heavy_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_heavy_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 };
 class Atlas_I_UNO_Soldier_GL_F: Atlas_I_UNO_Soldier_Base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_GL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_GL_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
@@ -243,17 +243,17 @@ class Atlas_I_UNO_Soldier_GL_F: Atlas_I_UNO_Soldier_Base_F
 	cost = 200000;
 	weapons[] =
 	{
-		arifle_G36_GL_Holo_F,
+		Atlas_arifle_M4A1_GL_Sand_Holo_FL_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_GL_Holo_F,
+		Atlas_arifle_M4A1_GL_Sand_Holo_FL_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(30Rnd_556x45_stanag_sand_red),
         mag_4(1Rnd_HE_Grenade_shell),
         HandGrenade,
         SmokeShell,
@@ -261,7 +261,7 @@ class Atlas_I_UNO_Soldier_GL_F: Atlas_I_UNO_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(30Rnd_556x45_stanag_sand_red),
         mag_4(1Rnd_HE_Grenade_shell),
         HandGrenade,
         SmokeShell,
@@ -269,14 +269,14 @@ class Atlas_I_UNO_Soldier_GL_F: Atlas_I_UNO_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_heavy_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_heavy_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 };
@@ -294,7 +294,7 @@ class Atlas_I_UNO_Helipilot_F: Atlas_I_UNO_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Helipilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Helipilot_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Helipilot_F0;
@@ -350,7 +350,7 @@ class Atlas_I_UNO_Helicrew_F: Atlas_I_UNO_Helipilot_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Helicrew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Helicrew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_helicrew_F0;
@@ -359,22 +359,22 @@ class Atlas_I_UNO_Helicrew_F: Atlas_I_UNO_Helipilot_F
 	uniformClass = Atlas_U_I_U_CombatUniform_shortsleeve_UNO;
 	weapons[] =
 	{
-		arifle_G36C_F,
+		Aegis_arifle_M4A1_short_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_F,
+		Aegis_arifle_M4A1_short_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
+		mag_4(30Rnd_556x45_stanag_sand_red),
         SmokeShellYellow
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
+		mag_4(30Rnd_556x45_stanag_sand_red),
         SmokeShellYellow
 	};
     linkedItems[] =
@@ -395,29 +395,29 @@ class Atlas_I_UNO_Helicrew_F: Atlas_I_UNO_Helipilot_F
 class Atlas_I_UNO_Crew_F: Atlas_I_UNO_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Crew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Crew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_crew_F0;
 	uniformClass = Atlas_U_I_U_CombatUniform_shortsleeve_UNO;
 	weapons[] =
 	{
-		arifle_G36C_F,
+		Aegis_arifle_M4A1_short_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36C_F,
+		Aegis_arifle_M4A1_short_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
+		mag_4(30Rnd_556x45_stanag_sand_red),
         SmokeShellYellow
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
+		mag_4(30Rnd_556x45_stanag_sand_red),
         SmokeShellYellow
 	};
     linkedItems[] =
@@ -438,7 +438,7 @@ class Atlas_I_UNO_Crew_F: Atlas_I_UNO_Soldier_Base_F
 class Atlas_I_UNO_soldier_M_F: Atlas_I_UNO_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_soldier_M_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_soldier_M_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
@@ -446,38 +446,38 @@ class Atlas_I_UNO_soldier_M_F: Atlas_I_UNO_Soldier_Base_F
 	cost = 250000;
 	weapons[] =
 	{
-		srifle_EBR_blk_AMS_BI_F,
+		Atlas_arifle_SR25_MR_Snd_AMS_BI_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		srifle_EBR_blk_AMS_BI_F,
+		Atlas_arifle_SR25_MR_Snd_AMS_BI_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_8(20Rnd_Mk14_762x51_Mag),
+		mag_6(Aegis_20Rnd_762x51_Red_Sand_SMAG),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_8(20Rnd_Mk14_762x51_Mag),
+		mag_6(Aegis_20Rnd_762x51_Red_Sand_SMAG),
         HandGrenade,
         SmokeShell
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		Aegis_H_Booniehat_UNO_hs_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		Aegis_H_Booniehat_UNO_hs_F,
 		DefaultManLinkedItems
 	};
 };
@@ -495,7 +495,7 @@ class Atlas_I_UNO_Officer_F: Atlas_I_UNO_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_officer_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_officer_p;
 	nameSound = veh_infantry_officer_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Officer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Officer_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
@@ -531,13 +531,13 @@ class Atlas_I_UNO_Officer_F: Atlas_I_UNO_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_Rangemaster_belt_cbr,
+		Aegis_V_CarrierRigKBT_01_holster_cbr_F,
 		H_Beret_UNO_01_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_Rangemaster_belt_cbr,
+		Aegis_V_CarrierRigKBT_01_holster_cbr_F,
 		H_Beret_UNO_01_F,
 		DefaultManLinkedItems
 	};
@@ -545,43 +545,43 @@ class Atlas_I_UNO_Officer_F: Atlas_I_UNO_Soldier_Base_F
 class Atlas_I_UNO_Soldier_F: Atlas_I_UNO_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	cost = 100000;
 	weapons[] =
 	{
-		arifle_G36_Holo_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_Holo_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_10(30Rnd_556x45_stanag_sand_red),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30Rnd_65x39_caseless_msbs_mag),
+		mag_10(30Rnd_556x45_stanag_sand_red),
         HandGrenade,
         SmokeShell
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 };
@@ -599,7 +599,7 @@ class Atlas_I_UNO_Soldier_LAT_F: Atlas_I_UNO_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_LAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_LAT_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
@@ -611,47 +611,47 @@ class Atlas_I_UNO_Soldier_LAT_F: Atlas_I_UNO_Soldier_Base_F
 	backpack = B_AssaultPack_cbr_ILAT_F;
 	weapons[] =
 	{
-		arifle_G36_Holo_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		launch_NLAW_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_Holo_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		launch_NLAW_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(30Rnd_556x45_stanag_sand_red),
 		NLAW_F,
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_65x39_caseless_msbs_mag),
+		mag_8(30Rnd_556x45_stanag_sand_red),
 		NLAW_F,
         HandGrenade,
         SmokeShell
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 };
 class Atlas_I_UNO_Soldier_SL_F: Atlas_I_UNO_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_SL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_SL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
@@ -662,22 +662,22 @@ class Atlas_I_UNO_Soldier_SL_F: Atlas_I_UNO_Soldier_Base_F
 	uniformClass = Atlas_U_I_U_CombatUniform_shortsleeve_UNO;
 	weapons[] =
 	{
-		arifle_G36_MRCO_F,
+		Atlas_arifle_M4A1_Sand_ACOG_FL_F,
 		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_MRCO_F,
+		Atlas_arifle_M4A1_Sand_ACOG_FL_F,
 		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(30Rnd_65x39_caseless_msbs_mag_tracer),
+		mag_4(30Rnd_556x45_stanag_sand_red),
+		mag_2(30Rnd_556x45_stanag_sand_tracer_red),
 		mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         SmokeShell,
@@ -685,8 +685,8 @@ class Atlas_I_UNO_Soldier_SL_F: Atlas_I_UNO_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(30Rnd_65x39_caseless_msbs_mag_tracer),
+		mag_4(30Rnd_556x45_stanag_sand_red),
+		mag_2(30Rnd_556x45_stanag_sand_tracer_red),
 		mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         SmokeShell,
@@ -694,21 +694,21 @@ class Atlas_I_UNO_Soldier_SL_F: Atlas_I_UNO_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 };
 class Atlas_I_UNO_Soldier_TL_F: Atlas_I_UNO_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_TL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_TL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
@@ -718,22 +718,22 @@ class Atlas_I_UNO_Soldier_TL_F: Atlas_I_UNO_Soldier_Base_F
 	camouflage = 1.4;
 	weapons[] =
 	{
-		arifle_G36_GL_Holo_F,
+		Atlas_arifle_M4A1_GL_Sand_ACOG_FL_F,
 		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_G36_GL_Holo_F,
+		Atlas_arifle_M4A1_GL_Sand_ACOG_FL_F,
 		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(30Rnd_65x39_caseless_msbs_mag_tracer),
+		mag_4(30Rnd_556x45_stanag_sand_red),
+		mag_2(30Rnd_556x45_stanag_sand_tracer_red),
 		mag_2(9Rnd_45ACP_Mag),
 		mag_4(1Rnd_HE_Grenade_shell),
         HandGrenade,
@@ -744,8 +744,8 @@ class Atlas_I_UNO_Soldier_TL_F: Atlas_I_UNO_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_65x39_caseless_msbs_mag),
-		mag_2(30Rnd_65x39_caseless_msbs_mag_tracer),
+		mag_4(30Rnd_556x45_stanag_sand_red),
+		mag_2(30Rnd_556x45_stanag_sand_tracer_red),
 		mag_2(9Rnd_45ACP_Mag),
 		mag_4(1Rnd_HE_Grenade_shell),
         HandGrenade,
@@ -756,63 +756,63 @@ class Atlas_I_UNO_Soldier_TL_F: Atlas_I_UNO_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_heavy_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_heavy_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		DefaultManLinkedItems
 	};
 };
 class Atlas_I_UNO_RadioOperator_F: Atlas_I_UNO_Soldier_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_RadioOperator_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	uniformClass = Atlas_U_I_U_CombatUniform_shortsleeve_UNO;
 	backpack = B_RadioBag_01_coyote_F;
 	weapons[] =
     {
-		arifle_G36_Holo_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
     };
     respawnWeapons[] =
     {
-		arifle_G36_Holo_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
     };
     magazines[] =
     {
-        mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_10(30Rnd_556x45_stanag_sand_red),
         HandGrenade,
         SmokeShell
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_10(30Rnd_556x45_stanag_sand_red),
         HandGrenade,
         SmokeShell
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		Aegis_H_MilCap_UNO,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		Aegis_H_MilCap_UNO,
 		DefaultManLinkedItems
 	};
 };
 class Atlas_I_UNO_Soldier_UAV_F: Atlas_I_UNO_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_UAV_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Soldier_UAV_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_B_SOLDIER_UAV_F0;
@@ -823,37 +823,37 @@ class Atlas_I_UNO_Soldier_UAV_F: Atlas_I_UNO_Soldier_Base_F
 	backpack = Atlas_I_UNO_UAV_01_backpack_F;
 	weapons[] =
     {
-		arifle_G36_Holo_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
     };
     respawnWeapons[] =
     {
-		arifle_G36_Holo_F,
+		Atlas_arifle_M4A1_Sand_Holo_FL_F,
 		DefaultManWeapons
     };
     magazines[] =
     {
-        mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_10(30Rnd_556x45_stanag_sand_red),
         HandGrenade,
         SmokeShell
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_10(30Rnd_556x45_stanag_sand_red),
         HandGrenade,
         SmokeShell
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		I_UavTerminal,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_coyote_F,
-		H_PASGT_basic_UNO_F,
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		H_I_Helmet_canvas_UN_F,
 		I_UavTerminal,
 		DefaultManLinkedItems
 	};
@@ -861,23 +861,43 @@ class Atlas_I_UNO_Soldier_UAV_F: Atlas_I_UNO_Soldier_Base_F
 class Atlas_I_UNO_soldier_UAV_06_F: Atlas_I_UNO_Soldier_UAV_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_soldier_UAV_06_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = Atlas_I_UNO_UAV_06_backpack_F;
 };
 class Atlas_I_UNO_soldier_UAV_06_medical_F: Atlas_I_UNO_Soldier_UAV_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_soldier_UAV_06_medical_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = Atlas_I_UNO_UAV_06_medical_backpack_F;
+	linkedItems[] =
+	{
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		Aegis_H_MilCap_UNO,
+		I_UavTerminal,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		Atlas_V_CarrierRigKBT_01_tac_UNRACS_F,
+		Aegis_H_MilCap_UNO,
+		I_UavTerminal,
+		DefaultManLinkedItems
+	};
 };
 class Atlas_I_UNO_soldier_UGV_02_Demining_F: Atlas_I_UNO_Soldier_UAV_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_soldier_UGV_02_Demining_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_soldier_UGV_02_Demining_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = Atlas_I_UNO_UGV_02_Demining_backpack_F;
+};
+class Atlas_I_UNO_Pilot_F: Atlas_I_UNO_Helipilot_F
+{
+	author = $STR_A3_A_Ravenholme;
+	displayName = $STR_B_Pilot_F0;
+	backpack = B_Parachute;
 };
 
 // Chernarussian Defence Force
@@ -902,7 +922,7 @@ class Atlas_I_UNO_wdl_Soldier_Base_F: Atlas_I_UNO_wdl_Man_Base_F
 class Atlas_I_UNO_wdl_Soldier_A_F: Atlas_I_UNO_wdl_Soldier_Base_F
 {
 	author = "Ravenholme";
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_A_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_A_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
@@ -933,13 +953,13 @@ class Atlas_I_UNO_wdl_Soldier_A_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA2_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA2_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
@@ -958,7 +978,7 @@ class Atlas_I_UNO_wdl_Soldier_AR_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
 	nameSound = veh_infantry_MG_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_AR_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_AR_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
@@ -991,13 +1011,13 @@ class Atlas_I_UNO_wdl_Soldier_AR_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA2_grn,
+		V_CF_CarrierRig_MG_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA2_grn,
+		V_CF_CarrierRig_MG_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
@@ -1016,7 +1036,7 @@ class Atlas_I_UNO_wdl_Medic_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Medic_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Medic_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
@@ -1053,13 +1073,13 @@ class Atlas_I_UNO_wdl_Medic_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA2_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA2_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
@@ -1067,7 +1087,7 @@ class Atlas_I_UNO_wdl_Medic_F: Atlas_I_UNO_wdl_Soldier_Base_F
 class Atlas_I_UNO_wdl_Engineer_F: Atlas_I_UNO_wdl_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Engineer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Engineer_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
@@ -1105,13 +1125,13 @@ class Atlas_I_UNO_wdl_Engineer_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIAGL_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIAGL_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
@@ -1119,7 +1139,7 @@ class Atlas_I_UNO_wdl_Engineer_F: Atlas_I_UNO_wdl_Soldier_Base_F
 class Atlas_I_UNO_wdl_Soldier_GL_F: Atlas_I_UNO_wdl_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_GL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_GL_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
@@ -1153,13 +1173,13 @@ class Atlas_I_UNO_wdl_Soldier_GL_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIAGL_grn,
+		V_CF_CarrierRig_Lite_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIAGL_grn,
+		V_CF_CarrierRig_Lite_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
@@ -1178,7 +1198,7 @@ class Atlas_I_UNO_wdl_Helipilot_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Helipilot_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Helipilot_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Helipilot_F0;
@@ -1234,7 +1254,7 @@ class Atlas_I_UNO_wdl_Helicrew_F: Atlas_I_UNO_wdl_Helipilot_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Helicrew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Helicrew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_helicrew_F0;
@@ -1279,7 +1299,7 @@ class Atlas_I_UNO_wdl_Helicrew_F: Atlas_I_UNO_wdl_Helipilot_F
 class Atlas_I_UNO_wdl_Crew_F: Atlas_I_UNO_wdl_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Crew_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Crew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_crew_F0;
@@ -1322,7 +1342,7 @@ class Atlas_I_UNO_wdl_Crew_F: Atlas_I_UNO_wdl_Soldier_Base_F
 class Atlas_I_UNO_wdl_soldier_M_F: Atlas_I_UNO_wdl_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_soldier_M_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_soldier_M_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
@@ -1358,13 +1378,13 @@ class Atlas_I_UNO_wdl_soldier_M_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
@@ -1383,7 +1403,7 @@ class Atlas_I_UNO_wdl_Officer_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_officer_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_officer_p;
 	nameSound = veh_infantry_officer_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Officer_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Officer_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
@@ -1419,13 +1439,13 @@ class Atlas_I_UNO_wdl_Officer_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_Rangemaster_belt,
+		Aegis_V_CarrierRigKBT_01_holster_olive_F,
 		H_Beret_UNO_01_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_Rangemaster_belt,
+		Aegis_V_CarrierRigKBT_01_holster_olive_F,
 		H_Beret_UNO_01_F,
 		DefaultManLinkedItems
 	};
@@ -1433,7 +1453,7 @@ class Atlas_I_UNO_wdl_Officer_F: Atlas_I_UNO_wdl_Soldier_Base_F
 class Atlas_I_UNO_wdl_Soldier_F: Atlas_I_UNO_wdl_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
@@ -1462,13 +1482,13 @@ class Atlas_I_UNO_wdl_Soldier_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_grn,
+		V_CF_CarrierRig_Lite_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_grn,
+		V_CF_CarrierRig_Lite_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
@@ -1487,7 +1507,7 @@ class Atlas_I_UNO_wdl_Soldier_LAT_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_LAT_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_LAT_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
@@ -1525,13 +1545,13 @@ class Atlas_I_UNO_wdl_Soldier_LAT_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA2_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA2_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
@@ -1539,7 +1559,7 @@ class Atlas_I_UNO_wdl_Soldier_LAT_F: Atlas_I_UNO_wdl_Soldier_Base_F
 class Atlas_I_UNO_wdl_Soldier_SL_F: Atlas_I_UNO_wdl_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_SL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_SL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
@@ -1582,13 +1602,13 @@ class Atlas_I_UNO_wdl_Soldier_SL_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_grn,
+		V_CF_CarrierRig_Lite_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_grn,
+		V_CF_CarrierRig_Lite_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
@@ -1596,7 +1616,7 @@ class Atlas_I_UNO_wdl_Soldier_SL_F: Atlas_I_UNO_wdl_Soldier_Base_F
 class Atlas_I_UNO_wdl_Soldier_TL_F: Atlas_I_UNO_wdl_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_TL_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_TL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
@@ -1644,13 +1664,13 @@ class Atlas_I_UNO_wdl_Soldier_TL_F: Atlas_I_UNO_wdl_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIAGL_grn,
+		V_CF_CarrierRig_Lite_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIAGL_grn,
+		V_CF_CarrierRig_Lite_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
@@ -1658,7 +1678,7 @@ class Atlas_I_UNO_wdl_Soldier_TL_F: Atlas_I_UNO_wdl_Soldier_Base_F
 class Atlas_I_UNO_wdl_RadioOperator_F: Atlas_I_UNO_wdl_Soldier_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_RadioOperator_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	uniformClass = Atlas_U_I_UW_CombatUniform_shortsleeve_UNO;
 	backpack = B_RadioBag_01_green_F;
@@ -1686,13 +1706,13 @@ class Atlas_I_UNO_wdl_RadioOperator_F: Atlas_I_UNO_wdl_Soldier_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_grn,
+		V_CF_CarrierRig_F,
 		H_HelmetSpecter_cover_UNO_F,
 		DefaultManLinkedItems
 	};
@@ -1700,7 +1720,7 @@ class Atlas_I_UNO_wdl_RadioOperator_F: Atlas_I_UNO_wdl_Soldier_F
 class Atlas_I_UNO_wdl_Soldier_UAV_F: Atlas_I_UNO_wdl_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_UAV_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_Soldier_UAV_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_B_SOLDIER_UAV_F0;
@@ -1732,14 +1752,14 @@ class Atlas_I_UNO_wdl_Soldier_UAV_F: Atlas_I_UNO_wdl_Soldier_Base_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_grn,
+		V_CF_CarrierRig_Lite_F,
 		H_HelmetSpecter_cover_UNO_F,
 		I_UavTerminal,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_grn,
+		V_CF_CarrierRig_Lite_F,
 		H_HelmetSpecter_cover_UNO_F,
 		I_UavTerminal,
 		DefaultManLinkedItems
@@ -1748,21 +1768,27 @@ class Atlas_I_UNO_wdl_Soldier_UAV_F: Atlas_I_UNO_wdl_Soldier_Base_F
 class Atlas_I_UNO_wdl_soldier_UAV_06_F: Atlas_I_UNO_wdl_Soldier_UAV_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_soldier_UAV_06_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = Atlas_I_UNO_UAV_06_backpack_F;
 };
 class Atlas_I_UNO_wdl_soldier_UAV_06_medical_F: Atlas_I_UNO_wdl_Soldier_UAV_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_soldier_UAV_06_medical_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = Atlas_I_UNO_UAV_06_medical_backpack_F;
 };
 class Atlas_I_UNO_wdl_soldier_UGV_02_Demining_F: Atlas_I_UNO_wdl_Soldier_UAV_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_soldier_UGV_02_Demining_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_wdl_soldier_UGV_02_Demining_F.jpg";
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = Atlas_I_UNO_UGV_02_Demining_backpack_F;
+};
+class Atlas_I_UNO_wdl_Pilot_F: Atlas_I_UNO_wdl_Helipilot_F
+{
+	author = $STR_A3_A_Ravenholme;
+	displayName = $STR_B_Pilot_F0;
+	backpack = B_Parachute;
 };

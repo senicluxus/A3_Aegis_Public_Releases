@@ -24,6 +24,14 @@ class CfgPatches
             Opf_O_I_HMG_02_F,
             Opf_O_I_HMG_02_high_F,
 
+            /* From "cfgPara.hpp" */
+            Opf_O_P_HMG_02_F,
+            Opf_O_P_HMG_02_high_F,
+
+            /* From "cfgPartisans.hpp" */
+            Opf_B_P_HMG_02_F,
+            Opf_B_P_HMG_02_high_F,
+
             /* From "cfgMilitia.hpp" */
             Opf_I_P_HMG_02_F,
             Opf_I_P_HMG_02_high_F

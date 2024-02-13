@@ -64,7 +64,7 @@ class CfgVehicles
 			class RearTurret: RearTurret
 			{
                 /* Weapons & Ammunition */
-				magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Red_Splash)};
+				magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Red)};
 			};
 		};
 	};
@@ -93,7 +93,7 @@ class CfgVehicles
 			class RearTurret: RearTurret
 			{
                 /* Weapons & Ammunition */
-				magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Yellow_Splash)};
+				magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Yellow)};
 			};
 		};
 	};

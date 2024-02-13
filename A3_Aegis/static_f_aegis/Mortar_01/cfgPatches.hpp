@@ -29,7 +29,11 @@ class CfgPatches
             O_R_Mortar_01_F,
             O_R_Mortar_01_support_F,
             O_R_Mortar_01_Weapon_F,
-            O_R_Mortar_01_ard_F
+            O_R_Mortar_01_ard_F,
+
+			/* From "cfgEAF.hpp" */
+			Aegis_B_E_Mortar_01_F
+			
         };
 		weapons[] = {/* Automated */};
 	};

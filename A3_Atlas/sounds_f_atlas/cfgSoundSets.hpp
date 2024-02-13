@@ -101,4 +101,42 @@ class CfgSoundSets
 	{
 		soundShaders[] = {G36_silencerTailInterior_SoundShader};
 	};
+
+	class Atlas_PzF3_Shot_SoundSet
+	{
+		soundShaders[] =
+		{
+			Atlas_PzF3_Launch_SoundShader,
+			Atlas_PzF3_closeShot1_SoundShader,
+			Atlas_PzF3_closeShot2_SoundShader,
+			Atlas_PzF3_distShot_SoundShader,
+			Launcher_Adds_Kick_SoundShader,
+			Launcher_Adds_Metal_SoundShader
+		};
+		volumeFactor = 2.0;
+		volumeCurve = LinearCurve;
+		spatial = true;
+		doppler = false;
+		loop = false;
+		sound3DProcessingType = ExplosionMedium3DProcessingType;
+		distanceFilter = explosionDistanceFreqAttenuationFilter;
+	};
+	class Atlas_PzF3_Tail_SoundSet
+	{
+		soundShaders[] =
+		{
+			Atlas_PzF3_tailForest_SoundShader,
+			Atlas_PzF3_tailHouses_SoundShader,
+			Atlas_PzF3_tailMeadows_SoundShader
+		};
+		volumeFactor = 0.9;
+		volumeCurve = InverseSquare2Curve;
+		spatial = true;
+		doppler = false;
+		loop = false;
+		soundShadersLimit = 2;
+		frequencyRandomizer = 0.05;
+		sound3DProcessingType = ExplosionMediumTail3DProcessingType;
+		distanceFilter = explosionTailDistanceFreqAttenuationFilter;
+	};
 };

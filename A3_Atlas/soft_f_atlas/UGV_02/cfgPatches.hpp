@@ -9,6 +9,7 @@ class CfgPatches
         {
             // Germany
             Atlas_B_G_UGV_02_Demining_F,
+            Atlas_B_G_UGV_02_Demining_ard_F,
 
             // ADF
             Atlas_B_A_UGV_02_Demining_backpack_F,

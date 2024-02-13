@@ -326,3 +326,13 @@ class I_E_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 		};
 	};
 };
+
+/* BLUFOR LDF */
+class Aegis_B_E_APC_tracked_03_cannon_v2_F: I_E_APC_tracked_03_cannon_v2_F
+{
+	author = $STR_A3_A_Ravenholme;
+    side = TWest;
+	faction = BLU_EAF_F;
+	crew = Aegis_B_E_Crew_F;
+	typicalCargo[] = {Aegis_B_E_Crew_F};
+};

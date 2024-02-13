@@ -1,9 +1,31 @@
 class CfgEditorSubcategories
 {
+	// Men
 	class EdSubcat_Personnel_Persian
 	{
 		displayName = "Men (Middle Eastern)";
 	};
+	class EdSubcat_Personnel_Army
+	{
+		displayName = "Men (Army)";
+	};
+	class EdSubcat_Personnel_Marines
+	{
+		displayName = "Men (Marines)";
+	};
+	class EdSubcat_Personnel_Reservists
+	{
+		displayName = "Men (Reservists)";
+	};
+	class EdSubcat_Personnel_commandos
+	{
+		displayName = "Men (Naval Commandos)";
+	};
+	class EdSubcat_Personnel_JSOC
+	{
+		displayName = "Men (JSOC)";
+	};
+
     // Ammo boxes' subcategories
 	class EdSubcat_Ammo_CSAT_Woodland
 	{
@@ -48,9 +70,5 @@ class CfgEditorSubcategories
 	class EdSubcat_Ammo_Marar
 	{
 		displayName = "Ammo (Marar)";
-	};
-	class EdSubcat_Personnel_commandos
-	{
-		displayName = "Naval Commandos";
 	};
 };

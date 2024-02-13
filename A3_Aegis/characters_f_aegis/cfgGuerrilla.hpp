@@ -2084,6 +2084,7 @@ class O_G_Sharpshooter_F: I_G_Sharpshooter_F
 class I_G_Soldier_LAT2_F: I_G_Soldier_base_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_G_Soldier_LAT2_F.jpg";
+    backpack = B_Kitbag_rgr_G_LAT2;
 	weapons[] =
     {
         arifle_TRG21_F,
@@ -2725,6 +2726,59 @@ class O_G_Soldier_TechSpec_F: I_G_Soldier_TechSpec_F
         H_Cap_grn,
         G_Tactical_clear,
         V_Pocketed_olive_F,
+        O_UAVTerminal,
+        DefaultManGuerillaLinkedItems
+    };
+};
+
+/* West Sahara UAV Operators */
+class I_G_Soldier_UAV_LxWS: I_G_Soldier_F
+{
+    linkedItems[] = 
+    {
+        V_Chestrig_oli,
+        H_Shemag_olive,
+        I_UAVTerminal,
+        DefaultManGuerillaLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_Chestrig_oli,
+        H_Shemag_olive,
+        I_UAVTerminal,
+        DefaultManGuerillaLinkedItems
+    };
+};
+class B_G_Soldier_UAV_LxWS: B_G_Soldier_F
+{
+    linkedItems[] = 
+    {
+        V_Chestrig_oli,
+        H_Shemag_olive,
+        B_UAVTerminal,
+        DefaultManGuerillaLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_Chestrig_oli,
+        H_Shemag_olive,
+        B_UAVTerminal,
+        DefaultManGuerillaLinkedItems
+    };
+};
+class O_G_Soldier_UAV_LxWS: O_G_Soldier_F
+{
+    linkedItems[] = 
+    {
+        V_Chestrig_oli,
+        H_Shemag_olive,
+        O_UAVTerminal,
+        DefaultManGuerillaLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        V_Chestrig_oli,
+        H_Shemag_olive,
         O_UAVTerminal,
         DefaultManGuerillaLinkedItems
     };

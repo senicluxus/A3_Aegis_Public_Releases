@@ -106,7 +106,7 @@ class Atlas_U_B_A_PilotCoveralls: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Pilot Coveralls [ADF]";
+	displayName = $STR_A3_A_CfgWeapons_U_B_A_PilotCoveralls0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_A_PilotCoveralls_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 	hiddenSelections[] = {camo};
@@ -123,7 +123,7 @@ class Atlas_U_B_A_Wetsuit: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Wetsuit [ADF]";
+	displayName = $STR_A3_A_CfgWeapons_U_B_A_Wetsuit0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_A_Wetsuit_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
@@ -141,7 +141,7 @@ class Atlas_U_B_A_CBRN_Suit_01_Aucamo_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "CBRN Suit [ADF]";
+	displayName = $STR_A3_A_CfgWeapons_U_B_A_CBRN_Suit_01_Aucamo_F0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_A_CBRN_Suit_01_Aucamo_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};
@@ -152,5 +152,56 @@ class Atlas_U_B_A_CBRN_Suit_01_Aucamo_F: Uniform_Base
 		uniformClass = Atlas_B_A_CBRN_Man_Oversuit_01_Aucamo_F;
 		containerClass = Supply30;
 		mass = 45;
+	};
+};
+class Atlas_U_B_A_GhillieSuit: Uniform_Base
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_B_A_GhillieSuit0;
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\Atlas_U_B_A_GhillieSuit_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_A_Soldier_01_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_B_A_GhillieSuit_01_F;
+		containerClass = Supply60;
+		mass = 60;
+	};
+};
+class Atlas_U_B_A_GhillieSuit_Arid: Uniform_Base
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_B_A_GhillieSuit_Arid0;
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\Atlas_U_B_A_GhillieSuit_Arid_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_A_Soldier_01_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_B_A_GhillieSuit_01_ard_F;
+		containerClass = Supply60;
+		mass = 60;
+	};
+};
+class Atlas_U_B_A_GhillieSuit_Tropical: Uniform_Base
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_B_A_GhillieSuit_Tropical0;
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\Atlas_U_B_A_GhillieSuit_Tropical_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_A_Soldier_01_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_B_A_GhillieSuit_01_trp_F;
+		containerClass = Supply60;
+		mass = 60;
 	};
 };

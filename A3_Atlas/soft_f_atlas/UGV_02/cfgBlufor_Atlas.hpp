@@ -3,6 +3,7 @@ class Atlas_B_G_UGV_02_Demining_F: UGV_02_Demining_Base_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_UGV_02_Demining_F.jpg";
 	scope = public;
+	scopeCurator = public;
 	displayName = $STR_A3_C_CfgVehicles_I_UGV_02_Demining_F0;
 	side = TWest;
 	faction = Atlas_BLU_G_F;
@@ -15,4 +16,13 @@ class Atlas_B_G_UGV_02_Demining_F: UGV_02_Demining_Base_F
 		displayName = "";
 		dissasembleTo[] = {B_UGV_02_Demining_backpack_F};
 	};
+};
+
+/* Bundeswehr Arid */
+class Atlas_B_G_UGV_02_Demining_ard_F: Atlas_B_G_UGV_02_Demining_F
+{
+	scope = public;
+	scopeCurator = public;
+	side = TWest;
+	faction = Atlas_BLU_G_ard_F;
 };

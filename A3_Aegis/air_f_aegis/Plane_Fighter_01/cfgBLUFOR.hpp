@@ -900,8 +900,8 @@ class B_W_Ejection_Seat_Plane_Fighter_01_F: Ejection_Seat_Plane_Fighter_01_base_
 	crew = B_W_Fighter_Pilot_F;
 };
 
-/* USMC */
-class B_USMC_Plane_Fighter_01_F: B_Plane_Fighter_01_F
+/* US (Desert) */
+class B_D_Plane_Fighter_01_F: B_Plane_Fighter_01_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -1109,10 +1109,10 @@ class B_USMC_Plane_Fighter_01_F: B_Plane_Fighter_01_F
 	typicalCargo[] = {B_Fighter_Pilot_F};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_USMC_Ejection_Seat_Plane_Fighter_01_F;
+		EjectionSeatClass = B_D_Ejection_Seat_Plane_Fighter_01_F;
 	};
 };
-class B_USMC_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
+class B_D_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -1320,10 +1320,10 @@ class B_USMC_Plane_Fighter_01_Stealth_F: B_Plane_Fighter_01_Stealth_F
 	typicalCargo[] = {B_Fighter_Pilot_F};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = B_USMC_Ejection_Seat_Plane_Fighter_01_F;
+		EjectionSeatClass = B_D_Ejection_Seat_Plane_Fighter_01_F;
 	};
 };
-class B_USMC_Ejection_Seat_Plane_Fighter_01_F: Ejection_Seat_Plane_Fighter_01_base_F
+class B_D_Ejection_Seat_Plane_Fighter_01_F: Ejection_Seat_Plane_Fighter_01_base_F
 {
 	class SimpleObject
 	{

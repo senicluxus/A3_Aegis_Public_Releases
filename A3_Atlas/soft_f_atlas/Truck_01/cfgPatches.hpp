@@ -30,6 +30,16 @@ class CfgPatches
             Atlas_B_G_Truck_01_mover_F,
             Atlas_B_G_Truck_01_Repair_F,
             Atlas_B_G_Truck_01_transport_F,
+            Atlas_B_G_Truck_01_ammo_ard_F,
+            Atlas_B_G_Truck_01_box_ard_F,
+            Atlas_B_G_Truck_01_cargo_ard_F,
+            Atlas_B_G_Truck_01_covered_ard_F,
+            Atlas_B_G_Truck_01_flatbed_ard_F,
+            Atlas_B_G_Truck_01_fuel_ard_F,
+            Atlas_B_G_Truck_01_medical_ard_F,
+            Atlas_B_G_Truck_01_mover_ard_F,
+            Atlas_B_G_Truck_01_Repair_ard_F,
+            Atlas_B_G_Truck_01_transport_ard_F,
 
             // IDF
             Atlas_I_I_Truck_01_ammo_F,

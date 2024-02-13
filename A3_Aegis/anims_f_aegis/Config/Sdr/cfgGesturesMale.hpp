@@ -98,5 +98,49 @@ class CfgGesturesMale
 		{
 			file = "\A3_Aegis\Anims_F_Aegis\Data\Anim\Sdr\Gst\GestureFireWF50Prone.rtm";
 		};
+
+		class GestureReloadAKM74: GestureReloadBase
+		{
+			file = "\A3_Aegis\Anims_F_Aegis\Data\Anim\Sdr\Gst\GestureReloadAKM74.rtm";
+			speed = -(108/30);
+            mask = handsWeapon;
+            headBobStrength = 0.25;
+            headBobMode = 2;
+			weaponIK = true;
+			leftHandIKCurve[] =
+			{
+				0,true,
+				(6/108),false,
+				(74/108),false,
+				(80/108),true
+			};
+			rightHandIKCurve[] =
+			{
+				0,true,
+				(82/108),true,
+				(87/108),false,
+				(100/108),false,
+				1,true
+			};
+		};
+		class GestureReloadAKM74Prone: GestureReloadAKM74
+		{
+			file = "\A3_Aegis\Anims_F_Aegis\Data\Anim\Sdr\Gst\GestureReloadAKM74Prone.rtm";
+			/*leftHandIKCurve[] =
+			{
+				0,true,
+				0.12,false,
+				0.823,false,
+				0.84,true
+			};*/
+		};
+		class GestureReloadAKM74Context: GestureReloadAKM74
+		{
+			mask = handsWeapon_context;
+		};
+		class GestureReloadAKM74ContextAnimDrive: GestureReloadAKM74
+		{
+			mask = handsWeapon_contextAnimDrive;
+		};
 	};
 };

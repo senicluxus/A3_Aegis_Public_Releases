@@ -270,6 +270,14 @@ class Land_Pod_Heli_Transport_04_ammo_F: Pod_Heli_Transport_04_base_F
                 "\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_ghex_CO.paa"
             };
         };
+        class Russian: Russian
+        {
+            textures[] =
+			{
+				"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_RUS_CO.paa",
+				"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_RUS_CO.paa"
+			};
+        };
     };
 };
 class Land_Pod_Heli_Transport_04_bench_F: Pod_Heli_Transport_04_crewed_base_F
@@ -284,6 +292,10 @@ class Land_Pod_Heli_Transport_04_bench_F: Pod_Heli_Transport_04_crewed_base_F
         class GreenHex: GreenHex
         {
             textures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Bench_ghex_CO.paa"};
+        };
+        class Russian: Russian
+        {
+            textures[] = {"\A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Bench_black_CO.paa"};
         };
     };
 };
@@ -304,6 +316,14 @@ class Land_Pod_Heli_Transport_04_box_F: Pod_Heli_Transport_04_base_F
                 "\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_ghex_CO.paa"
             };
         };
+        class Russian: Russian
+        {
+            textures[] =
+			{
+				"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_RUS_CO.paa",
+				"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_RUS_CO.paa"
+			};
+        };
     };
 };
 class Land_Pod_Heli_Transport_04_covered_F: Pod_Heli_Transport_04_crewed_base_F
@@ -323,6 +343,14 @@ class Land_Pod_Heli_Transport_04_covered_F: Pod_Heli_Transport_04_crewed_base_F
                 "\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_ghex_CO.paa"
             };
         };
+        class Russian: Russian
+        {
+            textures[] =
+			{
+				"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_RUS_CO.paa",
+				"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_RUS_CO.paa"
+			};
+        };
     };
 };
 class Land_Pod_Heli_Transport_04_fuel_F: Pod_Heli_Transport_04_base_F
@@ -337,6 +365,10 @@ class Land_Pod_Heli_Transport_04_fuel_F: Pod_Heli_Transport_04_base_F
         class GreenHex: GreenHex
         {
             textures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Fuel_ghex_CO.paa"};
+        };
+        class Russian: Russian
+        {
+            textures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Fuel_RUS_CO.paa"};
         };
     };
 };
@@ -357,6 +389,14 @@ class Land_Pod_Heli_Transport_04_medevac_F: Pod_Heli_Transport_04_crewed_base_F
                 "\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_ghex_CO.paa"
             };
         };
+        class Russian: Russian
+        {
+            textures[] =
+			{
+				"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_RUS_CO.paa",
+				"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_RUS_CO.paa"
+			};
+        };
     };
 };
 class Land_Pod_Heli_Transport_04_repair_F: Pod_Heli_Transport_04_base_F
@@ -375,6 +415,14 @@ class Land_Pod_Heli_Transport_04_repair_F: Pod_Heli_Transport_04_base_F
                 "\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_ghex_CO.paa",
                 "\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_ghex_CO.paa"
             };
+        };
+        class Russian: Russian
+        {
+            textures[] =
+			{
+				"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_RUS_CO.paa",
+				"\A3_Aegis\Air_F_Aegis\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_RUS_CO.paa"
+			};
         };
     };
 };
@@ -1032,6 +1080,14 @@ class O_T_Heli_Transport_04_bench_F: O_Heli_Transport_04_bench_F
 		{
 			gunnerType = O_T_Helicrew_F;
 		};
+        class CargoTurret_01: CargoTurret_01{};
+        class CargoTurret_02: CargoTurret_02{};
+        class CargoTurret_03: CargoTurret_03{};
+        class CargoTurret_04: CargoTurret_04{};
+        class CargoTurret_05: CargoTurret_05{};
+        class CargoTurret_06: CargoTurret_06{};
+        class CargoTurret_07: CargoTurret_07{};
+        class CargoTurret_08: CargoTurret_08{};
 	};
 
     /* Animation Sources */

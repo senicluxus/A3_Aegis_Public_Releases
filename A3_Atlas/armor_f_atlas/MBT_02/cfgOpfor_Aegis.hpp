@@ -171,7 +171,7 @@ class Atlas_O_W_MBT_02_cannon_ghex_F: O_MBT_02_cannon_F
 		verticalOffsetWorld = -0.185;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_MBT_02_cannon_ghex_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_MBT_02_cannon_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -183,12 +183,12 @@ class Atlas_O_W_MBT_02_cannon_ghex_F: O_MBT_02_cannon_F
 		Atlas_O_W_Soldier_F,
 		Atlas_O_W_Soldier_F
 	};
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Exp\MBT_02\Data\MBT_02_body_ghex_CO.paa",
-		"\A3\Armor_F_Exp\MBT_02\Data\MBT_02_turret_ghex_CO.paa",
-		"\A3\Armor_F_Exp\MBT_02\Data\MBT_02_ghex_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\MBT_02_Body_WHEX_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\MBT_02_Turret_WHEX_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\MBT_02_WHEX_CO.paa",
 		"\A3\Armor_F\Data\camonet_CSAT_Hex_Green_CO.paa"
 	};
 	class TransportMagazines

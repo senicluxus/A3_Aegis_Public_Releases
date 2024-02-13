@@ -76,7 +76,7 @@ class CfgWeapons
 				iconScale = 0.2;
 			};
 			class UnderBarrelSlot{};
-			mass = 140;
+			mass = 85;
 		};
 		modes[] =
 		{
@@ -184,7 +184,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-	    	mass = 160;
+	    	mass = 95;
 	  	};
 		muzzles[] =
 		{
@@ -261,7 +261,7 @@ class CfgWeapons
 				};
 				iconScale = 0.2;
 			};
-	    	mass = 100;
+	    	mass = 75;
 	  	};
 		class Single: Single
 		{

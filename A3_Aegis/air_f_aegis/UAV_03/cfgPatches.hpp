@@ -9,7 +9,8 @@ class CfgPatches
         {
             /* From "cfgBLUFOR.hpp" */
             B_UAV_03_dynamicLoadout_F,
-            B_W_UAV_03_dynamicLoadout_F
+            B_W_UAV_03_dynamicLoadout_F,
+			Aegis_B_D_UAV_03_dynamicLoadout_F
         };
 		weapons[] = {/* Automated */};
 	};

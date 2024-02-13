@@ -35,4 +35,18 @@ class CfgRecoils
 		};
 		temporary = 0.01;
 	};
+	class Atlas_recoil_PzF3: recoil_default
+	{
+		muzzleOuter[] =
+		{// X       Y       a       b
+			0.1,    0.15,   0.25,   0.12
+        };
+		kickBack[] =
+		{// Min     Max
+			0.04,   0.08
+		};
+
+        permanent = 0.1;
+		temporary = 0.1;
+	};
 };

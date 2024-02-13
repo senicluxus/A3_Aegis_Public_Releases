@@ -106,7 +106,7 @@ class U_I_E_Uniform_01_coveralls_arid_F: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Heli Pilot Coveralls (Arid) [LDF]";
+	displayName = "Heli Pilot Coveralls [LDF] (Arid)";
 	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_U_I_E_Uniform_01_coveralls_arid_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
 	hiddenSelections[] = {camo};

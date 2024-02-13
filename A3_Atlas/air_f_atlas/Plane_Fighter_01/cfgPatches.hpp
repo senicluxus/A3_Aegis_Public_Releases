@@ -8,6 +8,9 @@ class CfgPatches
 		units[] =
         {
             // Germany
+			Atlas_B_G_Ejection_Seat_Plane_Fighter_01_ard_F,
+            Atlas_B_G_Plane_Fighter_01_ard_F,
+            Atlas_B_G_Plane_Fighter_01_Stealth_ard_F,
             Atlas_B_G_Ejection_Seat_Plane_Fighter_01_F,
             Atlas_B_G_Plane_Fighter_01_F,
             Atlas_B_G_Plane_Fighter_01_Stealth_F

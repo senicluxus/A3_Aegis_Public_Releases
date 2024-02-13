@@ -30,8 +30,8 @@ class O_CargoNet_01_ammo_F: CargoNet_01_ammo_base_F
         mag_xx(5Rnd_127x108_Mag,8);
         mag_xx(150Rnd_93x64_Mag,6);
         mag_xx(6Rnd_45ACP_Cylinder,4);
-        mag_xx(8Rnd_12Gauge_Pellets,6);
-        mag_xx(8Rnd_12Gauge_Slug,6);
+        mag_xx(8Rnd_12Gauge_AA40_Pellets_lxWS,6);
+        mag_xx(8Rnd_12Gauge_AA40_Slug_lxWS,6);
         mag_xx(10Rnd_50BW_Mag_F,24);
         mag_xx(APERSBoundingMine_Range_Mag,5);
         mag_xx(APERSMine_Range_Mag,5);
@@ -87,7 +87,7 @@ class O_CargoNet_01_ammo_F: CargoNet_01_ammo_base_F
         weap_xx(srifle_GM6_camo_F,2);
         delete _xx_srifle_GM6_F;
         weap_xx(MMG_01_hex_F,2);
-        weap_xx(sgun_AA40_F,2);
+        weap_xx(sgun_aa40_lxWS,2);
         weap_xx(arifle_ARX_hex_F,8);
     };
     class TransportItems
@@ -192,8 +192,8 @@ class O_T_CargoNet_01_ammo_F: O_CargoNet_01_ammo_F
 		mag_xx(10Rnd_93x64_DMR_05_Mag,12);
 		mag_xx(5Rnd_127x108_APDS_Mag,4);
 		mag_xx(5Rnd_127x108_Mag,8);
-		mag_xx(8Rnd_12Gauge_Pellets,6);
-		mag_xx(8Rnd_12Gauge_Slug,6);
+		mag_xx(8Rnd_12Gauge_AA40_Pellets_lxWS,6);
+        mag_xx(8Rnd_12Gauge_AA40_Slug_lxWS,6);
 		mag_xx(30Rnd_65x39_caseless_green,48);
 		mag_xx(10Rnd_50BW_Mag_F,24);
 		mag_xx(ATMine_Range_Mag,5);
@@ -234,7 +234,7 @@ class O_T_CargoNet_01_ammo_F: O_CargoNet_01_ammo_F
 		weap_xx(srifle_DMR_04_F,2);
 		weap_xx(srifle_DMR_05_blk_F,2);
 		weap_xx(srifle_GM6_ghex_F,2);
-		weap_xx(sgun_AA40_F,2);
+		weap_xx(sgun_aa40_lxWS,2);
 		weap_xx(arifle_ARX_ghex_F,8);
 	};
 	class TransportItems

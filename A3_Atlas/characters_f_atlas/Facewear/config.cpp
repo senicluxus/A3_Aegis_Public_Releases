@@ -493,12 +493,12 @@ class CfgGlasses
 			NoGlasses,0
 		};
 	};
-	/*class G_Bandanna_TransPride: G_Bandanna_blk
+	class G_Bandanna_TransPride: G_Bandanna_blk
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = $STR_A3_A_CfgGlasses_G_Bandanna_TransPride0;
-		//picture = "\A3_Atlas\Characters_F_Atlas\Facewear\Data\UI\icon_G_Bandanna_TransPride_CA.paa";
+		picture = "\A3_Atlas\Characters_F_Atlas\Facewear\Data\UI\icon_G_BandMask_TransPride_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Facewear\Data\headgear_bandMask_TransPride_CO.paa"};
 		identityTypes[] = {NoGlasses,0};
-	};*/
+	};
 };

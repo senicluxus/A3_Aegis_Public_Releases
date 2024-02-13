@@ -23,46 +23,38 @@ class CfgVehicles
 		};
 		class TextureSources
 		{
-			class Blufor
-			{
-				factions[] += {Atlas_BLU_G_F};
-			};
-			class Olive
-			{
-				factions[] += {Atlas_BLU_G_F};
-			};
 			class Woodland
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+				displayName = $STR_A3_A_TEXTURESOURCES_BW0;
 				author = $STR_A3_A_wsxcgy;
 				textures[] =
 				{
 					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_wdl_CO.paa",
 					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\Turret_wdl_CO.paa"
 				};
-				factions[] = {Atlas_BLU_G_F};
+				factions[] = {};
 			};
 			class Desert
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_DESERT0;
+				displayName = $STR_A3_A_TEXTURESOURCES_BWarid0;
 				author = $STR_A3_A_wsxcgy;
 				textures[] =
 				{
 					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_desert_CO.paa",
 					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\Turret_desert_CO.paa"
 				};
-				factions[] = {Atlas_BLU_G_ard_F};
+				factions[] = {};
 			};
 			class Jagged
 			{
-				displayName = $STR_A3_A_TEXTURESOURCES_JAGGED0;
+				displayName = $STR_A3_A_TEXTURESOURCES_GreenFR0;
 				author = $STR_A3_A_wsxcgy;
 				textures[] =
 				{
 					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_jagged_CO.paa",
 					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\Turret_jagged_CO.paa"
 				};
-				factions[] = {Atlas_BLU_L_F};
+				factions[] = {};
 			};
 			class ADF
 			{
@@ -73,7 +65,7 @@ class CfgVehicles
 					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_aus_CO.paa",
 					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\Turret_aus_CO.paa"
 				};
-				factions[] = {Atlas_BLU_A_F};
+				factions[] = {};
 			};
 		};
 	};

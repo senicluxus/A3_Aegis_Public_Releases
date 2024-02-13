@@ -119,6 +119,108 @@ class U_O_R_officer_noInsignia_taiga_F: Uniform_Base
 		mass = 60;
 	};
 };
+/*class Aegis_U_O_Luchnik_taiga_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+	displayName = $STR_A3_O_CfgWeapons_U_O_Luchnik_taiga_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_Luchnik_taiga_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_Luchnik_01_taiga_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};
+class Aegis_U_O_Luchnik_RolledUp_taiga_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+	displayName = $STR_A3_O_CfgWeapons_U_O_Luchnik_rolledup_taiga_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_Luchnik_RolledUp_taiga_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_Luchnik_01_shortsleeve_taiga_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};
+class Aegis_U_O_Luchnik_officer_taiga_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+	displayName = $STR_A3_O_CfgWeapons_U_O_Luchnik_officer_taiga_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_Luchnik_officer_taiga_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_Luchnik_01_officer_taiga_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};*/
+class Aegis_U_O_LightCombatFatigues_rutaiga_F: Uniform_Base
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_O_LightCombatFatigues_rutaiga_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_LightCombatFatigues_rutaiga_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_LightCombatFatigues_rutaiga_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};
+class Aegis_U_O_CombatFatigues_rutaiga_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_O_CombatFatigues_rutaiga_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_CombatFatigues_rutaiga_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_CombatFatigues_rutaiga_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};
+class Aegis_U_O_CombatFatigues_02_rutaiga_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_O_CombatFatigues_02_rutaiga_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_CombatFatigues_02_rutaiga_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_CombatFatigues_02_rutaiga_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};
 
 /* Russia (Mediterranean) */
 class U_O_R_CombatUniform_arid_F: Uniform_Base
@@ -236,6 +338,108 @@ class U_O_R_officer_noInsignia_arid_F: Uniform_Base
 	{
 		uniformModel = "-";
 		uniformClass = O_R_LightFatigues_01_arid_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};
+/*class Aegis_U_O_Luchnik_arid_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+	displayName = $STR_A3_O_CfgWeapons_U_O_Luchnik_arid_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_Luchnik_arid_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_Luchnik_01_arid_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};
+class Aegis_U_O_Luchnik_RolledUp_arid_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+	displayName = $STR_A3_O_CfgWeapons_U_O_Luchnik_rolledup_arid_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_Luchnik_RolledUp_arid_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_Luchnik_01_shortsleeve_arid_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};
+class Aegis_U_O_Luchnik_officer_arid_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+	displayName = $STR_A3_O_CfgWeapons_U_O_Luchnik_officer_arid_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_Luchnik_officer_arid_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_Luchnik_01_officer_arid_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};*/
+class Aegis_U_O_LightCombatFatigues_ruarid_F: Uniform_Base
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_O_LightCombatFatigues_ruarid_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_LightCombatFatigues_ruarid_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_LightCombatFatigues_ruarid_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};
+class Aegis_U_O_CombatFatigues_ruarid_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_O_CombatFatigues_ruarid_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_CombatFatigues_ruarid_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_CombatFatigues_ruarid_F;
+		containerClass = Supply40;
+		mass = 60;
+	};
+};
+class Aegis_U_O_CombatFatigues_02_ruarid_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_O_CombatFatigues_02_ruarid_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\Aegis_U_O_CombatFatigues_02_ruarid_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_OPFOR_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_O_CombatFatigues_02_ruarid_F;
 		containerClass = Supply40;
 		mass = 60;
 	};

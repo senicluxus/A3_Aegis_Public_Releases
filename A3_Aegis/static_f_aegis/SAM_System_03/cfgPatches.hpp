@@ -14,9 +14,13 @@ class CfgPatches
             /* From "cfgBLUFOR.hpp" */
             B_T_SAM_System_03_F,
             B_W_SAM_System_03_F,
+			Aegis_B_D_SAM_System_03_F,
             B_A_SAM_System_03_F,
             B_A_SAM_System_03_tna_F,
-            B_A_SAM_System_03_wdl_F
+            B_A_SAM_System_03_wdl_F,
+
+			/* From "cfgEAF.hpp" */
+			Aegis_B_E_SAM_System_03_F
         };
 		weapons[] = {/* Automated */};
 	};

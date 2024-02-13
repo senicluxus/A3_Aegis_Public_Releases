@@ -26,6 +26,7 @@ class B_APC_Tracked_01_rcws_F: B_APC_Tracked_01_base_F
             magazines[] =
             {
                 mag_2(64Rnd_40mm_G_belt),
+                mag_2(64Rnd_40mm_AB_G_belt),
                 mag_4(200Rnd_127x99_mag_Tracer_Red)
             };
         };
@@ -1103,37 +1104,4 @@ class B_W_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 		"\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 	};
-};
-
-/* US Marines */
-class B_D_APC_Tracked_01_aa_lxWS : B_APC_Tracked_01_AA_F
-{
-    scope = protected;
-    scopeCurator = protected;
-};
-
-class B_D_APC_Tracked_01_CRV_lxWS : B_APC_Tracked_01_CRV_F
-{
-    scope = protected;
-    scopeCurator = protected;
-};
-
-class B_D_APC_Tracked_01_rcws_lxWS : B_APC_Tracked_01_rcws_F
-{
-    scope = protected;
-    scopeCurator = protected;   
-};
-
-class B_MBT_01_arty_F;
-class B_D_MBT_01_arty_lxWS : B_MBT_01_arty_F
-{
-    scope = protected;
-    scopeCurator = protected;   
-};
-
-class B_MBT_01_mlrs_F;
-class B_D_MBT_01_mlrs_lxWS : B_MBT_01_mlrs_F
-{
-    scope = protected;
-    scopeCurator = protected;   
 };

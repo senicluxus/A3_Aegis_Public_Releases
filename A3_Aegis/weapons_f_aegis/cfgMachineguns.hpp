@@ -80,6 +80,7 @@ class LMG_Zafir_F: Rifle_Long_Base_F
     };
 };
 class MMG_01_hex_F;
+class MMG_01_tan_f;
 class MMG_02_camo_F;
 class MMG_02_black_F;
 class LMG_Mk200_black_F: LMG_Mk200_F

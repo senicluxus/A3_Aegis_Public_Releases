@@ -19,7 +19,7 @@ class CfgWeapons
 		handAnim[] =
 		{
 	    	OFP2_ManSkeleton,
-			"\A3\Weapons_F_Mark\LongRangeRifles\DMR_06\Data\Anim\DMR_06.rtm"
+			"\A3_OpF\weapons_f_opf\Rifles\SKS\Data\Data\Anim\SKS.rtm"
 		};
 		reloadAction = GestureReloadSKS;
 		magazines[] = {30Rnd_762x39_Mag_F};
@@ -64,10 +64,22 @@ class CfgWeapons
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot{};
-			class CowsSlot{};
-			class PointerSlot{};
+			class CowsSlot: CowsSlot_Rail
+			{
+				iconPosition[] = {0.55,0.28};
+				iconScale = 0.2;
+			};
+			class MuzzleSlot: asdg_MuzzleSlot_762R
+			{  
+				iconPosition[] = {-0.02,0.41};
+				iconScale = 0.2;
+			};
 			class UnderBarrelSlot{};
+			class PointerSlot: asdg_PistolUnderRail
+			{
+				iconPosition[] = {0.2,0.44};
+				iconScale = 0.2;
+			};
 			mass = 160;
 		};
 		distanceZoomMin = 300;
@@ -75,7 +87,7 @@ class CfgWeapons
 		modes[] = {Single};
 		class Single: Mode_SemiAuto
 		{
-			sounds[] = {StandardSound};
+			sounds[] = {StandardSound, SilencedSound};
 			reloadTime = RPM_600;
 			dispersion = 0.00116;
 			minRange = 2;
@@ -96,5 +108,14 @@ class CfgWeapons
 		displayName = $STR_A3_O_CfgWeapons_arifle_SKS_F0;
 		picture = "\A3_Opf\Weapons_F_Opf\Rifles\SKS\Data\UI\icon_arifle_SKS_F_X_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Opf\Weapons_F_Opf\Rifles\SKS\Data\SKS_CO.paa"};
+	};
+	class Opf_arifle_SKS_oak_F: Opf_arifle_SKS_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
+		baseWeapon = Opf_arifle_SKS_oak_F;
+		scope = public;
+		displayName = $STR_A3_O_CfgWeapons_arifle_SKS_oak_F0;
+		picture = "\A3_Opf\Weapons_F_Opf\Rifles\SKS\Data\UI\icon_arifle_SKS_new_F_X_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Opf\Weapons_F_Opf\Rifles\SKS\Data\SKS_new_CO.paa"};
 	};
 };

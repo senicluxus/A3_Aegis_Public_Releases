@@ -60,7 +60,9 @@ class CfgWeapons
         muzzles[] +=
         {
             HandGrenade_EastMuzzle,
-            HandGrenade_GuerMuzzle
+            HandGrenade_GuerMuzzle,
+			Aegis_HandFlare_red_Muzzle,
+			Aegis_HandFlare_green_Muzzle
         };
         class ThrowMuzzle;
 		class HandGrenade_EastMuzzle: ThrowMuzzle
@@ -75,6 +77,14 @@ class CfgWeapons
 		{
 			magazines[] = {B_IR_Beacon};
 		};*/
+		class Aegis_HandFlare_red_Muzzle: ThrowMuzzle
+		{
+			magazines[] = {Aegis_HandFlare_red};
+		};
+		class Aegis_HandFlare_green_Muzzle: ThrowMuzzle
+		{
+			magazines[] = {Aegis_HandFlare_green};
+		};
     };
     #include "cfgLaunchers.hpp"
     #include "cfgLongRangeRifles.hpp"

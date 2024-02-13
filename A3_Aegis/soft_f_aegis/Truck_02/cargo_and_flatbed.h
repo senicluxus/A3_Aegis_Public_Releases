@@ -13,8 +13,28 @@
 ////////////////////////////////////////////////////////
 /// IAF
 ////////////////////////////////////////////////////////
-class O_Truck_02_cargo_lxWS: Truck_02_cargo_base_lxWS{};
-class O_Truck_02_flatbed_lxWS: Truck_02_flatbed_base_lxWS{};
+class O_Truck_02_cargo_lxWS: Truck_02_cargo_base_lxWS
+{
+	hiddenSelections[] 			= {camo1, camo2, camo3, camo4, camo9};
+	hiddenSelectionsTextures[] 	= {
+									"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
+        							"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
+        							"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+        							"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
+									"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+								  };
+};
+class O_Truck_02_flatbed_lxWS: Truck_02_flatbed_base_lxWS
+{
+	hiddenSelections[] 			= {camo1, camo2, camo3, camo4, camo9};
+	hiddenSelectionsTextures[] 	= {
+									"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
+        							"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
+        							"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+        							"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
+									"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+								  };
+};
 DEPRECATED_CLASS(O_Truck_02_cargo_F,O_Truck_02_cargo_lxWS);
 DEPRECATED_CLASS(O_Truck_02_flatbed_F,O_Truck_02_flatbed_lxWS);
 
@@ -130,22 +150,32 @@ class C_Truck_02_racing_lxWS: Truck_02_box_base_lxWS
 class C_Truck_02_cargo_lxWS: Truck_02_cargo_base_lxWS
 {
 	hiddenSelectionsTextures[] 	= {
-									"\A3\soft_f_orange\Truck_02\Data\Truck_02_kab_IDAP_co.paa",
-									"\lxws\vehicles_f_lxws\Truck_02\data\truck_02_cargo_idap_CO.paa",
-									"\A3\soft_f_orange\Truck_02\Data\Truck_02_int_IDAP_co.paa",
+									"\a3\soft_f_beta\Truck_02\data\truck_02_kab_blue_CO.paa",
+									"\lxws\vehicles_f_lxws\Truck_02\data\truck_02_cargo_yellow_CO.paa",
+									"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
 									"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa",
-									"lxws\vehicles_f_lxws\Truck_02\data\addons_white_co.paa"
+									"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 								  };
+	textureList[] =
+    {
+        Blue,1,
+        Orange,1
+    };
 };
 class C_Truck_02_flatbed_lxWS: Truck_02_flatbed_base_lxWS
 {
 	hiddenSelectionsTextures[] 	= {
-									"\A3\soft_f_orange\Truck_02\Data\Truck_02_kab_IDAP_co.paa",
-									"\lxws\vehicles_f_lxws\Truck_02\data\truck_02_cargo_idap_CO.paa",
-									"\A3\soft_f_orange\Truck_02\Data\Truck_02_int_IDAP_co.paa",
+									"\a3\soft_f_beta\Truck_02\data\truck_02_kab_co.paa",
+									"\lxws\vehicles_f_lxws\Truck_02\data\truck_02_cargo_black_CO.paa",
+									"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
 									"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa",
-									"lxws\vehicles_f_lxws\Truck_02\data\addons_white_co.paa"
+									"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 								  };
+	textureList[] =
+    {
+        Blue,1,
+        Orange,1
+    };
 };
 DEPRECATED_CLASS(C_Truck_02_cargo_F,C_Truck_02_cargo_lxWS);
 DEPRECATED_CLASS(C_Truck_02_flatbed_F,C_Truck_02_flatbed_lxWS);
@@ -263,6 +293,7 @@ class O_R_Truck_02_cargo_F: O_Truck_02_cargo_lxWS
 	crew = O_R_Soldier_F;
 	typicalCargo[] = {O_R_Soldier_F};
 	textureList[] = {RUS,1};
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Truck_02_cargo_F.jpg";
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
@@ -282,6 +313,7 @@ class O_R_Truck_02_flatbed_F: O_Truck_02_flatbed_lxWS
 	crew = O_R_Soldier_F;
 	typicalCargo[] = {O_R_Soldier_F};
 	textureList[] = {RUS,1};
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Truck_02_flatbed_F.jpg";
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_RUkhk_CO.paa",
@@ -296,6 +328,7 @@ class Aegis_O_R_Truck_02_aa_F: Truck_02_aa_base_lxWS
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
 	scopeCurator = public;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Truck_02_aa_F.jpg";
 	side = TEast;
 	faction = OPF_R_F;
 	crew = O_R_Soldier_F;
@@ -360,6 +393,30 @@ class O_A_Truck_02_flatbed_F: O_Truck_02_flatbed_lxWS
 	faction = OPF_A_F;
 	crew = O_A_soldier_F;
 	typicalCargo[] = {O_A_soldier_F};
+};
+class Aegis_O_A_Truck_02_aa_F: Truck_02_aa_base_lxWS
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = public;
+	scopeCurator = public;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_A_Truck_02_aa_F.jpg";
+	side = TEast;
+	faction = OPF_A_F;
+	crew = O_A_soldier_F;
+	typicalCargo[] = {O_A_soldier_F};
+	textureList[] = {Opfor,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
+        "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
+        "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+        "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
+		"lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
+		"lxws\vehicles_f_lxws\zu23\data\zu23_green_co.paa",
+		"lxws\vehicles_f_lxws\zu23\data\zu23_addon_1_green_co.paa",
+		"lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_green_co.paa",
+		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+	};
 };
 
 	#undef SIMPLE_OBJECT

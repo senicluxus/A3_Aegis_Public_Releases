@@ -13,7 +13,7 @@ class I_Raven_soldier_base_F: I_soldier_F
 	};
 	faction = IND_Raven_F;
 	genericNames = RussianMen;
-	uniformClass = U_O_R_officer_noInsignia_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
@@ -29,25 +29,27 @@ class I_Raven_soldier_F: I_Raven_soldier_base_F
 	weapons[] = 
 	{
 		arifle_AK12_545_lush_aco_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
 		arifle_AK12_545_lush_aco_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_545x39_lush_Mag_F),
+        mag_6(30Rnd_545x39_AK12_lush_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
 		SmokeShell
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_545x39_lush_Mag_F),
+        mag_6(30Rnd_545x39_AK12_lush_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
 		SmokeShell
@@ -55,13 +57,13 @@ class I_Raven_soldier_F: I_Raven_soldier_base_F
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		DefaultManLinkedItems
 	};
     headgearList[] = 
@@ -71,7 +73,15 @@ class I_Raven_soldier_F: I_Raven_soldier_base_F
         H_HelmetSpecter_F,1,
         H_HelmetSpecter_headset_F,1,
 		H_HelmetSpecter_paint_F,1,
-        H_HelmetSpecter_paint_headset_F,1
+        H_HelmetSpecter_paint_headset_F,1,
+		H_HelmetLuchnik_olive_F,1,
+		H_HelmetLuchnik_khk_F,1,
+		H_HelmetLuchnik_cover_grn_F,1,
+		H_HelmetLuchnik_cover_khk_F,1,
+		H_HelmetLuchnik_cover_rutaiga_F,1,
+		H_HelmetLuchnik_cover_ruarid_F,1,
+		H_HelmetLuchnik_headset_grn_F,1,
+		H_HelmetLuchnik_headset_khk_F,1
     };
 };
 class I_Raven_soldier_GL_F: I_Raven_soldier_base_F
@@ -83,18 +93,20 @@ class I_Raven_soldier_GL_F: I_Raven_soldier_base_F
 	weapons[] = 
 	{
 		arifle_AK12_GL_545_aco_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
 		arifle_AK12_GL_545_aco_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_545x39_lush_Mag_F),
+        mag_6(30Rnd_545x39_AK12_lush_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
 		mag_6(1Rnd_HE_Grenade_shell),
@@ -103,7 +115,7 @@ class I_Raven_soldier_GL_F: I_Raven_soldier_base_F
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_545x39_lush_Mag_F),
+        mag_6(30Rnd_545x39_AK12_lush_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
 		mag_6(1Rnd_HE_Grenade_shell),
@@ -116,13 +128,13 @@ class I_Raven_soldier_GL_F: I_Raven_soldier_base_F
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_GL_blk_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_GL_blk_F,
 		DefaultManLinkedItems
 	};
     headgearList[] = 
@@ -132,7 +144,15 @@ class I_Raven_soldier_GL_F: I_Raven_soldier_base_F
         H_HelmetSpecter_F,1,
         H_HelmetSpecter_headset_F,1,
 		H_HelmetSpecter_paint_F,1,
-        H_HelmetSpecter_paint_headset_F,1
+        H_HelmetSpecter_paint_headset_F,1,
+		H_HelmetLuchnik_olive_F,1,
+		H_HelmetLuchnik_khk_F,1,
+		H_HelmetLuchnik_cover_grn_F,1,
+		H_HelmetLuchnik_cover_khk_F,1,
+		H_HelmetLuchnik_cover_rutaiga_F,1,
+		H_HelmetLuchnik_cover_ruarid_F,1,
+		H_HelmetLuchnik_headset_grn_F,1,
+		H_HelmetLuchnik_headset_khk_F,1
     };
 };
 class I_Raven_soldier_MG_F: I_Raven_soldier_base_F
@@ -144,12 +164,14 @@ class I_Raven_soldier_MG_F: I_Raven_soldier_base_F
 	weapons[] = 
 	{
 		arifle_RPK12_lush_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
 		arifle_RPK12_lush_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
@@ -174,13 +196,13 @@ class I_Raven_soldier_MG_F: I_Raven_soldier_base_F
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_black_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_CQB_blk_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_black_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_CQB_blk_F,
 		DefaultManLinkedItems
 	};
     headgearList[] = 
@@ -190,7 +212,15 @@ class I_Raven_soldier_MG_F: I_Raven_soldier_base_F
         H_HelmetSpecter_F,1,
         H_HelmetSpecter_headset_F,1,
 		H_HelmetSpecter_paint_F,1,
-        H_HelmetSpecter_paint_headset_F,1
+        H_HelmetSpecter_paint_headset_F,1,
+		H_HelmetLuchnik_olive_F,1,
+		H_HelmetLuchnik_khk_F,1,
+		H_HelmetLuchnik_cover_grn_F,1,
+		H_HelmetLuchnik_cover_khk_F,1,
+		H_HelmetLuchnik_cover_rutaiga_F,1,
+		H_HelmetLuchnik_cover_ruarid_F,1,
+		H_HelmetLuchnik_headset_grn_F,1,
+		H_HelmetLuchnik_headset_khk_F,1
     };
 };
 class I_Raven_soldier_TL_F: I_Raven_soldier_base_F
@@ -203,6 +233,7 @@ class I_Raven_soldier_TL_F: I_Raven_soldier_base_F
 	weapons[] = 
 	{
 		arifle_AK12_545_lush_arco_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons,
 		Binocular
@@ -210,22 +241,23 @@ class I_Raven_soldier_TL_F: I_Raven_soldier_base_F
 	respawnWeapons[] = 
 	{
 		arifle_AK12_545_lush_arco_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	magazines[] = 
 	{
-        mag_4(30Rnd_545x39_lush_Mag_F),
-        mag_2(30Rnd_545x39_lush_Mag_Tracer_F),
+        mag_4(30Rnd_545x39_AK12_lush_Mag_F),
+        mag_2(30Rnd_545x39_AK12_lush_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
         SmokeShell
 	};
 	respawnMagazines[] = 
 	{
-        mag_4(30Rnd_545x39_lush_Mag_F),
-        mag_2(30Rnd_545x39_lush_Mag_Tracer_F),
+        mag_4(30Rnd_545x39_AK12_lush_Mag_F),
+        mag_2(30Rnd_545x39_AK12_lush_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
         SmokeShell
@@ -237,14 +269,14 @@ class I_Raven_soldier_TL_F: I_Raven_soldier_base_F
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_black_headset_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_black_headset_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems
 	};
@@ -255,7 +287,15 @@ class I_Raven_soldier_TL_F: I_Raven_soldier_base_F
         H_HelmetSpecter_F,1,
         H_HelmetSpecter_headset_F,1,
 		H_HelmetSpecter_paint_F,1,
-        H_HelmetSpecter_paint_headset_F,1
+        H_HelmetSpecter_paint_headset_F,1,
+		H_HelmetLuchnik_olive_F,1,
+		H_HelmetLuchnik_khk_F,1,
+		H_HelmetLuchnik_cover_grn_F,1,
+		H_HelmetLuchnik_cover_khk_F,1,
+		H_HelmetLuchnik_cover_rutaiga_F,1,
+		H_HelmetLuchnik_cover_ruarid_F,1,
+		H_HelmetLuchnik_headset_grn_F,1,
+		H_HelmetLuchnik_headset_khk_F,1
     };
 };
 class I_Raven_soldier_M_F: I_Raven_soldier_base_F
@@ -275,10 +315,11 @@ class I_Raven_soldier_M_F: I_Raven_soldier_base_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_M_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_M_F0;
-	uniformClass = U_O_R_officer_noInsignia_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
 	weapons[] = 
 	{
 		srifle_DMR_01_black_ARCO_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -286,6 +327,7 @@ class I_Raven_soldier_M_F: I_Raven_soldier_base_F
 	respawnWeapons[] = 
 	{
 		srifle_DMR_01_black_ARCO_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -309,13 +351,13 @@ class I_Raven_soldier_M_F: I_Raven_soldier_base_F
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		DefaultManLinkedItems
 	};
     headgearList[] = 
@@ -325,7 +367,15 @@ class I_Raven_soldier_M_F: I_Raven_soldier_base_F
         H_HelmetSpecter_F,1,
         H_HelmetSpecter_headset_F,1,
 		H_HelmetSpecter_paint_F,1,
-        H_HelmetSpecter_paint_headset_F,1
+        H_HelmetSpecter_paint_headset_F,1,
+		H_HelmetLuchnik_olive_F,1,
+		H_HelmetLuchnik_khk_F,1,
+		H_HelmetLuchnik_cover_grn_F,1,
+		H_HelmetLuchnik_cover_khk_F,1,
+		H_HelmetLuchnik_cover_rutaiga_F,1,
+		H_HelmetLuchnik_cover_ruarid_F,1,
+		H_HelmetLuchnik_headset_grn_F,1,
+		H_HelmetLuchnik_headset_khk_F,1
     };
 };
 class I_Raven_soldier_LAT_F: I_Raven_soldier_base_F
@@ -361,7 +411,7 @@ class I_Raven_soldier_LAT_F: I_Raven_soldier_base_F
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_545x39_lush_Mag_F),
+        mag_6(30Rnd_545x39_AK12_lush_Mag_F),
         RPG32_F,
 		mag_2(17Rnd_9x21_Mag),
         HandGrenade_East,
@@ -369,7 +419,7 @@ class I_Raven_soldier_LAT_F: I_Raven_soldier_base_F
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_545x39_lush_Mag_F),
+        mag_6(30Rnd_545x39_AK12_lush_Mag_F),
         RPG32_F,
 		mag_2(17Rnd_9x21_Mag),
         HandGrenade_East,
@@ -382,13 +432,13 @@ class I_Raven_soldier_LAT_F: I_Raven_soldier_base_F
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_black_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_black_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		DefaultManLinkedItems
 	};
 	secondaryAmmoCoef = 0.5;
@@ -399,7 +449,15 @@ class I_Raven_soldier_LAT_F: I_Raven_soldier_base_F
         H_HelmetSpecter_F,1,
         H_HelmetSpecter_headset_F,1,
 		H_HelmetSpecter_paint_F,1,
-        H_HelmetSpecter_paint_headset_F,1
+        H_HelmetSpecter_paint_headset_F,1,
+		H_HelmetLuchnik_olive_F,1,
+		H_HelmetLuchnik_khk_F,1,
+		H_HelmetLuchnik_cover_grn_F,1,
+		H_HelmetLuchnik_cover_khk_F,1,
+		H_HelmetLuchnik_cover_rutaiga_F,1,
+		H_HelmetLuchnik_cover_ruarid_F,1,
+		H_HelmetLuchnik_headset_grn_F,1,
+		H_HelmetLuchnik_headset_khk_F,1
     };
 };
 class I_Raven_medic_F: I_Raven_soldier_base_F
@@ -423,18 +481,20 @@ class I_Raven_medic_F: I_Raven_soldier_base_F
 	weapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_545x39_lush_Mag_F),
+		mag_6(30Rnd_545x39_AK12_lush_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
 		SmokeShell,
@@ -444,7 +504,7 @@ class I_Raven_medic_F: I_Raven_soldier_base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_545x39_lush_Mag_F),
+		mag_6(30Rnd_545x39_AK12_lush_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
 		SmokeShell,
@@ -459,13 +519,13 @@ class I_Raven_medic_F: I_Raven_soldier_base_F
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_CQB_blk_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_CQB_blk_F,
 		DefaultManLinkedItems
 	};
 	picture = pictureHeal;
@@ -476,7 +536,15 @@ class I_Raven_medic_F: I_Raven_soldier_base_F
         H_HelmetSpecter_F,1,
         H_HelmetSpecter_headset_F,1,
 		H_HelmetSpecter_paint_F,1,
-        H_HelmetSpecter_paint_headset_F,1
+        H_HelmetSpecter_paint_headset_F,1,
+		H_HelmetLuchnik_olive_F,1,
+		H_HelmetLuchnik_khk_F,1,
+		H_HelmetLuchnik_cover_grn_F,1,
+		H_HelmetLuchnik_cover_khk_F,1,
+		H_HelmetLuchnik_cover_rutaiga_F,1,
+		H_HelmetLuchnik_cover_ruarid_F,1,
+		H_HelmetLuchnik_headset_grn_F,1,
+		H_HelmetLuchnik_headset_khk_F,1
     };
 };
 class I_Raven_engineer_F: I_Raven_soldier_base_F
@@ -486,30 +554,32 @@ class I_Raven_engineer_F: I_Raven_soldier_base_F
 	scope = public;
 	displayName = $STR_B_engineer_F0;
 	camouflage = 1.6;
-	uniformClass = U_O_R_officer_noInsignia_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
 	backpack = B_Carryall_green_eng_F;
 	weapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
 		arifle_AK12U_545_lush_aco_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_545x39_lush_Mag_F),
+		mag_6(30Rnd_545x39_AK12_lush_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
 		SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_545x39_lush_Mag_F),
+		mag_6(30Rnd_545x39_AK12_lush_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
 		SmokeShell
@@ -520,13 +590,13 @@ class I_Raven_engineer_F: I_Raven_soldier_base_F
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_GL_blk_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_GL_blk_F,
 		DefaultManLinkedItems
 	};
 	icon = iconManEngineer;
@@ -539,7 +609,15 @@ class I_Raven_engineer_F: I_Raven_soldier_base_F
         H_HelmetSpecter_F,1,
         H_HelmetSpecter_headset_F,1,
 		H_HelmetSpecter_paint_F,1,
-        H_HelmetSpecter_paint_headset_F,1
+        H_HelmetSpecter_paint_headset_F,1,
+		H_HelmetLuchnik_olive_F,1,
+		H_HelmetLuchnik_khk_F,1,
+		H_HelmetLuchnik_cover_grn_F,1,
+		H_HelmetLuchnik_cover_khk_F,1,
+		H_HelmetLuchnik_cover_rutaiga_F,1,
+		H_HelmetLuchnik_cover_ruarid_F,1,
+		H_HelmetLuchnik_headset_grn_F,1,
+		H_HelmetLuchnik_headset_khk_F,1
     };
 };
 class I_Raven_Soldier_UAV_F: I_Raven_soldier_base_F
@@ -551,17 +629,19 @@ class I_Raven_Soldier_UAV_F: I_Raven_soldier_base_F
 	displayName = $STR_A3_B_SOLDIER_UAV_F0;
 	role = SpecialOperative;
 	uavHacker = true;
-	uniformClass = U_O_R_officer_noInsignia_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
 	backpack = I_Raven_UAV_01_backpack_F;
 	weapons[] =
 	{
 		SMG_02_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		SMG_02_flash_F,
+		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
@@ -582,7 +662,7 @@ class I_Raven_Soldier_UAV_F: I_Raven_soldier_base_F
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		G_Tactical_Clear,
 		DefaultManLinkedItems,
 		I_UAVTerminal
@@ -590,7 +670,7 @@ class I_Raven_Soldier_UAV_F: I_Raven_soldier_base_F
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		G_Tactical_Clear,
 		DefaultManLinkedItems,
 		I_UAVTerminal
@@ -602,7 +682,15 @@ class I_Raven_Soldier_UAV_F: I_Raven_soldier_base_F
         H_HelmetSpecter_F,1,
         H_HelmetSpecter_headset_F,1,
 		H_HelmetSpecter_paint_F,1,
-        H_HelmetSpecter_paint_headset_F,1
+        H_HelmetSpecter_paint_headset_F,1,
+		H_HelmetLuchnik_olive_F,1,
+		H_HelmetLuchnik_khk_F,1,
+		H_HelmetLuchnik_cover_grn_F,1,
+		H_HelmetLuchnik_cover_khk_F,1,
+		H_HelmetLuchnik_cover_rutaiga_F,1,
+		H_HelmetLuchnik_cover_ruarid_F,1,
+		H_HelmetLuchnik_headset_grn_F,1,
+		H_HelmetLuchnik_headset_khk_F,1
     };
 };
 class I_Raven_soldier_UAV_06_F: I_Raven_Soldier_UAV_F
@@ -618,6 +706,13 @@ class I_Raven_soldier_UAV_06_medical_F: I_Raven_Soldier_UAV_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = I_Raven_UAV_06_medical_backpack_F;
+};
+class I_Raven_soldier_UAV_02_lxWS_F: I_Raven_Soldier_UAV_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_02_lxWS_F.jpg";
+	displayName = "UAV Operator (AP-5)";
+	backpack = Aegis_I_Raven_UAV_02_backpack_lxWS;
 };
 class I_Raven_Soldier_universal_F: I_Raven_soldier_F
 {
@@ -652,24 +747,123 @@ class I_Raven_Soldier_unarmed_F: I_Raven_soldier_F
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_blk_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_blk_F,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;
 	threat[] = {0.1,0.1,0.1};
 };
-class I_Raven_Soldier_helipilot_F: O_R_helipilot_ard_F
+class I_Raven_Soldier_helipilot_F: I_Raven_soldier_base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_helipilot_ard_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_Soldier_helipilot_F.jpg";
+	scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Helipilot_F0;
 	faction = IND_Raven_F;
 	side = TGuerrila;
+	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
+	nameSound = veh_infantry_pilot_s;
+	//uniformClass = Aegis_U_O_Luchnik_arid_F;
+	uniformClass = U_O_R_officer_noInsignia_arid_F;
+	weapons[] =
+    {
+        SMG_02_ACO_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        SMG_02_ACO_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        SMOKESHELLS_OPFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        SMOKESHELLS_OPFOR
+    };
+	linkedItems[] = 
+	{
+		H_PilotHelmetHeli_O,
+		V_TacVest_grn,
+		O_NVGoggles_grn_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] = 
+	{
+		H_PilotHelmetHeli_O,
+		V_TacVest_grn,
+		O_NVGoggles_grn_F,
+		DefaultManLinkedItems
+	};
+	camouflage = 2;
+	cost = 160000;
+	role = Crewman;
+};
+class I_Raven_Crew_F: I_Raven_soldier_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_Crew_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_crew_F0;
+	//uniformClass = Aegis_U_O_Luchnik_arid_F;
+	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	engineer = true;
+	cost = 90000;
+	role = Crewman;
+	camouflage = 1.6;
+	weapons[] = 
+	{
+		arifle_AK12U_545_lush_F,
+		//Aegis_hgun_VektorSR1_f,
+		hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] = 
+	{
+		arifle_AK12U_545_lush_F,
+		//Aegis_hgun_VektorSR1_f,
+		hgun_Rook40_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_545x39_AK12_lush_Mag_F),
+		mag_2(17Rnd_9x21_Mag),
+		HandGrenade_East,
+		SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_545x39_AK12_lush_Mag_F),
+		mag_2(17Rnd_9x21_Mag),
+		HandGrenade_East,
+		SmokeShell
+	};
+	linkedItems[] = 
+	{
+		V_TacVest_grn,
+		H_tank_black_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] = 
+	{
+		V_TacVest_grn,
+		H_tank_black_F,
+		DefaultManLinkedItems
+	};	
 };
 
 /* Raven - OPFOR */
@@ -718,11 +912,11 @@ class O_Raven_Soldier_UAV_F: I_Raven_Soldier_UAV_F
 {
 	faction = OPF_Raven_F;
 	side = TEast;
-	backpack = O_Raven_UAV_01_backpack_F;
+	backpack = O_R_UAV_01_backpack_F;
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		G_Tactical_Clear,
 		DefaultManLinkedItems,
 		O_UAVTerminal
@@ -730,7 +924,7 @@ class O_Raven_Soldier_UAV_F: I_Raven_Soldier_UAV_F
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		G_Tactical_Clear,
 		DefaultManLinkedItems,
 		O_UAVTerminal
@@ -740,11 +934,11 @@ class O_Raven_soldier_UAV_06_F: I_Raven_soldier_UAV_06_F
 {
 	faction = OPF_Raven_F;
 	side = TEast;
-	backpack = O_Raven_UAV_06_backpack_F;
+	backpack = O_R_UAV_06_backpack_F;
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		G_Tactical_Clear,
 		DefaultManLinkedItems,
 		O_UAVTerminal
@@ -752,7 +946,7 @@ class O_Raven_soldier_UAV_06_F: I_Raven_soldier_UAV_06_F
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		G_Tactical_Clear,
 		DefaultManLinkedItems,
 		O_UAVTerminal
@@ -762,11 +956,11 @@ class O_Raven_soldier_UAV_06_medical_F: I_Raven_soldier_UAV_06_medical_F
 {
 	faction = OPF_Raven_F;
 	side = TEast;
-	backpack = O_Raven_UAV_06_medical_backpack_F;
+	backpack = O_R_UAV_06_medical_backpack_F;
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		G_Tactical_Clear,
 		DefaultManLinkedItems,
 		O_UAVTerminal
@@ -774,11 +968,18 @@ class O_Raven_soldier_UAV_06_medical_F: I_Raven_soldier_UAV_06_medical_F
 	respawnLinkedItems[] = 
 	{
 		H_HelmetSpecter_cover_khaki_F,
-		V_HarnessOSpec_blk,
+		Aegis_V_OCarrierLuchnik_Lite_blk_F,
 		G_Tactical_Clear,
 		DefaultManLinkedItems,
 		O_UAVTerminal
 	};
+};
+class O_Raven_soldier_UAV_02_lxWS_F: O_Raven_soldier_UAV_06_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Raven_soldier_UAV_02_lxWS_F.jpg";
+	displayName = "UAV Operator (AP-5)";
+	backpack = Aegis_O_R_UAV_02_backpack_lxWS;
 };
 class O_Raven_Soldier_universal_F: I_Raven_Soldier_universal_F
 {
@@ -793,5 +994,10 @@ class O_Raven_Soldier_unarmed_F: I_Raven_Soldier_unarmed_F
 class O_Raven_Soldier_helipilot_F: I_Raven_Soldier_helipilot_F
 {
 	faction = OPF_Raven_F;
+	side = TEast;
+};
+class O_Raven_Crew_F: I_Raven_Crew_F
+{
+ 	faction = OPF_Raven_F;
 	side = TEast;
 };

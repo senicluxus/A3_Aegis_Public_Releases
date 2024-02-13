@@ -7,6 +7,11 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
+            // Belarus
+            Atlas_O_W_UGV_01_F,
+            Atlas_O_W_UGV_01_medical_F,
+            Atlas_O_W_UGV_01_rcws_F,
+
             // Legionnaires
             Atlas_B_L_UGV_01_F,
             Atlas_B_L_UGV_01_medical_F,
@@ -16,6 +21,9 @@ class CfgPatches
             Atlas_B_G_UGV_01_F,
             Atlas_B_G_UGV_01_medical_F,
             Atlas_B_G_UGV_01_rcws_F,
+            Atlas_B_G_UGV_01_ard_F,
+            Atlas_B_G_UGV_01_medical_ard_F,
+            Atlas_B_G_UGV_01_rcws_ard_F,
 
             // ADF
             Atlas_B_A_UGV_01_F,

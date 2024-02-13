@@ -62,13 +62,37 @@ class CfgVehicles
 			};
 			class Ion
 			{
-				displayName = $STR_A3_A_TextureSources_ION0;
+				displayName = $STR_A3_A_TEXTURESOURCES_ION_lxWS0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_ION_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_ION_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\Turret_ION_CO.paa"
+				};
+				factions[] = {};
+			};
+			class Black
+			{
+				displayName = $STR_A3_TextureSources_BLACK0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_Black_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_ION_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\Turret_ION_CO.paa"
+				};
+				factions[] = {};
+			};
+			class Syndikat
+			{
+				displayName = $STR_A3_cfgfactionclasses_ind_c_f0;
+				author = "Lexx";
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_syn_CO.paa",
+					"\A3\Soft_F_Exp\UGV_01\Data\UGV_01_int_ghex_CO.paa",
+					"\A3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -179,6 +203,7 @@ class CfgVehicles
 			};
 			class Ion: Ion
 			{
+				displayName = $STR_A3_TextureSources_BLACK0;
 				textures[] =
 				{
 					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_medevac_ION_CO.paa",
@@ -203,4 +228,5 @@ class CfgVehicles
     #include "cfgRUS.hpp"       // Russia
     #include "cfgEAF.hpp"       // LDF
     #include "cfgION.hpp"       // ION
+	#include "cfgSyndikat.hpp"	// Syndikat
 };

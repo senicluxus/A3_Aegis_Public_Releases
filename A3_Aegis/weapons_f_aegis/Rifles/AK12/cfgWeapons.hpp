@@ -427,17 +427,6 @@ class CfgWeapons
 	{
 	  	displayName = $STR_A3_A_CfgWeapons_arifle_AK12U_arid_F0;
 	};
-	class arifle_RPK12_F;
-	class arifle_RPK12_lush_F: arifle_RPK12_base_F
-	{
-		hiddenSelectionsMaterials[] =
-		{
-			"\A3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_F_1_khaki.rvmat",
-			"\A3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_F_2_khaki.rvmat",
-			"\A3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12_khaki.rvmat"
-		};
-	};
-	class arifle_RPK12_arid_F;
 	class arifle_AK12_545_F: arifle_AK12_545_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -656,6 +645,141 @@ class CfgWeapons
 			"\A3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12_camo.rvmat"
 		};
 		baseWeapon = arifle_AK12U_545_arid_F;
+	};
+
+	/*RPK-12 5.45 + RPK-15 7.62*/
+	class arifle_RPK12_F: arifle_RPK12_base_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_arifle_rpk12_f0;
+	};
+	class arifle_RPK12_lush_F: arifle_RPK12_base_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_arifle_rpk12_lush_f0;
+		hiddenSelectionsMaterials[] =
+		{
+			"\A3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_F_1_khaki.rvmat",
+			"\A3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_F_2_khaki.rvmat",
+			"\A3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12_khaki.rvmat"
+		};
+	};
+	class arifle_RPK12_arid_F: arifle_RPK12_base_F
+	{
+		displayName = $STR_A3_A_CfgWeapons_arifle_rpk12_arid_f0;
+	};
+	class Aegis_arifle_RPK12_545_base_F: arifle_RPK12_base_F
+	{
+		recoil = recoil_rpk12_545;
+		descriptionShort = $STR_A3_A_CfgWeapons_arifle_AK12_545_base_F1;
+		magazineWell[] = {AK_545x39};
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot: asdg_MuzzleSlot_545R{};
+			class CowsSlot: CowsSlot_Rail
+			{
+				iconPosition[] = {0.57,0.31};
+				iconScale = 0.17;
+			};
+			class PointerSlot: PointerSlot
+			{
+				iconPosition[] = {0.44,0.39};
+				iconScale = 0.17;
+			};
+			class UnderBarrelSlot{};
+			mass = 170;
+		};
+		class Single: Single
+		{
+			dispersion = 0.00076;
+		};
+		class Burst: Burst
+		{
+			dispersion = 0.00076;
+		};
+		class FullAuto: FullAuto
+		{
+			dispersion = 0.00076;
+		};
+	};
+	class Aegis_arifle_RPK12_545_F: Aegis_arifle_RPK12_545_base_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_arifle_rpk12_545_f0;
+		magazines[] = 
+		{
+			Aegis_60Rnd_545x39_Mag_Green_F,
+			Aegis_60Rnd_545x39_Mag_F,
+			Aegis_60Rnd_545x39_Mag_Tracer_Green_F,
+			Aegis_60Rnd_545x39_Mag_Tracer_F
+		};
+		picture = "a3\Weapons_F_Enoch\Rifles\AK12\Data\UI\icon_arifle_RPK12_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_1_co.paa",
+			"a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_ak12_2_co.paa",
+			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AKU12_RPK12_parts_CO.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_F_1.rvmat",
+			"a3\Weapons_F_Exp\Rifles\AK12\Data\AK12_F_2.rvmat",
+			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12.rvmat"
+		};
+		baseWeapon = "Aegis_arifle_RPK12_545_F";
+	};
+	class  Aegis_arifle_RPK12_545_lush_F: Aegis_arifle_RPK12_545_base_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName =  $STR_A3_A_CfgWeapons_arifle_rpk12_545_lush_F0;
+		picture = "a3\Weapons_F_Enoch\Rifles\AK12\Data\UI\icon_arifle_RPK12_lush_F_CA.paa";
+		magazines[] = 
+		{
+			Aegis_60Rnd_545x39_Mag_Green_F,
+			Aegis_60Rnd_545x39_Mag_F,
+			Aegis_60Rnd_545x39_Mag_Tracer_Green_F,
+			Aegis_60Rnd_545x39_Mag_Tracer_F
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_ak12_1_khaki_co.paa",
+			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_ak12_2_khaki_co.paa",
+			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AKU12_RPK12_parts_khaki_CO.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"\A3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_F_1_khaki.rvmat",
+			"\A3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_F_2_khaki.rvmat",
+			"\A3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12_khaki.rvmat"
+		};
+		baseWeapon = "Aegis_arifle_RPK12_545_lush_F";
+	};
+	class  Aegis_arifle_RPK12_545_arid_F: Aegis_arifle_RPK12_545_base_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName =  $STR_A3_A_CfgWeapons_arifle_rpk12_545_arid_F0;
+		picture = "a3\Weapons_F_Enoch\Rifles\AK12\Data\UI\icon_arifle_RPK12_arid_F_CA.paa";
+		magazines[] = 
+		{
+			Aegis_60Rnd_545x39_Mag_Green_F,
+			Aegis_60Rnd_545x39_Mag_F,
+			Aegis_60Rnd_545x39_Mag_Tracer_Green_F,
+			Aegis_60Rnd_545x39_Mag_Tracer_F
+		};
+		hiddenSelectionsTextures[] = 
+		{
+			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_ak12_1_camo_co.paa",
+			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_ak12_2_camo_co.paa",
+			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AKU12_RPK12_parts_camo_CO.paa"
+		};
+		hiddenSelectionsMaterials[] = 
+		{
+			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_F_1_camo.rvmat",
+			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_F_2_camo.rvmat",
+			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12_camo.rvmat"
+		};
+		baseWeapon = "Aegis_arifle_RPK12_545_arid_F";
 	};
 
     /* Accessorized Weapons */

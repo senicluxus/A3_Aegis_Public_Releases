@@ -19,6 +19,7 @@ class CfgPatches
 
             // Germany
             Atlas_B_G_Mortar_01_F,
+            Atlas_B_G_Mortar_01_ard_F,
 
             // Takistani Army
             Atlas_O_T_Mortar_01_F,

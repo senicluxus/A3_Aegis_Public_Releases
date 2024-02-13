@@ -29,6 +29,7 @@ class CfgPatches
             O_A_Truck_02_medical_F,
             O_A_Truck_02_Ammo_F,
             O_A_Truck_02_fuel_F,
+            Aegis_O_A_Truck_02_aa_F,
 
             /* From "cfgRUS.hpp" */
             O_R_Truck_02_F,
@@ -48,7 +49,20 @@ class CfgPatches
             O_R_Truck_02_fuel_ard_F,
             O_R_Truck_02_MRL_ard_F,
             O_R_Truck_02_cargo_ard_F,
-            O_R_Truck_02_flatbed_ard_F
+            O_R_Truck_02_flatbed_ard_F,
+            Aegis_O_R_Truck_02_aa_F,
+            Aegis_O_R_Truck_02_aa_ard_F,
+
+            /* From "CfgEAF.hpp" */
+            Aegis_B_E_Truck_02_F,
+            Aegis_B_E_Truck_02_transport_F,
+            Aegis_B_E_Truck_02_ammo_F,
+            Aegis_B_E_Truck_02_box_F,
+            Aegis_B_E_Truck_02_fuel_F,
+            Aegis_B_E_Truck_02_medical_F,
+            Aegis_B_E_Truck_02_MRL_F,
+            Aegis_B_E_Truck_02_cargo_lxWS,
+            Aegis_B_E_Truck_02_flatbed_lxWS
 
         };
 		weapons[] = {/* Automated */};

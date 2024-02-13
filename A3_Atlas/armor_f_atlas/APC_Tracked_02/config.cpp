@@ -65,6 +65,22 @@ class CfgVehicles
 				factions[] = {Atlas_IND_C_F};
 			};
             */
+		   /*
+		   class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\APC_Tracked_02_ext_01_whex_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\APC_Tracked_02_ext_02_whex_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\RCWS30_WHEX_CO.paa",
+					"\A3\Armor_F\Data\camonet_CSAT_Hex_Green_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+				};
+				factions[] = {Atlas_OPF_W_F};
+			};
+		   */
 		};
 	};
 	class O_APC_Tracked_02_AA_F: O_APC_Tracked_02_base_F
@@ -91,8 +107,47 @@ class CfgVehicles
 				factions[] = {Atlas_IND_C_F};
 			};
             */
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_whex_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\APC_Tracked_02_ext_02_whex_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\APC_Tracked_02_AA_Tower_whex_CO.paa",
+					"\A3\Armor_F\Data\camonet_CSAT_Hex_Green_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+				};
+				factions[] = {Atlas_OPF_W_F};
+			};
 		};
 	};
+
+	// Arma 3 Western Sahara
+	class O_APC_Tracked_02_30mm_lxWS: O_APC_Tracked_02_cannon_F
+	{
+    	class TextureSources
+    	{
+        	class WoodlandHex
+        	{
+            	displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+            	textures[] =
+            	{
+                	"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\APC_Tracked_02_ext_01_whex_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\APC_Tracked_02_ext_02_whex_CO.paa",
+        			"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\data\apc_tracked_02_ext_03_WHEX_CO.paa",
+        			"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\data\apc_tracked_02_30mm_WHEX_CO.paa",
+        			"A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa",
+        			"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+            	};
+            	factions[] = {};
+    		};
+		};
+	};
+	class O_T_APC_Tracked_02_30mm_lxWS: O_APC_Tracked_02_30mm_lxWS{};
+
 	// Arma 3 Aegis
 	class APC_Tracked_02_medical_base_F: APC_Tracked_02_base_F
 	{
@@ -114,6 +169,20 @@ class CfgVehicles
 				factions[] = {Atlas_IND_C_F};
 			};
             */
+			class WoodlandHex
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WHEX0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\APC_Tracked_02_ext_01_medical_whex_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\APC_Tracked_02_ext_02_whex_CO.paa",
+					"",
+					"",
+					""
+				};
+				factions[] = {};
+			};
 		};
 	};
 	// Arma 3 Atlas

@@ -435,3 +435,132 @@ class magazine_Bomb_AGM_154_x1: VehicleMagazine
     nameSound = "";
     class mfdElements{}; // TODO
 };
+
+/* Mi-35 Krokodil Magazines*/
+class Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_F: VehicleMagazine
+{
+	author = $STR_A3_A_Grave;
+	scope = public;
+	displayName = "20 mm HE Shells";
+	displayNameShort = "HE";
+	count = 150;
+	muzzleImpulseFactor[] = {0.5,0.5};
+	ammo = "Aegis_Autocannon_HE_Heli_Attack_04_F";
+	initSpeed = 1044;
+	maxLeadSpeed = 30.555599;
+	tracersEvery = 1;
+	nameSound = "cannon";
+};
+class Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Yellow_F: Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_F
+{	
+    author = $STR_A3_A_Grave;
+	scope = public;
+	displayName = "20 mm HE Tracer (Yellow) Shells";
+	ammo = "Aegis_Autocannon_HE_Heli_Attack_04_Yellow_F";
+};	
+class Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Green_F: Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_F
+{
+	author = $STR_A3_A_Grave;
+	scope = public;
+	displayName = "20 mm HE Tracer (Green) Shells";
+	ammo = "Aegis_Autocannon_HE_Heli_Attack_04_Green_F";
+};
+class Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Red_F: Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_F
+{
+	author = $STR_A3_A_Grave;
+	scope = public;
+	displayName = "20 mm HE Tracer (Red) Shells";
+	ammo = "Aegis_Autocannon_HE_Heli_Attack_04_Red_F";
+};
+class Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_White_F: Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_F
+{
+	author = $STR_A3_A_Grave;
+	scope = public;
+	displayName = "20 mm HE Tracer (White) Shells";
+	ammo = "Aegis_Autocannon_HE_Heli_Attack_04_White_F";
+};
+	
+// AP Magazines
+class Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_F: VehicleMagazine
+{
+	author = $STR_A3_A_Grave;
+	scope = public;
+	displayName = "20 mm AP Shells";
+	displayNameShort = "AP";
+	count = 150;
+	muzzleImpulseFactor[] = {0.1,0.80000001};
+	ammo  = "Aegis_Autocannon_AP_Heli_Attack_04_F";
+	initSpeed  = 1100;
+	maxLeadSpeed = 30.555599;
+	tracersEvery = 1;
+	nameSound = "cannon";
+};
+class Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Yellow_F: Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_F
+{
+	author = $STR_A3_A_Grave;
+	scope = public;
+	displayName = "20 mm AP Tracer (Yellow) Shells";
+	ammo = "Aegis_Autocannon_AP_Heli_Attack_04_Yellow_F";
+};	
+class Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Green_F: Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_F
+{
+	author = $STR_A3_A_Grave;
+	scope = public;
+	displayName = "20 mm AP Tracer (Green) Shells";
+	ammo = "Aegis_Autocannon_AP_Heli_Attack_04_Green_F";
+};
+class Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Red_F: Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_F
+{
+	author = $STR_A3_A_Grave;
+	scope = public;
+	displayName = "20 mm AP Tracer (Red) Shells";
+	ammo = "Aegis_Autocannon_AP_Heli_Attack_04_Red_F";
+};
+class Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_White_F: Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_F
+{
+	author = $STR_A3_A_Grave;
+	scope = public;
+	displayName = "20 mm AP Tracer (White) Shells";
+	ammo = "Aegis_Autocannon_AP_Heli_Attack_04_White_F";
+};
+
+/* BMP-M 57mm Magazines*/
+class Aegis_340Rnd_57mm_GPR_shells: VehicleMagazine
+	{
+		author = $STR_A3_A_Lukinator96;
+		scope = public;
+		displayName = "57mm HE shells";
+		displayNameShort = "HE";
+		ammo = "Aegis_B_57mm_GPR";
+		count = 340;
+		initSpeed = 850;
+		maxLeadSpeed = 30.5556;
+		tracersEvery = 5;
+		nameSound = "cannon";
+		muzzleImpulseFactor[] = {0.1,0.8};
+	};
+class Aegis_340Rnd_57mm_GPR_shells_Tracer: Aegis_340Rnd_57mm_GPR_shells
+	{
+		author = $STR_A3_A_Lukinator96;
+		scope = public;
+		displayName = "57mm HE Tracer shells";
+		displayNameShort = "HE";
+		ammo = "B_57mm_spg";
+		count = 60;
+		initSpeed = 850;
+		maxLeadSpeed = 30.5556;
+		tracersEvery = 1;
+		nameSound = "cannon";
+		muzzleImpulseFactor[] = {0.1,0.8};
+	};
+class Aegis_160Rnd_57mm_APFSDS_shells: Aegis_340Rnd_57mm_GPR_shells
+	{
+		author = $STR_A3_A_Lukinator96;
+		displayName = "57mm APFSDS shells";
+		displayNameShort = "APFSDS";
+		ammo = "Aegis_B_57mm_APFSDS";
+		tracersEvery = 1;
+		initSpeed=1650;
+		count=160;
+		muzzleImpulseFactor[]={0.5,2};
+	};

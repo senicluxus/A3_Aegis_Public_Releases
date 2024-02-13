@@ -31,37 +31,37 @@ class Opf_O_S_Soldier_1_F: Opf_O_S_Soldier_Base_F
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	linkedItems[] = 
 	{
-		V_SmershVest_01_olive_F,
-		H_PASGT_basic_olive_F,
+		Aegis_V_ChestRigEast_grn_F,
+		lxWS_H_ssh40_green,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		V_SmershVest_01_olive_F,
-		H_PASGT_basic_olive_F,
+		Aegis_V_ChestRigEast_grn_F,
+		lxWS_H_ssh40_green,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
 	{
-		arifle_AKM_F,
+		Aegis_arifle_AKM74_plum_F,
         hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AKM_F,
+		Aegis_arifle_AKM74_plum_F,
         hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_762x39_Mag_Green_F),
+        mag_6(30Rnd_545x39_Mag_Green_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade_Guer)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_762x39_Mag_Green_F),
+        mag_6(30Rnd_545x39_Mag_Green_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade_Guer)
 	};
@@ -93,8 +93,8 @@ class Opf_O_S_Soldier_1_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -109,39 +109,39 @@ class Opf_O_S_Soldier_2_F: Opf_O_S_Soldier_Base_F
 	uniformClass = Opf_U_O_S_Uniform_01_taiga_F;
 	linkedItems[] = 
 	{
-		V_SmershVest_01_radio_olive_F,
+		Aegis_V_ChestRigEast_grn_F,
 		H_MilCap_grn,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		V_SmershVest_01_radio_olive_F,
+		Aegis_V_ChestRigEast_grn_F,
 		H_MilCap_grn,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
 	{
-		arifle_AK12_545_F,
+		Aegis_arifle_AKM74_plum_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AK12_545_F,
+		Aegis_arifle_AKM74_plum_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_545x39_black_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade_Guer)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_545x39_black_Mag_F),
         mag_2(10Rnd_9x21_Mag),
         mag_2(HandGrenade_Guer)
 	};
@@ -176,8 +176,8 @@ class Opf_O_S_Soldier_2_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -216,16 +216,16 @@ class Opf_O_S_Soldier_3_F: Opf_O_S_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_AKM_F,
+		Aegis_arifle_AKM74_plum_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AKM_F,
+		Aegis_arifle_AKM74_plum_F,
 		DefaultManWeapons
 	};
-	magazines[] = {mag_6(30Rnd_762x39_Mag_Green_F)};
-	respawnMagazines[] = {mag_6(30Rnd_762x39_Mag_Green_F)};
+	magazines[] = {mag_6(30Rnd_545x39_Mag_Green_F)};
+	respawnMagazines[] = {mag_6(30Rnd_545x39_Mag_Green_F)};
 	attendant = true;
 	icon = iconManMedic;
 	picture = pictureHeal;
@@ -258,8 +258,8 @@ class Opf_O_S_Soldier_3_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -285,14 +285,14 @@ class Opf_O_S_Soldier_4_F: Opf_O_S_Soldier_Base_F
 	uniformClass = Opf_U_O_S_Gorka_01_autumn_F;
 	linkedItems[] = 
 	{
-		H_PASGT_basic_olive_F,
-		V_SmershVest_01_olive_F,
+		lxWS_H_ssh40_green,
+		Aegis_V_ChestRigEast_grn_F,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		H_PASGT_basic_olive_F,
-		V_SmershVest_01_olive_F,
+		lxWS_H_ssh40_green,
+		Aegis_V_ChestRigEast_grn_F,
 		DefaultManGuerillaLinkedItems
 	};
 	weapons[] = 
@@ -347,8 +347,8 @@ class Opf_O_S_Soldier_4_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -387,13 +387,13 @@ class Opf_O_S_Soldier_5_F: Opf_O_S_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_AKS_F,
+		arifle_AKSM_alt_F,
         launch_RPG32_camo_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AKS_F,
+		arifle_AKSM_alt_F,
         launch_RPG32_camo_F,
 		DefaultManWeapons
 	};
@@ -438,8 +438,8 @@ class Opf_O_S_Soldier_5_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -466,22 +466,22 @@ class Opf_O_S_Soldier_6_F: Opf_O_S_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_AK12_GL_545_F,
+		Aegis_arifle_AKM74_GL_plum_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AK12_GL_545_F,
+		Aegis_arifle_AKM74_GL_plum_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_545x39_Mag_F),
         mag_5(1Rnd_HE_Grenade_shell)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(30Rnd_545x39_AK12_Mag_F),
+        mag_6(30Rnd_545x39_Mag_F),
         mag_5(1Rnd_HE_Grenade_shell)
 	};
 	cost = 200000;
@@ -513,8 +513,8 @@ class Opf_O_S_Soldier_6_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -593,8 +593,8 @@ class Opf_O_S_Soldier_7_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -673,8 +673,8 @@ class Opf_O_S_Soldier_8_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -701,12 +701,12 @@ class Opf_O_S_Soldier_9_F: Opf_O_S_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		Opf_arifle_SKS_F,
+		Opf_arifle_SKS_oak_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		Opf_arifle_SKS_F,
+		Opf_arifle_SKS_oak_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
@@ -747,8 +747,8 @@ class Opf_O_S_Soldier_9_F: Opf_O_S_Soldier_Base_F
         H_MilCap_grn,2,
         H_MilCap_taiga,2,
         H_Headset_light,1,
-        H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
+        lxWS_H_ssh40_green,1,
         H_PASGT_basic_olive_F,1,
         H_FakeHeadgear_F,2
     };
@@ -775,12 +775,12 @@ class Opf_O_S_Crew_F: Opf_O_S_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_AKS_F,
+		arifle_AKSM_alt_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_AKS_F,
+		arifle_AKSM_alt_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
@@ -830,16 +830,59 @@ class Opf_O_S_Soldier_Base_unarmed_F: Opf_O_S_Soldier_1_F
 	respawnMagazines[] = {};
 	linkedItems[] = 
 	{
-		V_SmershVest_01_olive_F,
-		H_PASGT_basic_olive_F,
+		Aegis_V_ChestRigEast_grn_F,
+		lxWS_H_ssh40_green,
 		DefaultManGuerillaLinkedItems
 	};
 	respawnLinkedItems[] = 
 	{
-		V_SmershVest_01_olive_F,
-		H_PASGT_basic_olive_F,
+		Aegis_V_ChestRigEast_grn_F,
+		lxWS_H_ssh40_green,
 		DefaultManGuerillaLinkedItems
 	};
 	role = Unarmed;
 	threat[] = {0.1,0.1,0.1};
+};
+class Opf_O_S_Soldier_UAV_lxWS: Opf_O_S_Soldier_1_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_S_Soldier_UAV_lxWS.jpg";
+	displayName = "UAV Operator (IED Drone)";
+	role = SpecialOperative;
+	uavHacker = true;
+	backpack = Opf_O_S_UAV_02_IED_backpack_lxWS;
+	weapons[] = 
+	{
+		arifle_AKSM_alt_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] = 
+	{
+		arifle_AKSM_alt_F,
+		DefaultManWeapons
+	};
+	magazines[] = 
+	{
+        mag_4(30Rnd_545x39_Mag_Green_F),
+        mag_2(HandGrenade_Guer)
+	};
+	respawnMagazines[] = 
+	{
+        mag_4(30Rnd_545x39_Mag_Green_F),
+        mag_2(HandGrenade_Guer)
+	};
+	LinkedItems[] =
+	{
+		Aegis_V_ChestRigEast_grn_F,
+		lxWS_H_ssh40_green,
+		O_UAVTerminal,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] = 
+	{
+		Aegis_V_ChestRigEast_grn_F,
+		lxWS_H_ssh40_green,
+		O_UAVTerminal,
+		DefaultManGuerillaLinkedItems
+	};
 };

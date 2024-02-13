@@ -33,21 +33,51 @@ class CfgWeapons
 	{
 		class ItemInfo;
 	};
+	class arifle_Katiba_F;
+	class arifle_Katiba_C_F;
+	class arifle_Katiba_GL_F;
+	class hgun_P07_F;
+	class hgun_P07_blk_F;
+	class arifle_MX_F;
+	class arifle_MX_khk_F;
+	class arifle_MX_Black_F;
+	class arifle_MXC_F;
+	class arifle_MXC_khk_F;
+	class arifle_MXC_Black_F;
+	class arifle_MXM_F;
+	class arifle_MXM_khk_F;
+	class arifle_MXM_Black_F;
+	class arifle_MX_SW_F;
+	class arifle_MX_SW_khk_F;
+	class arifle_MX_SW_Black_F;
+	class arifle_MX_GL_F;
+	class arifle_MX_GL_khk_F;
+	class arifle_MX_GL_Black_F;
+
 	// Arma 3 Marksman
 	class srifle_DMR_03_F;
+	class srifle_DMR_03_tan_F;
 	class MMG_01_base_F: Rifle_Long_Base_F
 	{
 		magazines[] += {150Rnd_93x64_Mag_Red};
 	};
+	class srifle_DMR_06_olive_F;
+	class srifle_dmr_06_camo_F;
+	class srifle_dmr_06_black_F;
+
 	// Arma 3 Apex
 	class LMG_03_F;
 	class arifle_SPAR_01_blk_F;
     class arifle_SPAR_01_GL_blk_F;
 	class arifle_SPAR_02_blk_F;
+	class arifle_SPAR_02_snd_F;
 	class SMG_05_F;
+	class arifle_SPAR_03_khk_F;
+
 	// Arma 3 Tanks
 	class launch_MRAWS_base_F;
 	class launch_MRAWS_olive_rail_F;
+
 	// Arma 3 Enoch
 	class srifle_DMR_06_hunter_F;
 	class LMG_Mk200_black_F;
@@ -63,9 +93,17 @@ class CfgWeapons
 	class arifle_MSBS65_Mark_black_F;
 	class arifle_MSBS65_GL_black_F;
 	class arifle_MSBS65_UBS_black_F;
+
+	// Arma 3 - West Sahara
+	class arifle_SLR_V_lxWS;
+	class arifle_XMS_Base_khk_lxWS;
+	class arifle_XMS_GL_khk_lxWS;
+	class srifle_EBR_blk_lxWS;
+
 	// Arma 3 Aegis
 	class srifle_DMR_01_black_F;
-	class LMG_Zafir_black_F: LMG_Zafir_F
+	class LMG_Zafir_Black_F;
+	/*class LMG_Zafir_black_F: LMG_Zafir_F
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -84,14 +122,44 @@ class CfgWeapons
 			150Rnd_762x51_Box_Yellow,
 			150Rnd_762x51_Box_Tracer_Yellow
 		};
-	};
+	};*/
 	class MMG_01_black_F;
+	class MMG_01_tan_F;
 	class arifle_TRG21_black_F;
 	class arifle_TRG20_black_F;
 	class arifle_TRG21_GL_black_F;
 	class arifle_AK12_545_F;
 	class arifle_AK12_GL_545_F;
 	class arifle_AK12U_545_F;
+	class arifle_SCAR_L_F;
+	class arifle_SCAR_L_GL_F;
+	class arifle_SCAR_L_Short_F;
+	class LMG_Mk200_khk_F;
+	class Aegis_arifle_RPK12_545_F;
+	class sgun_M4_F;
+	class hgun_G17_F;
+	class hgun_G17_black_F;
+	class Aegis_arifle_AKM74_plum_F;
+	class Aegis_arifle_AKM74_GL_plum_F;
+	class Aegis_arifle_RPK74_F;
+	class Aegis_arifle_SR25_blk_F;
+	class Aegis_arifle_SR25_snd_F;
+	class Aegis_arifle_SR25_khk_F;
+	class Aegis_arifle_SR25_MR_blk_F;
+	class Aegis_arifle_SR25_MR_khk_F;
+	class Aegis_arifle_SR25_MR_snd_F;
+	class Aegis_arifle_M4A1_F;
+	class Aegis_arifle_M4A1_short_F;
+	class Aegis_arifle_M4A1_GL_F;
+	class Aegis_arifle_M4A1_grip_F;
+	class Aegis_arifle_M4A1_sand_F;
+	class Aegis_arifle_M4A1_short_sand_F;
+	class Aegis_arifle_M4A1_GL_sand_F;
+	class Aegis_arifle_M4A1_grip_sand_F;
+	class Aegis_arifle_M4A1_khaki_F;
+	class Aegis_arifle_M4A1_short_khaki_F;
+	class Aegis_arifle_M4A1_GL_khaki_F;
+	class Aegis_arifle_M4A1_grip_khaki_F;
 	// Arma 3 Atlas
     /*
 	class NVGoggles_aucamo_F: NVGoggles

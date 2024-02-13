@@ -48,7 +48,7 @@ class CfgVehicles
         /* Turrets */
 		class Turrets: Turrets
 		{
-			class MainTurret: MainTurret{};
+			class MainTurret: MainTurret {};
 			class CommanderOptics: CommanderOptics
             {
                 /* Weapons & Ammunition

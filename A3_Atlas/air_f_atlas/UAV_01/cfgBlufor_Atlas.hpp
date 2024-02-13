@@ -58,3 +58,12 @@ class Atlas_B_G_UAV_01_F: B_UAV_01_F
 		dissasembleTo[] = {B_UAV_01_backpack_F};
 	};
 };
+
+/* Bundeswehr Arid */
+class Atlas_B_G_UAV_01_ard_F: Atlas_B_G_UAV_01_F
+{
+	scope = public;
+	scopeCurator = public;
+	side = TWest;
+	faction = Atlas_BLU_G_ard_F;
+};

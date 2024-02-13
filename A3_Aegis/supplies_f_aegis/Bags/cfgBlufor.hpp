@@ -526,6 +526,7 @@ class B_AssaultPack_cbr_USMCMedic_F: B_AssaultPackSpec_cbr
 };
 class B_TacticalPack_khk_USMCAAR: B_TacticalPack_khk
 {
+	scope = protected;
 	class TransportMagazines
 	{
 		mag_xx(100Rnd_65x39_caseless_black_mag,2);

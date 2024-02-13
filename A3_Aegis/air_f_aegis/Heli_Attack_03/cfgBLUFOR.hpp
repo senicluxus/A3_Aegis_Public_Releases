@@ -1,10 +1,10 @@
 /* BAF */
-class B_A_Heli_Attack_03_F: Heli_Attack_03_base_F
+class Aegis_B_A_Heli_Attack_03_F: Heli_Attack_03_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_Attack_03_F.jpg";
-	scope = protected;
-	scopeCurator = private;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_B_A_Heli_Attack_03_F.jpg";
+	scope = public;
+	scopeCurator = public;
 	side = TWest;
 	faction = BLU_A_F;
 	crew = B_A_Helipilot_F;
@@ -45,10 +45,10 @@ class B_A_Heli_Attack_03_F: Heli_Attack_03_base_F
 };
 
 /* BAF (Pacific) */
-class B_A_Heli_Attack_03_tna_F: B_A_Heli_Attack_03_F
+class Aegis_B_A_Heli_Attack_03_tna_F: Aegis_B_A_Heli_Attack_03_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_Attack_03_tna_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_B_A_Heli_Attack_03_tna_F.jpg";
 	faction = BLU_A_tna_F;
 	crew = B_A_Helipilot_tna_F;
 	typicalCargo[] = {B_A_Helipilot_tna_F};
@@ -67,10 +67,10 @@ class B_A_Heli_Attack_03_tna_F: B_A_Heli_Attack_03_F
 };
 
 /* BAF (Woodland) */
-class B_A_Heli_Attack_03_wdl_F: B_A_Heli_Attack_03_F
+class B_A_Heli_Attack_03_wdl_F: Aegis_B_A_Heli_Attack_03_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_Attack_03_wdl_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_B_A_Heli_Attack_03_wdl_F.jpg";
 	faction = BLU_A_wdl_F;
 	crew = B_A_Helipilot_wdl_F;
 	typicalCargo[] = {B_A_Helipilot_wdl_F};

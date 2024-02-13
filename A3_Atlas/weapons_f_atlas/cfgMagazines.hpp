@@ -2,6 +2,7 @@ class CfgMagazines
 {
 	// Arma 3
 	class CA_Magazine;
+	class CA_LauncherMagazine;
     class 30Rnd_556x45_Stanag;
 	class 20Rnd_762x51_Mag;
 	class 150Rnd_762x51_Box: CA_Magazine
@@ -112,5 +113,126 @@ class CfgMagazines
 		tracersEvery = 1;
 		lastRoundsTracer = 30;
 	};
+
+	/* FAMAS F1 Magazines*/
+	class Atlas_25Rnd_556x45_Famas: 30Rnd_556x45_Stanag
+	{
+		author = "Slatts";
+		scope = 2;
+		displayName = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_F0;
+		count = 25;
+		descriptionShort = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas1;
+		modelSpecial = "A3_Atlas\weapons_f_atlas\Rifles\FAMAS\Data\mag\famas_25Rnd.p3d";
+		modelSpecialIsProxy = 1;
+		hiddenSelections[] = {"Camo1", "Camo_Low"};
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Atlas\weapons_f_atlas\Rifles\FAMAS\Data\tex\famas_3.paa",
+			"\A3_Atlas\weapons_f_atlas\Rifles\FAMAS\Data\tex\famas_low.paa"
+		};
+	};
+	class  Atlas_25Rnd_556x45_Famas_green: Atlas_25Rnd_556x45_Famas
+	{
+		picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_30Rnd_556x45_Stanag_green_CA.paa";
+		author = "Slatts";
+		displayName = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Green_F0;
+		descriptionShort = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Green1;
+		ammo = "B_556x45_Ball_Tracer_Green";
+	};
+	class  Atlas_25Rnd_556x45_Famas_red: Atlas_25Rnd_556x45_Famas
+	{
+		picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_30Rnd_556x45_Stanag_red_CA.paa";
+		author = "Slatts";
+		displayName = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Red_F0;
+		descriptionShort = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Red1;
+		ammo = "B_556x45_Ball_Tracer_Red";
+	};
+	class  Atlas_25Rnd_556x45_Famas_Yellow: Atlas_25Rnd_556x45_Famas
+	{
+		picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_30Rnd_556x45_Stanag_red_CA.paa";
+		author = "Slatts";
+		displayName = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Yellow_F0;
+		descriptionShort = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Yellow1;
+		ammo = "B_556x45_Ball_Tracer_Yellow";
+	};
+	class  Atlas_25Rnd_556x45_Famas_Tracer_Red: Atlas_25Rnd_556x45_Famas
+	{
+		picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_30Rnd_556x45_Stanag_Tracer_Red_CA.paa";
+		author = "Slatts";
+		displayName = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Tracer_Red_F0;
+		ammo = "B_556x45_Ball_Tracer_Red";
+		tracersEvery = 1;
+		descriptionShort = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Tracer_Red1;
+		displaynameshort = "Tracer";
+	};
+	class  Atlas_25Rnd_556x45_Famas_Tracer_Green: Atlas_25Rnd_556x45_Famas
+	{
+		picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_30Rnd_556x45_Stanag_Tracer_Green_CA.paa";
+		author = "Slatts";
+		displayName = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Tracer_Green_F0;
+		ammo = "B_556x45_Ball_Tracer_Green";
+		tracersEvery = 1;
+		descriptionShort = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Tracer_Green1;
+		displaynameshort = "Tracer";
+	};
+	class  Atlas_25Rnd_556x45_Famas_Tracer_Yellow: Atlas_25Rnd_556x45_Famas
+	{
+		picture = "\a3\Weapons_F\MagazineProxies\data\UI\icon_30Rnd_556x45_Stanag_Tracer_Yellow_CA.paa";
+		author = "Slatts";
+		displayName = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Tracer_Yellow_F0;
+		ammo = "B_556x45_Ball_Tracer_Yellow";
+		tracersEvery = 1;
+		descriptionShort = $STR_A3_A_CfgMagazines_25Rnd_556x45_Famas_Tracer_Yellow1;
+		displaynameshort = "Tracer";
+	};
+
+	// Panzerfaust 3 rounds
+	class Atlas_DM12_HEAT_F: CA_LauncherMagazine
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public; 
+		scopeArsenal = public;
+		ammo = Atlas_R_DM12_HEAT;
+		modelSpecialIsProxy=1;
+		displayName = "DM12 HEAT Grenade";
+		displayNameShort = "HEAT";
+		descriptionShort = "Type: High Explosive Anti Tank<br />Caliber: 110mm";
+		model = "\A3_Atlas\weapons_f_atlas\Launchers\Pzf3\DM12_HEAT.p3d";
+		modelSpecial = "\A3_Atlas\weapons_f_atlas\Launchers\Pzf3\DM12_HEAT_proxy.p3d";
+		picture = "\A3_Atlas\weapons_f_atlas\Launchers\Pzf3\Data\UI\picture_DM12_HEAT_CA.paa";
+		initSpeed = 220;
+		mass = 90;
+	};
+	class Atlas_DM22_HEAT_F: Atlas_DM12_HEAT_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public; 
+		scopeArsenal = public;
+		modelSpecialIsProxy=1;
+		ammo = Atlas_R_DM22_HEAT;
+		displayName = "DM22 HEAT Grenade";
+		displayNameShort = "HEAT";
+		descriptionShort = "Type: High Explosive Anti Tank<br />Caliber: 110mm";
+		model = "\A3_Atlas\weapons_f_atlas\Launchers\Pzf3\DM22_HEAT.p3d";
+		modelSpecial = "\A3_Atlas\weapons_f_atlas\Launchers\Pzf3\DM22_HEAT_proxy.p3d";
+		picture = "\A3_Atlas\weapons_f_atlas\Launchers\Pzf3\Data\UI\picture_DM22_HEAT_CA.paa";
+		mass = 100;
+	};
+	class Atlas_DM32_HEAT_MP_F: Atlas_DM12_HEAT_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public; 
+		scopeArsenal = public;
+		ammo = Atlas_R_DM32_HEAT_MP;
+		modelSpecialIsProxy=1;
+		displayName = "DM32 HEAT-MP Grenade";
+		displayNameShort = "HEAT-MP";
+		descriptionShort = "Type: High Explosive Anti Tank - Multi Purpose<br />Caliber: 110mm";
+		model = "\A3_Atlas\weapons_f_atlas\Launchers\Pzf3\DM32_HEAT_MP.p3d";
+		modelSpecial = "\A3_Atlas\weapons_f_atlas\Launchers\Pzf3\DM32_HEAT_MP_proxy.p3d";
+		picture = "\A3_Atlas\weapons_f_atlas\Launchers\Pzf3\Data\UI\picture_DM32_HEAT_MP_CA.paa";
+		mass = 100;
+	};
+
 	#include "dynamicLoadout.hpp"
 };

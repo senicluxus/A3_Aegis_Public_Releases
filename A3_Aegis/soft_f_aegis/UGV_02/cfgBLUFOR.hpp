@@ -41,6 +41,26 @@ class B_W_UGV_02_Demining_F: UGV_02_Demining_Base_F
 	};
 };
 
+/* US (Desert) */
+class Aegis_B_D_UGV_02_Demining_F: UGV_02_Demining_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_UGV_02_Demining_F.jpg";
+	scope = public;
+	displayName = $STR_A3_C_CfgVehicles_I_UGV_02_Demining_F0;
+	side = TWest;
+	faction = BLU_NATO_lxWS;
+	crew = B_UAV_AI;
+	class assembleInfo
+	{
+		primary = true;
+		base = "";
+		assembleTo = "";
+		displayName = "";
+		dissasembleTo[] = {B_UGV_02_Demining_backpack_F};
+	};
+};
+
 /* BAF */
 class B_A_UGV_02_Demining_F: UGV_02_Demining_Base_F
 {

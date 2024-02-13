@@ -33,7 +33,13 @@ class CfgWeapons
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot{};
+			class MuzzleSlot: asdg_MuzzleSlot
+			{
+				linkProxy = "\A3\Data_F\proxies\weapon_slots\MUZZLE";
+				compatibleItems[] = {muzzle_snds_12Gauge_lxWS, muzzle_snds_12Gauge_snake_lxWS};
+				iconPosition[] = {-0.02,0.41};
+				iconScale = 0.2;
+			};
 			class CowsSlot{};
 			class PointerSlot: asdg_PistolUnderRail
 			{
@@ -64,7 +70,7 @@ class CfgWeapons
 		modes[] = {Single};
 		class Single: Mode_SemiAuto
 		{
-			sounds[] = {StandardSound};
+			sounds[] = {StandardSound, SilencedSound};
 			dispersion = 0.00116;
 			reloadTime = RPM_SEMI;
 			minRange = 1;
@@ -90,7 +96,13 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Shotguns\Mp153\Data\Mp153_classic_CO.paa"};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class MuzzleSlot{};
+			class MuzzleSlot: asdg_MuzzleSlot
+			{
+				linkProxy = "\A3\Data_F\proxies\weapon_slots\MUZZLE";
+				compatibleItems[] = {muzzle_snds_12Gauge_lxWS, muzzle_snds_12Gauge_snake_lxWS};
+				iconPosition[] = {-0.02,0.41};
+				iconScale = 0.2;
+			};
 			class CowsSlot{};
 			class PointerSlot{};
 			mass = 160;

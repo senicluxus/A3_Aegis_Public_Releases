@@ -1,0 +1,107 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: air_f_jets\Plane_Fighter_01\Data\Fighter_01_glass_damage.rvmat
+//Produced from mikero's Dos Tools Dll version 8.60
+//https://mikero.bytex.digital/Downloads
+//'now' is Sat Feb 12 15:19:02 2022 : 'file' last modified on Thu Jan 01 09:00:01 1970
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+class StageTI
+{
+	texture = "a3\data_f\default_glass_ti_ca.paa";
+};
+ambient[] = {1,1,1,1};
+diffuse[] = {1,1,1,1};
+forcedDiffuse[] = {0,0,0,1};
+emmisive[] = {0,0,0,1};
+specular[] = {0.3*4,0.125*4,0.05*4,1};
+specularPower = 750;
+PixelShaderID = "Super";
+VertexShaderID = "Super";
+renderFlags[] = {"NoZWrite"};
+class Stage1
+{
+	texture = "a3\data_f\destruct\damage_glass_laminated_nohq.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage2
+{
+	texture = "a3\data_f\destruct\damage_glass_laminated_ca.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage3
+{
+	texture = "a3\data_f\destruct\damage_glass_laminated_ca.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage4
+{
+	texture = "#(rgb,8,8,3)color(1,1,1,1,AS)";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage5
+{
+	texture = "a3\data_f\destruct\damage_glass_laminated_smdi.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,1};
+		pos[] = {0,0,0};
+	};
+};
+class Stage6
+{
+	texture = "#(ai,64,64,1)fresnel(0.8,0.1)";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,1};
+		pos[] = {0,0,0};
+	};
+};
+class Stage7
+{
+	useWorldEnvMap = "true";
+	texture = "a3\data_f\env_land_ca.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,1};
+		pos[] = {0,0,0};
+	};
+};

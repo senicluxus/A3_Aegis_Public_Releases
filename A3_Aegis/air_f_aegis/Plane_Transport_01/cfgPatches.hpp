@@ -15,7 +15,11 @@ class CfgPatches
 
             /* From "cfgIndep.hpp" */
             I_Plane_Transport_01_infantry_F,
-            I_Plane_Transport_01_vehicle_F
+            I_Plane_Transport_01_vehicle_F,
+
+            /* From "cfgCivil.hpp"*/
+            Aegis_C_Plane_Transport_01_civil_F,
+            Aegis_C_IDAP_Plane_Transport_01_civil_F
         };
 		weapons[] = {/* Automated */};
 	};

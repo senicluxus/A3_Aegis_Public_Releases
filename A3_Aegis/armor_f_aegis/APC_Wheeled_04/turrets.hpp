@@ -191,16 +191,16 @@ class Turrets: Turrets
         /* Weapons & Ammunition */
 		weapons[] =
         {
-            autocannon_30mm_APC_Wheeled_04,
+            autocannon_30mm_lxWS,
             LMG_coax_ext,
-            missiles_Vorona_vehicle
+            missiles_Vorona_vehicle_lxWS
         };
 		magazines[] =
         {
-			340Rnd_30mm_HE_shells_Tracer_Green,
-			160Rnd_30mm_APFSDS_shells_Tracer_Green,
+			340Rnd_30mm_HE_shells_Tracer_Green_lxWS,
+			160Rnd_30mm_APFSDS_shells_Tracer_Green_lxWS,
 			2000Rnd_762x51_Belt_Green,
-			4rnd_Vorona_HEAT
+			4rnd_Vorona_HEAT_lxWS
         };
 		selectionFireAnim = zasleh2;
 		memoryPointGun[] = {"usti hlavne3"};

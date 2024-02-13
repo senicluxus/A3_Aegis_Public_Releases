@@ -1,7 +1,43 @@
 class CfgVehicles
 {
     /* Inheritance Tree */
-	class Helicopter_Base_H;
+	class Air;
+	class Helicopter: Air
+	{
+		class HitPoints;
+	};
+	class Helicopter_Base_F: Helicopter
+	{
+		class Turrets;
+		class HitPoints: HitPoints
+		{
+			class HitGlass1;
+			class HitGlass2;
+			class HitGlass3;
+			class HitGlass4;
+			class HitGlass5;
+			class HitGlass6;
+			class HitHull;
+			class HitEngine;
+			class HitAvionics;
+			class HitVRotor;
+			class HitHRotor;
+			class HitFuel;
+		};
+	};
+	class Helicopter_Base_H: Helicopter_Base_F
+	{
+		class RotorLibHelicopterProperties;
+		class ViewPilot;
+		class ViewOptics;
+		class Turrets: Turrets
+		{
+			class CopilotTurret;
+			class Mainturret;
+		};
+		class AnimationSources;
+		class Components;
+	};
 
     /* Bases */
 	class Heli_Transport_02_base_F: Helicopter_Base_H
@@ -87,7 +123,7 @@ class CfgVehicles
 			};
 			class Grey
 			{
-				displayName = $STR_A3_TextureSources_Grey0;
+				displayName = $STR_A3_A_TEXTURESOURCES_BAF_RN0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
@@ -151,9 +187,12 @@ class CfgVehicles
 		weapons[] = {/* Civilian vehicle, let's wipe these */};
 		magazines[] = {/* Civilian vehicle, let's wipe these */};
     };
+	#include "cfgAW101.hpp"		// Base classes and TextureSources for AW101
 	#include "cfgBLUFOR.hpp"    // BAF
 	#include "cfgCivil.hpp"     // Civilians
+	#include "cfgIndep.hpp"		// AAF
 	#include "cfgION.hpp"       // ION
+	#include "cfgUNA.hpp"		// UNA (lxWS)
 
     /* Deprecated */
     #include "deprecated.hpp"

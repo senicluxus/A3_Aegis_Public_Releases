@@ -6,6 +6,7 @@ class CfgVehicles
     /* Bases */
 	class Rubber_duck_base_F: Boat_F
 	{
+		enginePower = 41.5;
         /* Liveries */
 		class TextureSources
 		{

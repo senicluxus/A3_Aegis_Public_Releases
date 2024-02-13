@@ -54,14 +54,14 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
-			class Blue
+			class RuBlue
 			{
-				displayName = $STR_A3_TextureSources_Blue0;
+				displayName = "Blue (Star)";
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext01_blue_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext02_blue_CO.paa"
+					"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext01_rublue_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext02_rublue_CO.paa"
 				};
 				factions[] = {};
 			};

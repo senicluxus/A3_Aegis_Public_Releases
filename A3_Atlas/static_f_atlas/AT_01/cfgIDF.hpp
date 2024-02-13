@@ -90,6 +90,6 @@ class Atlas_I_I_AT_01_weapon_F: Weapon_Bag_Base
 	{
         displayName = $STR_A3_A_CfgVehicles_I_I_AT_01_weapon_F_assembleInfo0;
         assembleTo = Atlas_I_I_Static_AT_F;
-        base[] = {STATIC_SUPPORT_BAGS};
+        base[] = {SUPPORT_BAGS_HMG_01};
 	};
 };

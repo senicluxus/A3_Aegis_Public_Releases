@@ -74,6 +74,13 @@ class CfgVehicles
 				textures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Attack_01\Data\Heli_Attack_01_grey_CO.paa"};
 				factions[] = {};
 			};
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_A3_A_Ravenholme;
+				textures[] = {"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Attack_01_sand_CO.paa"};
+				factions[] = {};
+			};
 		};
 		textureList[] =
 		{

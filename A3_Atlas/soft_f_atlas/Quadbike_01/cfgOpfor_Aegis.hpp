@@ -70,17 +70,17 @@ class Atlas_O_W_Quadbike_01_F: Quadbike_01_base_F
 		verticalOffsetWorld = -0.211;
 		init = "''";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Quadbike_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Quadbike_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
 	faction = Atlas_OPF_W_F;
 	crew = Atlas_O_W_Soldier_F;
 	typicalCargo[] = {Atlas_O_W_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {WoodlandHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Soft_F_Exp\Quadbike_01\Data\Quadbike_01_ghex_CO.paa",
-		"\A3\Soft_F_Exp\Quadbike_01\Data\Quadbike_01_wheel_ghex_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_WHEX_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_wheel_WHEX_CO.paa"
 	};
 };

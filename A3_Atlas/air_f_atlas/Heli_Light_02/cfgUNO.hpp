@@ -3,7 +3,7 @@
 class Atlas_I_UNO_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_UNO_Heli_Light_02_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Heli_Light_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TGuerrila;
@@ -16,17 +16,17 @@ class Atlas_I_UNO_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellGreen,2);
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,4);
+		mag_xx(30Rnd_556x45_stanag_sand_red,6);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_G36C_F,2);
+		weap_xx(Aegis_arifle_M4A1_Short_sand_F,2);
 	};
 };
 class Atlas_I_UNO_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_UNO_Heli_Light_02_unarmed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_UNO_Heli_Light_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	scopeArsenal = private;
@@ -41,11 +41,11 @@ class Atlas_I_UNO_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
     {
         mag_xx(SmokeShell,2);
         mag_xx(SmokeShellGreen,2);
-        mag_xx(30Rnd_65x39_caseless_msbs_mag,4);
+        mag_xx(30Rnd_556x45_stanag_sand_red,6);
     };
     class TransportWeapons
     {
-        weap_xx(arifle_G36C_F,2);
+        weap_xx(Aegis_arifle_M4A1_Short_sand_F,2);
     };
 };
 

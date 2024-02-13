@@ -10,11 +10,11 @@
 		vehicleClass = WeaponsPrimary; \
 		class TransportWeapons \
 		{ \
-			weap_xx(##a##,1); \
+			weap_xx(a,1); \
 		}; \
 		class TransportMagazines \
 		{ \
-			mag_xx(##d##,1); \
+			mag_xx(d,1); \
 		}; \
 	};
 

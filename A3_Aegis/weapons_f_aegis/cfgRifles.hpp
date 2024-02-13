@@ -206,6 +206,10 @@ class arifle_MXC_F: arifle_MX_Base_F
     INITSPEED_CARBINE;
     hiddenSelections[] = {camo1};
     hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Short_CO.paa"};
+    hiddenSelectionsMaterials[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXC.rvmat"
+	};
     class WeaponSlotsInfo: WeaponSlotsInfo
     {
         class MuzzleSlot: asdg_MuzzleSlot_65
@@ -241,6 +245,11 @@ class arifle_MX_F: arifle_MX_Base_F
         "\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Base_CO.paa",
         "\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Short_CO.paa"
     };
+    hiddenSelectionsMaterials[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MX.rvmat",
+        "\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXC.rvmat"
+	};
     class WeaponSlotsInfo: WeaponSlotsInfo
     {
         class MuzzleSlot: asdg_MuzzleSlot_65
@@ -276,6 +285,11 @@ class arifle_MX_GL_F: arifle_MX_Base_F
         "\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Base_CO.paa",
         "\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\GLX_CO.paa"
     };
+    hiddenSelectionsMaterials[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MX.rvmat",
+        "\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXGL.rvmat"
+	};
     class WeaponSlotsInfo: WeaponSlotsInfo
     {
         class MuzzleSlot: asdg_MuzzleSlot_65
@@ -305,6 +319,10 @@ class arifle_MX_SW_F: arifle_MX_Base_F
     cursor = arifle;
     hiddenSelections[] = {camo1};
     hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_LMG_CO.paa"};
+    hiddenSelectionsMaterials[]=
+	{
+        "\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXSW.rvmat"
+	};
     class WeaponSlotsInfo: WeaponSlotsInfo
     {
         class MuzzleSlot: asdg_MuzzleSlot_65
@@ -332,6 +350,10 @@ class arifle_MXM_F: arifle_MX_Base_F
     INITSPEED_MR;
     hiddenSelections[] = {camo1};
     hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Long_CO.paa"};
+    hiddenSelectionsMaterials[]=
+	{
+        "\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXM.rvmat"
+	};
     class WeaponSlotsInfo: WeaponSlotsInfo
     {
         class MuzzleSlot: asdg_MuzzleSlot_65
@@ -421,8 +443,25 @@ class arifle_MXM_DMS_LP_BI_snds_F: arifle_MXM_F
         };
     };
 };
-class arifle_MXC_Black_F;
-class arifle_MX_Black_F;
+class arifle_MXC_Black_F: arifle_MXC_F
+{
+    hiddenSelections[] = {"camo1"};
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_short_Black_co.paa"};
+    hiddenSelectionsMaterials[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXC.rvmat"
+	};
+};
+class arifle_MX_Black_F: arifle_MX_F
+{
+    hiddenSelections[] = {"camo1","camo2"};
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_Base_Black_co.paa","\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_short_Black_co.paa"};
+    hiddenSelectionsMaterials[]=
+	{
+        "\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MX.rvmat",
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXC.rvmat"
+	};
+};
 class arifle_MX_Black_Hamr_Pointer_Snds_F: arifle_MX_Black_F
 {
     class LinkedItems
@@ -433,8 +472,25 @@ class arifle_MX_Black_Hamr_Pointer_Snds_F: arifle_MX_Black_F
         };
     };
 };
-class arifle_MX_GL_Black_F;
-class arifle_MX_SW_Black_F;
+class arifle_MX_GL_Black_F: arifle_MX_GL_F
+{
+    hiddenSelections[] = {"camo1","camo2"};
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_Base_Black_co.paa","\A3\Weapons_F_EPB\Rifles\MX_Black\Data\GLX_Black_CO.paa"};
+    hiddenSelectionsMaterials[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MX.rvmat",
+        "\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXGL.rvmat"
+	};
+};
+class arifle_MX_SW_Black_F: arifle_MX_SW_F
+{
+    hiddenSelections[] = {"camo1"};
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_LMG_Black_co.paa"};
+    hiddenSelectionsMaterials[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXSW.rvmat"
+	};
+};
 class arifle_MX_SW_Black_Hamr_pointer_F: arifle_MX_SW_Black_F
 {
     class LinkedItems
@@ -485,7 +541,15 @@ class arifle_MX_SW_Black_Rifle_F: arifle_MX_SW_Black_F
         maxRangeProbab = 0.1;
     };
 };
-class arifle_MXM_Black_F;
+class arifle_MXM_Black_F: arifle_MXM_F
+{
+    hiddenSelections[] = {"camo1"};
+	hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_long_Black_co.paa"};
+    hiddenSelectionsMaterials[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXM.rvmat"
+	};
+};
 class SDAR_base_F: Rifle_Base_F
 {
     magazineWell[] = {STANAG_556x45_SDAR};
@@ -559,11 +623,65 @@ class arifle_TRG21_GL_F: Tavor_base_F
         };
     };
 };
-class arifle_MX_khk_F;
-class arifle_MX_GL_khk_F;
-class arifle_MX_SW_khk_F;
-class arifle_MXC_khk_F;
-class arifle_MXM_khk_F;
+class arifle_MX_khk_F: arifle_MX_Black_F
+{
+    hiddenSelectionsTextures[]=
+	{
+		"\A3\Weapons_F_Exp\Rifles\MX\Data\XMX_Base_khk_co.paa",
+		"\A3\Weapons_F_Exp\Rifles\MX\Data\XMX_Short_khk_co.paa"
+	};
+    hiddenSelectionsMaterials[]=
+	{
+        "\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MX.rvmat",
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXC.rvmat"
+	};
+};
+class arifle_MX_GL_khk_F: arifle_MX_GL_Black_F
+{
+    hiddenSelectionsTextures[]=
+	{
+		"\A3\Weapons_F_Exp\Rifles\MX\Data\XMX_Base_khk_co.paa",
+		"\A3\Weapons_F_Exp\Rifles\MX\Data\glx_khk_co.paa"
+	};
+    hiddenSelectionsMaterials[]=
+	{
+        "\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MX.rvmat",
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXGL.rvmat"
+	};
+};
+class arifle_MX_SW_khk_F: arifle_MX_SW_Black_F
+{
+    hiddenSelectionsTextures[]=
+	{
+		"\A3\Weapons_F_Exp\Rifles\MX\Data\XMX_LMG_khk_co.paa"
+	};
+    hiddenSelectionsMaterials[]=
+	{
+        "\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXSW.rvmat"
+	};
+};
+class arifle_MXC_khk_F: arifle_MXC_Black_F
+{
+    hiddenSelectionsTextures[]=
+	{
+		"\A3\Weapons_F_Exp\Rifles\MX\Data\XMX_Short_khk_co.paa"
+	};
+    hiddenSelectionsMaterials[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXC.rvmat"
+	};
+};
+class arifle_MXM_khk_F: arifle_MXM_Black_F
+{
+    hiddenSelectionsTextures[]=
+	{
+		"\A3\Weapons_F_Exp\Rifles\MX\Data\XMX_long_khk_co.paa"
+	};
+    hiddenSelectionsMaterials[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXM.rvmat"
+	};
+};
 class arifle_AKM_base_F;
 class arifle_AKM_F;
 class arifle_AKS_base_F: Rifle_Base_F
@@ -597,7 +715,7 @@ class arifle_ARX_ghex_DMS_Pointer_Snds_Bipod_F: arifle_ARX_ghex_F
 };
 class arifle_CTAR_GL_blk_F;
 class arifle_CTARS_blk_F;
-class arifle_SPAR_01_base_F;
+/*class arifle_SPAR_01_base_F;
 class arifle_SPAR_01_blk_F: arifle_SPAR_01_base_F
 {
     hiddenSelectionsTextures[] =
@@ -713,7 +831,7 @@ class arifle_SPAR_03_snd_F: arifle_SPAR_03_base_F
         "\A3_Aegis\Weapons_F_Aegis\Rifles\SPAR_03\Data\arifle_SPAR_03_snd_F_02_CO.paa",
         "\A3_Aegis\Weapons_F_Aegis\Rifles\SPAR_01\Data\arifle_SPAR_01_snd_F_01_CO.paa"
     };
-};
+};*/
 class arifle_MSBS65_base_F: Rifle_Base_F
 {
     class WeaponSlotsInfo: WeaponSlotsInfo
@@ -833,6 +951,7 @@ class arifle_TRG21_black_F: arifle_TRG21_F
 	displayName = $STR_A3_A_CfgWeapons_arifle_TRG21_black_F0;
 	picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\TRG20\Data\UI\icon_arifle_TRG21_black_F_X_CA.paa";
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\TRG20\Data\TAR21_black_CO.paa"};
+    hiddenSelectionsMaterials[] = {"\A3_Aegis\weapons_f_Aegis\Rifles\TRG20\Data\TAR21_black.rvmat"};
 	baseWeapon = arifle_TRG21_black_F;
 };
 class arifle_TRG20_black_F: arifle_TRG20_F
@@ -841,6 +960,7 @@ class arifle_TRG20_black_F: arifle_TRG20_F
 	displayName = $STR_A3_A_CfgWeapons_arifle_TRG20_black_F0;
 	picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\TRG20\Data\UI\icon_arifle_TRG20_black_F_X_CA.paa";
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\TRG20\Data\TAR21_black_CO.paa"};
+    hiddenSelectionsMaterials[] = {"\A3_Aegis\weapons_f_Aegis\Rifles\TRG20\Data\TAR21_black.rvmat"};
 	baseWeapon = arifle_TRG20_black_F;
 };
 class arifle_TRG21_GL_black_F: arifle_TRG21_GL_F
@@ -848,6 +968,12 @@ class arifle_TRG21_GL_black_F: arifle_TRG21_GL_F
 	author = $STR_A3_A_AveryTheKitty;
 	displayName = $STR_A3_A_CfgWeapons_arifle_TRG21_GL_black_F0;
 	picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\TRG20\Data\UI\icon_arifle_TRG21_GL_black_F_X_CA.paa";
+    hiddenSelectionsMaterials[] = 
+    {
+        "\A3_Aegis\weapons_f_Aegis\Rifles\TRG20\Data\TAR21_black.rvmat",
+        "\A3_Aegis\weapons_f_Aegis\Rifles\TRG20\Data\TAR21_black_EGLM.rvmat",
+        "\A3\Weapons_F\Data\GL_holo.rvmat"
+    };
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Weapons_F_Aegis\Rifles\TRG20\Data\TAR21_black_CO.paa",
@@ -855,4 +981,219 @@ class arifle_TRG21_GL_black_F: arifle_TRG21_GL_F
 		"\A3\Weapons_F\Data\GL_holo_CO.paa"
 	};
 	baseWeapon = arifle_TRG21_GL_black_F;
+};
+
+/* SPAR Family Rifles*/
+class arifle_SPAR_01_base_F: Rifle_Base_F
+{
+    hiddenSelections[]=
+	{
+		camo1,
+		camo2
+	};
+};
+class arifle_SPAR_01_GL_base_F: arifle_SPAR_01_base_F
+{
+    hiddenSelections[]=
+	{
+		camo1,
+		camo2,
+        camo3
+	};
+};
+class arifle_SPAR_02_base_F: Rifle_Base_F
+{
+    hiddenSelections[]=
+	{
+		camo1,
+		camo2
+	};
+};
+class arifle_SPAR_03_base_F: Rifle_Base_F
+{
+    hiddenSelections[]=
+	{
+		camo1,
+		camo2,
+        camo3
+	};
+};
+
+/* SPAR 16s*/
+class arifle_SPAR_01_blk_F: arifle_SPAR_01_base_F
+{
+    displayName = $STR_A3_A_CfgWeapons_arifle_spar_01_blk_f0;
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_black_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02_black_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02.rvmat"
+	};
+};
+class arifle_SPAR_01_khk_F: arifle_SPAR_01_base_F
+{
+    displayName = $STR_A3_A_CfgWeapons_arifle_spar_01_khk_f0;
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_khaki_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02_khaki_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02.rvmat"
+    };
+};
+class arifle_SPAR_01_snd_F: arifle_SPAR_01_base_F
+{
+    displayName = $STR_A3_A_CfgWeapons_arifle_spar_01_snd_f0;
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_sand_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02_sand_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02.rvmat"
+	};
+};
+class arifle_SPAR_01_GL_blk_F: arifle_SPAR_01_GL_base_F
+{
+    displayName = $STR_A3_A_CfgWeapons_arifle_spar_01_gl_blk_f0;
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_black_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02_black_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_03_black_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_03.rvmat"
+	};
+};
+class arifle_SPAR_01_GL_khk_F: arifle_SPAR_01_GL_base_F
+{
+    displayName = $STR_A3_A_CfgWeapons_arifle_spar_01_gl_khk_f0;
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_khaki_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02_khaki_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_03_khaki_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_03.rvmat"
+	};
+};
+class arifle_SPAR_01_GL_snd_F: arifle_SPAR_01_GL_base_F
+{
+    displayname = $STR_A3_A_CfgWeapons_arifle_spar_01_gl_snd_f0;
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_sand_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02_sand_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_03_sand_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_03.rvmat"
+	};
+};
+
+/* SPAR-16S*/
+class arifle_SPAR_02_blk_F: arifle_SPAR_02_base_F
+{
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_black_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02_black_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02.rvmat"
+	};
+};
+class arifle_SPAR_02_khk_F: arifle_SPAR_02_base_F
+{
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_khaki_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02_khaki_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02.rvmat"
+	};
+};
+class arifle_SPAR_02_snd_F: arifle_SPAR_02_base_F
+{
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_sand_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02_sand_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_02.rvmat"
+	};
+};
+/* SPAR-17 */
+class arifle_SPAR_03_blk_F: arifle_SPAR_03_base_F
+{
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_01_black_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_02_black_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_black_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_02.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat"
+	};
+};
+class arifle_SPAR_03_khk_F: arifle_SPAR_03_base_F
+{
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_01_khaki_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_02_khaki_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_khaki_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_02.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat"
+	};
+};
+class arifle_SPAR_03_snd_F: arifle_SPAR_03_base_F
+{
+	hiddenSelectionsTextures[]=
+	{
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_01_sand_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_02_sand_Aegis_CO.paa",
+		"\A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01_sand_Aegis_CO.paa"
+	};
+	hiddenSelectionsMaterials[]=
+	{
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_01.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_03\data\arifle_SPAR_03_02.rvmat",
+		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat"
+	};
 };

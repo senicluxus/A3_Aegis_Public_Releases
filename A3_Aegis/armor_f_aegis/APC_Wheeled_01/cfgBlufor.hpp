@@ -316,7 +316,22 @@ class B_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_base_F
 				""
             };
 		};
+        class EAF_01: EAF_01
+        {
+            textures[] = 
+      			{
+         			"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_medevac_EAF_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_adds_EAF_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_EAF_CO.paa",
+         			"",
+					"",
+      			};
+        };
 	};
+};
+class B_APC_Wheeled_01_cannon_F: B_APC_Wheeled_01_base_F
+{
+    scope = protected;
 };
 class B_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 {
@@ -541,6 +556,12 @@ class B_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 		"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
 		"\A3\Armor_F\Data\cage_sand_CO.paa"
 	};
+};
+class B_APC_Wheeled_01_atgm_lxWS_v2: APC_Wheeled_01_atgm_base_v2
+{
+    author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
 };
 
 /*
@@ -895,7 +916,6 @@ class B_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_base_F
 */
 
 /* USMC (Desert) */
-class APC_Wheeled_01_atgm_base_lxWS: APC_Wheeled_01_base_F{};
 class B_D_APC_Wheeled_01_atgm_lxWS: APC_Wheeled_01_atgm_base_lxWS
 {
     scope = protected;
@@ -906,7 +926,7 @@ class B_T_APC_Wheeled_01_atgm_lxWS: APC_Wheeled_01_atgm_base_lxWS
     scope = protected;
 	scopeCurator = protected;
 };
-class B_APC_Wheeled_01_cannon_F;
+
 class B_D_APC_Wheeled_01_cannon_lxWS: B_APC_Wheeled_01_cannon_F
 {
     scope = protected;
@@ -1123,6 +1143,8 @@ class B_D_APC_Wheeled_01_cannon_lxWS_v2: B_APC_Wheeled_01_cannon_v2_F
 	typicalCargo[] = {B_D_soldier_lxWS};
 	scope = public;
 	scopeCurator = public;
+    scopeArsenal = 0;
+	forceInGarage = 0;
     hiddenSelectionsTextures[] = 
     {
         "a3\armor_f_beta\APC_Wheeled_01\data\APC_Wheeled_01_base_co.paa",
@@ -1134,104 +1156,22 @@ class B_D_APC_Wheeled_01_cannon_lxWS_v2: B_APC_Wheeled_01_cannon_v2_F
     textureList[] = {"Sand_Desert", 1};
 };
 
-class B_D_APC_Wheeled_01_atgm_lxWS_v2: B_D_APC_Wheeled_01_atgm_lxWS
+class B_D_APC_Wheeled_01_atgm_lxWS_v2: APC_Wheeled_01_atgm_base_v2
 {
+    author = $STR_A3_A_Ravenholme;
     scope = public;
-	scopeCurator = public;
-    class Turrets: Turrets
-    {
-        class MainTurret: MainTurret
-        {
-            weapons[] =
-            {
-                autocannon_30mm,
-                LMG_coax, 
-                missiles_titan
-            };
-            magazines[] = 
-            {
-                mag_2(140Rnd_30mm_MP_shells_Tracer_Red),
-                mag_2(60Rnd_30mm_APFSDS_shells_Tracer_Red),
-                mag_10(200Rnd_762x51_Belt_Red),
-                4Rnd_GAT_missiles_lxWS
-            };
-        };
-    };
-    class AnimationSources: AnimationSources
-    {
-        class muzzle_rot: muzzle_rot
-        {
-            weapon = autocannon_30mm;
-        };
-        class muzzle_hide: muzzle_hide
-        {
-            weapon = autocannon_30mm;
-        };
-        class revolving_cannon: revolving_cannon
-        {
-            weapon = autocannon_30mm;
-        };
-        class HideTurret: HideTurret{};
-        class showBags: showBags{};
-        class showCamonetTurret: showCamonetTurret{};
-        class showSLATHull: showSLATHull{};
-        class showSLATTurret: showSLATTurret{};
-        class Missiles_revolving
-		{
-			source = revolving;
-			weapon = missiles_titan;
-		};
-    };
-};
-
-class B_T_APC_Wheeled_01_atgm_lxWS_v2: B_T_APC_Wheeled_01_atgm_lxWS
-{
-    scope = public;
-	scopeCurator = public;
-    class Turrets: Turrets
-    {
-        class MainTurret: MainTurret
-        {
-            weapons[] =
-            {
-                autocannon_30mm,
-                LMG_coax, 
-                missiles_titan
-            };
-            magazines[] = 
-            {
-                mag_2(140Rnd_30mm_MP_shells_Tracer_Red),
-                mag_2(60Rnd_30mm_APFSDS_shells_Tracer_Red),
-                mag_10(200Rnd_762x51_Belt_Red),
-                "4Rnd_GAT_missiles_lxWS"
-            };
-        };
-    };
-    class AnimationSources: AnimationSources
-    {
-        class muzzle_rot: muzzle_rot
-        {
-            weapon = autocannon_30mm;
-        };
-        class muzzle_hide: muzzle_hide
-        {
-            weapon = autocannon_30mm;
-        };
-        class revolving_cannon: revolving_cannon
-        {
-            weapon = autocannon_30mm;
-        };
-        class HideTurret: HideTurret{};
-        class showBags: showBags{};
-        class showCamonetTurret: showCamonetTurret{};
-        class showSLATHull: showSLATHull{};
-        class showSLATTurret: showSLATTurret{};
-        class Missiles_revolving
-		{
-			source = revolving;
-			weapon = missiles_titan;
-		};
-    };
+    scopeCurator = public;
+    editorPreview = "\A3_Aegis\editorpreviews_f_aegis\Data\CfgVehicles\B_D_APC_Wheeled_01_atgm_lxWS.jpg"; 
+    crew = B_D_crew_lxWS;
+    typicalCargo[] = {B_D_soldier_lxWS};
+	faction = BLU_NATO_lxWS;
+    hiddenSelectionsTextures[] = {
+      "a3\armor_f_beta\APC_Wheeled_01\data\APC_Wheeled_01_base_co.paa",
+      "a3\armor_f_beta\APC_Wheeled_01\data\APC_Wheeled_01_adds_co.paa",
+      "a3\armor_f_beta\APC_Wheeled_01\data\APC_Wheeled_01_tows_co.paa",
+      "lxws\vehicles_f_lxws\data\camonet_NATO_flat_desert_CO.paa","a3\Armor_F\Data\cage_sand_CO.paa",
+      "lxws\vehicles_f_lxws\data\APC_Wheeled_01\APC_Wheeled_01_lxws_CO.paa"};
+   textureList[] = {"Sand_Desert", 1};
 };
 
 /* US (Pacific) */
@@ -1718,6 +1658,55 @@ class B_T_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 		bag_xx(B_AssaultPack_tna_F,2);
 	};
 };
+
+class B_T_APC_Wheeled_01_atgm_lxWS_v2: APC_Wheeled_01_atgm_base_v2
+{
+    author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+    editorPreview = "\A3_Aegis\editorpreviews_f_aegis\Data\CfgVehicles\B_T_APC_Wheeled_01_atgm_lxWS.jpg"; 
+    crew = B_T_Crew_F;
+    typicalCargo[] = {B_T_Soldier_F};
+    faction = BLU_T_F;
+    hiddenSelectionsTextures[] = {
+      "A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_base_olive_CO.paa",
+      "A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_adds_olive_co.paa",
+      "A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_tows_olive_co.paa",
+      "a3\Armor_F\Data\camonet_NATO_Green_CO.paa","a3\Armor_F\Data\cage_olive_CO.paa",
+      "lxws\vehicles_f_lxws\data\APC_Wheeled_01\APC_Wheeled_01_lxws_olive_CO.paa"};
+	textureList[] = {"Olive", 1};
+    /* Inventory */
+	class TransportWeapons
+	{
+		weap_xx(arifle_MX_khk_F,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_65x39_caseless_khaki_mag,12);
+		mag_xx(100Rnd_65x39_caseless_khaki_mag,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(NLAW_F,5);
+		mag_xx(Titan_AT,2);
+		mag_xx(Titan_AP,2);
+		mag_xx(Titan_AA,2);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_tna_F,2);
+	};
+};
+
 /*
 class B_T_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
 {
@@ -2411,7 +2400,7 @@ class B_W_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 		verticalOffsetWorld = -0.091;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_APC_Wheeled_01_cannon_v2_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_APC_Wheeled_01_cannon_v2_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -2459,6 +2448,89 @@ class B_W_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
 };
+class B_W_APC_Wheeled_01_atgm_lxWS_v2: B_T_APC_Wheeled_01_atgm_lxWS_v2
+{
+    author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+    editorPreview = "\A3_Aegis\editorpreviews_f_aegis\Data\CfgVehicles\B_T_APC_Wheeled_01_atgm_lxWS.jpg"; 
+    side = TWest;
+	faction = BLU_W_F;
+	crew = B_W_Crew_F;
+	typicalCargo[] = {B_W_Soldier_F};
+    hiddenSelectionsTextures[] = {
+      "A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_base_olive_CO.paa",
+      "A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_adds_olive_co.paa",
+      "A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_tows_olive_co.paa",
+      "a3\Armor_F\Data\camonet_NATO_Green_CO.paa","a3\Armor_F\Data\cage_olive_CO.paa",
+      "lxws\vehicles_f_lxws\data\APC_Wheeled_01\APC_Wheeled_01_lxws_olive_CO.paa"};
+	textureList[] = {"Olive", 1};
+    /* Inventory */
+	class TransportWeapons
+	{
+		weap_xx(arifle_MX_Black_F,2);
+	};
+	class TransportMagazines
+	{
+		mag_xx(30Rnd_65x39_caseless_black_mag,12);
+		mag_xx(100Rnd_65x39_caseless_black_mag,6);
+		mag_xx(HandGrenade,6);
+		mag_xx(MiniGrenade,6);
+		mag_xx(1Rnd_HE_Grenade_shell,3);
+		mag_xx(3Rnd_HE_Grenade_shell,1);
+		mag_xx(1Rnd_Smoke_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(SmokeShell,8);
+		mag_xx(SmokeShellGreen,8);
+		mag_xx(SmokeShellOrange,8);
+		mag_xx(SmokeShellBlue,8);
+		mag_xx(NLAW_F,5);
+		mag_xx(Titan_AT,2);
+		mag_xx(Titan_AP,2);
+		mag_xx(Titan_AA,2);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_AssaultPack_wdl_F,2);
+	};
+};
+class B_T_APC_Wheeled_01_mortar_lxWS;
+class B_W_APC_Wheeled_01_mortar_lxWS: B_T_APC_Wheeled_01_mortar_lxWS
+{
+    author = $STR_A3_A_Ravenholme;
+    side = TWest;
+	faction = BLU_W_F;
+	crew = B_W_Crew_F;
+	typicalCargo[] = {B_W_Soldier_F};
+    class TransportWeapons
+   {
+      class _xx_arifle_MX_khk_F
+      {
+         weapon = "arifle_MX_khk_F";
+         count = 2;
+      };
+   };
+};
+class B_T_APC_Wheeled_01_command_lxWS;
+class B_W_APC_Wheeled_01_command_lxWS: B_T_APC_Wheeled_01_command_lxWS
+{
+    author = $STR_A3_A_Ravenholme;
+    side = TWest;
+	faction = BLU_W_F;
+	crew = B_W_Crew_F;
+	typicalCargo[] = {B_W_Soldier_F};
+    class TransportWeapons
+   {
+      class _xx_arifle_MX_khk_F
+      {
+         weapon = "arifle_MX_khk_F";
+         count = 2;
+      };
+   };
+};
+
 /*
 class B_W_APC_Wheeled_01_arty_F: B_APC_Wheeled_01_arty_F
 {

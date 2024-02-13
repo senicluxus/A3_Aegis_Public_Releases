@@ -347,5 +347,45 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_arifle_G36C_F0;
 		baseWeapon = arifle_G36C_F;
 	};
+	class arifle_G36_Sand_F: arifle_G36_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_MrBrightside_and_Toadie2K;
+		scope = public;
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\UI\icon_arifle_G36_F_X_Sand_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_01_Sand_CO.paa",
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_02_Sand_CO.paa"
+		};
+		displayName = $STR_A3_A_CfgWeapons_arifle_G36_Sand_F0;
+		baseWeapon = arifle_G36_Sand_F;
+	};
+	class arifle_G36_GL_Sand_F: arifle_G36_GL_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_MrBrightside_and_Toadie2K;
+		scope = public;
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\UI\icon_arifle_G36_GL_F_X_Sand_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_01_Sand_CO.paa",
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_02_Sand_CO.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\SA80\Data\SA80_F_GL_snd_CO.paa"
+		};
+		displayName = $STR_A3_A_CfgWeapons_arifle_G36_GL_Sand_F0;
+		baseWeapon = arifle_G36_GL_Sand_F;
+	};
+	class arifle_G36C_Sand_F: arifle_G36C_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_MrBrightside_and_Toadie2K;
+		scope = public;
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\UI\icon_arifle_G36C_F_X_Sand_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_01_Sand_CO.paa",
+			"\A3_Atlas\Weapons_F_Atlas\Rifles\G36\Data\G36_F_02_Sand_CO.paa"
+		};
+		displayName = $STR_A3_A_CfgWeapons_arifle_G36C_Sand_F0;
+		baseWeapon = arifle_G36C_Sand_F;
+	};
 	#include "presets.hpp"
 };

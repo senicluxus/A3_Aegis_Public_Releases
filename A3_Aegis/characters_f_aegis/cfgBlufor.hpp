@@ -5503,6 +5503,13 @@ class B_T_soldier_UGV_02_Demining_F: B_T_Soldier_UAV_F
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = B_UGV_02_Demining_backpack_F;
 };
+class B_T_soldier_UAV_02_LxWS_F: B_T_Soldier_UAV_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_T_soldier_UAV_02_LxWS_F.jpg";
+	displayName = "UAV Operator (AP-5)";
+	backpack = Aegis_B_T_UAV_02_backpack_lxWS;
+};
 class B_T_Survivor_F: B_T_Soldier_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -7037,6 +7044,13 @@ class B_W_soldier_UGV_02_Demining_F: B_W_Soldier_UAV_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_soldier_UGV_02_Demining_F.jpg";
 };
+class B_W_soldier_UAV_02_LxWS_F: B_W_Soldier_UAV_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_soldier_UAV_02_LxWS_F.jpg";
+	displayName = "UAV Operator (AP-5)";
+	backpack = Aegis_B_W_UAV_02_backpack_lxWS;
+};
 class B_W_Soldier_unarmed_F: B_W_Soldier_F
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_Soldier_unarmed_F.jpg";
@@ -7860,6 +7874,24 @@ class B_W_Recon_LAT_F: B_recon_LAT_F
 		hgun_P07_blk_Snds_F,
         DefaultManWeapons
 	};
+	magazines[] =
+    {
+        mag_6(30Rnd_556x45_Stanag_red),
+        mag_2(16Rnd_9x21_Mag),
+        NLAW_F,
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_556x45_Stanag_red),
+        mag_2(16Rnd_9x21_Mag),
+        NLAW_F,
+        mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
 	linkedItems[] =
 	{
 		V_PlateCarrier2_wdl,
@@ -9831,14 +9863,14 @@ class B_A_Soldier_CQ_F: B_Soldier_CQ_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Aegis_V_CarrierRigKBT_01_cqb_cbr_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Aegis_V_CarrierRigKBT_01_cqb_cbr_F,
 		H_HelmetB_camo_mcamo,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -10184,6 +10216,13 @@ class B_A_soldier_UGV_02_Demining_F: B_A_Soldier_UAV_F
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = B_UGV_02_Demining_backpack_F;
 };
+class B_A_soldier_UAV_02_LxWS_F: B_A_Soldier_UAV_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_soldier_UAV_02_LxWS_F.jpg";
+	displayName = "UAV Operator (AP-5)";
+	backpack = Aegis_B_A_UAV_02_backpack_lxWS;
+};
 class B_A_Diver_F: B_diver_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -10358,15 +10397,15 @@ class B_A_Recon_AR_F: B_recon_AR_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG,
-		H_HelmetSpecB_light_snakeskin,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG,
-		H_HelmetSpecB_light_snakeskin,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -10479,14 +10518,14 @@ class B_A_Recon_GL_F: B_recon_GL_F
 	linkedItems[] =
 	{
 		V_PlateCarrierL_CTRG,
-        H_HelmetB_light,
+        Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierL_CTRG,
-        H_HelmetB_light,
+        Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -10601,15 +10640,15 @@ class B_A_Recon_MG_F: B_recon_MG_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG,
-		H_HelmetB_light_desert,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG,
-		H_HelmetB_light_desert,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -10660,14 +10699,14 @@ class B_A_Recon_M_F: B_recon_M_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_oli,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
 		H_Booniehat_mcamo_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_oli,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
 		H_Booniehat_mcamo_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
@@ -10720,15 +10759,15 @@ class B_A_Recon_Medic_F: B_recon_medic_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG,
-        H_HelmetB_light_sand,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+        Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG,
-        H_HelmetB_light_sand,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+        Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -10779,15 +10818,15 @@ class B_A_Recon_F: B_recon_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG,
-        H_HelmetSpecB_light,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+        Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG,
-        H_HelmetSpecB_light,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+        Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -10841,15 +10880,15 @@ class B_A_Recon_LAT_F: B_recon_LAT_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG,
-        H_HelmetB_light,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+        Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG,
-        H_HelmetB_light,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+        Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -10901,14 +10940,14 @@ class B_A_Recon_CQ_F: B_recon_CQ_F
 	linkedItems[] =
 	{
 		V_PlateCarrierL_CTRG,
-		H_HelmetB_light_desert,
+		Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierL_CTRG,
-		H_HelmetB_light_desert,
+		Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -10959,14 +10998,14 @@ class B_A_Recon_Sharpshooter_F: B_Recon_Sharpshooter_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_oli,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
 		H_Cap_khaki_specops_UK_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_oli,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
 		H_Cap_khaki_specops_UK_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
@@ -11032,15 +11071,15 @@ class B_A_Recon_TL_F: B_recon_TL_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG,
-        H_HelmetSpecB_light_desert,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+        Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG,
-        H_HelmetSpecB_light_desert,
+		Aegis_V_CarrierRigKBT_01_recon_mtp_F,
+        Aegis_H_Helmet_FASTMT_Cover_UK_mtp_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles
 	};
@@ -13112,14 +13151,14 @@ class B_A_Soldier_CQ_tna_F: B_A_Soldier_CQ_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		Aegis_V_CarrierRigKBT_01_cqb_olive_F,
 		H_HelmetB_Camo_tna_F,
 		DefaultManLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		Aegis_V_CarrierRigKBT_01_cqb_olive_F,
 		H_HelmetB_Camo_tna_F,
 		DefaultManLinkedItems,
 		NVGoggles_tna_F
@@ -13455,6 +13494,13 @@ class B_A_soldier_UGV_02_Demining_tna_F: B_A_Soldier_UAV_tna_F
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = B_UGV_02_Demining_backpack_F;
 };
+class B_A_soldier_UAV_02_tna_LxWS_F: B_A_Soldier_UAV_tna_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_soldier_UAV_02_tna_LxWS_F.jpg";
+	displayName = "UAV Operator (AP-5)";
+	backpack = Aegis_B_A_UAV_02_backpack_lxWS;
+};
 class B_A_Diver_tna_F: B_A_Diver_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -13553,15 +13599,15 @@ class B_A_Recon_AR_tna_F: B_A_Recon_AR_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-		H_HelmetB_Enh_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-		H_HelmetB_Enh_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
@@ -13605,14 +13651,14 @@ class B_A_Recon_Exp_tna_F: B_A_Recon_Exp_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Booniehat_tna_hs_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Booniehat_tna_hs_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
@@ -13664,15 +13710,15 @@ class B_A_Recon_GL_tna_F: B_A_Recon_GL_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetB_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetB_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
@@ -13722,14 +13768,14 @@ class B_A_Recon_JTAC_tna_F: B_A_Recon_JTAC_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
         H_Watchcap_camo_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
         H_Watchcap_camo_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
@@ -13761,15 +13807,15 @@ class B_A_Recon_MG_tna_F: B_A_Recon_MG_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-		H_HelmetB_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-		H_HelmetB_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
@@ -13812,14 +13858,14 @@ class B_A_Recon_M_tna_F: B_A_Recon_M_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Booniehat_tna_hs_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Booniehat_tna_hs_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
@@ -13870,15 +13916,15 @@ class B_A_Recon_Medic_tna_F: B_A_Recon_Medic_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetB_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetB_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
@@ -13927,15 +13973,15 @@ class B_A_Recon_tna_F: B_A_Recon_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetB_Enh_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetB_Enh_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
@@ -13987,15 +14033,15 @@ class B_A_Recon_LAT_tna_F: B_A_Recon_LAT_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-        H_HelmetB_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-        H_HelmetB_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
@@ -14026,15 +14072,15 @@ class B_A_Recon_CQ_tna_F: B_A_Recon_CQ_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-		H_HelmetB_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-		H_HelmetB_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
@@ -14061,14 +14107,14 @@ class B_A_Recon_Sharpshooter_tna_F: B_A_Recon_Sharpshooter_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Cap_khaki_specops_UK_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Cap_khaki_specops_UK_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
@@ -14122,15 +14168,15 @@ class B_A_Recon_TL_tna_F: B_A_Recon_TL_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-        H_HelmetB_Enh_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-        H_HelmetB_Enh_Light_tna_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_tna_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_tna_F
 	};
@@ -15885,14 +15931,14 @@ class B_A_Soldier_CQ_wdl_F: B_A_Soldier_CQ_F
 	};
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		Aegis_V_CarrierRigKBT_01_cqb_olive_F,
 		H_HelmetB_camo_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Olive_F,
+		Aegis_V_CarrierRigKBT_01_cqb_olive_F,
 		H_HelmetB_camo_wdl,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -16228,6 +16274,13 @@ class B_A_soldier_UGV_02_Demining_wdl_F: B_A_Soldier_UAV_wdl_F
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = B_UGV_02_Demining_backpack_F;
 };
+class B_A_soldier_UAV_02_wdl_LxWS_F: B_A_Soldier_UAV_wdl_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_soldier_UAV_02_wdl_LxWS_F.jpg";
+	displayName = "UAV Operator (AP-5)";
+	backpack = Aegis_B_A_UAV_02_backpack_lxWS;
+};
 class B_A_Recon_AR_wdl_F: B_A_Recon_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -16270,15 +16323,15 @@ class B_A_Recon_AR_wdl_F: B_A_Recon_AR_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-        H_HelmetSpecB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-        H_HelmetSpecB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -16322,14 +16375,14 @@ class B_A_Recon_Exp_wdl_F: B_A_Recon_Exp_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Booniehat_wdl_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Booniehat_wdl_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
@@ -16381,15 +16434,15 @@ class B_A_Recon_GL_wdl_F: B_A_Recon_GL_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -16445,14 +16498,14 @@ class B_A_Recon_JTAC_wdl_F: B_A_Recon_JTAC_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
         H_Watchcap_camo_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
         H_Watchcap_camo_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
@@ -16484,15 +16537,15 @@ class B_A_Recon_MG_wdl_F: B_A_Recon_MG_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-		H_HelmetB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-		H_HelmetB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -16535,14 +16588,14 @@ class B_A_Recon_M_wdl_F: B_A_Recon_M_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Booniehat_wdl_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Booniehat_wdl_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
@@ -16593,15 +16646,15 @@ class B_A_Recon_Medic_wdl_F: B_A_Recon_Medic_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -16650,15 +16703,15 @@ class B_A_Recon_wdl_F: B_A_Recon_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetSpecB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-        H_HelmetSpecB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -16710,15 +16763,15 @@ class B_A_Recon_LAT_wdl_F: B_A_Recon_LAT_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-        H_HelmetB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-        H_HelmetB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -16749,15 +16802,15 @@ class B_A_Recon_CQ_wdl_F: B_A_Recon_CQ_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-		H_HelmetB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierL_CTRG_grn_F,
-		H_HelmetB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -16784,14 +16837,14 @@ class B_A_Recon_Sharpshooter_wdl_F: B_A_Recon_Sharpshooter_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_grn,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Cap_khaki_specops_UK_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_grn,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
 		H_Cap_khaki_specops_UK_hs,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
@@ -16845,15 +16898,15 @@ class B_A_Recon_TL_wdl_F: B_A_Recon_TL_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-        H_HelmetSpecB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierH_CTRG_grn_F,
-        H_HelmetSpecB_light_wdl,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Cover_UK_wdl_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};

@@ -132,7 +132,7 @@ class CfgVehicles
 			class MainTurret: MainTurret
 			{
                 /* Weapons & Ammunition */
-				magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Green_Splash)};
+				magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Green)};
 			};
 			class CargoTurret_01: CargoTurret_01{};
 			class CargoTurret_02: CargoTurret_02{};

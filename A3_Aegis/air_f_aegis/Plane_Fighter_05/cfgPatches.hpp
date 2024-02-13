@@ -26,9 +26,9 @@ class CfgPatches
             B_A_Plane_Fighter_05_wdl_F,
             B_A_Plane_Fighter_05_Stealth_wdl_F,
             B_A_Ejection_Seat_Plane_Fighter_05_wdl_F,
-            B_USMC_Plane_Fighter_05_F,
-            B_USMC_Plane_Fighter_05_Stealth_F,
-            B_USMC_Ejection_Seat_Plane_Fighter_05_F
+            B_D_Plane_Fighter_05_F,
+            B_D_Plane_Fighter_05_Stealth_F,
+            B_D_Ejection_Seat_Plane_Fighter_05_F
         };
 		weapons[] = {/* Automated */};
 	};
