@@ -5,6 +5,7 @@ In the future some assets may not be public due to their status as commercial li
 Expect content updates every public development branch update. Any content in our mods that does not have its sources available in these repositories can be presumed to be APL-ND.
 
 Team
+
 • AveryTheSnepper - project creator, and responsible for much of the textures, encoding, localization, et cetera. Retired.
 • Bran Flakes - textures, encoding, and promotional art.
 • Foxtonnes - models and textures.
@@ -18,6 +19,7 @@ Team
 • Ravenholme - encoding, current Team Lead.
 
 Credits
+
 • Bohemia Interactive for Arma 2, Take on Helicopters, Arma 3, and Argo.
 • Mr.Mustache for promotional art and public relations.
 • Ataboo for the Punisher's original model.
