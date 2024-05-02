@@ -56,17 +56,17 @@ class CfgWeapons
 				iconPosition[]={0,0.40000001};
 				iconScale=0.2;
 			};
-			class CowsSlot: CowsSlot_Rail
+			class CowsSlot: asdg_OpticRail1913
 			{
 				iconPosition[]={0.44999999,0.28};
 				iconScale=0.2;
 			};
-			class PointerSlot: PointerSlot_Rail
+			class PointerSlot: asdg_FrontSideRail
 			{
 				iconPosition[]={0.34999999,0.44999999};
 				iconScale=0.2;
 			};
-			class UnderBarrelSlot: UnderBarrelSlot_rail
+			class UnderBarrelSlot: asdg_UnderSlot
 			{
 				iconPosition[]={0.2,0.80000001};
 				iconScale=0.30000001;
