@@ -7,7 +7,7 @@ class Atlas_I_UNO_Man_Base_F: I_soldier_F
 	identityTypes[] =
 	{
 		LanguageGRE_F,
-		Head_Greek,
+		Head_Latino,
 		G_HAF_default
 	};
 };

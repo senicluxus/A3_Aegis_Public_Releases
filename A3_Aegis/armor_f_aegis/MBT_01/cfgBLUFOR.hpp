@@ -1,5 +1,8 @@
 /* US */
-class B_MBT_01_base_F: MBT_01_base_F{};
+class B_MBT_01_base_F: MBT_01_base_F
+{
+    class TextureSources;
+};
 class B_MBT_01_cannon_F: B_MBT_01_base_F
 {
     animationList[] =
@@ -11,8 +14,25 @@ class B_MBT_01_cannon_F: B_MBT_01_base_F
         showCamonetHull,0,
         showBags,0.67
     };
+    class TextureSources: TextureSources
+    {
+        class WDL_01
+        {
+            displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+            factions[] = {};
+            textures[] = 
+            {
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_tow_wdl_CO.paa",
+                "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+            };
+        };
+    };
 };
-class B_MBT_01_arty_base_F: MBT_01_arty_base_F{};
+class B_MBT_01_arty_base_F: MBT_01_arty_base_F
+{
+    class TextureSources;
+};
 class B_MBT_01_arty_F: B_MBT_01_arty_base_F
 {
     hiddenSelectionsTextures[] =
@@ -22,8 +42,43 @@ class B_MBT_01_arty_F: B_MBT_01_arty_base_F
         "\A3_Aegis\Soft_F_Aegis\UGV_01\Data\Turret_CO.paa",
         "\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
     };
+    class TextureSources: TextureSources
+    {
+        class WDL_01
+        {
+            displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+            factions[] = {};
+            textures[] = 
+            {
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_scorcher_wdl_CO.paa",
+                "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa",
+                "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+            };
+        };
+    };
 };
-class B_MBT_01_mlrs_F;
+class B_MBT_01_mlrs_base_F: MBT_01_mlrs_base_F
+{
+    class TextureSources;
+};
+class B_MBT_01_mlrs_F: B_MBT_01_mlrs_base_F
+{
+    class TextureSources: TextureSources
+    {
+        class WDL_01
+        {
+            displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+            factions[] = {};
+            textures[] = 
+            {
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_MLRS_wdl_co.paa",
+                "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+            };
+        };
+    };
+};
 class B_MBT_01_TUSK_F: B_MBT_01_cannon_F
 {
     /* Turrets */
@@ -51,16 +106,33 @@ class B_MBT_01_TUSK_F: B_MBT_01_cannon_F
                 };
             };
             /* Weapons & Ammunition */
-            magazines[] =
+			weapons[] = {"cannon_120mm","MMG_02_coax"};
+			magazines[] =
+			{
+				24Rnd_120mm_APFSDS_shells_Tracer_Red,
+				12Rnd_120mm_HE_shells_Tracer_Red,
+				12Rnd_120mm_HEAT_MP_T_Red,
+				mag_20(200Rnd_338_Mag),
+				4Rnd_120mm_LG_cannon_missiles
+			};
+        };
+    };
+    class TextureSources: TextureSources
+    {
+        class WDL_01
+        {
+            displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+            factions[] = {};
+            textures[] = 
             {
-                24Rnd_120mm_APFSDS_shells_Tracer_Red,
-                12Rnd_120mm_HE_shells_Tracer_Red,
-                12Rnd_120mm_HEAT_MP_T_Red,
-                mag_20(200Rnd_762x51_Belt_Red),
-                4Rnd_120mm_LG_cannon_missiles
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_tow_wdl_CO.paa",
+                "\A3\Armor_F_Exp\MBT_01\Data\MBT_addons_olive_CO.paa",
+                "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
             };
         };
     };
+
 };
 /* US (Pacific) */
 class B_T_MBT_01_arty_F: B_MBT_01_arty_F
@@ -99,7 +171,7 @@ class B_T_MBT_01_TUSK_F: B_MBT_01_TUSK_F
 /* US (Woodland) */
 class B_W_MBT_01_arty_F: B_MBT_01_arty_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -287,18 +359,33 @@ class B_W_MBT_01_arty_F: B_MBT_01_arty_F
 	{
 		bag_xx(B_AssaultPack_wdl_F,2);
 	};
-
+    textureList[] = {WDL_01,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Exp\MBT_01\Data\MBT_01_body_olive_CO.paa",
-		"\A3\Armor_F_Exp\MBT_01\Data\MBT_01_scorcher_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_scorcher_wdl_CO.paa",
 		"\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 	};
+    class TextureSources
+    {
+        class WDL_01
+        {
+            displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+            factions[] = {};
+            textures[] = 
+            {
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_scorcher_wdl_CO.paa",
+                "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa",
+                "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+            };
+        };
+    };
 };
 class B_W_MBT_01_mlrs_F: B_MBT_01_mlrs_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -489,17 +576,32 @@ class B_W_MBT_01_mlrs_F: B_MBT_01_mlrs_F
 	{
 		bag_xx(B_AssaultPack_wdl_F,2);
 	};
+    textureList[] = {WDL_01,1};
 
 	hiddenSelectionsTextures[]=
 	{
-		"\A3\Armor_F_Exp\MBT_01\Data\MBT_01_body_olive_CO.paa",
-		"\A3\Armor_F_Exp\MBT_01\Data\MBT_01_MLRS_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_MLRS_wdl_co.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 	};
+    class TextureSources
+    {
+        class WDL_01
+        {
+            displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+            factions[] = {};
+            textures[] = 
+            {
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_MLRS_wdl_co.paa",
+                "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+            };
+        };
+    };
 };
 class B_W_MBT_01_cannon_F: B_MBT_01_cannon_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -661,17 +763,31 @@ class B_W_MBT_01_cannon_F: B_MBT_01_cannon_F
 	{
 		bag_xx(B_AssaultPack_wdl_F,2);
 	};
-
+    textureList[] = {WDL_01,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Exp\MBT_01\Data\MBT_01_body_olive_CO.paa",
-		"\A3\Armor_F_Exp\MBT_01\Data\MBT_01_tow_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_tow_wdl_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 	};
+    class TextureSources
+    {
+        class WDL_01
+        {
+            displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+            factions[] = {};
+            textures[] = 
+            {
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+                "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_tow_wdl_CO.paa",
+                "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+            };
+        };
+    };
 };
 class B_W_MBT_01_TUSK_F: B_MBT_01_TUSK_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -873,11 +989,11 @@ class B_W_MBT_01_TUSK_F: B_MBT_01_TUSK_F
 	{
 		bag_xx(B_AssaultPack_wdl_F,2);
 	};
-    
+    textureList[] = {WDL_01,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Exp\MBT_01\Data\MBT_01_body_olive_CO.paa",
-		"\A3\Armor_F_Exp\MBT_01\Data\MBT_01_tow_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_tow_wdl_CO.paa",
 		"\A3\Armor_F_Exp\MBT_01\Data\MBT_addons_olive_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 	};

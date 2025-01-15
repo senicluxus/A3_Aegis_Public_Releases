@@ -11,6 +11,10 @@ class CfgPatches
 			Aegis_B_A_Heli_Attack_03_F,
 			Aegis_B_A_Heli_Attack_03_tna_F,
 			Aegis_B_A_Heli_Attack_03_wdl_F,
+			Aegis_B_Heli_Attack_03_F,
+			Aegis_B_T_Heli_Attack_03_F,
+			Aegis_B_W_Heli_Attack_03_F,
+			Aegis_B_D_Heli_Attack_03_F,
 
             /* From "cfgIndep.hpp" */
             I_Heli_Attack_03_F

@@ -99,3 +99,11 @@ class arifle_SCAR_grip_snds_mrco_pointer_f: arifle_SCAR_grip_F
         LINKED_MUZZLE(muzzle_snds_B_snd_F);
 	};
 };
+class Aegis_arifle_SCAR_khaki_Holo_BI_F: arifle_SCAR_khaki_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_Holosight_khk_F);
+        LINKED_UNDERBARREL(bipod_01_F_khk);
+	};
+};

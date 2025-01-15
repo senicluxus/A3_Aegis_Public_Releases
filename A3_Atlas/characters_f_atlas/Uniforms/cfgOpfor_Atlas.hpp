@@ -32,7 +32,7 @@ class Atlas_U_O_officer_noInsignia_semiarid_F: Uniform_Base
 		mass = 60;
 	};
 };
-/*class Atlas_U_O_Luchnik_semiarid_F: Uniform_Base
+class Atlas_U_O_Luchnik_semiarid_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
@@ -65,7 +65,7 @@ class Atlas_U_O_Luchnik_RolledUp_semiarid_F: Uniform_Base
 		containerClass = Supply40;
 		mass = 60;
 	};
-};*/
+};
 class Atlas_U_O_CombatUniform_tshirt_semiarid_F: Uniform_Base
 {
 	author = $STR_A3_A_Ravenholme;

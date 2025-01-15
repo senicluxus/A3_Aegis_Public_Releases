@@ -36,6 +36,12 @@ class CfgPatches
             Atlas_I_C_Mortar_01_support_F,
             Atlas_I_C_Mortar_01_weapon_F,
 
+            // Karzeghistan
+            Atlas_B_G_Mortar_01_F,
+
+            // Ardistan
+            Atlas_I_AR_Mortar_01_F,
+
             // IDF
             Atlas_I_I_Mortar_01_F,
             Atlas_I_I_Mortar_01_support_F,

@@ -444,6 +444,7 @@ class autocannon_30mm_RCWS: autocannon_Base_F
 };
 class HMG_127_LT: HMG_M2
 {
+    ballisticsComputer = "2 + 16";
     autoReload = true;
     backgroundReload = true;
     class GunParticles
@@ -458,6 +459,7 @@ class HMG_127_LT: HMG_M2
 };
 class HMG_127_AFV: HMG_M2
 {
+    ballisticsComputer = "2 + 16";
     autoReload = true;
     backgroundReload = true;
     magazines[] =
@@ -659,7 +661,7 @@ class Gatling_30mm_Heli_Attack_03_F: CannonCore
     };
     nameSound = cannon;
     shotFromTurret = true;
-    autoFire = false;
+    autoFire = true;
     burst = 5;
     reloadTime = 0.096;
     FCSMaxLeadSpeed = 30.5556;
@@ -887,6 +889,12 @@ class autocannon_30mm_APC_Wheeled_04: autocannon_30mm_CTWS
             positionName = "usti hlavne";
             directionName = "konec hlavne";
         };
+        class Effect3
+        {
+            positionName = "shell_eject_pos";
+            directionName = "shell_eject_dir";
+            effectName = Aegis_BTR100_30mm_Cartridge;
+        };
     };
 };
 class missiles_Vorona_vehicle: missiles_Vorona
@@ -985,179 +993,376 @@ class GMG_40mm: GMG_F
 	};
 };
 class Aegis_Autocannon_Heli_Attack_04_HE_F: CannonCore
+{
+	scope=1;
+	displayName="Autocannon 20mm";
+	magazines[]=
 	{
-		scope=1;
-		displayName="Autocannon 20mm";
-		magazines[]=
-		{
-			"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_F",
-			"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Yellow_F",
-			"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Green_F",
-			"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Red_F",
-			"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_White_F",
-		};
-		canLock=0;
-		ballisticsComputer="1 + 2 + 16";
-		cursor="EmptyCursor";
-		cursorAim="mg";
-		showAimCursorInternal=0;
-		modes[]=
-		{
-			"AutoFast",
-			"close",
-			"short",
-			"medium",
-			"far"
-		};
-		nameSound="cannon";
-		shotFromTurret=1;
-		autoFire=1;
-		burst=5;
-		reloadTime=0.02;
-		FCSMaxLeadSpeed=30.555599;
-		FCSZeroingDelay=0.5;
-		maxZeroing=2500;
-		aiDispersionCoefY=0.5;
-		aiDispersionCoefX=0.5;
-		class GunParticles
-		{
-			class Effect
-			{
-				effectName="";
-				positionName="";
-				directionName="";
-			};
-		};
-		class AutoFast: Mode_FullAuto
-		{
-			sounds[]=
-			{
-				"StandardSound"
-			};
-			soundContinuous=0;
-			autoFire=1;
-			flash="gunfire";
-			flashSize=0.1;
-			recoil="Empty";
-			ffMagnitude=0.5;
-			ffFrequency=11;
-			ffCount=6;
-			reloadTime=0.133333;
-			dispersion=0.0044;
-			aiRateOfFire=1;
-			aiRateOfFireDistance=10;
-			minRange=0;
-			minRangeProbab=0.0099999998;
-			midRange=1;
-			midRangeProbab=0.0099999998;
-			maxRange=2;
-			maxRangeProbab=0.0099999998;
-			textureType="fullAuto";
-		};
-		class close: AutoFast
-		{
-			aiBurstTerminable=1;
-			showToPlayer=0;
-			burst=16;
-			burstRangeMax=37;
-			aiRateOfFire=0.5;
-			aiRateOfFireDispersion=1;
-			aiRateOfFireDistance=50;
-			minRange=0;
-			minRangeProbab=0.1;
-			midRange=50;
-			midRangeProbab=0.64999998;
-			maxRange=400;
-			maxRangeProbab=0.75;
-		};
-		class near: close
-		{
-		};
-		class short: close
-		{
-			aiBurstTerminable=1;
-			showToPlayer=0;
-			burst=12;
-			burstRangeMax=32;
-			aiRateOfFire=1;
-			aiRateOfFireDispersion=2;
-			aiRateOfFireDistance=200;
-			minRange=200;
-			minRangeProbab=0.64999998;
-			midRange=400;
-			midRangeProbab=0.75;
-			maxRange=1000;
-			maxRangeProbab=0.69999999;
-		};
-		class medium: close
-		{
-			aiBurstTerminable=1;
-			showToPlayer=0;
-			burst=12;
-			burstRangeMax=28;
-			aiRateOfFire=2;
-			aiRateOfFireDispersion=2;
-			aiRateOfFireDistance=800;
-			minRange=800;
-			minRangeProbab=0.69999999;
-			midRange=1400;
-			midRangeProbab=0.40000001;
-			maxRange=1800;
-			maxRangeProbab=0.15000001;
-		};
-		class far: close
-		{
-			aiBurstTerminable=1;
-			showToPlayer=0;
-			burst=9;
-			burstRangeMax=20;
-			aiRateOfFire=4;
-			aiRateOfFireDispersion=4;
-			aiRateOfFireDistance=1400;
-			minRange=1400;
-			minRangeProbab=0.5;
-			midRange=1800;
-			midRangeProbab=0.15000001;
-			maxRange=2500;
-			maxRangeProbab=0.050000001;
-		};
-	};	
-	class Aegis_Autocannon_Heli_Attack_04_AP_F: Aegis_Autocannon_Heli_Attack_04_HE_F
+		"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_F",
+		"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Yellow_F",
+		"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Green_F",
+		"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_Red_F",
+		"Aegis_150Rnd_Autocannon_Heli_Attack_04_HE_White_F",
+	};
+	canLock=0;
+	ballisticsComputer="1 + 2 + 16";
+	cursor="EmptyCursor";
+	cursorAim="mg";
+	showAimCursorInternal=0;
+	modes[]=
 	{
-		magazines[]=
+		"AutoFast",
+		"close",
+		"short",
+		"medium",
+		"far"
+	};
+	nameSound="cannon";
+	shotFromTurret=1;
+	autoFire=1;
+	burst=5;
+	reloadTime=0.02;
+	FCSMaxLeadSpeed=30.555599;
+	FCSZeroingDelay=0.5;
+	maxZeroing=2500;
+	aiDispersionCoefY=0.5;
+	aiDispersionCoefX=0.5;
+	class GunParticles
+	{
+		class Effect
 		{
-			"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_F",
-			"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Yellow_F",
-			"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Green_F",
-			"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Red_F",
-			"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_White_F",
+			effectName="";
+			positionName="";
+			directionName="";
 		};
 	};
-    /* BMP-M Weapons*/
-    class Aegis_Autocannon_57mm: autocannon_40mm_CTWS
+	class AutoFast: Mode_FullAuto
+	{
+		sounds[]=
+		{
+			"StandardSound"
+		};
+		soundContinuous=0;
+		autoFire=1;
+		flash="gunfire";
+		flashSize=0.1;
+		recoil="Empty";
+		ffMagnitude=0.5;
+		ffFrequency=11;
+		ffCount=6;
+		reloadTime=0.133333;
+		dispersion=0.0044;
+		aiRateOfFire=1;
+		aiRateOfFireDistance=10;
+		minRange=0;
+		minRangeProbab=0.0099999998;
+		midRange=1;
+		midRangeProbab=0.0099999998;
+		maxRange=2;
+		maxRangeProbab=0.0099999998;
+		textureType="fullAuto";
+	};
+	class close: AutoFast
+	{
+		aiBurstTerminable=1;
+		showToPlayer=0;
+		burst=16;
+		burstRangeMax=37;
+		aiRateOfFire=0.5;
+		aiRateOfFireDispersion=1;
+		aiRateOfFireDistance=50;
+		minRange=0;
+		minRangeProbab=0.1;
+		midRange=50;
+		midRangeProbab=0.64999998;
+		maxRange=400;
+		maxRangeProbab=0.75;
+	};
+	class near: close{};
+	class short: close
+	{
+		aiBurstTerminable=1;
+		showToPlayer=0;
+		burst=12;
+		burstRangeMax=32;
+		aiRateOfFire=1;
+		aiRateOfFireDispersion=2;
+		aiRateOfFireDistance=200;
+		minRange=200;
+		minRangeProbab=0.64999998;
+		midRange=400;
+		midRangeProbab=0.75;
+		maxRange=1000;
+		maxRangeProbab=0.69999999;
+	};
+	class medium: close
+	{
+		aiBurstTerminable=1;
+		showToPlayer=0;
+		burst=12;
+		burstRangeMax=28;
+		aiRateOfFire=2;
+		aiRateOfFireDispersion=2;
+		aiRateOfFireDistance=800;
+		minRange=800;
+		minRangeProbab=0.69999999;
+		midRange=1400;
+		midRangeProbab=0.40000001;
+		maxRange=1800;
+		maxRangeProbab=0.15000001;
+	};
+	class far: close
+	{
+		aiBurstTerminable=1;
+		showToPlayer=0;
+		burst=9;
+		burstRangeMax=20;
+		aiRateOfFire=4;
+		aiRateOfFireDispersion=4;
+		aiRateOfFireDistance=1400;
+		minRange=1400;
+		minRangeProbab=0.5;
+		midRange=1800;
+		midRangeProbab=0.15000001;
+		maxRange=2500;
+		maxRangeProbab=0.050000001;
+	};
+};	
+class Aegis_Autocannon_Heli_Attack_04_AP_F: Aegis_Autocannon_Heli_Attack_04_HE_F
+{
+	magazines[]=
+	{
+		"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_F",
+		"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Yellow_F",
+		"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Green_F",
+		"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_Red_F",
+		"Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_White_F",
+	};
+};
+
+/* BMP-M Weapons*/
+ class Aegis_Autocannon_57mm: autocannon_40mm_CTWS
+{
+	displayName="Cannon 57mm";
+	scope = public;
+    muzzles[]=
+    {
+	    HE,
+	    AP
+    };
+    class HE: autocannon_Base_F
     {
 	    displayName="Cannon 57mm";
-	    scope = public;
-	    muzzles[]=
-	    {
-		    HE,
-		    AP
-	    };
-	    class HE: autocannon_Base_F
-	    {
-		    displayName="Cannon 57mm";
-		    magazines[]=
-		    {
-		    	Aegis_340Rnd_57mm_GPR_shells,
-			    Aegis_340Rnd_57mm_GPR_shells_Tracer,
-		    };
-	    };
-	    class AP: autocannon_Base_F
-	    {
-		    displayName="Cannon 57mm";
-		    magazines[]=
-		    {
-			    Aegis_160Rnd_57mm_APFSDS_shells
-		    };
-        };
+		magazines[]=
+		{
+			Aegis_340Rnd_57mm_GPR_shells,
+		    Aegis_340Rnd_57mm_GPR_shells_Tracer,
+		};
     };
+    class AP: autocannon_Base_F
+    {
+	    displayName="Cannon 57mm";
+	    magazines[]=
+	    {
+		    Aegis_160Rnd_57mm_APFSDS_shells
+	    };
+    };
+};
+/* KORD HMG 12.7mm*/
+class Aegis_HMG_KORD: HMG_M2
+{
+    displayName = "KORD HMG 12.7 mm";
+    type = 1;	
+    magazines[] = 
+    {
+        "Aegis_150rnd_127x108_KORD_Green_F",
+        "Aegis_50rnd_127x108_KORD_Green_F",
+        "Aegis_150rnd_127x108_KORD_Yellow_F",
+        "Aegis_50rnd_127x108_KORD_Yellow_F"
+    };
+	magazineReloadTime = 10;
+	ballisticsComputer = 2;
+	aiDispersionCoefY = 5;
+	aiDispersionCoefX = 6;
+	class GunParticles
+	{
+		class effect1
+		{
+			positionName = "usti hlavne";
+			directionName = "konec hlavne";
+			effectName = "MachineGunCloud";
+		};
+		class effect2
+		{
+			positionName = "nabojnicestart";
+			directionName = "nabojniceend";
+			effectName = "MachineGunEject";
+		};
+		class effect3
+		{
+			positionName = "case_eject_pos";
+			directionName = "case_eject_dir";
+			effectName = "MachineGunCartridge2";
+		};
+	};
+	reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons_static\Static_HMG\reload_static_HMG",10.0,1,20};
+	class manual: manual
+	{
+		dispersion = 0.00085;
+		reloadTime = 0.1;
+		sounds[] = {"StandardSound"};
+		class StandardSound
+		{
+			soundsetshot[] = {"HMG050_Shot_SoundSet","HMG050_tail_SoundSet"};
+		};
+		soundContinuous = 0;
+		soundBurst = 0;
+	};
+	class close: manual
+	{
+		aiBurstTerminable = 1;
+		showToPlayer = 0;
+		burst = 6;
+		burstRangeMax = 20;
+		aiRateOfFire = 0.5;
+		aiRateOfFireDispersion = 1.5;
+		aiRateOfFireDistance = 50;
+		minRange = 0;
+		minRangeProbab = 0.7;
+		midRange = 100;
+		midRangeProbab = 0.7;
+		maxRange = 200;
+		maxRangeProbab = 0.2;
+	};
+	class short: close
+	{
+		aiBurstTerminable = 1;
+		showToPlayer = 0;
+		burst = 6;
+		burstRangeMax = 16;
+		aiRateOfFire = 1;
+		aiRateOfFireDispersion = 2;
+		aiRateOfFireDistance = 150;
+		minRange = 100;
+		minRangeProbab = 0.7;
+		midRange = 300;
+		midRangeProbab = 0.75;
+		maxRange = 600;
+		maxRangeProbab = 0.2;
+	};
+	class medium: close
+	{
+		aiBurstTerminable = 1;
+		showToPlayer = 0;
+		burst = 4;
+		burstRangeMax = 12;
+		aiRateOfFire = 2;
+		aiRateOfFireDispersion = 2;
+		aiRateOfFireDistance = 300;
+		minRange = 300;
+		minRangeProbab = 0.75;
+		midRange = 600;
+		midRangeProbab = 0.7;
+		maxRange = 800;
+		maxRangeProbab = 0.2;
+	};
+	class far: close
+	{
+		aiBurstTerminable = 1;
+		showToPlayer = 0;
+		burst = 3;
+		burstRangeMax = 12;
+		aiRateOfFire = 4;
+		aiRateOfFireDispersion = 4;
+		aiRateOfFireDistance = 600;
+		minRange = 600;
+		minRangeProbab = 0.65;
+		midRange = 1000;
+		midRangeProbab = 0.25;
+		maxRange = 1500;
+		maxRangeProbab = 0.05;
+	};
+};
+/* DAGR/APKWS AT */
+class Aegis_missiles_DAGR_AT: RocketPods
+	{
+		displayName = "$STR_A3_missiles_DAGR0";
+		magazines[] = {"Aegis_4Rnd_PG_missiles"};
+		modes[] = {"Far_AI","Medium_AI","Burst"};
+		//canLock = 2 + 4;
+		weaponLockDelay = 3.0;
+		weaponLockSystem = "2 + 4 + 16";
+		cmImmunity = 0.3;
+		lockedTargetSound[] = {"A3\Sounds_F\arsenal\weapons_static\Missile_Launcher\Locked_Titan",0.562341,2.5};
+		lockingTargetSound[] = {"A3\Sounds_F\arsenal\weapons_static\Missile_Launcher\Locking_Titan",0.562341,1};
+		cursor = "EmptyCursor";
+		cursorAim = "missile";
+		showAimCursorInternal = 1;
+		holdsterAnimValue = 1;
+        reloadTime = 1;
+		magazineReloadTime = 40;
+        reloadMagazineSound[] = {"A3\Sounds_F\arsenal\weapons_static\Missile_Launcher\reload_Missile_Launcher",0.8912509,1,10};
+		class Far_AI: RocketPods
+		{
+			displayName = "$STR_A3_missiles_DAGR0";
+			sounds[] = {"StandardSound"};
+			class StandardSound
+			{
+				begin1[] = {"A3\Sounds_F\weapons\Rockets\new_rocket_7",1.7782794,1.2,1600};
+				soundBegin[] = {"begin1",1};
+			};
+			autoFire = 0;
+			dispersion = 0.015;
+			showToPlayer = 0;
+			burst = 1;
+			burstRangeMax = 1;
+			aiRateOfFire = 3;
+			aiRateOfFireDispersion = 3;
+			aiRateOfFireDistance = 1000;
+			minRange = 600;
+			minRangeProbab = 0.9;
+			midRange = 3000;
+			midRangeProbab = 0.9;
+			maxRange = 5000;
+			maxRangeProbab = 0.3;
+		};
+		class Medium_AI: Far_AI
+		{
+			showToPlayer = 0;
+			burst = 1;
+			burstRangeMax = 2;
+			aiRateOfFire = 2;
+			aiRateOfFireDispersion = 2;
+			aiRateOfFireDistance = 400;
+			minRange = 300;
+			minRangeProbab = 0.2;
+			midRange = 600;
+			midRangeProbab = 0.9;
+			maxRange = 3000;
+			maxRangeProbab = 0.3;
+		};
+		class Burst: RocketPods
+		{
+			displayName = "$STR_A3_missiles_DAGR0";
+			burst = 1;
+			soundContinuous = 0;
+			autoFire = 0;
+			reloadTime = 0.08;
+			dispersion = 0.015;
+			aiRateOfFire = 1;
+			aiRateOfFireDistance = 10;
+			minRange = 0;
+			minRangeProbab = 0.01;
+			midRange = 1;
+			midRangeProbab = 0.01;
+			maxRange = 2;
+			maxRangeProbab = 0.01;
+			sounds[] = {"StandardSound"};
+			class StandardSound
+			{
+				begin1[] = {"A3\Sounds_F\weapons\Rockets\new_rocket_7",1.7782794,1.2,1600};
+				soundBegin[] = {"begin1",1};
+			};
+			textureType = "semi";
+		};
+	};

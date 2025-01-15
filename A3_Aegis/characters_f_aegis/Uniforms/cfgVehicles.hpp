@@ -40,6 +40,9 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_B_UBACS_tshirt_blk_f,$STR_A3_A_CfgWeapons_U_B_UBACS_tshirt_blk_f0);
 	UNIFORM_HOLDER(U_B_UBACS_vest_blk_f,$STR_A3_A_CfgWeapons_U_B_UBACS_vest_blk_f0);
 	UNIFORM_HOLDER(U_B_A_CBRN_Suit_01_MTP_F,$STR_A3_A_CfgWeapons_U_B_A_CBRN_Suit_01_MTP_F0);
+	UNIFORM_HOLDER(Aegis_U_B_SurvivalFatigues_wdl_F,$STR_A3_A_CfgWeapons_B_SurvivalFatigues_wdl_F0);
+	UNIFORM_HOLDER(Aegis_U_B_SurvivalFatigues_tna_F,$STR_A3_A_CfgWeapons_B_SurvivalFatigues_tna_F0);
+	UNIFORM_HOLDER(Aegis_U_B_SurvivalFatigues_des_F,$STR_A3_A_CfgWeapons_B_SurvivalFatigues_des_F0);
 
 	/* From "cfgOPFOR.hpp" */
 	class Item_U_O_OfficerUniform_ocamo: Item_Base_F
@@ -58,15 +61,15 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_O_officer_noInsignia_urb_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_urb_F0);
 	UNIFORM_HOLDER(U_O_T_officer_noInsignia_ghex_F,$STR_A3_A_CfgWeapons_U_O_T_officer_noInsignia_ghex_F0);
 	UNIFORM_HOLDER(U_O_officer_noInsignia_oicamo_F,$STR_A3_A_CfgWeapons_U_O_officer_noInsignia_oicamo_F0);
-	//UNIFORM_HOLDER(Aegis_U_O_Luchnik_Hex_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_hex_F0);
-	//UNIFORM_HOLDER(Aegis_U_O_Luchnik_RolledUp_Hex_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Rolledup_hex_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_Hex_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_hex_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_RolledUp_Hex_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Rolledup_hex_F0);
 	UNIFORM_HOLDER(Aegis_U_O_CombatUniform_tshirt_hex_F,$STR_A3_A_CfgWeapons_U_O_CombatUniform_tshirt_hex_F0);
 	UNIFORM_HOLDER(Aegis_U_O_CombatUniform_tshirt_urb_F,$STR_A3_A_CfgWeapons_U_O_CombatUniform_tshirt_urb_F0);
-	//UNIFORM_HOLDER(Aegis_U_O_Luchnik_ghex_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_ghex_F0);
-	//UNIFORM_HOLDER(Aegis_U_O_Luchnik_RolledUp_ghex_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Rolledup_ghex_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_ghex_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_ghex_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_RolledUp_ghex_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Rolledup_ghex_F0);
 	UNIFORM_HOLDER(Aegis_U_O_CombatUniform_tshirt_ghex_F,$STR_A3_A_CfgWeapons_U_O_CombatUniform_tshirt_ghex_F0);
-	//UNIFORM_HOLDER(Aegis_U_O_Luchnik_dst_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_dst_F0);
-//	UNIFORM_HOLDER(Aegis_U_O_Luchnik_RolledUp_dst_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Rolledup_dst_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_dst_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_dst_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_RolledUp_dst_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Rolledup_dst_F0);
 	UNIFORM_HOLDER(Aegis_U_O_CombatUniform_tshirt_dst_F,$STR_A3_A_CfgWeapons_U_O_CombatUniform_tshirt_dst_F0);
 	UNIFORM_HOLDER(Aegis_U_O_CombatFatigues_F,$STR_A3_A_CfgWeapons_U_O_CombatFatigues_F0);
 	UNIFORM_HOLDER(Aegis_U_O_CombatFatigues_02_F,$STR_A3_A_CfgWeapons_U_O_CombatFatigues_02_F0);
@@ -85,6 +88,7 @@ class CfgVehicles
 	/* From "cfgIndep.hpp" */
 	UNIFORM_HOLDER(U_I_CombatUniform_tshirt,$STR_A3_A_CfgWeapons_U_I_CombatUniform_tshirt0);
 	UNIFORM_HOLDER(U_I_Uniform_01_tanktop_F,$STR_A3_A_CfgWeapons_U_I_Uniform_01_tanktop_F0);
+	UNIFORM_HOLDER(Aegis_U_I_Uniform_01_sweater_f,$STR_A3_A_CfgWeapons_u_i_uniform_01_sweater_f0);
 
 	/* From "cfgCivil.hpp" */
 	class Item_U_C_Commoner1_1: Item_Base_F
@@ -165,6 +169,8 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_B_CTRG_Soldier_Black_F,$STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_Black_F0);
 	UNIFORM_HOLDER(U_B_CTRG_Soldier_2_Black_F,$STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_2_Black_F0);
 	UNIFORM_HOLDER(U_B_CTRG_Soldier_3_Black_F,$STR_A3_A_CfgWeapons_U_B_CTRG_Soldier_3_Black_F0);
+	UNIFORM_HOLDER(Aegis_U_B_SurvivalFatigues_CTRG_F,$STR_A3_A_CfgWeapons_B_SurvivalFatigues_CTRG_F0);
+	UNIFORM_HOLDER(Aegis_U_B_Sniper_Fatigues_CTRG_F,$STR_A3_A_CfgWeapons_U_B_Sniper_Fatigues_CTRG_F0);
 
     /* From "cfgViper.hpp" */
 	UNIFORM_HOLDER(U_O_V_Soldier_Viper_oicamo_F,$STR_A3_A_CfgWeapons_U_O_V_Soldier_Viper_oicamo_F0);
@@ -184,12 +190,15 @@ class CfgVehicles
 	UNIFORM_HOLDER(U_O_R_FullGhillie_sard_F,$STR_A3_A_CfgWeapons_U_O_R_FullGhillie_sard_F0);
 	UNIFORM_HOLDER(U_O_R_OfficerUniform_arid_F,$STR_A3_A_CfgWeapons_U_O_R_OfficerUniform_arid_F0);
 	UNIFORM_HOLDER(U_O_R_officer_noInsignia_arid_F,$STR_A3_A_CfgWeapons_U_O_R_officer_noInsignia_arid_F0);
-	//UNIFORM_HOLDER(Aegis_U_O_Luchnik_taiga_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_taiga_F0);
-	//UNIFORM_HOLDER(Aegis_U_O_Luchnik_RolledUp_taiga_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Rolledup_taiga_F0);
-	//UNIFORM_HOLDER(Aegis_U_O_Luchnik_Officer_taiga_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Officer_taiga_F0);
-    //UNIFORM_HOLDER(Aegis_U_O_Luchnik_arid_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_arid_F0);
-	//UNIFORM_HOLDER(Aegis_U_O_Luchnik_RolledUp_arid_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Rolledup_arid_F0);
-	//UNIFORM_HOLDER(Aegis_U_O_Luchnik_Officer_arid_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Officer_arid_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_taiga_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_taiga_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_RolledUp_taiga_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Rolledup_taiga_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_Officer_taiga_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Officer_taiga_F0);
+    UNIFORM_HOLDER(Aegis_U_O_Luchnik_arid_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_arid_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_RolledUp_arid_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Rolledup_arid_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_Officer_arid_F,$STR_A3_O_CfgWeapons_U_O_Luchnik_Officer_arid_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_urban_F,$STR_A3_A_CfgWeapons_U_O_Luchnik_ruurban_F0);
+	UNIFORM_HOLDER(Aegis_U_O_Luchnik_RolledUp_urban_F,$STR_A3_A_CfgWeapons_U_O_Luchnik_rolledup_ruurban_F0);
+	UNIFORM_HOLDER(Aegis_U_O_R_CombatUniform_urban_F,$STR_A3_A_CfgWeapons_U_O_R_CombatUniform_urban_F0);
 	UNIFORM_HOLDER(Aegis_U_O_CombatFatigues_rutaiga_F,$STR_A3_A_CfgWeapons_U_O_CombatFatigues_rutaiga_F0);
 	UNIFORM_HOLDER(Aegis_U_O_CombatFatigues_02_rutaiga_F,$STR_A3_A_CfgWeapons_U_O_CombatFatigues_02_rutaiga_F0);
 	UNIFORM_HOLDER(Aegis_U_O_CombatFatigues_ruarid_F,$STR_A3_A_CfgWeapons_U_O_CombatFatigues_ruarid_F0);

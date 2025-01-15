@@ -265,6 +265,14 @@ class CfgWeapons
 		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\tacticalvest_tan_CO.paa"};
 	};
+	class V_TacVest_camo;
+	class Atlas_Tacvest_Ard_F: V_TacVest_camo
+	{
+		author = $STR_A3_A_BranFlakes;
+		displayName = "Tactical Vest (Tigr)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_TacVest_tan_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Vests\Data\Atlas_V_TacVest_Ard_CO.paa"};
+	};
 	class V_SmershVest_01_khaki_F: V_SmershVest_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -2355,5 +2363,522 @@ class CfgWeapons
 			"\A3_Atlas\Characters_F_Atlas\Vests\Data\vests_aucamo_tropic_CO.paa"
 		};
     };
+
+	/* Gora Vests */
+	// Base Classes
+	class Atlas_V_OCarrierGora_base_F: V_PlateCarrier1_rgr 
+	{
+		author = $STR_A3_A_Jamie;
+		scope = private;
+		scopeArsenal = private;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_grn_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\data\UI\Aegis_V_OCarrierLuchnik_F_CA.paa";
+        hiddenSelections[] = {camo}; 
+		hiddenSelectionsTextures[] = { "\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa"};
+		model = "\A3_Atlas\Characters_F_Atlas\Vests\Atlas_V_OCarrierGora_F.p3d"; 
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Atlas\Characters_F_Atlas\Vests\Atlas_V_OCarrierGora_F.p3d"; 
+			hiddenSelections[] = {camo};
+			hiddenSelectionsTextures[] = { "\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa"};
+			containerClass = Supply60;
+			mass = 30;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 11;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 11;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 11;
+					passThrough		= 0.15;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};
+	class Atlas_V_OCarrierGora_lite_base_F: Atlas_V_OCarrierGora_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = private;
+		scopeArsenal = private;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_Lite_grn_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\data\UI\Aegis_V_OCarrierLuchnik_F_CA.paa";
+        hiddenSelections[] = 
+		{
+			camo,
+			camo1
+		}; 
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_grn_CO.paa"
+		};
+		model = "\A3_Atlas\Characters_F_Atlas\Vests\Atlas_V_OCarrierGora_Lite_F.p3d"; 
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Atlas\Characters_F_Atlas\Vests\Atlas_V_OCarrierGora_Lite_F.p3d"; 
+			hiddenSelections[] = 
+			{
+				camo,
+				camo1
+			}; 
+			hiddenSelectionsTextures[] = 
+			{ 
+				"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa",
+				"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_grn_CO.paa"
+			};
+			containerClass = Supply160;
+			mass = 35;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 11;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 11;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 11;
+					passThrough		= 0.15;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};
+	class Atlas_V_OCarrierGora_CQB_base_F: Atlas_V_OCarrierGora_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = private;
+		scopeArsenal = private;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_CQB_grn_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\data\UI\Aegis_V_OCarrierLuchnik_F_CA.paa";
+        hiddenSelections[] = 
+		{
+			camo,
+			camo1
+		}; 
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_grn_CO.paa"
+		};
+		model = "\A3_Atlas\Characters_F_Atlas\Vests\Atlas_V_OCarrierGora_CQB_F.p3d"; 
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Atlas\Characters_F_Atlas\Vests\Atlas_V_OCarrierGora_CQB_F.p3d"; 
+			hiddenSelections[] = 
+			{
+				camo,
+				camo1
+			}; 
+			hiddenSelectionsTextures[] = 
+			{ 
+				"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa",
+				"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_grn_CO.paa"
+			};
+			containerClass = Supply160;
+			mass = 37;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 12;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};
+	/*class Atlas_V_OCarrierGora_GL_base_F: Atlas_V_OCarrierGora_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = private;
+		scopeArsenal = private;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_GL_grn_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\data\UI\Aegis_V_OCarrierLuchnik_F_CA.paa";
+        hiddenSelections[] = 
+		{
+			camo,
+			camo1,
+			camo2
+		}; 
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_grn_CO.paa"
+		};
+		model = "\A3_Atlas\Characters_F_Atlas\Vests\Atlas_V_OCarrierGora_GL_F.p3d"; 
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Atlas\Characters_F_Atlas\Vests\Atlas_V_OCarrierGora_GL_F.p3d"; 
+			hiddenSelections[] = 
+			{
+				camo,
+				camo1,
+				camo2
+			}; 
+			hiddenSelectionsTextures[] = 
+			{ 
+				"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa",
+				"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_grn_CO.paa"
+			};
+			containerClass = Supply160;
+			mass = 42;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 12;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};*/
+
+	// Gora Vest Classes
+	class Atlas_V_OCarrierGora_grn_F: Atlas_V_OCarrierGora_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_grn_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_grn_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_khk_F: Atlas_V_OCarrierGora_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_khk_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_khk_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_rukhk_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_blk_F: Atlas_V_OCarrierGora_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_blk_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_blk_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_blk_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_ardi_F: Atlas_V_OCarrierGora_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_ardi_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_ardi_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_ardi_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_Lite_grn_F: Atlas_V_OCarrierGora_lite_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_Lite_grn_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_Lite_grn_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_grn_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_Lite_khk_F: Atlas_V_OCarrierGora_lite_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_Lite_khk_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_Lite_khk_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_rukhk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_rukhk_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_Lite_blk_F: Atlas_V_OCarrierGora_lite_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_Lite_blk_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_Lite_blk_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_blk_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_Lite_ardi_F: Atlas_V_OCarrierGora_lite_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_Lite_ardi_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_Lite_ardi_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_ardi_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\O_RUPouches_ardi_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_CQB_grn_F: Atlas_V_OCarrierGora_CQB_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_CQB_grn_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_CQB_grn_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_grn_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_CQB_khk_F: Atlas_V_OCarrierGora_CQB_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_CQB_khk_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_CQB_khk_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_rukhk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_rukhk_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_CQB_blk_F: Atlas_V_OCarrierGora_CQB_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_CQB_blk_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_CQB_blk_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_blk_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_CQB_ardi_F: Atlas_V_OCarrierGora_CQB_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_CQB_ardi_F0;
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_CQB_ardi_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_ardi_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\O_RUPouches_ardi_CO.paa"
+		};
+	};
+	/*class Atlas_V_OCarrierGora_GL_grn_F: Atlas_V_OCarrierGora_GL_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_GL_grn_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_grn_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_grn_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_GL_khk_F: Atlas_V_OCarrierGora_GL_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_GL_khk_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_khk_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_rukhk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_rukhk_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_GL_blk_F: Atlas_V_OCarrierGora_GL_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_GL_khk_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_khk_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\data\O_RUPouches_blk_CO.paa"
+		};
+	};
+	class Atlas_V_OCarrierGora_GL_ardi_F: Atlas_V_OCarrierGora_GL_base_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_OCarrierGora_GL_ardi_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\data\UI\icon_Atlas_V_OCarrierGora_khk_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{ 
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierGora_ardi_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\O_RUPouches_ardi_CO.paa"
+		};
+	};*/
+
+	/* Gora Vests End */
+
+	/* Flak Vest + PLCE LBVs*/
+    /*class Atlas_V_FlakVest_Oli_F: Vest_Camo_Base
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_FlakVest_oli_F0;
+		descriptionShort = $STR_A3_SP_AL_I;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\Atlas_V_OCarrierRig_CQB_Hex_F_ca.paa";
+        hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\VFlakVest_oli_CO.paa"
+		};
+		model = "\A3_Atlas\Characters_F_Atlas\Vests\Atlas_V_FlakVest_F.p3d";
+		class ItemInfo : ItemInfo
+		{
+			uniformModel = "\A3_Atlas\Characters_F_Atlas\Vests\Atlas_V_FlakVest_F.p3d";
+			hiddenSelections[] = {camo};
+			hiddenSelectionsTextures[] = 
+			{
+				"\A3_Atlas\Characters_F_Atlas\Vests\data\VFlakVest_oli_CO.paa"
+			};
+			containerClass = Supply60;
+			mass = 30;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName="HitChest";
+					armor=8;
+					passThrough=0.5;
+				};
+				class Diaphragm
+				{
+					hitpointName="HitDiaphragm";
+					armor=8;
+					passThrough=0.5;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=8;
+					passThrough=0.5;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.5;
+				};
+			};
+		};
+	};
+	class Atlas_V_FlakVest_khk_F: Atlas_V_FlakVest_Oli_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_FlakVest_khk_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\Atlas_V_OCarrierRig_CQB_Hex_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\VFlakVest_khk_CO.paa"
+		};
+	};
+	class Atlas_V_FlakVest_blk_F: Atlas_V_FlakVest_Oli_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_Atlas_V_FlakVest_blk_F0;
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\Atlas_V_OCarrierRig_CQB_Hex_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Atlas\Characters_F_Atlas\Vests\data\VFlakVest_blk_CO.paa"
+		};
+	};*/
 };
 

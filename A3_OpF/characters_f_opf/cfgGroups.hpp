@@ -163,6 +163,24 @@ class CfgGroups
 					GROUP_UNIT(2,TWest,Opf_B_P_Offroad_01_AT_F,CORPORAL,-10,-10);
 				};
 			};
+			class Mechanized
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Mechanized0;
+				class Opf_B_P_MechInfSquad
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInfSquad0;
+					side = TWest;
+					faction = Opf_BLU_P_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
+					GROUP_UNIT(0,TWest,Opf_B_P_APC_Wheeled_03_cannon_F,LIEUTENANT,0,0);
+					GROUP_UNIT(1,TWest,Opf_B_P_soldier_SL_F,SERGEANT,5,-5);
+					GROUP_UNIT(2,TWest,Opf_B_P_Soldier_LAT_F,CORPORAL,-5,-5);
+					GROUP_UNIT(3,TWest,Opf_B_P_Soldier_M_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TWest,Opf_B_P_Soldier_TL_F,SERGEANT,-10,-10);
+					GROUP_UNIT(5,TWest,Opf_B_P_Soldier_AR_F,CORPORAL,15,-15);
+					GROUP_UNIT(6,TWest,Opf_B_P_medic_F,PRIVATE,-15,-15);
+				};
+			};
 		};
 	};
 	class East
@@ -277,6 +295,24 @@ class CfgGroups
 					GROUP_UNIT(2,TEast,Opf_O_P_Offroad_01_AT_F,CORPORAL,-10,-10)
 				};
 			};
+			class Mechanized
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Mechanized0;
+				class Opf_O_P_MechInfSquad
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInfSquad0;
+					side = TEast;
+					faction = Opf_OPF_P_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
+					GROUP_UNIT(0,TEast,Opf_O_P_APC_Wheeled_04_export_F,LIEUTENANT,0,0);
+					GROUP_UNIT(1,TEast,Opf_O_P_M_soldier_2_F,SERGEANT,5,-5);
+					GROUP_UNIT(2,TEast,Opf_O_P_M_Soldier_5_F,CORPORAL,-5,-5);
+					GROUP_UNIT(3,TEast,Opf_O_P_M_Soldier_7_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TEast,Opf_O_P_M_Soldier_6_F,SERGEANT,-10,-10);
+					GROUP_UNIT(5,TEast,Opf_O_P_M_Soldier_4_F,CORPORAL,15,-15);
+					GROUP_UNIT(6,TEast,Opf_O_P_M_Soldier_3_F,PRIVATE,-15,-15);
+				};
+			};
 		};
 		class Opf_OPF_S_F
 		{
@@ -347,6 +383,24 @@ class CfgGroups
 					GROUP_UNIT(0,TEast,Opf_O_S_Offroad_01_armed_F,LIEUTENANT,0,0)
 					GROUP_UNIT(1,TEast,Opf_O_S_Offroad_01_armed_F,SERGEANT,10,-10)
 					GROUP_UNIT(2,TEast,Opf_O_S_Offroad_01_armed_F,CORPORAL,-10,-10)
+				};
+			};
+			class Mechanized
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Mechanized0;
+				class Opf_O_P_MechInfSquad
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInfSquad0;
+					side = TEast;
+					faction = Opf_OPF_S_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
+					GROUP_UNIT(0,TEast,Opf_O_S_APC_Wheeled_04_export_F,LIEUTENANT,0,0);
+					GROUP_UNIT(1,TEast,Opf_O_S_Soldier_2_F,SERGEANT,5,-5);
+					GROUP_UNIT(2,TEast,Opf_O_S_Soldier_5_F,CORPORAL,-5,-5);
+					GROUP_UNIT(3,TEast,Opf_O_S_Soldier_7_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TEast,Opf_O_S_Soldier_6_F,SERGEANT,-10,-10);
+					GROUP_UNIT(5,TEast,Opf_O_S_Soldier_4_F,CORPORAL,15,-15);
+					GROUP_UNIT(6,TEast,Opf_O_S_Soldier_3_F,PRIVATE,-15,-15);
 				};
 			};
 		};

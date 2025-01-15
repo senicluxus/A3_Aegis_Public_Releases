@@ -80,6 +80,21 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class Karzeg_01
+			{
+				displayName = STR_A3_A_CfgFactionClasses_BLU_K_F0;
+				author = $STR_A3_A_Branflakes;
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_kzg_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_kzg_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\RCWS30_kzg_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_kzg_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_sand_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
 	};
     /* Factions */
@@ -92,6 +107,7 @@ class CfgVehicles
 		};
 	};
     #include "cfgGER.hpp"   // Bundeswehr
+    #include "cfgKarzeg.hpp"	//Karzeghistan
 
     /* Deprecated */
     #include "deprecated.hpp"

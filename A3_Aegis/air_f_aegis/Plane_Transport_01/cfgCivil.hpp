@@ -29,6 +29,50 @@ class Aegis_C_Plane_Transport_01_civil_F: Aegis_Plane_Transport_01_civil_base_F
 	};
 };
 
+/* Argana */
+class Aegis_C_Plane_Transport_01_civil_F_LXWS: Aegis_C_Plane_Transport_01_civil_F
+{
+	faction = Aegis_CIV_ARG_F;
+	side = TCivilian;
+	scopeArsenal = private;
+	forceInGarage = 0;
+	crew = Aegis_C_Man_CargoPilot_lxWS_F;
+	typicalCargo[] = {Aegis_C_Man_CargoPilot_lxWS_F};
+};
+
+/* Livonia */
+class Aegis_C_Plane_Transport_01_civil_F_Enoch: Aegis_C_Plane_Transport_01_civil_F
+{
+	faction = Aegis_CIV_LIV_F;
+	side = TCivilian;
+	scopeArsenal = private;
+	forceInGarage = 0;
+	crew = Aegis_C_Man_CargoPilot_enoch_F;
+	typicalCargo[] = {Aegis_C_Man_CargoPilot_enoch_F};
+};
+
+/* Malden */
+class Aegis_C_Plane_Transport_01_civil_F_Malden: Aegis_C_Plane_Transport_01_civil_F
+{
+	faction = Aegis_CIV_MA_F;
+	side = TCivilian;
+	scopeArsenal = private;
+	forceInGarage = 0;
+	crew = Aegis_C_Man_CargoPilot_malden_F;
+	typicalCargo[] = {Aegis_C_Man_CargoPilot_malden_F};
+};
+
+/* Tanoa */
+class Aegis_C_Plane_Transport_01_civil_F_Tanoa: Aegis_C_Plane_Transport_01_civil_F
+{
+	faction = Aegis_CIV_HI_F;
+	side = TCivilian;
+	scopeArsenal = private;
+	forceInGarage = 0;
+	crew = Aegis_C_Man_CargoPilot_tna_F;
+	typicalCargo[] = {Aegis_C_Man_CargoPilot_tna_F};
+};
+
 /* IDAP */
 class Aegis_C_IDAP_Plane_Transport_01_civil_F: Aegis_Plane_Transport_01_civil_base_F
 {
@@ -36,6 +80,8 @@ class Aegis_C_IDAP_Plane_Transport_01_civil_F: Aegis_Plane_Transport_01_civil_ba
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_C_IDAP_Plane_Transport_01_civil_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	scopeArsenal = private;
+	forceInGarage = 0;
 	displayName = $STR_A3_A_CfgVehicles_Plane_Transport_01_civil_base_F0;
 	radarTargetSize = 2;
 	faction = CIV_IDAP_F;

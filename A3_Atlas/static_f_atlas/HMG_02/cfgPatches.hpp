@@ -49,6 +49,10 @@ class CfgPatches
             Atlas_I_C_HMG_02_support_high_F,
             Atlas_I_C_HMG_02_weapon_F,
 
+            // Karzeghistan
+            Atlas_B_K_HMG_02_F,
+            Atlas_B_K_HMG_02_high_F,
+
             // IDF
             Atlas_I_I_HMG_02_F,
             Atlas_I_I_HMG_02_high_F,

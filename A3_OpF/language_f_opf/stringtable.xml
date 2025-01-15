@@ -36,6 +36,23 @@
 				<Japanese>UAV バッグ（IED Drone）[Insurgent]</Japanese>
 				<Turkish>İHA Çantası (IED Drone) [Insurgent]</Turkish>
 			</Key>
+			<Key ID="STR_A3_A_CfgVehicles_Opf_B_P_UAV_IED_lxWS_backpack_F0">
+				<Original>UAV Bag (IED Drone) [Partisan]</Original>
+				<Chinese>無人機袋子（IED Drone）[Partisan]</Chinese>
+				<French>Sac drone (IED Drone) [Partisan]</French>
+				<Spanish>Bolsa de VANT (IED Drone) [Partisan]</Spanish>
+				<Italian>Borsa UAV (IED Drone) [Partisan]</Italian>
+				<Polish>Torba na drona (IED Drone) [Partisan]</Polish>
+				<Russian>Сумка для БПЛА (IED Drone) [Partisan]</Russian>
+				<German>UAV-Tasche (IED Drone) [Partisan]</German>
+				<Czech>UAV vak (IED Drone) [Partisan]</Czech>
+				<English>UAV Bag (IED Drone) [Partisan]</English>
+				<Portuguese>Compartimento de VANT (IED Drone) [Partisan]</Portuguese>
+				<Korean>UAV 가방 (IED Drone) [Partisan]</Korean>
+				<Chinesesimp>UAV 包（IED Drone）[Partisan]</Chinesesimp>
+				<Japanese>UAV バッグ（IED Drone）[Partisan]</Japanese>
+				<Turkish>İHA Çantası (IED Drone) [Partisan]</Turkish>
+			</Key>
 			</container>
 		</Container>
 		<Container name="Characters_F">
@@ -95,20 +112,20 @@
 				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_khk_hs0">
 					<Original>Shemag (Headset, Khaki)</Original>
-					<Chinese>阿拉伯頭巾（卡其色，耳機）</Chinese>
-					<French>Keffieh (kaki, micro-casque)</French>
-					<Spanish>Palestina (caqui, auricular)</Spanish>
-					<Italian>Shemag (kaki, cuffia)</Italian>
-					<Polish>Shemag (khaki, głowa)</Polish>
-					<Russian>Шемаг (хаки, гарнитура)</Russian>
-					<German>Shemag (Khaki, Headset)</German>
-					<Czech>Shemag (khaki, náhlavní souprava)</Czech>
+					<Chinese>阿拉伯頭巾（耳機，卡其色）</Chinese>
+					<French>Keffieh (micro-casque, kaki)</French>
+					<Spanish>Palestina (auricular, caqui)</Spanish>
+					<Italian>Shemag (cuffia, kaki)</Italian>
+					<Polish>Shemag (głowa, khaki)</Polish>
+					<Russian>Шемаг (гарнитура, хаки)</Russian>
+					<German>Shemag (Headset, Khaki)</German>
+					<Czech>Shemag (náhlavní souprava, khaki)</Czech>
 					<English>Shemag (Headset, Khaki)</English>
-					<Portuguese>Shemag (cáqui, headset)</Portuguese>
-					<Korean>쉬마그(카키, 헤드셋)</Korean>
-					<Chinesesimp>阿拉伯头巾（卡其色，头戴式耳机）</Chinesesimp>
+					<Portuguese>Shemag (headset, cáqui)</Portuguese>
+					<Korean>쉬마그(헤드셋, 카키)</Korean>
+					<Chinesesimp>阿拉伯头巾（头戴式耳机，卡其色）</Chinesesimp>
 					<Japanese>シュマグ（カーキ、ヘッドセット）</Japanese>
-					<Turkish>Poşu (Haki, Baş Giysisi)</Turkish>
+					<Turkish>Poşu (Baş Giysisi, Haki)</Turkish>
 				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_blk0">
 					<Original>Shemag (Black)</Original>
@@ -128,21 +145,21 @@
 					<Turkish>Poşu (Siyah)</Turkish>
 				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_blk_hs0">
-					<Original>Shemag (Black, Headset)</Original>
+					<Original>Shemag (Headset, Black)</Original>
 					<Chinese>阿拉伯頭巾（黑，耳機）</Chinese>
-					<French>Keffieh (noire, micro-casque)</French>
-					<Spanish>Palestina (negro, auricular)</Spanish>
-					<Italian>Shemag (nero, cuffia)</Italian>
-					<Polish>Shemag (czarna, głowa)</Polish>
-					<Russian>Шемаг (черный, гарнитура)</Russian>
-					<German>Shemag (Schwarz, Headset)</German>
-					<Czech>Shemag (černá, náhlavní souprava)</Czech>
-					<English>Shemag (Black, Headset)</English>
-					<Portuguese>Shemag (preta, headset)</Portuguese>
-					<Korean>쉬마그(흑색, 헤드셋)</Korean>
-					<Chinesesimp>阿拉伯头巾（黑色，头戴式耳机）</Chinesesimp>
+					<French>Keffieh (micro-casque, noire)</French>
+					<Spanish>Palestina (auricular, negro)</Spanish>
+					<Italian>Shemag (cuffia, nero)</Italian>
+					<Polish>Shemag (głowa, czarna)</Polish>
+					<Russian>Шемаг (гарнитура, черный)</Russian>
+					<German>Shemag (Headset, Schwarz)</German>
+					<Czech>Shemag (náhlavní souprava, černá)</Czech>
+					<English>Shemag (Headset, Black)</English>
+					<Portuguese>Shemag (headset, preta)</Portuguese>
+					<Korean>쉬마그(헤드셋, 흑색)</Korean>
+					<Chinesesimp>阿拉伯头巾（头戴式耳机，黑色）</Chinesesimp>
 					<Japanese>シュマグ（黒、ヘッドセット）</Japanese>
-					<Turkish>Poşu (Siyah, Baş Giysisi)</Turkish>
+					<Turkish>Poşu (Baş Giysisi, Siyah)</Turkish>
 				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_red0">
 					<Original>Shemag (Red)</Original>
@@ -162,21 +179,21 @@
 					<Turkish>Poşu (Kırmızı)</Turkish>
 				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Shemag_red_hs0">
-					<Original>Shemag (Red, Headset)</Original>
-					<Chinese>阿拉伯頭巾（紅，耳機）</Chinese>
-					<French>Keffieh (rouge, micro-casque)</French>
-					<Spanish>Palestina (roja, auricular)</Spanish>
-					<Italian>Shemag (rosso, cuffia)</Italian>
-					<Polish>Shemag (czerwony, głowa)</Polish>
-					<Russian>Шемаг (красный, гарнитура)</Russian>
-					<German>Shemag (rot, Headset)</German>
-					<Czech>Shemag (červený, náhlavní souprava)</Czech>
-					<English>Shemag (Red, Headset)</English>
-					<Portuguese>Shemag (vermelha, headset)</Portuguese>
-					<Korean>쉬마그(적색, 헤드셋)</Korean>
-					<Chinesesimp>阿拉伯头巾（红色，头戴式耳机）</Chinesesimp>
+					<Original>Shemag (Headset, Red)</Original>
+					<Chinese>阿拉伯頭巾（耳機，紅）</Chinese>
+					<French>Keffieh (micro-casque, rouge)</French>
+					<Spanish>Palestina (auricular, roja)</Spanish>
+					<Italian>Shemag (cuffia, rosso)</Italian>
+					<Polish>Shemag (głowa, czerwony)</Polish>
+					<Russian>Шемаг (гарнитура, красный)</Russian>
+					<German>Shemag (Headset, Rot)</German>
+					<Czech>Shemag (náhlavní souprava, červený)</Czech>
+					<English>Shemag (Headset, Red)</English>
+					<Portuguese>Shemag (headset, vermelha)</Portuguese>
+					<Korean>쉬마그(헤드셋, 적색)</Korean>
+					<Chinesesimp>阿拉伯头巾（头戴式耳机，红色）</Chinesesimp>
 					<Japanese>シュマグ（赤、ヘッドセット）</Japanese>
-					<Turkish>Poşu (Kırmızı, Baş Giysisi)</Turkish>
+					<Turkish>Poşu (Baş Giysisi, Kırmızı)</Turkish>
 				</Key>
 				<Key ID="STR_A3_O_CfgWeapons_H_Cap_khk_Raven0">
 					<Original>Cap (Raven Security)</Original>

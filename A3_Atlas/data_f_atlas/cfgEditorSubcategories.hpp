@@ -25,6 +25,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "Men (JSOC)";
 	};
+	class EdSubcat_Personnel_Pathfinders
+	{
+		displayName = "Men (Pathfinders)";
+	};
 
     // Ammo boxes' subcategories
 	class EdSubcat_Ammo_CSAT_Woodland

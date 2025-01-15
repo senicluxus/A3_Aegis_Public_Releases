@@ -34,4 +34,15 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\Shotguns\AA40\Data\aa40_khk_co.paa"};
 		hiddenSelectionsMaterials[] = {"\lxws\weapons_1_f_lxWS\shotguns\aa40\data\aa40.rvmat"};
 	};
+
+	/* Presets */
+	class Aegis_sgun_AA40_khk_Holo_lxWS: Aegis_sgun_AA40_khk_lxWS
+	{
+		class LinkedItems
+		{
+        	LINKED_TOP(optic_Holosight_khk_F);
+		};
+	};
+
 };
+

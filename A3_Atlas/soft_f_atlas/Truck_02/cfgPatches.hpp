@@ -36,6 +36,10 @@ class CfgPatches
             Atlas_B_H_Truck_02_F,
             Atlas_B_H_Truck_02_flatbed_F,
             Atlas_B_H_Truck_02_transport_F,
+            Atlas_B_H_Truck_02_box_F,
+            Atlas_B_H_Truck_02_Ammo_F,
+            Atlas_B_H_Truck_02_fuel_F,
+            Atlas_B_H_Truck_02_medical_F,
 
             // CDF
             Atlas_I_W_Truck_02_cargo_F,

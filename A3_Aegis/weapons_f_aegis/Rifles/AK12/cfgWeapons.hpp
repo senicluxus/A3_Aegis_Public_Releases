@@ -87,7 +87,12 @@ class CfgWeapons
 	class arifle_AK12_545_base_F: arifle_AK12_base_F
 	{
 	  	descriptionShort = $STR_A3_A_CfgWeapons_arifle_AK12_545_base_F1;
-		magazineWell[] = {AK_545x39};
+		magazineWell[] = 
+		{
+			AK_545x39,
+			CBA_545x39_AK,
+			CBA_545x39_RPK
+		};
 	  	initSpeed = 900;
 	  	recoil = recoil_ak12_545;
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -133,21 +138,65 @@ class CfgWeapons
 		{
 			reloadTime = RPM_700;
 			dispersion = 0.00073;
+			minRange=2;
+			minRangeProbab=0.5;
+			midRange=150;
+			midRangeProbab=0.69999999;
+			maxRange=250;
+			maxRangeProbab=0.2;
 		};
 		class Burst: Burst
 		{
 			dispersion = 0.00073;
 		};
+		class Burst_medium: Burst{};
 		class FullAuto: FullAuto
 		{
 			reloadTime = RPM_700;
 			dispersion = 0.00073;
+			minRange=2;
+			minRangeProbab=0.89999998;
+			midRange=15;
+			midRangeProbab=0.69999999;
+			maxRange=30;
+			maxRangeProbab=0.050000001;
+			aiRateOfFire=1e-006;
+		};
+		class single_medium_optics1: Single
+		{
+			requiredOpticType = 1;
+			showToPlayer = 0;
+			minRange = 5;
+			minRangeProbab = 0.2;
+			midRange = 300;
+			midRangeProbab = 0.69999999;
+			maxRange = 450;
+			maxRangeProbab = 0.30000001;
+			aiRateOfFire = 5;
+			aiRateOfFireDistance = 500;
+		};
+		class single_medium_optics2: single_medium_optics1
+		{
+			requiredOpticType = 2;
+			minRange = 100;
+			minRangeProbab = 0.1;
+			midRange = 400;
+			midRangeProbab = 0.7;
+			maxRange = 600;
+			maxRangeProbab = 0.1;
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 600;
 		};
 	};
 	class arifle_AK12_GL_545_base_F: arifle_AK12_GL_base_F
 	{
 	  	descriptionShort = $STR_A3_A_CfgWeapons_arifle_AK12_545_base_F1;
-		magazineWell[] = {AK_545x39};
+		magazineWell[] = 
+		{
+			AK_545x39,
+			CBA_545x39_AK,
+			CBA_545x39_RPK
+		};
 	  	initSpeed = 900;
 	  	recoil = recoil_ak12_545;
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -184,21 +233,65 @@ class CfgWeapons
 		{
 			reloadTime = RPM_700;
 			dispersion = 0.00073;
+			minRange = 2;
+			minRangeProbab = 0.5;
+			midRange = 150;
+			midRangeProbab = 0.69999999;
+			maxRange = 250;
+			maxRangeProbab=0.2;
 		};
 		class Burst: Burst
 		{
 			dispersion = 0.00073;
 		};
+		class Burst_medium: Burst{};
 		class FullAuto: FullAuto
 		{
 			reloadTime = RPM_700;
 			dispersion = 0.00073;
+			minRange=2;
+			minRangeProbab=0.89999998;
+			midRange=15;
+			midRangeProbab=0.69999999;
+			maxRange=30;
+			maxRangeProbab=0.050000001;
+			aiRateOfFire=1e-006;
+		};
+		class single_medium_optics1: Single
+		{
+			requiredOpticType = 1;
+			showToPlayer = 0;
+			minRange = 5;
+			minRangeProbab = 0.2;
+			midRange = 300;
+			midRangeProbab = 0.69999999;
+			maxRange = 450;
+			maxRangeProbab = 0.30000001;
+			aiRateOfFire = 5;
+			aiRateOfFireDistance = 500;
+		};
+		class single_medium_optics2: single_medium_optics1
+		{
+			requiredOpticType = 2;
+			minRange = 100;
+			minRangeProbab = 0.1;
+			midRange = 400;
+			midRangeProbab = 0.7;
+			maxRange = 600;
+			maxRangeProbab = 0.1;
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 600;
 		};
 	};
 	class arifle_AK12U_545_base_F: arifle_AK12U_base_F
 	{
 	  	descriptionShort = $STR_A3_A_CfgWeapons_arifle_AK12_545_base_F1;
-		magazineWell[] = {AK_545x39};
+		magazineWell[] = 
+		{
+			AK_545x39,
+			CBA_545x39_AK,
+			CBA_545x39_RPK
+		};
 	  	initSpeed = 735;
 	  	recoil = recoil_ak12u_545;
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -222,10 +315,37 @@ class CfgWeapons
 		{
 			dispersion = 0.00073;
 		};
+		class Burst_medium: Burst{};
 		class FullAuto: FullAuto
 		{
 			reloadTime = RPM_700;
 			dispersion = 0.00073;
+		};
+		class single_medium_optics1: Single
+		{
+			requiredOpticType = 1;
+			showToPlayer = 0;
+			burstRangeMax = 4;
+			minRange = 5;
+			minRangeProbab = 0.2;
+			midRange = 300;
+			midRangeProbab = 0.7;
+			maxRange = 450;
+			maxRangeProbab = 0.3;
+			aiRateOfFire = 5;
+			aiRateOfFireDistance = 500;
+		};
+		class single_medium_optics2: single_medium_optics1
+		{
+			requiredOpticType = 2;
+			minRange = 100;
+			minRangeProbab = 0.1;
+			midRange = 400;
+			midRangeProbab = 0.7;
+			maxRange = 600;
+			maxRangeProbab = 0.1;
+			aiRateOfFire = 6;
+			aiRateOfFireDistance = 600;
 		};
 	};
 
@@ -450,6 +570,19 @@ class CfgWeapons
 		};
 		baseWeapon = arifle_AK12_545_F;
 	};
+	class arifle_AK12_545_tan_F: arifle_AK12_545_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_arifle_AK12_545_tan_F0;
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_AK12_tan_F_X_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\arifle_ak12_1_tan_co.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\arifle_ak12_2_tan_co.paa"
+		};
+		baseWeapon = arifle_AK12_545_tan_F;
+	};
 	class arifle_AK12_545_lush_F: arifle_AK12_545_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -520,6 +653,20 @@ class CfgWeapons
 			"\A3\Weapons_F_Exp\Rifles\AK12\Data\AK12_GL_F.rvmat"
 		};
 		baseWeapon = arifle_AK12_GL_545_F;
+	};
+	class arifle_AK12_GL_545_tan_F: arifle_AK12_GL_545_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_arifle_AK12_GL_545_tan_F0;
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_AK12_GL_tan_F_X_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\arifle_ak12_1_tan_co.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\arifle_ak12_2_tan_co.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\arifle_ak12_3_tan_co.paa"
+		};
+		baseWeapon = arifle_AK12_GL_545_tan_F;
 	};
 	class arifle_AK12_GL_545_lush_F: arifle_AK12_GL_545_base_F
 	{
@@ -596,6 +743,20 @@ class CfgWeapons
 		};
 		baseWeapon = arifle_AK12U_545_F;
 	};
+	class arifle_AK12U_545_tan_F: arifle_AK12U_545_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_arifle_AK12U_545_tan_F0;
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_AKU12_tan_F_X_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\arifle_ak12_1_tan_co.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\arifle_ak12_2_tan_co.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\arifle_ak12_4_tan_co.paa"
+		};
+		baseWeapon = arifle_AK12U_545_tan_F;
+	};
 	class arifle_AK12U_545_lush_F: arifle_AK12U_545_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -670,7 +831,13 @@ class CfgWeapons
 	{
 		recoil = recoil_rpk12_545;
 		descriptionShort = $STR_A3_A_CfgWeapons_arifle_AK12_545_base_F1;
-		magazineWell[] = {AK_545x39};
+		magazineWell[] = 
+		{
+			AK_545x39,
+			CBA_545x39_RPK,
+			CBA_545x39_AK,
+		};
+		initSpeed = 960;
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			class MuzzleSlot: asdg_MuzzleSlot_545R{};
@@ -687,17 +854,127 @@ class CfgWeapons
 			class UnderBarrelSlot{};
 			mass = 170;
 		};
+		modes[]=
+		{
+			"FullAuto",
+			"Burst",
+			"Single",
+			"FullAuto_Close",
+			"FullAuto_medium",
+			"far_optics1",
+			"far_optics2"
+		};
 		class Single: Single
 		{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] =
+				{
+					AK74_Shot_SoundSet,
+					AK74_Tail_SoundSet,
+					AK74_InteriorTail_SoundSet
+				};
+			};
 			dispersion = 0.00076;
+			reloadTime = RPM_600;
+			minRange = 2;
+			minRangeProbab = 0.01;
+			midRange = 200;
+			midRangeProbab = 0.01;
+			maxRange = 400;
+			maxRangeProbab = 0.01;
 		};
 		class Burst: Burst
 		{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] =
+				{
+					AK74_Shot_SoundSet,
+					AK74_Tail_SoundSet,
+					AK74_InteriorTail_SoundSet
+				};
+			};
 			dispersion = 0.00076;
+			reloadTime = RPM_600;
 		};
 		class FullAuto: FullAuto
 		{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] =
+				{
+					AK74_Shot_SoundSet,
+					AK74_Tail_SoundSet,
+					AK74_InteriorTail_SoundSet
+				};
+			};
 			dispersion = 0.00076;
+			reloadTime = RPM_600;
+			minRange = 0;
+			minRangeProbab = 0.9;
+			midRange = 5;
+			midRangeProbab = 0.7;
+			maxRange = 10;
+			maxRangeProbab = 0.1;
+			aiRateOfFire = 1e-006;
+		};
+		class FullAuto_close: FullAuto
+		{
+			burst = 10;
+			aiBurstTerminable = 1;
+			aiRateOfFire = 0.5;
+			aiRateOfFireDistance = 50;
+			minRange = 10;
+			minRangeProbab = 0.05;
+			midRange = 20;
+			midRangeProbab = 0.7;
+			maxRange = 50;
+			maxRangeProbab = 0.04;
+			showToPlayer = false;
+		};
+		class FullAuto_medium: FullAuto_close
+		{
+			burst = 5;
+			showToPlayer = false;
+			minRange = 150;
+			minRangeProbab = 0.5;
+			midRange = 250;
+			midRangeProbab = 0.75;
+			maxRange = 400;
+			maxRangeProbab = 0.25;
+			aiRateOfFire = 4;
+			aiRateOfFireDistance = 600;
+		};
+		class far_optics1: FullAuto_close
+		{
+			burst = 5;
+			requiredOpticType=1;
+			showToPlayer=0;
+			minRange=200;
+			minRangeProbab=0.2;
+			midRange=350;
+			midRangeProbab=0.69999999;
+			maxRange=525;
+			maxRangeProbab=0.30000001;
+			aiRateOfFire=5;
+			aiRateOfFireDistance=525;
+		};
+		class far_optics2: far_optics1
+		{
+			burst = 3;
+			requiredOpticType=2;
+			minRange=300;
+			minRangeProbab=0.1;
+			midRange=500;
+			midRangeProbab=0.69999999;
+			maxRange=750;
+			maxRangeProbab=0.050000001;
+			aiRateOfFire=8;
+			aiRateOfFireDistance=750;
 		};
 	};
 	class Aegis_arifle_RPK12_545_F: Aegis_arifle_RPK12_545_base_F
@@ -726,6 +1003,20 @@ class CfgWeapons
 			"a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_RPK12.rvmat"
 		};
 		baseWeapon = "Aegis_arifle_RPK12_545_F";
+	};
+	class Aegis_arifle_RPK12_545_tan_F: Aegis_arifle_RPK12_545_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_arifle_rpk12_545_tan_f0;
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\UI\icon_arifle_RPK12_tan_F_X_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\arifle_ak12_1_tan_co.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\arifle_ak12_2_tan_co.paa",
+			"\A3_Aegis\Weapons_F_Aegis\Rifles\AK12\Data\arifle_ak12_4_tan_co.paa"
+		};
+		baseWeapon = "Aegis_arifle_RPK12_545_tan_F";
 	};
 	class  Aegis_arifle_RPK12_545_lush_F: Aegis_arifle_RPK12_545_base_F
 	{

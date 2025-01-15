@@ -45,6 +45,17 @@ class CfgVehicles
                 };
 				factions[] = {};
 			};
+			class Takistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TKHEX0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+                {
+					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_tk_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_wheel_tk_CO.paa"
+                };
+				factions[] = {};
+			};
 		};
 	};
 	// Arma 3 Atlas

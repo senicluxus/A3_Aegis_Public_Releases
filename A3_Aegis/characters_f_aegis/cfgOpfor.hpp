@@ -7157,6 +7157,7 @@ class Aegis_O_C_D_Soldier_UAV_F: O_T_Soldier_UAV_F
 		V_HarnessO_oicamo,
 		H_HelmetO_oicamo,
 		DefaultManLinkedItems,
+        O_UAVTerminal,
 		O_NVGoggles_hex_F
 	};
 	respawnLinkedItems[] =
@@ -7164,6 +7165,7 @@ class Aegis_O_C_D_Soldier_UAV_F: O_T_Soldier_UAV_F
 		V_HarnessO_oicamo,
 		H_HelmetO_oicamo,
 		DefaultManLinkedItems,
+        O_UAVTerminal,
 		O_NVGoggles_hex_F
 	};
 };
@@ -7455,6 +7457,7 @@ class Aegis_O_C_D_Soldier_UAV_06_F: O_T_Soldier_UAV_06_F
 		V_HarnessO_oicamo,
 		H_HelmetO_oicamo,
 		DefaultManLinkedItems,
+        O_UAVTerminal,
 		O_NVGoggles_hex_F
 	};
 	respawnLinkedItems[] =
@@ -7462,6 +7465,7 @@ class Aegis_O_C_D_Soldier_UAV_06_F: O_T_Soldier_UAV_06_F
 		V_HarnessO_oicamo,
 		H_HelmetO_oicamo,
 		DefaultManLinkedItems,
+        O_UAVTerminal,
 		O_NVGoggles_hex_F
 	};
 };
@@ -7489,6 +7493,7 @@ class Aegis_O_C_D_Soldier_UAV_06_medical_F: O_T_Soldier_UAV_06_medical_F
 		V_HarnessO_oicamo,
 		H_HelmetO_oicamo,
 		DefaultManLinkedItems,
+        O_UAVTerminal,
 		O_NVGoggles_hex_F
 	};
 	respawnLinkedItems[] =
@@ -7496,6 +7501,7 @@ class Aegis_O_C_D_Soldier_UAV_06_medical_F: O_T_Soldier_UAV_06_medical_F
 		V_HarnessO_oicamo,
 		H_HelmetO_oicamo,
 		DefaultManLinkedItems,
+        O_UAVTerminal,
 		O_NVGoggles_hex_F
 	};
 };

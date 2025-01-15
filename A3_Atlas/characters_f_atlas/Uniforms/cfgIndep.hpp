@@ -1,5 +1,5 @@
 /* AAF */
-class Atlas_U_I_CombatFatigues_aaf_F: Uniform_Base
+/*class Atlas_U_I_CombatFatigues_aaf_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
@@ -32,4 +32,4 @@ class Atlas_U_I_CombatFatigues_02_aaf_F: Uniform_Base
 		containerClass = Supply40;
 		mass = 60;
 	};
-};
+};*/

@@ -20,6 +20,17 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class Ardistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_ardi0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Atlas\Air_F_Atlas\Plane_CAS_02\Data\Fighter02_ext01_ardi_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\Plane_CAS_02\Data\Fighter02_ext02_ardi_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class Plane_CAS_02_dynamicLoadout_base_F;
@@ -31,6 +42,7 @@ class CfgVehicles
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"       // Belarus
 	#include "cfgVenezuela.hpp"
+	#include "cfgArdistan.hpp"			//Ardistan
 	/*
     #include "cfgCDF.hpp"				// CDF
     #include "cfgIDF.hpp"				// IDF

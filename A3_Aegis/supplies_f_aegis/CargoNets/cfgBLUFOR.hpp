@@ -500,7 +500,8 @@ class B_A_CargoNet_01_ammo_F: B_CargoNet_01_ammo_F
 		mag_xx(3Rnd_HE_Grenade_shell,3);
 		mag_xx(30Rnd_65x39_caseless_mag,108);
 		mag_xx(200Rnd_65x39_cased_Box_Red,12);
-		mag_xx(10Rnd_338_Mag,12);
+		mag_xx(20Rnd_762x51_Mag,12);
+		mag_xx(10Rnd_338_Mag,6);
 		mag_xx(8Rnd_12Gauge_Pellets,6);
 		mag_xx(8Rnd_12Gauge_Slug,6);
 		mag_xx(7Rnd_408_Mag,12);
@@ -537,6 +538,7 @@ class B_A_CargoNet_01_ammo_F: B_CargoNet_01_ammo_F
 		weap_xx(launch_B_Titan_short_F,2);
 		weap_xx(SMG_04_snd_F,2);
 		weap_xx(srifle_DMR_02_sniper_F,2);
+		weap_xx(arifle_SPAR_03_snd_F,2);
 		weap_xx(srifle_LRR_camo_F,2);
 		weap_xx(MMG_02_sand_F,2);
 		weap_xx(sgun_M4_F,2);
@@ -637,7 +639,8 @@ class B_A_CargoNet_01_ammo_tropic_F: B_A_CargoNet_01_ammo_F
 		mag_xx(3Rnd_HE_Grenade_shell,3);
 		mag_xx(30Rnd_65x39_caseless_khaki_mag,108);
 		mag_xx(200Rnd_65x39_cased_Box_Red,12);
-		mag_xx(10Rnd_338_Mag,12);
+		mag_xx(20Rnd_762x51_Mag,12);
+		mag_xx(10Rnd_338_Mag,6);
 		mag_xx(8Rnd_12Gauge_Pellets,6);
 		mag_xx(8Rnd_12Gauge_Slug,6);
 		mag_xx(7Rnd_408_Mag,12);
@@ -674,6 +677,7 @@ class B_A_CargoNet_01_ammo_tropic_F: B_A_CargoNet_01_ammo_F
 		weap_xx(launch_B_Titan_short_tna_F,2);
 		weap_xx(SMG_04_khk_F,2);
 		weap_xx(srifle_DMR_02_F,2);
+		weap_xx(arifle_SPAR_03_khk_F,2);
 		weap_xx(srifle_LRR_tna_F,2);
 		weap_xx(MMG_02_khaki_F,2);
 		weap_xx(sgun_M4_F,2);
@@ -769,7 +773,8 @@ class B_A_CargoNet_01_ammo_wdl_F: B_A_CargoNet_01_ammo_F
 		mag_xx(3Rnd_HE_Grenade_shell,3);
 		mag_xx(30Rnd_65x39_caseless_black_mag,108);
 		mag_xx(200Rnd_65x39_cased_Box_Red,12);
-		mag_xx(10Rnd_338_Mag,12);
+		mag_xx(20Rnd_762x51_Mag,12);
+		mag_xx(10Rnd_338_Mag,6);
 		mag_xx(8Rnd_12Gauge_Pellets,6);
 		mag_xx(8Rnd_12Gauge_Slug,6);
 		mag_xx(7Rnd_408_Mag,12);
@@ -806,6 +811,7 @@ class B_A_CargoNet_01_ammo_wdl_F: B_A_CargoNet_01_ammo_F
 		weap_xx(launch_I_Titan_short_F,2);
 		weap_xx(SMG_04_blk_F,2);
 		weap_xx(srifle_DMR_02_F,2);
+		weap_xx(arifle_SPAR_03_blk_F,2);
 		weap_xx(srifle_LRR_F,2);
 		weap_xx(MMG_02_black_F,2);
 		weap_xx(sgun_M4_F,2);

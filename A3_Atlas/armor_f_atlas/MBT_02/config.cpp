@@ -63,6 +63,32 @@ class CfgVehicles
 				};
 				faction[] = {};
 			};
+			class Ardistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_ardi0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] = 
+				{
+					"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\Atlas_MBT_02_body_ardi_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\Atlas_MBT_02_turret_ardi_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\Atlas_MBT_02_ardi_CO.paa",
+					"\A3\Armor_F\Data\camonet_CSAT_Hex_Green_CO.paa"
+				};
+				faction[] = {};
+			};
+			class Takistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TKHEX0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] = 
+				{
+					"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\Atlas_MBT_02_body_tk_CO.paa",
+        			"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\Atlas_MBT_02_turret_tk_CO.paa",
+        			"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\Atlas_MBT_02_tk_CO.paa",
+					"\A3\Armor_F\Data\camonet_CSAT_Hex_Desert_CO.paa"
+				};
+				faction[] = {};
+			};
 		};
 	};
     class O_MBT_02_cannon_F: O_MBT_02_base_F{};
@@ -70,6 +96,7 @@ class CfgVehicles
     #include "cfgOpfor_Aegis.hpp"       // Belarus
     #include "cfgOpfor_Atlas.hpp"       // Takistani Army
     #include "cfgVenezuela.hpp"			// Venezuela
+    #include "cfgArdistan.hpp"			// Ardistan
     /*
 	#include "cfgCDF.hpp"               // CDF
     */

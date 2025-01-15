@@ -18,6 +18,16 @@ class CfgVehicles
                     "\A3_Atlas\Soft_F_Atlas\Offroad_01\Data\Offroad_01_ext_UN_CO.paa"
                 };
             };
+            class KZG
+            {
+                displayName = $STR_A3_A_CfgFactionClasses_BLU_K_F0;
+                author = "BranFlakes";
+                textures[] =
+                {
+                    "\A3_Atlas\Soft_F_Atlas\Offroad_01\Data\offroad_01_ext_kzg_co.paa",
+                    "\A3_Atlas\Soft_F_Atlas\Offroad_01\Data\offroad_01_ext_kzg_co.paa"
+                };
+            };
         };
     };
     class Offroad_01_armed_base_F: Offroad_01_military_base_F{};
@@ -36,6 +46,17 @@ class CfgVehicles
                     "\A3_Atlas\Soft_F_Atlas\Offroad_01\Data\Offroad_01_ext_cover_UN_CO.paa"
                 };
             };
+            class KZG
+            {
+                displayName = $STR_A3_A_CfgFactionClasses_BLU_K_F0;
+                author = "BranFlakes";
+                textures[] =
+                {
+                    "\A3_Atlas\Soft_F_Atlas\Offroad_01\Data\offroad_01_ext_kzg_co.paa",
+                    "\A3_Atlas\Soft_F_Atlas\Offroad_01\Data\offroad_01_ext_kzg_co.paa",
+                    "\A3_Atlas\Soft_F_Atlas\Offroad_01\Data\offroad_01_cover_kzg_co.paa"
+                };
+            };
         };
         class EventHandlers;
     };
@@ -43,4 +64,5 @@ class CfgVehicles
     class I_G_Offroad_01_F: Offroad_01_military_base_F{};
 	// Arma 3 Atlas
 	#include "cfgUNO.hpp"               // UNO
+    #include "cfgKZG.hpp"               // KZG
 };

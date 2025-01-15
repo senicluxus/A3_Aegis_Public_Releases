@@ -22,7 +22,9 @@
 
             /* From "cfgEAF.hpp" */
             I_E_APC_tracked_03_cannon_v2_F,
-			Aegis_B_E_APC_tracked_03_cannon_v2_F
+			Aegis_B_E_APC_tracked_03_cannon_v2_F,
+			Aegis_I_E_APC_tracked_03_cannon_v2_ard_F,
+			Aegis_B_E_APC_tracked_03_cannon_v2_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

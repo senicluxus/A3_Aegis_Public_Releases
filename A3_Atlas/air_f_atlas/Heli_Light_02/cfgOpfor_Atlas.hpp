@@ -1,6 +1,6 @@
 class Atlas_O_T_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
     class SimpleObject
 	{
 		eden = true;
@@ -124,7 +124,7 @@ class Atlas_O_T_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 		verticalOffsetWorld = 0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_Heli_Light_02_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Heli_Light_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -133,11 +133,11 @@ class Atlas_O_T_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 	typicalCargo[] = {Atlas_O_T_Helipilot_F};
 	textureList[] =
 	{
-		Hex,1,
+		Takistan,1,
 		Black,0,
 		Blackcustom,0
 	};
-	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_OPFOR_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_02\Data\Heli_Light_02_ext_tk_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
@@ -151,7 +151,7 @@ class Atlas_O_T_Heli_Light_02_dynamicLoadout_F: O_Heli_Light_02_dynamicLoadout_F
 };
 class Atlas_O_T_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
     class SimpleObject
 	{
 		eden = true;
@@ -275,7 +275,7 @@ class Atlas_O_T_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 		verticalOffsetWorld = 0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_Heli_Light_02_unarmed_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Heli_Light_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	scopeArsenal = private;
@@ -286,11 +286,11 @@ class Atlas_O_T_Heli_Light_02_unarmed_F: O_Heli_Light_02_unarmed_F
 	typicalCargo[] = {Atlas_O_T_Helipilot_F};
 	textureList[] =
 	{
-		Hex,1,
+		Takistan,1,
 		Black,0,
 		Blackcustom,0
 	};
-	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_OPFOR_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_02\Data\Heli_Light_02_ext_tk_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);

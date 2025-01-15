@@ -65,6 +65,30 @@ class CfgVehicles
 				};
 				faction[] = {};
 			};
+			class Takistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TKHEX0;
+				author = $STR_A3_A_Ravenholme;
+				textures[] = 
+				{
+					"\A3_Atlas\Air_F_Atlas\Heli_Attack_04\Data\Heli_Attack_04_ext_01_TK_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\Heli_Attack_04\Data\Heli_Attack_04_ext_02_TK_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\Heli_Attack_04\Data\Heli_Attack_04_ext_03_TK_CO.paa"
+				};
+				faction[] = {};
+			};
+			class Ardistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_ardi0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] = 
+				{
+					"\A3_Atlas\Air_F_Atlas\Heli_Attack_04\Data\Heli_Attack_04_ext_01_ardi_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\Heli_Attack_04\Data\Heli_Attack_04_ext_02_ardi_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\Heli_Attack_04\Data\Heli_Attack_04_ext_03_ardi_CO.paa"
+				};
+				faction[] = {};
+			};
 		};
 	};
 	
@@ -72,4 +96,5 @@ class CfgVehicles
 	#include "cfgOpfor_Aegis.hpp"       // Belarus
 	#include "cfgOpfor_Atlas.hpp"       // Takistani Army
 	#include "cfgUNO.hpp"				// CDF UNO
+	#include "cfgArdistan.hpp"			//Ardistan
 };

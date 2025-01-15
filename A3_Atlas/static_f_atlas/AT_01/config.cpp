@@ -8,6 +8,7 @@ class CfgVehicles
 	// Arma 3
 	class B_static_AT_F;
 	class O_static_AT_F;
+	class O_R_Static_AT_F;
 	class I_static_AT_F;
 	class Bag_Base;
 	class Weapon_Bag_Base: Bag_Base
@@ -22,6 +23,8 @@ class CfgVehicles
     #include "cfgVenezuela.hpp"			//Venezuela
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgIDF.hpp"				// IDF
+	#include "cfgArdistan.hpp"			// Ardistan
+	#include "cfgKarzeghistan.hpp"		// Karzeghistan
     // Deprecated classes
     #include "deprecated.hpp"
 };

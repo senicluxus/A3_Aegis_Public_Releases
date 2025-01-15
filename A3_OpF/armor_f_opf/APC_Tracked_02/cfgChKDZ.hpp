@@ -206,13 +206,13 @@ class Opf_O_S_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 	class TransportWeapons
 	{
 		weap_xx(arifle_AKM_F,2);
-		weap_xx(arifle_RPK_F,1);
+		weap_xx(Aegis_arifle_RPK74M_F,1);
 		weap_xx(launch_RPG32_camo_F,1);
 	};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_545x39_Mag_F,12);
-		mag_xx(75Rnd_762x39_Mag_F,8);
+		mag_xx(Aegis_45Rnd_545x39_Mag_F,8);
 		mag_xx(HandGrenade_Guer,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(SmokeShell,8);
@@ -249,20 +249,20 @@ class Opf_O_S_APC_Tracked_02_30mm_lxWS: O_APC_Tracked_02_30mm_lxWS
         "\A3_OpF\Armor_F_opf\APC_Tracked_02\Data\APC_Tracked_02_ext_01_opf_CO.paa",
         "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUkhk_CO.paa",
         "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\apc_tracked_02_ext_03_RUkhk_co.paa",
-        "\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_30mm_RUkhk_CO.paa",
+        "\A3_Opf\Armor_F_Opf\APC_Tracked_02\Data\APC_Tracked_02_tow_chdkz_co.paa",
         "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
         "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
     };
     class TransportWeapons
 	{
-		weap_xx(arifle_AKM_F,2);
-		weap_xx(arifle_RPK_F,1);
+		weap_xx(Aegis_arifle_AKM74_F,2);
+		weap_xx(Aegis_arifle_RPK74M_F,1);
 		weap_xx(launch_RPG32_camo_F,1);
 	};
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_545x39_Mag_F,12);
-		mag_xx(75Rnd_762x39_Mag_F,8);
+		mag_xx(Aegis_45Rnd_545x39_Mag_F,8);
 		mag_xx(HandGrenade_Guer,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(SmokeShell,8);
@@ -276,8 +276,6 @@ class Opf_O_S_APC_Tracked_02_30mm_lxWS: O_APC_Tracked_02_30mm_lxWS
 		mag_xx(1Rnd_SmokeRed_Grenade_shell,3);
 		mag_xx(RPG32_F,5);
 		mag_xx(RPG32_HE_F,2);
-		mag_xx(Titan_AT,2);
-		mag_xx(Titan_AA,2);
 	};
 	class TransportBackpacks
 	{

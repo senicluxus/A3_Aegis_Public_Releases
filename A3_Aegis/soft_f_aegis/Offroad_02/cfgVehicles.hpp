@@ -38,4 +38,5 @@ class CfgVehicles
 			class CargoTurret_01: CargoTurret{};
         };
 	};
+	#include "cfgCivil.hpp"
 };

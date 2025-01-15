@@ -6,3 +6,4 @@
 
 /* Configuration */
 #include "cfgVehicles.hpp"
+#include "cfgCivilianPresence.hpp"

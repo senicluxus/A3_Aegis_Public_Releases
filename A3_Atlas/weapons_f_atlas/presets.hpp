@@ -992,6 +992,25 @@ class arifle_AK12_545_pointer_F: arifle_AK12_545_F
 	};
 };
 
+// AK-12 5.45 mm + ACO (AK) + Laser Pointer
+class Atlas_arifle_AK12_545_aco_pointer_F: arifle_AK12_545_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn_AK_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
+
 // AK-12 5.45 mm + ACO (AK) + Flashlight
 class arifle_AK12_545_aco_FL_F: arifle_AK12_545_F
 {
@@ -1200,6 +1219,19 @@ class arifle_AK12U_545_ACO_Pointer_F: arifle_AK12U_545_F
 		{
 			slot = PointerSlot;
 			item = acc_pointer_IR;
+		};
+	};
+};
+// AKU-12 5.45 mm + ACO AK (Green)
+class Atlas_arifle_AK12U_545_ACO_F: arifle_AK12U_545_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn_AK_F;
 		};
 	};
 };
@@ -2424,7 +2456,7 @@ class Atlas_srifle_EBR_blk_AMS_IR_Snds_lxWS: srifle_EBR_blk_lxWS
 	};
 };
 
-// G17 (Black) 9mm + IR + Suppressor
+// G17 (Black) 9mm + Suppressor
 class Atlas_hgun_G17_black_Snds_F: hgun_G17_black_F
 {
 	author = $STR_A3_A_Ravenholme;
@@ -2437,6 +2469,26 @@ class Atlas_hgun_G17_black_Snds_F: hgun_G17_black_F
 		};
 	};
 };
+// P320 (Black) 9mm + IR + Suppressor
+class Atlas_hgun_P320_black_IR_Snds_F: Aegis_hgun_P320_black_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_L;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = Aegis_acc_pointer_compact_pistol_red;
+		};
+	};
+};
+
+
 // AK-74M (Plum) 5.45 mm + ACO AK (Green) + Flashlight
 class Atlas_arifle_AKM74_plum_ACO_FL_F: Aegis_arifle_AKM74_plum_F
 {
@@ -2567,6 +2619,20 @@ class Atlas_srifle_DMR_06_Olive_KHS_F: srifle_DMR_06_olive_F
 	};
 };
 
+// SVD 7.62 mm (Plum) + Kahlia
+class Atlas_srifle_SVD_plum_KHS_F: Aegis_srifle_SVD_plum_f
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_KHS_blk;
+		};
+	};
+};
+
 // LIM-85 5.56 mm + Flashlight
 class Atlas_I_E_LMG_03_ACO_Flash_F: LMG_03_F
 {
@@ -2585,7 +2651,7 @@ class Atlas_I_E_LMG_03_ACO_Flash_F: LMG_03_F
 		};
 	};
 };
-// Mk11 7.62 mm + MRCO + Laser Pointer + Bipod
+// Mk11 7.62 mm + AMS + Laser Pointer + Bipod
 class Atlas_arifle_SR25_blk_MRCO_LP_BI_F: Aegis_arifle_SR25_blk_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -3464,6 +3530,494 @@ class Atlas_arifle_SR25_MR_SOS_IR_Snds_BI_F: Aegis_arifle_SR25_MR_blk_F
 		{
 			slot = UnderBarrelSlot;
 			item = bipod_01_F_blk;
+		};
+	};
+};
+
+/* Karzeghistani Royal Army Weapons */
+
+// SPAR-16 5.56 mm + ACOG + Saber Light
+class Atlas_arifle_SPAR_02_Inf_blk_ACOG_FL_F: Aegis_arifle_SPAR_02_inf_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_ACOG;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = saber_light_lxWS;
+		};
+	};
+};
+// SPAR-16 5.56 mm + Holosight + Saber Light
+class Atlas_arifle_SPAR_02_Inf_blk_Holo_FL_F: Aegis_arifle_SPAR_02_inf_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = saber_light_lxWS;
+		};
+	};
+};
+// SPAR-16C GL 5.56 mm + ACOG + Saber Light
+class Atlas_arifle_SPAR_01_GL_blk_ACOG_FL_F: arifle_SPAR_01_GL_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_ACOG;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = saber_light_lxWS;
+		};
+	};
+};
+// SPAR-16C GL 5.56 mm + Holosight + Saber Light
+class Atlas_arifle_SPAR_01_GL_blk_Holo_FL_F: arifle_SPAR_01_GL_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = saber_light_lxWS;
+		};
+	};
+};
+// SPAR-16C 5.56 mm + Holosight + Saber Light
+class Atlas_arifle_SPAR_01_blk_Holo_FL_F: arifle_SPAR_01_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = saber_light_lxWS;
+		};
+	};
+};
+// SPAR-17 7.62 mm + ACOG + Saber Light
+class Atlas_arifle_SPAR_03_blk_ACOG_FL_F: arifle_SPAR_03_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_ACOG;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = saber_light_lxWS;
+		};
+	};
+};
+// LIM-85 5.56 mm + Holosight + Saber Light
+class Atlas_LMG_03_Holo_SFL_F: LMG_03_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = saber_light_lxWS;
+		};
+	};
+};
+// GPMG 7.62 mm + ACOG + Saber Light
+class Atlas_MMG_FNMAG_ACOG_FL_F: Aegis_MMG_FNMAG_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_ACOG;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = saber_light_lxWS;
+		};
+	};
+};
+// Mk20 GL 5.56 mm + FMS + IR Laser Pointer
+class Atlas_arifle_MK20_GL_FMS_LP_F: arifle_Mk20_GL_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = acc_o_FMS;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_ir;
+		};
+	};
+};
+// Mk20C 5.56 mm + FMS + Saber Light
+class Atlas_arifle_MK20C_FMS_FL_F: arifle_Mk20C_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = acc_o_FMS;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = saber_light_lxWS;
+		};
+	};
+};
+// Mk20C 5.56 mm + MRCO + LP
+class Atlas_arifle_MK20C_MRCO_LP_F: arifle_Mk20C_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_ir;
+		};
+	};
+};
+// ACP-C2 .45 ACP + Light Module + Suppressor
+class Atlas_hgun_ACPC2_FL_Snds_F: hgun_ACPC2_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = Aegis_acc_LightModule_Pistol_sand;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_acp;
+		};
+	};
+};
+// SA-77 Compact 7.62 mm + MRCO + Saber Light
+class Atlas_LMG_S77_Compact_MRCO_FL_F: LMG_S77_Compact_lxWS
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = saber_light_lxws;
+		};
+	};
+};
+// SLR 7.62 mm + MRCO
+class Atlas_arifle_SLR_V_MRCO_F: arifle_SLR_V_lxWS
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+	};
+};
+// SLR GL 7.62 mm + MRCO
+class Atlas_arifle_SLR_V_GL_MRCO_F: arifle_SLR_V_GL_lxWS
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+	};
+};
+// MAR-10 .338 (Black) + AMS + Laser + Bipod
+class Atlas_srifle_DMR_02_AMS_LP_BI_F: srifle_DMR_02_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_AMS;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+	};
+};
+class Aegis_arifle_AKM74_GL_F;
+class Aegis_arifle_AKM74_GL_ROS_F: Aegis_arifle_AKM74_GL_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_1p87;
+		};
+	};
+};
+class Aegis_arifle_AKM74_GL_MRCO_F: Aegis_arifle_AKM74_GL_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+	};
+};
+class Aegis_arifle_AKM74_F;
+class Aegis_arifle_AKM74_ROS_F: Aegis_arifle_AKM74_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_1p87;
+		};
+	};
+};
+class Aegis_arifle_AKM74_MRCO_F: Aegis_arifle_AKM74_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+	};
+};
+class Aegis_arifle_RPK74M_F;
+class Aegis_arifle_RPK74M_BVO_F: Aegis_arifle_RPK74M_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_1p87;
+		};
+	};
+};
+class srifle_DMR_01_DMS_bpd_black_F: srifle_DMR_01_black_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_DMS_weathered_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = saber_light_lxWS;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_02_F_blk;
+		};
+	};
+};
+// SVD 7.62 mm (Black) + DMS + Flashlight
+class Atlas_srifle_SVD_blk_DMS_FL_F: Aegis_srifle_SVD_blk_f
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_DMS_weathered_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight_pistol;
+		};
+	};
+};
+
+// M16E4 FG 5.56 mm + Flashlight
+class Atlas_arifle_M16A4_FL_F: Aegis_arifle_M16A4_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
+// M16E4 FG 5.56 mm + Flashlight
+class Atlas_arifle_M16A4_FG_FL_F: Aegis_arifle_M16A4_FG_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
+// M16E4 FG 5.56 mm + RDS (High) + Flashlight
+class Atlas_arifle_M16A4_FG_ROS_FL_F: Aegis_arifle_M16A4_FG_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_r1_high_lxWS;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
+// M16E4 FG 5.56 mm + ACOG + Flashlight
+class Atlas_arifle_M16A4_FG_ACOG_FL_F: Aegis_arifle_M16A4_FG_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_ACOG;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
+// M16E4 GL 5.56 mm + RDS (High) + Flashlight
+class Atlas_arifle_M16A4_GL_ROS_FL_F: Aegis_arifle_M16A4_GL_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_r1_high_lxWS;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
+// M16E4 GL 5.56 mm + ACOG + Flashlight
+class Atlas_arifle_M16A4_GL_ACOG_FL_F: Aegis_arifle_M16A4_GL_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_ACOG;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
 		};
 	};
 };

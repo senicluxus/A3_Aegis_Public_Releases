@@ -211,7 +211,7 @@ class CfgWorlds
 				tran = "Tran";
 			};
 		};
-		class FrenchMen // French male names
+		/*class FrenchMen // French male names - move to Aegis for Malden Civilians
 		{
 			class FirstNames
 			{
@@ -419,7 +419,7 @@ class CfgWorlds
 				fabre = "Fabre";
 				dupuis = "Dupuis";
 			};
-		};
+		};*/
 		class GermanMen // German male names
 		{
 			class FirstNames

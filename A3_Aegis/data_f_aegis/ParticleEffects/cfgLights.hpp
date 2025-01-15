@@ -172,56 +172,65 @@ class CfgLights
             0.25    // B
         };
 	};
-	class Aegis_HandFlare_Light_Red
+
+	// Hand Flares
+	class Aegis_HandFlare_Light_Base
+	{
+		intensity=20000;
+		drawLight=0;
+		class Attenuation
+		{
+			start=0;
+			constant=0;
+			linear=0;
+			quadratic=0;
+		};
+		dayLight=0;
+		useFlare=1;
+		flareSize=5;
+		flareMaxDistance=600;
+		position[]={0,0.019,-0.125};
+	};
+
+	class Aegis_HandFlare_Light_Red: Aegis_HandFlare_Light_Base
 	{
 		color[]={1,0.25,0};
-		diffuse[]={0.80000001,0.35,0.25};
+		diffuse[]={0.8,0.35,0.25};
 		ambient[]={2,0.3,0};
-		///brightness=10000;
-		intensity=20000;
-		drawLight=0;
-		class Attenuation
-		{
-			start=0;
-			constant=0;
-			linear=0;
-			quadratic=0;
-		};
-		dayLight=0;
-		useFlare=1;
-		flareSize=5;
-		flareMaxDistance=600;
-		position[]={0,0.019,-0.125};
 	};
-	class Aegis_HandFlare_Light_Green //Could inherit from red for slimmer code
+	class Aegis_HandFlare_Light_Green: Aegis_HandFlare_Light_Base
 	{
 		color[]={0.5,1,0.25};
-		diffuse[]={0.5,0.80000001,0.25};
+		diffuse[]={0.5,0.8,0.25};
 		ambient[]={0.25,2,0.25};
-		///brightness=10000;
-		intensity=20000;
+	};
+
+	// Signal Flares
+	class Aegis_SignalFlare_Light_Base: Aegis_HandFlare_Light_Base
+	{
+		intensity=2500;
 		drawLight=0;
-		class Attenuation
-		{
-			start=0;
-			constant=0;
-			linear=0;
-			quadratic=0;
-		};
-		dayLight=0;
-		useFlare=1;
-		flareSize=5;
-		flareMaxDistance=600;
-		position[]={0,0.019,-0.125};
+		flareSize=3.5;
+		flareMaxDistance=800;
+	};
+	// Signal Flare Colours
+	class Aegis_SignalFlare_Light_Red: Aegis_SignalFlare_Light_Base
+	{
+		color[]={1,0.25,0};
+		diffuse[]={0.8,0.35,0.25};
+		ambient[]={2,0.3,0};
+	};
+	class Aegis_SignalFlare_Light_Green: Aegis_SignalFlare_Light_Base
+	{
+		color[]={0.5,1,0.25};
+		diffuse[]={0.5,0.8,0.25};
+		ambient[]={0.25,2,0.25};
 	};
 	
-	//light for sparks
+	// Sparks Light
 	class Aegis_HandFlare_Light_Sparks 
 	{
-		color[]={0.10000001,0.10000001,0.10000001};
-		diffuse[]={0.80000001,0.2,0};
 		ambient[]={0,0,0,0};
-		brightness=5;
 		intensity=500;
 		drawLight=0;
 		class Attenuation
@@ -237,5 +246,15 @@ class CfgLights
 		useFlare=0;
 		blinking=0;
 		position[]={0,0.019,-0.125};
+	};
+	class Aegis_HandFlare_Light_Sparks_Red: Aegis_HandFlare_Light_Sparks
+	{
+		color[]={0.1,0.1,0.1};
+		diffuse[]={0.8,0.2,0};
+	};
+	class Aegis_HandFlare_Light_Sparks_Green: Aegis_HandFlare_Light_Sparks 
+	{
+		color[]={0.1,0.1,0.1};
+		diffuse[]={0.2,0.8,0};
 	};
 };

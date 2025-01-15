@@ -2531,6 +2531,407 @@ class CfgSoundShaders
 		};
 		limitation=1;
 	};
+	class Aegis_M4A1_GL_closeShot_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_GL_closeShot_01",
+				1
+			}
+		};
+		volume=1;
+		range=50;
+		rangeCurve="closeShotCurve";
+	};
+	class Aegis_M4A1_GL_midShot_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_GL_midShot_01",
+				1
+			}
+		};
+		volume=0.50118721;
+		range=2000;
+		rangeCurve[]=
+		{
+			{0,0.2},
+			{50,1},
+			{300,0},
+			{2000,0}
+		};
+	};
+	class Aegis_M4A1_GL_distShot_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\M4A1\M4A1_GL_distShot_01",
+				1
+			}
+		};
+		volume=1;
+		range=2000;
+		rangeCurve[]=
+		{
+			{0,0},
+			{50,0},
+			{300,1},
+			{2000,1}
+		};
+	};
+	// P320 9mm
+	class Aegis_P320_Closure_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_closure_01",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_closure_02",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_closure_03",
+				1
+			},
+		};
+		range=5;
+		volume="db-11";
+	};
+	class Aegis_P320_closeShot_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_closeShot_01",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_closeShot_02",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_closeShot_03",
+				1
+			}
+		};
+		volume="db0";
+		range=50;
+		rangeCurve="closeShotCurve";
+	};
+	class Aegis_P320_midShot_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_midShot_01",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_midShot_02",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_midShot_03",
+				1
+			}
+		};
+		volume="db-3";
+		range=1200;
+		rangeCurve[]=
+		{
+			{0,0.2},
+			{50,1},
+			{150,0},
+			{1200,0}
+		};
+	};
+	class Aegis_P320_distShot_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_distShot_01",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_distShot_02",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_distShot_03",
+				1
+			}
+		};
+		volume="db0";
+		range=1200;
+		rangeCurve[]=
+		{
+			{0,0},
+			{50,0},
+			{150,1},
+			{1200,1}
+		};
+	};
+	class Aegis_P320_tailDistant_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_taildistant",
+				1
+			}
+		};
+		volume="db0";
+		range=1200;
+		rangeCurve[]=
+		{
+			{0,0},
+			{300,0.69999999},
+			{1200,1}
+		};
+		limitation=1;
+	};
+	class Aegis_P320_tailForest_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_tailforest",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*forest/3";
+		range=1200;
+		rangeCurve[]=
+		{
+			{0,1},
+			{1200,0}
+		};
+		limitation=1;
+	};
+	class Aegis_P320_tailHouses_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_tailhouses",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*houses/3";
+		range=1200;
+		rangeCurve[]=
+		{
+			{0,1},
+			{150,0.30000001},
+			{1200,0}
+		};
+		limitation=1;
+	};
+	class Aegis_P320_tailInterior_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_tailinterior",
+				1
+			}
+		};
+		volume="interior";
+		range=250;
+		rangeCurve[]=
+		{
+			{0,1},
+			{30,0.40000001},
+			{100,0.2},
+			{250,0}
+		};
+		limitation=1;
+	};
+	class Aegis_P320_tailMeadows_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_tailmeadows",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range=1200;
+		rangeCurve[]=
+		{
+			{0,1},
+			{1200,0}
+		};
+		limitation=1;
+	};
+	class Aegis_P320_tailTrees_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\P320_tailtrees",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*trees/3";
+		range=1200;
+		rangeCurve[]=
+		{
+			{0,1},
+			{1200,0}
+		};
+		limitation=1;
+	};
+	class Aegis_P320_suppressed_Shot_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\suppressed\P320_suppressed_Shot_01",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\suppressed\P320_suppressed_Shot_02",
+				1
+			},
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\suppressed\P320_suppressed_Shot_03",
+				1
+			}
+		};
+		volume="db0";
+		range=150;
+		rangeCurve="closeShotCurve";
+	};
+	class Aegis_P320_suppressed_TailForest_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\suppressed\P320_suppressed_TailForest",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*forest/3";
+		range=150;
+		rangeCurve[]=
+		{
+			{0,1},
+			{150,0.30000001}
+		};
+		limitation=1;
+	};
+	class Aegis_P320_suppressed_TailHouses_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\suppressed\P320_suppressed_TailHouses",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*houses/3";
+		range=150;
+		rangeCurve[]=
+		{
+			{0,1},
+			{150,0}
+		};
+		limitation=1;
+	};
+	class Aegis_P320_suppressed_TailInterior_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\suppressed\P320_suppressed_TailInterior",
+				1
+			}
+		};
+		volume="interior";
+		range=150;
+		rangeCurve[]=
+		{
+			{0,1},
+			{50,0.30000001},
+			{150,0}
+		};
+		limitation=1;
+	};
+	class Aegis_P320_suppressed_TailMeadows_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\suppressed\P320_suppressed_TailMeadows",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*(meadows/2 max sea/2)/3";
+		range=150;
+		rangeCurve[]=
+		{
+			{0,1},
+			{150,0.30000001}
+		};
+		limitation=1;
+	};
+	class Aegis_P320_suppressed_TailTrees_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\P320\suppressed\P320_suppressed_TailTrees",
+				1
+			}
+		};
+		volume="(1-interior/1.4)*trees/3";
+		range=150;
+		rangeCurve[]=
+		{
+			{0,1},
+			{150,0.30000001}
+		};
+		limitation=1;
+	};
+
 	// Misc Plane SoundShader
 	class Plane_Fighter_RainExt_SoundShader
 	{

@@ -67,6 +67,17 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			/*class Ardistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_ardi0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\MRAP_03_ext_ardi_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\MRAP_03\Data\Turret_ardi_CO.paa"
+				};
+				factions[] = {};
+			};*/
 		};
 	};
 	class MRAP_03_hmg_base_F: MRAP_03_base_F
@@ -82,6 +93,7 @@ class CfgVehicles
 	#include "cfgLegion.hpp"            // Legionnaires
 	#include "cfgBlufor_Atlas.hpp"      // Bundeswehr
 	#include "cfgADF.hpp"				//ADF
+	//#include "cfgArdistan.hpp"			//Ardistan
     // Deprecated classes
     #include "deprecated.hpp"
 };

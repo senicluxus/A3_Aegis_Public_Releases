@@ -33,6 +33,18 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class KZG
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_BLU_K_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Atlas\Air_F_Atlas\Heli_Light_03\Data\Heli_Light_03_base_kzg_CO.paa",
+                    "\A3\Supplies_F_Enoch\Ammoboxes\Data\AmmoBox_EAF_CO.paa",
+                    "\A3_Atlas\Supplies_F_Atlas\Ammoboxes\Data\AmmoBox_signs_CA.paa"
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class Heli_light_03_dynamicLoadout_base_F: Heli_light_03_base_F{};
@@ -40,4 +52,5 @@ class CfgVehicles
 
     /* Factions */
     #include "cfgLegion.hpp"    // Legionnaires
+    #include "cfgKarzeghistan.hpp"	// Karzeghistan
 };

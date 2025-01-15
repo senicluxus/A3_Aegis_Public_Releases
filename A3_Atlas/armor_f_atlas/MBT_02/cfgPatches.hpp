@@ -13,6 +13,9 @@
             // Takistani Army
             Atlas_O_T_MBT_02_cannon_F,
 
+            // Ardistan
+            Atlas_I_AR_MBT_02_cannon_F,
+
             // CDF
             Atlas_I_C_MBT_02_cannon_F,
 

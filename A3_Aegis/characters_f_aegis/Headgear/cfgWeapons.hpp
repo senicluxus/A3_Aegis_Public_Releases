@@ -331,6 +331,11 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_H_Cap_tan_specops_US0;
 	  	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\capb_us_CO.paa"};
 	};
+	class H_Cap_UK_mtp: H_Cap_red
+	{
+		displayName = "Cap [BAF] (MTP)";
+	  	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\capb_ukmtp_CO.paa"};
+	};
 	class H_Cap_khaki_specops_UK: H_Cap_red{};
 	class H_Cap_grn: H_Cap_red
 	{
@@ -2073,14 +2078,14 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_Lowaltitude;
 		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_UNO0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Booniehat_UNO_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Booniehat_UNO_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\booniehat_uno_CO.paa"};
 	};
 	class Aegis_H_Booniehat_UNO_hs_F: Aegis_H_Booniehat_UNO_F
 	{
 		author = $STR_A3_A_Lowaltitude;
 		displayName = $STR_A3_A_CfgWeapons_H_Booniehat_UNO_hs0;
-		//picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Booniehat_UNO_hs_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Booniehat_UNO_hs_F_CA.paa";
 		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		class ItemInfo: ItemInfo
 		{
@@ -2194,7 +2199,7 @@ class CfgWeapons
 	};
 	class H_PASGT_goggles_sand_F : lxWS_H_PASGT_goggles_UN_F
 	{
-		//picture = "\A3_Aegis\characters_f_aegis\headgear\data\UI\icon_H_PASGT_goggles_sand_F.paa";
+		picture = "\A3_Aegis\characters_f_aegis\headgear\data\UI\icon_H_PASGT_goggles_sand_F_ca.paa";
 		displayName = $STR_A3_A_CfgWeapons_H_PASGT_goggles_sand_F0;
 		scope = public;
 		hiddenSelectionsTextures[] = {
@@ -2354,7 +2359,7 @@ class CfgWeapons
 		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecter_cover_UNO_F0;
-		//picture = "\A3_Opf\Characters_F_Opf\Headgear\Data\UI\icon_H_HelmetSpecter_cover_khaki_F_CA.paa";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecter_cover_UNO_F_CA.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_CO.paa",
@@ -2475,6 +2480,90 @@ class CfgWeapons
 		{
 			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_CO.paa",
 			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_cover_taiga_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_cover_AAF_F: H_HelmetSpecter_cover_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_HelmetSpecter_cover_AAF_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\H_HelmetSpecter_cover_AAF_F_ca.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_cover_aaf_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_cover_hex_F: H_HelmetSpecter_cover_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_hex_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecter_cover_hex_F_ca.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_brown_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_cover_hex_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_cover_ghex_F: H_HelmetSpecter_cover_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_ghex_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecter_cover_ghex_F_ca.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_brown_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_cover_ghex_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_cover_dst_F: H_HelmetSpecter_cover_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_dst_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecter_cover_dst_F_ca.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_brown_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_cover_dst_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_cover_uhex_F: H_HelmetSpecter_cover_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_urbanhex_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecter_cover_uhex_F_ca.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_black_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_cover_urban_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_cover_arid_F: H_HelmetSpecter_cover_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_arid_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecter_cover_uhex_F_ca.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_brown_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_cover_arid_CO.paa"
+		};
+	};
+	class H_HelmetSpecter_cover_grn_F: H_HelmetSpecter_cover_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+		scope = public;
+		displayName = $STR_A3_O_CfgWeapons_H_HelmetSpecter_cover_grn_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecter_cover_khaki_F_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_cover_rgr_CO.paa"
 		};
 	};
 
@@ -2755,6 +2844,14 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetAggressor_black_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetAggressor_01_black_CO.paa"};
 	};
+	class Aegis_H_HelmetAggressor_cover_ruurban_F: H_HelmetAggressor_cover_base_F
+  	{
+    	author = $STR_A3_A_BranFlakes;
+    	scope = public;
+    	displayName = $STR_A3_A_cfgweapons_h_helmetaggressor_cover_ruurban_f0;
+    	picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_HelmetAggressor_cover_ruurban_F_CA.paa";
+    	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetAggressor_01_ruUrban_co.paa"};
+  	};
 	class H_Booniehat_mgrn_hs: H_Booniehat_mgrn
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -3503,8 +3600,569 @@ class CfgWeapons
 			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_oli_CO.paa"
         };
 	};
-
+	class Aegis_H_Helmet_FASTMT_Cover_UN_F: Aegis_H_Helmet_FASTMT_Cover_base_F
+	{
+		author = $STR_A3_A_JC980_Jamie;
+        scope = public;
+        displayName = "Operator Helmet (Cover, UN)";
+        //picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\Aegis_H_Helmet_FASTMT_Cover_UN_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+         	"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetFASTMT_rgr_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetFASTMT_Cover_UN_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_oli_CO.paa"
+        };
+	};
 	/* FAST MT End*/
+	/* Military Cap - No Headsets*/
+	class Aegis_H_Milcap_nohs_base_F: HelmetBase
+	{
+		author = $STR_A3_A_Grave;
+		scope = private;
+		displayName = "Military Cap";
+		picture="\A3\Characters_F_Bootcamp\Data\UI\icon_H_MilCap_ocamo_ca.paa";
+		model="A3_Aegis\characters_f_aegis\Headgear\Aegis_H_Cap_Military_F";
+		class ItemInfo: ItemInfo
+		{
+			mass=6;
+			allowedSlots[]={901,701,605};
+			uniformModel="\A3_Aegis\characters_f_aegis\Headgear\Aegis_H_Cap_Military_F.p3d";
+			modelSides[]={1,2,3,4,5,6,7};
+		};
+	};
+	class Aegis_H_Milcap_nohs_mcamo_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_mcamo0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_mcamo_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\cappatrol_multicam_CO.paa"};
+	};
+	class Aegis_H_Milcap_nohs_ocamo_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_ocamo0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_ocamo_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\cappatrol_ocamo_co.paa"};
+	};
+	class Aegis_H_Milcap_nohs_oucamo_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_oucamo0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_oucamo_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\cappatrol_oucamo_CO.paa"};
+	};
+	class Aegis_H_Milcap_nohs_gry_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_gry0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_gry_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\cappatrol_grey_co.paa"};
+	};
+	class Aegis_H_Milcap_nohs_dgtl_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_dgtl0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_dgtl_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\cappatrol_indp_co.paa"};
+	};
+	class Aegis_H_Milcap_nohs_blue_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_blue_boot0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_blue_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\cappatrol_blue_co.paa"};
+	};
+	class Aegis_H_Milcap_nohs_grn_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_grn0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_grn_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Enoch\Headgear\Data\cappatrol_RUkhk_co.paa"};
+	};
+	class Aegis_H_Milcap_nohs_taiga_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_taiga0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_taiga_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Enoch\Headgear\Data\cappatrol_RUtaiga_co.paa"};
+	};
+	class Aegis_H_Milcap_nohs_wdl_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_wdl0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_wdl_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Enoch\Headgear\Data\cappatrol_wdl_co.paa"};
+	};
+	class Aegis_H_Milcap_nohs_eaf_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_eaf0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_eaf_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Enoch\Headgear\Data\cappatrol_eaf_co.paa"};
+	};
+	class Aegis_H_Milcap_nohs_tna_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_tna_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_tna_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_MilCap_tna_F_CO.paa"};
+	};
+	class Aegis_H_Milcap_nohs_ghex_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_ghex_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_ghex_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_MilCap_ghex_F_CO.paa"};
+	};
+	class Aegis_H_Milcap_nohs_gen_F: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_gen_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_gen_F_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_Exp\Headgear\Data\H_MilCap_gen_F_co.paa"};
+	};
+	class Aegis_H_MilCap_nohs_tan: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_tan0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_tan_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\cappatrol_tan_CO.paa"};
+	};
+	class Aegis_H_MilCap_nohs_blk: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_blk0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_blk_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_EPB\Common\Data\cappatrol_blk_CO.paa"};
+	};
+	class Aegis_H_MilCap_nohs_oicamo: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_oicamo0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_oicamo_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\cappatrol_oicamo_CO.paa"};
+	};
+	class Aegis_H_MilCap_nohs_UNO: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Lowaltitude;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_UNO0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_UNO_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\cappatrol_uno_CO.paa"};
+	};
+	class Aegis_H_MilCap_nohs_eaf_arid: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_eaf_arid0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_nohs_eaf_arid_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\cappatrol_eaf_arid_CO.paa"};
+	};
+	/*class Aegis_H_MilCap_nohs_UN_lxWS: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_UN_lxWS0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\Aegis_H_MilCap_UNO_ca.paa";
+		hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\cappatrol_uno_CO.paa"};
+	};*/
+	class Aegis_H_MilCap_nohs_desert_lxWS: Aegis_H_Milcap_nohs_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_nohs_Desert_lxWS0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_MilCap_nohs_desert_lxWS_ca.paa";
+   		hiddenSelectionsTextures[]= { "\lxws\characters_f_lxws\headgear\a3\data\cappatrol_desert_CO.paa" };
+	};
+	/* Military Cap - No headset - END*/
+	/* Military Cap - Tactical Headset*/
+	class Aegis_H_Milcap_tachs_base_F: HelmetBase
+	{
+		author = $STR_A3_A_Grave;
+		scope = private;
+		displayName = "Military Cap (Tactical Headset)";
+		picture="\A3\Characters_F_Bootcamp\Data\UI\icon_H_MilCap_ocamo_ca.paa";
+		model="A3_Aegis\characters_f_aegis\Headgear\Aegis_H_Cap_Military_TacHeadset_F";
+		hiddenSelections[] =
+		{
+			camo,
+			camo1,
+			camo2,
+			camo3
+		};
+		class ItemInfo: ItemInfo
+		{
+			mass=6;
+			hiddenSelections[] =
+			{
+				camo,
+				camo1,
+				camo2,
+				camo3
+			};
+			allowedSlots[]={901,701,605};
+			uniformModel="\A3_Aegis\characters_f_aegis\Headgear\Aegis_H_Cap_Military_TacHeadset_F.p3d";
+			modelSides[]={1,2,3,4,5,6,7};
+		};
+	};
+	class Aegis_H_MilCap_tachs_tan_F: Aegis_H_Milcap_tachs_base_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_tachs_tan0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_tachs_tan_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3\Characters_F\Common\Data\cappatrol_tan_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_khk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_khk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_khk_CO.paa"
+
+		};
+	};
+	class Aegis_H_MilCap_tachs_blk_F: Aegis_H_Milcap_tachs_base_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_tachs_blk0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_tachs_blk_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3\Characters_F_EPB\Common\Data\cappatrol_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_blk_CO.paa"
+
+		};
+	};
+	class Aegis_H_MilCap_tachs_blue_F: Aegis_H_Milcap_tachs_base_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_tachs_blue0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_tachs_blue_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3\Characters_F\Common\Data\cappatrol_blue_co.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_blk_CO.paa"
+
+		};
+	};
+	class Aegis_H_MilCap_tachs_grn_F: Aegis_H_Milcap_tachs_base_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_tachs_grn0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_tachs_grn_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3\Characters_F_Enoch\Headgear\Data\cappatrol_RUkhk_co.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_grn_CO.paa"
+
+		};
+	};
+	class Aegis_H_MilCap_tachs_taiga_F: Aegis_H_Milcap_tachs_base_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_H_MilCap_tachs_rutaiga0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Milcap_tachs_taiga_F_ca.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3\Characters_F_Enoch\Headgear\Data\cappatrol_RUtaiga_co.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_Headset_Tactical_grn_CO.paa"
+
+		};
+	};
+
+	/* Military Cap - Tactical Headset - END*/
+
+	/* Virtus/Fortis Helmet - Begin */
+	class Aegis_H_Helmet_Virtus_base_F: H_HelmetB
+    {
+        author = $STR_A3_A_Jamie;
+        scope = private;
+        displayName = "Fortis Helmet";
+        //picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Helmet_FASTMT_F_ca.paa";
+        model = "\A3_Aegis\Characters_F_Aegis\Headgear\H_HelmetVirtus_F";
+		descriptionShort = $STR_A3_SP_AL_II;
+        hiddenSelections[] = {camo};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			hiddenSelections[] = {camo};
+			uniformModel = "\A3_Aegis\Characters_F_Aegis\Headgear\H_HelmetVirtus_F.p3d";
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = HitHead;
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class Aegis_H_Helmet_Virtus_snd_F: Aegis_H_Helmet_Virtus_base_F
+	{
+		author = $STR_A3_A_Jamie;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_H_Helmet_Virtus_snd_F0;
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Helmet_Virtus_snd_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+         	"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_snd_CO.paa"
+        };
+	};
+	class Aegis_H_Helmet_Virtus_rgr_F: Aegis_H_Helmet_Virtus_base_F
+	{
+		author = $STR_A3_A_Jamie;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_H_Helmet_Virtus_rgr_F0;
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Helmet_Virtus_rgr_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+         	"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_grn_CO.paa"
+        };
+	};
+
+	class Aegis_H_Helmet_Virtus_Headset_base_F: Aegis_H_Helmet_Virtus_base_F
+    {
+        author = $STR_A3_A_Jamie;
+        scope = private;
+        displayName = "Fortis Helmet (Headset)";
+        //picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\Aegis_H_Helmet_Virtus_Headset_F_ca.paa";
+        model = "\A3_Aegis\Characters_F_Aegis\Headgear\H_HelmetVirtus_Headset_F";
+        hiddenSelections[] = {camo, camo1};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			hiddenSelections[] = {camo, camo1};
+			uniformModel = "\A3_Aegis\Characters_F_Aegis\Headgear\H_HelmetVirtus_Headset_F.p3d";
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = HitHead;
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class Aegis_H_Helmet_Virtus_Headset_snd_F: Aegis_H_Helmet_Virtus_Headset_base_F
+	{
+		author = $STR_A3_A_Jamie;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_H_Helmet_Virtus_Headset_snd_F0;
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Helmet_Virtus_Headset_snd_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+         	"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_snd_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_tan_CO.paa"
+
+        };
+	};
+	class Aegis_H_Helmet_Virtus_Headset_rgr_F: Aegis_H_Helmet_Virtus_Headset_base_F
+	{
+		author = $STR_A3_A_Jamie;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_H_Helmet_Virtus_Headset_rgr_F0;
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Helmet_Virtus_rgr_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+         	"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_blk_CO.paa"
+
+        };
+	};
+
+	class Aegis_H_Helmet_Virtus_Cover_base_F: Aegis_H_Helmet_Virtus_base_F
+    {
+        author = $STR_A3_A_Jamie;
+        scope = private;
+        displayName = "Fortis Helmet (Cover)";
+        //picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\Aegis_H_Helmet_Virtus_Cover_F_ca.paa";
+        model = "\A3_Aegis\Characters_F_Aegis\Headgear\H_HelmetVirtus_Cover_F";
+        hiddenSelections[] = {camo, camo1, camo2};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			hiddenSelections[] = {camo, camo1, camo2};
+			uniformModel = "\A3_Aegis\Characters_F_Aegis\Headgear\H_HelmetVirtus_Cover_F.p3d";
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = HitHead;
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class Aegis_H_Helmet_Virtus_Cover_mtp_F: Aegis_H_Helmet_Virtus_Cover_base_F
+	{
+		author = $STR_A3_A_Jamie;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_H_Helmet_Virtus_Cover_mtp_F0;
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Helmet_Virtus_Cover_MTP_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_snd_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_Cover_mtp_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_tan_CO.paa"
+        };
+	};
+	class Aegis_H_Helmet_Virtus_Cover_tna_F: Aegis_H_Helmet_Virtus_Cover_base_F
+	{
+		author = $STR_A3_A_Jamie;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_H_Helmet_Virtus_Cover_tna_F0;
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Helmet_Virtus_Cover_tna_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_Cover_tna_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_oli_CO.paa"
+        };
+	};
+	class Aegis_H_Helmet_Virtus_Cover_wdl_F: Aegis_H_Helmet_Virtus_Cover_base_F
+	{
+		author = $STR_A3_A_Jamie;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_H_Helmet_Virtus_Cover_wdl_F0;
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Helmet_Virtus_Cover_wdl_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_Cover_wdl_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_blk_CO.paa"
+        };
+	};
+	class Aegis_H_Helmet_Virtus_Cover_UN_F: Aegis_H_Helmet_Virtus_Cover_base_F
+	{
+		author = $STR_A3_A_Jamie;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_H_Helmet_Virtus_Cover_UN_F0;
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Helmet_Virtus_Cover_UN_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_Cover_UN_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_blk_CO.paa"
+        };
+	};
+	class Aegis_H_Helmet_Virtus_Scrim_base_F: Aegis_H_Helmet_Virtus_base_F
+    {
+        author = $STR_A3_A_Jamie;
+        scope = private;
+        displayName = "Fortis Helmet (Scrim)";
+        //picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\Aegis_H_Helmet_Virtus_Scrim_F_ca.paa";
+        model = "\A3_Aegis\Characters_F_Aegis\Headgear\H_HelmetVirtus_Scrim_F";
+        hiddenSelections[] = {camo, camo1, camo2, camo3};
+		class ItemInfo: HeadgearItem
+		{
+			mass = 30;
+			hiddenSelections[] = {camo, camo1, camo2, camo3};
+			uniformModel = "\A3_Aegis\Characters_F_Aegis\Headgear\H_HelmetVirtus_Scrim_F.p3d";
+			modelSides[] =
+			{
+				TWest,
+				TCivilian
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName = HitHead;
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
+		};
+	};
+	class Aegis_H_Helmet_Virtus_Scrim_mtp_F: Aegis_H_Helmet_Virtus_Scrim_base_F
+	{
+		author = $STR_A3_A_Jamie;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_H_Helmet_Virtus_Scrim_mtp_F0;
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Helmet_Virtus_scrim_MTP_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_snd_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_Cover_mtp_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_tan_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\ghillie2_baf_co.paa"
+        };
+	};
+	class Aegis_H_Helmet_Virtus_Scrim_tna_F: Aegis_H_Helmet_Virtus_Scrim_base_F
+	{
+		author = $STR_A3_A_Jamie;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_H_Helmet_Virtus_Scrim_tna_F0;
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Helmet_Virtus_scrim_tna_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_Cover_tna_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_oli_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\ghillie2_baf_tna_co.paa"
+        };
+	};
+	class Aegis_H_Helmet_Virtus_Scrim_wdl_F: Aegis_H_Helmet_Virtus_Scrim_base_F
+	{
+		author = $STR_A3_A_Jamie;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_H_Helmet_Virtus_Scrim_wdl_F0;
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_Aegis_H_Helmet_Virtus_scrim_wdl_F_ca.paa";
+		hiddenSelectionsTextures[] =
+        {
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_grn_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetVirtus_Cover_wdl_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Headgear\Data\ghillie2_baf_wdl_co.paa"
+        };
+	};
+	/* Virtus/Fortis Helmet - END */
+
 
     /* Deprecated */
     #include "deprecated.hpp"

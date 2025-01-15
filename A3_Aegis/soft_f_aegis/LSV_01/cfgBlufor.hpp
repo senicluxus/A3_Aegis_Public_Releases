@@ -282,12 +282,12 @@ class B_W_LSV_01_armed_F: LSV_01_armed_base_F
 	typicalCargo[] = {B_W_Soldier_F};
 	textureList[] =
 	{
-		Black,0,
-		Olive,1
+		Olive,0,
+		wdl,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa"
@@ -323,7 +323,7 @@ class B_W_LSV_01_armed_F: LSV_01_armed_base_F
 		{
             textures[] =
             {
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
+                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
                 "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
                 "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
                 "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
@@ -345,12 +345,12 @@ class B_W_LSV_01_AT_F: LSV_01_AT_base_F
 	typicalCargo[] = {B_W_Soldier_F};
 	textureList[] =
 	{
-		Black,0,
-		Olive,1
+		Olive,0,
+		wdl,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
@@ -382,21 +382,6 @@ class B_W_LSV_01_AT_F: LSV_01_AT_base_F
 	};
 
     /* Liveries */
-	class TextureSources: TextureSources
-	{
-		class Olive: Olive
-		{
-            textures[] =
-            {
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
-                "\A3\Weapons_F_Beta\Launchers\Titan\Data\Launcher_INDP_CO.paa",
-                "\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_INDP_CO.paa"
-            };
-		};
-	};
 };
 class B_W_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 {
@@ -410,12 +395,12 @@ class B_W_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 	typicalCargo[] = {B_W_Soldier_F};
 	textureList[] =
 	{
-		Black,0,
-		Olive,1
+		Olive,0,
+		wdl,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa"
@@ -444,22 +429,6 @@ class B_W_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 		weap_xx(arifle_MX_Black_F,2);
 	};
 
-    /* Liveries */
-	class TextureSources: TextureSources
-	{
-		class Olive: Olive
-		{
-            textures[] =
-            {
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
-                "\A3\Weapons_F_Beta\Launchers\Titan\Data\Launcher_INDP_CO.paa",
-                "\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_INDP_CO.paa"
-            };
-		};
-	};
 };
 class B_W_LSV_01_light_F: LSV_01_light_base_F
 {
@@ -473,12 +442,12 @@ class B_W_LSV_01_light_F: LSV_01_light_base_F
 	typicalCargo[] = {B_W_Soldier_F};
 	textureList[] =
 	{
-		Black,0,
-		Olive,1
+		Olive,0,
+		wdl,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa"
@@ -508,21 +477,6 @@ class B_W_LSV_01_light_F: LSV_01_light_base_F
 	};
 
     /* Liveries */
-	class TextureSources: TextureSources
-	{
-		class Olive: Olive
-		{
-            textures[] =
-            {
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
-                "\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
-                "\A3\Weapons_F_Beta\Launchers\Titan\Data\Launcher_INDP_CO.paa",
-                "\A3\Weapons_F_Beta\Launchers\Titan\Data\TubeM_INDP_CO.paa"
-            };
-		};
-	};
 };
 
 /* US (Desert) */

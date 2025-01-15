@@ -1473,7 +1473,7 @@ class CfgVehicles
 			};
 			class EAF
 			{
-				displayName = "LDF";
+				displayName = $STR_A3_C_CfgVehicles_Offroad_01_civil_base_F_TextureSources_EAF0;
 				author = $STR_A3_A_BranFlakes;
 				textures[]=
 				{
@@ -1481,6 +1481,18 @@ class CfgVehicles
 					"\A3_Aegis\air_f_Aegis\Heli_Attack_04\Data\Skins\Heli_Attack_04_ext_02_LDF_CO.paa",
 					"\A3_Aegis\air_f_Aegis\Heli_Attack_04\Data\Skins\Heli_Attack_04_ext_03_LDF_CO.paa"
 				};
+				factions[]={};
+			};
+			class EAF_arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[]=
+				{
+					"\A3_Aegis\air_f_Aegis\Heli_Attack_04\Data\Skins\Heli_Attack_04_ext_01_LDF_arid_CO.paa",
+					"\A3_Aegis\air_f_Aegis\Heli_Attack_04\Data\Skins\Heli_Attack_04_ext_02_LDF_arid_CO.paa",
+					"\A3_Aegis\air_f_Aegis\Heli_Attack_04\Data\Skins\Heli_Attack_04_ext_03_LDF_arid_CO.paa"
+				};	
 				factions[]={};
 			};
 		};

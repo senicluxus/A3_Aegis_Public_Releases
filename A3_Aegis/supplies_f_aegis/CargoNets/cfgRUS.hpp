@@ -50,12 +50,13 @@ class O_R_CargoNet_01_ammo_F: O_CargoNet_01_ammo_F
 		mag_xx(20Rnd_556x45_UW_mag,6);
 		mag_xx(20Rnd_556x45_Stanag_green,6);
 		mag_xx(17Rnd_9x21_Mag,4);
-		mag_xx(30Rnd_9x21_Mag_SMG_02,12);
+		mag_xx(Aegis_40Rnd_9x21_Gepard_Yellow_Mag_F,12);
 		mag_xx(1Rnd_HE_Grenade_shell,24);
 		mag_xx(30Rnd_545x39_AK12_Mag_F,96);
-		mag_xx(75Rnd_762x39_AK12_Mag_F,32);
+		mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,32);
 		mag_xx(10Rnd_127x54_Mag,12);
-		mag_xx(10Rnd_93x64_DMR_05_Mag,12);
+		mag_xx(10Rnd_762x54_Mag,12);
+		mag_xx(10Rnd_93x64_DMR_05_Mag,6);
 		mag_xx(5Rnd_127x108_APDS_Mag,4);
 		mag_xx(5Rnd_127x108_Mag,8);
 		mag_xx(4Rnd_12Gauge_Pellets,6);
@@ -95,8 +96,9 @@ class O_R_CargoNet_01_ammo_F: O_CargoNet_01_ammo_F
 		weap_xx(launch_O_Titan_camo_F,2);
 		weap_xx(launch_O_Titan_short_camo_F,2);
 		weap_xx(launch_O_Vorona_green_F,2);
-		weap_xx(SMG_02_F,2);
+		weap_xx(Aegis_SMG_Gepard_blk_F,2);
 		weap_xx(srifle_DMR_04_F,2);
+		weap_xx(srifle_DMR_01_black_F,2);
 		weap_xx(srifle_DMR_05_blk_F,2);
 		weap_xx(srifle_GM6_F,2);
 		weap_xx(sgun_Mp153_black_F,2);
@@ -115,6 +117,7 @@ class O_R_CargoNet_01_ammo_F: O_CargoNet_01_ammo_F
 		item_xx(MineDetector,1);
 		item_xx(ToolKit,1);
 		item_xx(optic_ACO_grn_AK_F,2);
+		item_xx(Aegis_optic_1p87,2);
 		item_xx(optic_ACO_grn_smg,2);
 		item_xx(optic_Holosight_lush_F,2);
 		item_xx(acc_flashlight,5);

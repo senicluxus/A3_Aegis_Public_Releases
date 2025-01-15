@@ -21,7 +21,11 @@ class CfgPatches
 
 			/* From "cfgEAF.hpp" */
 			Aegis_B_E_Heli_Light_03_dynamicLoadout_F,
-			Aegis_B_E_Heli_Light_03_unarmed_F
+			Aegis_B_E_Heli_Light_03_unarmed_F,
+			Aegis_I_E_Heli_Light_03_dynamicLoadout_ard_F,
+			Aegis_I_E_Heli_Light_03_unarmed_ard_F,
+			Aegis_B_E_Heli_Light_03_dynamicLoadout_ard_F,
+			Aegis_B_E_Heli_Light_03_unarmed_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

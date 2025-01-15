@@ -2347,6 +2347,59 @@ class I_E_Fighter_Pilot_F: I_E_Soldier_base_F
         G_NATO_pilot
 	};
 };
+class Aegis_I_E_Pilot_F: I_E_Helipilot_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_pilot_s};
+			speechPlural[] = {veh_infantry_pilot_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
+	nameSound = veh_infantry_pilot_s;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_E_Pilot_F.jpg";
+	scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Pilot_F0;
+	uniformClass = U_I_E_Uniform_01_pilot_F;
+	backpack = B_Parachute;
+    linkedItems[] =
+    {
+        H_PilotHelmetHeli_I_E,
+        DefaultManLinkedItems,
+        NVGoggles_INDEP
+    };
+    respawnLinkedItems[] =
+    {
+        H_PilotHelmetHeli_I_E,
+        DefaultManLinkedItems,
+        NVGoggles_INDEP
+    };
+    magazines[] =
+    {
+        mag_4(50Rnd_570x28_SMG_03),
+        SMOKESHELLS_BLUFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_4(50Rnd_570x28_SMG_03),
+        SMOKESHELLS_BLUFOR
+    };
+	cost = 93000;
+	role = Crewman;
+	camouflage = 2.0;
+	identityTypes[] =
+	{
+		LanguagePOL_F,
+		Head_Euro,
+		Head_Enoch,
+        G_NATO_pilot
+	};
+};
 
 /* LDF (Arid) */
 
@@ -4341,4 +4394,8 @@ class I_E_Fighter_Pilot_ard_F: I_E_Fighter_Pilot_F
         hgun_Pistol_heavy_01_F,
         DefaultManWeapons
     };
+};
+class Aegis_I_E_Pilot_ard_F: Aegis_I_E_Pilot_F
+{
+	faction = IND_E_ard_F;
 };

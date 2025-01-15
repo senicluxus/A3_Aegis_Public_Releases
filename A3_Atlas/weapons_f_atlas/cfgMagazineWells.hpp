@@ -22,8 +22,10 @@ class CfgMagazineWells
     {
         Atlas_Magazines[] =
         {
-            150Rnd_762x51_Box_Yellow,
-			150Rnd_762x51_Box_Tracer_Yellow
+            Atlas_150Rnd_762x51_Box_Yellow,
+			Atlas_150Rnd_762x51_Box_Tracer_Yellow,
+            Atlas_150Rnd_762x51_Box_Red,
+			Atlas_150Rnd_762x51_Box_Tracer_Red
         };
     };
     class Atlas_FAMAS_556x54

@@ -187,19 +187,19 @@ class Atlas_O_T_APC_Tracked_02_cannon_F: O_APC_Tracked_02_cannon_F
 		verticalOffsetWorld = -0.178;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_APC_Tracked_02_cannon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_APC_Tracked_02_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_crew_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Hex,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Beta\APC_Tracked_02\Data\APC_Tracked_02_ext_01_hexarid_CO.paa",
-		"\A3\Armor_F_Beta\APC_Tracked_02\Data\APC_Tracked_02_ext_02_hexarid_CO.paa",
-		"\A3\Armor_F_Beta\APC_Tracked_02\Data\RCWS30_OPFOR_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\APC_Tracked_02_ext_01_tk_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\APC_Tracked_02_ext_02_tk_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Tracked_02\Data\RCWS30_tk_CO.paa",
 		"\A3\Armor_F\Data\camonet_CSAT_Hex_Desert_CO.paa",
 		"\A3\Armor_F\Data\cage_CSAT_CO.paa"
 	};

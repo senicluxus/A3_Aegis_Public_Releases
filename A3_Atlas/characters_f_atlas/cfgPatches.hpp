@@ -206,6 +206,7 @@ class CfgPatches
             Atlas_B_G_Soldier_UAV_F,
             Atlas_B_G_soldier_UGV_02_Demining_F,
             Atlas_B_G_Soldier_unarmed_F,
+            Atlas_B_G_soldier_MP_F,
             Atlas_B_G_Support_AMG_F,
             Atlas_B_G_Support_AMort_F,
             Atlas_B_G_Support_GMG_F,
@@ -264,6 +265,7 @@ class CfgPatches
             Atlas_B_G_Support_MG_ard_F,
             Atlas_B_G_Support_Mort_ard_F,
             Atlas_B_G_Survivor_ard_F,
+            Atlas_B_G_soldier_MP_ard_F,
 
             // Takistani Army
             Atlas_O_T_crew_F,
@@ -298,6 +300,7 @@ class CfgPatches
             // HIMF
             Atlas_B_H_Crew_F,
             Atlas_B_H_Engineer_F,
+            Atlas_B_H_Soldier_Exp_F,
             Atlas_B_H_Helicrew_F,
             Atlas_B_H_Helipilot_F,
             Atlas_B_H_Medic_F,
@@ -311,7 +314,17 @@ class CfgPatches
             Atlas_B_H_soldier_M_F,
             Atlas_B_H_Soldier_SL_F,
             Atlas_B_H_Soldier_TL_F,
+            Atlas_B_H_HeavyGunner_F,
             Atlas_B_H_Soldier_unarmed_F,
+            Atlas_B_H_Soldier_commando_F,
+            Atlas_B_H_Soldier_commando_AR_F,
+            Atlas_B_H_Soldier_commando_exp_F,
+            Atlas_B_H_Soldier_commando_gl_F,
+            Atlas_B_H_Soldier_commando_jtac_F,
+            Atlas_B_H_Soldier_commando_M_F,
+            Atlas_B_H_Soldier_commando_medic_F,
+            Atlas_B_H_Soldier_commando_LAT_F,
+            Atlas_B_H_Soldier_commando_TL_F,
 
             // IDF
             Atlas_I_I_crew_F,
@@ -667,7 +680,60 @@ class CfgPatches
             Atlas_B_A_Recon_trp_F,
             Atlas_B_A_Recon_AT_trp_F,
             Atlas_B_A_Recon_LAT_trp_F,
-            Atlas_B_A_Recon_TL_trp_F
+            Atlas_B_A_Recon_TL_trp_F,
+
+            // Royal Army of Karzeghistan
+            Atlas_B_K_Soldier_A_F,
+            Atlas_B_K_soldier_AAA_F,
+            Atlas_B_K_soldier_AAR_F,
+            Atlas_B_K_Soldier_AR_F,
+            Atlas_B_K_Medic_F,
+            Atlas_B_K_Crew_F,
+            Atlas_B_K_Engineer_F,
+            Atlas_B_K_Soldier_Exp_F,
+            Atlas_B_K_Soldier_GL_F,
+            Atlas_B_K_Helipilot_F,
+            Atlas_B_K_Soldier_M_F,
+            Atlas_B_K_Officer_F,
+            Atlas_B_K_Soldier_F,
+            Atlas_B_K_soldier_AA_F,
+            Atlas_B_K_Soldier_LAT_F,
+            Atlas_B_K_Soldier_SL_F,
+            Atlas_B_K_Soldier_TL_F,
+            Atlas_B_K_RadioOperator_F,
+            Atlas_B_K_Soldier_lite_F,
+            Atlas_B_K_HeavyGunner_F,
+            Atlas_B_K_Soldier_CQ_F,
+            Atlas_B_K_Soldier_universal_F,
+            Atlas_B_K_unarmed_F,
+            Atlas_B_K_Soldier_UAV_F,
+            Atlas_B_K_Soldier_CBRN_F,
+            Atlas_B_K_Pilot_F,
+
+            /* Ardistani Armed Forces */
+            Atlas_I_AR_Soldier_A_F,
+            Atlas_I_AR_soldier_AAA_F,
+            Atlas_I_AR_soldier_AAR_F,
+            Atlas_I_AR_Soldier_AR_F,
+            Atlas_I_AR_Medic_F,
+            Atlas_I_AR_Crew_F,
+            Atlas_I_AR_Engineer_F,
+            Atlas_I_AR_Soldier_Exp_F,
+            Atlas_I_AR_Soldier_GL_F,
+            Atlas_I_AR_Helipilot_F,
+            Atlas_I_AR_Soldier_M_F,
+            Atlas_I_AR_Officer_F,
+            Atlas_I_AR_Soldier_F,
+            Atlas_I_AR_soldier_AA_F,
+            Atlas_I_AR_Soldier_LAT_F,
+            Atlas_I_AR_Soldier_SL_F,
+            Atlas_I_AR_Soldier_TL_F,
+            Atlas_I_AR_RadioOperator_F,
+            Atlas_I_AR_Soldier_lite_F,
+            Atlas_I_AR_Soldier_universal_F,
+            Atlas_I_AR_unarmed_F,
+            Atlas_I_AR_Pilot_F
+
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

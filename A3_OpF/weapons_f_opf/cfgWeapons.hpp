@@ -22,6 +22,7 @@ class CfgWeapons
 	class Aegis_arifle_M4A1_short_F;
 	class Aegis_arifle_M4A1_GL_F;
 	class Aegis_arifle_M4A1_grip_F;
+	class Aegis_MMG_FNMAG_F;
 	
 
     /* Accessorized Weapons */

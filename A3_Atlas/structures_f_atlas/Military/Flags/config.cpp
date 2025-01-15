@@ -296,7 +296,73 @@ class CfgVehicles
 			init = "(_this select 0) setFlagTexture '\A3_Atlas\Data_F_Atlas\Flags\flag_Sahrani_CO.paa'";
 		};
 	};
+	class Flag_Karzeghistan_F: FlagCarrier
+	{
+		author = $STR_A3_A_BranFlakes;
+		class SimpleObject
+		{
+			eden = false;
+			animate[] =
+			{
+				{flag,0}
+			};
+			hide[] = {};
+			verticalOffset = 3.977;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Karzeghistan_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgVehicles_Flag_KZG_F0;
+		class EventHandlers
+		{
+			init = "(_this select 0) setFlagTexture '\A3_Atlas\Data_F_Atlas\Flags\flag_Karzeghistan_CO.paa'";
+		};
+	};
+	class Flag_Ardistan_F: FlagCarrier
+	{
+		author = $STR_A3_A_BranFlakes;
+		class SimpleObject
+		{
+			eden = false;
+			animate[] =
+			{
+				{flag,0}
+			};
+			hide[] = {};
+			verticalOffset = 3.977;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Flag_Ardistan_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_A_CfgVehicles_Flag_ARDI_F0;
+		class EventHandlers
+		{
+			init = "(_this select 0) setFlagTexture '\A3_Atlas\Data_F_Atlas\Flags\flag_Ardistan_CO.paa'";
+		};
+	};
 	class Banner_01_base_F;
+	class Banner_01_Ardistan_F: Banner_01_base_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		class SimpleObject
+		{
+			eden = false;
+			animate[] = {};
+			hide[] = {};
+			verticalOffset = 0.469;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Banner_01_CDF_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = "Banner (Ardistan)";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Data_F_Atlas\Flags\flag_Ardistan_CO.paa"};
+	};
 	class Banner_01_CDF_F: Banner_01_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty;

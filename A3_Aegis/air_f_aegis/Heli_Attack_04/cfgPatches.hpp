@@ -8,6 +8,10 @@ class CfgPatches
 		units[]=
 		{
 			/* From "cfgEAF.hpp" */
+			Aegis_I_EAF_Heli_Attack_04_F,
+			Aegis_B_EAF_Heli_Attack_04_F,
+			Aegis_I_EAF_Heli_Attack_04_ard_F,
+			Aegis_B_EAF_Heli_Attack_04_ard_F,
 
 			/* From "cfgION.hpp" */
 			Aegis_B_ION_Heli_Attack_04_F,

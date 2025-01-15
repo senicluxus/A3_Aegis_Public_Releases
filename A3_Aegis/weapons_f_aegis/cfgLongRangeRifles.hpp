@@ -280,3 +280,6 @@ class srifle_DMR_06_black_F: srifle_DMR_06_camo_F
 	magazines[] = {20Rnd_762x51_Mag};
 	picture = "\A3_Aegis\Weapons_F_Aegis\LongRangeRifles\DMR_06\Data\UI\icon_srifle_DMR_06_black_F_X_CA.paa";
 };
+class Aegis_srifle_GM6B_F;
+class Aegis_srifle_GM6B_sand_F;
+class Aegis_srifle_GM6B_khaki_F;

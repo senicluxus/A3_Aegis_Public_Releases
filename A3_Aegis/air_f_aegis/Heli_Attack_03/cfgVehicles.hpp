@@ -20,7 +20,7 @@ class CfgVehicles
 		textPlural = $STR_A3_nameSound_veh_air_gunship_p;
 		nameSound = veh_air_gunship_s;
 		scope = private;
-		displayName = $STR_A3_A_CfgVehicles_Heli_Attack_03_base_F0;
+		displayName = $STR_A3_A_CfgVehicles_B_US_Heli_Attack_03_F0;
 		model = "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Heli_Attack_03_F.p3d";
 		icon = "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\UI\Map_Heli_Attack_03_CA.paa";
 		picture = "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\UI\Heli_Attack_03_CA.paa";
@@ -263,6 +263,7 @@ class CfgVehicles
 		radarTargetSize = 1.1;
 		irTargetSize = 1.2;
 		receiveRemoteTargets = 1;
+		reportRemoteTargets = true;
 		reportOwnPosition = 1;
 		class Components: Components
 		{
@@ -383,6 +384,7 @@ class CfgVehicles
                             4000,
                             2000,
                             16000,
+							32000,
                             8000
                         };
 						resource = RscCustomInfoSensors;
@@ -430,6 +432,7 @@ class CfgVehicles
                             4000,
                             2000,
                             16000,
+							32000,
                             8000
                         };
 						resource = RscCustomInfoSensors;
@@ -999,12 +1002,12 @@ class CfgVehicles
 		class TransportMagazines
 		{
             mag_xx(SmokeShell,2);
-            mag_xx(SmokeShellGreen,2);
-            mag_xx(30Rnd_556x45_Stanag,4);
+            mag_xx(SmokeShellBlue,2);
+            mag_xx(30Rnd_65x39_caseless_mag,4);
 		};
 		class TransportWeapons
 		{
-            weap_xx(arifle_Mk20C_F,2);
+            weap_xx(arifle_MXC_F,2);
 		};
 		class TransportItems
 		{
@@ -1019,6 +1022,230 @@ class CfgVehicles
 			fired = "_this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		};
     };
+	class Aegis_Heli_Attack_03_v2_base_F: Heli_Attack_03_base_F
+	{
+		author = $STR_A3_A_Grave;
+		displayName = $STR_A3_A_CfgVehicles_Heli_Attack_03_base_F0;
+		model = "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Heli_Attack_03_v2_F.p3d";
+		icon = "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\UI\Map_Heli_Attack_03_CA.paa";
+		picture = "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\UI\Heli_Attack_03_CA.paa";
+		/* Sensors - Remove Active Radar + Datalink Send */
+		reportRemoteTargets = false;
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class IRSensorComponent: SensorTemplateIR
+					{
+						class AirTarget
+						{
+							minRange = 500;
+							maxRange = 4000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = 1;
+						};
+						class GroundTarget
+						{
+							minRange = 500;
+							maxRange = 3000;
+							objectDistanceLimitCoef = 1;
+							viewDistanceLimitCoef = 1;
+						};
+						maxTrackableSpeed = 70;
+						animDirection = mainGun;
+						angleRangeHorizontal = 34;
+						angleRangeVertical = 34;
+                        aimDown = 27;
+					};
+					class VisualSensorComponent: SensorTemplateVisual
+					{
+						class AirTarget
+						{
+							minRange = 500;
+							maxRange = 3000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = 1;
+						};
+						class GroundTarget
+						{
+							minRange = 500;
+							maxRange = 2000;
+							objectDistanceLimitCoef = 1;
+							viewDistanceLimitCoef = 1;
+						};
+						maxTrackableSpeed = 70;
+						animDirection = mainGun;
+						angleRangeHorizontal = 34;
+						angleRangeVertical = 34;
+                        aimDown = 27;
+					};
+					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar{};
+					class LaserSensorComponent: SensorTemplateLaser{};
+					class NVSensorComponent: SensorTemplateNV{};
+				};
+			};
+			/*class TransportPylonsComponent
+			{
+				uiPicture = "\A3_Aegis\Air_F_Aegis\Heli_Attack_03\Data\UI\Heli_Attack_03_EDEN_CA.paa";
+				class Pylons
+				{
+					class PylonLeft1
+					{
+						attachment = PylonMissile_1Rnd_AAA_missiles;
+						priority = 5;
+						hardpoints[] = 
+						{
+							B_ASRAAM,
+							I_BIM9X_RAIL
+						};
+						turret[] = {0};
+						UIposition[] =
+						{
+							0.06,   // X
+						0.4     // Y
+						};
+					};
+					class PylonLeft2: PylonLeft1
+					{
+						attachment = PylonRack_12Rnd_missiles;
+						priority = 4;
+						hardpoints[] =
+						{
+							DAR,
+							DAGR,
+							B_SHIEKER,
+							UNI_SCALPEL,
+							20MM_TWIN_CANNON,
+							B_ASRRAM_EJECTOR,
+							I_BIM9X_RAIL
+						};
+						UIposition[] =
+						{
+							0.08,   // X
+							0.35    // Y
+						};
+					};
+					class PylonLeft3: PylonLeft1
+					{
+						attachment = PylonRack_4Rnd_LG_scalpel;
+						priority = 3;
+						hardpoints[] =
+						{
+							DAR,
+							DAGR,
+							B_SHIEKER,
+							UNI_SCALPEL,
+							20MM_TWIN_CANNON,
+							B_ASRRAM_EJECTOR,
+							I_BIM9X_RAIL
+						};
+						UIposition[] =
+						{
+							0.1,    // X
+							0.3     // Y
+						};
+					};
+					class PylonRight3: PylonLeft3
+					{
+						mirroredMissilePos = 3;
+						UIposition[] =
+						{
+							0.59,   // X
+							0.3     // Y
+						};
+					};
+					class PylonRight2: PylonLeft2
+					{
+						mirroredMissilePos = 2;
+						UIposition[] =
+						{
+							0.62,   // X
+							0.35    // Y
+						};
+					};
+					class PylonRight1: PylonLeft1
+					{
+						mirroredMissilePos = 1;
+						UIposition[] =
+						{
+							0.64,   // X
+							0.4     // Y
+						};
+					};
+				};
+				class Presets
+				{
+					class Empty
+					{
+						displayName = $STR_empty;
+						attachment[] = {};
+					};
+					class Default
+					{
+						displayName = $STR_vehicle_default;
+						attachment[] =
+						{
+							PylonMissile_Missile_BIM9X_x1,
+							PylonRack_12Rnd_missiles,
+							PylonRack_4Rnd_LG_scalpel,
+							PylonRack_4Rnd_LG_scalpel,
+							PylonRack_12Rnd_missiles,
+							PylonMissile_Missile_BIM9X_x1
+						};
+					};
+					class AT
+					{
+						displayName = $STR_A3_cfgmagazines_titan_at_dns;
+						attachment[] =
+						{
+							PylonMissile_Missile_BIM9X_x1,
+							PylonRack_4Rnd_LG_scalpel,
+							PylonRack_4Rnd_LG_scalpel,
+							PylonRack_4Rnd_LG_scalpel,
+							PylonRack_4Rnd_LG_scalpel,
+							PylonMissile_1Rnd_AAA_missiles
+						};
+					};
+					class CAS
+					{
+						displayName = $STR_A3_CAS_PRESET_DISPLAYNAME;
+						attachment[] =
+						{
+							PylonMissile_Missile_BIM9X_x1,
+							PylonRack_12Rnd_missiles,
+							PylonRack_12Rnd_PG_missiles,
+							PylonRack_12Rnd_PG_missiles,
+							PylonRack_12Rnd_missiles,
+							PylonMissile_Missile_BIM9X_x1
+						};
+					};
+				};
+			};*/
+		};
+		/* Inventory */
+        class TransportBackpacks
+		{
+            bag_xx(B_Parachute,2);
+		};
+		class TransportMagazines
+		{
+            mag_xx(SmokeShell,2);
+            mag_xx(SmokeShellGreen,2);
+            mag_xx(30Rnd_556x45_Stanag,4);
+		};
+		class TransportWeapons
+		{
+            weap_xx(arifle_Mk20C_F,2);
+		};
+		class TransportItems
+		{
+            item_xx(FirstAidKit,2);
+            item_xx(Toolkit,1);
+            item_xx(ItemGPS,1);
+		};
+	};
 
     /* Factions */
     #include "cfgBLUFOR.hpp"    // BAF

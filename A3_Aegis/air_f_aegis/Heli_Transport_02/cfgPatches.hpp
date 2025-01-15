@@ -22,6 +22,11 @@ class CfgPatches
             /* From "cfgCivil.hpp" */
             C_Heli_Transport_02_civil_F,
 			Aegis_C_Heli_Transport_02_VIP_F,
+			Aegis_C_Heli_Transport_02_civil_F_malden,
+			Aegis_C_Heli_Transport_02_VIP_F_malden,
+			Aegis_C_Heli_Transport_02_civil_F_Tanoa,
+			Aegis_C_Heli_Transport_02_VIP_F_Tanoa,
+			Aegis_C_Heli_Transport_02_VIP_F_LXWS,
 
 			/* From "cfgIndep.hpp" */
 			Aegis_I_Heli_Transport_02_Heavy_F,

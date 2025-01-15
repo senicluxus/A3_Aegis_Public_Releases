@@ -224,109 +224,220 @@ class ExploAmmoExplosionPlaneCAS
 };
 */
 /* Hand Flare Effects*/
-class Aegis_HandFlare_Effect_Red
+class Aegis_HandFlare_Effect_Base
 {
-	//Lights
-	class Aegis_HandFlare_Light_Red
+	// Lights
+	class Aegis_HandFlare_Light_Base
 	{
 		simulation="light";
-		type="Aegis_HandFlare_Light_Red";
-		lifeTime=590; //Flare light cuts out ten seconds before end of model
-	};
-	class Aegis_HandFlare_Light_Sparks
-	{
-		simulation="light";
-		type="Aegis_HandFlare_Light_Sparks";
-		position[]={0,0,0};
-		intensity=0.0080000004;
-		interval=1;
-		lifeTime=560; //Spark Light cuts out as sparks do
-	};
-	//Particles
-	class Aegis_HandFlare_Effect_Smoke_Red
-	{
-		simulation="particles";
-		type="Aegis_HandFlare_Effect_Smoke_Red";
-		position[]={0,0,0};
-		intensity=1;
-		interval=1;
-		lifeTime=600; //smoke cuts out at same time as model does
-	};
-	class Aegis_HandFlare_Effect_Smoke_Red_UW
-	{
-		simulation="particles";
-		type="Aegis_HandFlare_Effect_Smoke_Red_UW";
-		position[]={0,0,0};
-		intensity=1;
-		interval=1;
-		lifeTime=590; //UW bubbles cut out at same time as flame does
-	};
-	class Aegis_HandFlare_Effect_Sparks
-	{
-		simulation="particles";
-		type="Aegis_HandFlare_Effect_Sparks";
-		position[]={0,0,0};
-		intensity=1;
-		interval=1;
-		lifeTime=560; //sparks cut out fourty seconds before end of model
-	};
-	class Aegis_HandFlare_Effect_Flame
-	{
-		simulation="particles";
-		type="Aegis_HandFlare_Effect_Flame";
-		lifeTime=590; //flame cuts out ten seconds before end of model
-	};
-};
-class Aegis_HandFlare_Effect_Green
-{
-	//Lights
-	class Aegis_HandFlare_Light_Green
-	{
-		simulation="light";
-		type="Aegis_HandFlare_Light_Green";
 		lifeTime=590;
 	};
-	class Aegis_HandFlare_Light_Sparks
+	class Aegis_HandFlare_Light_Sparks_Base
 	{
 		simulation="light";
-		type="Aegis_HandFlare_Light_Sparks";
 		position[]={0,0,0};
 		intensity=0.0080000004;
 		interval=1;
 		lifeTime=560;
 	};
-	//Particles
-	class Aegis_HandFlare_Effect_Smoke_Green
+	// Particles
+	class Aegis_HandFlare_Effect_Smoke_Base
 	{
 		simulation="particles";
-		type="Aegis_HandFlare_Effect_Smoke_Green";
 		position[]={0,0,0};
 		intensity=1;
 		interval=1;
 		lifeTime=600;
 	};
-	class Aegis_HandFlare_Effect_Smoke_Green_UW
+	class Aegis_HandFlare_Effect_Smoke_Base_UW
 	{
 		simulation="particles";
-		type="Aegis_HandFlare_Effect_Smoke_Green_UW";
 		position[]={0,0,0};
 		intensity=1;
 		interval=1;
 		lifeTime=590;
 	};
-	class Aegis_HandFlare_Effect_Sparks
+	class Aegis_HandFlare_Effect_Sparks_Base
 	{
 		simulation="particles";
-		type="Aegis_HandFlare_Effect_Sparks";
 		position[]={0,0,0};
 		intensity=1;
 		interval=1;
 		lifeTime=560;
 	};
-	class Aegis_HandFlare_Effect_Flame
+	class Aegis_HandFlare_Effect_Flame_Base
 	{
 		simulation="particles";
-		type="Aegis_HandFlare_Effect_Flame";
 		lifeTime=590;
 	};
+};
+class Aegis_HandFlare_Effect_Red: Aegis_HandFlare_Effect_Base
+{
+	// Lights
+	class Aegis_HandFlare_Light_Red: Aegis_HandFlare_Light_Base
+	{
+		type="Aegis_HandFlare_Light_Red";
+	};
+	class Aegis_HandFlare_Light_Sparks: Aegis_HandFlare_Light_Sparks_Base
+	{
+		type="Aegis_HandFlare_Light_Sparks_Red";
+	};
+	// Particles
+	class Aegis_HandFlare_Effect_Smoke_Red: Aegis_HandFlare_Effect_Smoke_Base
+	{
+		type="Aegis_HandFlare_Effect_Smoke_Red";
+	};
+	class Aegis_HandFlare_Effect_Smoke_Red_UW: Aegis_HandFlare_Effect_Smoke_Base_UW
+	{
+		type="Aegis_HandFlare_Effect_Smoke_Red_UW";
+	};
+	class Aegis_HandFlare_Effect_Sparks_Red: Aegis_HandFlare_Effect_Sparks_Base
+	{
+		type="Aegis_HandFlare_Effect_Sparks_Red";
+	};
+	class Aegis_HandFlare_Effect_Flame_Red: Aegis_HandFlare_Effect_Flame_Base
+	{
+		type="Aegis_HandFlare_Effect_Flame_Red";
+	};
+};
+class Aegis_HandFlare_Effect_Green: Aegis_HandFlare_Effect_Base
+{
+	// Lights
+	class Aegis_HandFlare_Light_Green: Aegis_HandFlare_Light_Base
+	{
+		type="Aegis_HandFlare_Light_Green";
+	};
+	class Aegis_HandFlare_Light_Sparks: Aegis_HandFlare_Light_Sparks_Base
+	{
+		type="Aegis_HandFlare_Light_Sparks_Green";
+	};
+	// Particles
+	class Aegis_HandFlare_Effect_Smoke_Green: Aegis_HandFlare_Effect_Smoke_Base
+	{
+		type="Aegis_HandFlare_Effect_Smoke_Green";
+	};
+	class Aegis_HandFlare_Effect_Smoke_Green_UW: Aegis_HandFlare_Effect_Smoke_Base_UW
+	{
+		type="Aegis_HandFlare_Effect_Smoke_Green_UW";
+	};
+	class Aegis_HandFlare_Effect_Sparks_Green: Aegis_HandFlare_Effect_Sparks_Base
+	{
+		type="Aegis_HandFlare_Effect_Sparks_Green";
+	};
+	class Aegis_HandFlare_Effect_Flame_Green: Aegis_HandFlare_Effect_Flame_Base
+	{
+		type="Aegis_HandFlare_Effect_Flame_Green";
+	};
+};
+/* Signal Flares */
+// Signal Flare Particle Effects Base
+class Aegis_SignalFlare_Effect_Base: Aegis_HandFlare_Effect_Base
+{
+	// Lights
+	class Aegis_SignalFlare_Light_Base: Aegis_HandFlare_Light_Base
+	{
+		lifeTime=290; //Flare light cuts out ten seconds before end of model
+	};
+	class Aegis_SignalFlare_Light_Sparks_Base: Aegis_HandFlare_Light_Sparks_Base
+	{
+		lifeTime=260; //Spark Light cuts out as sparks do
+	};
+	// Particles
+	class Aegis_SignalFlare_Effect_Smoke_Base: Aegis_HandFlare_Effect_Smoke_Base
+	{
+		lifeTime=300; //smoke cuts out at same time as model does
+	};
+	class Aegis_SignalFlare_Effect_Smoke_Base_UW: Aegis_HandFlare_Effect_Smoke_Base_UW
+	{
+		lifeTime=290; //UW bubbles cut out at same time as flame does
+	};
+	class Aegis_SignalFlare_Effect_Sparks_Base: Aegis_HandFlare_Effect_Sparks_Base
+	{
+		lifeTime=260; //sparks cut out fourty seconds before end of model
+	};
+	class Aegis_SignalFlare_Effect_Flame_Base: Aegis_HandFlare_Effect_Flame_Base
+	{
+		lifeTime=290; //flame cuts out ten seconds before end of model
+	};
+};
+// Signal Flare Particle Effects Colours
+class Aegis_SignalFlare_Effect_Red: Aegis_SignalFlare_Effect_Base
+{
+	// Lights
+	class Aegis_SignalFlare_Light_Red: Aegis_SignalFlare_Light_Base
+	{
+		type="Aegis_SignalFlare_Light_Red";
+	};
+	class Aegis_SignalFlare_Light_Sparks_Red: Aegis_SignalFlare_Light_Sparks_Base
+	{
+		type="Aegis_HandFlare_Light_Sparks_Red";
+	};
+	// Particles
+	class Aegis_SignalFlare_Effect_Smoke_Red: Aegis_SignalFlare_Effect_Smoke_Base
+	{
+		type="Aegis_SignalFlare_Effect_Smoke_Red";
+	};
+	class Aegis_SignalFlare_Effect_Smoke_Red_UW: Aegis_SignalFlare_Effect_Smoke_Base_UW
+	{
+		type="Aegis_SignalFlare_Effect_Smoke_Red_UW";
+	};
+	class Aegis_SignalFlare_Effect_Sparks_Red: Aegis_SignalFlare_Effect_Sparks_Base
+	{
+		type="Aegis_HandFlare_Effect_Sparks_Red";
+	};
+	class Aegis_SignalFlare_Effect_Flame_Red: Aegis_SignalFlare_Effect_Flame_Base
+	{
+		type="Aegis_HandFlare_Effect_Flame_Red";
+	};
+};
+class Aegis_SignalFlare_Effect_Green: Aegis_SignalFlare_Effect_Base
+{
+	class Aegis_SignalFlare_Light_Green: Aegis_SignalFlare_Light_Base
+	{
+		type="Aegis_SignalFlare_Light_Green";
+	};
+	class Aegis_SignalFlare_Light_Sparks_Green: Aegis_SignalFlare_Light_Sparks_Base
+	{
+		type="Aegis_HandFlare_Light_Sparks_Green";
+	};
+	// Particles
+	class Aegis_SignalFlare_Effect_Smoke_Green: Aegis_SignalFlare_Effect_Smoke_Base
+	{
+		type="Aegis_SignalFlare_Effect_Smoke_Green";
+	};
+	class Aegis_SignalFlare_Effect_Smoke_Green_UW: Aegis_SignalFlare_Effect_Smoke_Base_UW
+	{
+		type="Aegis_SignalFlare_Effect_Smoke_Green_UW";
+	};
+	class Aegis_SignalFlare_Effect_Sparks_Green: Aegis_SignalFlare_Effect_Sparks_Base
+	{
+		type="Aegis_HandFlare_Effect_Sparks_Green";
+	};
+	class Aegis_SignalFlare_Effect_Flame_Green: Aegis_SignalFlare_Effect_Flame_Base
+	{
+		type="Aegis_HandFlare_Effect_Flame_Green";
+	};
+};
+class Aegis_BTR100_30mm_Cartridge
+{
+    class Aegis_BTR100_30mm_Cartridge
+    {
+        simulation = "particles";
+        type = "Aegis_BTR100_30mm_Cartridge";
+        position[] = { 0, 0, 0 };
+        intensity = 1;
+        interval = 1;
+        lifeTime = 0.05;
+        qualityLevel = 2;
+    };
+    class Aegis_BTR100_30mm_CartridgeMed
+    {
+        simulation = "particles";
+        type = "Aegis_BTR100_30mm_Cartridge";
+        position[] = { 0, 0, 0 };
+        intensity = 1;
+        interval = 1;
+        lifeTime = 0.05;
+        qualityLevel = 1;
+    };
 };

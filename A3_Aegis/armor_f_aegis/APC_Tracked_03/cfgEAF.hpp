@@ -336,3 +336,40 @@ class Aegis_B_E_APC_tracked_03_cannon_v2_F: I_E_APC_tracked_03_cannon_v2_F
 	crew = Aegis_B_E_Crew_F;
 	typicalCargo[] = {Aegis_B_E_Crew_F};
 };
+
+/* Arid LDF */
+class Aegis_I_E_APC_tracked_03_cannon_v2_ard_F: I_E_APC_tracked_03_cannon_v2_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_E_APC_tracked_03_cannon_v2_ard_F.jpg";
+	side = TGuerrila;
+	faction = IND_E_ard_F;
+	crew = I_E_Crew_ard_F;
+	typicalCargo[] = {I_E_Crew_ard_F};
+	textureList[] = {EAF_Arid,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_eaf_arid_co.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext2_eaf_arid_co.paa",
+		"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+		"\A3\Armor_F\Data\cage_sand_CO.paa"
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_MSBS65_sand_F,2);
+		weap_xx(LMG_Mk200_plain_F,1);
+		weap_xx(launch_NLAW_F,1);
+	};
+	class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3\data_f_enoch\flags\flag_enoch_co.paa'";
+    };
+};
+class Aegis_B_E_APC_tracked_03_cannon_v2_ard_F: Aegis_I_E_APC_tracked_03_cannon_v2_ard_F
+{
+	author = $STR_A3_A_Ravenholme;
+    side = TWest;
+	faction = BLU_EAF_ard_F;
+	crew = Aegis_B_E_Crew_ard_F;
+	typicalCargo[] = {Aegis_B_E_Crew_ard_F};
+};

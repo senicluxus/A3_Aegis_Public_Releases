@@ -29,7 +29,8 @@ class CfgVehicles
     };
 
     /* Factions */
-    #include "cfgBLUFOR.hpp"        // US & BAF
+    #include "cfgBLUFOR.hpp"        // US
+    #include "cfgBAF.hpp"           // BAF
     #include "cfgBluLXWS.hpp"        // US (Desert)
     #include "cfgOPFOR.hpp"         // IAF, China & Argana
     #include "cfgIndep.hpp"         // AAF

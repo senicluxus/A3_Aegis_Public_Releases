@@ -9,6 +9,7 @@ class CfgVehicles
 	class B_static_AA_F;
 	class O_static_AA_F;
 	class I_static_AA_F;
+	class O_R_Static_AA_F;
 	class Bag_Base;
 	class Weapon_Bag_Base: Bag_Base
 	{
@@ -25,6 +26,8 @@ class CfgVehicles
 	#include "cfgCDF.hpp"				// CDF
     */
 	#include "cfgIDF.hpp"				// IDF
+	#include "cfgKarzeghistan.hpp"		// Karzeghistan
+	#include "cfgArdistan.hpp"			// Ardistan
     // Deprecated classes
     #include "deprecated.hpp"
 };

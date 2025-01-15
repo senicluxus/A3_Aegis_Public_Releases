@@ -53,7 +53,7 @@ class Atlas_U_O_W_OfficerUniform: Uniform_Base
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = public;
-	displayName = "Officer Fatigues (Woodland Hex) [CSAT]";
+	displayName = $STR_A3_A_CfgWeapons_U_O_W_OfficerUniform0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_U_O_W_OfficerUniform_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
@@ -83,7 +83,7 @@ class Atlas_U_O_officer_noInsignia_whex_F: Uniform_Base
 		mass = 60;
 	};
 };
-/*class Atlas_U_O_Luchnik_whex_F: Uniform_Base
+class Atlas_U_O_Luchnik_whex_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
@@ -134,7 +134,7 @@ class Atlas_U_O_Luchnik_Officer_whex_F: Uniform_Base
 		mass = 60;
 	};
 };
-class Atlas_U_O_Luchnik_TShirt_whex_F: Uniform_Base
+/*class Atlas_U_O_Luchnik_TShirt_whex_F: Uniform_Base
 {
 	author = $STR_A3_A_Ravenholme;
 	scope = public;

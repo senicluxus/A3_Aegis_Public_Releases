@@ -14,7 +14,8 @@ class Atlas_B_H_Man_Base_F: B_Soldier_F
 };
 class Atlas_B_H_Soldier_Base_F: Atlas_B_H_Man_Base_F
 {
-	uniformClass = Atlas_U_B_H_Soldier_F;
+	//uniformClass = Atlas_U_B_H_Soldier_F;
+	uniformClass = Atlas_U_UniformBDU_01_HI_F;
 };
 class Atlas_B_H_Soldier_A_F: Atlas_B_H_Soldier_Base_F
 {
@@ -24,16 +25,17 @@ class Atlas_B_H_Soldier_A_F: Atlas_B_H_Soldier_Base_F
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
 	cost = 110000;
-    uniformClass = Atlas_U_B_H_Soldier_2_F;
+    //uniformClass = Atlas_U_B_H_Soldier_2_F;
+	uniformClass = Atlas_U_UniformBDU_02_HI_F;
 	backpack = B_Carryall_jungle_BHAmmo_F;
 	weapons[] =
 	{
-		Atlas_arifle_M4A1_Grip_FL_F,
+		Atlas_arifle_M16A4_FL_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_M4A1_Grip_FL_F,
+		Atlas_arifle_M16A4_FL_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -83,7 +85,8 @@ class Atlas_B_H_Soldier_AR_F: Atlas_B_H_Soldier_Base_F
 	icon = iconManMG;
 	cost = 125000;
 	threat[] = {1,0.1,0.3};
-    uniformClass = Atlas_U_B_H_Soldier_2_F;
+    //uniformClass = Atlas_U_B_H_Soldier_2_F;
+	uniformClass = Atlas_U_UniformBDU_02_HI_F;
 	weapons[] =
 	{
 		LMG_03_Flash_F,
@@ -109,13 +112,13 @@ class Atlas_B_H_Soldier_AR_F: Atlas_B_H_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrierIA2_oli,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierIA2_oli,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
 		DefaultManLinkedItems
 	};
 };
@@ -130,7 +133,8 @@ class Atlas_B_H_Crew_F: Atlas_B_H_Soldier_Base_F
 	cost = 90000;
 	camouflage = 1.6;
     engineer = true;
-	uniformClass = Atlas_U_B_H_Soldier_2_F;
+	//uniformClass = Atlas_U_B_H_Soldier_2_F;
+	uniformClass = Atlas_U_UniformBDU_02_HI_F;
 	weapons[] =
 	{
 		SMG_05_F,
@@ -189,16 +193,17 @@ class Atlas_B_H_Medic_F: Atlas_B_H_Soldier_Base_F
 	picture = pictureHeal;
 	camouflage = 1.6;
 	attendant = true;
-    uniformClass = Atlas_U_B_H_Soldier_2_F;
+    //uniformClass = Atlas_U_B_H_Soldier_2_F;
+	uniformClass = Atlas_U_UniformBDU_02_HI_F;
 	backpack = B_TacticalPack_oli_BHMedic_F;
 	weapons[] =
 	{
-		Atlas_arifle_M4A1_Grip_FL_F,
+		Atlas_arifle_M16A4_FL_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_M4A1_Grip_FL_F,
+		Atlas_arifle_M16A4_FL_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -244,16 +249,17 @@ class Atlas_B_H_Engineer_F: Atlas_B_H_Soldier_Base_F
 	detectSkill = 31;
 	threat[] = {1,0.5,0.1};
 	camouflage = 1.6;
-	uniformClass = Atlas_U_B_H_Soldier_F;
+	//uniformClass = Atlas_U_B_H_Soldier_F;
+	uniformClass = Atlas_U_UniformBDU_01_HI_F;
 	backpack = B_Carryall_jungle_BHEng_F;
 	weapons[] =
 	{
-		Atlas_arifle_M4A1_Short_FL_F,
+		Atlas_arifle_M16A4_FG_FL_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_M4A1_Short_FL_F,
+		Atlas_arifle_M16A4_FG_FL_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -271,13 +277,67 @@ class Atlas_B_H_Engineer_F: Atlas_B_H_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_EOD_olive_F,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_EOD_olive_F,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
+		DefaultManLinkedItems
+	};
+};
+class Atlas_B_H_Soldier_Exp_F: Atlas_B_H_Engineer_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_H_Engineer_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_exp_F0;
+    canDeactivateMines = true;
+	detectSkill = 38;
+	cost = 93000;
+	camouflage = 1.6;
+	icon = iconManExplosive;
+	picture = pictureExplosive;
+	role = Sapper;
+	//uniformClass = Atlas_U_B_H_Soldier_F;
+	uniformClass = Atlas_U_UniformBDU_02_HI_F;
+	backpack = B_Carryall_jungle_BHExp_F;
+	weapons[] =
+	{
+		Atlas_arifle_M16A4_FG_FL_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Atlas_arifle_M16A4_FG_FL_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_8(30Rnd_556x45_stanag_red),
+		mag_3(APERSMine_Range_Mag),
+        SmokeShell,
+        SmokeShellYellow
+	};
+	respawnMagazines[] =
+	{
+		mag_8(30Rnd_556x45_stanag_red),
+		mag_3(APERSMine_Range_Mag),
+        SmokeShell,
+        SmokeShellYellow
+	};
+	linkedItems[] =
+	{
+		V_EOD_olive_F,
+		H_Booniehat_jungle,,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_EOD_olive_F,
+		H_Booniehat_jungle,,
 		DefaultManLinkedItems
 	};
 };
@@ -290,15 +350,16 @@ class Atlas_B_H_Soldier_GL_F: Atlas_B_H_Soldier_Base_F
 	displayName = $STR_B_Soldier_GL_F0;
     role = Grenadier;
 	cost = 200000;
-	uniformClass = Atlas_U_B_H_Soldier_F;
+	//uniformClass = Atlas_U_B_H_Soldier_F;
+	uniformClass = Atlas_U_UniformBDU_01_HI_F;
 	weapons[] =
 	{
-		Atlas_arifle_M4A1_GL_ROS_FL_F,
+		Atlas_arifle_M16A4_GL_ROS_FL_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_M4A1_GL_ROS_FL_F,
+		Atlas_arifle_M16A4_GL_ROS_FL_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -320,13 +381,13 @@ class Atlas_B_H_Soldier_GL_F: Atlas_B_H_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrierIAGL_oli,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierIAGL_oli,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
 		DefaultManLinkedItems
 	};
 };
@@ -351,7 +412,8 @@ class Atlas_B_H_Helipilot_F: Atlas_B_H_Soldier_Base_F
 	role = Crewman;
 	cost = 160000;
 	camouflage = 2;
-	uniformClass = Atlas_U_B_H_Soldier_2_F;
+	//uniformClass = Atlas_U_B_H_Soldier_2_F;
+	uniformClass = Atlas_U_UniformBDU_02_HI_F;
 	weapons[] =
 	{
 		SMG_05_F,
@@ -407,25 +469,26 @@ class Atlas_B_H_Helicrew_F: Atlas_B_H_Helipilot_F
 	displayName = $STR_B_helicrew_F0;
 	role = Crewman;
 	cost = 80000;
-	uniformClass = Atlas_U_B_H_Soldier_2_F;
+	//uniformClass = Atlas_U_B_H_Soldier_2_F;
+	uniformClass = Atlas_U_UniformBDU_02_HI_F;
 	weapons[] =
 	{
-		Aegis_arifle_M4A1_Grip_F,
+		SMG_05_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Aegis_arifle_M4A1_Grip_F,
+		SMG_05_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_556x45_stanag_red),
+		mag_6(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
         SmokeShellYellow
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_556x45_stanag_red),
+		mag_6(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
         SmokeShellYellow
 	};
     linkedItems[] =
@@ -452,7 +515,8 @@ class Atlas_B_H_soldier_M_F: Atlas_B_H_Soldier_Base_F
 	displayName = $STR_B_soldier_M_F0;
 	role = Marksman;
 	cost = 250000;
-	uniformClass = Atlas_U_B_H_Soldier_F;
+	//uniformClass = Atlas_U_B_H_Soldier_F;
+	uniformClass = Atlas_U_UniformBDU_01_HI_F;
 	weapons[] =
 	{
 		Atlas_srifle_DMR_06_black_khs_bipod_F,
@@ -560,15 +624,16 @@ class Atlas_B_H_Soldier_F: Atlas_B_H_Soldier_Base_F
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	cost = 100000;
-	uniformClass = Atlas_U_B_H_Soldier_F;
+	//uniformClass = Atlas_U_B_H_Soldier_F;
+	uniformClass = Atlas_U_UniformBDU_01_HI_F;
 	weapons[] =
 	{
-		Atlas_arifle_M4A1_Grip_ROS_FL_F,
+		Atlas_arifle_M16A4_FG_ROS_FL_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_M4A1_Grip_ROS_FL_F,
+		Atlas_arifle_M16A4_FG_ROS_FL_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -586,13 +651,13 @@ class Atlas_B_H_Soldier_F: Atlas_B_H_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrierIA1_oli,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierIA1_oli,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
 		DefaultManLinkedItems
 	};
 };
@@ -619,17 +684,18 @@ class Atlas_B_H_Soldier_LAT_F: Atlas_B_H_Soldier_Base_F
 	cost = 130000;
 	threat[] = {0.8,0.8,0.3};
 	secondaryAmmoCoef = 0.5;
-	uniformClass = Atlas_U_B_H_Soldier_F;
+	//uniformClass = Atlas_U_B_H_Soldier_F;
+	uniformClass = Atlas_U_UniformBDU_01_HI_F;
 	backpack = B_TacticalPack_oli_BHLAT_F;
 	weapons[] =
 	{
-		Atlas_arifle_M4A1_Grip_ROS_FL_F,
+		Atlas_arifle_M16A4_FG_ROS_FL_F,
 		launch_MRAWS_olive_rail_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_M4A1_Grip_ROS_FL_F,
+		Atlas_arifle_M16A4_FG_ROS_FL_F,
 		launch_MRAWS_olive_rail_F,
         DefaultManWeapons
 	};
@@ -650,13 +716,13 @@ class Atlas_B_H_Soldier_LAT_F: Atlas_B_H_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_PlateCarrierIA2_oli,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierIA2_oli,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
 		DefaultManLinkedItems
 	};
 };
@@ -671,17 +737,18 @@ class Atlas_B_H_Soldier_SL_F: Atlas_B_H_Soldier_Base_F
 	icon = iconManLeader;
     cost = 500000;
 	camouflage = 1.4;
-	uniformClass = Atlas_U_B_H_Soldier_2_F;
+	//uniformClass = Atlas_U_B_H_Soldier_2_F;
+	uniformClass = Atlas_U_UniformBDU_02_HI_F;
 	weapons[] =
 	{
-		Atlas_arifle_M4A1_Grip_ACOG_FL_F,
+		Atlas_arifle_M16A4_FG_ACOG_FL_F,
 		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_M4A1_Grip_ACOG_FL_F,
+		Atlas_arifle_M16A4_FG_ACOG_FL_F,
 		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
@@ -728,17 +795,18 @@ class Atlas_B_H_Soldier_TL_F: Atlas_B_H_Soldier_Base_F
 	icon = iconManLeader;
     cost = 250000;
 	camouflage = 1.4;
-	uniformClass = Atlas_U_B_H_Soldier_F;
+	//uniformClass = Atlas_U_B_H_Soldier_F;
+	uniformClass = Atlas_U_UniformBDU_01_HI_F;
 	weapons[] =
 	{
-		Atlas_arifle_M4A1_GL_ACOG_FL_F,
+		Atlas_arifle_M16A4_GL_ACOG_FL_F,
 		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		Atlas_arifle_M4A1_GL_ACOG_FL_F,
+		Atlas_arifle_M16A4_GL_ACOG_FL_F,
 		hgun_ACPC2_black_F,
         DefaultManWeapons,
 		Binocular
@@ -785,16 +853,17 @@ class Atlas_B_H_RadioOperator_F: Atlas_B_H_Soldier_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_H_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = Atlas_U_B_H_Soldier_2_F;
+	//uniformClass = Atlas_U_B_H_Soldier_2_F;
+	uniformClass = Atlas_U_UniformBDU_02_HI_F;
 	backpack = B_RadioBag_01_jungle_F;
 	weapons[] =
     {
-        Atlas_arifle_M4A1_Grip_ROS_FL_F,
+        Atlas_arifle_M16A4_FG_ROS_FL_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        Atlas_arifle_M4A1_Grip_ROS_FL_F,
+        Atlas_arifle_M16A4_FG_ROS_FL_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -819,6 +888,51 @@ class Atlas_B_H_RadioOperator_F: Atlas_B_H_Soldier_F
 	{
 		V_TacChestrig_oli_F,
 		H_Booniehat_jungle,
+		DefaultManLinkedItems
+	};
+};
+class Atlas_B_H_HeavyGunner_F: Atlas_B_H_Soldier_AR_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_H_HeavyGunner_F.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = $STR_A3_cfgVehicles_B_HeavyGunner_F0;
+    //uniformClass = Atlas_U_B_H_Soldier_2_F;
+	uniformClass = Atlas_U_UniformBDU_02_HI_F;
+	backpack = Atlas_B_TacticalPack_oli_BHHG_F;
+	weapons[] =
+	{
+		Aegis_MMG_FNMAG_240_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_MMG_FNMAG_240_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_2(Aegis_200Rnd_762x51_MAG_Red_F),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_2(Aegis_200Rnd_762x51_MAG_Red_F),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_TacChestrig_oli_F,
+		Atlas_H_MilCap_tachs_Jungle,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacChestrig_oli_F,
+		Atlas_H_MilCap_tachs_Jungle,
 		DefaultManLinkedItems
 	};
 };
@@ -855,13 +969,13 @@ class Atlas_B_H_Soldier_unarmed_F: Atlas_B_H_Soldier_F
 	linkedItems[] =
 	{
 		V_PlateCarrierIA1_oli,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierIA1_oli,
-		H_PASGT_basic_olive_F,
+		Atlas_H_PASGT_Cover_HIMF_F,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;
@@ -935,6 +1049,7 @@ class Atlas_B_H_Soldier_commando_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -942,6 +1057,7 @@ class Atlas_B_H_Soldier_commando_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -988,6 +1104,7 @@ class Atlas_B_H_Soldier_commando_AR_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -995,6 +1112,7 @@ class Atlas_B_H_Soldier_commando_AR_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1048,6 +1166,7 @@ class Atlas_B_H_Soldier_commando_exp_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1055,6 +1174,7 @@ class Atlas_B_H_Soldier_commando_exp_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1110,6 +1230,7 @@ class Atlas_B_H_Soldier_commando_gl_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1117,6 +1238,7 @@ class Atlas_B_H_Soldier_commando_gl_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1172,6 +1294,7 @@ class Atlas_B_H_Soldier_commando_jtac_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1179,6 +1302,7 @@ class Atlas_B_H_Soldier_commando_jtac_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1288,6 +1412,7 @@ class Atlas_B_H_Soldier_commando_medic_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1295,6 +1420,7 @@ class Atlas_B_H_Soldier_commando_medic_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1351,6 +1477,7 @@ class Atlas_B_H_Soldier_commando_LAT_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_headset_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1358,6 +1485,7 @@ class Atlas_B_H_Soldier_commando_LAT_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_headset_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1411,6 +1539,7 @@ class Atlas_B_H_Soldier_commando_TL_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_headset_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};
@@ -1418,6 +1547,7 @@ class Atlas_B_H_Soldier_commando_TL_F: Atlas_B_H_Soldier_Commando_Base
 	{
 		V_PlateCarrier2_oli,
 		H_HelmetHBK_commando_headset_F,
+		Aegis_G_scrimNet_under_olive_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_INDEP
 	};

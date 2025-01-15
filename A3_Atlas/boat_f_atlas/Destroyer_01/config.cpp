@@ -102,33 +102,11 @@ class CfgVehicles
 	};
 	class Land_Destroyer_01_base_F: StaticShip
 	{
-		class EventHandlers: EventHandlers
-		{
-			class A3_Atlas
-			{
-				init = "\
-					if (is3DEN and get3DENEntityID (_this#0) == -1 and get3DENActionState 'SelectGroupMode' == 1) then {\
-						private _edenEntity = create3DENEntity ['Object',typeOf (_this#0),[0,0,0]];\
-						_edenEntity spawn {\
-							set3DENAttributes [\
-								[[_edenEntity],'position',getPosATL (_this#0)],\
-								[[_edenEntity],'rotation',call {\
-									private _vD = vectorDir (_this#0) ;\
-									private _vU = vectorUp (_this#0)  ;\
-									private _vC = _vD vectorCrossProduct _vU ;\
-									[((_vU#1) atan2 (_vU#2)+360)mod 360,(-(_vU#0) atan2 sqrt (1 - (_vU#0 ^ 2))+360)mod 360,(_vD#0) atan2 (_vC#0)]\
-								}]\
-							];\
-						} ;\
-					};\
-				";
-			};
-		};
+		class EventHandlers;
 	};
 	class Atlas_Land_Destroyer_01_base_HMS_F: Land_Destroyer_01_base_F
 	{
 		displayName = "HMS Vigilance";	// todo localize
-		
 		class Attributes
 		{
 		};

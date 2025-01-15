@@ -1,4 +1,4 @@
-/* Sydnikat */
+/* Syndikat */
 class Aegis_I_C_ZU23_lxWS_F: zu23_base_lxWS
 {
 	author = $STR_A3_A_Ravenholme;

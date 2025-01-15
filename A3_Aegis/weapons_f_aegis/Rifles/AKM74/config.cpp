@@ -27,18 +27,13 @@ class CfgWeapons
         displayName = $STR_A3_A_CfgWeapons_arifle_AKM74_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKM74_F.paa";
 		hiddenSelections[] = {
-			"camo1","ak74m","camo4"//,
-			//"ak74wood"	// actually hidden selections
+			"camo1","camo2","camo4","camo5"
 		};
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
-		};
-        hiddenSelectionsMaterials[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount.rvmat"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 		handAnim[] = {
 			OFP2_ManSkeleton,
@@ -46,8 +41,8 @@ class CfgWeapons
 		};
 		recoil = "recoil_aks";
 		inertia = 0.5;
-
-		model = "A3_Aegis\weapons_f_Aegis\Rifles\AKM74\ak74m.p3d";
+		initSpeed = 880;
+		model =  "A3_Aegis\weapons_f_Aegis\Rifles\AKM74\ak74m.p3d";
 		reloadAction = "GestureReloadAKM74";
 
 		magazines[]=
@@ -91,8 +86,16 @@ class CfgWeapons
 		};
 
 		drySound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK74\AK74_dry",0.17782794,1,10};
-		reloadMagazineSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK74\AK74_reload",1.0,1,10};
+		reloadMagazineSound[] = {"A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\Rifle_AK74\AK74_reload",1.0,1,10};
 		changeFiremodeSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK74\AK74_firemode",0.17782794,1,5};
+		modes[]=
+		{
+			"Single",
+			"FullAuto",
+			"single_medium_optics1",
+			"single_medium_optics2",
+			"fullauto_medium"
+		};
 		class Single: Mode_SemiAuto
 		{
 			class BaseSoundModeType;
@@ -104,6 +107,14 @@ class CfgWeapons
 			{
 				SoundSetShot[] = {"AK12_silencerShot_SoundSet","AK12_silencerTail_SoundSet","AK12_silencerInteriorTail_SoundSet"};
 			};
+			reloadTime = RPM_650;
+			dispersion=0.00075;
+			minRange=2;
+			minRangeProbab=0.5;
+			midRange=200;
+			midRangeProbab=0.69999999;
+			maxRange=400;
+			maxRangeProbab=0.3;
 		};
 		class FullAuto: Mode_FullAuto
 		{
@@ -116,6 +127,59 @@ class CfgWeapons
 			{
 				SoundSetShot[] = {"AK12_silencerShot_SoundSet","AK12_silencerTail_SoundSet","AK12_silencerInteriorTail_SoundSet"};
 			};
+			reloadTime = RPM_650;
+			dispersion=0.00075;
+			minRange=0;
+			minRangeProbab=0.89999998;
+			midRange=15;
+			midRangeProbab=0.69999999;
+			maxRange=30;
+			maxRangeProbab=0.050000001;
+		};
+		class FullAuto_medium: FullAuto
+		{
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] = {"AK74_Shot_SoundSet","AK74_Tail_SoundSet","AK74_InteriorTail_SoundSet"};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				SoundSetShot[] = {"AK12_silencerShot_SoundSet","AK12_silencerTail_SoundSet","AK12_silencerInteriorTail_SoundSet"};
+			};
+			showToPlayer=false;
+			burst=3;
+			minRange=2;
+			minRangeProbab=0.5;
+			midRange=100;
+			midRangeProbab=0.69999999;
+			maxRange=150;
+			maxRangeProbab=0.050000001;
+			aiRateOfFire=2;
+		};
+		class single_medium_optics1: Single
+		{
+			requiredOpticType=1;
+			showToPlayer=0;
+			minRange=5;
+			minRangeProbab=0.2;
+			midRange=350;
+			midRangeProbab=0.69999999;
+			maxRange=525;
+			maxRangeProbab=0.30000001;
+			aiRateOfFire=5;
+			aiRateOfFireDistance=525;
+		};
+		class single_medium_optics2: single_medium_optics1
+		{
+			requiredOpticType=2;
+			minRange=100;
+			minRangeProbab=0.1;
+			midRange=500;
+			midRangeProbab=0.69999999;
+			maxRange=750;
+			maxRangeProbab=0.050000001;
+			aiRateOfFire=6;
+			aiRateOfFireDistance=750;
 		};
     };
 	class Aegis_arifle_AKM74_GL_F: Aegis_arifle_AKM74_F
@@ -123,28 +187,22 @@ class CfgWeapons
 		author = $STR_A3_A_POLPOX_Toadie2k;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AKM74_GL_F0;
 		scope = public;
-		model = "A3_Aegis\weapons_f_Aegis\Rifles\AKM74\ak74m_gl.p3d";
-		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKM74_GL_F.paa";
+		model =  "A3_Aegis\weapons_f_Aegis\Rifles\AKM74\ak74m_gl.p3d";
+		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AK74_GL_F.paa";
 		baseWeapon = "Aegis_arifle_AKM74_GL_F";
 		handAnim[] = {
 			OFP2_ManSkeleton,
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\Anim\ak74m_gl.rtm"
 		};
 		hiddenSelections[] = {
-			"camo1","ak74m","camo3","camo4"//,
-			//"ak74wood"	// actually hidden selections
+			"camo1","camo2","camo3","camo4","camo5"
 		};
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
-		};
-        hiddenSelectionsMaterials[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount.rvmat"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\gp30_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 		muzzles[] = {"this","EGLM"};
 		class EGLM: UGL_F
@@ -186,7 +244,7 @@ class CfgWeapons
 			"A3\Weapons_F_Exp\Rifles\AKM\Data\akm_steel_mag.rvmat"
 		};
 
-		model = "a3\weapons_f_exp\Rifles\AKM\AKM_F.p3d";
+		model =  "a3\weapons_f_exp\Rifles\AKM\AKM_F.p3d";
 		handAnim[] = {
 			OFP2_ManSkeleton,
 			"a3\weapons_f_exp\Rifles\AKM\Data\Anim\AKM.rtm"
@@ -220,9 +278,10 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_arifle_AKM74_snd_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKM74_sand_F.paa";
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard_sand_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_sand_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 	};
 	class Aegis_arifle_AKM74_sand_GL_F: Aegis_arifle_AKM74_GL_F
@@ -240,10 +299,11 @@ class CfgWeapons
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_AKM74_GL_snd_F0;	// todo localize
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard_sand_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_sand_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\gp30_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 	};
 	
@@ -251,7 +311,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_POLPOX_Toadie2k;
 		baseWeapon = Aegis_arifle_AKM74_olive_F;
-		scope = protected;
+		scope = public;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKM74_olive_F.paa";
 		magazines[]=
 		{
@@ -260,16 +320,17 @@ class CfgWeapons
 		};
 		displayName = $STR_A3_A_CfgWeapons_arifle_AKM74_grn_F0;	// todo localize
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard_olive_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_olive_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 	};
 	class Aegis_arifle_AKM74_olive_GL_F: Aegis_arifle_AKM74_GL_F
 	{
 		author = $STR_A3_A_POLPOX_Toadie2k;
 		baseWeapon = Aegis_arifle_AKM74_olive_GL_F;
-		scope = protected;
+		scope = public;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKM74_olive_GL_F.paa";
 		magazines[]=
 		{
@@ -278,10 +339,11 @@ class CfgWeapons
 		};
 		displayName = $STR_A3_A_CfgWeapons_arifle_AKM74_GL_grn_F0;	// todo localize
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard_olive_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_olive_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\gp30_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 	};
 
@@ -293,10 +355,6 @@ class CfgWeapons
         author = $STR_A3_A_POLPOX_Toadie2k;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AK74_F.paa";
 		model = "A3_Aegis\weapons_f_Aegis\Rifles\AKM74\ak74.p3d";
-		hiddenSelections[] = {
-			"camo1","ak74wood","camo4"//,
-			//"ak74m","nightsight"	// actually hidden selections
-		};
 		magazines[]=
 		{
            	30Rnd_545x39_Mag_F,
@@ -304,15 +362,13 @@ class CfgWeapons
 			30Rnd_545x39_Mag_Tracer_F,
 			30Rnd_545x39_Mag_Tracer_Green_F
 		};
-		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+		hiddenSelections[] = {
+			"camo1","camo4","camo5"
 		};
-        hiddenSelectionsMaterials[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount.rvmat"
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 	};
 
@@ -322,11 +378,7 @@ class CfgWeapons
 		baseWeapon = "Aegis_arifle_AK74_GL_F";
         author = $STR_A3_A_POLPOX_Toadie2k;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AK74_GL_F.paa";
-		model = "A3_Aegis\weapons_f_Aegis\Rifles\AKM74\ak74_gl.p3d";
-		hiddenSelections[] = {
-			"camo1","ak74wood","camo3","camo4"//,
-			//"ak74m","nightsight"	// actually hidden selections
-		};
+		model =  "A3_Aegis\weapons_f_Aegis\Rifles\AKM74\ak74_gl.p3d";
 		magazines[]=
 		{
            	30Rnd_545x39_Mag_F,
@@ -334,17 +386,14 @@ class CfgWeapons
 			30Rnd_545x39_Mag_Tracer_F,
 			30Rnd_545x39_Mag_Tracer_Green_F
 		};
-		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+		hiddenSelections[] = {
+			"camo1","camo3","camo4","camo5"
 		};
-        hiddenSelectionsMaterials[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount.rvmat"
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\gp30_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 	};
 
@@ -354,15 +403,20 @@ class CfgWeapons
 		baseWeapon = "Aegis_arifle_AK74_oak_F";
         author = $STR_A3_A_POLPOX_Toadie2k;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AK74_oak_F.paa";
-		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_oak_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+		hiddenSelections[] = {
+			"camo1","camo4","camo5","camoWood"
 		};
-        hiddenSelectionsMaterials[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_oak.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount.rvmat"
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_oak_co.paa"
+		};
+		hiddenSelectionsMaterials[] = {
+			"",
+			"",
+			"",
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\data\ak74_base_oak_wood.rvmat"
 		};
 	};
 
@@ -372,30 +426,32 @@ class CfgWeapons
 		baseWeapon = "Aegis_arifle_AK74_GL_oak_F";
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AK74_GL_oak_F.paa";
         author = $STR_A3_A_POLPOX_Toadie2k;
-		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_oak_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+		hiddenSelections[] = {
+			"camo1","camo3","camo4","camo5","camoWood"
 		};
-        hiddenSelectionsMaterials[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_oak.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount.rvmat"
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\gp30_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_oak_co.paa"
+		};
+		hiddenSelectionsMaterials[] = {
+			"",
+			"",
+			"",
+			"",
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\data\ak74_base_oak_wood.rvmat"
 		};
 	};
 
 	class Aegis_arifle_AKS74_F: Aegis_arifle_AK74_F
 	{
-		model = "A3_Aegis\weapons_f_Aegis\Rifles\AKM74\aks74.p3d";
+		model =  "A3_Aegis\weapons_f_Aegis\Rifles\AKM74\aks74.p3d";
 		displayName = $STR_A3_A_CfgWeapons_arifle_AKS74_F0;
 		baseWeapon = "Aegis_arifle_AKS74_F";
         author = $STR_A3_A_POLPOX_Toadie2k;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKS74_F.paa";
-		hiddenSelections[] = {
-			"camo1","ak74wood","camo4"
-		};
 		magazines[]=
 		{
            	30Rnd_545x39_Mag_F,
@@ -403,15 +459,14 @@ class CfgWeapons
 			30Rnd_545x39_Mag_Tracer_F,
 			30Rnd_545x39_Mag_Tracer_Green_F
 		};
-		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+		hiddenSelections[] = {
+			"camo1","camo2","camo4","camo5"
 		};
-        hiddenSelectionsMaterials[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount.rvmat"
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 	};
 	class Aegis_arifle_AKS74_oak_F: Aegis_arifle_AKS74_F
@@ -420,15 +475,21 @@ class CfgWeapons
 		baseWeapon = "Aegis_arifle_AKS74_oak_F";
         author = $STR_A3_A_POLPOX_Toadie2k;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKS74_oak_F.paa";
-		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_oak_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+		hiddenSelections[] = {
+			"camo1","camo2","camo4","camo5","camoWood"
 		};
-        hiddenSelectionsMaterials[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_oak.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount.rvmat"
+		hiddenSelectionsTextures[] = {
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_oak_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
+		};
+		hiddenSelectionsMaterials[] = {
+			"",
+			"",
+			"",
+			"",
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\data\ak74_base_wood.rvmat"
 		};
 	};
 	
@@ -555,15 +616,12 @@ class CfgWeapons
 			maxRangeProbab = 0.05;
 			aiRateOfFire = 2;
 		};
-		drySound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK47\AK47_dry",0.177828,1,10};
-		reloadMagazineSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK47\AK47_reload",1,1,10};
-		changeFiremodeSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\Rifles\Rifle_AK47\AK47_firemode",0.177828,1,5};
 	};
 	class Aegis_arifle_AK103_GL_F: Aegis_arifle_AK103_F
 	{
 		author = $STR_A3_A_POLPOX_Toadie2k;
 		baseWeapon = Aegis_arifle_AK103_GL_F;
-		model = "A3_Aegis\weapons_f_Aegis\Rifles\AKM74\ak74m_gl.p3d";
+		model =  "A3_Aegis\weapons_f_Aegis\Rifles\AKM74\ak74m_gl.p3d";
 		handAnim[] = {
 			OFP2_ManSkeleton,
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\Anim\ak74m_gl.rtm"
@@ -582,22 +640,15 @@ class CfgWeapons
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKM74_GL_F.paa";
 		displayName = $STR_A3_A_CfgWeapons_arifle_AK103_GL_F0;	// todo localize
 		hiddenSelections[] = {
-			"camo1","ak74m","camo3","camo4"//,
-			//"ak74wood"	// actually hidden selections
+			"camo1","camo2","camo3","camo4","camo5"
 		};
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\gp30_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
-        hiddenSelectionsMaterials[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount.rvmat"
-		};
-
 		muzzles[] = {"this","EGLM"};
 		class EGLM: UGL_F
 		{
@@ -632,9 +683,10 @@ class CfgWeapons
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKM74_plum_F.paa";
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard_plum_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_plum_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 	};
 
@@ -656,10 +708,11 @@ class CfgWeapons
 		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKM74_GL_Plum_F.paa";
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard_plum_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_plum_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\gp30_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 	};
 
@@ -678,9 +731,10 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_arifle_AKM74_plum_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKM74_plum_F.paa";
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard_plum_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_plum_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 	};
 
@@ -699,10 +753,11 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_arifle_AKM74_GL_plum_F0;
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKM74_GL_plum_F.paa";
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_handguard_plum_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_gp30_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_mount_co.paa"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_plum_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\gp30_co.paa",
+			"a3_aegis\weapons_f_aegis\shotguns\mp153\data\mp153_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak_mount_co.paa"
 		};
 	};
 
@@ -715,20 +770,16 @@ class CfgWeapons
 			30Rnd_545x39_Steel_Gold_Mag_F,
 			30Rnd_545x39_Steel_Gold_Tracer_Mag_F
 		};
-		hiddenSelections[] = {
-			"camo1","ak74wood","woodpart",
-			"dovetail"//,"camo4","ak74m","nightsight"	// actually hidden selections
-		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AK74_gold_F.paa";
+		hiddenSelections[] = {
+			"camo1","camoWood","dovetail"
+		};
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_gold_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_gold_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_gold_co.paa"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_oak_co.paa"
 		};
 		hiddenSelectionsMaterials[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_gold.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_gold.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_oak.rvmat"
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\data\ak74_base_gold.rvmat",
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\data\ak74_base_oak_wood.rvmat"
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -748,20 +799,18 @@ class CfgWeapons
 			30Rnd_545x39_Steel_Gold_Mag_F,
 			30Rnd_545x39_Steel_Gold_Tracer_Mag_F
 		};
-		hiddenSelections[] = {
-			"camo1","ak74wood","woodpart",
-			"dovetail"//,"camo4","ak74m","nightsight"	// actually hidden selections
-		};
 		picture = "\A3_Aegis\Weapons_F_Aegis\Rifles\AKM74\Data\UI\icon_Aegis_arifle_AKS74_gold_F.paa";
+		hiddenSelections[] = {
+			"camo1","camo2","camoWood","dovetail"
+		};
 		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_gold_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_gold_co.paa",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_gold_co.paa"
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_base_oak_co.paa",
+			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_adds_co.paa",
 		};
 		hiddenSelectionsMaterials[] = {
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74m_body_gold.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_gold.rvmat",
-			"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\ak74_wood_oak.rvmat"
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\data\ak74_base_gold.rvmat",
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\data\ak74_adds_gold.rvmat",
+			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\data\ak74_base_oak_wood.rvmat"
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{

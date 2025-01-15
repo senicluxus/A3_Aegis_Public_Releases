@@ -1033,3 +1033,163 @@ class Aegis_sgun_AA40_tan_ACO_LP_LxWS: sgun_AA40_tan_lxWS
     	LINKED_SIDE(acc_pointer_IR_sand_LXWS);
 	};
 };
+class Aegis_LMG_Mk200_khk_Holo_F: LMG_Mk200_khk_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_Holosight_khk_F);
+	};
+};
+class Aegis_arifle_XMS_GL_khk_ACO_lxWS: arifle_XMS_GL_khk_lxWS
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ACO);
+	};
+};
+class Aegis_arifle_XMS_base_khk_ACO_lxWS: arifle_XMS_base_khk_lxWS
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ACO);
+	};
+};
+class Aegis_arifle_XMS_Shot_khk_ACO_lxWS: arifle_XMS_Shot_khk_lxWS
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_ACO);
+	};
+};
+class Aegis_arifle_XMS_M_khk_Holo_lxWS: arifle_XMS_M_khk_lxWS
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_Holosight_khk_F);
+	};
+};
+class Aegis_SMG_01_khk_HAMR_F: SMG_01_khk_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_HAMR_khk_F);
+	};
+};
+class Aegis_LMG_S77_AAF_MRCO_LP_lxWS: LMG_S77_AAF_LxWS
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_MRCO);
+        LINKED_SIDE(acc_pointer_IR);
+	};
+};
+class Aegis_arifle_SPAR_03_snd_MOS_Pointer_Bipod_F: arifle_SPAR_03_snd_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_SOS);
+        LINKED_SIDE(acc_pointer_IR);
+        LINKED_UNDERBARREL(bipod_01_F_snd);
+	};
+};
+class Aegis_arifle_SPAR_03_blk_MOS_Pointer_Bipod_F: arifle_SPAR_03_blk_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_SOS);
+        LINKED_SIDE(acc_pointer_IR);
+        LINKED_UNDERBARREL(bipod_01_F_blk);
+	};
+};
+class Aegis_arifle_SPAR_03_khk_MOS_Pointer_Bipod_F: arifle_SPAR_03_khk_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_SOS_khk_F);
+        LINKED_SIDE(acc_pointer_IR);
+        LINKED_UNDERBARREL(bipod_01_F_khk);
+	};
+};
+class Aegis_srifle_GM6B_LRPS_PointerDM_F: Aegis_srifle_GM6B_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_LRPS);
+        LINKED_SIDE(Aegis_acc_pointer_DM);
+	};
+};
+class Aegis_srifle_GM6B_khaki_LRPS_F: Aegis_srifle_GM6B_khaki_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_LRPS);
+	};
+};
+class Aegis_srifle_GM6B_sand_LRPS_F: Aegis_srifle_GM6B_sand_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_LRPS);
+	};
+};
+class Aegis_arifle_MK20_FMS_LP_Snds_F: arifle_Mk20_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		LINKED_TOP(acc_o_FMS);
+		LINKED_SIDE(Aegis_acc_pointer_DM);
+		LINKED_MUZZLE(suppressor_l_lxWS);
+	};
+};
+class Aegis_arifle_MK20C_FMS_LP_Snds_F: arifle_Mk20C_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		LINKED_TOP(acc_o_FMS);
+		LINKED_SIDE(Aegis_acc_pointer_DM);
+		LINKED_MUZZLE(suppressor_l_lxWS);
+	};
+};
+class Aegis_arifle_MK20_GL_FMS_LP_Snds_F: arifle_Mk20_GL_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		LINKED_TOP(acc_o_FMS);
+		LINKED_SIDE(Aegis_acc_pointer_DM);
+		LINKED_MUZZLE(suppressor_l_lxWS);
+	};
+};
+class Aegis_LMG_MK200_MRCO_LP_BI_Snds_F: LMG_MK200_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		LINKED_TOP(optic_MRCO);
+		LINKED_SIDE(Aegis_acc_pointer_DM);
+		LINKED_MUZZLE(suppressor_m_lxWS);
+		LINKED_UNDERBARREL(bipod_03_F_blk);
+	};
+};
+class Aegis_arifle_SR25_MR_blk_MRCO_LP_Snds_BI_F: Aegis_arifle_SR25_MR_blk_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		LINKED_TOP(optic_MRCO);
+		LINKED_SIDE(Aegis_acc_pointer_DM);
+		LINKED_MUZZLE(suppressor_h_lxWS);
+		LINKED_UNDERBARREL(bipod_03_F_blk);
+	};
+};
+class srifle_DMR_01_black_DMS_LP_BI_F: srifle_DMR_01_black_F
+{
+	class LinkedItems
+	{
+        LINKED_TOP(optic_DMS_weathered_F);
+        LINKED_SIDE(acc_pointer_IR);
+        LINKED_UNDERBARREL(bipod_02_F_blk);
+	};
+};

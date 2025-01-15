@@ -71,5 +71,6 @@ class CfgVehicles
     #include "cfgGendarmerie.hpp"
     #include "cfgRUS.hpp"
 	#include "cfgEAF.hpp"
+	#include "cfgCivil.hpp"
 	
 };

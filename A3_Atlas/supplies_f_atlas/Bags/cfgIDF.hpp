@@ -6,7 +6,7 @@ class B_Carryall_oli_IIAmmo_F: B_Carryall_oli
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_Stanag,8);
-		mag_xx(150Rnd_762x51_Box_Yellow,1);
+		mag_xx(Atlas_150Rnd_762x51_Box_Yellow,1);
 		mag_xx(MRAWS_HEAT_F,1);
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);
@@ -104,7 +104,7 @@ class B_ViperHarness_oli_IIAAR_F: B_ViperHarness_oli_F
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(150Rnd_762x51_Box_Yellow,3);
+		mag_xx(Atlas_150Rnd_762x51_Box_Yellow,3);
 		mag_xx(150Rnd_762x51_Box_Tracer_Yellow,1);
 		mag_xx(HandGrenade,1);
 		mag_xx(SmokeShell,1);
@@ -134,7 +134,7 @@ class B_ViperLightHarness_oli_IIAR_F: B_ViperLightHarness_oli_F
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(150Rnd_762x51_Box_Yellow,2);
+		mag_xx(Atlas_150Rnd_762x51_Box_Yellow,2);
 	};
 };
 class B_AssaultPack_blk;

@@ -23,6 +23,4 @@ class CfgVehicles
 	// editor weapons
 	class Weapon_Base_F;
 	WEAPON_HOLDER(Atlas_LMG_Negev_black,$STR_A3_A_CfgWeapons_LMG_Negev_Black_F0,EdSubcat_AssaultRifles,150Rnd_762x51_Box_Yellow)
-	//WEAPON_HOLDER(arifle_FORT651_F,$STR_A3_A_CfgWeapons_arifle_FORT651_F0,EdSubcat_AssaultRifles,30Rnd_65x39_caseless_msbs_mag)
-	//WEAPON_HOLDER(arifle_FORT652_GL_F,$STR_A3_A_CfgWeapons_arifle_FORT652_GL_F0,EdSubcat_AssaultRifles,30Rnd_65x39_caseless_msbs_mag)
 };

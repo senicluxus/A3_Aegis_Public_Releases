@@ -105,6 +105,34 @@ class CfgVehicles
       			};
       			factions[] = {};
 			};
+			class WDL_01	// US Woodland
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+      			author = $STR_A3_A_BranFlakes;
+      			textures[] = 
+      			{
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_body_wdl_CO.paa",
+					"\A3\Armor_F_Exp\APC_Wheeled_01\Data\APC_Wheeled_01_adds_olive_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_wdl_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+					"\A3\Armor_F\Data\cage_olive_CO.paa"
+				};
+      			factions[] = {};
+			};
+			class EAF_Arid	// LDF Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+      			author = $STR_A3_A_Grave;
+      			textures[] = 
+      			{
+         			"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_EAF_arid_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_adds_EAF_arid_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_EAF_arid_CO.paa",
+       				"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_sand_CO.paa"
+      			};
+      			factions[] = {};
+			};
 		};
 	};
 	class APC_Wheeled_01_base_v2_F: APC_Wheeled_01_base_F
@@ -357,6 +385,20 @@ class CfgVehicles
       			};
       			factions[] = {};
    			};
+   			class WDL_01	// LDF
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+      			author = $STR_A3_A_BranFlakes;
+      			textures[] = 
+      			{
+      				"A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_body_wdl_CO.paa",
+      				"A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_adds_olive_co.paa",
+      				"A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_tows_wdl_co.paa",
+      				"a3\Armor_F\Data\camonet_NATO_Green_CO.paa","a3\Armor_F\Data\cage_olive_CO.paa",
+      				"A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_lxws_wdl_CO.paa"
+    			};
+      			factions[] = {};
+			};
 			class EAF_01	// LDF
 			{
 				displayName = $STR_A3_C_CfgVehicles_Offroad_01_civil_base_F_TextureSources_EAF0;
@@ -369,6 +411,21 @@ class CfgVehicles
          			"A3\Armor_F_Enoch\apc_tracked_03\Data\camonet_EAF_green_CO.paa",
 					"A3\Armor_F_Enoch\apc_tracked_03\data\cage_EAF_CO.paa",
 					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_EAF_CO.paa"
+      			};
+      			factions[] = {};
+			};
+			class EAF_Arid	// LDF Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+      			author = $STR_A3_A_Grave;
+      			textures[] = 
+      			{
+         			"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_EAF_arid_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_adds_EAF_arid_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_EAF_arid_CO.paa",
+       				"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_sand_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_EAF_arid_CO.paa"
       			};
       			factions[] = {};
 			};
@@ -394,6 +451,35 @@ class CfgVehicles
       			};
       			factions[] = {};
 			};
+			class WDL_01	// LDF
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+      			author = $STR_A3_A_BranFlakes;
+      			textures[] = 
+      			{
+      				"A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_body_wdl_CO.paa",
+      				"A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_adds_olive_co.paa",
+      				"A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_tows_wdl_co.paa",
+      				"a3\Armor_F\Data\camonet_NATO_Green_CO.paa","a3\Armor_F\Data\cage_olive_CO.paa",
+      				"A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_lxws_wdl_CO.paa"
+    			};
+      			factions[] = {};
+			};
+			class EAF_Arid	// LDF Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+      			author = $STR_A3_A_Grave;
+      			textures[] = 
+      			{
+         			"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_EAF_arid_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_adds_EAF_arid_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_EAF_arid_CO.paa",
+       				"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_sand_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_EAF_arid_CO.paa"
+      			};
+      			factions[] = {};
+			};
 		};
 	};
 
@@ -414,6 +500,35 @@ class CfgVehicles
          			"A3\Armor_F_Enoch\apc_tracked_03\Data\camonet_EAF_green_CO.paa",
 					"A3\Armor_F_Enoch\apc_tracked_03\data\cage_EAF_CO.paa",
 					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_EAF_CO.paa"
+      			};
+      			factions[] = {};
+			};
+			class WDL_01	// LDF
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+      			author = $STR_A3_A_BranFlakes;
+      			textures[] = 
+      			{
+      				"A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_body_wdl_CO.paa",
+      				"A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_adds_olive_co.paa",
+      				"A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_tows_wdl_co.paa",
+      				"a3\Armor_F\Data\camonet_NATO_Green_CO.paa","a3\Armor_F\Data\cage_olive_CO.paa",
+      				"A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_lxws_wdl_CO.paa"
+    			};
+      			factions[] = {};
+			};
+			class EAF_Arid	// LDF Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+      			author = $STR_A3_A_Grave;
+      			textures[] = 
+      			{
+         			"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_EAF_arid_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_adds_EAF_arid_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_EAF_arid_CO.paa",
+       				"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_sand_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_EAF_arid_CO.paa"
       			};
       			factions[] = {};
 			};

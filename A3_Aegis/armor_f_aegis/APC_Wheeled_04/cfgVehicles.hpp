@@ -350,6 +350,20 @@ class CfgVehicles
                 };
 				factions[] = {};
 			};
+			class Sand
+			{
+				displayName = $STR_A3_A_texturesources_sand0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+                {
+                    "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body_sand_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body2_sand_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_tow_sand_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+                };
+				factions[] = {};
+			};
 			class Hex
 			{
 				displayName = $STR_A3_TEXTURESOURCES_HEX0;
@@ -792,10 +806,9 @@ class CfgVehicles
 			fired = "[_this select 0,_this select 6,'missile_move','MissileBase'] call BIS_fnc_missileLaunchPositionFix; _this call (uinamespace getvariable 'BIS_fnc_effectFired');";
 		};
 	};
-    /*
     class APC_Wheeled_04_base_v2_F: APC_Wheeled_04_base_F
     {
-		author = $STR_A3_A_AveryTheKitty_and_Lakarak;
+		author = $STR_A3_A_AveryTheKitty_Lukin_Lakarak;
 		displayName = $STR_A3_A_CfgVehicles_APC_Wheeled_04_base_v2_F0;
 		model = "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\APC_Wheeled_04_cannon_v2_F.p3d";
 		icon = "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\UI\Map_APC_Wheeled_04_v2_CA.paa";
@@ -835,6 +848,7 @@ class CfgVehicles
 		        selectionFireAnim = zasleh;
                 
                 // Servos
+				minElev = -2;
                 maxElev = 14;
                 initElev = 10;
                 soundServo[] = {"\A3\Sounds_F\vehicles\armor\noises\servo_armor_gunner",db-16,1,30};
@@ -885,19 +899,88 @@ class CfgVehicles
         };
 
         // Liveries
-		class TextureSources: TextureSources
+		class TextureSources
 		{
-			class Green: Green
+			class Green
 			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
                 {
                     "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_sprut_body_RUkhk_CO.paa",
                     "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body2_RUkhk_CO.paa",
-                    "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_tow2_RUkhk_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\apc_wheeled_04_sprut_turret_co.paa",
                     "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
                     "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
                 };
+				factions[] = {};
 			};
+			class Sand
+			{
+				displayName = $STR_A3_A_texturesources_sand0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+                {
+                    "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body_sand_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body2_sand_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\apc_wheeled_04_sprut_turret_sand_co.paa",
+                    "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+                };
+				factions[] = {};
+			};
+			class Hex
+			{
+				displayName = $STR_A3_TEXTURESOURCES_HEX0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+                {
+					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body_Hex_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body2_Hex_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\apc_wheeled_04_sprut_turret_hex_co.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+				};
+				factions[] = {};
+			};
+			class GreenHex
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREENHEX0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+                {
+					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body_Ghex_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body2_Ghex_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\apc_wheeled_04_sprut_turret_ghex_co.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
+				};
+				factions[] = {};
+			};
+			class Indep
+        	{
+            	displayName = $STR_A3_TextureSources_Indep0;
+            	author = $STR_A3_A_BranFlakes;
+            	textures[] = 
+           	 	{
+        			"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body_AAF_CO.paa",
+        			"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body2_AAF_CO.paa",
+        			"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\apc_wheeled_04_sprut_turret_AAF_co.paa"
+    			};
+    			factions[] = {};
+            };
+            class SFIA
+        	{
+            	displayName = $STR_LXWS_FACTION_SFIA;
+            	author = $STR_A3_A_BranFlakes;
+            	textures[] = 
+           	 	{
+        			"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body_SFIA_CO.paa",
+        			"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body2_SFIA_CO.paa",
+        			"\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\apc_wheeled_04_sprut_turret_SFIA_co.paa"
+    			};
+    			factions[] = {};
+            };
 		};
 
         // Inventory
@@ -942,8 +1025,16 @@ class CfgVehicles
 			};
 		};
     };
-    */
+
+	/* BTR-100 Variant Base Classes */
+	#include "cfgExportVariant.hpp"
 
     /* Factions */
     #include "cfgRUS.hpp"   // Russia
+	#include "cfgRaven.hpp"	// Raven Security
+	#include "cfgCSAT.hpp"	// CSAT Factions
+	#include "cfgIndep.hpp"	// AAF
+	#include "cfgSFIA.hpp"	// SFIA
+	#include "cfgGuerrilla.hpp"	// FIA
+	#include "cfgTura.hpp"		// Tura
 };

@@ -171,7 +171,7 @@ class Atlas_O_T_MBT_02_cannon_F: O_MBT_02_cannon_F
 		verticalOffsetWorld = -0.185;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_MBT_02_cannon_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_MBT_02_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -183,12 +183,12 @@ class Atlas_O_T_MBT_02_cannon_F: O_MBT_02_cannon_F
 		Atlas_O_T_soldier_F,
 		Atlas_O_T_soldier_F
 	};
-	textureList[] = {Hex,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Gamma\MBT_02\Data\MBT_02_body_CO.paa",
-		"\A3\Armor_F_Gamma\MBT_02\Data\MBT_02_turret_CO.paa",
-		"\A3\Armor_F_Gamma\MBT_02\Data\MBT_02_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\MBT_02\Data\Atlas_MBT_02_body_tk_CO.paa",
+        "\A3_Atlas\Armor_F_Atlas\MBT_02\Data\Atlas_MBT_02_turret_tk_CO.paa",
+        "\A3_Atlas\Armor_F_Atlas\MBT_02\Data\Atlas_MBT_02_tk_CO.paa",
 		"\A3\Armor_F\Data\camonet_CSAT_Hex_Desert_CO.paa"
 	};
 	class TransportMagazines

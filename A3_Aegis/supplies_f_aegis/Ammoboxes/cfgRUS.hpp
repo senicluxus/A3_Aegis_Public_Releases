@@ -32,7 +32,7 @@ class Box_RUS_Wps_F: Box_East_Wps_F
     {
         mag_xx(30Rnd_545x39_AK12_Mag_F,8);
         mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,2);
-        mag_xx(10Rnd_93x64_DMR_05_Mag,1);
+        mag_xx(10Rnd_762x54_Mag,1);
         mag_xx(30Rnd_9x21_Mag_SMG_02,1);
         mag_xx(17Rnd_9x21_Mag,1);
     };
@@ -42,13 +42,13 @@ class Box_RUS_Wps_F: Box_East_Wps_F
         weap_xx(arifle_AK12_GL_545_F,2);
         weap_xx(arifle_AK12U_545_F,2);
         weap_xx(Aegis_arifle_RPK12_545_F,2);
-		weap_xx(srifle_DMR_05_blk_F,1);
-        weap_xx(SMG_02_F,1);
+		weap_xx(srifle_DMR_01_black_F,1);
+        weap_xx(Aegis_SMG_Gepard_blk_F,1);
         weap_xx(hgun_Rook40_F,1);
     };
 	class TransportItems
 	{
-		item_xx(optic_ACO_grn_AK_F,2);
+		item_xx(Aegis_optic_1p87,2);
 		item_xx(optic_ACO_grn_smg,1);
 		item_xx(optic_Arco_blk_F,1);
 		item_xx(optic_Arco_AK_blk_F,1);
@@ -110,7 +110,7 @@ class Box_RUS_WpsSpecial_F: Box_East_WpsSpecial_F
 	class TransportItems
 	{
 		item_xx(optic_Holosight_lush_F,2);
-		item_xx(optic_Arco_AK_lush_F,2);
+		item_xx(Aegis_optic_1p87_lush,2);
         item_xx(optic_DMS_weathered_Kir_F,1);
 		item_xx(optic_LRPS,1);
 	};
@@ -206,8 +206,8 @@ class Box_RUS_Ammo_F: Box_East_Ammo_F
 	{
         mag_xx(30Rnd_545x39_AK12_Mag_F,48);
         mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,16);
-        mag_xx(10Rnd_93x64_DMR_05_Mag,6);
-        mag_xx(30Rnd_9x21_Mag_SMG_02,6);
+        mag_xx(10Rnd_762x54_Mag,6);
+        mag_xx(Aegis_40Rnd_9x21_Gepard_Green_Mag_F,6);
         mag_xx(17Rnd_9x21_Mag,2);
 	};
 	class TransportWeapons{};
@@ -522,11 +522,12 @@ class O_R_supplyCrate_F: O_supplyCrate_F
     /* Inventory */
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_9x21_Mag_SMG_02,6);
+		mag_xx(Aegis_40Rnd_9x21_Gepard_Green_Mag_F,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(30Rnd_545x39_AK12_Mag_F,24);
 		mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,8);
-		mag_xx(10Rnd_93x64_DMR_05_Mag,6);
+		mag_xx(10Rnd_762x54_Mag,6);
+        mag_xx(10Rnd_93x64_DMR_05_Mag,4);
 		mag_xx(17Rnd_9x21_Mag,2);
 		mag_xx(chemlight_red,2);
 		mag_xx(O_R_IR_Grenade,2);
@@ -548,7 +549,7 @@ class O_R_supplyCrate_F: O_supplyCrate_F
         weap_xx(arifle_AK12_GL_545_F,1);
         weap_xx(arifle_AK12U_545_F,1);
         weap_xx(Aegis_arifle_RPK12_545_F,1);
-		weap_xx(srifle_DMR_05_blk_F,1);
+		weap_xx(srifle_DMR_01_black_F,1);
 		weap_xx(launch_RPG32_green_F,1);
 	};
 	class TransportItems
@@ -562,7 +563,7 @@ class O_R_supplyCrate_F: O_supplyCrate_F
 		item_xx(Medikit,1);
 		item_xx(MineDetector,1);
 		item_xx(ToolKit,1);
-		item_xx(optic_ACO_grn_AK_F,2);
+		item_xx(Aegis_optic_1p87,2);
 		item_xx(optic_Arco_blk_F,1);
 		item_xx(optic_Arco_AK_blk_F,1);
 		item_xx(optic_DMS_weathered_F,1);

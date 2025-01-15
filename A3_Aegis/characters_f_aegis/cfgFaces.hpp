@@ -270,7 +270,7 @@ class CfgFaces
 			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_05_injury.rvmat";
 			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_05_injury.rvmat";
 		};
-		class PersianHead_A3_06: PersianHead_A3_01
+		/*class PersianHead_A3_06: PersianHead_A3_01
 		{
 			author = $STR_A3_A_AveryTheKitty;
 			displayname = $STR_A3_TakistaniMen_LastNames23;
@@ -278,7 +278,7 @@ class CfgFaces
 			material = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_06.rvmat";
 			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_06_injury.rvmat";
 			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_06_injury.rvmat";
-		};
+		};*/
 		class PersianHead_A3_07: PersianHead_A3_01
 		{
 			author = $STR_A3_A_AveryTheKitty;
@@ -289,6 +289,15 @@ class CfgFaces
 			material = "\A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_07.rvmat";
 			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_07_injury.rvmat";
 			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Persian_07_injury.rvmat";
+		};
+		class lxWS_African_Head_01;
+		class lxWS_African_Head_04: lxWS_African_Head_01 
+		{
+			identityTypes[] +=
+			{
+				lxWS_Head_African,
+				Head_TK
+			};
 		};
 		class WhiteHead_33: WhiteHead_01
 		{
@@ -344,5 +353,176 @@ class CfgFaces
 			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\M_Latino_03_injury.rvmat";
 		};
 		*/
+		class Aegis_HispanicHead_01: Default
+		{
+			displayName = "Rodriguez";
+			author = $STR_A3_A_Grave;
+			identityTypes[]=
+			{
+				Head_NATO,
+				Head_Latino
+			};
+			head = "NATOHead_A3";
+			texture = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_01_CO.paa";
+			material = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_01.rvmat";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_01_Injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_01_Injury.rvmat";
+			textureHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_01_CO.paa";
+			textureHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_01_CO.paa";
+			materialHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_01.rvmat";
+			materialHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_01.rvmat";
+		};
+		class Aegis_HispanicHead_02: Default
+		{
+			displayName = "Serrano";
+			author = $STR_A3_A_Grave;
+			identityTypes[]=
+			{
+				Head_NATO,
+				Head_Latino
+			};
+			head=  "NATOHead_A3";
+			texture = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_02_CO.paa";
+			material = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_02.rvmat";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_02_Injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_02_Injury.rvmat";
+			textureHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_02_CO.paa";
+			textureHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_02_CO.paa";
+			materialHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_02.rvmat";
+			materialHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_02.rvmat";
+		};
+		class Aegis_HispanicHead_03: Default
+		{
+			displayName = "Dominguez";
+			author = $STR_A3_A_Grave;
+			identityTypes[]=
+			{
+				Head_NATO,
+				Head_Latino
+			};
+			head = "NATOHead_A3";
+			texture = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_03_CO.paa";
+			material = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_03.rvmat";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_03_Injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_03_Injury.rvmat";
+			textureHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_03_CO.paa";
+			textureHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_03_CO.paa";
+			materialHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_03.rvmat";
+			materialHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_03.rvmat";
+		};
+		class Aegis_HispanicHead_04: Default
+		{
+			displayName = "Gutierrez";
+			author = $STR_A3_A_Grave;
+			identityTypes[]=
+			{
+				Head_NATO,
+				Head_Latino
+			};
+			head = "NATOHead_A3";
+			texture = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_04_CO.paa";
+			material = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_04.rvmat";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_04_Injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_04_Injury.rvmat";
+			textureHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_04_CO.paa";
+			textureHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_04_CO.paa";
+			materialHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_04.rvmat";
+			materialHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_04.rvmat";
+		};
+		class Aegis_HispanicHead_05: Default
+		{
+			displayName = "Cruz";
+			author = $STR_A3_A_Grave;
+			identityTypes[]=
+			{
+				Head_NATO,
+				Head_Latino
+			};
+			head = "NATOHead_A3";
+			texture = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_05_CO.paa";
+			material = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_05.rvmat";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_05_Injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_05_Injury.rvmat";
+			textureHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_05_CO.paa";
+			textureHL2="A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_05_CO.paa";
+			materialHL="A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_05.rvmat";
+			materialHL2="A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_05.rvmat";
+		};
+		class Aegis_HispanicHead_06: Default
+		{
+			displayName = "Acosta";
+			author = $STR_A3_A_Grave;
+			identityTypes[]=
+			{
+				Head_NATO,
+				Head_Latino
+			};
+			head = "NATOHead_A3";
+			texture = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_06_CO.paa";
+			material = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_06.rvmat";
+			materialWounded1="A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_06_Injury.rvmat";
+			materialWounded2="A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_06_Injury.rvmat";
+			textureHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_06_CO.paa";
+			textureHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_06_CO.paa";
+			materialHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_06.rvmat";
+			materialHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_06.rvmat";
+		};
+		class Aegis_HispanicHead_07: Default
+		{
+			displayName = "Delgado";
+			author = $STR_A3_A_Grave;
+			identityTypes[]=
+			{
+				Head_NATO,
+				Head_Latino
+			};
+			head = "NATOHead_A3";
+			texture = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_07_CO.paa";
+			material = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_07.rvmat";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_07_Injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_07_Injury.rvmat";
+			textureHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_07_CO.paa";
+			textureHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_07_CO.paa";
+			materialHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_07.rvmat";
+			materialHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_07.rvmat";
+		};
+		class Aegis_HispanicHead_08: Default
+		{
+			displayName = "Alejandro";
+			author = $STR_A3_A_Grave;
+			identityTypes[]=
+			{
+				Head_NATO,
+				Head_Latino
+			};
+			head = "NATOHead_A3";
+			texture = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_08_CO.paa";
+			material = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_08.rvmat";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_08_Injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_08_Injury.rvmat";
+			textureHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_08_CO.paa";
+			textureHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_08_CO.paa";
+			materialHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_08.rvmat";
+			materialHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_08.rvmat";
+		};
+		class Aegis_HispanicHead_09: Default
+		{
+			displayName = "Rafael";
+			author = $STR_A3_A_Grave;
+			identityTypes[]=
+			{
+				Head_NATO,
+				Head_Latino
+			};
+			head = "NATOHead_A3";
+			texture = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_09_CO.paa";
+			material = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_09.rvmat";
+			materialWounded1 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_09_Injury.rvmat";
+			materialWounded2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Head_Hispanic_09_Injury.rvmat";
+			textureHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_09_CO.paa";
+			textureHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_09_CO.paa";
+			materialHL = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_09.rvmat";
+			materialHL2 = "A3_Aegis\Characters_F_Aegis\Heads\Data\Body_Hispanic_09.rvmat";
+		};
   	};
 };

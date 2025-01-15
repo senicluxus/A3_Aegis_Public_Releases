@@ -7,8 +7,11 @@ class CfgAddons
 			list[] =
 			{
                 A3_Opf_Air_F_Opf,
+                A3_Opf_Air_F_Opf_UAV_02_lxWS,
+                A3_Opf_Air_F_Opf_Heli_Attack_04,
                 A3_Opf_Armor_F_Opf,
                 A3_Opf_Armor_F_Opf_APC_Tracked_02,
+                A3_Opf_Armor_F_Opf_APC_Wheeled_04,
                 A3_Opf_Armor_F_Opf_MBT_02,
                 A3_Opf_Characters_F_Opf,
                 A3_Opf_Characters_F_Opf_Facewear,

@@ -10,6 +10,7 @@ class C_man_persian_base_F: C_man_1
     };
 	editorSubcategory = EdSubcat_Personnel_Persian;
 	genericNames = TakistaniMen;
+	faction = Aegis_CIV_GEN_F;
     headgearList[] =
     {
         H_Cap_tan,0.25,

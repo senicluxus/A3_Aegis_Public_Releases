@@ -1,6 +1,6 @@
 class Atlas_O_T_LSV_02_armed_F: LSV_02_armed_base_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -94,13 +94,13 @@ class Atlas_O_T_LSV_02_armed_F: LSV_02_armed_base_F
 	textureList[] =
 	{
 		Black,0,
-		Arid,1
+		Takistan,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_arid_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_arid_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_arid_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_01_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_02_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_03_tk_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -130,7 +130,7 @@ class Atlas_O_T_LSV_02_armed_F: LSV_02_armed_base_F
 };
 class Atlas_O_T_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -224,13 +224,13 @@ class Atlas_O_T_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	textureList[] =
 	{
 		Black,0,
-		Arid,1
+		Takistan,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_arid_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_arid_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_arid_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_01_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_02_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_03_tk_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -260,7 +260,7 @@ class Atlas_O_T_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 };
 class Atlas_O_T_LSV_02_AT_F: LSV_02_AT_base_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -352,13 +352,13 @@ class Atlas_O_T_LSV_02_AT_F: LSV_02_AT_base_F
 	textureList[] =
 	{
 		Black,0,
-		Arid,1
+		Takistan,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_arid_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_arid_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_arid_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_01_tk_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_02_tk_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_03_tk_CO.paa",
 		"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa",
 		"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa"
 	};

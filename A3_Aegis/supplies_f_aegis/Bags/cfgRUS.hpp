@@ -149,6 +149,7 @@ class B_Carryall_green_Ammo_F: B_Carryall_green_F
 		mag_xx(MiniGrenade,2);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
 		mag_xx(10Rnd_93x64_DMR_05_Mag,2);
+		mag_xx(10Rnd_762x54_Mag,2);
 	};
 	class TransportItems
 	{

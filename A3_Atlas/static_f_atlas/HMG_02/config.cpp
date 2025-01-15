@@ -43,6 +43,7 @@ class CfgVehicles
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgHIMF.hpp"		        // HIMF
 	#include "cfgIDF.hpp"				// IDF
+	#include "cfgKarzeghistan.hpp"		// Karzeghi Royal Army
     // Deprecated classes
     #include "deprecated.hpp"
 };

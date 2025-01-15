@@ -4,7 +4,7 @@ class Atlas_I_E_Reservist_base_F: I_E_Soldier_base_F
 {
 	scope = private;
 	//uniformClass = Atlas_U_UniformBDU_01_reservist_F;
-	uniformClass = Atlas_U_E_Reservist_Uniform_01_F;
+	uniformClass = Atlas_U_UniformBDU_03_reservist_F;
 	headgearList[]={};
 	editorSubcategory = EdSubcat_Personnel_Reservists;
 	identityTypes[] =
@@ -57,7 +57,7 @@ class Atlas_I_E_Reservist_SL_F: Atlas_I_E_Reservist_Base_F
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
     //uniformClass = Atlas_U_UniformBDU_01_reservist_F;
-	uniformClass = Atlas_U_E_Reservist_Uniform_01_F;
+	uniformClass = Atlas_U_UniformBDU_03_reservist_F;
 	backpack = B_RadioBag_01_eaf_F;
 	linkedItems[] =
 	{
@@ -116,7 +116,7 @@ class Atlas_I_E_Reservist_TL_F: Atlas_I_E_Reservist_Base_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_E_Reservist_TL_F.jpg";
 	displayName = $STR_B_Soldier_TL_F0;
 	//uniformClass = Atlas_U_UniformBDU_02_reservist_F;
-	uniformClass = Atlas_U_E_Reservist_Uniform_01_shortsleeve_F;
+	uniformClass = Atlas_U_UniformBDU_04_reservist_F;
 	role = Grenadier;
 	icon = iconManLeader;
     cost = 250000;
@@ -290,25 +290,25 @@ class Atlas_I_E_Reservist_M_F: Atlas_I_E_Reservist_Base_F
 	cost = 250000;
 	weapons[] =
 	{
-		Atlas_srifle_DMR_06_Olive_KHS_F,
+		Atlas_srifle_SVD_plum_KHS_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		Atlas_srifle_DMR_06_Olive_KHS_F,
+		Atlas_srifle_SVD_plum_KHS_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_8(20Rnd_762x51_Mag),
+		mag_8(Aegis_10Rnd_762x54_SVD_Red_Mag_F),
 		mag_2(SmokeShell),
         HandGrenade
 	};
 	respawnMagazines[] =
 	{
-		mag_8(20Rnd_762x51_Mag),
+		mag_8(Aegis_10Rnd_762x54_SVD_Red_Mag_F),
 		mag_2(SmokeShell),
         HandGrenade
 	};
@@ -401,7 +401,7 @@ class Atlas_I_E_Reservist_AR_F: Atlas_I_E_Reservist_Base_F
         0.3     // Air
     };
 	//uniformClass = Atlas_U_UniformBDU_02_reservist_F;
-	uniformClass = Atlas_U_E_Reservist_Uniform_01_shortsleeve_F;
+	uniformClass = Atlas_U_UniformBDU_04_reservist_F;
 	weapons[] =
 	{
 		Atlas_I_E_LMG_03_ACO_Flash_F,
@@ -519,7 +519,7 @@ class Atlas_I_E_Reservist_Repair_F: Atlas_I_E_Reservist_Base_F
     };
 	backpack = Atlas_B_FieldPack_Green_ResEng_F;
     //uniformClass = Atlas_U_UniformBDU_02_reservist_F;
-	uniformClass = Atlas_U_E_Reservist_Uniform_01_shortsleeve_F;
+	uniformClass = Atlas_U_UniformBDU_04_reservist_F;
 	weapons[] =
 	{
 		Atlas_arifle_AKM74_plum_ACO_FL_F,
@@ -661,3 +661,116 @@ class Atlas_B_E_Reservist_A_F: Atlas_I_E_Reservist_A_F
     side = TWest;
     faction = BLU_EAF_F;
 };
+
+/* LDF SF Uniform Update */
+class I_E_Soldier_Recon_base;
+class I_E_recon_AR_F: I_E_Soldier_recon_base
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_AR_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_02_F;
+};
+class I_E_recon_exp_F: I_E_Soldier_recon_base
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_exp_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_02_F;
+};
+class I_E_recon_GL_F: I_E_Soldier_recon_base
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_GL_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_01_F;
+};
+class I_E_recon_JTAC_F: I_E_Soldier_recon_base
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_JTAC_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_01_F;
+};
+class I_E_recon_M_F: I_E_Soldier_recon_base
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_M_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_01_F;
+};
+class I_E_recon_medic_F: I_E_Soldier_recon_base
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_medic_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_02_F;
+};
+class I_E_recon_F: I_E_Soldier_recon_base
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_01_F;
+};
+class I_E_recon_LAT_F: I_E_Soldier_recon_base
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_LAT_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_02_F;
+};
+class I_E_recon_TL_F: I_E_Soldier_recon_base
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_TL_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_01_F;
+};
+
+class Aegis_B_E_Recon_AR_F: I_E_recon_AR_F{};
+class Aegis_B_E_Recon_Exp_F: I_E_recon_exp_F{};
+class Aegis_B_E_Recon_GL_F: I_E_recon_GL_F{};
+class Aegis_B_E_Recon_JTAC_F: I_E_recon_JTAC_F{};
+class Aegis_B_E_Recon_M_F: I_E_recon_M_F{};
+class Aegis_B_E_Recon_Medic_F: I_E_recon_medic_F{};
+class Aegis_B_E_Recon_F: I_E_recon_F{};
+class Aegis_B_E_Recon_LAT_F: I_E_recon_LAT_F{};
+class Aegis_B_E_Recon_TL_F: I_E_recon_TL_F{};
+
+class I_E_Recon_AR_ard_F: I_E_recon_AR_F
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_AR_ard_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_02_ard_F;
+};
+class I_E_Recon_exp_ard_F: I_E_recon_exp_F
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_exp_ard_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_02_ard_F;
+};
+class I_E_Recon_GL_ard_F: I_E_recon_GL_F
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_gl_ard_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_01_ard_F;
+};
+class I_E_Recon_JTAC_ard_F: I_E_recon_JTAC_F
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_jtac_ard_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_01_ard_F;
+};
+class I_E_Recon_M_ard_F: I_E_recon_M_F
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_M_ard_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_02_ard_F;
+};
+class I_E_Recon_Medic_ard_F: I_E_recon_Medic_F
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_Medic_ard_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_02_ard_F;
+};
+class I_E_Recon_ard_F: I_E_recon_F
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_ard_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_01_ard_F;
+};
+class I_E_Recon_LAT_ard_F: I_E_recon_LAT_F
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_LAT_ard_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_02_ard_F;
+};
+class I_E_Recon_TL_ard_F: I_E_recon_TL_F
+{
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\I_E_recon_TL_ard_F.jpg";
+	uniformClass = Atlas_U_E_SF_CombatUniformNCU_01_ard_F;
+};
+class Aegis_B_E_Recon_AR_ard_F: I_E_recon_AR_ard_F{};
+class Aegis_B_E_Recon_Exp_ard_F: I_E_recon_exp_ard_F{};
+class Aegis_B_E_Recon_GL_ard_F: I_E_recon_GL_ard_F{};
+class Aegis_B_E_Recon_JTAC_ard_F: I_E_recon_JTAC_ard_F{};
+class Aegis_B_E_Recon_M_ard_F: I_E_recon_M_ard_F{};
+class Aegis_B_E_Recon_Medic_ard_F: I_E_recon_medic_ard_F{};
+class Aegis_B_E_Recon_ard_F: I_E_recon_ard_F{};
+class Aegis_B_E_Recon_LAT_ard_F: I_E_recon_LAT_ard_F{};
+class Aegis_B_E_Recon_TL_ard_F: I_E_recon_TL_ard_F{};

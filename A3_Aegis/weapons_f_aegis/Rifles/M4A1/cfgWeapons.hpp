@@ -6,15 +6,15 @@ class CfgWeapons
     /* Inheritance Tree */
 	#include "\A3_Aegis\cfgRifles.hpp"
     
-    //Base classes
+    /* Base classes */
 	class Aegis_arifle_M4A1_base_F: Rifle_Base_F
 	{
 		model="\A3_Aegis\Weapons_F_Aegis\Rifles\M4A1\M4A1_F.p3d";
 		UiPicture="\A3\Weapons_F\Data\UI\icon_regular_CA.paa";
-		descriptionShort="$STR_A3_CfgWeapons_arifle_SPAR_01_base_F1";
+		descriptionShort = "$STR_A3_CfgWeapons_arifle_SPAR_01_base_F1";
 		class Library
 		{
-			libTextDesc="$STR_A3_A_CfgWeapons_arifle_M4A1_base_F_Library0";
+			libTextDesc = $STR_A3_A_CfgWeapons_arifle_M4A1_base_F_Library0;
 		};
 		hiddenSelections[] =
 		{
@@ -28,7 +28,7 @@ class CfgWeapons
 			"OFP2_ManSkeleton",
 			"\A3_Aegis\Weapons_F_Aegis\Rifles\M4A1\data\anim\M4A1.rtm"
 		};
-		reloadAction = "GestureReloadSPAR_01";
+		reloadAction = "Aegis_GestureReloadM4A1";
 		magazines[] =
 		{
 			"30Rnd_556x45_Stanag"
@@ -85,7 +85,7 @@ class CfgWeapons
                 };
 				iconScale = 0.30000001;
 			};
-			mass=75; //CQB=60 //GL=95
+			mass=75;
 		};
 		modes[] =
 		{
@@ -155,9 +155,9 @@ class CfgWeapons
 			aiRateOfFire = 6;
 			aiRateOfFireDistance = 600;
 		};
-		ACE_barrelTwist = 304.79999;
-		ACE_barrelLength = 406.39999;
-		ACE_railHeightAboveBore = 4.6999998;
+		ACE_barrelTwist = 178;
+		ACE_barrelLength = 368;
+		ACE_railHeightAboveBore = 2.42081;
 	};
 	class Aegis_arifle_M4A1_GL_base_F: Aegis_arifle_M4A1_base_F
 	{
@@ -210,7 +210,6 @@ class CfgWeapons
 			reloadAction = "GestureReloadSPARUGL";
 			magazineReloadSwitchPhase = 0.40000001;
 		};
-		ACE_barrelLength = 330.20001;
 	};
     class Aegis_arifle_M4A1_Grip_base_F: Aegis_arifle_M4A1_base_F
 	{
@@ -253,7 +252,9 @@ class CfgWeapons
 		{
 			dispersion=0.00073000003;
 		};
-		ACE_barrelLength=330.20001;
+		ACE_barrelTwist = 178;
+		ACE_barrelLength = 264;
+		ACE_railHeightAboveBore = 2.42081;
 	};
 
 	// Black	
@@ -262,6 +263,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_F0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_black_F_CA.paa";
 		baseWeapon = "Aegis_arifle_M4A1_F";
@@ -277,6 +280,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_short_F0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_short_grip_black_F_CA.paa";
 		baseWeapon = "Aegis_arifle_M4A1_short_F";
@@ -292,6 +297,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_GL_F0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_GL_black_F_CA.paa";
 		baseWeapon="Aegis_arifle_M4A1_GL_F";
@@ -308,6 +315,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_grip_F0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_grip_black_F_CA.paa";
 		baseWeapon = "Aegis_arifle_M4A1_grip_F";
@@ -325,6 +334,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_snd_f0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_sand_F_CA.paa";
 		baseWeapon="Aegis_arifle_M4A1_sand_F";
@@ -344,6 +355,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_short_snd_f0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_short_grip_sand_F_CA.paa";
 		baseWeapon = "Aegis_arifle_M4A1_short_sand_F";
@@ -363,6 +376,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_GL_snd_f0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_GL_sand_F_CA.paa";
 		baseWeapon = "Aegis_arifle_M4A1_GL_sand_F";
@@ -383,6 +398,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_Grip_snd_f0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_grip_sand_F_CA.paa";
 		baseWeapon = "Aegis_arifle_M4A1_grip_sand_F";
@@ -403,6 +420,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_khk_f0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_khaki_F_CA.paa";
 		baseWeapon = "Aegis_arifle_M4A1_khaki_F";
@@ -418,6 +437,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_Short_khk_f0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_short_grip_khaki_F_CA.paa";
 		baseWeapon = "Aegis_arifle_M4A1_short_khaki_F";
@@ -433,6 +454,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_GL_khk_f0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_GL_khaki_F_CA.paa";
 		baseWeapon = "Aegis_arifle_M4A1_GL_khaki_F";
@@ -449,6 +472,8 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		scopeCurator = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		displayName = $STR_A3_A_CfgWeapons_arifle_M4A1_Grip_khk_f0;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\M4A1\Data\UI\Icon_arifle_M4A1_grip_khaki_F_CA.paa";
 		baseWeapon = "Aegis_arifle_M4A1_grip_khaki_F";

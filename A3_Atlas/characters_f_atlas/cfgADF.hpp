@@ -44,13 +44,13 @@ class Atlas_B_A_Soldier_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -119,13 +119,13 @@ class Atlas_B_A_Soldier_A_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -169,14 +169,14 @@ class Atlas_B_A_Soldier_AAR_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -234,13 +234,13 @@ class Atlas_B_A_Soldier_AR_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		LMG_03_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		LMG_03_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -340,13 +340,13 @@ class Atlas_B_A_Soldier_GL_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_GL_ACO_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_GL_ACO_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -396,14 +396,14 @@ class Atlas_B_A_soldier_M_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		Atlas_arifle_SR25_blk_MRCO_LP_BI_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		Atlas_arifle_SR25_blk_MRCO_LP_BI_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -460,27 +460,27 @@ class Atlas_B_A_Officer_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_F,
-		hgun_ACPC2_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_F,
-		hgun_ACPC2_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
 		mag_4(30Rnd_556x45_AUG_Mag_F),
-		mag_2(9Rnd_45ACP_Mag),
+		mag_2(17Rnd_9x21_Mag),
         SMOKESHELLS_BLUFOR
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_556x45_AUG_Mag_F),
-		mag_2(9Rnd_45ACP_Mag),
+		mag_2(17Rnd_9x21_Mag),
         SMOKESHELLS_BLUFOR
 	};
     cost = 600000;
@@ -523,14 +523,14 @@ class Atlas_B_A_Soldier_SL_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -586,14 +586,14 @@ class Atlas_B_A_Soldier_TL_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_GL_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_GL_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -667,13 +667,13 @@ class Atlas_B_A_RadioOperator_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -730,14 +730,14 @@ class Atlas_B_A_Soldier_AA_F: Atlas_B_A_Soldier_base_F
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_B_Titan_coyote_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_B_Titan_coyote_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -801,14 +801,14 @@ class Atlas_B_A_Soldier_AT_F: Atlas_B_A_Soldier_base_F
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_O_Titan_short_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_O_Titan_short_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -872,14 +872,14 @@ class Atlas_B_A_Soldier_LAT_F: Atlas_B_A_Soldier_base_F
 	{
 		arifle_AUG_Holo_Pointer_F,
 		launch_MRAWS_coyote_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
 		launch_MRAWS_coyote_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -930,14 +930,14 @@ class Atlas_B_A_Soldier_AAA_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -986,14 +986,14 @@ class Atlas_B_A_Soldier_AAT_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -1042,13 +1042,13 @@ class Atlas_B_A_Support_GMG_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1096,13 +1096,13 @@ class Atlas_B_A_Support_MG_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1150,13 +1150,13 @@ class Atlas_B_A_Support_Mort_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1204,13 +1204,13 @@ class Atlas_B_A_Support_AMG_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1258,13 +1258,13 @@ class Atlas_B_A_Support_AMort_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1312,13 +1312,13 @@ class Atlas_B_A_Engineer_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -1371,13 +1371,13 @@ class Atlas_B_A_Soldier_Exp_F: Atlas_B_A_Soldier_base_F
     weapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -1437,13 +1437,13 @@ class Atlas_B_A_Soldier_Repair_F: Atlas_B_A_Soldier_base_F
     weapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -1496,13 +1496,13 @@ class Atlas_B_A_Soldier_CBRN_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
     {
         arifle_AUG_C_Holo_FL_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_Holo_FL_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -1569,13 +1569,13 @@ class Atlas_B_A_Medic_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1625,13 +1625,13 @@ class Atlas_B_A_Crew_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Holo_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Holo_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1809,13 +1809,13 @@ class Atlas_B_A_Soldier_UAV_F: Atlas_B_A_Soldier_base_F
 	weapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -1899,17 +1899,17 @@ class Atlas_B_A_Soldier_PG_F: B_Soldier_PG_F
 		G_NATO_default
 	};
 	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
-	backpack = B_Parachute_F;
+	backpack = B_Parachute;
 	weapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
 	linkedItems[] =
@@ -1972,12 +1972,12 @@ class Atlas_B_A_Fighter_Pilot_F: Atlas_B_A_Soldier_base_F
     };
 	weapons[] =
 	{
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -2119,13 +2119,13 @@ class Atlas_B_A_diver_F: Atlas_B_A_Soldier_diver_base
 	weapons[] =
 	{
 		arifle_SDAR_F,
-		Atlas_hgun_G17_black_Snds_F,
+		Atlas_hgun_P320_black_IR_Snds_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SDAR_F,
-		Atlas_hgun_G17_black_Snds_F,
+		Atlas_hgun_P320_black_IR_Snds_F,
 		DefaultManWeapons
 	};
     magazines[] =
@@ -2169,13 +2169,13 @@ class Atlas_B_A_diver_exp_F: Atlas_B_A_Soldier_diver_base
 	weapons[] =
 	{
 		arifle_SDAR_F,
-		Atlas_hgun_G17_black_Snds_F,
+		Atlas_hgun_P320_black_IR_Snds_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_SDAR_F,
-		Atlas_hgun_G17_black_Snds_F,
+		Atlas_hgun_P320_black_IR_Snds_F,
 		DefaultManWeapons
 	};
     magazines[] =
@@ -2222,14 +2222,14 @@ class Atlas_B_A_diver_TL_F: Atlas_B_A_Soldier_diver_base
     weapons[] =
     {
         arifle_SDAR_F,
-        Atlas_hgun_G17_black_Snds_F,
+        Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
         arifle_SDAR_F,
-        Atlas_hgun_G17_black_Snds_F,
+        Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Binocular
     };
@@ -2342,14 +2342,14 @@ class Atlas_B_A_spotter_F: Atlas_B_A_Soldier_sniper_base
     weapons[] =
     {
         arifle_AUG_MRCO_Snds_IR_F,
-        Atlas_hgun_G17_black_Snds_F,
+        Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         arifle_AUG_MRCO_Snds_IR_F,
-        Atlas_hgun_G17_black_Snds_F,
+        Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -2417,14 +2417,14 @@ class Atlas_B_A_sniper_F: Atlas_B_A_Soldier_sniper_base
 	weapons[] =
 	{
 		srifle_LRR_LRPS_F,
-		Atlas_hgun_G17_black_Snds_F,
+		Atlas_hgun_P320_black_IR_Snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		srifle_LRR_LRPS_F,
-		Atlas_hgun_G17_black_Snds_F,
+		Atlas_hgun_P320_black_IR_Snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
@@ -2497,13 +2497,13 @@ class Atlas_B_A_Soldier_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -2572,13 +2572,13 @@ class Atlas_B_A_Soldier_A_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -2622,14 +2622,14 @@ class Atlas_B_A_Soldier_AAR_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -2687,13 +2687,13 @@ class Atlas_B_A_Soldier_AR_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		LMG_03_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		LMG_03_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -2793,13 +2793,13 @@ class Atlas_B_A_Soldier_GL_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_GL_ACO_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_GL_ACO_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -2849,14 +2849,14 @@ class Atlas_B_A_soldier_M_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		Atlas_arifle_SR25_blk_MRCO_LP_BI_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		Atlas_arifle_SR25_blk_MRCO_LP_BI_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -2913,27 +2913,27 @@ class Atlas_B_A_Officer_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_F,
-		hgun_ACPC2_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_F,
-		hgun_ACPC2_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
 		mag_4(30Rnd_556x45_AUG_Mag_F),
-		mag_2(9Rnd_45ACP_Mag),
+		mag_2(17Rnd_9x21_Mag),
         SMOKESHELLS_BLUFOR
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_556x45_AUG_Mag_F),
-		mag_2(9Rnd_45ACP_Mag),
+		mag_2(17Rnd_9x21_Mag),
         SMOKESHELLS_BLUFOR
 	};
     cost = 600000;
@@ -2976,14 +2976,14 @@ class Atlas_B_A_Soldier_SL_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -3039,14 +3039,14 @@ class Atlas_B_A_Soldier_TL_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_GL_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_GL_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -3120,13 +3120,13 @@ class Atlas_B_A_RadioOperator_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -3183,14 +3183,14 @@ class Atlas_B_A_Soldier_AA_ard_F: Atlas_B_A_Soldier_ard_base_F
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_B_Titan_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_B_Titan_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -3254,14 +3254,14 @@ class Atlas_B_A_Soldier_AT_ard_F: Atlas_B_A_Soldier_ard_base_F
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_B_Titan_short_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_B_Titan_short_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -3325,14 +3325,14 @@ class Atlas_B_A_Soldier_LAT_ard_F: Atlas_B_A_Soldier_ard_base_F
 	{
 		arifle_AUG_Holo_Pointer_F,
 		launch_MRAWS_sand_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
 		launch_MRAWS_sand_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -3383,14 +3383,14 @@ class Atlas_B_A_Soldier_AAA_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -3439,14 +3439,14 @@ class Atlas_B_A_Soldier_AAT_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -3495,13 +3495,13 @@ class Atlas_B_A_Support_GMG_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -3549,13 +3549,13 @@ class Atlas_B_A_Support_MG_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -3603,13 +3603,13 @@ class Atlas_B_A_Support_Mort_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -3657,13 +3657,13 @@ class Atlas_B_A_Support_AMG_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -3711,13 +3711,13 @@ class Atlas_B_A_Support_AMort_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -3765,13 +3765,13 @@ class Atlas_B_A_Engineer_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -3824,13 +3824,13 @@ class Atlas_B_A_Soldier_Exp_ard_F: Atlas_B_A_Soldier_ard_base_F
     weapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -3890,13 +3890,13 @@ class Atlas_B_A_Soldier_Repair_ard_F: Atlas_B_A_Soldier_ard_base_F
     weapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -3949,13 +3949,13 @@ class Atlas_B_A_Soldier_CBRN_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
     {
         arifle_AUG_C_Holo_FL_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_Holo_FL_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -4022,13 +4022,13 @@ class Atlas_B_A_Medic_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -4078,13 +4078,13 @@ class Atlas_B_A_Crew_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Holo_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Holo_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -4262,13 +4262,13 @@ class Atlas_B_A_Soldier_UAV_ard_F: Atlas_B_A_Soldier_ard_base_F
 	weapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -4352,17 +4352,17 @@ class Atlas_B_A_Soldier_PG_ard_F: B_Soldier_PG_F
 		G_NATO_default
 	};
 	uniformClass = Atlas_U_B_A_CombatUniform_aucamo_ard;
-	backpack = B_Parachute_F;
+	backpack = B_Parachute;
 	weapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
 	linkedItems[] =
@@ -4425,12 +4425,12 @@ class Atlas_B_A_Soldier_PG_ard_F: B_Soldier_PG_F
     };
 	weapons[] =
 	{
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -4543,14 +4543,14 @@ class Atlas_B_A_spotter_ard_F: Atlas_B_A_Soldier_sniper_ard_base
     weapons[] =
     {
         arifle_AUG_MRCO_Snds_IR_F,
-        Atlas_hgun_G17_black_Snds_F,
+        Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         arifle_AUG_MRCO_Snds_IR_F,
-        Atlas_hgun_G17_black_Snds_F,
+        Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -4618,14 +4618,14 @@ class Atlas_B_A_sniper_ard_F: Atlas_B_A_Soldier_sniper_ard_base
 	weapons[] =
 	{
 		srifle_LRR_LRPS_F,
-		Atlas_hgun_G17_black_Snds_F,
+		Atlas_hgun_P320_black_IR_Snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		srifle_LRR_LRPS_F,
-		Atlas_hgun_G17_black_Snds_F,
+		Atlas_hgun_P320_black_IR_Snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
@@ -4698,13 +4698,13 @@ class Atlas_B_A_Soldier_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -4773,13 +4773,13 @@ class Atlas_B_A_Soldier_A_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -4823,14 +4823,14 @@ class Atlas_B_A_Soldier_AAR_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -4888,13 +4888,13 @@ class Atlas_B_A_Soldier_AR_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		LMG_03_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		LMG_03_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -4994,13 +4994,13 @@ class Atlas_B_A_Soldier_GL_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_GL_ACO_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_GL_ACO_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -5050,14 +5050,14 @@ class Atlas_B_A_soldier_M_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		Atlas_arifle_SR25_blk_MRCO_LP_BI_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		Atlas_arifle_SR25_blk_MRCO_LP_BI_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -5114,27 +5114,27 @@ class Atlas_B_A_Officer_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_F,
-		hgun_ACPC2_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_F,
-		hgun_ACPC2_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
 		mag_4(30Rnd_556x45_AUG_Mag_F),
-		mag_2(9Rnd_45ACP_Mag),
+		mag_2(17Rnd_9x21_Mag),
         SMOKESHELLS_BLUFOR
 	};
 	respawnMagazines[] =
 	{
 		mag_4(30Rnd_556x45_AUG_Mag_F),
-		mag_2(9Rnd_45ACP_Mag),
+		mag_2(17Rnd_9x21_Mag),
         SMOKESHELLS_BLUFOR
 	};
     cost = 600000;
@@ -5177,14 +5177,14 @@ class Atlas_B_A_Soldier_SL_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -5240,14 +5240,14 @@ class Atlas_B_A_Soldier_TL_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_GL_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_GL_MRCO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -5321,13 +5321,13 @@ class Atlas_B_A_RadioOperator_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -5384,14 +5384,14 @@ class Atlas_B_A_Soldier_AA_trp_F: Atlas_B_A_Soldier_trp_base_F
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_B_Titan_olive_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_B_Titan_olive_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -5455,14 +5455,14 @@ class Atlas_B_A_Soldier_AT_trp_F: Atlas_B_A_Soldier_trp_base_F
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_I_Titan_short_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Holo_Pointer_F,
 		launch_I_Titan_short_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -5526,14 +5526,14 @@ class Atlas_B_A_Soldier_LAT_trp_F: Atlas_B_A_Soldier_trp_base_F
 	{
 		arifle_AUG_Holo_Pointer_F,
 		launch_MRAWS_green_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
 		launch_MRAWS_green_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -5584,14 +5584,14 @@ class Atlas_B_A_Soldier_AAA_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -5640,14 +5640,14 @@ class Atlas_B_A_Soldier_AAT_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_ACO_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -5696,13 +5696,13 @@ class Atlas_B_A_Support_GMG_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -5750,13 +5750,13 @@ class Atlas_B_A_Support_MG_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -5804,13 +5804,13 @@ class Atlas_B_A_Support_Mort_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -5858,13 +5858,13 @@ class Atlas_B_A_Support_AMG_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -5912,13 +5912,13 @@ class Atlas_B_A_Support_AMort_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -5966,13 +5966,13 @@ class Atlas_B_A_Engineer_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -6025,13 +6025,13 @@ class Atlas_B_A_Soldier_Exp_trp_F: Atlas_B_A_Soldier_trp_base_F
     weapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -6091,13 +6091,13 @@ class Atlas_B_A_Soldier_Repair_trp_F: Atlas_B_A_Soldier_trp_base_F
     weapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -6150,13 +6150,13 @@ class Atlas_B_A_Soldier_CBRN_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
     {
         arifle_AUG_C_Holo_FL_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_Holo_FL_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -6223,13 +6223,13 @@ class Atlas_B_A_Medic_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_Holo_Pointer_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -6279,13 +6279,13 @@ class Atlas_B_A_Crew_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_Holo_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_Holo_F,
-		hgun_G17_F,
+		Aegis_hgun_P320_sand_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -6463,13 +6463,13 @@ class Atlas_B_A_Soldier_UAV_trp_F: Atlas_B_A_Soldier_trp_base_F
 	weapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -6553,17 +6553,17 @@ class Atlas_B_A_Soldier_PG_trp_F: B_Soldier_PG_F
 		G_NATO_default
 	};
 	uniformClass = Atlas_U_B_A_CombatUniform_aucamo_trp;
-	backpack = B_Parachute_F;
+	backpack = B_Parachute;
 	weapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_ACO_Pointer_F,
-        hgun_G17_F,
+        Aegis_hgun_P320_sand_F,
         DefaultManWeapons
     };
 	linkedItems[] =
@@ -6683,14 +6683,14 @@ class Atlas_B_A_spotter_trp_F: Atlas_B_A_Soldier_sniper_trp_base
     weapons[] =
     {
         arifle_AUG_black_MRCO_Snds_IR_F,
-        Atlas_hgun_G17_black_Snds_F,
+        Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         arifle_AUG_black_MRCO_Snds_IR_F,
-        Atlas_hgun_G17_black_Snds_F,
+        Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -6758,14 +6758,14 @@ class Atlas_B_A_sniper_trp_F: Atlas_B_A_Soldier_sniper_trp_base
 	weapons[] =
 	{
 		srifle_LRR_LRPS_F,
-		Atlas_hgun_G17_black_Snds_F,
+		Atlas_hgun_P320_black_IR_Snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		srifle_LRR_LRPS_F,
-		Atlas_hgun_G17_black_Snds_F,
+		Atlas_hgun_P320_black_IR_Snds_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
@@ -6908,13 +6908,13 @@ class Atlas_B_A_Recon_AR_F: Atlas_B_A_Soldier_Recon_Base_F
 	weapons[] =
     {
         Atlas_LMG_03_Hamr_IR_Snds_F,
-       	Atlas_hgun_G17_black_Snds_F,
+       	Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_LMG_03_Hamr_IR_Snds_F,
-       	Atlas_hgun_G17_black_Snds_F,
+       	Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -6967,13 +6967,13 @@ class Atlas_B_A_Recon_Exp_F: Atlas_B_A_Soldier_Recon_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -7023,13 +7023,13 @@ class Atlas_B_A_Recon_GL_F: Atlas_B_A_Soldier_Recon_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_GL_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_GL_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -7083,14 +7083,14 @@ class Atlas_B_A_Recon_JTAC_F: Atlas_B_A_Soldier_Recon_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -7165,14 +7165,14 @@ class Atlas_B_A_Recon_M_F: Atlas_B_A_Soldier_Recon_Base_F
 	weapons[] =
     {
         Atlas_arifle_SR25_MR_blk_AMS_IR_Snds_lxWS,
-       	Atlas_hgun_G17_black_Snds_F,
+       	Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SR25_MR_blk_AMS_IR_Snds_lxWS,
-       	Atlas_hgun_G17_black_Snds_F,
+       	Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
@@ -7232,13 +7232,13 @@ class Atlas_B_A_Recon_Medic_F: Atlas_B_A_Soldier_Recon_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -7287,14 +7287,14 @@ class Atlas_B_A_Recon_F: Atlas_B_A_Soldier_Recon_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
        	Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Binocular
     };
@@ -7352,14 +7352,14 @@ class Atlas_B_A_Recon_AT_F: Atlas_B_A_Soldier_Recon_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_O_titan_short_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_O_titan_short_F,
         DefaultManWeapons
     };
@@ -7420,14 +7420,14 @@ class Atlas_B_A_Recon_LAT_F: Atlas_B_A_Soldier_Recon_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_MRAWS_coyote_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_MRAWS_coyote_F,
         DefaultManWeapons
     };
@@ -7485,14 +7485,14 @@ class Atlas_B_A_Recon_TL_F: Atlas_B_A_Soldier_Recon_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
@@ -7555,13 +7555,13 @@ class Atlas_B_A_Recon_AR_ard_F: Atlas_B_A_Soldier_Recon_ard_Base_F
 	weapons[] =
     {
         Atlas_LMG_03_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_LMG_03_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -7614,13 +7614,13 @@ class Atlas_B_A_Recon_Exp_ard_F: Atlas_B_A_Soldier_Recon_ard_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -7670,13 +7670,13 @@ class Atlas_B_A_Recon_GL_ard_F: Atlas_B_A_Soldier_Recon_ard_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_GL_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_GL_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -7730,14 +7730,14 @@ class Atlas_B_A_Recon_JTAC_ard_F: Atlas_B_A_Soldier_Recon_ard_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -7812,14 +7812,14 @@ class Atlas_B_A_Recon_M_ard_F: Atlas_B_A_Soldier_Recon_ard_Base_F
 	weapons[] =
     {
         Atlas_arifle_SR25_MR_blk_AMS_IR_Snds_lxWS,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SR25_MR_blk_AMS_IR_Snds_lxWS,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
@@ -7879,13 +7879,13 @@ class Atlas_B_A_Recon_Medic_ard_F: Atlas_B_A_Soldier_Recon_ard_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -7934,14 +7934,14 @@ class Atlas_B_A_Recon_ard_F: Atlas_B_A_Soldier_Recon_ard_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
        	Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Binocular
     };
@@ -7956,7 +7956,7 @@ class Atlas_B_A_Recon_ard_F: Atlas_B_A_Soldier_Recon_ard_Base_F
     respawnMagazines[] =
     {
     	mag_10(30Rnd_556x45_stanag_red),
-        mag_2(9Rnd_45ACP_Mag),
+        mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
         mag_2(Chemlight_blue)
@@ -7999,14 +7999,14 @@ class Atlas_B_A_Recon_AT_ard_F: Atlas_B_A_Soldier_Recon_ard_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_O_titan_short_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_O_titan_short_F,
         DefaultManWeapons
     };
@@ -8067,14 +8067,14 @@ class Atlas_B_A_Recon_LAT_ard_F: Atlas_B_A_Soldier_Recon_ard_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_MRAWS_coyote_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_MRAWS_coyote_F,
         DefaultManWeapons
     };
@@ -8132,14 +8132,14 @@ class Atlas_B_A_Recon_TL_ard_F: Atlas_B_A_Soldier_Recon_ard_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
@@ -8202,13 +8202,13 @@ class Atlas_B_A_Recon_AR_trp_F: Atlas_B_A_Soldier_Recon_trp_Base_F
 	weapons[] =
     {
         Atlas_LMG_03_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_LMG_03_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -8261,13 +8261,13 @@ class Atlas_B_A_Recon_Exp_trp_F: Atlas_B_A_Soldier_Recon_trp_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -8317,13 +8317,13 @@ class Atlas_B_A_Recon_GL_trp_F: Atlas_B_A_Soldier_Recon_trp_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_GL_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_GL_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -8377,14 +8377,14 @@ class Atlas_B_A_Recon_JTAC_trp_F: Atlas_B_A_Soldier_Recon_trp_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
@@ -8459,14 +8459,14 @@ class Atlas_B_A_Recon_M_trp_F: Atlas_B_A_Soldier_Recon_trp_Base_F
 	weapons[] =
     {
         Atlas_arifle_SR25_MR_blk_AMS_IR_Snds_lxWS,
-       	Atlas_hgun_G17_black_Snds_F,
+       	Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SR25_MR_blk_AMS_IR_Snds_lxWS,
-       	Atlas_hgun_G17_black_Snds_F,
+       	Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
@@ -8526,13 +8526,13 @@ class Atlas_B_A_Recon_Medic_trp_F: Atlas_B_A_Soldier_Recon_trp_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -8581,14 +8581,14 @@ class Atlas_B_A_Recon_trp_F: Atlas_B_A_Soldier_Recon_trp_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
        	Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Binocular
     };
@@ -8603,7 +8603,7 @@ class Atlas_B_A_Recon_trp_F: Atlas_B_A_Soldier_Recon_trp_Base_F
     respawnMagazines[] =
     {
     	mag_10(30Rnd_556x45_stanag_red),
-        mag_2(9Rnd_45ACP_Mag),
+        mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
         mag_2(Chemlight_blue)
@@ -8646,14 +8646,14 @@ class Atlas_B_A_Recon_AT_trp_F: Atlas_B_A_Soldier_Recon_trp_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_O_titan_short_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_O_titan_short_F,
         DefaultManWeapons
     };
@@ -8714,14 +8714,14 @@ class Atlas_B_A_Recon_LAT_trp_F: Atlas_B_A_Soldier_Recon_trp_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_MRAWS_coyote_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
 		launch_MRAWS_coyote_F,
         DefaultManWeapons
     };
@@ -8779,14 +8779,14 @@ class Atlas_B_A_Recon_TL_trp_F: Atlas_B_A_Soldier_Recon_trp_Base_F
 	weapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
         Atlas_arifle_SPAR_01_blk_Hamr_IR_Snds_F,
-       Atlas_hgun_G17_black_Snds_F,
+       Atlas_hgun_P320_black_IR_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };

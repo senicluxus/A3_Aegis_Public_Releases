@@ -209,6 +209,7 @@ class Atlas_B_G_MBT_03_cannon_F: Atlas_B_G_MBT_03_base_F
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_MBT_03_cannon_F.jpg";
 	scope = public;
+	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_B_G_MBT_03_cannon_F0;
 	textureList[] = {Woodland_01,1};
 	hiddenSelectionsTextures[] =

@@ -30,6 +30,12 @@ class CfgPatches
             Atlas_I_C_AT_01_weapon_F,
             Atlas_I_C_Static_AT_F,
 
+            // Germany
+            Atlas_B_K_Static_AT_F,
+
+            // Ardistan
+            Atlas_I_AR_Static_AT_F,
+
             // IDF
             Atlas_I_I_AT_01_weapon_F,
             Atlas_I_I_Static_AT_F

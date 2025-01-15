@@ -151,3 +151,11 @@ class Opf_arifle_M4A1_01_GL_MRCO_FL_F: Aegis_arifle_M4A1_GL_F
         LINKED_SIDE(acc_flashlight);
     };
 };
+class Opf_MMG_FNMAG_RDSH_FL_F: Aegis_MMG_FNMAG_F
+{
+    class LinkedItems
+    {
+        LINKED_TOP(optic_R1_high_lxWS);
+        LINKED_SIDE(acc_flashlight);
+    };
+};

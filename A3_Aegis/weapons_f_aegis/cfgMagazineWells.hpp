@@ -10,6 +10,7 @@ class CfgMagazineWells
             30Rnd_545x39_AK12_Lush_Mag_Tracer_F,
             30Rnd_545x39_AK12_Arid_Mag_F,
             30Rnd_545x39_AK12_Arid_Mag_Tracer_F,
+			Aegis_30Rnd_545x39_AP_Mag_F,
             30Rnd_545x39_Black_Mag_F,
 			30Rnd_545x39_Black_Mag_Yellow_F,
             30Rnd_545x39_Black_Mag_Tracer_F,
@@ -28,14 +29,18 @@ class CfgMagazineWells
 			30rnd_545x39_Steel_Tracer_Mag_Red_F,
 			30Rnd_545x39_Steel_gold_Mag_F,
 			30Rnd_545x39_Steel_gold_Tracer_Mag_F,
-			/*Aegis_45Rnd_545x39_Mag_Green_F,
-			Aegis_45Rnd_545x39_Mag_F,
-			Aegis_45Rnd_545x39_Mag_Tracer_Green_F,
-			Aegis_45Rnd_545x39_Mag_Tracer_F,*/
 			Aegis_60Rnd_545x39_Mag_Green_F,
 			Aegis_60Rnd_545x39_Mag_F,
 			Aegis_60Rnd_545x39_Mag_Tracer_Green_F,
-			Aegis_60Rnd_545x39_Mag_Tracer_F
+			Aegis_60Rnd_545x39_Mag_Tracer_F,
+			Aegis_45Rnd_545x39_Mag_Green_F,
+			Aegis_45Rnd_545x39_Mag_F,
+			Aegis_45Rnd_545x39_Mag_Tracer_Green_F,
+			Aegis_45Rnd_545x39_Mag_Tracer_F,
+			Aegis_45Rnd_545x39_Bakelite_Mag_Green_F,
+			Aegis_45Rnd_545x39_Bakelite_Mag_F,
+			Aegis_45Rnd_545x39_Bakelite_Mag_Tracer_Green_F,
+			Aegis_45Rnd_545x39_Bakelite_Mag_Tracer_F
         };
 		Aegis_Compatibility_Magazines[] =
 		{
@@ -149,6 +154,10 @@ class CfgMagazineWells
 		Aegis_Magazines[] = {5Rnd_127x99_Mag};
 	};
 	class G17_9x21
+	{
+		Aegis_Magazines[] = {17Rnd_9x21_Mag};
+	};
+	class P320_9x21
 	{
 		Aegis_Magazines[] = {17Rnd_9x21_Mag};
 	};
@@ -276,6 +285,44 @@ class CfgMagazineWells
 			Aegis_20Rnd_762x51_Tracer_Yellow_sand_SMAG,
 		};
 	};
+	class Aegis_FNMAG
+	{
+		Aegis_Magazines[] =
+		{
+			Aegis_200Rnd_762x51_MAG_Red_F,
+			Aegis_200Rnd_762x51_MAG_Red_Tracer_F,
+			Aegis_200Rnd_762x51_MAG_Yellow_F,
+			Aegis_200Rnd_762x51_MAG_Yellow_Tracer_F,
+			Aegis_200Rnd_762x51_MAG_Green_F,
+			Aegis_200Rnd_762x51_MAG_Green_Tracer_F
+		};
+	};
+	class Aegis_RP57_57x28
+	{
+		Aegis_Magazines[] =
+		{
+			Aegis_10Rnd_570x28_RP57_Mag
+		};
+	};
+	class Aegis_SMG_Gepard_9x21
+	{
+		Aegis_Magazines[] =
+		{
+			Aegis_40Rnd_9x21_Gepard_Mag_F,
+			Aegis_40Rnd_9x21_Gepard_Green_Mag_F,
+			Aegis_40Rnd_9x21_Gepard_Yellow_Mag_F,
+			Aegis_20Rnd_9x21_Gepard_Mag_F
+		};
+	};
+	class Rahim_762x54
+    {
+        Aegis_Magazines[] =
+        {
+            Aegis_10Rnd_762x54_SVD_Yellow_Mag_F,
+			Aegis_10Rnd_762x54_SVD_Green_Mag_F,
+			Aegis_10Rnd_762x54_SVD_Red_Mag_F
+        };
+    };
 
     /* Deprecated */
     class C1911_45ACP: ACPC2_45ACP{};

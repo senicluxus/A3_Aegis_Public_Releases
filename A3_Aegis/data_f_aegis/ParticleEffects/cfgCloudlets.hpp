@@ -135,234 +135,157 @@ class CfgCloudlets
 	};
     
     /* Hand Flare */
-    class Aegis_HandFlare_Effect_Smoke_Red
+	class Aegis_HandFlare_Effect_Smoke_Base
 	{
-		interval=0.020999999;
+		interval=0.01;
 		circleRadius=0;
 		circleVelocity[]={0,0,0};
-		particleShape="\A3\data_f\ParticleEffects\Universal\Universal.p3d";
+		
+		particleShape="\A3\data_f\ParticleEffects\Universal\Universal";
 		particleFSNtieth=16;
-		particleFSIndex=12;
-		particleFSFrameCount=8;
-		particleFSLoop=0;
+		particleFSIndex=7;
+		particleFSFrameCount=48;
+		particleFSLoop=1;
+		
 		particleType="Billboard";
 		animationSpeed[]={1};
-		animationSpeedCoef=0.8;
+		//animationSpeed[]={0.8, 0.3, 0.25};
+		animationSpeedCoef=1;
 		animationName="";
 		angle=0;
-		angleVar=0.1;
+		angleVar=0.5;
 		timerPeriod=1;
-		lifeTime=0.9;		//0.6
-		lifeTimeVar=0.3;	//0.5
-		rotationVelocity=0;
-		rotationVelocityVar=0;
-		weight=0.050000001;
-		volume=0.039999999;
-		rubbing=0.050000001;
-		size[]={0.22};
-		sizeVar=0.159999999;	//0.059999999
-		sizeCoef=1;
+		lifeTime=1.1;
+		lifeTimeVar=0.4;
+		rotationVelocity=1;
+		rotationVelocityVar=9;
+		weight=1.2; //1.27;
+		volume=1;
+		rubbing=0.5;
+		size[]={0.05,0.50};
+		sizeVar=0;
+		sizeCoef=0.6;
 		color[]=
 		{
 			{0.1353,0.1353,0.1353,0.3}
 		};
-		/*
-		color[]=
-		{
-			{0.22,0.22,0.22,0.34999999},
-			{0.25,0.25,0.25,0.22},
-			{0.25,0.25,0.25,0.1},
-			{0.25,0.25,0.25,0.039999999},
-			{0.25,0.25,0.25,0.0099999998}
-		};
-		*/
 		colorVar[]={0,0,0,0};
-		colorCoef[]={0.94380001,0.2383,0.1353,0.7};
-		randomDirectionPeriod=0.1;
+		colorCoef[]={1,1,1,1};
+		randomDirectionPeriod=0.2;
 		randomDirectionPeriodVar=0;	
-		randomDirectionIntensity=0.0099999998;
-		randomDirectionIntensityVar=0;	
+		randomDirectionIntensity=0.02;
+		randomDirectionIntensityVar=0;
 		beforeDestroyScript="";
 		onTimerScript="";
 		position[]={0,0.022,-0.125};
 		positionVar[]={0,0,0};
 		positionVarConst[]={0,0,0};
-		moveVelocity[]={0,0.40000002,0};
-		MoveVelocityVar[]={0.050000001,0.040000001,0.050000001};
+		moveVelocity[]={0, 0.2, 0};
+		MoveVelocityVar[]={0.08,0.08,0.08};
 		MoveVelocityVarConst[]={0,0,0};
 		destroyOnWaterSurface=1;
-		destroyOnWaterSurfaceOffset=-0.60000002;
+		destroyOnWaterSurfaceOffset=-0.6;
 		blockAIVisibility=0;
 	};
-	class Aegis_HandFlare_Effect_Smoke_Red_UW: Aegis_HandFlare_Effect_Smoke_Red
+	class Aegis_HandFlare_Effect_Smoke_Base_UW: Aegis_HandFlare_Effect_Smoke_Base
 	{
-		interval=0.049999999;
-		circleRadius=0;
-		circleVelocity[]={0,0,0};
+		interval=0.04;
 		particleShape="\A3\data_f\ParticleEffects\Universal\UnderWaterSmoke";
 		particleFSNtieth=4;
 		particleFSIndex=0;
 		particleFSFrameCount=16;
 		particleFSLoop=1;
-		particleType="Billboard";
-		animationSpeed[]={1};
 		animationSpeedCoef=1;
-		animationName="";
-		angle=0;
-		angleVar=0.1;
-		timerPeriod=1;
 		lifeTime=8;
 		lifeTimeVar=5;
 		rotationVelocity=1;
-		rotationVelocityVar=0;
 		weight=1.15;
 		volume=1;
-		rubbing=0.050000001;
 		size[]={0.2};
-		sizeVar=0.0040000002;
-		sizeCoef=1;	
+		sizeVar=0.004;
 		color[]=
 		{
 			{1,1,1,1}
 		};
 		colorVar[]={0,0,0,1};
 		colorCoef[]={1,1,1,1};
-		randomDirectionPeriod=0.1;
-		randomDirectionPeriodVar=0;
-		randomDirectionIntensity=0.0099999998;
-		randomDirectionIntensityVar=0;
-		beforeDestroyScript="";
-		onTimerScript="";
-		//position[]={0,0,0};
-		position[]={0,0.019,-0.125};
-		positionVar[]={0,0,0};
-		positionVarConst[]={0,0,0};
 		moveVelocity[]={0,0,0};
-		MoveVelocityVar[]={0.050000001,0.050000001,0.050000001};
+		MoveVelocityVar[]={0.05,0.05,0.05};
 		MoveVelocityVarConst[]={0,0,0};
 		destroyOnWaterSurface=-1;
 	};
-	
-	class Aegis_HandFlare_Effect_Smoke_Green //Could inherit from red for slimmer code
+    class Aegis_HandFlare_Effect_Smoke_Red: Aegis_HandFlare_Effect_Smoke_Base
 	{
-		interval=0.020999999;
-		circleRadius=0;
-		circleVelocity[]={0,0,0};
-		particleShape="\A3\data_f\ParticleEffects\Universal\Universal.p3d";
-		particleFSNtieth=16;
-		particleFSIndex=12;
-		particleFSFrameCount=8;
-		particleFSLoop=0;
-		particleType="Billboard";
-		animationSpeed[]={1};
-		animationSpeedCoef=0.8;
-		animationName="";
-		angle=0;
-		angleVar=0.1;
-		timerPeriod=1;
-		lifeTime=0.9;		//0.6
-		lifeTimeVar=0.3;	//0.5
-		rotationVelocity=0;
-		rotationVelocityVar=0;
-		weight=0.050000001;
-		volume=0.039999999;
-		rubbing=0.050000001;
-		size[]={0.22};
-		sizeVar=0.159999999;	//0.059999999
-		sizeCoef=1;
 		color[]=
 		{
-			{0.1353,0.1353,0.1353,0.3}
+			{0.5,0,0,0.2}
 		};
-		/*
-		color[]=
-		{
-			{0.22,0.22,0.22,0.34999999},
-			{0.25,0.25,0.25,0.22},
-			{0.25,0.25,0.25,0.1},
-			{0.25,0.25,0.25,0.039999999},
-			{0.25,0.25,0.25,0.0099999998}
-		};
-		*/
-		colorVar[]={0,0,0,0};
-		colorCoef[]={0.1383,0.94380001,0.1353,0.7};
-		randomDirectionPeriod=0.1;
-		randomDirectionPeriodVar=0;	
-		randomDirectionIntensity=0.0099999998;
-		randomDirectionIntensityVar=0;	
-		beforeDestroyScript="";
-		onTimerScript="";
-		position[]={0,0.022,-0.125};
-		positionVar[]={0,0,0};
-		positionVarConst[]={0,0,0};
-		moveVelocity[]={0,0.40000002,0};
-		MoveVelocityVar[]={0.050000001,0.040000001,0.050000001};
-		MoveVelocityVarConst[]={0,0,0};
-		destroyOnWaterSurface=1;
-		destroyOnWaterSurfaceOffset=-0.60000002;
-		blockAIVisibility=0;
 	};
-	class Aegis_HandFlare_Effect_Smoke_Green_UW: Aegis_HandFlare_Effect_Smoke_Red //Could inherit from red UW for slimmer code
+	class Aegis_HandFlare_Effect_Smoke_Red_UW: Aegis_HandFlare_Effect_Smoke_Base_UW
 	{
-		interval=0.049999999;
-		circleRadius=0;
-		circleVelocity[]={0,0,0};
-		particleShape="\A3\data_f\ParticleEffects\Universal\UnderWaterSmoke";
-		particleFSNtieth=4;
-		particleFSIndex=0;
-		particleFSFrameCount=16;
-		particleFSLoop=1;
-		particleType="Billboard";
-		animationSpeed[]={1};
-		animationSpeedCoef=1;
-		animationName="";
-		angle=0;
-		angleVar=0.1;
-		timerPeriod=1;
-		lifeTime=8;
-		lifeTimeVar=5;
-		rotationVelocity=1;
-		rotationVelocityVar=0;
-		weight=1.15;
-		volume=1;
-		rubbing=0.050000001;
-		size[]={0.2};
-		sizeVar=0.0040000002;
-		sizeCoef=1;	
+	};
+	class Aegis_HandFlare_Effect_Smoke_Green: Aegis_HandFlare_Effect_Smoke_Base
+	{
 		color[]=
 		{
-			{1,1,1,1}
+			{0,0.5,0.1,0.2}
 		};
-		colorVar[]={0,0,0,1};
-		colorCoef[]={1,1,1,1};
-		randomDirectionPeriod=0.1;
-		randomDirectionPeriodVar=0;
-		randomDirectionIntensity=0.0099999998;
-		randomDirectionIntensityVar=0;
-		beforeDestroyScript="";
-		onTimerScript="";
-		//position[]={0,0,0};
-		position[]={0,0.019,-0.125};
-		positionVar[]={0,0,0};
-		positionVarConst[]={0,0,0};
-		moveVelocity[]={0,0,0};
-		MoveVelocityVar[]={0.050000001,0.050000001,0.050000001};
-		MoveVelocityVarConst[]={0,0,0};
-		destroyOnWaterSurface=-1;
+	};
+	class Aegis_HandFlare_Effect_Smoke_Green_UW: Aegis_HandFlare_Effect_Smoke_Base_UW
+	{
+	};
+
+	// Signal Flare Smoke
+	class Aegis_SignalFlare_Effect_Smoke_base: Aegis_HandFlare_Effect_Smoke_Base
+	{
+		interval=0.035;
+		animationSpeed[]={1};
+		lifeTime=25;
+		lifeTimeVar=10;
+		rotationVelocity=0.3;
+		rotationVelocityVar=3;
+		weight=1.2; //1.27;
+		rubbing=0.1;
+		size[]={0.05,20};
+		moveVelocity[]={0, 0.2, 0};
+		MoveVelocityVar[]={0.1,0.1,0.1};
+	};
+	class Aegis_SignalFlare_Effect_Smoke_base_UW: Aegis_HandFlare_Effect_Smoke_Base_UW
+	{
+	};
+	class Aegis_SignalFlare_Effect_Smoke_Red: Aegis_SignalFlare_Effect_Smoke_Base
+	{
+		color[]=
+		{
+			{0.5,0,0,0.2}
+		};
+	};
+	class Aegis_SignalFlare_Effect_Smoke_Red_UW: Aegis_SignalFlare_Effect_Smoke_Base_UW
+	{
+	};
+	class Aegis_SignalFlare_Effect_Smoke_Green: Aegis_SignalFlare_Effect_Smoke_base
+	{
+		color[]=
+		{
+			{0,0.5,0.1,0.2}
+		};
+	};
+	class Aegis_SignalFlare_Effect_Smoke_Green_UW: Aegis_SignalFlare_Effect_Smoke_base_UW
+	{	
 	};
 	
 	
 	//flame and spark particles
 	class Aegis_HandFlare_Effect_Sparks
 	{
-		interval=0.0049999999;
+		interval=0.004;
 		circleRadius=0;
 		circleVelocity[]={0,0,0};
 		particleShape="\A3\data_f\ParticleEffects\Universal\Universal.p3d";
 		particleFSNtieth=16;
 		particleFSIndex=13;
 		particleFSFrameCount=2;
-		particleFSLoop=0;
+		particleFSLoop=0;	
 		particleType="Billboard";
 		animationSpeed[]={1000};
 		animationSpeedCoef=1;	
@@ -374,20 +297,11 @@ class CfgCloudlets
 		lifeTimeVar=0.2;
 		rotationVelocity=1;
 		weight=210;
-		volume=0.0099999998;
-		rubbing=0.30000001;
+		volume=0.008;
+		rubbing=0.3;
 		size[]={0.12,0};
-		sizeVar=0.039999999;
+		sizeVar=0.03;
 		sizeCoef=1;
-		color[]=
-		{
-			{1,0.30000001,0.30000001,-6.5},
-			{1,0.30000001,0.30000001,-6},
-			{1,0.30000001,0.30000001,-5.5},
-			{1,0.30000001,0.30000001,-4.5}
-		};
-		colorVar[]={0.050000001,0.050000001,0.050000001,5};
-		colorCoef[]={1,1,1,1};
 		randomDirectionPeriod=0;
 		randomDirectionPeriodVar=0;
 		randomDirectionIntensity=0;
@@ -395,7 +309,7 @@ class CfgCloudlets
 		beforeDestroyScript="";
 		onTimerScript="";
 		position[]={0,0.019,-0.125};
-		positionVar[]={0.0099999998,0.0099999998,0.0099999998};
+		positionVar[]={0.008,0.008,0.008};
 		positionVarConst[]={0,0,0};
 		moveVelocity[]=
 		{
@@ -411,12 +325,12 @@ class CfgCloudlets
 		{
 			{10,10,10,1}
 		};
-		bounceOnSurface=0.40000001;
-		bounceOnSurfaceVar=0.40000001;
+		bounceOnSurface=0.4;
+		bounceOnSurfaceVar=0.4;
 	};
 	class Aegis_HandFlare_Effect_Flame
 	{
-		interval=0.019999999;
+		interval=0.01;
 		circleRadius=0;
 		circleVelocity[]={0,0,0};
 		particleShape="\A3\data_f\ParticleEffects\Universal\Universal.p3d";
@@ -431,21 +345,15 @@ class CfgCloudlets
 		angle=0;
 		angleVar=1;
 		timerPeriod=3;
-		lifeTime=0.30000001;
-		lifeTimeVar=0.15000001;
+		lifeTime=0.45;
+		lifeTimeVar=0.3;
 		rotationVelocity=0;
-		weight=0.050000001;
-		volume=0.039999999;
+		weight=0.0515;
+		volume=0.04;
 		rubbing=0.16;
 		size[]={0.1,0};
-		sizeVar=0.059999999;
+		sizeVar=0.05;
 		sizeCoef=1;
-		color[]=
-		{
-			{1,0.60000002,0.60000002,-80},
-			{1,0.60000002,0.60000002,-80},
-			{0,0,0,0}
-		};
 		colorVar[]={0.1,0.1,0.1,0};
 		colorCoef[]={1,1,1,1};
 		randomDirectionPeriod=0;
@@ -457,9 +365,60 @@ class CfgCloudlets
 		position[]={0,0.019,-0.125};
 		positionVar[]={0.017999999,0.079999998,0.017999999};
 		positionVarConst[]={0,0,0};
-		moveVelocity[]={0,0.11000001,0};
-		moveVelocityVar[]={0.029999999,0.090000004,0.029999999};
+		moveVelocity[]={0, 0, 0};
+		moveVelocityVar[]={0.01, 0.01, 0.01};
 		moveVelocityVarConst[]={0,0,0};
 		rotationVelocityVar=0;
+	};
+
+	//Spark Colours	
+	class Aegis_HandFlare_Effect_Sparks_Red: Aegis_HandFlare_Effect_Sparks
+	{
+		color[]=
+		{
+			{1,0.3,0.3,-6.5},
+			{1,0.3,0.3,-6},
+			{1,0.3,0.3,-5.5},
+			{1,0.3,0.3,-4.5}
+		};
+		colorVar[]={0.05,0.05,0.05,5};
+		colorCoef[]={1,1,1,1};
+	};
+	class Aegis_HandFlare_Effect_Sparks_Green: Aegis_HandFlare_Effect_Sparks
+	{
+		color[]=
+		{
+			{0.3,1,0.3,-6.5},
+			{0.3,1,0.3,-6},
+			{0.3,1,0.3,-5.5},
+			{0.3,1,0.3,-4.5}
+		};
+		colorVar[]={0.05,0.05,0.05,5};
+		colorCoef[]={1,1,1,1};
+	};
+
+	//Flame Colours	
+	class Aegis_HandFlare_Effect_Flame_Red: Aegis_HandFlare_Effect_Flame
+	{
+		color[]=
+		{
+			{1,0.3,0.3,-80},
+		};
+	};
+	class Aegis_HandFlare_Effect_Flame_Green: Aegis_HandFlare_Effect_Flame
+	{
+		color[]=
+		{
+			{0,1,0.1,-80},
+		};
+	};
+
+	/* BTR-100 Cartridge Ejection */
+	class HeavyGunCartridge1;
+	class Aegis_BTR100_30mm_Cartridge: HeavyGunCartridge1
+	{
+        moveVelocity[] = { "-directionX * 3", "- directionY * 3", "- directionZ * 3" };
+        size[] = { 4 };
+        sizeVar = 0;
 	};
 };

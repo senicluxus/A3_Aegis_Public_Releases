@@ -138,3 +138,207 @@ class Atlas_U_Tank_wdl_F: Uniform_Base
 		mass = 30;
 	};
 };
+class Atlas_U_CombatUniformNCU_01_flecktarn_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformNCU_01_flecktarn_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformNCU_01_flecktarn_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformNCU_01_flecktarn_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_CombatUniformNCU_02_flecktarn_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformNCU_02_flecktarn_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformNCU_02_flecktarn_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformNCU_02_flecktarn_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_CombatUniformNCU_01_multitarn_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformNCU_01_multitarn_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformNCU_01_multitarn_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformNCU_01_multitarn_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_CombatUniformNCU_02_multitarn_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformNCU_02_multitarn_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformNCU_02_multitarn_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformNCU_02_multitarn_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_CombatUniformEURO_01_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformEURO_01_flecktarn_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformEURO_01_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformEURO_01_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_CombatUniformEURO_02_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformEURO_02_flecktarn_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformEURO_02_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformEURO_02_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_CombatUniformEURO_01_multitarn_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformEURO_01_multitarn_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformEURO_01_multitarn_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformEURO_01_multitarn_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_CombatUniformEURO_02_multitarn_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformEURO_02_multitarn_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformEURO_02_multitarn_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformEURO_02_multitarn_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_CombatUniformNCU_01_mcam_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformNCU_01_mcam_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformNCU_01_mcam_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformNCU_01_mcam_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_CombatUniformNCU_02_mcam_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformNCU_02_mcam_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformNCU_02_mcam_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformNCU_02_mcam_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_CombatUniformNCU_01_mcam_wdl_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformNCU_01_mcam_wdl_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformNCU_01_mcam_wdl_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformNCU_01_mcam_wdl_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Atlas_U_CombatUniformNCU_02_mcam_wdl_F: Uniform_Base
+{
+	author = $STR_A3_A_Jamie;
+	scope = public;
+    displayName = $STR_A3_A_CfgWeapons_Atlas_U_CombatUniformNCU_02_mcam_wdl_F0;
+	picture = "\A3_Atlas\Characters_F_Atlas\uniforms\data\UI\icon_Atlas_U_CombatUniformNCU_02_mcam_wdl_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_CombatUniformNCU_02_mcam_wdl_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};

@@ -50,6 +50,19 @@ class CfgVehicles
    				};
 				factions[] = {};
 			};
+			class KZG
+			{
+				displayName = "Karzeghistan";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_kzg_co.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cover_kzg_co.paa"
+   				};
+				factions[] = {};
+			};
 		};
 	};
 	class B_Truck_01_covered_F: B_Truck_01_transport_F
@@ -95,6 +108,19 @@ class CfgVehicles
    				};
 				factions[] = {};
 			};
+			class KZG
+			{
+				displayName = "Karzeghistan";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_kzg_co.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cover_kzg_co.paa"
+   				};
+				factions[] = {};
+			};
 		};
 	};
 	class B_Truck_01_mover_F: B_Truck_01_transport_F
@@ -134,6 +160,18 @@ class CfgVehicles
 					"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_brown_CO.paa",
         			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
         			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_mprimer_brown_CO.paa"
+   				};
+				factions[] = {};
+			};
+			class KZG
+			{
+				displayName = "Karzeghistan";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_mprimer_kzg_CO.paa"
    				};
 				factions[] = {};
 			};
@@ -182,6 +220,19 @@ class CfgVehicles
    				};
 				factions[] = {};
 			};
+			class KZG
+			{
+				displayName = "Karzeghistan";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_kzg_CO.paa",
+       	 			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Containers_02_set_brown_CO.paa"
+    			};
+				factions[] = {};
+			};
 		};
 	};
 	class B_Truck_01_Repair_F: B_Truck_01_mover_F
@@ -227,6 +278,19 @@ class CfgVehicles
    				};
 				factions[] = {};
 			};
+			class KZG
+			{
+				displayName = "Karzeghistan";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_kzg_CO.paa",
+       	 			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Containers_02_set_brown_CO.paa"
+    			};
+				factions[] = {};
+			};
 		};
 	};
 	class B_Truck_01_ammo_F: B_Truck_01_mover_F
@@ -269,6 +333,19 @@ class CfgVehicles
    				};
 				factions[] = {};
 			};
+			class KZG
+			{
+				displayName = "Karzeghistan";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Containers_02_set_brown_CO.paa"
+    			};
+				factions[] = {};
+			};
 		};
 	};
 	class B_Truck_01_fuel_F: B_Truck_01_mover_F
@@ -309,6 +386,18 @@ class CfgVehicles
         			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_brown_CO.paa",
         			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_Fuel_brown_CO.paa"
    				};
+				factions[] = {};
+			};
+			class KZG
+			{
+				displayName = "Karzeghistan";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_Fuel_kzg_CO.paa"
+    			};
 				factions[] = {};
 			};
 		};
@@ -354,6 +443,19 @@ class CfgVehicles
         			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_brown_CO.paa",
         			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cover_brown_CO.paa"
    				};
+				factions[] = {};
+			};
+			class KZG
+			{
+				displayName = "Karzeghistan";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_kzg_co.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cover_kzg_co.paa"
+    			};
 				factions[] = {};
 			};
 		};
@@ -402,6 +504,19 @@ class CfgVehicles
    				};
 				factions[] = {};
 			};
+			class KZG
+			{
+				displayName = "Karzeghistan";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_ADF_CO.paa"
+    			};
+				factions[] = {};
+			};
 		};
 	};
 	class Truck_01_cargo_base_F: Truck_01_viv_base_F
@@ -447,6 +562,19 @@ class CfgVehicles
    				};
 				factions[] = {};
 			};
+			class KZG
+			{
+				displayName = "Karzeghistan";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_01_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ext_02_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_ammo_kzg_CO.paa",
+        			"\A3_Atlas\Soft_F_Atlas\Truck_01\Data\Truck_01_cargo_ADF_CO.paa"
+    			};
+				factions[] = {};
+			};
 		};
 	};
 	// Arma 3 Atlas
@@ -454,6 +582,7 @@ class CfgVehicles
 	#include "cfgBlufor_Atlas.hpp"      // Germany
 	#include "cfgIDF.hpp"				// IDF
 	#include "cfgADF.hpp"				//ADF
+	#include "cfgKzg.hpp"				//KZG
     // Deprecated classes
     #include "deprecated.hpp"
 };

@@ -5,4 +5,5 @@ class CfgVehicles
 
     /* Factions */
     #include "cfgION.hpp"   // ION
+    #include "cfgCivil.hpp" // Civilian Factions
 };

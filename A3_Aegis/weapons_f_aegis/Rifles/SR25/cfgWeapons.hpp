@@ -141,9 +141,9 @@ class CfgWeapons
 			aiRateOfFire=4;
 			aiRateOfFireDistance=600;
 		};
-		ACE_barrelTwist=147;
-		ACE_barrelLength=508;
-		ACE_railHeightAboveBore=4.6999998;
+		ACE_barrelTwist=254;
+		ACE_barrelLength=410;
+		ACE_railHeightAboveBore=2.41885;
 	};
 
 	//SR25
@@ -202,7 +202,7 @@ class CfgWeapons
 		displayName = $STR_A3_A_CfgWeapons_arifle_SR25_MR_F0;
 		aimTransitionSpeed=1;
 		dexterity=1.6;
-		picture = "\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\UI\Icon_arifle_SR25_black_F_CA.paa";
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\UI\icon_Aegis_arifle_SR25_MR_blk_F_ca.paa";
 		hiddenSelections[]=
 		{
 			"Camo1",
@@ -219,7 +219,7 @@ class CfgWeapons
 		{
 			"\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\arifle_SR25_01_MR_black_CO.paa",
 			"\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\arifle_SR25_02_black_CO.paa",
-			"\A3_Aegis\weapons_f_aegis\rifles\m4a1\data\arifle_m4a1_05_black_co.paa"
+			"\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\arifle_sr25_03_black_co.paa"
 		};
 	};
 	class Aegis_arifle_SR25_MR_khk_F: Aegis_arifle_SR25_MR_blk_F
@@ -227,12 +227,12 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SR25_MR_khaki_F0;
-		picture = "\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\UI\Icon_arifle_SR25_khaki_F_CA.paa";
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\UI\icon_Aegis_arifle_SR25_MR_khk_F_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\arifle_SR25_01_MR_khaki_CO.paa",
 			"\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\arifle_SR25_02_khaki_CO.paa",
-			"\A3_Aegis\weapons_f_aegis\rifles\m4a1\data\arifle_m4a1_05_black_co.paa"
+			"\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\arifle_sr25_03_black_co.paa"
 		};
 	};
 	class Aegis_arifle_SR25_MR_snd_F: Aegis_arifle_SR25_MR_blk_F
@@ -240,12 +240,12 @@ class CfgWeapons
 		author = $STR_A3_A_Grave_3dGunsmith;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_arifle_SR25_MR_sand_F0;
-		picture = "\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\UI\Icon_arifle_SR25_sand_F_CA.paa";
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\UI\icon_Aegis_arifle_SR25_MR_snd_F_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\arifle_SR25_01_MR_sand_CO.paa",
 			"\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\arifle_SR25_02_sand_CO.paa",
-			"\A3_Aegis\weapons_f_aegis\rifles\m4a1\data\arifle_m4a1_05_black_co.paa"
+			"\A3_Aegis\weapons_f_aegis\Rifles\SR25\Data\arifle_sr25_03_black_co.paa"
 		};
 		magazines[] = 
 		{

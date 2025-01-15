@@ -137,7 +137,7 @@ class Atlas_O_T_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout
 		verticalOffsetWorld = 0.026;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_C_Heli_Attack_02_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Heli_Attack_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -146,13 +146,13 @@ class Atlas_O_T_Heli_Attack_02_dynamicLoadout_F: O_Heli_Attack_02_dynamicLoadout
 	typicalCargo[] = {Atlas_O_T_Helipilot_F};
 	textureList[] =
 	{
-		Hex,1,
+		Takistan,1,
 		Black,0
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body1_CO.paa",
-		"\A3\Air_F_Beta\Heli_Attack_02\Data\Heli_Attack_02_body2_CO.paa"
+		"\A3_Atlas\Air_F_Atlas\Heli_Attack_02\Data\Heli_Attack_02_body1_tk_CO.paa",
+		"\A3_Atlas\Air_F_Atlas\Heli_Attack_02\Data\Heli_Attack_02_body2_tk_CO.paa"
 	};
 	class TransportMagazines
 	{

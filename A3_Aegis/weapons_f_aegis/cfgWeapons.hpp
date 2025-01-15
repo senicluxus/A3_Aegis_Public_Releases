@@ -62,7 +62,9 @@ class CfgWeapons
             HandGrenade_EastMuzzle,
             HandGrenade_GuerMuzzle,
 			Aegis_HandFlare_red_Muzzle,
-			Aegis_HandFlare_green_Muzzle
+			Aegis_HandFlare_green_Muzzle,
+			Aegis_SignalFlare_red_Muzzle,
+			Aegis_SignalFlare_green_Muzzle
         };
         class ThrowMuzzle;
 		class HandGrenade_EastMuzzle: ThrowMuzzle
@@ -84,6 +86,14 @@ class CfgWeapons
 		class Aegis_HandFlare_green_Muzzle: ThrowMuzzle
 		{
 			magazines[] = {Aegis_HandFlare_green};
+		};
+		class Aegis_SignalFlare_red_Muzzle: ThrowMuzzle
+		{
+			magazines[] = {Aegis_SignalFlare_red};
+		};
+		class Aegis_SignalFlare_green_Muzzle: ThrowMuzzle
+		{
+			magazines[] = {Aegis_SignalFlare_green};
 		};
     };
     #include "cfgLaunchers.hpp"

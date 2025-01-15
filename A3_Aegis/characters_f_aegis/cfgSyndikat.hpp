@@ -333,3 +333,82 @@ class Aegis_I_C_Soldier_TechSpec_F: I_C_Soldier_Para_1_F
 		DefaultManGuerillaLinkedItems
 	};
 };
+class Aegis_I_C_HeavyGunner_Para_F: I_C_Soldier_Para_4_F
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview="\A3_Aegis\Editorpreviews_F_Aegis\Data\CfgVehicles\Aegis_I_C_HeavyGunner_Para_F.jpg";
+    displayName = $STR_A3_A_CfgVehicles_I_Tura_HeavyGunner_2_lxWS0;
+    uniformClass = U_I_C_Soldier_Para_2_F;
+    backpack = Aegis_B_FieldPack_oli_C_HG;
+	linkedItems[]=
+	{
+		V_ChestrigF_oli,
+		Aegis_H_Milcap_nohs_grn_F,
+        G_Aviator,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[]=
+	{
+		V_ChestrigF_oli,
+		Aegis_H_Milcap_nohs_grn_F,
+        G_Aviator,
+		DefaultManGuerillaLinkedItems
+	};
+	weapons[]=
+	{
+		Aegis_MMG_FNMAG_240_F,
+		hgun_pistol_01_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[]=
+	{
+		Aegis_MMG_FNMAG_240_F,
+		hgun_pistol_01_F,
+		DefaultManWeapons
+	};
+	magazines[]=
+	{
+		mag_2(Aegis_200Rnd_762x51_MAG_Yellow_F),
+		mag_2(10Rnd_9x21_Mag)
+	};
+	respawnMagazines[]=
+	{
+		mag_2(Aegis_200Rnd_762x51_MAG_Yellow_F),
+		mag_2(10Rnd_9x21_Mag)
+	};
+};
+class Aegis_I_C_Soldier_M_Para_F: I_C_Sharpshooter_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_C_Soldier_M_Para_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	displayName = $STR_A3_A_CfgVehicles_I_C_Soldier_M_F0;
+	uniformClass = U_I_C_Soldier_Para_4_F;
+	weapons[] =
+	{
+		Aegis_srifle_SVD_blk_DMS_old_F,
+		DefaultManWeapons,
+      	Binocular
+	};
+	respawnWeapons[] =
+	{
+		Aegis_srifle_SVD_blk_DMS_old_F,
+		DefaultManWeapons,
+      	Binocular
+	};
+	magazines[] = {mag_6(Aegis_10Rnd_762x54_SVD_Yellow_Mag_F)};
+	respawnMagazines[] = {mag_6(Aegis_10Rnd_762x54_SVD_Yellow_Mag_F)};
+	linkedItems[] =
+	{
+      	V_TacVest_grn,
+		H_Booniehat_oli,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+     	V_TacVest_grn,
+		H_Booniehat_oli,
+		DefaultManGuerillaLinkedItems
+	};
+};

@@ -43,6 +43,20 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class Takistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TKHEX0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_01_tk_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_02_tk_CO.paa",
+					"\A3_Atlas\Soft_F_Atlas\LSV_02\Data\CSAT_LSV_03_tk_CO.paa",
+					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa",
+					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
     };
 	class LSV_02_armed_base_F: LSV_02_base_F

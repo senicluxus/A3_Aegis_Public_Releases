@@ -10,6 +10,10 @@ specular[]={0.2,0.2,0.2,1};
 specularPower=50;
 PixelShaderID="Super";
 VertexShaderID="Super";
+renderFlags[]=
+{
+	"noTIWrite"
+};
 class Stage1
 {
 	texture="a3\props_f_exp\military\camps\data\irmaskingcover_02_f_nohq.tga";

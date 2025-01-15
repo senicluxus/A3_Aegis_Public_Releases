@@ -23,7 +23,7 @@ class CfgUnitInsignia
 	};
 	class CSAT_DragonRegiment
 	{
-		displayName = "Dragon Regiment";
+		displayName = $STR_A3_A_CfgUnitInsignia_CSAT_DragonRegiment0;
 		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\CSAT_DragonRegiment_CA.paa";
 		author = $STR_A3_A_BranFlakes;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
@@ -54,6 +54,55 @@ class CfgUnitInsignia
 		displayName = $STR_A3_A_CfgUnitInsignia_MP_Red_Patch0;
 		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\MP_Red_CA.paa";
 		author = $STR_A3_A_TheMightySultan;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class Aegis_Raven_Security
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_IND_Raven_F0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\Raven_Security_CA.paa";
+		author = $STR_A3_A_Ravenholme;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class Aegis_BAF_ParachuteRegiment
+	{
+		displayName = $STR_A3_A_CfgUnitInsignia_BAF_ParachuteRegiment0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\BAF_Para_CA.paa";
+		author = $STR_A3_A_Lowaltitude;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class Aegis_BAF_ParachuteRegiment_Green
+	{
+		displayName = $STR_A3_A_CfgUnitInsignia_BAF_ParachuteRegiment_Grn0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\BAF_Para_grn_CA.paa";
+		author = $STR_A3_A_Lowaltitude;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class Aegis_BAF_Pathfinders
+	{
+		displayName = $STR_A3_A_CfgUnitInsignia_BAF_Pathfinders0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\BAF_Pathfinders_CA.paa";
+		author = $STR_A3_A_Lowaltitude;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class Aegis_BAF_Pathfinders_Green
+	{
+		displayName = $STR_A3_A_CfgUnitInsignia_BAF_Pathfinders_Grn0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\BAF_Pathfinders_grn_CA.paa";
+		author = $STR_A3_A_Lowaltitude;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class Aegis_BAF_19PB
+	{
+		displayName = $STR_A3_A_CfgUnitInsignia_BAF_19PB0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\BAF_19PB_CA.paa";
+		author = $STR_A3_A_Lowaltitude;
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class Aegis_BAF_19PB_Green
+	{
+		displayName = $STR_A3_A_CfgUnitInsignia_BAF_19PB_Grn0;
+		texture = "\A3_Aegis\UI_F_Aegis\Data\CfgUnitInsignia\BAF_19PB_grn_CA.paa";
+		author = $STR_A3_A_Lowaltitude;
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 };

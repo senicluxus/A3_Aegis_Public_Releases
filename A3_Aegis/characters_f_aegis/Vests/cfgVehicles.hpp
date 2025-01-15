@@ -152,6 +152,8 @@ class CfgVehicles
 	VEST_HOLDER(Aegis_V_PlateCarrier2_alt_tna,$STR_A3_V_PlateCarrier2_alt_tna_F0);
 	VEST_HOLDER(Aegis_V_PlateCarrier2_alt_blk,$STR_A3_V_PlateCarrier2_alt_blk_F0);
 	VEST_HOLDER(Aegis_V_PlateCarrier2_alt_desert,$STR_A3_V_PlateCarrier2_alt_desert_F0);
+	VEST_HOLDER(Aegis_V_SmershVest_01_blk_F,$STR_A3_A_CfgWeapons_V_SmershVest_01_Black_F0);
+	VEST_HOLDER(Aegis_V_SmershVest_01_radio_blk_F,$STR_A3_A_CfgWeapons_V_SmershVest_01_radio_Black_F0);
 
     /* Deprecated */
     DEPRECATED_CLASS(Vest_V_I_G_resistanceLeader_F,Vest_Base_F);;

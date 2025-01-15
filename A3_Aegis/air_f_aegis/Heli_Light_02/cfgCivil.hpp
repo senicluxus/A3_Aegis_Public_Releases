@@ -135,3 +135,35 @@ class C_Heli_Light_02_civil_F: Heli_Light_02_civil_base_F
 	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CIVILIAN_CO.paa"};
 	textureList[] = {Blue,1};
 };
+
+/* Arganan Civs */
+class Aegis_C_Heli_Light_02_civil_F_Argana: C_Heli_Light_02_civil_F
+{
+    forceInGarage = false;
+    faction = Aegis_CIV_ARG_F;
+	crew = Aegis_C_Man_Pilot_lxWS_F;
+};
+
+/* Livonian Civs */
+class Aegis_C_Heli_Light_02_civil_F_Enoch: C_Heli_Light_02_civil_F
+{
+    forceInGarage = false;
+    faction = Aegis_CIV_LIV_F;
+	crew = Aegis_C_Man_Pilot_F_Enoch;
+};
+
+/* Malden Civs */
+class Aegis_C_Heli_Light_02_civil_F_Malden: C_Heli_Light_02_civil_F
+{
+    forceInGarage = false;
+    faction = Aegis_CIV_MA_F;
+	crew = Aegis_C_Man_Pilot_F_Malden;
+};
+
+/* HI Civs */
+class Aegis_C_Heli_Light_02_civil_F_Tanoa: C_Heli_Light_02_civil_F
+{
+    forceInGarage = false;
+    faction = Aegis_CIV_HI_F;
+	crew = Aegis_C_Man_Pilot_F_Tanoan;
+};

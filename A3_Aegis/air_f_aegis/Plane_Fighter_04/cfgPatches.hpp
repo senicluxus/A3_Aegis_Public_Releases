@@ -15,7 +15,11 @@ class CfgPatches
             I_E_Plane_Fighter_04_F,
             I_Ejection_Seat_Plane_Fighter_04_F,
 			Aegis_B_E_Plane_Fighter_04_F,
-			Aegis_B_E_Ejection_Seat_Plane_Fighter_04_F
+			Aegis_B_E_Ejection_Seat_Plane_Fighter_04_F,
+			Aegis_I_E_Plane_Fighter_04_ard_F,
+			Aegis_I_E_Ejection_Seat_Plane_Fighter_04_ard_F,
+			Aegis_B_E_Plane_Fighter_04_ard_F,
+			Aegis_B_E_Ejection_Seat_Plane_Fighter_04_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

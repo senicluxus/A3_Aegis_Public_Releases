@@ -47,6 +47,7 @@ class CfgVehicles
     #include "cfgOpfor_Atlas.hpp"		// Takistani Army
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgIDF.hpp"				// IDF
+	#include "cfgArdistan.hpp"			// Ardistan
     // Deprecated classes
     #include "deprecated.hpp"
 };

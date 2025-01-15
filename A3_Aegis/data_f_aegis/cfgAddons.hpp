@@ -138,6 +138,7 @@ class CfgAddons
                 A3_Aegis_Weapons_F_Aegis_GrenadeLaunchers_M32,
                 A3_Aegis_Weapons_F_Aegis_GrenadeLaunchers_XM25,
                 A3_Aegis_Weapons_F_Aegis_LongRangeRifles_WF50,
+                A3_Aegis_Weapons_F_Aegis_LongRangeRifles_SVD,
                 A3_Aegis_Weapons_F_Aegis_Machineguns_LMG_03,
                 A3_Aegis_Weapons_F_Aegis_Pistols_G17,
                 A3_Aegis_Weapons_F_Aegis_Pistols_Mk26,
@@ -145,17 +146,21 @@ class CfgAddons
                 A3_Aegis_Weapons_F_Aegis_Rifles_AKM74,
                 A3_Aegis_Weapons_F_Aegis_Rifles_AKS,
                 A3_Aegis_Weapons_F_Aegis_Rifles_RPK,
+                A3_Aegis_Weapons_F_Aegis_Rifles_RPK74,
+                //A3_Aegis_Weapons_F_Aegis_Rifles_HCAR,
                 A3_Aegis_Weapons_F_Aegis_Rifles_SA80,
                 A3_Aegis_Weapons_F_Aegis_Rifles_SCAR,
                 A3_Aegis_Weapons_F_Aegis_Rifles_SCAR_L,
                 A3_Aegis_Weapons_F_Aegis_Rifles_SPAR_02,
                 A3_Aegis_Weapons_F_Aegis_Rifles_SR25,
                 A3_Aegis_Weapons_F_Aegis_Rifles_M4A1,
+                A3_Aegis_Weapons_F_Aegis_Rifles_M16,
                 A3_Aegis_Weapons_F_Aegis_Shotguns_AA40,
                 A3_Aegis_Weapons_F_Aegis_Shotguns_KSG,
                 A3_Aegis_Weapons_F_Aegis_Shotguns_M4_SSAS,
                 A3_Aegis_Weapons_F_Aegis_Shotguns_Mp153,
-                A3_Aegis_Weapons_F_Aegis_SMGs_SMG_04
+                A3_Aegis_Weapons_F_Aegis_SMGs_SMG_04,
+                A3_Aegis_Weapons_F_Aegis_SMGs_SMG_Gepard
 			};
 		};
 	};

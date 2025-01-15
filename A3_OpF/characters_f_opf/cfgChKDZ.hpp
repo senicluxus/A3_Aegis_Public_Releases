@@ -297,24 +297,24 @@ class Opf_O_S_Soldier_4_F: Opf_O_S_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		arifle_RPK_F,
+		Aegis_arifle_RPK74M_F,
         hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_RPK_F,
+		Aegis_arifle_RPK74M_F,
         hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_8(75Rnd_762x39_Mag_F),
+        mag_8(Aegis_45Rnd_545x39_Mag_F),
         mag_2(10Rnd_9x21_Mag)
 	};
 	respawnMagazines[] = 
 	{
-        mag_8(75Rnd_762x39_Mag_F),
+        mag_8(Aegis_45Rnd_545x39_Mag_F),
         mag_2(10Rnd_9x21_Mag)
 	};
 	cost = 220000;
@@ -756,7 +756,7 @@ class Opf_O_S_Soldier_9_F: Opf_O_S_Soldier_Base_F
 class Opf_O_S_Crew_F: Opf_O_S_Soldier_Base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\O_E_Crew_F.jpg";
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_S_Crew_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_crew_F0;
@@ -885,4 +885,65 @@ class Opf_O_S_Soldier_UAV_lxWS: Opf_O_S_Soldier_1_F
 		O_UAVTerminal,
 		DefaultManGuerillaLinkedItems
 	};
+};
+class Opf_O_S_HeliPilot_F: Opf_O_S_Soldier_Base_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_pilot_s};
+			speechPlural[] = {veh_infantry_pilot_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
+	nameSound = veh_infantry_pilot_s;
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_O_S_HeliPilot_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	displayName = $STR_B_Helipilot_F0;
+	uniformClass = Atlas_U_O_Afghanka_01_grn_F;
+	linkedItems[] = 
+	{
+		V_TacVest_blk,
+		Aegis_H_MilCap_tachs_grn_F,
+		Aegis_G_Condor_EyePro_F,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] = 
+	{
+		V_TacVest_blk,
+		Aegis_H_MilCap_tachs_grn_F,
+		Aegis_G_Condor_EyePro_F,
+		DefaultManGuerillaLinkedItems
+	};
+	weapons[] = 
+	{
+		arifle_AKSM_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] = 
+	{
+		arifle_AKSM_F,
+		DefaultManWeapons
+	};
+	magazines[] = 
+	{
+        mag_4(30Rnd_545x39_Mag_Green_F),
+        mag_2(HandGrenade_Guer)
+	};
+	respawnMagazines[] = 
+	{
+        mag_4(30Rnd_545x39_Mag_Green_F),
+        mag_2(HandGrenade_Guer)
+	};
+	camouflage = 2;
+	cost = 160000;
+	role = Crewman;
+	headgearList[] =
+    {
+        Aegis_H_MilCap_tachs_grn_F,1
+    };
 };

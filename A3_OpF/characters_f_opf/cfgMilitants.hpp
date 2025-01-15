@@ -203,24 +203,24 @@ class Opf_O_P_M_Soldier_4_F: Opf_O_P_M_Soldier_Base_F
 	};
 	weapons[] = 
 	{
-		Aegis_arifle_RPK12_545_F,
+		Aegis_arifle_RPK74M_F,
         hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		Aegis_arifle_RPK12_545_F,
+		Aegis_arifle_RPK74M_F,
         hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_8(Aegis_60Rnd_545x39_Mag_Green_F),
+        mag_8(Aegis_45Rnd_545x39_Mag_Green_F),
         mag_2(10Rnd_9x21_Mag)
 	};
 	respawnMagazines[] = 
 	{
-        mag_8(Aegis_60Rnd_545x39_Mag_Green_F),
+        mag_8(Aegis_45Rnd_545x39_Mag_Green_F),
         mag_2(10Rnd_9x21_Mag)
 	};
 	cost = 220000;

@@ -8,7 +8,12 @@ class CfgPatches
 		units[] =
         {
             /* From "cfgGendarmerie.hpp" */
-            B_GEN_Boat_Transport_02_F
+            B_GEN_Boat_Transport_02_F,
+
+			/* From "cfgCivil.hpp" */
+			Aegis_C_Boat_Transport_02_F_Malden,
+			Aegis_C_Boat_Transport_02_F_Tanoa
+
         };
 		weapons[] = {/* Automated */};
 	};

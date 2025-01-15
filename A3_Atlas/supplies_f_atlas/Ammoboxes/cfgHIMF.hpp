@@ -24,9 +24,9 @@ class Box_Tanoan_Wps_F: ReammoBox_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(Aegis_arifle_M4A1_grip_F,4);
-		weap_xx(Aegis_arifle_M4A1_GL_F,2);
-		weap_xx(Aegis_arifle_M4A1_short_F,2);
+		weap_xx(Aegis_arifle_M16A4_FG_F,4);
+		weap_xx(Aegis_arifle_M16A4_GL_F,2);
+		weap_xx(Aegis_arifle_M16A4_F,2);
 		weap_xx(LMG_03_F,2);
 		weap_xx(srifle_DMR_06_black_F,2);
 	};
@@ -150,9 +150,9 @@ class H_supplyCrate_F: ReammoBox_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(Aegis_arifle_M4A1_grip_F,1);
-		weap_xx(Aegis_arifle_M4A1_GL_F,1);
-		weap_xx(Aegis_arifle_M4A1_short_F,1);
+		weap_xx(Aegis_arifle_M16A4_FG_F,1);
+		weap_xx(Aegis_arifle_M16A4_GL_F,1);
+		weap_xx(Aegis_arifle_M16A4_F,1);
 		weap_xx(LMG_03_F,1);
 		weap_xx(srifle_DMR_06_black_F,1);
 		weap_xx(launch_MRAWS_olive_rail_F,1);

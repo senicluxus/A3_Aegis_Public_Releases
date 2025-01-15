@@ -1200,9 +1200,6 @@ class CfgVehicles
 				};
 				factions[] =
 				{
-					BLU_F,
-					BLU_T_F,
-					BLU_W_F
 				};
 			};
 			class DarkGreyCamo
@@ -1221,9 +1218,24 @@ class CfgVehicles
 				};
 				factions[] =
 				{
-					BLU_F,
-					BLU_T_F,
-					BLU_W_F
+				};
+			};
+			class DarkGrey_BAF
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_BAF_RN0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext1_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext2_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext3_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_pylon_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_ext_glass_CA.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int1_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Fighter_05\Data\Plane_Fighter_05_int2_CO.paa"
+				};
+				factions[] =
+				{
 				};
 			};
 		};

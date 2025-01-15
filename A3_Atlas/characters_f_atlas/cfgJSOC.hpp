@@ -828,8 +828,8 @@ class Atlas_B_JSOC_UAV_F: Atlas_B_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_MTP,
 		Aegis_H_Helmet_FASTMT_Cover_MTP_F,
         G_Balaclava_light_MTP_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UavTerminal,
 		Aegis_NVG_IVAS_01_tan_F
 	};
 	respawnLinkedItems[] =
@@ -837,8 +837,8 @@ class Atlas_B_JSOC_UAV_F: Atlas_B_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_MTP,
 		Aegis_H_Helmet_FASTMT_Cover_MTP_F,
         G_Balaclava_light_MTP_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+    	B_UavTerminal,
 		Aegis_NVG_IVAS_01_tan_F
 	};
 };
@@ -888,8 +888,8 @@ class Atlas_B_JSOC_UAV_lxWS: Atlas_B_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_MTP,
 		Aegis_H_Helmet_FASTMT_Cover_MTP_F,
         G_Balaclava_light_MTP_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_tan_F
 	};
 	respawnLinkedItems[] =
@@ -897,8 +897,8 @@ class Atlas_B_JSOC_UAV_lxWS: Atlas_B_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_MTP,
 		Aegis_H_Helmet_FASTMT_Cover_MTP_F,
         G_Balaclava_light_MTP_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_tan_F
 	};
 };
@@ -1673,8 +1673,8 @@ class Atlas_B_D_JSOC_UAV_F: Atlas_B_D_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_Desert,
 		Aegis_H_Helmet_FASTMT_Cover_Desert_F,
         G_Balaclava_snd_lxWS,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_tan_F
 	};
 	respawnLinkedItems[] =
@@ -1682,8 +1682,8 @@ class Atlas_B_D_JSOC_UAV_F: Atlas_B_D_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_Desert,
 		Aegis_H_Helmet_FASTMT_Cover_Desert_F,
         G_Balaclava_snd_lxWS,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_tan_F
 	};
 };
@@ -1734,8 +1734,8 @@ class Atlas_B_D_JSOC_UAV_lxWS: Atlas_B_D_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_Desert,
 		Aegis_H_Helmet_FASTMT_Cover_Desert_F,
         G_Balaclava_snd_lxWS,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_tan_F
 	};
 	respawnLinkedItems[] =
@@ -1743,8 +1743,8 @@ class Atlas_B_D_JSOC_UAV_lxWS: Atlas_B_D_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_Desert,
 		Aegis_H_Helmet_FASTMT_Cover_Desert_F,
         G_Balaclava_snd_lxWS,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_tan_F
 	};
 };
@@ -2520,8 +2520,8 @@ class Atlas_B_T_JSOC_UAV_F: Atlas_B_T_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_tna,
 		Aegis_H_Helmet_FASTMT_Cover_tna_F,
         G_Balaclava_light_tropic_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_grn_F
 	};
 	respawnLinkedItems[] =
@@ -2529,8 +2529,8 @@ class Atlas_B_T_JSOC_UAV_F: Atlas_B_T_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_tna,
 		Aegis_H_Helmet_FASTMT_Cover_tna_F,
         G_Balaclava_light_tropic_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_grn_F
 	};
 };
@@ -2580,8 +2580,8 @@ class Atlas_B_T_JSOC_UAV_lxWS: Atlas_B_T_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_tna,
 		Aegis_H_Helmet_FASTMT_Cover_tna_F,
         G_Balaclava_light_tropic_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_grn_F
 	};
 	respawnLinkedItems[] =
@@ -2589,8 +2589,8 @@ class Atlas_B_T_JSOC_UAV_lxWS: Atlas_B_T_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_tna,
 		Aegis_H_Helmet_FASTMT_Cover_tna_F,
         G_Balaclava_light_tropic_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_grn_F
 	};
 };
@@ -3365,8 +3365,8 @@ class Atlas_B_W_JSOC_UAV_F: Atlas_B_W_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_wdl,
 		Aegis_H_Helmet_FASTMT_Cover_wdl_F,
         G_Balaclava_light_wdl_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_grn_F
 	};
 	respawnLinkedItems[] =
@@ -3374,8 +3374,8 @@ class Atlas_B_W_JSOC_UAV_F: Atlas_B_W_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_wdl,
 		Aegis_H_Helmet_FASTMT_Cover_wdl_F,
         G_Balaclava_light_wdl_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_grn_F
 	};
 };
@@ -3425,8 +3425,8 @@ class Atlas_B_W_JSOC_UAV_lxWS: Atlas_B_W_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_wdl,
 		Aegis_H_Helmet_FASTMT_Cover_wdl_F,
         G_Balaclava_light_wdl_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_grn_F
 	};
 	respawnLinkedItems[] =
@@ -3434,8 +3434,8 @@ class Atlas_B_W_JSOC_UAV_lxWS: Atlas_B_W_Soldier_JSOC_base
 		Aegis_V_PlateCarrier2_alt_wdl,
 		Aegis_H_Helmet_FASTMT_Cover_wdl_F,
         G_Balaclava_light_wdl_F,
-		ItemGPS,
 		DefaultManLinkedItems,
+        B_UAVTerminal,
 		Aegis_NVG_IVAS_01_grn_F
 	};
 };

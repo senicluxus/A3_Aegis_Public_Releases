@@ -9,6 +9,9 @@ class CfgVehicles
     // Arma 3 Enoch
     class B_Carryall_green_F;
     class B_FieldPack_green_F;
+    // Arma 3 Aegis + Atlas
+    class Aegis_B_patrolBackpack_grn_F;
+    class B_AssaultPack_flecktarn;
 	// Arma 3 Opposing Forces
     #include "cfgPara.hpp"
     /*

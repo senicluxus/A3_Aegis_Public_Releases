@@ -15,7 +15,7 @@ class Atlas_B_G_Soldier_A_F: B_Soldier_A_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+    uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_Carryall_flecktarn_BEAmmo_F;
 	weapons[] =
 	{
@@ -76,7 +76,7 @@ class Atlas_B_G_Soldier_AAR_F: B_soldier_AAR_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
+    uniformClass = Atlas_U_CombatUniformNCU_02_flecktarn_F;
 	backpack = B_Kitbag_flecktarn_BEAAR_F;
 	weapons[] =
 	{
@@ -141,7 +141,7 @@ class Atlas_B_G_Support_AMG_F: B_support_AMG_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
+    uniformClass = Atlas_U_CombatUniformNCU_02_flecktarn_F;
 	backpack = B_HMG_01_support_grn_F;
 	weapons[] =
 	{
@@ -202,7 +202,7 @@ class Atlas_B_G_Support_AMort_F: B_support_AMort_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
+    uniformClass = Atlas_U_CombatUniformNCU_02_flecktarn_F;
 	backpack = B_Mortar_01_support_grn_F;
 	weapons[] =
 	{
@@ -263,7 +263,7 @@ class Atlas_B_G_Soldier_AAA_F: B_soldier_AAA_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+    uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_Carryall_flecktarn_BEAAA_F;
 	weapons[] =
 	{
@@ -328,7 +328,7 @@ class Atlas_B_G_Soldier_AAT_F: B_soldier_AAT_F
 	};
     scope = public;
     scopeCurator = public;
-    uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+    uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_Carryall_flecktarn_BEAAT_F;
 	weapons[] =
 	{
@@ -394,7 +394,7 @@ class Atlas_B_G_Soldier_AR_F: B_soldier_AR_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
-    uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
+    uniformClass = Atlas_U_CombatUniformNCU_02_flecktarn_F;
 	weapons[] =
 	{
 		LMG_Mk200_black_LP_BI_F,
@@ -454,7 +454,7 @@ class Atlas_B_G_Medic_F: B_medic_F
 	};
   	scope = public;
   	scopeCurator = public;
-    uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+    uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_TacticalPack_rgr_BAMedic_F;
 	weapons[] =
 	{
@@ -517,7 +517,7 @@ class Atlas_B_G_Crew_F: B_crew_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_Tank_wdl_F;
+	uniformClass = Atlas_U_CombatUniformNCU_01_flecktarn_F;
 	weapons[] =
 	{
 		SMG_04_blk_Holo_F,
@@ -577,7 +577,7 @@ class Atlas_B_G_Engineer_F: B_engineer_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_Kitbag_flecktarn_BEEng_F;
 	weapons[] =
 	{
@@ -640,7 +640,7 @@ class Atlas_B_G_Soldier_Exp_F: B_soldier_exp_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_02_F;
 	backpack = B_Kitbag_flecktarn_BEExp_F;
 	weapons[] =
 	{
@@ -710,7 +710,7 @@ class Atlas_B_G_Soldier_GL_F: B_Soldier_GL_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
 		arifle_G36_GL_ACO_F,
@@ -774,7 +774,7 @@ class Atlas_B_G_Support_GMG_F: B_support_GMG_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
+	uniformClass = Atlas_U_CombatUniformNCU_02_flecktarn_F;
 	backpack = B_GMG_01_Weapon_grn_F;
 	weapons[] =
 	{
@@ -835,7 +835,7 @@ class Atlas_B_G_Support_MG_F: B_support_MG_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
+	uniformClass = Atlas_U_CombatUniformNCU_02_flecktarn_F;
 	backpack = B_HMG_01_Weapon_grn_F;
 	weapons[] =
 	{
@@ -896,7 +896,7 @@ class Atlas_B_G_Support_Mort_F: B_support_Mort_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
+	uniformClass = Atlas_U_CombatUniformNCU_02_flecktarn_F;
 	backpack = B_Mortar_01_Weapon_grn_F;
 	weapons[] =
 	{
@@ -957,7 +957,7 @@ class Atlas_B_G_HeavyGunner_F: B_HeavyGunner_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
 		MMG_01_black_LP_F,
@@ -1125,7 +1125,7 @@ class Atlas_B_G_soldier_M_F: B_soldier_M_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
 		srifle_DMR_03_LRCO_LP_BI_F,
@@ -1187,7 +1187,7 @@ class Atlas_B_G_Soldier_AA_F: B_soldier_AA_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_Kitbag_flecktarn_BEAA_F;
 	weapons[] =
 	{
@@ -1252,7 +1252,7 @@ class Atlas_B_G_Soldier_AT_F: B_soldier_AT_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_Kitbag_flecktarn_BEAT_F;
 	weapons[] =
 	{
@@ -1317,7 +1317,7 @@ class Atlas_B_G_Officer_F: B_officer_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
 		arifle_G36C_F,
@@ -1372,7 +1372,7 @@ class Atlas_B_G_Soldier_PG_F: B_soldier_PG_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_Parachute;
 	weapons[] =
 	{
@@ -1433,7 +1433,7 @@ class Atlas_B_G_Soldier_Repair_F: B_soldier_repair_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_AssaultPack_flecktarn_BERepair_F;
 	weapons[] =
 	{
@@ -1493,7 +1493,7 @@ class Atlas_B_G_Soldier_F: B_Soldier_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
 		arifle_G36_Holo_Pointer_F,
@@ -1553,7 +1553,7 @@ class Atlas_B_G_Soldier_LAT_F: B_soldier_LAT_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_AssaultPack_flecktarn_BELAT_F;
 	weapons[] =
 	{
@@ -1618,7 +1618,7 @@ class Atlas_B_G_Soldier_Lite_F: B_Soldier_lite_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_wdl;
+	uniformClass = Atlas_U_CombatUniformNCU_02_flecktarn_F;
 	weapons[] =
 	{
 		arifle_G36C_F,
@@ -1676,7 +1676,7 @@ class Atlas_B_G_Soldier_CQ_F: B_Soldier_CQ_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
 		sgun_M4_F,
@@ -1739,7 +1739,7 @@ class Atlas_B_G_Soldier_SL_F: B_Soldier_SL_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_02_F;
 	weapons[] =
 	{
 		arifle_G36_LRCO_Pointer_F,
@@ -1807,7 +1807,7 @@ class Atlas_B_G_Soldier_TL_F: B_Soldier_TL_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
 		arifle_G36_GL_LRCO_Pointer_F,
@@ -1934,7 +1934,7 @@ class Atlas_B_G_RadioOperator_F: Atlas_B_G_Soldier_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = Atlas_U_B_G_CombatUniform_vest_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_02_F;
 	linkedItems[] =
 	{
 		//V_CarrierRigBW_Lite_F,
@@ -2078,6 +2078,58 @@ class Atlas_B_G_soldier_UGV_02_Demining_F: Atlas_B_G_Soldier_UAV_F
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = B_UGV_02_Demining_backpack_F;
 };
+class Atlas_B_G_Soldier_MP_F: Atlas_B_G_Soldier_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_MP_F.jpg";
+	displayName = $STR_A3_C_I_E_Soldier_MP_F0;
+    scope = public;
+    scopeCurator = public;
+	uniformClass = Atlas_U_CombatUniformEURO_02_F;
+	weapons[] =
+	{
+		arifle_G36C_Holo_FL_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_G36C_Holo_FL_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		Atlas_H_FieldCap_hs_flecktarn,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_light_Olive_F,
+		Atlas_H_FieldCap_hs_flecktarn,
+		DefaultManLinkedItems
+	};
+	cost = 250000;
+	camouflage = 1.4;
+	icon = "iconManLeader";
+};
 /* Recon */
 class B_recon_AR_F;
 class Atlas_B_G_Recon_AR_F: B_recon_AR_F
@@ -2095,7 +2147,7 @@ class Atlas_B_G_Recon_AR_F: B_recon_AR_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
 		arifle_SPAR_02_blk_LRCO_Pointer_Bipod_Snds_F,
@@ -2157,7 +2209,7 @@ class Atlas_B_G_Recon_Exp_F: B_recon_exp_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_Kitbag_flecktarn_BEExp_F;
 	weapons[] =
 	{
@@ -2222,7 +2274,7 @@ class Atlas_B_G_Recon_GL_F: B_recon_GL_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
         arifle_SPAR_01_GL_blk_LRCO_Pointer_Snds_F,
@@ -2288,7 +2340,7 @@ class Atlas_B_G_Recon_JTAC_F: B_recon_JTAC_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_RadioBag_01_flecktarn_F;
 	weapons[] =
 	{
@@ -2357,7 +2409,7 @@ class Atlas_B_G_Recon_MG_F: B_recon_MG_F
 		Head_Enoch,
 		G_NATO_recon
 	};
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_AssaultPack_flecktarn_BEReconMG_F;
 	weapons[] =
 	{
@@ -2420,7 +2472,7 @@ class Atlas_B_G_Recon_M_F: B_recon_M_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
 		arifle_SPAR_03_blk_MOS_Pointer_Bipod_Snds_F,
@@ -2484,7 +2536,7 @@ class Atlas_B_G_Recon_Medic_F: B_recon_medic_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_AssaultPack_flecktarn_BEMedic_F;
 	weapons[] =
 	{
@@ -2549,7 +2601,7 @@ class Atlas_B_G_Recon_F: B_recon_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_LRCO_Pointer_Snds_F,
@@ -2613,7 +2665,7 @@ class Atlas_B_G_Recon_LAT_F: B_recon_LAT_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	backpack = B_AssaultPack_flecktarn_BELAT_F;
 	weapons[] =
 	{
@@ -2680,7 +2732,7 @@ class Atlas_B_G_Recon_TL_F: B_recon_TL_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_wdl;
+	uniformClass = Atlas_U_CombatUniformEURO_01_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_LRCO_Pointer_Snds_F,
@@ -2825,7 +2877,7 @@ class Atlas_B_G_Soldier_A_ard_F: Atlas_B_G_Soldier_A_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_A_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	backpack = B_Carryall_multitarn_BEAmmo_F;
 	weapons[] =
 	{
@@ -2862,7 +2914,7 @@ class Atlas_B_G_Soldier_AAR_ard_F: Atlas_B_G_Soldier_AAR_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAR_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Kitbag_multitarn_BEAAR_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36_Sand_ACO_Pointer_F,
@@ -2900,7 +2952,7 @@ class Atlas_B_G_Support_AMG_ard_F: Atlas_B_G_Support_AMG_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_AMG_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_HMG_01_support_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_Pointer_F,
@@ -2934,7 +2986,7 @@ class Atlas_B_G_Support_AMort_ard_F: Atlas_B_G_Support_AMort_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_AMort_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Mortar_01_support_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_Pointer_F,
@@ -2968,7 +3020,7 @@ class Atlas_B_G_Soldier_AAA_ard_F: Atlas_B_G_Soldier_AAA_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAA_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Carryall_multitarn_BEAAA_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36_Sand_ACO_Pointer_F,
@@ -3006,7 +3058,7 @@ class Atlas_B_G_Soldier_AAT_ard_F: Atlas_B_G_Soldier_AAT_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AAT_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Carryall_multitarn_BEAAT_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36_Sand_ACO_Pointer_F,
@@ -3043,7 +3095,7 @@ class Atlas_B_G_Soldier_AR_ard_F: Atlas_B_G_Soldier_AR_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AR_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		Atlas_LMG_MK200_plain_IR_BI_F,
@@ -3059,7 +3111,7 @@ class Atlas_B_G_Soldier_AR_ard_F: Atlas_B_G_Soldier_AR_F
 	linkedItems[] =
 	{
 		//V_CarrierRigBW_Lite_multitarn_F,
-		V_CarrierRigKBT_01_Light_Coyote_F,
+		Aegis_V_CarrierRigKBT_01_CQB_cbr_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -3067,7 +3119,7 @@ class Atlas_B_G_Soldier_AR_ard_F: Atlas_B_G_Soldier_AR_F
 	respawnLinkedItems[] =
 	{
 		//V_CarrierRigBW_Lite_multitarn_F,
-		V_CarrierRigKBT_01_Light_Coyote_F,
+		Aegis_V_CarrierRigKBT_01_CQB_cbr_F,
 		H_HelmetB_light_desert,
 		DefaultManLinkedItems,
 		NVGoggles
@@ -3079,7 +3131,7 @@ class Atlas_B_G_Medic_ard_F: Atlas_B_G_Medic_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Medic_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_AssaultPack_multitarn_BEMedic_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36_Sand_Pointer_F,
@@ -3114,6 +3166,7 @@ class Atlas_B_G_Crew_ard_F: Atlas_B_G_Crew_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Crew_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		SMG_04_snd_Holo_F,
@@ -3149,7 +3202,7 @@ class Atlas_B_G_Engineer_ard_F: Atlas_B_G_Engineer_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Engineer_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Kitbag_multitarn_BEEng_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_Pointer_F,
@@ -3185,7 +3238,7 @@ class Atlas_B_G_Soldier_Exp_ard_F: Atlas_B_G_Soldier_Exp_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Exp_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Kitbag_multitarn_BEExp_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_Pointer_F,
@@ -3227,7 +3280,7 @@ class Atlas_B_G_Soldier_GL_ard_F: Atlas_B_G_Soldier_GL_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_GL_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36_GL_Sand_ACO_Pointer_F,
@@ -3263,7 +3316,7 @@ class Atlas_B_G_Support_GMG_ard_F: Atlas_B_G_Support_GMG_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_GMG_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_GMG_01_Weapon_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_Pointer_F,
@@ -3297,7 +3350,7 @@ class Atlas_B_G_Support_MG_ard_F: Atlas_B_G_Support_MG_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_MG_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_HMG_01_Weapon_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_Pointer_F,
@@ -3331,7 +3384,7 @@ class Atlas_B_G_Support_Mort_ard_F: Atlas_B_G_Support_Mort_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Support_Mort_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Mortar_01_Weapon_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_Pointer_F,
@@ -3364,7 +3417,7 @@ class Atlas_B_G_HeavyGunner_ard_F: Atlas_B_G_HeavyGunner_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_HeavyGunner_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		MMG_01_tan_LP_BI_F,
@@ -3453,7 +3506,7 @@ class Atlas_B_G_soldier_M_ard_F: Atlas_B_G_soldier_M_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_soldier_M_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		srifle_DMR_03_tan_LRCO_LP_BI_F,
@@ -3491,7 +3544,7 @@ class Atlas_B_G_Soldier_AA_ard_F: Atlas_B_G_Soldier_AA_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AA_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Kitbag_multitarn_BEAA_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_Holo_Pointer_F,
@@ -3529,7 +3582,7 @@ class Atlas_B_G_Soldier_AT_ard_F: Atlas_B_G_Soldier_AT_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_AT_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_Kitbag_multitarn_BEAT_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_Holo_Pointer_F,
@@ -3566,7 +3619,7 @@ class Atlas_B_G_Officer_ard_F: Atlas_B_G_Officer_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Officer_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformEURO_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_F,
@@ -3599,7 +3652,7 @@ class Atlas_B_G_Soldier_PG_ard_F: Atlas_B_G_Soldier_PG_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_PG_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36_Sand_ACO_Pointer_F,
@@ -3635,7 +3688,7 @@ class Atlas_B_G_Soldier_Repair_ard_F: Atlas_B_G_Soldier_Repair_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Repair_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_AssaultPack_multitarn_BERepair_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_Pointer_F,
@@ -3670,7 +3723,7 @@ class Atlas_B_G_Soldier_ard_F: Atlas_B_G_Soldier_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36_Sand_Holo_Pointer_F,
@@ -3706,7 +3759,7 @@ class Atlas_B_G_Soldier_LAT_ard_F: Atlas_B_G_Soldier_LAT_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_LAT_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	backpack = B_AssaultPack_multitarn_BELAT_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36_Sand_Holo_Pointer_F,
@@ -3743,7 +3796,7 @@ class Atlas_B_G_Soldier_Lite_ard_F: Atlas_B_G_Soldier_Lite_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_Lite_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36C_Sand_F,
@@ -3776,7 +3829,7 @@ class Atlas_B_G_Soldier_CQ_ard_F: Atlas_B_G_Soldier_CQ_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_CQ_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		sgun_M4_F,
@@ -3811,7 +3864,7 @@ class Atlas_B_G_Soldier_SL_ard_F: Atlas_B_G_Soldier_SL_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_SL_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36_Sand_LRCO_Pointer_F,
@@ -3848,7 +3901,7 @@ class Atlas_B_G_Soldier_TL_ard_F: Atlas_B_G_Soldier_TL_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_TL_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36_GL_Sand_LRCO_Pointer_F,
@@ -3951,7 +4004,7 @@ class Atlas_B_G_RadioOperator_ard_F: Atlas_B_G_Soldier_ard_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_RadioOperator_ard_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	linkedItems[] =
 	{
 		//V_CarrierRigBW_Lite_multitarn_F,
@@ -4016,7 +4069,7 @@ class Atlas_B_G_Soldier_UAV_ard_F: Atlas_B_G_Soldier_UAV_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_UAV_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
-	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	weapons[] =
 	{
 		arifle_G36_Sand_ACO_Pointer_F,
@@ -4069,6 +4122,56 @@ class Atlas_B_G_soldier_UGV_02_Demining_ard_F: Atlas_B_G_Soldier_UAV_ard_F
 	displayName = $STR_A3_C_B_soldier_UGV_02_Demining_F0;
 	backpack = B_UGV_02_Demining_backpack_F;
 };
+class Atlas_B_G_Soldier_MP_ard_F: Atlas_B_G_Soldier_MP_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Soldier_MP_F.jpg";
+	displayName = $STR_A3_C_I_E_Soldier_MP_F0;
+    scope = public;
+    scopeCurator = public;
+	faction = Atlas_BLU_G_ard_F;
+	uniformClass = Atlas_U_CombatUniformEURO_02_F;
+	weapons[] =
+	{
+		arifle_G36C_Sand_Holo_FL_F,
+		hgun_P07_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_G36C_Sand_Holo_FL_F,
+		hgun_P07_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		Atlas_H_FieldCap_hs_multitarn,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		//V_CarrierRigBW_Lite_F,
+		V_CarrierRigKBT_01_Light_Coyote_F,
+		Atlas_H_FieldCap_hs_multitarn,
+		DefaultManLinkedItems
+	};
+};
 class Atlas_B_G_Recon_AR_ard_F: Atlas_B_G_Recon_AR_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -4084,7 +4187,7 @@ class Atlas_B_G_Recon_AR_ard_F: Atlas_B_G_Recon_AR_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_SPAR_02_blk_LRCO_Pointer_Bipod_Snds_F,
@@ -4136,7 +4239,7 @@ class Atlas_B_G_Recon_Exp_ard_F: Atlas_B_G_Recon_Exp_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_Exp_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
-	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -4200,7 +4303,7 @@ class Atlas_B_G_Recon_GL_ard_F: Atlas_B_G_Recon_GL_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_GL_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -4265,7 +4368,7 @@ class Atlas_B_G_Recon_JTAC_ard_F: Atlas_B_G_Recon_JTAC_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_JTAC_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
-	uniformClass = Atlas_U_B_G_CombatUniform_tshirt_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -4335,7 +4438,7 @@ class Atlas_B_G_Recon_MG_ard_F: Atlas_B_G_Recon_MG_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_MG_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -4395,7 +4498,7 @@ class Atlas_B_G_Recon_M_ard_F: Atlas_B_G_Recon_M_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_M_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -4458,7 +4561,7 @@ class Atlas_B_G_Recon_Medic_ard_F: Atlas_B_G_Recon_Medic_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_Recon_Medic_ard_F.jpg";
 	faction = Atlas_BLU_G_ard_F;
 	genericNames = GermanMen;
-	uniformClass = Atlas_U_B_G_CombatUniform_vest_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_02_multitarn_F;
 	identityTypes[] =
 	{
 		LanguageENG_F,
@@ -4531,7 +4634,7 @@ class Atlas_B_G_Recon_ard_F: Atlas_B_G_Recon_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_LRCO_Pointer_Snds_F,
@@ -4594,7 +4697,7 @@ class Atlas_B_G_Recon_LAT_ard_F: Atlas_B_G_Recon_LAT_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	backpack = B_AssaultPack_multitarn_BELAT_F;
 	weapons[] =
 	{
@@ -4660,7 +4763,7 @@ class Atlas_B_G_Recon_TL_ard_F: Atlas_B_G_Recon_TL_F
 	};
     scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_G_CombatUniform_arid;
+	uniformClass = Atlas_U_CombatUniformNCU_01_multitarn_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_LRCO_Pointer_Snds_F,

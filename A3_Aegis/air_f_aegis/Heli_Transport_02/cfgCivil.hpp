@@ -183,35 +183,112 @@ class C_Heli_Transport_02_civil_F: Heli_Transport_02_civil_base_F
 	};
 };
 class Aegis_C_Heli_Transport_02_VIP_F: Aegis_Heli_Transport_02_VIP_base_F
-	{
-		author = $STR_A3_A_Grave;
-		editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_C_Heli_Transport_02_VIP_F.jpg";
-		scope = public;
-		displayName = $STR_A3_A_CfgVehicles_Heli_Transport_02_vip_base_F0;
-		faction = CIV_F;
-	    side = TCivilian;
-		crew = C_man_pilot_F;
-	    typicalCargo[] = {C_man_pilot_F};
-        hiddenSelectionsTextures[]=
-		{
-			"\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_01_Grey_CO.paa",
-			"\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_02_Grey_CO.paa",
-			"\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_02_Grey_CO.paa", ///update texture
-			"\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_int_02_GenCiv_CO.paa"
-		};
-        textureList[] = 
-        {
-            Grey,1,
-            Vrana,1,
-            Blue,1,
-            White,1,
-            BluePearl,0
-            Black,0,
-            ION,0,
-            Daltgreen,0
-        };
-        class TransportItems
-		{
-			item_xx(FirstAidKit,10);
-		};
-	};
+{
+    author = $STR_A3_A_Grave;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_C_Heli_Transport_02_VIP_F.jpg";
+    scope = public;
+    displayName = $STR_A3_A_CfgVehicles_Heli_Transport_02_vip_base_F0;
+    faction = CIV_F;
+    side = TCivilian;
+    crew = Aegis_C_Man_CargoPilot_F;
+    typicalCargo[] = {Aegis_C_Man_CargoPilot_F};
+    hiddenSelectionsTextures[]=
+    {
+        "\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_01_Grey_CO.paa",
+        "\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_02_Grey_CO.paa",
+        "\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_02_Grey_CO.paa", ///update texture
+        "\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_int_02_GenCiv_CO.paa"
+    };
+    textureList[] = 
+    {
+        Grey,1,
+        Vrana,1,
+        Blue,1,
+        White,1,
+        BluePearl,0
+        Black,0,
+        ION,0,
+        Daltgreen,0
+    };
+    class TransportItems
+    {
+        item_xx(FirstAidKit,10);
+    };
+};
+
+/* Malden Civilians */
+class Aegis_C_Heli_Transport_02_civil_F_malden: C_Heli_Transport_02_civil_F
+{
+    forceInGarage = false;
+	faction = Aegis_CIV_MA_F;
+	side = TCivilian;
+	crew = Aegis_C_man_pilot_F_malden;
+	typicalCargo[] = {Aegis_C_man_pilot_F_malden};
+};
+class Aegis_C_Heli_Transport_02_VIP_F_Malden: Aegis_C_Heli_Transport_02_VIP_F
+{
+	faction = Aegis_CIV_MA_F;
+	side = TCivilian;
+	crew = Aegis_C_Man_CargoPilot_malden_F;
+	typicalCargo[] = {Aegis_C_Man_CargoPilot_malden_F};
+};
+
+/* Tanoan Civilians */
+class Aegis_C_Heli_Transport_02_civil_F_Tanoa: Aegis_C_Heli_Transport_02_civil_F_malden
+{
+	faction = Aegis_CIV_HI_F;
+	side = TCivilian;
+	crew = Aegis_C_man_pilot_F_tanoan;
+	typicalCargo[] = {Aegis_C_man_pilot_F_tanoa};
+};
+class Aegis_C_Heli_Transport_02_VIP_F_Tanoa: Aegis_C_Heli_Transport_02_VIP_F
+{
+	faction = Aegis_CIV_HI_F;
+	side = TCivilian;
+	crew = Aegis_C_Man_CargoPilot_tna_F;
+	typicalCargo[] = {Aegis_C_Man_CargoPilot_tna_F};
+    hiddenSelectionsTextures[]=
+    {
+        "\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_01_BluePearl_CO.paa",
+		"\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_02_BluePearl_CO.paa",
+		"\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_02_BluePearl_CO.paa", ///update texture
+		"\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_int_02_GenCiv_CO.paa"
+    };
+    textureList[] = 
+    {
+        Grey,1,
+        Vrana,1,
+        Blue,1,
+        White,1,
+        BluePearl,1,
+        Black,0,
+        ION,0,
+        Daltgreen,1
+    };
+};
+/* Arganan Civs */
+class Aegis_C_Heli_Transport_02_VIP_F_LXWS: Aegis_C_Heli_Transport_02_VIP_F
+{
+	faction = Aegis_CIV_ARG_F;
+	side = TCivilian;
+	crew = Aegis_C_Man_CargoPilot_lxWS_F;
+	typicalCargo[] = {Aegis_C_Man_CargoPilot_lxWS_F};
+    hiddenSelectionsTextures[]=
+    {
+        "\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_01_Daltgreen_CO.paa",
+        "\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_02_Daltgreen_CO.paa",
+        "\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_ext_02_Daltgreen_CO.paa", ///update texture
+        "\A3_Aegis\air_f_Aegis\Heli_Transport_02\data\Skins\Heli_Transport_02_int_02_GenCiv_CO.paa"
+    };
+    textureList[] = 
+    {
+        Grey,0,
+        Vrana,0,
+        Blue,0,
+        White,0,
+        BluePearl,0,
+        Black,0,
+        ION,0,
+        Daltgreen,1
+    };
+};

@@ -45,12 +45,12 @@ class CfgMarkers
 		icon = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Australia_CA.paa";
 		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Australia_CA.paa";
 	};
-	class flag_Venezuela: flag_NATO
+	/*class flag_Venezuela: flag_NATO
 	{
 		name = $STR_A3_A_CfgMarkers_flag_Venezuela;
 		icon = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Venezuela_CA.paa";
 		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Venezuela_CA.paa";
-	};
+	};*/
 	class flag_Japan: flag_NATO
 	{
 		name = "Japan";
@@ -62,5 +62,11 @@ class CfgMarkers
 		name = "Sahrani";
 		icon = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Sahrani_CA.paa";
 		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Sahrani_CA.paa";
+	};
+	class flag_Marar: flag_NATO
+	{
+		name = "Marar";
+		icon = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Marar_CA.paa";
+		texture = "\A3_Atlas\UI_F_Atlas\Data\CfgMarkers\Marar_CA.paa";
 	};
 };

@@ -117,6 +117,11 @@ class CfgWeapons
 			maxRangeProbab = 0.05;
 			aiRateOfFire = 1e-006;
 	  	};
+
+		/* ACE Ballistics */
+		ACE_barrelTwist = 152.4;		// 1:6 twist
+        ACE_barrelLength = 180;
+        ACE_twistDirection = 1;
 	};
 
     /* Weapons */

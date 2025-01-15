@@ -174,19 +174,19 @@ class Atlas_O_T_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F
 		verticalOffsetWorld = -0.148;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\a3\editorpreviews_f\Data\CfgVehicles\O_APC_Wheeled_02_rcws_v2_F.jpg";
+	editorPreview = "\A3_Atlas\Editorpreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_APC_Wheeled_02_rcws_v2_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_crew_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Hex,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Beta\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_OPFOR_CO.paa",
-		"\A3\Armor_F_Beta\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_OPFOR_CO.paa",
-		"\A3\Data_F\Vehicles\Turret_OPFOR_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_tk_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_tk_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_02\Data\Turret_tk_CO.paa",
 		"\A3\Armor_F\Data\camonet_CSAT_Hex_Desert_CO.paa",
 		"\A3\Armor_F\Data\cage_CSAT_CO.paa"
 	};
@@ -223,22 +223,22 @@ class Atlas_O_T_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F
 class Atlas_O_T_APC_Wheeled_02_hmg_lxWS: APC_Wheeled_02_hmg_base_lxws
 {
    
-    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_A_APC_Wheeled_02_hmg_lxWS.jpg";
+    editorPreview = "\A3_Atlas\Editorpreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_APC_Wheeled_02_hmg_lxWS.jpg";
     scope = public;
 	scopeCurator = public;
 	side = TEast;
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_crew_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Hex,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] = 
 	{
-      "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_01_opfor_co.paa",
-      "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_02_opfor_co.paa",
-      "lxWS\vehicles_1_f_lxws\APC_Wheeled_02\data\APC_Wheeled_02_adds_01_hex_CO.paa",
-      "A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
-      "A3\armor_f\data\cage_csat_co.paa",
-      "lxWS\vehicles_1_f_lxws\APC_Wheeled_02\data\APC_Wheeled_02_adds_02_hex_CO.paa"
+        "\A3_Atlas\Armor_F_Atlas\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_tk_CO.paa",
+        "\A3_Atlas\Armor_F_Atlas\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_tk_CO.paa",
+        "\A3_Atlas\Armor_F_Atlas\APC_Wheeled_02\Data\APC_Wheeled_02_adds_01_tk_CO.paa",
+        "A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
+        "A3\armor_f\data\cage_csat_co.paa",
+        "\A3_Atlas\Armor_F_Atlas\APC_Wheeled_02\Data\APC_Wheeled_02_adds_02_tk_CO.paa",
 	};
    class Turrets : Turrets
    {
@@ -283,22 +283,22 @@ class Atlas_O_T_APC_Wheeled_02_hmg_lxWS: APC_Wheeled_02_hmg_base_lxws
 class O_APC_Wheeled_02_unarmed_lxWS;
 class Atlas_O_T_APC_Wheeled_02_unarmed_lxWS: O_APC_Wheeled_02_unarmed_lxWS
 {
-    editorPreview = "\A3_Aegis\editorpreviews_f_aegis\Data\CfgVehicles\O_APC_Wheeled_02_unarmed_lxWS.jpg";
+    editorPreview = "\A3_Atlas\Editorpreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_APC_Wheeled_02_unarmed_lxWS.jpg";
     scope = public;
 	scopeCurator = public;
 	side = TEast;
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_crew_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Hex,1};
+	textureList[] = {Takistan,1};
     hiddenSelectionsTextures[] = 
 	{
-      "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_01_opfor_co.paa",
-      "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_02_opfor_co.paa",
-      "A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
-      "A3\armor_f\data\cage_csat_co.paa",
-      "lxWS\vehicles_1_f_lxws\APC_Wheeled_02\data\APC_Wheeled_02_adds_02_hex_CO.paa"
-	};
+        "\A3_Atlas\Armor_F_Atlas\APC_Wheeled_02\Data\APC_Wheeled_02_ext_01_tk_CO.paa",
+        "\A3_Atlas\Armor_F_Atlas\APC_Wheeled_02\Data\APC_Wheeled_02_ext_02_tk_CO.paa",
+        "A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
+        "A3\armor_f\data\cage_csat_co.paa",
+        "\A3_Atlas\Armor_F_Atlas\APC_Wheeled_02\Data\APC_Wheeled_02_adds_02_tk_CO.paa",
+    };
     animationList[] = {"showBags",0,"showCanisters",0,"showTools",0,"showCamonetHull",0,"showSLATHull",0};
     class TransportWeapons
 	{

@@ -26,7 +26,13 @@ class CfgPatches
             I_Heli_Light_01_recon_F,
 
             /* From "cfgION.hpp" */
-            B_ION_Heli_Light_01_civil_F
+            B_ION_Heli_Light_01_civil_F,
+
+            /* From "cfgCivil.hpp "*/
+            Aegis_C_Heli_Light_01_Civil_F_LXWS,
+            Aegis_C_Heli_Light_01_Civil_F_Enoch,
+            Aegis_C_Heli_Light_01_Civil_F_malden,
+            Aegis_C_Heli_Light_01_Civil_F_Tanoa
         };
 		weapons[] = {/* Automated */};
 	};

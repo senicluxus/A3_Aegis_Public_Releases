@@ -7,6 +7,10 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
+			/* From "cfgHIMF.hpp" */
+			Atlas_B_H_Heli_Light_01_dynamicLoadout_F,
+			Atlas_B_H_Heli_Light_01_F,
+
             /* From "cfgIDF.hpp" */
             Atlas_I_I_Heli_Light_01_dynamicLoadout_F,
             Atlas_I_I_Heli_Light_01_F,

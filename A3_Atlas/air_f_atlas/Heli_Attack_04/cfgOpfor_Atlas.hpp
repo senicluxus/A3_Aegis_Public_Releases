@@ -15,7 +15,7 @@ class Atlas_O_T_Heli_Attack_04_F: Aegis_Heli_Attack_04_base_F
 	textureList[] =
 	{
 		Black,0,
-		Hex,1
+		Takistan,1
 	};
 	class Turrets: Turrets
 	{
@@ -31,9 +31,9 @@ class Atlas_O_T_Heli_Attack_04_F: Aegis_Heli_Attack_04_base_F
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"\A3_Aegis\air_f_Aegis\Heli_Attack_04\Data\Skins\Heli_Attack_04_ext_01_HEX_CO.paa",
-		"\A3_Aegis\air_f_Aegis\Heli_Attack_04\Data\Skins\Heli_Attack_04_ext_02_HEX_CO.paa",
-		"\A3_Aegis\air_f_Aegis\Heli_Attack_04\Data\Skins\Heli_Attack_04_ext_03_HEX_CO.paa"
+		"\A3_Atlas\air_f_Atlas\Heli_Attack_04\Data\Heli_Attack_04_ext_01_TK_CO.paa",
+		"\A3_Atlas\air_f_Atlas\Heli_Attack_04\Data\Heli_Attack_04_ext_02_TK_CO.paa",
+		"\A3_Atlas\air_f_Atlas\Heli_Attack_04\Data\Heli_Attack_04_ext_03_TK_CO.paa"
 	};	
     /* Inventory */
 	class TransportMagazines

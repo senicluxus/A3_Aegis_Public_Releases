@@ -1,12 +1,12 @@
 /* US */
 class B_Plane_CAS_01_F: Plane_CAS_01_base_F
 {
-    textureList[] = {Blu,1};
+    textureList[] = {Grey,1};
 };
 class B_Plane_CAS_01_dynamicLoadout_F: Plane_CAS_01_dynamicLoadout_base_F
 {
     displayName = $STR_A3_CfgVehicles_B_Plane_01_F0;
-    textureList[] = {Blu,1};
+    textureList[] = {Grey,1};
 };
 
 /* US (Pacific) */
@@ -407,6 +407,12 @@ class B_W_Plane_CAS_01_dynamicLoadout_F: B_Plane_CAS_01_dynamicLoadout_F
 	faction = BLU_W_F;
 	crew = B_W_Fighter_Pilot_F;
 	typicalCargo[] = {B_W_Fighter_Pilot_F};
+    hiddenSelectionsTextures[] = 
+    {
+        "\A3_Aegis\Air_F_Aegis\Plane_CAS_01\Data\Aegis_A164_01_wdl_CO.paa",
+        "\A3_Aegis\Air_F_Aegis\Plane_CAS_01\Data\Aegis_A164_02_wdl_CO.paa"
+    };
+    textureList[] = {Wdl,1};
 	class EjectionSystem: EjectionSystem
 	{
 		EjectionSeatClass = B_W_Ejection_Seat_Plane_CAS_01_F;

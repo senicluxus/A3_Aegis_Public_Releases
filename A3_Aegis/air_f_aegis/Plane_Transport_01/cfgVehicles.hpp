@@ -796,10 +796,62 @@ class CfgVehicles
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] =
 				{
-					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_olive_BAF_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_olive_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_BAF_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
-					""
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decals_baf_ca.paa"
+				};
+				factions[] = {};
+			};
+			class BAF_UN
+			{
+				displayName = "UN (British 01)";
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decals_UN_blu_ca.paa"
+				};
+				factions[] = {};
+			};
+			class BAF_UN2
+			{
+				displayName = "UN (British 02)";
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decals_UN_logo_ca.paa"
+				};
+				factions[] = {};
+			};
+			class BAFGrey
+			{
+				displayName = "BAF (Grey)";
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_grey_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_grey_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decals_baf_ca.paa"
+				};
+				factions[] = {};
+			};
+			class BAFSand
+			{
+				displayName = "BAF (Sand)";
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_sand_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_sand_BAF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decals_baf_ca.paa"
 				};
 				factions[] = {};
 			};
@@ -891,6 +943,19 @@ class CfgVehicles
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_ggrn_CO.paa",
 					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
 					""
+				};
+				factions[] = {};
+			};
+			class SAC
+			{
+				displayName = $STR_A3_A_TextureSources_SAC0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_SAC_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_SAC_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decal_SAC_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -1292,6 +1357,32 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class UN_Blk
+			{
+				displayName = "UN";
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_white_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_white_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decals_UN_ca.paa"
+				};
+				factions[] = {};
+			};
+			class UNA
+			{
+				displayName = "UNA";
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_white_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_white_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decals_UNA_ca.paa"
+				};
+				factions[] = {};
+			};
 			class WhiteTwoTone
 			{
 				displayName = $STR_A3_A_TextureSources_WhiteTwoTone0;
@@ -1376,5 +1467,6 @@ class CfgVehicles
     #include "cfgBLUFOR.hpp"    // US & BAF
     #include "cfgOPFOR.hpp"     // IAF & China
     #include "cfgIndep.hpp"     // AAF
+	#include "cfgEAF.hpp"		// Strategic Airlift Capability
 	#include "cfgCivil.hpp"		// Civilian and IDAP
 };

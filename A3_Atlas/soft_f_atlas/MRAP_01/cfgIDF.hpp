@@ -118,7 +118,7 @@ class Atlas_I_I_MRAP_01_F: MRAP_01_base_F
     class TransportMagazines
     {
         mag_xx(30Rnd_556x45_Stanag,16);
-        mag_xx(150Rnd_762x51_Box_Yellow,4);
+        mag_xx(Atlas_150Rnd_762x51_Box_Yellow,4);
         mag_xx(HandGrenade,10);
         mag_xx(1Rnd_HE_Grenade_shell,10);
         mag_xx(1Rnd_Smoke_Grenade_shell,4);
@@ -250,7 +250,7 @@ class Atlas_I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
     class TransportMagazines
     {
         mag_xx(30Rnd_556x45_Stanag,16);
-        mag_xx(150Rnd_762x51_Box_Yellow,4);
+        mag_xx(Atlas_150Rnd_762x51_Box_Yellow,4);
         mag_xx(HandGrenade,10);
         mag_xx(1Rnd_HE_Grenade_shell,10);
         mag_xx(1Rnd_Smoke_Grenade_shell,4);
@@ -389,7 +389,7 @@ class Atlas_I_I_MRAP_01_hmg_F: MRAP_01_hmg_base_F
     class TransportMagazines
     {
         mag_xx(30Rnd_556x45_Stanag,16);
-        mag_xx(150Rnd_762x51_Box_Yellow,4);
+        mag_xx(Atlas_150Rnd_762x51_Box_Yellow,4);
         mag_xx(HandGrenade,10);
         mag_xx(1Rnd_HE_Grenade_shell,10);
         mag_xx(1Rnd_Smoke_Grenade_shell,4);

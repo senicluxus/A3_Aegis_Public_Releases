@@ -13,6 +13,10 @@ class CfgPatches
         {
             /* From "cfgCivil.hpp" */
             C_Heli_Light_02_civil_F,
+            Aegis_C_Heli_Light_02_civil_F_Argana,
+            Aegis_C_Heli_Light_02_civil_F_Enoch,
+            Aegis_C_Heli_Light_02_civil_F_Malden,
+            Aegis_C_Heli_Light_02_civil_F_Tanoa,
 
             /* From "cfgOPFOR.hpp" */
             O_T_Heli_Light_02_dynamicLoadout_ghex_F,

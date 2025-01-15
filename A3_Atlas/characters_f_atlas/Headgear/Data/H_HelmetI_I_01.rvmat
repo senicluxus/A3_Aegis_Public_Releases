@@ -6,13 +6,13 @@ ambient[]={1,1,1,1};
 diffuse[]={1,1,1,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
-specular[]={0.10200004,0.10200004,0.10200004,1};
-specularPower=150;
+specular[]={0.55000001,0.55000001,0.55000001,1};
+specularPower=50;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="a3_atlas\characters_f_atlas\headgear\data\h_helmeti_i_01_nohq.tga";
+	texture="A3_Atlas\characters_f_atlas\Headgear\Data\h_helmeti_i_01_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="#(argb,8,8,3)color(1,1,1,1,AS)";
+	texture="A3_Atlas\characters_f_atlas\Headgear\Data\h_helmeti_i_01_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="a3_atlas\characters_f_atlas\headgear\data\h_helmeti_i_01_smdi.tga";
+	texture="A3_Atlas\characters_f_atlas\Headgear\Data\h_helmeti_i_01_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

@@ -793,14 +793,14 @@ class I_officer_F: I_Soldier_base_F
     weapons[] =
     {
         arifle_Mk20C_F,
-        hgun_ACPC2_F,
+        Aegis_hgun_Pistol_R57_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
         arifle_Mk20C_F,
-        hgun_ACPC2_F,
+        Aegis_hgun_Pistol_R57_F,
         DefaultManWeapons,
         Binocular
     };
@@ -808,13 +808,13 @@ class I_officer_F: I_Soldier_base_F
 	magazines[] =
 	{
         mag_4(30Rnd_556x45_Stanag),
-        mag_2(9Rnd_45ACP_Mag),
+        mag_2(Aegis_10Rnd_570x28_RP57_Mag),
         SMOKESHELLS_INDEP
 	};
 	respawnMagazines[] =
 	{
         mag_4(30Rnd_556x45_Stanag),
-        mag_2(9Rnd_45ACP_Mag),
+        mag_2(Aegis_10Rnd_570x28_RP57_Mag),
         SMOKESHELLS_INDEP
 	};
     linkedItems[] =
@@ -1672,4 +1672,172 @@ class I_RadioOperator_F: I_soldier_F
         mag_2(SmokeShell)
     };
     role = RadioOperator;
+};
+class I_Soldier_LAT2_F: I_Soldier_base_F
+{
+    weapons[] =
+    {
+        arifle_Mk20_ACO_pointer_F,
+        launch_MRAWS_olive_rail_F,
+        hgun_ACPC2_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        arifle_Mk20_ACO_pointer_F,
+        launch_MRAWS_olive_rail_F,
+        hgun_ACPC2_F,
+        DefaultManWeapons
+    };
+	magazines[] =
+	{
+        mag_6(30Rnd_556x45_Stanag),
+        mag_3(9Rnd_45ACP_Mag),
+        MRAWS_HEAT_F,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+        mag_6(30Rnd_556x45_Stanag),
+        mag_3(9Rnd_45ACP_Mag),
+        MRAWS_HEAT_F,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+    linkedItems[] =
+    {
+        H_HelmetIA,
+        V_PlateCarrierIA2_dgtl,
+        DefaultManLinkedItems,
+        NVGoggles_INDEP
+    };
+    respawnLinkedItems[] =
+    {
+        H_HelmetIA,
+        V_PlateCarrierIA2_dgtl,
+        DefaultManLinkedItems,
+        NVGoggles_INDEP
+    };
+};
+
+/* AAF Machine Gunner + Heavy Gunner*/
+class Aegis_I_Soldier_MG_F: I_Soldier_AR_F
+{
+    author = $STR_A3_A_Ravenholme;
+    class SpeechVariants
+    {
+        class Default
+        {
+            speechSingular[] = {veh_infantry_MG_s};
+            speechPlural[] = {veh_infantry_MG_p};
+        };
+    };
+    textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
+    nameSound = veh_infantry_MG_s;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_Soldier_MG_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_CfgVehicles_B_Patrol_Soldier_MG_F0;
+    role = MachineGunner;
+    icon = iconManMG;
+    cost = 125000;
+    threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+    uniformClass = U_I_CombatUniform_tshirt;
+    weapons[] =
+    {
+        Aegis_LMG_S77_AAF_MRCO_LP_lxWS,
+        hgun_ACPC2_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        Aegis_LMG_S77_AAF_MRCO_LP_lxWS,
+        hgun_ACPC2_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+	{
+        mag_3(100rnd_762x51_s77_yellow_lxWS),
+        mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+        mag_3(100rnd_762x51_s77_yellow_lxWS),
+        mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        mag_2(SmokeShell)
+	};
+    linkedItems[] =
+    {
+        H_MilCap_dgtl,
+        V_PlateCarrierIA2_dgtl,
+        DefaultManLinkedItems,
+        NVGoggles_INDEP
+    };
+    respawnLinkedItems[] =
+    {
+        H_MilCap_dgtl,
+        V_PlateCarrierIA2_dgtl,
+        DefaultManLinkedItems,
+        NVGoggles_INDEP
+    };
+};
+class Aegis_I_HeavyGunner_F: Aegis_I_Soldier_MG_F
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_HeavyGunner_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_cfgVehicles_B_HeavyGunner_F0;
+    uniformClass = U_I_CombatUniform;
+    backpack = Aegis_I_AssaultPack_dgtl_HG;
+    weapons[] =
+    {
+        Aegis_MMG_FNMAG_MRCO_LP_F,
+        hgun_ACPC2_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        Aegis_MMG_FNMAG_MRCO_LP_F,
+        hgun_ACPC2_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+	{
+        mag_2(Aegis_200rnd_762x51_MAG_Yellow_F),
+        mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+        mag_2(Aegis_200rnd_762x51_MAG_Yellow_F),
+        mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        mag_2(SmokeShell)
+	};
+    linkedItems[] =
+    {
+        H_HelmetIA,
+        V_PlateCarrierIA2_dgtl,
+        DefaultManLinkedItems,
+        NVGoggles_INDEP
+    };
+    respawnLinkedItems[] =
+    {
+        H_HelmetIA,
+        V_PlateCarrierIA2_dgtl,
+        DefaultManLinkedItems,
+        NVGoggles_INDEP
+    };
 };

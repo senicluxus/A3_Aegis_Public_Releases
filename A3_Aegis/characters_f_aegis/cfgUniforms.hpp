@@ -204,6 +204,7 @@ class Aegis_O_CombatFatigues_F: O_A_officer_F
 {
     scope = protected;
     scopeCurator = private;
+	modelSides[] = {TFriendly};
 	uniformClass = Aegis_U_O_CombatFatigues_F;
 	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\Aegis_OCombatUniform_F.p3d";
 	hiddenSelections[] =
@@ -265,11 +266,13 @@ class Aegis_O_CombatFatigues_F: O_A_officer_F
 			"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
 		};
 	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
 };
 class Aegis_O_CombatFatigues_02_F: O_A_officer_F
 {
     scope = protected;
     scopeCurator = private;
+	modelSides[] = {TFriendly};
 	uniformClass = Aegis_U_O_CombatFatigues_02_F;
 	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\Aegis_OCombatUniform_02_F.p3d";
 	hiddenSelections[] =
@@ -332,6 +335,7 @@ class Aegis_O_CombatFatigues_02_F: O_A_officer_F
 			"A3\Characters_F_Exp\Heads\Data\hl_asian_02_bald_muscular_injury.rvmat"
 		};
 	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
 };
 class Aegis_O_LightCombatFatigues_hex_F: O_A_Soldier_lxWS
 {
@@ -689,17 +693,17 @@ class O_R_LightFatigues_01_arid_F: O_R_LightFatigues_01_taiga_F
 	uniformClass = U_O_R_officer_noInsignia_arid_F;
 	hiddenSelectionsTextures[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Officer_noInsignia_RUarid_CO.paa"};
 };
-// Luchniks - Redacted Pending Model Rework
-/*class Aegis_O_Luchnik_01_taiga_F: O_A_officer_F
+// Luchniks
+class Aegis_O_Luchnik_01_taiga_F: O_A_officer_F
 {
     scope = protected;
     scopeCurator = private;
 	uniformClass = Aegis_U_O_Luchnik_taiga_F;
-	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\Aegis_O_Soldier_03.p3d";
+	modelSides[] = {TFriendly};
+	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\U_UniformLuchnik_F.p3d";
 	hiddenSelections[] =
 	{
 		camo,
-		camo1,
 		camo2,
 		insignia
 	};
@@ -707,46 +711,79 @@ class O_R_LightFatigues_01_arid_F: O_R_LightFatigues_01_taiga_F
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_rutaiga_CO.paa",
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa"
 	};
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+        {
+            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2.rvmat",
+            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_injury.rvmat",
+            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_injury.rvmat",
+            INJURY_PERSONALITY_MATERIALS
+        };
+	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
 };
 class Aegis_O_Luchnik_01_shortsleeve_taiga_F: O_A_officer_F
 {
     scope = protected;
     scopeCurator = private;
 	uniformClass = Aegis_U_O_Luchnik_RolledUp_taiga_F;
-	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\Aegis_O_Soldier_04.p3d";
+	modelSides[] = {TFriendly};
+	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\U_UniformLuchnik_02_F.p3d";
 	hiddenSelections[] =
 	{
 		camo,
-		camo1,
 		camo2,
 		insignia
 	};
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_rutaiga_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa"
 	};
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+        {
+            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2.rvmat",
+            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_injury.rvmat",
+            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_injury.rvmat",
+            INJURY_PERSONALITY_MATERIALS
+        };
+	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
 };
 class Aegis_O_Luchnik_01_officer_taiga_F: O_A_officer_F
 {
     scope = protected;
     scopeCurator = private;
 	uniformClass = Aegis_U_O_Luchnik_officer_taiga_F;
-	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\Aegis_O_Officer_02.p3d";
+	modelSides[] = {TFriendly};
+	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\U_UniformLuchnik_Officer_F.p3d";
 	hiddenSelections[] =
 	{
 		camo,
-		camo2,
 		insignia
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_officer_rutaiga_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_officer_rutaiga_CO.paa"
 	};
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+        {
+            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2.rvmat",
+            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_injury.rvmat",
+            "A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_injury.rvmat",
+            INJURY_PERSONALITY_MATERIALS
+        };
+	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
 };
 class Aegis_O_Luchnik_01_arid_F: Aegis_O_Luchnik_01_taiga_F
 
@@ -757,8 +794,7 @@ class Aegis_O_Luchnik_01_arid_F: Aegis_O_Luchnik_01_taiga_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_ruarid_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa"
 	};
 };
 class Aegis_O_Luchnik_01_shortsleeve_arid_F: Aegis_O_Luchnik_01_shortsleeve_taiga_F
@@ -769,8 +805,7 @@ class Aegis_O_Luchnik_01_shortsleeve_arid_F: Aegis_O_Luchnik_01_shortsleeve_taig
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_ruarid_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa"
 	};
 };
 class Aegis_O_Luchnik_01_officer_arid_F: Aegis_O_Luchnik_01_officer_taiga_F
@@ -780,8 +815,7 @@ class Aegis_O_Luchnik_01_officer_arid_F: Aegis_O_Luchnik_01_officer_taiga_F
 	uniformClass = Aegis_U_O_Luchnik_officer_taiga_F;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_officer_ruarid_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUarid_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_officer_ruarid_CO.paa"
 	};
 };
 class Aegis_O_Luchnik_01_hex_F: Aegis_O_Luchnik_01_taiga_F
@@ -793,8 +827,7 @@ class Aegis_O_Luchnik_01_hex_F: Aegis_O_Luchnik_01_taiga_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_hex_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa",
-		"\A3\characters_f\OPFOR\Data\clothing_co.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa"
 	};
 };
 class Aegis_O_Luchnik_01_shortsleeve_hex_F: Aegis_O_Luchnik_01_shortsleeve_taiga_F
@@ -805,8 +838,7 @@ class Aegis_O_Luchnik_01_shortsleeve_hex_F: Aegis_O_Luchnik_01_shortsleeve_taiga
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_hex_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa",
-		"\A3\characters_f\OPFOR\Data\clothing_co.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa"
 	};
 };
 class Aegis_O_Luchnik_01_ghex_F: Aegis_O_Luchnik_01_taiga_F
@@ -818,8 +850,7 @@ class Aegis_O_Luchnik_01_ghex_F: Aegis_O_Luchnik_01_taiga_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_ghex_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa",
-		"\A3\characters_f_exp\OPFOR\Data\clothing_tna_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa"
 	};
 };
 class Aegis_O_Luchnik_01_shortsleeve_ghex_F: Aegis_O_Luchnik_01_shortsleeve_taiga_F
@@ -830,8 +861,7 @@ class Aegis_O_Luchnik_01_shortsleeve_ghex_F: Aegis_O_Luchnik_01_shortsleeve_taig
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_ghex_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa",
-		"\A3\characters_f_exp\OPFOR\Data\clothing_tna_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa"
 	};
 };
 class Aegis_O_Luchnik_01_dst_F: Aegis_O_Luchnik_01_taiga_F
@@ -843,8 +873,7 @@ class Aegis_O_Luchnik_01_dst_F: Aegis_O_Luchnik_01_taiga_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_dst_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa"
 	};
 };
 class Aegis_O_Luchnik_01_shortsleeve_dst_F: Aegis_O_Luchnik_01_shortsleeve_taiga_F
@@ -855,10 +884,10 @@ class Aegis_O_Luchnik_01_shortsleeve_dst_F: Aegis_O_Luchnik_01_shortsleeve_taiga
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_dst_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_oicamo_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa"
 	};
-};*/
+};
+// Russian LCFs
 class Aegis_O_LightCombatFatigues_rutaiga_F: O_A_Soldier_lxWS
 {
 	scope = protected;
@@ -895,6 +924,7 @@ class Aegis_O_LightCombatFatigues_ruarid_F: O_A_Soldier_lxWS
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_RUtaiga.rvmat"
 	};
 };
+// Russian CSAT Combat Fatigues
 class Aegis_O_CombatFatigues_rutaiga_F: Aegis_O_CombatFatigues_F
 {
     scope = protected;
@@ -1104,6 +1134,7 @@ class O_R_Fatigues_01_Tshirt_taiga_F: O_A_officer_F
     scope = protected;
     scopeCurator = private;
 	uniformClass = U_O_R_CombatUniform_tshirt_taiga_F;
+	modelSides[] = {TFriendly};
 	model = "\A3_Aegis\Characters_F_Aegis\Uniforms\O_Soldier_02.p3d";
 	hiddenSelections[] =
 	{
@@ -1154,6 +1185,16 @@ class I_Uniform_01_tanktop_F: I_E_Uniform_01_tanktop_F
 			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing_injury.rvmat",
 			INJURY_PERSONALITY_MATERIALS
 		};
+	};
+};
+class Aegis_I_Soldier_Sweater_F: O_G_Soldier_LAT_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Aegis_U_I_Uniform_01_sweater_f;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\Aegis_I_Soldier_01_sweater_co.paa"
 	};
 };
 
@@ -1252,5 +1293,143 @@ class Aegis_O_CombatFatigues_02_khk_F: Aegis_O_CombatFatigues_02_F
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\OCombatUniform_khk_CO.paa",
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_khk_CO.paa",
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa"
+	};
+};
+class B_ION_Helipilot_lxWS;
+class Aegis_B_ION_Helipilot_F: B_ION_Helipilot_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Aegis_U_lxWS_ION_Casual_Hawaiian_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ig_poloshirt_1_hawaiian_co.paa"
+	};
+};
+class Aegis_B_ION_Helipilot_2_F: B_ION_Helipilot_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Aegis_U_lxWS_ION_Casual_Hawaiian_2_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\ig_poloshirt_1_hawaiian_2_co.paa"
+	};
+};
+class Aegis_B_ION_TL_tna_F: B_ION_soldier_AR_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Aegis_U_lxWS_ION_Casualtna_F;
+	hiddenSelectionsTextures[] = {"\A3\characters_f_enoch\Uniforms\Data\clothing_mcam_wdl_co.paa","\lxWS\characters_1_f_lxws\uniform\data\pmc_watch_co.paa","\a3\characters_f\common\data\basicbody_black_co.paa","lxWS\characters_f_lxws\data\SFIA\c_cloth1_green_co.paa"};
+};
+class Aegis_B_ION_Shot_F: B_ION_shot_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Aegis_U_lxWS_ION_Flanneltna_F;
+	hiddenSelectionsTextures[] = {"\lxws\characters_f_lxws\data\clothes\B_ION_Soldier_poloRed_CO.paa","\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_olive_co.paa"};
+};
+
+/* Survival Fatigue Expansion */
+class Aegis_B_SurvivalFatigues_wdl_F: b_soldier_survival_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Aegis_U_B_SurvivalFatigues_wdl_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa",
+        "\A3\Characters_F\Common\Data\diver_suit_nato_CO.paa",
+        "\A3\Characters_F\Common\Data\diver_equip_nato_CO.paa",
+        "\A3\Characters_F_Enoch\Uniforms\Data\basicbody_wdl_CO.paa"
+	};
+};
+class Aegis_B_SurvivalFatigues_tna_F: b_soldier_survival_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Aegis_U_B_SurvivalFatigues_tna_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\U_BT_Soldier_AR_F_tna_02_CO.paa",
+        "\A3\Characters_F\Common\Data\diver_suit_nato_CO.paa",
+        "\A3\Characters_F\Common\Data\diver_equip_nato_CO.paa",
+        "\A3\Characters_F_Exp\BLUFOR\Data\U_BT_Soldier_AR_F_tna_01_CO.paa"
+	};
+};
+class Aegis_B_SurvivalFatigues_des_F: b_soldier_survival_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Aegis_U_B_SurvivalFatigues_des_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\lxws\characters_f_lxws\data\NATO\clothing1_desert_CO.paa",
+        "\A3\Characters_F\Common\Data\diver_suit_nato_CO.paa",
+        "\A3\Characters_F\Common\Data\diver_equip_nato_CO.paa",
+        "\lxws\characters_f_lxws\data\NATO\basicbody_sand_co.paa"
+	};
+};
+class Aegis_B_SurvivalFatigues_CTRG_F: b_soldier_survival_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Aegis_U_B_SurvivalFatigues_ctrg_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3\Characters_F_EPA\BLUFOR\Data\clothing1_mtp_co.paa",
+        "\A3\Characters_F\Common\Data\diver_suit_nato_CO.paa",
+        "\A3\Characters_F\Common\Data\diver_equip_nato_CO.paa",
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\basicbody_green_CO.paa"
+	};
+};
+
+/* Half Ghillie Expansion */
+class Aegis_B_Sniper_Fatigues_CTRG_F: B_Sniper_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Aegis_U_B_Sniper_Fatigues_CTRG_F;
+	hiddenSelectionsTextures[]=
+	{
+		"\A3\characters_f_epa\BLUFOR\Data\clothing1_mtp_co.paa",
+		"\A3\characters_f\Common\Data\ghillie_mcamo_co.paa"
+	};
+};
+
+/* RU Urban */
+class Aegis_O_R_Fatigues_01_urban_F: O_R_Fatigues_01_taiga_F
+{
+    scope = protected;
+    scopeCurator = protected;
+	uniformClass = Aegis_U_O_R_CombatUniform_urban_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_ruUrban_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\tech_rus_CO.paa"
+	};
+};
+class Aegis_O_Luchnik_01_urban_F: Aegis_O_Luchnik_01_taiga_F
+
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_urban_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_ruUrban_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa"
+	};
+};
+class Aegis_O_Luchnik_01_shortsleeve_urban_F: Aegis_O_Luchnik_01_shortsleeve_taiga_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_urban_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing2_ruUrban_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_blk_CO.paa"
 	};
 };

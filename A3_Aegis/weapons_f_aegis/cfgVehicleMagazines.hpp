@@ -526,41 +526,86 @@ class Aegis_150Rnd_Autocannon_Heli_Attack_04_AP_White_F: Aegis_150Rnd_Autocannon
 
 /* BMP-M 57mm Magazines*/
 class Aegis_340Rnd_57mm_GPR_shells: VehicleMagazine
-	{
-		author = $STR_A3_A_Lukinator96;
-		scope = public;
-		displayName = "57mm HE shells";
-		displayNameShort = "HE";
-		ammo = "Aegis_B_57mm_GPR";
-		count = 340;
-		initSpeed = 850;
-		maxLeadSpeed = 30.5556;
-		tracersEvery = 5;
-		nameSound = "cannon";
-		muzzleImpulseFactor[] = {0.1,0.8};
-	};
+{
+	author = $STR_A3_A_Lukinator96;
+	scope = public;
+	displayName = "57mm HE shells";
+	displayNameShort = "HE";
+	ammo = "Aegis_B_57mm_GPR";
+	count = 340;
+	initSpeed = 850;
+	maxLeadSpeed = 30.5556;
+	tracersEvery = 5;
+	nameSound = "cannon";
+	muzzleImpulseFactor[] = {0.1,0.8};
+};
 class Aegis_340Rnd_57mm_GPR_shells_Tracer: Aegis_340Rnd_57mm_GPR_shells
-	{
-		author = $STR_A3_A_Lukinator96;
-		scope = public;
-		displayName = "57mm HE Tracer shells";
-		displayNameShort = "HE";
-		ammo = "B_57mm_spg";
-		count = 60;
-		initSpeed = 850;
-		maxLeadSpeed = 30.5556;
-		tracersEvery = 1;
-		nameSound = "cannon";
-		muzzleImpulseFactor[] = {0.1,0.8};
-	};
+{
+	author = $STR_A3_A_Lukinator96;
+	scope = public;
+	displayName = "57mm HE Tracer shells";
+	displayNameShort = "HE";
+	ammo = "B_57mm_spg";
+	count = 60;
+	initSpeed = 850;
+	maxLeadSpeed = 30.5556;
+	tracersEvery = 1;
+	nameSound = "cannon";
+	muzzleImpulseFactor[] = {0.1,0.8};
+};
 class Aegis_160Rnd_57mm_APFSDS_shells: Aegis_340Rnd_57mm_GPR_shells
-	{
-		author = $STR_A3_A_Lukinator96;
-		displayName = "57mm APFSDS shells";
-		displayNameShort = "APFSDS";
-		ammo = "Aegis_B_57mm_APFSDS";
-		tracersEvery = 1;
-		initSpeed=1650;
-		count=160;
-		muzzleImpulseFactor[]={0.5,2};
-	};
+{
+	author = $STR_A3_A_Lukinator96;
+	displayName = "57mm APFSDS shells";
+	displayNameShort = "APFSDS";
+	ammo = "Aegis_B_57mm_APFSDS";
+	tracersEvery = 1;
+	initSpeed=1650;
+	count=160;
+	muzzleImpulseFactor[]={0.5,2};
+};
+
+/* KORD HMG 12.7 mm*/
+class Aegis_150rnd_127x108_KORD_Green_F: VehicleMagazine
+{
+    author = $STR_A3_A_Ravenholme;
+	scope = 2;
+	count = 150;
+	ammo = "Aegis_B_127x108_Ball_KORD_Green_F";
+	initSpeed = 860;
+	maxLeadSpeed = 36.1111;
+	tracersEvery = 3;
+    lastRoundsTracer = 4;
+	nameSound = "mgun";
+	displayName = "$STR_A3_CfgMagazines_450Rnd_127x108_Ball0";
+	muzzleImpulseFactor[] = {0.05,0.05};
+};
+class Aegis_50rnd_127x108_KORD_Green_F: Aegis_150rnd_127x108_KORD_Green_F
+{
+    author = $STR_A3_A_Ravenholme;
+    count = 50;
+};
+class Aegis_150rnd_127x108_KORD_Yellow_F: Aegis_150rnd_127x108_KORD_Green_F
+{
+    author = $STR_A3_A_Ravenholme;
+    ammo = "Aegis_B_127x108_Ball_KORD_Yellow_F";
+};
+class Aegis_50rnd_127x108_KORD_Yellow_F: Aegis_150rnd_127x108_KORD_Yellow_F
+{
+    author = $STR_A3_A_Ravenholme;
+    count = 50;
+};
+/* 4rnd DAGR */
+class Aegis_4Rnd_PG_missiles: VehicleMagazine
+{
+	author = "$STR_A3_Bohemia_Interactive";
+	scope = 2;
+	displayName = "$STR_A3_CfgMagazines_24Rnd_PG_missiles0";
+    displayNameShort = "$STR_A3_CfgMagazines_24Rnd_PG_missiles_dns";
+	descriptionShort = "$STR_A3_cfgMagazine_DAGR_tooltip";
+	count = 4;
+	ammo = "Aegis_M_PG_APKWS";
+	initSpeed = 0;
+	maxLeadSpeed = 50;
+	nameSound = "missiles";
+};

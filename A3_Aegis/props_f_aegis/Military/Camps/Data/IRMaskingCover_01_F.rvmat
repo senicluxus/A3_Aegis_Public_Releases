@@ -10,9 +10,13 @@ specular[]={0.2,0.2,0.2,1};
 specularPower=50;
 PixelShaderID="Super";
 VertexShaderID="Super";
+renderFlags[]=
+{
+	"noTIWrite"
+};
 class Stage1
 {
-	texture="a3\props_f_exp\military\camps\data\irmaskingcover_01_f_nohq.tga";
+	texture="a3\props_f_exp\military\camps\data\irmaskingcover_01_f_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -36,7 +40,7 @@ class Stage2
 };
 class Stage3
 {
-	texture="a3\props_f_orange\humanitarian\camps\data\canvascover_01_f_mc.tga";
+	texture="a3\props_f_orange\humanitarian\camps\data\canvascover_01_f_mc.paa";
 	uvSource="tex1";
 	class uvTransform
 	{
@@ -48,7 +52,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="a3\props_f_exp\military\camps\data\irmaskingcover_01_f_as.tga";
+	texture="a3\props_f_exp\military\camps\data\irmaskingcover_01_f_as.paa";
 	uvSource="tex1";
 	class uvTransform
 	{
@@ -60,7 +64,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="a3\props_f_exp\military\camps\data\irmaskingcover_01_f_smdi.tga";
+	texture="a3\props_f_exp\military\camps\data\irmaskingcover_01_f_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

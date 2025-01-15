@@ -11,6 +11,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "Men (Conscripts)";
 	};
+	class EdSubcat_Personnel_Tropic
+	{
+		displayName = "Men (Tropic)";
+	};
 	
     /* Props */
 	class EdSubcat_Laboratory

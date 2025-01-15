@@ -9,7 +9,13 @@ class CfgPatches
 			A3_Soft_F_Exp_Offroad_02
 		};
 		requiredVersion = 0.1;
-		units[] = {/* Automated */};
+		units[] = 
+		{
+			/* From "cfgCivil.hpp"*/
+			Aegis_C_Offroad_02_lxWS,
+			Aegis_C_Offroad_02_F_Tanoa,
+			Aegis_C_Offroad_02_F_Malden
+		};
 		weapons[] = {/* Automated */};
 	};
 };

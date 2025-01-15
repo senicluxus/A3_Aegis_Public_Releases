@@ -26,6 +26,8 @@ class Car_F: Car
 };
 class Wheeled_APC_F: Car_F
 {
+    selectionBrakeLights = "brzdove svetlo";
+    selectionBackLights = "zadni svetlo";
     class ViewPilot;
     class ViewOptics;
     class ViewCargo;

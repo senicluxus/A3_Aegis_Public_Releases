@@ -12,7 +12,7 @@ class CfgVehicles
         /* Liveries */
 		class TextureSources
 		{
-			class Blu
+			/*class Grey
 			{
 				displayName = $STR_A3_TextureSources_Blu0;
 				author = $STR_A3_A_AveryTheKitty;
@@ -33,7 +33,19 @@ class CfgVehicles
 					"lxWS\air_f_lxWS\Data\NATO\lxWS_A164_ext02_desert_CO.paa"
 				};
 				factions[] = {};
+			};*/
+			class Wdl
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+				author = $STR_A3_A_Ravenholme;
+				textures[] = 
+				{
+					"\A3_Aegis\Air_F_Aegis\Plane_CAS_01\Data\Aegis_A164_01_wdl_CO.paa",
+                    "\A3_Aegis\Air_F_Aegis\Plane_CAS_01\Data\Aegis_A164_02_wdl_CO.paa"
+				};
+				factions[] = {};
 			};
+
         };
 	};
 	class Plane_CAS_01_dynamicLoadout_base_F: Plane_CAS_01_base_F{};

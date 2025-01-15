@@ -13,10 +13,15 @@ class I_Raven_soldier_base_F: I_soldier_F
 	};
 	faction = IND_Raven_F;
 	genericNames = RussianMen;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	//uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_Arid_F;
 	class EventHandlers: EventHandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
+	};
+	class AttributeValues
+	{
+		unitInsignia = "Aegis_Raven_Security";
 	};
 };
 class I_Raven_soldier_F: I_Raven_soldier_base_F
@@ -192,7 +197,8 @@ class I_Raven_soldier_MG_F: I_Raven_soldier_base_F
 	cost = 220000;
 	icon = iconManMG;
 	role = MachineGunner;
-	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
+	//uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_Arid_F;
 	linkedItems[] = 
 	{
 		H_HelmetSpecter_black_F,
@@ -315,7 +321,8 @@ class I_Raven_soldier_M_F: I_Raven_soldier_base_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_M_F.jpg";
 	scope = public;
 	displayName = $STR_B_soldier_M_F0;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	//uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_Arid_F;
 	weapons[] = 
 	{
 		srifle_DMR_01_black_ARCO_F,
@@ -554,7 +561,7 @@ class I_Raven_engineer_F: I_Raven_soldier_base_F
 	scope = public;
 	displayName = $STR_B_engineer_F0;
 	camouflage = 1.6;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	//uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
 	backpack = B_Carryall_green_eng_F;
 	weapons[] = 
 	{
@@ -629,32 +636,33 @@ class I_Raven_Soldier_UAV_F: I_Raven_soldier_base_F
 	displayName = $STR_A3_B_SOLDIER_UAV_F0;
 	role = SpecialOperative;
 	uavHacker = true;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	//uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_Arid_F;
 	backpack = I_Raven_UAV_01_backpack_F;
 	weapons[] =
 	{
-		SMG_02_flash_F,
+		Aegis_SMG_Gepard_blk_ACO_FL_F,
 		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		SMG_02_flash_F,
+		Aegis_SMG_Gepard_blk_ACO_FL_F,
 		//Aegis_hgun_VektorSR1_f,
 		hgun_Rook40_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+		mag_6(Aegis_40Rnd_9x21_Gepard_Green_Mag_F),
         mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
 		SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+		mag_6(Aegis_40Rnd_9x21_Gepard_Green_Mag_F),
         mag_2(17Rnd_9x21_Mag),
 		HandGrenade_East,
 		SmokeShell
@@ -696,21 +704,21 @@ class I_Raven_Soldier_UAV_F: I_Raven_soldier_base_F
 class I_Raven_soldier_UAV_06_F: I_Raven_Soldier_UAV_F
 {
 	author = $STR_A3_A_BranFlakes;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_06_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_06_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_F0;
 	backpack = I_Raven_UAV_06_backpack_F;
 };
 class I_Raven_soldier_UAV_06_medical_F: I_Raven_Soldier_UAV_F
 {
 	author = $STR_A3_A_BranFlakes;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_06_medical_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_06_medical_F.jpg";
 	displayName = $STR_A3_B_T_soldier_UAV_06_medical_F0;
 	backpack = I_Raven_UAV_06_medical_backpack_F;
 };
 class I_Raven_soldier_UAV_02_lxWS_F: I_Raven_Soldier_UAV_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_02_lxWS_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Raven_soldier_UAV_02_lxWS_F.jpg";
 	displayName = "UAV Operator (AP-5)";
 	backpack = Aegis_I_Raven_UAV_02_backpack_lxWS;
 };
@@ -771,26 +779,25 @@ class I_Raven_Soldier_helipilot_F: I_Raven_soldier_base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	//uniformClass = Aegis_U_O_Luchnik_arid_F;
-	uniformClass = U_O_R_officer_noInsignia_arid_F;
+	uniformClass = Aegis_U_O_Luchnik_arid_F;
 	weapons[] =
     {
-        SMG_02_ACO_F,
+        Aegis_SMG_Gepard_blk_ACO_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        SMG_02_ACO_F,
+        Aegis_SMG_Gepard_blk_ACO_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        mag_4(Aegis_40Rnd_9x21_Gepard_Green_Mag_F),
         SMOKESHELLS_OPFOR
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        mag_4(Aegis_40Rnd_9x21_Gepard_Green_Mag_F),
         SMOKESHELLS_OPFOR
     };
 	linkedItems[] = 
@@ -818,8 +825,7 @@ class I_Raven_Crew_F: I_Raven_soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_crew_F0;
-	//uniformClass = Aegis_U_O_Luchnik_arid_F;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_arid_F;
 	engineer = true;
 	cost = 90000;
 	role = Crewman;

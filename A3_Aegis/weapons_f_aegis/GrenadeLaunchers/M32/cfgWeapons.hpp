@@ -110,7 +110,7 @@ class CfgWeapons
                 };
 	    	  	iconScale = 0.2;
 	    	};
-			mass = 220;
+			mass = 116;
 		};
 		class GunParticles
 		{

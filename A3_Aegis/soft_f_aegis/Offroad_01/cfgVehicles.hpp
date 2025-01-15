@@ -35,6 +35,17 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_Grave;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_EAF_Arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_EAF_Arid_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
 		textureList[] =
 		{
@@ -358,6 +369,17 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_Grave;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_EAF_Arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_EAF_Arid_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
 		textureList[] =
 		{
@@ -423,6 +445,18 @@ class CfgVehicles
 			{
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_Grave;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_EAF_Arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_EAF_Arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_cover_EAF_Arid_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
 		class EventHandlers;
 	};
@@ -436,4 +470,5 @@ class CfgVehicles
     #include "cfgSyndikat.hpp"  // Syndikat
     #include "cfgEAF.hpp"       // LDF
     #include "cfgION.hpp"       // ION
+	#include "cfgCivil.hpp"		// Civilian Factions
 };

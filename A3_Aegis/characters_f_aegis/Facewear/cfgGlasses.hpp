@@ -1521,6 +1521,19 @@ class CfgGlasses
 		};
 		identityTypes[] = {NoGlasses,0};
 	};
+	class Aegis_G_Armband_Medic_F: Aegis_G_Armband_BLU_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_Medic_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_Medic_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_Medic_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
 	class Aegis_G_Armband_CSAT_F: Aegis_G_Armband_BLU_F
 	{
 		author = $STR_A3_A_Jamie;
@@ -1544,6 +1557,19 @@ class CfgGlasses
 		hiddenSelectionsTextures[] = 
 		{
 			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_FIA_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_IDAP_F: Aegis_G_Armband_BLU_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_IDAP_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IDAP_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_IDAP_CO.paa"
 		};
 		identityTypes[] = {NoGlasses,0};
 	};
@@ -1583,6 +1609,19 @@ class CfgGlasses
 		};
 		identityTypes[] = {NoGlasses,0};
 	};
+	class Aegis_G_Armband_Medic_alt_F: Aegis_G_Armband_BLU_alt_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_Medic_alt_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_Medic_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_Medic_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
 	class Aegis_G_Armband_CSAT_alt_F: Aegis_G_Armband_BLU_alt_F
 	{
 		author = $STR_A3_A_Jamie;
@@ -1609,4 +1648,145 @@ class CfgGlasses
 		};
 		identityTypes[] = {NoGlasses,0};
 	};
+	class Aegis_G_Armband_IDAP_alt_F: Aegis_G_Armband_BLU_alt_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_Armband_IDAP_alt_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IDAP_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_IDAP_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_UNO_F: Aegis_G_Armband_BLU_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Armband [UN]";
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_UNO_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_uno_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_UNO_alt_F: Aegis_G_Armband_BLU_alt_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Armband [UN] (Alt)";
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_UNO_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_uno_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_UNL_F: Aegis_G_Armband_BLU_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Armband [UN] (Logo)";
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_UNL_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_unl_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_Armband_UNL_alt_F: Aegis_G_Armband_BLU_alt_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Armband [UN] (Alt, Logo)";
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_UNL_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Aegis\Characters_F_Aegis\Facewear\Data\G_Armband_unl_CO.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+
+	/* Scrim Nets */
+	class Aegis_G_scrimNet_olive_F: None
+	{
+		author = $STR_A3_A_POLPOX;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgGlasses_G_ScrimNet_olive_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_scrimNet_olive_F_CA.paa";
+		model = "A3_Aegis\characters_f_aegis\Facewear\G_scrimNet_overHelmet.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = 
+		{
+			"A3_Aegis\characters_f_aegis\Facewear\Data\scrimNet_olive_ca.paa"
+		};
+		identityTypes[] = {NoGlasses,0};
+	};
+	class Aegis_G_scrimNet_sand_F: Aegis_G_scrimNet_olive_F
+	{
+		author = $STR_A3_A_POLPOX;
+		displayName = $STR_A3_A_CfgGlasses_G_ScrimNet_sand_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_scrimNet_sand_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"A3_Aegis\characters_f_aegis\Facewear\Data\scrimNet_sand_ca.paa"
+		};
+	};
+	class Aegis_G_scrimNet_black_F: Aegis_G_scrimNet_olive_F
+	{
+		author = $STR_A3_A_POLPOX;
+		displayName = $STR_A3_A_CfgGlasses_G_ScrimNet_black_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_scrimNet_black_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"A3_Aegis\characters_f_aegis\Facewear\Data\scrimNet_black_ca.paa"
+		};
+	};
+	class Aegis_G_scrimNet_under_olive_F: Aegis_G_scrimNet_olive_F
+	{
+		author = $STR_A3_A_POLPOX;
+		displayName = $STR_A3_A_CfgGlasses_G_ScrimNet_under_olive_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_scrimNet_under_olive_F_CA.paa";
+		model = "A3_Aegis\characters_f_aegis\Facewear\G_scrimNet_underHelmet.p3d";
+	};
+	class Aegis_G_scrimNet_under_sand_F: Aegis_G_scrimNet_under_olive_F
+	{
+		author = $STR_A3_A_POLPOX;
+		displayName = $STR_A3_A_CfgGlasses_G_ScrimNet_under_sand_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_scrimNet_under_sand_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"A3_Aegis\characters_f_aegis\Facewear\Data\scrimNet_sand_ca.paa"
+		};
+	};
+	class Aegis_G_scrimNet_under_black_F: Aegis_G_scrimNet_under_olive_F
+	{
+		author = $STR_A3_A_POLPOX;
+		displayName = $STR_A3_A_CfgGlasses_G_ScrimNet_under_black_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_scrimNet_under_black_F_CA.paa";
+		hiddenSelectionsTextures[] = 
+		{
+			"A3_Aegis\characters_f_aegis\Facewear\Data\scrimNet_black_ca.paa"
+		};
+	};
+	
+	/* Facewear slot Bullet Bandolier */
+	/*class Aegis_G_Ammo_Bandolier_F: None
+	{
+		author = $STR_A3_A_POLPOX;
+		scope = public;
+		scopeArsenal = public;
+		displayName = $STR_A3_A_CfgWeapons_V_Ammo_Bandolier_F0;	
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_Aegis_V_Ammo_Bandolier_F_ca.paa";
+		model = "\A3_Aegis\Characters_F_Aegis\Vests\Aegis_Ammobelt.p3d";
+		identityTypes[] = {NoGlasses,0};
+	};*/
 };

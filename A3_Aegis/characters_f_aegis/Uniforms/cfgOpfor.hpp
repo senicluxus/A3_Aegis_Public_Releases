@@ -47,7 +47,7 @@ class U_O_OfficerUniform_oicamo: Uniform_Base
 		mass = 60;
 	};
 };
-/*class Aegis_U_O_Luchnik_hex_F: Uniform_Base
+class Aegis_U_O_Luchnik_hex_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
@@ -80,7 +80,7 @@ class Aegis_U_O_Luchnik_RolledUp_hex_F: Uniform_Base
 		containerClass = Supply40;
 		mass = 60;
 	};
-};*/
+};
 class Aegis_U_O_CombatUniform_tshirt_hex_F: Uniform_Base
 {
 	author = $STR_A3_A_Ravenholme;
@@ -217,7 +217,7 @@ class U_O_C_D_Sniper_oicamo_F: Uniform_Base
 		mass = 100;
 	};
 };
-/*class Aegis_U_O_Luchnik_ghex_F: Uniform_Base
+class Aegis_U_O_Luchnik_ghex_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
@@ -250,7 +250,7 @@ class Aegis_U_O_Luchnik_RolledUp_ghex_F: Uniform_Base
 		containerClass = Supply40;
 		mass = 60;
 	};
-};*/
+};
 class Aegis_U_O_CombatUniform_tshirt_ghex_F: Uniform_Base
 {
 	author = $STR_A3_A_Ravenholme;
@@ -268,7 +268,7 @@ class Aegis_U_O_CombatUniform_tshirt_ghex_F: Uniform_Base
 		mass = 60;
 	};
 };
-/*class Aegis_U_O_Luchnik_dst_F: Uniform_Base
+class Aegis_U_O_Luchnik_dst_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
@@ -301,7 +301,7 @@ class Aegis_U_O_Luchnik_RolledUp_dst_F: Uniform_Base
 		containerClass = Supply40;
 		mass = 60;
 	};
-};*/
+};
 class Aegis_U_O_CombatUniform_tshirt_dst_F: Uniform_Base
 {
 	author = $STR_A3_A_Ravenholme;

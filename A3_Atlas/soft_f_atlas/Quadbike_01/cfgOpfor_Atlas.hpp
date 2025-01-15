@@ -1,6 +1,6 @@
 class Atlas_O_T_Quadbike_01_F: Quadbike_01_base_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -70,17 +70,17 @@ class Atlas_O_T_Quadbike_01_F: Quadbike_01_base_F
 		verticalOffsetWorld = -0.211;
 		init = "''";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_T_Quadbike_01_F.jpg";
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_T_Quadbike_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_Soldier_F;
 	typicalCargo[] = {Atlas_O_T_Soldier_F};
-	textureList[] = {Opfor,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Soft_F\Quadbike_01\Data\Quadbike_01_OPFOR_CO.paa",
-		"\A3\Soft_F\Quadbike_01\Data\Quadbike_01_wheel_OPFOR_CO.paa"
+		"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Quadbike_01\Data\Quadbike_01_wheel_tk_CO.paa"
 	};
 };

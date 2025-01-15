@@ -155,6 +155,38 @@ class CfgVehicles
 		tf_range = 20000;
 		tf_subtype = digital_lr;
 	};
+	class B_RadioBag_01_kzg_F: B_RadioBag_01_base_F
+    {
+        author = $STR_A3_A_BranFlakes;
+        scope = public;
+        displayName = "Radio Pack [Karzeghistan]";
+        picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_Atlas_B_RadioBag_01_kzg_F_ca.paa";
+        hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_kzg_CO.paa"};
+
+        /* TFAR */
+        tf_dialog = bussole_radio_dialog;
+        tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+        tf_encryptionCode = tf_west_radio_code;
+        tf_hasLRradio = true;
+        tf_range = 20000;
+        tf_subtype = digital_lr;
+    };
+    class B_RadioBag_01_ardi_F: B_RadioBag_01_base_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		scope = public;
+		displayName = "Radio Pack (VSR)";
+		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_RadioBag_01_semiarid_F_ca";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\B_RadioBag_01_ardi_CO.paa"};
+        
+		/* TFAR */
+		tf_dialog = bussole_radio_dialog;
+		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+		tf_encryptionCode = tf_east_radio_code;
+		tf_hasLRradio = true;
+		tf_range = 20000;
+		tf_subtype = digital_lr;
+	};
 	class B_AssaultPack_flecktarn: B_AssaultPack_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -163,6 +195,14 @@ class CfgVehicles
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_AssaultPack_flecktarn_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_compact_flecktarn_CO.paa"};
 	};
+	class B_AssaultPack_kzg_F: B_AssaultPack_Base
+    {
+        author = $STR_A3_A_BranFlakes;
+        scope = public;
+        displayName = "Assault Pack [Karzeghistan]";
+        picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_Atlas_B_AssaultPack_kzg_F_CA.paa";
+        hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_compact_kzg_CO.paa"};
+    };
 	class B_Kitbag_flecktarn: B_Kitbag_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -243,6 +283,22 @@ class CfgVehicles
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_Carryall_jungle_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_jungle_CO.paa"};
 	};
+	class B_Carryall_kzg_F: B_Carryall_Base
+    {
+        author = $STR_A3_A_BranFlakes;
+        scope = public;
+        displayName = "Carryall Pack [Karzeghistan]";
+        picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_Atlas_B_Carryall_kzg_F_CA.paa";
+        hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_kzg_CO.paa"};
+    };
+    class B_Carryall_ardi_F: B_Carryall_Base
+    {
+        author = $STR_A3_A_BranFlakes;
+        scope = public;
+        displayName = "Carryall Pack (VSR)";
+        picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_Atlas_B_Carryall_kzg_F_CA.paa";
+        hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_tortila_ardi_CO.paa"};
+    };
 	class B_FieldPack_owcamo: B_FieldPack_Base
 	{
 		author = $STR_A3_A_AveryTheKitty;
@@ -258,6 +314,14 @@ class CfgVehicles
 		displayName = $STR_A3_A_CfgVehicles_B_FieldPack_semiarid0;
 		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_FieldPack_semiarid_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_gorod_semiarid_CO.paa"};
+	};
+	class B_FieldPack_ardi: B_FieldPack_Base
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		scope = public;
+		displayName = "Field Pack (VSR)";
+		picture = "\A3_Atlas\Supplies_F_Atlas\Bags\Data\UI\icon_B_FieldPack_semiarid_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Supplies_F_Atlas\Bags\Data\backpack_gorod_ardi_CO.paa"};
 	};
 	class B_ViperHarness_whex_F: B_ViperHarness_base_F
 	{
@@ -339,4 +403,6 @@ class CfgVehicles
 	#include "cfgADF.hpp"		// Australia
 	#include "cfgEAF.hpp"		// LDF Reservists
 	#include "cfgJSOC.hpp"		// US Joint Special Operations Command
+	#include "cfgKarzeg.hpp"	// Royal Army of Karzeghistan
+	#include "cfgArdistan.hpp"	// Ardistani Forces
 };

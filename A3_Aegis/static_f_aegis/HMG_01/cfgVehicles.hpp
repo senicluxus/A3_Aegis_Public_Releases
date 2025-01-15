@@ -146,21 +146,21 @@ class CfgVehicles
 			base[] = {SUPPORT_BAGS_HMG_01_HIGH};
 		};
 	};
-	class O_HMG_01_weapon_F: Weapon_Bag_Base
+	class O_HMG_01_weapon_F: B_HMG_01_weapon_F
 	{
 		class assembleInfo: assembleInfo
 		{
 			base[] = {SUPPORT_BAGS_HMG_01};
 		};
 	};
-	class O_HMG_01_high_weapon_F: O_HMG_01_weapon_F
+	class O_HMG_01_high_weapon_F: B_HMG_01_high_weapon_F
 	{
 		class assembleInfo: assembleInfo
 		{
 			base[] = {SUPPORT_BAGS_HMG_01_HIGH};
 		};
 	};
-	class O_HMG_01_A_weapon_F: O_HMG_01_weapon_F
+	class O_HMG_01_A_weapon_F: B_HMG_01_A_weapon_F
 	{
 		class assembleInfo: assembleInfo
 		{

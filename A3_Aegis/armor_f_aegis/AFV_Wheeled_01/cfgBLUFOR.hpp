@@ -307,14 +307,15 @@ class B_W_AFV_Wheeled_01_cannon_F: AFV_Wheeled_01_base_F
 	typicalCargo[] = {B_W_Soldier_F};
 	displayName = $STR_A3_CfgVehicles_B_AFV_Wheeled_01_cannon_F0;
 	scope = public;
+    textureList[] = {WDL_01,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT1_green_CO.paa",
-		"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT2_green_CO.paa",
-		"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_wheel_green_CO.paa",
-		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
-		"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT3_CO.paa"
-	};
+        "\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT1_wdl_CO.paa",
+        "\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT2_wdl_CO.paa",
+        "\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_wheel_green_CO.paa",
+        "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+        "\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT3_CO.paa"
+    };
 
     /* Inventory */
 	class TransportMagazines
@@ -616,10 +617,11 @@ class B_W_AFV_Wheeled_01_up_cannon_F: AFV_Wheeled_01_up_base_F
 	typicalCargo[] = {B_W_Soldier_F};
 	displayName = $STR_A3_CfgVehicles_B_T_AFV_Wheeled_01_up_cannon_F0;
 	scope = public;
+    textureList[] = {WDL_01,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT1_green_CO.paa",
-		"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT2_green_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT1_wdl_CO.paa",
+        "\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT2_wdl_CO.paa",
 		"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_wheel_green_CO.paa",
 		"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT3_CO.paa",
 		"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_commander_tow_CO.paa",

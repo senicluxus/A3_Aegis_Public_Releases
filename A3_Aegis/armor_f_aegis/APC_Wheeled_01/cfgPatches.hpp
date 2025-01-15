@@ -43,11 +43,21 @@ class CfgPatches
             Aegis_B_E_APC_Wheeled_01_mortar_lxWS,
             Aegis_B_E_APC_Wheeled_01_atgm_v2,
             Aegis_B_E_APC_Wheeled_01_medical_F,
+            Aegis_B_E_APC_Wheeled_01_cannon_v2_ard_F,
+            Aegis_B_E_APC_Wheeled_01_command_ard_lxWS,
+            Aegis_B_E_APC_Wheeled_01_mortar_ard_lxWS,
+            Aegis_B_E_APC_Wheeled_01_atgm_v2_ard,
+            Aegis_B_E_APC_Wheeled_01_medical_ard_F,
             Aegis_I_E_APC_Wheeled_01_cannon_v2_F,
             Aegis_I_E_APC_Wheeled_01_command_lxWS,
             Aegis_I_E_APC_Wheeled_01_mortar_lxWS,
             Aegis_I_E_APC_Wheeled_01_atgm_v2,
-            Aegis_I_E_APC_Wheeled_01_medical_F
+            Aegis_I_E_APC_Wheeled_01_medical_F,
+            Aegis_I_E_APC_Wheeled_01_cannon_v2_ard_F,
+            Aegis_I_E_APC_Wheeled_01_command_ard_lxWS,
+            Aegis_I_E_APC_Wheeled_01_mortar_ard_lxWS,
+            Aegis_I_E_APC_Wheeled_01_atgm_v2_ard,
+            Aegis_I_E_APC_Wheeled_01_medical_ard_F
         };
 		weapons[] = {/* Automated */};
 	};

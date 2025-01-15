@@ -30,19 +30,36 @@ class CfgMagazines
 	// Arma 3 Aegis
 	class 220Rnd_25mm_shells;
 	// Arma 3 Atlas
-	class 150Rnd_762x51_Box_Yellow: 150Rnd_762x51_Box
+	class Atlas_150Rnd_762x51_Box_Yellow: 150Rnd_762x51_Box
 	{
 		displayName = "7.62 mm 150Rnd Reload Tracer (Yellow) Box";
-		descriptionShort = "Caliber: 7.62x51 mm<br/>Rounds: 150<br />Used in: Zafir";
+		descriptionShort = "Caliber: 7.62x51 mm<br/>Rounds: 150<br />Used in: TNG-7";
 		ammo = B_762x51_Tracer_Yellow;
 		scope = public;
 	};
-	class 150Rnd_762x51_Box_Tracer_Yellow: 150Rnd_762x51_Box
+	class Atlas_150Rnd_762x51_Box_Tracer_Yellow: Atlas_150Rnd_762x51_Box_Yellow
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		displayName = "7.62 mm 150Rnd Tracer (Yellow) Box";
 		displayNameShort = $STR_A3_tracer_dns;
-		descriptionShort = "Caliber: 7.62x51 mm Tracer - Yellow<br/>Rounds: 150<br />Used in: Zafir";
+		descriptionShort = "Caliber: 7.62x51 mm Tracer - Yellow<br/>Rounds: 150<br />Used in: TNG-7";
+		picture = "\A3\Weapons_F_Beta\Data\UI\M_150Rnd_762x51_tracer_CA.paa";
+		tracersEvery = 1;
+		scope = public;
+	};
+	class Atlas_150Rnd_762x51_Box_Red: 150Rnd_762x51_Box
+	{
+		displayName = "7.62 mm 150Rnd Reload Tracer (Red) Box";
+		descriptionShort = "Caliber: 7.62x51 mm<br/>Rounds: 150<br />Used in: TNG-7";
+		ammo = B_762x51_Tracer_Red;
+		scope = public;
+	};
+	class Atlas_150Rnd_762x51_Box_Tracer_Red: Atlas_150Rnd_762x51_Box_Red
+	{
+		author = $STR_A3_A_AveryTheKitty;
+		displayName = "7.62 mm 150Rnd Tracer (Red) Box";
+		displayNameShort = $STR_A3_tracer_dns;
+		descriptionShort = "Caliber: 7.62x51 mm Tracer - Red<br/>Rounds: 150<br />Used in: TNG-7";
 		picture = "\A3\Weapons_F_Beta\Data\UI\M_150Rnd_762x51_tracer_CA.paa";
 		tracersEvery = 1;
 		scope = public;

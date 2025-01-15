@@ -19,6 +19,12 @@ class CfgPatches
             B_A_Quadbike_01_tna_F,
             B_A_Quadbike_01_wdl_F,
 
+            /* From "cfgCivil.hpp" */
+            Aegis_C_Quadbike_01_lxWS,
+            Aegis_C_Quadbike_01_F_Tanoa,
+            Aegis_C_Quadbike_01_F_Enoch,
+            Aegis_C_Quadbike_01_F_Malden,
+
             /* From "cfgOPFOR.hpp" */
             O_A_Quadbike_01_F,
 

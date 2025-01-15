@@ -56,6 +56,21 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class wdl
+			{
+				DisplayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_01_wdl_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_02_olive_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_03_olive_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\LSV_01\Data\NATO_LSV_Adds_olive_CO.paa",
+					"\A3\Weapons_F_Exp\Launchers\Titan\Data\launch_B_Titan_tna_F_01_CO.paa",
+					"\A3\Weapons_F_Exp\Launchers\Titan\Data\launch_B_Titan_short_tna_F_02_CO.paa"
+				};
+				factions[] = {};
+			};
 			class Sand
 			{
 				factions[] = {};

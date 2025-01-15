@@ -1601,6 +1601,8 @@ class O_T_Heli_Transport_04_covered_F: O_Heli_Transport_04_covered_F
 		{
 			gunnerType = O_T_Helicrew_F;
 		};
+        class CargoTurret_01: CargoTurret_01{};
+        class CargoTurret_02: CargoTurret_02{};
 	};
 };
 class O_T_Heli_Transport_04_fuel_F: O_Heli_Transport_04_fuel_F

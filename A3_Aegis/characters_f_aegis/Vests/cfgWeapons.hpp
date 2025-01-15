@@ -412,6 +412,30 @@ class CfgWeapons
 	{
 		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_radio_F0;
 	};
+	class Aegis_V_SmershVest_01_blk_F: V_SmershVest_01_base_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_Black_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_SmershVest_01_blk_F_ca.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Vests\Data\Smersh_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\Data\Smersh_miscellaneous_blk_CO.paa"
+		};
+	};
+	class Aegis_V_SmershVest_01_radio_blk_F: V_SmershVest_01_radio_base_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_V_SmershVest_01_radio_Black_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_SmershVest_01_radio_blk_F_ca.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Aegis\Characters_F_Aegis\Vests\Data\Smersh_blk_CO.paa",
+			"\A3_Aegis\Characters_F_Aegis\Vests\Data\Smersh_miscellaneous_blk_CO.paa"
+		};
+	};
 	class V_PlateCarrier1_wdl: V_PlateCarrier1_blk
 	{
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrier1_wdl_CA.paa";
@@ -1634,7 +1658,10 @@ class CfgWeapons
 		hiddenSelections[]=
 		{
 			"camo",
-			"nametag"
+			"nametag",
+			"patch_01",
+			"patch_02",
+			"patch_03"
 		};
 		descriptionShort="$STR_A3_SP_AL_III";
 		class ItemInfo: ItemInfo
@@ -1644,7 +1671,10 @@ class CfgWeapons
 			hiddenSelections[]=
 			{
 				"camo",
-				"nametag"
+				"nametag",
+				"patch_01",
+				"patch_02",
+				"patch_03"
 			};
 			mass=75;
 			class HitpointsProtectionInfo
@@ -1709,7 +1739,7 @@ class CfgWeapons
 		{
 			uniformModel="\A3_Aegis\characters_f_aegis\Vests\V_CarrierKBT_01_recon_F.p3d";
 			containerClass="Supply130";
-			mass=65;
+			mass=63;
 			class HitpointsProtectionInfo
 			{
 				class Chest

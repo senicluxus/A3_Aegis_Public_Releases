@@ -215,3 +215,41 @@ class Aegis_B_E_Ejection_Seat_Plane_Fighter_04_F: I_E_Ejection_Seat_Plane_Fighte
 	faction = BLU_EAF_F;
 	crew = Aegis_B_E_Fighter_Pilot_F;
 };
+
+/* LDF Arid */
+class Aegis_I_E_Plane_Fighter_04_ard_F: I_E_Plane_Fighter_04_F
+{
+    side = TGuerrila;
+	faction = IND_E_ard_F;
+	crew = I_E_Fighter_Pilot_ard_F;
+	typicalCargo[] = {I_E_Fighter_Pilot_ard_F};
+    class EjectionSystem: EjectionSystem
+	{
+		EjectionSeatClass = Aegis_I_E_Ejection_Seat_Plane_Fighter_04_ard_F;
+	};
+};
+class Aegis_I_E_Ejection_Seat_Plane_Fighter_04_ard_F: I_E_Ejection_Seat_Plane_Fighter_04_F
+{
+    side = TGuerrila;
+	faction = IND_E_ard_F;
+	crew = I_E_Fighter_Pilot_ard_F;
+};
+
+/* Arid BLUFOR */
+class Aegis_B_E_Plane_Fighter_04_ard_F: I_E_Plane_Fighter_04_F
+{
+    side = TWest;
+	faction = BLU_EAF_ard_F;
+	crew = Aegis_B_E_Fighter_Pilot_ard_F;
+	typicalCargo[] = {Aegis_B_E_Fighter_Pilot_ard_F};
+    class EjectionSystem: EjectionSystem
+	{
+		EjectionSeatClass = Aegis_B_E_Ejection_Seat_Plane_Fighter_04_ard_F;
+	};
+};
+class Aegis_B_E_Ejection_Seat_Plane_Fighter_04_ard_F: I_E_Ejection_Seat_Plane_Fighter_04_F
+{
+    side = TWest;
+	faction = BLU_EAF_F;
+	crew = Aegis_B_E_Fighter_Pilot_F;
+};

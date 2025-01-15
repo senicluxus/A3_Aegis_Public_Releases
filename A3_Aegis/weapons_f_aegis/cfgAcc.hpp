@@ -1,8 +1,8 @@
 /* Accessories */
 class muzzle_snds_H: ItemCore
 {
-    picture = "\A3\Weapons_F\Acc\Data\UI\icon_muzzle_snds_M_CA.paa";
-    model = "\A3\Weapons_F\Acc\acca_snds_lmg_blk_F.p3d";
+    picture = "\A3_Aegis\Weapons_F_Aegis\Acc\Data\UI\icon_muzzle_snds_H_black_F_CA.paa";
+    model = "\A3_Aegis\Weapons_F_Aegis\Acc\Aegis_acca_snds_65_black_F.p3d";
 };
 class muzzle_snds_M;
 class muzzle_snds_B;
@@ -20,13 +20,13 @@ class acc_pointer_IR: ItemCore
 class bipod_02_F_blk;
 class muzzle_snds_H_khk_F: muzzle_snds_H
 {
-    model = "\A3\Weapons_F\Acc\acca_snds_lmg_khk_F.p3d";
-    picture = "\A3\Weapons_F_Exp\Acc\Data\UI\icon_muzzle_snds_m_khk_F_CA.paa";
+    picture = "\A3_Aegis\Weapons_F_Aegis\Acc\Data\UI\icon_muzzle_snds_H_khaki_F_CA.paa";
+    model = "\A3_Aegis\Weapons_F_Aegis\Acc\Aegis_acca_snds_65_khaki_F.p3d";
 };
 class muzzle_snds_H_snd_F: muzzle_snds_H
 {
-    model = "\A3\Weapons_F\Machineguns\M200\lmg_suppressor";
-    picture = "\A3\Weapons_F_Exp\Acc\Data\UI\icon_muzzle_snds_m_snd_F_CA.paa";
+    picture = "\A3_Aegis\Weapons_F_Aegis\Acc\Data\UI\icon_muzzle_snds_H_sand_F_CA.paa";
+    model = "\A3_Aegis\Weapons_F_Aegis\Acc\Aegis_acca_snds_65_sand_F.p3d";
 };
 class bipod_02_F_lush: bipod_02_F_blk
 {
@@ -777,10 +777,10 @@ class acc_flashlight_ir: ItemCore
 	author = "Ravenholme";
 	scope = public;
 	displayName = "IR Flashlight";
-	descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
+	descriptionUse = $STR_A3_cfgWeapons_use_flashlight0;
 	picture = "\A3\weapons_F\Data\UI\gear_accv_flashlight_CA.paa";
 	model = "\A3\weapons_f\acc\accv_Flashlight_F";
-	descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
+	descriptionShort = $STR_A3_cfgWeapons_acc_flashlight1;
 	class ItemInfo: InventoryFlashLightItem_Base_F
 	{
 		mass = 4;
@@ -900,6 +900,37 @@ class Aegis_optic_ROS_SMG: optic_ACO_smg
 	model = "A3_Aegis\weapons_f_aegis\Acc\acco_ROS_black_SMG_F.p3d";
 };
 /* Optic ROS Sight - End*/
+
+/* Optic BVO Sight - Begin */
+class Aegis_optic_1p87: optic_ACO
+{
+	author = $STR_A3_A_Jamie_and_Epick;
+	displayname = $STR_A3_A_CfgWeapons_optic_1p870;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\Data\UI\icon_optic_BVO_blk_CA";
+	model = "\A3_Aegis\weapons_f_aegis\Acc\acco_1p87_black_F.p3d";
+};
+class Aegis_optic_1p87_snd: Aegis_optic_1p87
+{
+	author = $STR_A3_A_Jamie_and_Epick;
+	displayname = $STR_A3_A_CfgWeapons_optic_1p87_snd0;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\Data\UI\icon_optic_BVO_snd_CA";
+	model = "\A3_Aegis\weapons_f_aegis\Acc\acco_1p87_snd_F.p3d";
+};
+class Aegis_optic_1p87_arid: Aegis_optic_1p87
+{
+	author = $STR_A3_A_Jamie_and_Epick;
+	displayname = $STR_A3_A_CfgWeapons_Aegis_optic_1p87_arid0;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\Data\UI\icon_optic_BVO_arid_CA.paa";
+	model = "\A3_Aegis\weapons_f_aegis\Acc\acco_1p87_arid_F.p3d";
+};
+class Aegis_optic_1p87_lush: Aegis_optic_1p87
+{
+	author = $STR_A3_A_Jamie_and_Epick;
+	displayname = $STR_A3_A_CfgWeapons_optic_optic_1p87_lush0;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\Data\UI\icon_optic_BVO_lush_CA.paa";
+	model = "\A3_Aegis\weapons_f_aegis\Acc\acco_1p87_lush_F.p3d";
+};
+/* Optic BVO Sight - End*/
 
 /* Compact Laser Pointer - Begin */
 class Aegis_acc_pointer_compact_red: acc_pointer_IR
@@ -1274,3 +1305,230 @@ class Aegis_optic_ICO_sand: Aegis_optic_ICO
 	model = "\A3_Aegis\weapons_f_aegis\Acc\acco_ICO_sand_F";
 };
 /* ICO & AICO - End*/
+/* P320 Attachments - Begin*/
+class Aegis_optic_PRO_base: ItemCore
+{
+	author = $STR_A3_A_Grave_Egorov;
+	_generalMacro = "Aegis_optic_PRO_base";
+	scope = 0;
+	scopeCurator = 0;
+	scopeArsenal = 0;
+	model="\A3_Aegis\weapons_f_aegis\Acc\acco_PRO_black_F";
+	descriptionShort = $STR_A3_cfgWeapons_optic_MRD1;
+	weaponInfoType = "RscWeaponZeroing";
+	class ItemInfo: InventoryOpticsItem_Base_F
+	{
+		mass = 4;
+		modelOptics = "\A3\Weapons_F\empty";
+		optics = 1;
+		class OpticsModes
+		{
+			class MRO
+			{
+				opticsID = 1;
+				useModelOptics = 0;
+				opticsZoomMin = 0.25;
+				opticsZoomMax = 1.25;
+				opticsZoomInit = 0.75;
+				memoryPointCamera = "eye";
+				opticsFlare = 0;
+				opticsDisablePeripherialVision = 0;
+				distanceZoomMin = 50;
+				distanceZoomMax = 50;
+				cameraDir = "";
+				visionMode[]= {};
+				opticsPPEffects[]=
+				{
+					"Default"
+				};
+			};
+		};
+	};
+	inertia = 0;
+};
+class Aegis_optic_PRO_black: Aegis_optic_PRO_base
+{
+	author = $STR_A3_A_Grave_Egorov;
+	_generalMacro = "Aegis_optic_PRO_black";
+	scope = public;
+	scopeCurator = public;
+	scopeArsenal = public;
+	displayName = $STR_A3_A_CfgWeapons_acc_optic_PRO0;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\data\UI\icon_optic_PRO_black_CA.paa";
+	model = "\A3_Aegis\weapons_f_aegis\Acc\acco_PRO_black_F.p3d";
+};
+class Aegis_muzzle_snds_enhanced_base: ItemCore
+{
+	author = $STR_A3_A_Grave;
+	_generalMacro = "Aegis_muzzle_snds_enhanced_base";
+	scope = 0;
+	scopeCurator = 0;
+	scopeArsenal = 0;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\data\UI\icon_muzzle_snds_enhanced_black_CA.paa";
+	model = "\A3_Aegis\weapons_f_aegis\Acc\acca_snds_enhanced_black_F.p3d";
+	htMin = 1;
+	htMax = 600;
+	afMax = 0;
+	mfMax = 0;
+	mFact = 1;
+	tBody = 100;
+	class ItemInfo: InventoryMuzzleItem_Base_F
+	{
+		mass = 12;
+		class MagazineCoef
+		{
+			initSpeed = 1.05;
+		};
+		class AmmoCoef
+		{
+			hit = 1;
+			typicalSpeed = 1;
+			airFriction = 1;
+			visibleFire = 0.30000001;
+			audibleFire = 0.039999999;
+			visibleFireTime = 0.5;
+			audibleFireTime = 0.5;
+			cost = 1;
+		};
+		soundTypeIndex = 1;
+		muzzleEnd = "zaslehPoint";
+		alternativeFire = "Zasleh2";
+		class MuzzleCoef
+		{
+			dispersionCoef = 0.80000001;
+			artilleryDispersionCoef = 1;
+			fireLightCoef = 0.1;
+			recoilCoef = 1;
+			recoilProneCoef = 1;
+			minRangeCoef = 1;
+			minRangeProbabCoef = 1;
+			midRangeCoef = 1;
+			midRangeProbabCoef = 1;
+			maxRangeCoef = 1;
+			maxRangeProbabCoef = 1;
+		};
+	};
+	inertia = 0.2;
+};
+class Aegis_muzzle_snds_9MM_enhanced_black: Aegis_muzzle_snds_enhanced_base
+{
+	author = $STR_A3_A_Grave;
+	_generalMacro = "Aegis_muzzle_snds_9MM_enhanced_black";
+	scope = public;
+	scopeCurator = public;
+	scopeArsenal = public;
+	displayName = $STR_A3_A_CfgWeapons_muzzle_snds_9MM_enhanced_black0;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\data\UI\icon_muzzle_snds_enhanced_black_CA.paa";
+	model = "\A3_Aegis\weapons_f_aegis\Acc\acca_snds_enhanced_black_F.p3d";
+};
+class Aegis_muzzle_snds_9MM_enhanced_sand: Aegis_muzzle_snds_enhanced_base
+{
+	author = $STR_A3_A_Grave;
+	_generalMacro = "Aegis_muzzle_snds_9MM_enhanced_sand";
+	scope = public;
+	scopeCurator = public;
+	scopeArsenal = public;
+	displayName = $STR_A3_A_CfgWeapons_muzzle_snds_9MM_enhanced_sand0;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\data\UI\icon_muzzle_snds_enhanced_sand_CA.paa";
+	model = "\A3_Aegis\weapons_f_aegis\Acc\acca_snds_enhanced_sand_F.p3d";
+};
+class Aegis_muzzle_snds_9MM_enhanced_khaki: Aegis_muzzle_snds_enhanced_base
+{
+	author = $STR_A3_A_Grave;
+	_generalMacro = "Aegis_muzzle_snds_9MM_enhanced_khaki";
+	scope = public;
+	scopeCurator = public;
+	scopeArsenal = public;
+	displayName = $STR_A3_A_CfgWeapons_muzzle_snds_9MM_enhanced_khaki0;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\data\UI\icon_muzzle_snds_enhanced_khaki_CA.paa";
+	model = "\A3_Aegis\weapons_f_aegis\Acc\acca_snds_enhanced_khaki_F.p3d";
+};
+class Aegis_acc_LightModule_Pistol_base: ItemCore
+{
+	author = $STR_A3_A_Grave_8asiandude;
+	_generalMacro = "Aegis_acc_LightModule_Pistol_base";
+	scope = 0;
+	scopeCurator = 0;
+	scopeArsenal = 0;
+	model = "\A3_Aegis\weapons_f_aegis\Acc\accv_LightModule_Pistol_black_F";
+	class ItemInfo: InventoryFlashLightItem_Base_F
+	{
+		mass = 8;
+		class FlashLight
+		{
+			color[]= {1200,1500,1800};
+			ambient[]= {6,10,10};
+			intensity = 35;
+			innerangle = 25;
+			outerangle = 46;
+			conefadecoef = 2;
+			position = "Flashlight_Pos";
+			direction = "Flashlight_Dir";
+			flaremaxdistance = 150;
+			daylight = 0;
+			size = 1;
+			flaresize = 1;
+			useflare = 1;
+			class Attenuation
+			{
+				start = 0;
+				constant = 0.5;
+				linear = 0.1;
+				quadratic = 1;
+				hardlimitstart = 140;
+				hardlimitend = 150;
+			};
+			volumeShape = "";
+			scale[]= {1,1,1};
+		};
+	};
+	inertia = 0.1;
+};
+class Aegis_acc_LightModule_Pistol_black: Aegis_acc_LightModule_Pistol_base
+{
+	author = $STR_A3_A_Grave_8asiandude;
+	scope = public;
+	scopeCurator = public;
+	scopeArsenal = public;
+	displayName = $STR_A3_A_CfgWeapons_acc_LightModule_Pistol_black0;
+	descriptionShort = $STR_A3_cfgWeapons_acc_flashlight1;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\data\UI\icon_acc_lightModule_Pistol_Black_CA.paa";
+	model = "A3_Aegis\weapons_f_aegis\Acc\accv_lightModule_pistol_black_F";
+};
+class Aegis_acc_LightModule_Pistol_sand: Aegis_acc_LightModule_Pistol_base
+{
+	author = $STR_A3_A_Grave_8asiandude;
+	scope = public;
+	scopeCurator = public;
+	scopeArsenal = public;
+	displayName = $STR_A3_A_CfgWeapons_acc_LightModule_Pistol_sand0;
+	descriptionShort = $STR_A3_cfgWeapons_acc_flashlight1;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\data\UI\icon_acc_lightModule_Pistol_sand_CA.paa";
+	model = "A3_Aegis\weapons_f_aegis\Acc\accv_lightModule_pistol_sand_F";
+};
+class Aegis_acc_LightModule_Pistol_khaki: Aegis_acc_LightModule_Pistol_base
+{
+	author = $STR_A3_A_Grave_8asiandude;
+	scope = public;
+	scopeCurator = public;
+	scopeArsenal = public;
+	displayName = $STR_A3_A_CfgWeapons_acc_LightModule_Pistol_khaki0;
+	descriptionShort = $STR_A3_cfgWeapons_acc_flashlight1;
+	picture = "\A3_Aegis\weapons_f_aegis\Acc\data\UI\icon_acc_lightModule_Pistol_khaki_CA.paa";
+	model = "A3_Aegis\weapons_f_aegis\Acc\accv_lightModule_pistol_khaki_F";
+};
+
+/* Ruger-57 Muzzle Attachments */
+class Muzzle_snds_L;
+class Aegis_Muzzle_snds_RP57: muzzle_snds_L
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_Muzzle_snds_RP570;
+};
+class Aegis_Muzzle_mzls_RP57: muzzle_mzls_L
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_muzzle_mzls_RP570;
+};

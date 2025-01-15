@@ -25,6 +25,7 @@ class CfgAmmo
         class Components;
     };
 	class RocketBase;
+	class B_20mm;
 	class B_762x51_Ball;
 	class B_762x51_Minigun_Tracer_Red;
 	class B_762x51_Minigun_Tracer_Green: B_762x51_Minigun_Tracer_Red
@@ -41,6 +42,7 @@ class CfgAmmo
 	{
 		cartridge = FxCartridge_9mm;
 	};
+	class B_127x108_Ball;
 	class B_19mm_HE: BulletBase
 	{
 		cartridge = FxCartridge_slug;
@@ -430,7 +432,7 @@ class CfgAmmo
 		indirectHit = 0;
 		indirectHitRange = 0;
 		typicalSpeed = 725;
-		airFriction = -0.001412;
+		airFriction = -0.001412; // Potentially more accurate value: -0.001606;
 		caliber = 0.50715;
 		deflecting = 20;
 		model = "\A3\Weapons_F\Data\bullettracer\tracer_red.p3d";
@@ -1265,110 +1267,27 @@ class CfgAmmo
 		};
 	};
 	/* Hand Flare Begin*/
-	class Aegis_GrenadeAmmo_HandFlare_Red: GrenadeHand
+	class Aegis_GrenadeAmmo_HandFlare_Base: GrenadeHand
 	{
-		author = $STR_A3_A_Grave;
-		scope = public;
-		model = "A3_Aegis\weapons_f_aegis\Explosives\HandFlare_Red_Throw_F";
-		mass = 4;
-		hit = 0;
-		indirectHit = 0;
-		indirectHitRange = 0.2;
-		dangerRadiusHit = -1;
-		suppressionRadiusHit = -1;
-		typicalspeed = 22;
-		cost = 100;
-		simulation = "shotSmokeX";
-		explosive = 0;
-		deflecting = 30;
-		explosionTime = 0.05;
-		timeToLive = 600; //10 Minutes.
-		triggerTime = 0.01;
-		triggerSpeedCoef = 1;
-		fuseDistance = 0;
-		soundHit[]=
-		{
-			"",
-			0,
-			1
-		};
-		SmokeShellSoundHit1[]=
-		{
-			"A3\Sounds_F\weapons\smokeshell\smoke_1",
-			1.2589254,
-			1,
-			100
-		};
-		SmokeShellSoundHit2[]=
-		{
-			"A3\Sounds_F\weapons\smokeshell\smoke_2",
-			1.2589254,
-			1,
-			100
-		};
-		SmokeShellSoundHit3[]=
-		{
-			"A3\Sounds_F\weapons\smokeshell\smoke_3",
-			1.2589254,
-			1,
-			100
-		};
-		SmokeShellSoundLoop1[]=
-		{
-			"A3\Sounds_F\weapons\smokeshell\smoke_loop1",
-			0.12589253,
-			1,
-			70
-		};
-		SmokeShellSoundLoop2[]=
-		{
-			"A3\Sounds_F\weapons\smokeshell\smoke_loop2",
-			0.12589253,
-			1,
-			70
-		};
-		grenadeFireSound[]=
-		{
-			"SmokeShellSoundHit1",
-			0.25,
-			"SmokeShellSoundHit2",
-			0.25,
-			"SmokeShellSoundHit3",
-			0.5
-		};
-		grenadeBurningSound[]=
-		{
-			"SmokeShellSoundLoop1",
-			2.2,
-			"SmokeShellSoundLoop2",
-			2.2
-		};
-		aiAmmoUsageFlags = "4 + 2";
-		smokeColor[] = {0.84380001,0.1383,0.1353,1};
-		effectsSmoke = "Aegis_HandFlare_Effect_Red";
-		whistleDist = 0;
-	};
-	class Aegis_GrenadeAmmo_HandFlare_Green: GrenadeHand
-	{
-		author = $STR_A3_A_Grave;
-		scope = public;
-		model = "A3_Aegis\weapons_f_aegis\Explosives\HandFlare_Green_Throw_F";
-		mass = 4;
 		hit=0;
-		indirectHit = 0;
-		indirectHitRange = 0.2;
-		dangerRadiusHit = -1;
-		suppressionRadiusHit = -1;
-		typicalspeed = 22;
-		cost = 100;
-		simulation = "shotSmokeX";
-		explosive = 0;
-		deflecting = 30;
-		explosionTime = 0.05;
-		timeToLive = 600;
-		triggerTime = 0.01;
-		triggerSpeedCoef = 1;
-		fuseDistance = 0;
+		indirectHit=0;
+		indirectHitRange=0.2;
+		dangerRadiusHit=-1;
+		suppressionRadiusHit=-1;
+		typicalspeed=22;
+		mass=4;
+		cost=100;
+		simulation="shotSmokeX";
+		explosive=0;
+		deflecting=30;
+		explosionTime=0.05;
+		timeToLive=600; //11 Minutes. - one more than burn effect
+		triggerTime=0.01;
+		triggerSpeedCoef=1;
+		visibleFire=0.5;
+		audibleFire=0.05;
+		visibleFireTime=1;
+		fuseDistance=0;
 		soundHit[]=
 		{
 			"",
@@ -1422,14 +1341,212 @@ class CfgAmmo
 		grenadeBurningSound[]=
 		{
 			"SmokeShellSoundLoop1",
-			2.2,
+			0.5,
 			"SmokeShellSoundLoop2",
-			2.2
+			0.5
 		};
-		aiAmmoUsageFlags = "4 + 2";
-		smokeColor[] = {0.84380001,0.1383,0.1353,1};
-		effectsSmoke = "Aegis_HandFlare_Effect_Green";
-		whistleDist = 0;
+		aiAmmoUsageFlags="4 + 2";
+		whistleDist=0;
+	};	
+	class Aegis_GrenadeAmmo_HandFlare_Red: Aegis_GrenadeAmmo_HandFlare_Base
+	{
+		model = "A3_Aegis\weapons_f_aegis\Explosives\HandFlare_Red_Throw_F";
+		smokeColor[]={0.84380001,0.1383,0.1353,1};
+		effectsSmoke = "Aegis_HandFlare_Effect_Red";
+	};
+	class Aegis_GrenadeAmmo_HandFlare_Green: Aegis_GrenadeAmmo_HandFlare_Base
+	{
+		model = "A3_Aegis\weapons_f_aegis\Explosives\HandFlare_Green_Throw_F";
+		smokeColor[]={0.84380001,0.1383,0.1353,1};
+		effectsSmoke="Aegis_HandFlare_Effect_Green";
+	};
+	class Aegis_GrenadeAmmo_SignalFlare_Base: Aegis_GrenadeAmmo_HandFlare_Base
+	{
+		timeToLive=360;
+	};
+	class Aegis_GrenadeAmmo_SignalFlare_Red: Aegis_GrenadeAmmo_SignalFlare_Base
+	{
+		model = "A3_Aegis\weapons_f_aegis\Explosives\HandFlare_Red_Throw_F";
+		smokeColor[]={0.84380001,0.1383,0.1353,1};
+		effectsSmoke = "Aegis_SignalFlare_Effect_Red";
+	};
+	class Aegis_GrenadeAmmo_SignalFlare_Green: Aegis_GrenadeAmmo_SignalFlare_Base
+	{
+		model = "A3_Aegis\weapons_f_aegis\Explosives\HandFlare_Green_Throw_F";
+		smokeColor[]={0.84380001,0.1383,0.1353,1};
+		effectsSmoke="Aegis_SignalFlare_Effect_Green";
 	};
 	/* Hand Flare End */
+	/* KORD HMG 12.7 x 108 mm */
+	class Aegis_B_127x108_Ball_KORD_Green_F: B_127x108_Ball
+	{
+		hit = 32;
+		airFriction = -0.0006;
+		typicalSpeed = 850;
+	};
+	class Aegis_B_127x108_Ball_KORD_Yellow_F: Aegis_B_127x108_Ball_KORD_Green_F
+	{
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+	};
+	class Aegis_B_127x108_Ball_KORD_Red_F: Aegis_B_127x108_Ball_KORD_Green_F
+	{
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+	};
+	/* .44 RM */
+	class Aegis_B_44RM_Ball: B_127x33_Ball
+	{
+		hit = 7;
+		indirectHit = 0;
+		indirectHitRange = 0;
+		cartridge = FxCartridge_9mm;
+		audibleFire = 30;
+		dangerRadiusBulletClose = 4;
+		dangerRadiusHit = 8;
+		suppressionRadiusBulletClose = 2;
+		suppressionRadiusHit = 4;
+		visibleFireTime = 3;
+		cost = 50;
+		airLock = 1;
+		caliber = 1;
+		deflecting = 45;
+		typicalSpeed = 390;
+		maxspeed = 405;
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+		tracerScale = 0.6;
+		tracerStartTime = 0.01;
+		tracerEndTime = 1.5;
+		airFriction = -0.0016;
+	};
+	/* 5.45 Armour Piercing*/
+	class Aegis_B_545x39_AP_F: B_545x39_Ball_F
+	{
+		aiAmmoUsageFlags = 64;
+		airLock = 1;
+		hit = 11;
+		indirectHit = 0;
+		indirectHitRange = 0;
+		typicalSpeed = 880;
+		airFriction = -0.0013;
+		caliber = 1.1;
+		deflecting = 20;
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_green";
+		tracerScale = 1;
+		tracerStartTime = 0.050000001;
+		tracerEndTime = 1;
+		nvgOnly = 0;
+		dangerRadiusBulletClose = 8;
+		dangerRadiusHit = 12;
+		suppressionRadiusBulletClose = 6;
+		suppressionRadiusHit = 8;
+	};
+	class Aegis_B_545x39_AP_Tracer_Yellow_F: Aegis_B_545x39_AP_F
+	{
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+	};
+	class Aegis_M_PG_APKWS: MissileBase
+	{
+		model = "\A3\Weapons_F\Ammo\Rocket_01_fly_F";
+		proxyShape = "\A3\Weapons_F\Ammo\Rocket_01_F";
+		submunitionAmmo = "ammo_Penetrator_PG_AT";
+		submunitionDirectionType = "SubmunitionModelDirection";
+		submunitionInitSpeed = 1000;
+		submunitionParentSpeedCoef = 0.0;
+		submunitionInitialOffset[] = {0,0,-0.2};
+		triggerOnImpact = 1;
+		deleteParentWhenTriggered = 0;
+		hit = 95;
+		indirectHit = 40;
+		indirectHitRange = 3.2;
+		warheadName = "HE";
+		cost = 200;
+		maxSpeed = 720;
+		irLock = 1;
+		laserLock = 1;
+		aiAmmoUsageFlags = "128 + 256";
+		trackOversteer = 1;
+		trackLead = 1;
+		maneuvrability = 12;
+		timeToLive = 20;
+		simulationStep = 0.002;
+		airFriction = 0.1;
+		sideAirFriction = 0.28;
+		initTime = 0.0;
+		thrustTime = 1.07;
+		thrust = 825;
+		fuseDistance = 50;
+		effectsMissileInit = "MissileDAR1";
+		effectsMissile = "missile2";
+		whistleDist = 4;
+		muzzleEffect = "";
+		airLock = 1;
+		missileLockCone = 30;
+		missileKeepLockedCone = 60;
+		missileLockMaxDistance = 5000;
+		missileLockMinDistance = 100;
+		missileLockMaxSpeed = 35;
+		weaponLockSystem = "2 + 4 + 16";
+		cmImmunity = 0.3;
+		manualControl = 1;
+		maxControlRange = 5000;
+		missileManualControlCone = 240;
+		class Components: Components
+		{
+			class SensorsManagerComponent
+			{
+				class Components
+				{
+					class IRSensorComponent: SensorTemplateIR
+					{
+						class AirTarget
+						{
+							minRange = 500;
+							maxRange = 4000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = 1;
+						};
+						class GroundTarget
+						{
+							minRange = 500;
+							maxRange = 4000;
+							objectDistanceLimitCoef = 1;
+							viewDistanceLimitCoef = 1;
+						};
+						maxTrackableSpeed = 35;
+						angleRangeHorizontal = 45;
+						angleRangeVertical = 35;
+					};
+					class LaserSensorComponent: SensorTemplateLaser
+					{
+						class AirTarget
+						{
+							minRange = 4000;
+							maxRange = 4000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						class GroundTarget
+						{
+							minRange = 4000;
+							maxRange = 4000;
+							objectDistanceLimitCoef = -1;
+							viewDistanceLimitCoef = -1;
+						};
+						maxTrackableSpeed = 35;
+						angleRangeHorizontal = 90;
+						angleRangeVertical = 70;
+					};
+				};
+			};
+		};
+		soundFly[] = {"A3\Sounds_F\weapons\Rockets\rocket_fly_1",0.56234133,1.2,700};
+	};
+	/* 20mm Green/Yellow Tracer */
+	 class Aegis_B_20mm_Tracer_Green: B_20mm
+	{
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_green";
+    };
+    class Aegis_B_20mm_Tracer_Yellow: B_20mm
+	{
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+    };
 };

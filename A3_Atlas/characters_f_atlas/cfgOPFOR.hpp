@@ -72,18 +72,17 @@ class Atlas_O_W_Soldier_A_F: O_Soldier_A_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	backpack = B_Carryall_owcamo_OWAmmo_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
@@ -131,19 +130,18 @@ class Atlas_O_W_Soldier_AAR_F: O_Soldier_AAR_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	backpack = B_FieldPack_owcamo_OWAAR_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -194,8 +192,7 @@ class Atlas_O_W_Support_AMG_F: O_support_AMG_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_TShirt_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	backpack = O_HMG_01_support_F;
 	weapons[] =
 	{
@@ -255,8 +252,7 @@ class Atlas_O_W_Support_AMort_F: O_support_AMort_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	backpack = O_Mortar_01_support_F;
 	weapons[] =
 	{
@@ -316,19 +312,18 @@ class Atlas_O_W_Soldier_AHAT_F: O_Soldier_AHAT_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	backpack = B_Carryall_owcamo_OWAHAT_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
         Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
         Rangefinder
@@ -379,19 +374,18 @@ class Atlas_O_W_Soldier_AAA_F: O_Soldier_AAA_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	backpack = B_Carryall_owcamo_OWAAA_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -442,19 +436,18 @@ class Atlas_O_W_Soldier_AAT_F: O_Soldier_AAT_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	backpack = B_Carryall_owcamo_OWAAT_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons,
 		Rangefinder
@@ -505,8 +498,7 @@ class Atlas_O_W_Soldier_AR_F: O_Soldier_AR_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	weapons[] =
 	{
 		arifle_RPK12_545_LP_F,
@@ -563,8 +555,7 @@ class Atlas_O_W_Medic_F: O_medic_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	backpack = B_FieldPack_owcamo_OWMedic_F;
 	weapons[] =
 	{
@@ -627,13 +618,13 @@ class Atlas_O_W_Crew_F: O_crew_F
 	uniformClass = Atlas_U_O_W_CombatUniform_owcamo;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_F,
+		arifle_AK12U_545_ACO_Pointer_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_F,
+		arifle_AK12U_545_ACO_Pointer_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
@@ -681,8 +672,7 @@ class Atlas_O_W_Engineer_F: O_engineer_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_TShirt_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	backpack = B_Carryall_owcamo_OWEng_F;
 	weapons[] =
 	{
@@ -742,8 +732,7 @@ class Atlas_O_W_Soldier_Exp_F: O_soldier_exp_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	backpack = B_Carryall_owcamo_OWExp_F;
 	weapons[] =
 	{
@@ -793,8 +782,7 @@ class Atlas_O_W_soldier_mine_F: Atlas_O_W_Soldier_Exp_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_W_Soldier_mine_F.jpg";
 	displayName = $STR_A3_B_T_soldier_mine_F0;
-	//uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	backpack = B_Carryall_owcamo_Mine;
 };
 class Atlas_O_W_Soldier_GL_F: O_Soldier_GL_F
@@ -812,8 +800,7 @@ class Atlas_O_W_Soldier_GL_F: O_Soldier_GL_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	weapons[] =
 	{
 		arifle_AK12_GL_545_aco_F,
@@ -874,8 +861,7 @@ class Atlas_O_W_Support_GMG_F: O_support_GMG_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	backpack = O_GMG_01_weapon_F;
 	weapons[] =
 	{
@@ -935,8 +921,7 @@ class Atlas_O_W_Support_MG_F: O_support_MG_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	backpack = O_HMG_01_weapon_F;
 	weapons[] =
 	{
@@ -996,8 +981,7 @@ class Atlas_O_W_Support_Mort_F: O_support_Mort_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_TShirt_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	backpack = O_Mortar_01_weapon_F;
 	weapons[] =
 	{
@@ -1059,12 +1043,12 @@ class Atlas_O_W_Helicrew_F: O_helicrew_F
 	uniformClass = Atlas_U_O_W_PilotCoveralls;
 	weapons[] =
 	{
-		arifle_AK12U_545_aco_F,
+		arifle_AK12U_545_ACO_Pointer_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_aco_F,
+		arifle_AK12U_545_ACO_Pointer_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1153,8 +1137,7 @@ class Atlas_O_W_soldier_M_F: O_soldier_M_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	weapons[] =
 	{
 		srifle_DMR_01_black_ARCO_LP_BI_F,
@@ -1213,8 +1196,7 @@ class Atlas_O_W_Soldier_AA_F: O_Soldier_AA_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	backpack = B_FieldPack_owcamo_OWAA_F;
 	weapons[] =
 	{
@@ -1276,8 +1258,7 @@ class Atlas_O_W_Soldier_AT_F: O_Soldier_AT_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	backpack = B_FieldPack_owcamo_OWAT_F;
 	weapons[] =
 	{
@@ -1339,8 +1320,7 @@ class Atlas_O_W_Officer_F: O_officer_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_Officer_whex_F;
-	uniformClass = Atlas_U_O_officer_noInsignia_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_Officer_whex_F;
 	weapons[] =
 	{
 		arifle_AK12U_545_F,
@@ -1397,8 +1377,7 @@ class Atlas_O_W_Soldier_Repair_F: O_soldier_repair_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	backpack = B_FieldPack_owcamo_OWRepair_F;
 	weapons[] =
 	{
@@ -1456,17 +1435,16 @@ class Atlas_O_W_Soldier_F: O_Soldier_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
@@ -1514,19 +1492,18 @@ class Atlas_O_W_Soldier_HAT_F: O_Soldier_HAT_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	backpack = B_FieldPack_owcamo_OWHAT_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		launch_O_Vorona_green_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		launch_O_Vorona_green_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
@@ -1577,19 +1554,18 @@ class Atlas_O_W_Soldier_LAT_F: O_soldier_LAT_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	backpack = B_FieldPack_owcamo_OWLAT_F;
 	weapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		launch_RPG32_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_aco_pointer_F,
+		Atlas_arifle_AK12_545_aco_pointer_F,
 		launch_RPG32_F,
 		hgun_Pistol_01_F,
         DefaultManWeapons
@@ -1640,8 +1616,7 @@ class Atlas_O_W_Soldier_Lite_F: O_Soldier_lite_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	weapons[] =
 	{
 		arifle_AK12U_545_F,
@@ -1694,8 +1669,7 @@ class Atlas_O_W_Soldier_SL_F: O_Soldier_SL_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	weapons[] =
 	{
 		arifle_AK12_545_arco_pointer_F,
@@ -1760,8 +1734,7 @@ class Atlas_O_W_Soldier_TL_F: O_Soldier_TL_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	weapons[] =
 	{
 		arifle_AK12_GL_545_arco_pointer_F,
@@ -1841,13 +1814,13 @@ class Atlas_O_W_RadioOperator_F: Atlas_O_W_Soldier_F
 	backpack = B_RadioBag_01_whex_F;
 	weapons[] =
     {
-        arifle_AK12_545_aco_pointer_F,
+        Atlas_arifle_AK12_545_aco_pointer_F,
         hgun_Pistol_01_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_AK12_545_aco_pointer_F,
+        Atlas_arifle_AK12_545_aco_pointer_F,
         hgun_Pistol_01_F,
         DefaultManWeapons
     };
@@ -1897,8 +1870,7 @@ class Atlas_O_W_Soldier_UAV_F: O_soldier_UAV_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_RolledUp_whex_F;
 	backpack = O_UAV_01_backpack_F;
 	weapons[] =
 	{
@@ -2023,8 +1995,7 @@ class Atlas_O_W_Soldier_PG_F: O_soldier_PG_F
 	};
     scope = public;
     scopeCurator = public;
-	//uniformClass = Atlas_U_O_Luchnik_whex_F;
-	uniformClass = Atlas_U_O_LightCombatFatigues_whex_F;
+	uniformClass = Atlas_U_O_Luchnik_whex_F;
 	backpack = B_Parachute;
 	weapons[] =
 	{
@@ -3596,7 +3567,7 @@ class Atlas_O_C_Marine_base_F: O_T_Soldier_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -3604,7 +3575,7 @@ class Atlas_O_C_Marine_base_F: O_T_Soldier_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -3684,7 +3655,7 @@ class Atlas_O_C_Marine_AR_F: Atlas_O_C_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_cqb_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -3692,7 +3663,7 @@ class Atlas_O_C_Marine_AR_F: Atlas_O_C_Marine_base_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_cqb_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -3741,7 +3712,7 @@ class Atlas_O_C_Marine_Medic_F: Atlas_O_C_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_cqb_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -3749,7 +3720,7 @@ class Atlas_O_C_Marine_Medic_F: Atlas_O_C_Marine_base_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_cqb_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -3845,7 +3816,7 @@ class Atlas_O_C_Marine_Exp_F: Atlas_O_C_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -3853,7 +3824,7 @@ class Atlas_O_C_Marine_Exp_F: Atlas_O_C_Marine_base_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -3901,7 +3872,7 @@ class Atlas_O_C_Marine_GL_F: Atlas_O_C_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -3909,7 +3880,7 @@ class Atlas_O_C_Marine_GL_F: Atlas_O_C_Marine_base_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -4102,7 +4073,7 @@ class Atlas_O_C_Marine_AA_F: Atlas_O_C_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -4110,7 +4081,7 @@ class Atlas_O_C_Marine_AA_F: Atlas_O_C_Marine_base_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -4172,7 +4143,7 @@ class Atlas_O_C_Marine_AT_F: Atlas_O_C_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -4180,7 +4151,7 @@ class Atlas_O_C_Marine_AT_F: Atlas_O_C_Marine_base_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -4248,7 +4219,7 @@ class Atlas_O_C_Marine_LAT_F: Atlas_O_C_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -4256,7 +4227,7 @@ class Atlas_O_C_Marine_LAT_F: Atlas_O_C_Marine_base_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLinkedItems
@@ -4310,7 +4281,7 @@ class Atlas_O_C_Marine_SL_F: Atlas_O_C_Marine_base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLeaderLinkedItems
@@ -4318,7 +4289,7 @@ class Atlas_O_C_Marine_SL_F: Atlas_O_C_Marine_base_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLeaderLinkedItems
@@ -4377,7 +4348,7 @@ class Atlas_O_C_Marine_TL_F: Atlas_O_C_Marine_base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLeaderLinkedItems
@@ -4385,7 +4356,7 @@ class Atlas_O_C_Marine_TL_F: Atlas_O_C_Marine_base_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		DefaultManLeaderLinkedItems
@@ -4415,7 +4386,7 @@ class Atlas_O_C_Marine_UAV_F: Atlas_O_C_Marine_base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		O_UAVTerminal,
@@ -4424,7 +4395,7 @@ class Atlas_O_C_Marine_UAV_F: Atlas_O_C_Marine_base_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_blk_F,
-		Atlas_H_HelmetCCH_Cover_mhex_F,
+		Atlas_H_HelmetCCH_HiCut_Cover_mhex_F,
 		G_Balaclava_light_G_blk_F,
 		O_NVGoggles_blk_F,
 		O_UAVTerminal,

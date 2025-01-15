@@ -164,6 +164,19 @@ class CfgVehicles
 					"A3\Armor_F_Tank\AFV_Wheeled_01\Data\afv_wheeled_01_EXT3_sand_CO.paa"
 				};
 			};
+			class WDL_01
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+				factions[] = {};
+				textures[] = 
+				{
+					"\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT1_wdl_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT2_wdl_CO.paa",
+					"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_wheel_green_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+					"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT3_CO.paa"
+				};
+			};
 		};
 	};
 	class AFV_Wheeled_01_up_base_F: AFV_Wheeled_01_base_F
@@ -269,6 +282,21 @@ class CfgVehicles
 		class TextureSources
 		{
 			class SFIA{};
+			class WDL_01
+			{
+				displayName = "Woodland";
+				factions[] = {};
+				textures[] = 
+				{
+					"\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT1_wdl_CO.paa",
+        			"\A3_Aegis\Armor_F_Aegis\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT2_wdl_CO.paa",
+					"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_wheel_green_CO.paa",
+					"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT3_CO.paa",
+					"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_commander_tow_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
+					"\A3\Armor_F_Tank\AFV_Wheeled_01\Data\AFV_Wheeled_01_EXT3_CO.paa"
+				};
+			};
 		};
     };
 

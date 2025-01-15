@@ -435,6 +435,128 @@ class Aegis_I_E_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_medical_F
 	};
 };
 
+/* INDEP LDF Arid*/
+class Aegis_I_E_APC_Wheeled_01_cannon_v2_ard_F: Aegis_I_E_APC_Wheeled_01_cannon_v2_F
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_E_APC_Wheeled_01_cannon_v2_ard_F.jpg";
+	faction = IND_E_ard_F;
+	crew = I_E_Crew_ard_F;
+	typicalCargo[] = {I_E_Crew_ard_F};
+	textureList[] = {EAF_Arid,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_EAF_arid_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_adds_EAF_arid_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_EAF_arid_CO.paa",
+        "\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+		"\A3\Armor_F\Data\cage_sand_CO.paa"
+	};
+    class TransportWeapons
+	{
+		weap_xx(arifle_MSBS65_sand_F,2);
+	};
+    class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3\data_f_enoch\flags\flag_enoch_co.paa'";
+    };
+};
+class Aegis_I_E_APC_Wheeled_01_command_ard_lxWS: Aegis_I_E_APC_Wheeled_01_command_lxWS
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_E_APC_Wheeled_01_command_ard_lxWS.jpg";
+	faction = IND_E_ard_F;
+	crew = I_E_Crew_ard_F;
+	typicalCargo[] = {I_E_Crew_ard_F};
+	textureList[] = {EAF_Arid,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_EAF_arid_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_adds_EAF_arid_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_EAF_arid_CO.paa",
+        "\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+		"\A3\Armor_F\Data\cage_sand_CO.paa",
+        "\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_EAF_arid_CO.paa"
+	};
+    class TransportWeapons
+	{
+		weap_xx(arifle_MSBS65_sand_F,2);
+	};
+    class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3\data_f_enoch\flags\flag_enoch_co.paa'";
+    };
+};
+class Aegis_I_E_APC_Wheeled_01_mortar_ard_lxWS: Aegis_I_E_APC_Wheeled_01_mortar_lxWS
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_E_APC_Wheeled_01_mortar_ard_lxWS.jpg";
+	faction = IND_E_ard_F;
+	crew = I_E_Crew_ard_F;
+	typicalCargo[] = {I_E_Crew_ard_F};
+	textureList[] = {EAF_Arid,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_EAF_arid_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_adds_EAF_arid_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_EAF_arid_CO.paa",
+        "\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+		"\A3\Armor_F\Data\cage_sand_CO.paa",
+        "\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_EAF_arid_CO.paa"
+	};
+    class TransportWeapons
+	{
+		weap_xx(arifle_MSBS65_sand_F,2);
+	};
+    class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3\data_f_enoch\flags\flag_enoch_co.paa'";
+    };
+};
+class Aegis_I_E_APC_Wheeled_01_atgm_v2_ard: Aegis_I_E_APC_Wheeled_01_atgm_v2
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_E_APC_Wheeled_01_atgm_v2_ard.jpg";
+	faction = IND_E_ard_F;
+	crew = I_E_Crew_ard_F;
+	typicalCargo[] = {I_E_Crew_ard_F};
+	textureList[] = {EAF_Arid,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_EAF_arid_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_adds_EAF_arid_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_EAF_arid_CO.paa",
+        "\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+		"\A3\Armor_F\Data\cage_sand_CO.paa",
+        "\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_lxws_EAF_arid_CO.paa"
+	};
+    class TransportWeapons
+	{
+		weap_xx(arifle_MSBS65_sand_F,2);
+	};
+    class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3\data_f_enoch\flags\flag_enoch_co.paa'";
+    };
+};
+class Aegis_I_E_APC_Wheeled_01_medical_ard_F: Aegis_I_E_APC_Wheeled_01_medical_F
+{
+    author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_E_APC_Wheeled_01_medical_ard_F.jpg";
+	faction = IND_E_ard_F;
+	crew = I_E_Crew_ard_F;
+	typicalCargo[] = {I_E_Crew_ard_F};
+	textureList[] = {EAF_Arid,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_medevac_EAF_arid_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_adds_EAF_arid_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_EAF_arid_CO.paa",
+        "",
+		""
+	};
+};
+
 /* BLUFOR LDF */
 class Aegis_B_E_APC_Wheeled_01_cannon_v2_F: Aegis_I_E_APC_Wheeled_01_cannon_v2_F
 {
@@ -475,4 +597,46 @@ class Aegis_B_E_APC_Wheeled_01_medical_F: Aegis_I_E_APC_Wheeled_01_medical_F
 	faction = BLU_EAF_F;
 	crew = Aegis_B_E_Crew_F;
 	typicalCargo[] = {Aegis_B_E_Crew_F};
+};
+
+/* BLUFOR LDF Arid*/
+class Aegis_B_E_APC_Wheeled_01_cannon_v2_ard_F: Aegis_I_E_APC_Wheeled_01_cannon_v2_ard_F
+{
+    author = $STR_A3_A_Ravenholme;
+    side = TWest;
+	faction = BLU_EAF_ard_F;
+	crew = Aegis_B_E_Crew_ard_F;
+	typicalCargo[] = {Aegis_B_E_Crew_ard_F};
+};
+class Aegis_B_E_APC_Wheeled_01_command_ard_lxWS: Aegis_I_E_APC_Wheeled_01_command_ard_lxWS
+{
+    author = $STR_A3_A_Ravenholme;
+    side = TWest;
+	faction = BLU_EAF_ard_F;
+	crew = Aegis_B_E_Crew_ard_F;
+	typicalCargo[] = {Aegis_B_E_Crew_ard_F};
+};
+class Aegis_B_E_APC_Wheeled_01_mortar_ard_lxWS: Aegis_I_E_APC_Wheeled_01_mortar_ard_lxWS
+{
+    author = $STR_A3_A_Ravenholme;
+    side = TWest;
+	faction = BLU_EAF_ard_F;
+	crew = Aegis_B_E_Crew_ard_F;
+	typicalCargo[] = {Aegis_B_E_Crew_ard_F};
+};
+class Aegis_B_E_APC_Wheeled_01_atgm_v2_ard: Aegis_I_E_APC_Wheeled_01_atgm_v2_ard
+{
+    author = $STR_A3_A_Ravenholme;
+    side = TWest;
+	faction = BLU_EAF_ard_F;
+	crew = Aegis_B_E_Crew_ard_F;
+	typicalCargo[] = {Aegis_B_E_Crew_ard_F};
+};
+class Aegis_B_E_APC_Wheeled_01_medical_ard_F: Aegis_I_E_APC_Wheeled_01_medical_ard_F
+{
+    author = $STR_A3_A_Ravenholme;
+    side = TWest;
+	faction = BLU_EAF_ard_F;
+	crew = Aegis_B_E_Crew_ard_F;
+	typicalCargo[] = {Aegis_B_E_Crew_ard_F};
 };

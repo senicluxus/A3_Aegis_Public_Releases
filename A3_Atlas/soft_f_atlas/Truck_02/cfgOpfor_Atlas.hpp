@@ -98,11 +98,11 @@ class Atlas_O_T_Truck_02_F: O_Truck_02_covered_F
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_soldier_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Opfor,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_tk_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa"
 	};
@@ -207,11 +207,11 @@ class Atlas_O_T_Truck_02_transport_F: O_Truck_02_transport_F
     faction = Atlas_OPF_T_F;
     crew = Atlas_O_T_soldier_F;
     typicalCargo[] = {Atlas_O_T_soldier_F};
-    textureList[] = {Opfor,1};
+    textureList[] = {Takistan,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
-        "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
+        "\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_tk_CO.paa",
         "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
         "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa"
     };
@@ -316,11 +316,11 @@ class Atlas_O_T_Truck_02_box_F: O_Truck_02_box_F
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_soldier_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Opfor,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_repair_OPFOR_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_tk_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
@@ -426,11 +426,11 @@ class Atlas_O_T_Truck_02_medical_F: O_Truck_02_medical_F
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_soldier_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Opfor,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_tk_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa"
 	};
@@ -537,11 +537,11 @@ class Atlas_O_T_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_soldier_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Opfor,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_repair_OPFOR_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_repair_tk_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
@@ -647,11 +647,11 @@ class Atlas_O_T_Truck_02_fuel_F: O_Truck_02_fuel_F
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_soldier_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Opfor,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_fuel_OPFOR_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_fuel_tk_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
 		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa"
 	};
@@ -676,14 +676,14 @@ class Atlas_O_T_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_soldier_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Opfor,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] =
 	{
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
-	"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_tk_CO.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
+		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
 class Atlas_O_T_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
@@ -706,14 +706,14 @@ class Atlas_O_T_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_soldier_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Opfor,1};
+	textureList[] = {Takistan,1};
 	hiddenSelectionsTextures[] =
 	{
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
-	"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_tk_CO.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
+		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
 class Atlas_O_T_Truck_02_aa_lxWS: Truck_02_aa_base_lxWS
@@ -726,12 +726,12 @@ class Atlas_O_T_Truck_02_aa_lxWS: Truck_02_aa_base_lxWS
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_soldier_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
-	textureList[] = {Opfor,1};
+	textureList[] = {Takistan,1};
 	animationList[] = {"hideSpareWheel",0.5, "hideBumper",1, "hideWindowProtector",0, "hideCrates",0, "shield_hide", 1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_OPFOR_CO.paa",
-        "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_OPFOR_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_tk_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kuz_tk_CO.paa",
         "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
         "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa",
 		"lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
@@ -751,4 +751,11 @@ class Atlas_O_T_Truck_02_MRL_F: O_Truck_02_MRL_F
 	faction = Atlas_OPF_T_F;
 	crew = Atlas_O_T_soldier_F;
 	typicalCargo[] = {Atlas_O_T_soldier_F};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_kab_tk_CO.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
+		"\A3_Atlas\Soft_F_Atlas\Truck_02\Data\Truck_02_MLR_tk_CO.paa",
+		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa"
+	};
 };

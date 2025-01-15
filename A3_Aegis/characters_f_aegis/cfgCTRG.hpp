@@ -147,6 +147,7 @@ class B_CTRG_soldier_M_medic_F: B_Soldier_03_f
 {
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_soldier_M_medic_F.jpg";
     faction = BLU_CTRG_F;
+    attendant = true;
 	weapons[] =
     {
         srifle_EBR_Hamr_pointer_F,
@@ -598,6 +599,7 @@ class B_CTRG_Soldier_Medic_F: B_CTRG_Soldier_F
 	icon = iconManMedic;
 	picture = pictureHeal;
 	cost = 300000;
+    attendant = true;
 	uniformClass = U_B_CTRG_2;
 	backpack = B_AssaultPack_rgr_CTRGMedic_F;
 	weapons[] =
@@ -644,7 +646,6 @@ class B_CTRG_Soldier_Medic_F: B_CTRG_Soldier_F
         DefaultManLeaderLinkedItems,
         NVGogglesB_blk_F
 	};
-	attendant = true;
 };
 class B_CTRG_Soldier_M_F: B_CTRG_Soldier_F
 {
@@ -1075,6 +1076,156 @@ class B_CTRG_Soldier_JTAC_F: B_CTRG_Soldier_F
         NVGogglesB_blk_F
 	};
 };
+class Aegis_B_CTRG_Sniper_F: B_Sniper_F
+{
+    author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_B_CTRG_Sniper_F.jpg";
+	faction = BLU_CTRG_F;
+	editorSubcategory = EdSubcat_Personnel_Mediterranean;
+	identityTypes[] =
+	{
+		LanguageENGB_F,
+		Head_NATO,
+		G_NATO_sniper
+	};
+	scope = public;
+	uniformClass = Aegis_U_B_Sniper_Fatigues_CTRG_F;
+	weapons[] =
+    {
+        Aegis_srifle_GM6B_LRPS_PointerDM_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	respawnWeapons[] =
+    {
+        Aegis_srifle_GM6B_LRPS_PointerDM_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	magazines[] =
+    {
+        mag_4(Aegis_5Rnd_127x99_Mag),
+        mag_2(Aegis_5Rnd_127x99_AP_Mag),
+        mag_2(16Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_4(Aegis_5Rnd_127x99_Mag),
+        mag_2(Aegis_5Rnd_127x99_AP_Mag),
+        mag_2(16Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_PlateCarrierH_CTRG,
+		H_HelmetB_snakeskin,
+        DefaultManLeaderLinkedItems,
+        NVGogglesB_blk_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierH_CTRG,
+		H_HelmetB_snakeskin,
+        DefaultManLeaderLinkedItems,
+        NVGogglesB_blk_F
+	};
+    items[] =
+    {
+        FirstAidKit,
+        optic_tws_sniper
+    };
+    respawnItems[] =
+    {
+        FirstAidKit,
+        optic_tws_sniper
+	};
+};
+class Aegis_B_CTRG_Spotter_F: B_Spotter_F
+{
+    author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_B_CTRG_Spotter_F.jpg";
+	faction = BLU_CTRG_F;
+	editorSubcategory = EdSubcat_Personnel_Mediterranean;
+	identityTypes[] =
+	{
+		LanguageENGB_F,
+		Head_NATO,
+		G_NATO_sniper
+	};
+	scope = public;
+	uniformClass = Aegis_U_B_Sniper_Fatigues_CTRG_F;
+	weapons[] =
+    {
+        arifle_MX_Black_Hamr_Pointer_Snds_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Laserdesignator
+    };
+    respawnWeapons[] =
+    {
+        arifle_MX_Black_Hamr_Pointer_Snds_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Laserdesignator
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(MiniGrenade),
+        mag_2(B_IR_Grenade),
+        Laserbatteries,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_2(16Rnd_9x21_Mag),
+        ClaymoreDirectionalMine_Remote_Mag,
+        APERSTripMine_Wire_Mag,
+        mag_2(MiniGrenade),
+        mag_2(B_IR_Grenade),
+        Laserbatteries,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_green)
+    };
+    linkedItems[] =
+	{
+		V_PlateCarrierH_CTRG,
+		H_HelmetB_snakeskin,
+        DefaultManLeaderLinkedItems,
+        NVGogglesB_blk_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierH_CTRG,
+		H_HelmetB_snakeskin,
+        DefaultManLeaderLinkedItems,
+        NVGogglesB_blk_F
+	};
+	items[] =
+	{
+		FirstAidKit,
+		optic_tws
+	};
+	respawnItems[] =
+	{
+		FirstAidKit,
+		optic_tws
+	};
+};
 /* Group 13 */
 class B_CTRG_Soldier_TL_arid_F: B_CTRG_Soldier_arid_F
 {
@@ -1213,6 +1364,7 @@ class B_CTRG_Soldier_Medic_arid_F: B_CTRG_Soldier_arid_F
 	role = CombatLifeSaver;
 	icon = iconManMedic;
 	picture = pictureHeal;
+    attendant = true;
 	cost = 300000;
 	backpack = B_AssaultPack_blk_CTRGMedic_F;
 	weapons[] =
@@ -2113,6 +2265,7 @@ class B_CTRG_Soldier_Medic_tna_F: B_CTRG_Soldier_F
 	nameSound = veh_infantry_SF_s;
 	icon = iconManMedic;
 	picture = pictureHeal;
+    attendant = true;
 	weapons[] =
     {
         arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
@@ -2674,6 +2827,7 @@ class B_CTRG_Soldier_Medic_urb_F: B_CTRG_Soldier_urb_2_F
 	role = CombatLifeSaver;
 	icon = iconManMedic;
 	picture = pictureHeal;
+    attendant = true;
 	cost = 300000;
 	backpack = B_AssaultPack_rgr_CTRGMedic_F;
 	weapons[] =
@@ -3282,8 +3436,10 @@ class B_D_CTRG_Soldier_Medic_LxWS: B_CTRG_Soldier_Medic_tna_F
 {
     faction = BLU_CTRG_F;
 };
-class B_D_CTRG_Soldier_LxWS: B_CTRG_Soldier_F
+class B_CTRG_soldier_tna_F;
+class B_D_CTRG_Soldier_LxWS: B_CTRG_soldier_tna_F
 {
+    scope = public;
     faction = BLU_CTRG_F;
 };
 class B_D_CTRG_Soldier_LAT2_LxWS: B_CTRG_Soldier_LAT2_tna_F

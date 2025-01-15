@@ -395,14 +395,14 @@ class Atlas_I_I_Soldier_AR_F: Atlas_I_I_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_2(150Rnd_762x51_Box_Yellow),
+		mag_2(Atlas_150Rnd_762x51_Box_Yellow),
         mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_2(150Rnd_762x51_Box_Yellow),
+		mag_2(Atlas_150Rnd_762x51_Box_Yellow),
         mag_2(9Rnd_45ACP_Mag),
         HandGrenade,
         mag_2(SmokeShell)
@@ -1870,6 +1870,65 @@ class Atlas_I_I_RadioOperator_F: Atlas_I_I_Soldier_F
         mag_2(SmokeShell)
     };
 };
+class Atlas_I_I_Sharpshooter_F: B_Sharpshooter_F
+{
+	author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_Sharpshooter_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	side = TGuerrila;
+	faction = Atlas_IND_I_F;
+	genericNames = IDFMen;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Head_IDF,
+		G_IDF_default
+	};
+	uniformClass = Atlas_U_I_I_CombatUniform_olive;
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		Aegis_H_MilCap_TacHs_grn_F,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_light_Olive_F,
+		Aegis_H_MilCap_TacHs_grn_F,
+		DefaultManLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+	{
+		Atlas_srifle_DMR_02_AMS_LP_BI_F,
+		hgun_ACPC2_F,
+        DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		Atlas_srifle_DMR_02_AMS_LP_BI_F,
+		hgun_ACPC2_F,
+        DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_6(10rnd_338_mag),
+        mag_2(9Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(10rnd_338_mag),
+        mag_2(9Rnd_45ACP_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+};
 class Atlas_I_I_Soldier_diver_base: Atlas_I_I_Soldier_Base_F
 {
     author = $STR_A3_A_AveryTheKitty;
@@ -2140,7 +2199,7 @@ class Atlas_I_I_recon_AR_F: Atlas_I_I_Soldier_recon_base
     };
     magazines[] =
     {
-        mag_4(150Rnd_762x51_Box_Yellow),
+        mag_4(Atlas_150Rnd_762x51_Box_Yellow),
         mag_2(9Rnd_45ACP_Mag),
         MiniGrenade,
         mag_2(SmokeShell),
@@ -2148,7 +2207,7 @@ class Atlas_I_I_recon_AR_F: Atlas_I_I_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_4(150Rnd_762x51_Box_Yellow),
+        mag_4(Atlas_150Rnd_762x51_Box_Yellow),
         mag_2(9Rnd_45ACP_Mag),
         MiniGrenade,
         mag_2(SmokeShell),

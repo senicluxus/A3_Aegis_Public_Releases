@@ -21,6 +21,17 @@ class CfgVehicles
 					"\A3_Atlas\Air_F_Atlas\Heli_Attack_02\Data\Heli_Attack_02_body2_whex_CO.paa"
 				};
 				faction[] = {};
+			};
+			class Takistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TKHEX0;
+				author = $STR_A3_A_Avery;
+				textures[] = 
+				{
+					"\A3_Atlas\Air_F_Atlas\Heli_Attack_02\Data\Heli_Attack_02_body1_tk_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\Heli_Attack_02\Data\Heli_Attack_02_body2_tk_CO.paa"
+				};
+				faction[] = {};
 			};	
 		};
 	};

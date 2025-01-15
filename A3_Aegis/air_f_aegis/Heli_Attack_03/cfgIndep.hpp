@@ -1,6 +1,6 @@
-class I_Heli_Attack_03_F: Heli_Attack_03_base_F
+class I_Heli_Attack_03_F: Aegis_Heli_Attack_03_v2_base_F
 {
-    author = $STR_A3_A_AveryTheKitty;
+    author = $STR_A3_A_Grave;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\I_Heli_Attack_03_F.jpg";
 	scope = public;
 	scopeCurator = public;

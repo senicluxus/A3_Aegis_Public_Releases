@@ -165,7 +165,7 @@ class B_Carryall_mcamo_BAAmmo_F: B_Carryall_mcamo
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(10Rnd_338_Mag,2);
+		mag_xx(20Rnd_762x51_Mag,2);
 	};
 	class TransportItems
 	{
@@ -253,7 +253,7 @@ class B_Carryall_tna_BAAmmo_F: B_Carryall_tna_F
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(10Rnd_338_Mag,2);
+		mag_xx(20Rnd_762x51_Mag,2);
 	};
 	class TransportItems
 	{
@@ -341,7 +341,7 @@ class B_Carryall_wdl_BAAmmo_F: B_Carryall_wdl_F
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(10Rnd_338_Mag,2);
+		mag_xx(20Rnd_762x51_Mag,2);
 	};
 	class TransportItems
 	{

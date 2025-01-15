@@ -11,8 +11,11 @@ class CfgPatches
 		requiredAddons[] =
         {
             A3_Aegis_Data_F_Aegis,
+			A3_Language_F,
             A3_Language_F_Beta,
-            A3_Language_F_Enoch
+            A3_Language_F_Enoch,
+			A3_Language_F_Exp,
+			Language_f_lxWS
         };
 		requiredVersion = 0.1;
 		units[] = {/* Automated */};

@@ -10,7 +10,7 @@ class CfgVehicles
     	{
         	class Sep_01
         	{
-            	displayName = "Separatist";
+            	displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_010;
             	author = $STR_A3_A_BranFlakes;
             	textures[] =
             	{
@@ -30,14 +30,14 @@ class CfgVehicles
     	{
         	class Sep_01
         	{
-            	displayName = "Separatist";
+            	displayName = $STR_A3_O_TEXTURESOURCES_SEPARATIST_010;
             	author = $STR_A3_A_BranFlakes;
             	textures[] =
             	{
                 	"\A3_Opf\Armor_F_Opf\APC_Tracked_02\Data\APC_Tracked_02_ext_01_Opf_CO.paa",
                 	"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_ext_02_RUkhk_CO.paa",
                 	"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\apc_tracked_02_ext_03_RUkhk_co.paa",
-                	"\A3_Aegis\Armor_F_Aegis\APC_Tracked_02\Data\APC_Tracked_02_30mm_RUkhk_CO.paa",
+                	"\A3_Opf\Armor_F_Opf\APC_Tracked_02\Data\APC_Tracked_02_tow_chdkz_co.paa",
                 	"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_green_CO.paa",
                 	"\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
             	};

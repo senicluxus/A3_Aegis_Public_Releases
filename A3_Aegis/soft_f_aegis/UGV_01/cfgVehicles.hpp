@@ -96,6 +96,18 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_Grave;
+				textures[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_EAF_Arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_EAF_Arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\Turret_EAF_Arid_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class UGV_01_rcws_base_F: UGV_01_base_F
@@ -191,6 +203,18 @@ class CfgVehicles
 					"\A3\Soft_F_Enoch\UGV_01\Data\UGV_01_int_EAF_CO.paa",
 					"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
 				};
+			};
+			class EAF_Arid: EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_Grave;
+				textures[] =
+				{
+        			"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_ext_EAF_Medevac_Arid_CO.paa",
+        			"\A3_Aegis\Soft_F_Aegis\UGV_01\Data\UGV_01_int_EAF_Arid_CO.paa",
+        			"\A3\Soft_F_Orange\UGV_01\Data\Turret_IDAP_CO.paa"
+    			};
+				factions[] = {};
 			};
 			class Green: Green
 			{

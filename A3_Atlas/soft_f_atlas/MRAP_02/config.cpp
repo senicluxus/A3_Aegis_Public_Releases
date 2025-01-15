@@ -22,6 +22,18 @@ class CfgVehicles
 				factions[] = {};
 			};
 		};
+		class Ardistan
+		{
+			displayName = $STR_A3_A_TEXTURESOURCES_ardi0;
+			author = $STR_A3_A_BranFlakes;
+			textures[] =
+			{
+				"\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\MRAP_02_ext_01_ardi_CO.paa",
+				"\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\MRAP_02_ext_02_ardi_CO.paa",
+				"\A3_Atlas\Soft_F_Atlas\MRAP_02\Data\Turret_ardi_CO.paa"
+			};
+			factions[] = {};
+		};
 	};
 	class MRAP_02_hmg_base_F: MRAP_02_base_F{};
 	class MRAP_02_gmg_base_F: MRAP_02_hmg_base_F{};
@@ -32,6 +44,7 @@ class CfgVehicles
 	class O_MRAP_02_gmg_F;
 	// Arma 3 Atlas
 	#include "cfgOpfor_Aegis.hpp"       // Belarus
+	#include "cfgArdistan.hpp"		//Ardistan
     /*
 	#include "cfgCDF.hpp"               // CDF
     */

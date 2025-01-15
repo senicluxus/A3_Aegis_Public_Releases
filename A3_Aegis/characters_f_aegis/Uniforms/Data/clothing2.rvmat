@@ -2,12 +2,12 @@ class StageTI
 {
 	texture="#(argb,8,8,3)color(0,0,0,0)";
 };
-ambient[]={0.7,0.7,0.7,1};
-diffuse[]={0.7,0.7,0.7,1};
+ambient[]={1,1,1,1};
+diffuse[]={1,1,1,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
-specular[]={0.1,0.1,0.1,1};
-specularPower=22;
+specular[]={0.55000001,0.55000001,0.55000001,1};
+specularPower=55;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1

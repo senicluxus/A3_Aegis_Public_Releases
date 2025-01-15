@@ -13,6 +13,17 @@ class CfgVehicles
 			{
 				factions[] += {Atlas_OPF_T_F};
 			};
+			class Takistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TKHEX0;
+				author = $STR_A3_A_Avery;
+				textures[] = 
+				{
+					"\A3_Atlas\Air_F_Atlas\Plane_Fighter_03\Data\Plane_Fighter_03_body_1_tk_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\Plane_Fighter_03\Data\Plane_Fighter_03_body_2_tk_CO.paa"
+				};
+				faction[] = {};
+			};
 			class Grey
 			{
 				factions[] += {Atlas_OPF_T_F};

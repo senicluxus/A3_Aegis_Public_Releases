@@ -150,7 +150,7 @@ class Atlas_O_LightFatigues_01_whex_F: O_A_officer_F
 	uniformClass = Atlas_U_O_W_officer_noInsignia_whex_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Officer_noinsignia_whex_CO.paa"};
 };
-/*class Aegis_O_Luchnik_01_taiga_F;
+class Aegis_O_Luchnik_01_taiga_F;
 class Atlas_O_Luchnik_01_whex_F: Aegis_O_Luchnik_01_taiga_F
 {
     scope = protected;
@@ -159,8 +159,7 @@ class Atlas_O_Luchnik_01_whex_F: Aegis_O_Luchnik_01_taiga_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing2_whex_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_wdl_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa"
 	};
 };
 class Aegis_O_Luchnik_01_shortsleeve_taiga_F;
@@ -172,8 +171,7 @@ class Atlas_O_Luchnik_01_shortsleeve_whex_F: Aegis_O_Luchnik_01_shortsleeve_taig
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing2_whex_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_wdl_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_grn_CO.paa"
 	};
 };
 class Aegis_O_Luchnik_01_officer_taiga_F;
@@ -184,10 +182,9 @@ class Atlas_O_Luchnik_01_officer_whex_F: Aegis_O_Luchnik_01_officer_taiga_F
 	uniformClass = Atlas_U_O_Luchnik_Officer_whex_F;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing2_officer_whex_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_wdl_CO.paa"
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing2_officer_whex_CO.paa"
 	};
-};*/
+};
 class O_R_Fatigues_01_Tshirt_taiga_F;
 class Atlas_O_Luchnik_01_Tshirt_whex_F: O_R_Fatigues_01_Tshirt_taiga_F
 {
@@ -412,6 +409,13 @@ class Atlas_B_G_Coveralls_01_F: B_Soldier_04_f
 	uniformClass = Atlas_U_B_G_HeliPilotCoveralls;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\coveralls_green_CO.paa"};
 };
+class Atlas_B_K_Coveralls_01_F: B_Soldier_04_f
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Atlas_U_B_K_HeliPilotCoveralls;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_Coveralls_kzg_CO.paa"};
+};
 class Atlas_B_G_TankerCoveralls_01_F: I_Story_Crew_F
 {
   	scope = protected;
@@ -432,7 +436,7 @@ class Atlas_O_Fatigues_01_semiarid_F: O_Soldier_F
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\tech_tka_CO.paa"
 	};
 };
-/*class Atlas_O_Luchnik_01_semiarid_F: Aegis_O_Luchnik_01_taiga_F
+class Atlas_O_Luchnik_01_semiarid_F: Aegis_O_Luchnik_01_taiga_F
 {
     scope = protected;
     scopeCurator = private;
@@ -440,8 +444,7 @@ class Atlas_O_Fatigues_01_semiarid_F: O_Soldier_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing2_semiarid_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tka_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa"
 	};
 };
 class Atlas_O_Luchnik_01_shortsleeve_semiarid_F: Aegis_O_Luchnik_01_shortsleeve_taiga_F
@@ -452,10 +455,9 @@ class Atlas_O_Luchnik_01_shortsleeve_semiarid_F: Aegis_O_Luchnik_01_shortsleeve_
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing2_semiarid_CO.paa",
-		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_tka_CO.paa"
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\TacGloves_khk_CO.paa"
 	};
-};*/
+};
 class Atlas_O_Fatigues_01_Tshirt_semiarid_F: O_R_Fatigues_01_Tshirt_taiga_F
 {
 	scope = protected;
@@ -994,7 +996,6 @@ class Atlas_B_Mo_CombatFatigues_01_RolledUp_north_F: I_soldier_lite_F
 };
 
 /* Karzegistan */
-/*
 class Atlas_B_K_CombatFatigues_F: I_E_Uniform_01_F
 {
   	scope = protected;
@@ -1002,8 +1003,8 @@ class Atlas_B_K_CombatFatigues_F: I_E_Uniform_01_F
 	uniformClass = Atlas_U_B_K_CombatUniform;
 	hiddenSelectionsTextures[] = 
 	{
-		"\A3_Atlas\Characters_F_Atlas\uniforms\data\Uniform_KZG_CombatFatigues.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Uniform_KZG_CombatFatigues_Pants.paa",
+		"\A3_Atlas\Characters_F_Atlas\uniforms\data\Uniform_KZG_CombatFatigues_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Uniform_KZG_CombatFatigues_Pants_CO.paa",
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
 };
@@ -1015,8 +1016,8 @@ class Atlas_B_K_CombatFatigues_RolledUp_F: I_SFIA_Soldier_AR_lxWS
 	uniformClass = Atlas_U_B_K_CombatUniform_shortsleeve;
 	hiddenSelectionsTextures[] = 
 	{
-		"\A3_Atlas\Characters_F_Atlas\uniforms\data\Uniform_KZG_CombatFatigues.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Uniform_KZG_CombatFatigues_Pants.paa"
+		"\A3_Atlas\Characters_F_Atlas\uniforms\data\Uniform_KZG_CombatFatigues_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Uniform_KZG_CombatFatigues_Pants_CO.paa"
 	};
 };
 class Atlas_B_K_CBRN_Man_Oversuit_01_KZG_F: B_CBRN_Man_Oversuit_01_MTP_F
@@ -1025,13 +1026,30 @@ class Atlas_B_K_CBRN_Man_Oversuit_01_KZG_F: B_CBRN_Man_Oversuit_01_MTP_F
 	uniformClass = Atlas_U_B_K_CBRN_Suit_01_F;
 	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\CBRN_Suit_01_KZG_CO.paa"};
 };
-*/
+class Atlas_B_K_GhillieSuit_01_F: I_sniper_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Atlas_U_B_K_GhillieSuit;
+	hiddenSelections[] =
+    {
+		camo,
+		camo3,
+		insignia
+    };
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\Uniform_KZG_CombatFatigues_Pants_CO.paa",
+        "\A3\characters_f\Common\Data\ghillie_desert_CO.paa"
+    };
+};
 /* Afghanka / Gora Fatigues */
 // Long Sleeves - No Gloves
 class Atlas_O_Afghanka_01_base_F: O_A_officer_F
 {
     scope = protected;
     scopeCurator = private;
+	modelSides[] = {TFriendly};
 	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_Afghanka_01.p3d";
 	hiddenSelections[] =
 	{
@@ -1053,12 +1071,14 @@ class Atlas_O_Afghanka_01_base_F: O_A_officer_F
             INJURY_PERSONALITY_MATERIALS
         };
 	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
 };
 // Rolled Sleeves - No Gloves
 class Atlas_O_Afghanka_02_base_F: Atlas_O_Afghanka_01_base_F
 {
     scope = protected;
     scopeCurator = private;
+	modelSides[] = {TFriendly};
 	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_Afghanka_02.p3d";
 	hiddenSelections[] =
 	{
@@ -1086,6 +1106,7 @@ class Atlas_O_Afghanka_03_base_F:  Atlas_O_Afghanka_01_base_F
 {
     scope = protected;
     scopeCurator = private;
+	modelSides[] = {TFriendly};
 	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_Afghanka_03.p3d";
 	hiddenSelections[] =
 	{
@@ -1115,6 +1136,7 @@ class Atlas_O_Afghanka_04_base_F:  Atlas_O_Afghanka_01_base_F
 {
     scope = protected;
     scopeCurator = private;
+	modelSides[] = {TFriendly};
 	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_Afghanka_04.p3d";
 	hiddenSelections[] =
 	{
@@ -1330,6 +1352,46 @@ class Atlas_O_Afghanka_02_ruarid_F: Atlas_O_Afghanka_02_grn_F
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_Afghanka_ruarid_CO.paa"
 	};
 };
+class Atlas_I_Afghanka_01_ardi_F: Atlas_O_Afghanka_03_base_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_I_Afghanka_01_ardi_half_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\M88_Ardi_Half_CO.paa"
+	};
+};
+class Atlas_I_Afghanka_02_ardi_F: Atlas_O_Afghanka_04_base_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_I_Afghanka_02_ardi_half_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\M88_Ardi_Half_CO.paa"
+	};
+};
+class Atlas_I_Afghanka_03_ardi_F: Atlas_O_Afghanka_03_base_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_I_Afghanka_01_ardi_full_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\M88_Ardi_Full_CO.paa"
+	};
+};
+class Atlas_I_Afghanka_04_ardi_F: Atlas_O_Afghanka_04_base_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_I_Afghanka_02_ardi_full_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\M88_Ardi_Full_CO.paa"
+	};
+};
 /* Afghanka / Gora Fatigues - End */
 
 /* US JSOC Stealth Uniforms */
@@ -1436,10 +1498,11 @@ class Atlas_B_T_JSOC_StealthUniform_RolledUp_alt_F: B_CTRG_Soldier_3_F
 /* JSOC - End */
 
 /* Battledress Uniform */
-/*class Atlas_UniformBDU_01_oli_F: I_soldier_F
+class Atlas_UniformBDU_01_oli_F: I_soldier_F
 {
     scope = protected;
     scopeCurator = private;
+	modelSides[] = {TFriendly};
 	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_UniformBDU_01.p3d";
 	hiddenSelections[] =
 	{
@@ -1464,11 +1527,13 @@ class Atlas_B_T_JSOC_StealthUniform_RolledUp_alt_F: B_CTRG_Soldier_3_F
             INJURY_PERSONALITY_MATERIALS
         };
 	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
 };
 class Atlas_UniformBDU_02_oli_F: I_soldier_F
 {
     scope = protected;
     scopeCurator = private;
+	modelSides[] = {TFriendly};
 	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_UniformBDU_02.p3d";
 	hiddenSelections[] =
 	{
@@ -1493,22 +1558,27 @@ class Atlas_UniformBDU_02_oli_F: I_soldier_F
             INJURY_PERSONALITY_MATERIALS
         };
 	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
 };
 class Atlas_UniformBDU_03_oli_F: I_soldier_F
 {
     scope = protected;
     scopeCurator = private;
+	modelSides[] = {TFriendly};
 	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_UniformBDU_03.p3d";
 	hiddenSelections[] =
 	{
 		camo,
-		camo1
+		camo1,
+		camo2,
+		insignia
 	};
 	uniformClass =  Atlas_U_UniformBDU_03_oli_F;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_oli_CO.paa",
-		"\A3_Aegis\characters_f_aegis\Uniforms\Data\U_TShirt_oli_CO.paa"
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_oli_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\combatgloves_blk_co.paa"
 	};
 	class Wounds
 	{
@@ -1518,28 +1588,30 @@ class Atlas_UniformBDU_03_oli_F: I_soldier_F
             "A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU.rvmat",
             "A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_injury.rvmat",
             "A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_injury.rvmat",
-			"A3_Aegis\characters_f_aegis\Uniforms\Data\U_Tanktop.rvmat",
-			"A3_Aegis\characters_f_aegis\Uniforms\Data\U_Tanktop_injury.rvmat",
-			"A3_Aegis\characters_f_aegis\Uniforms\Data\U_Tanktop_injury.rvmat",
             INJURY_PERSONALITY_MATERIALS
         };
 	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
 };
 class Atlas_UniformBDU_04_oli_F: I_soldier_F
 {
     scope = protected;
     scopeCurator = private;
+	modelSides[] = {TFriendly};
 	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_UniformBDU_04.p3d";
 	hiddenSelections[] =
 	{
 		camo,
-		camo1
+		camo1,
+		camo2,
+		insignia
 	};
 	uniformClass =  Atlas_U_UniformBDU_04_oli_F;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_oli_CO.paa",
-		"\A3_Aegis\characters_f_aegis\Uniforms\Data\U_Tanktop_oli_CO.paa"
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_oli_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\combatgloves_blk_co.paa"
 	};
 	class Wounds
 	{
@@ -1549,12 +1621,10 @@ class Atlas_UniformBDU_04_oli_F: I_soldier_F
             "A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU.rvmat",
             "A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_injury.rvmat",
             "A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_injury.rvmat",
-			"A3_Aegis\characters_f_aegis\Uniforms\Data\U_TShirt.rvmat",
-			"A3_Aegis\characters_f_aegis\Uniforms\Data\U_TShirt_injury.rvmat",
-			"A3_Aegis\characters_f_aegis\Uniforms\Data\U_TShirt_injury.rvmat",
             INJURY_PERSONALITY_MATERIALS
         };
 	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
 };
 class Atlas_UniformBDU_01_m81_F: Atlas_UniformBDU_01_oli_F
 {
@@ -1564,7 +1634,7 @@ class Atlas_UniformBDU_01_m81_F: Atlas_UniformBDU_01_oli_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_m81_CO.paa",
-		""
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_m81_CO.paa"
 	};
 };
 class Atlas_UniformBDU_02_m81_F: Atlas_UniformBDU_02_oli_F
@@ -1575,7 +1645,7 @@ class Atlas_UniformBDU_02_m81_F: Atlas_UniformBDU_02_oli_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_m81_CO.paa",
-		""
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_m81_CO.paa"
 	};
 };
 class Atlas_UniformBDU_03_m81_F: Atlas_UniformBDU_03_oli_F
@@ -1586,7 +1656,8 @@ class Atlas_UniformBDU_03_m81_F: Atlas_UniformBDU_03_oli_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_m81_CO.paa",
-		"\A3_Aegis\characters_f_aegis\Uniforms\Data\U_TShirt_oli_CO.paa"
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_m81_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\combatgloves_blk_co.paa"
 	};
 };
 class Atlas_UniformBDU_04_m81_F: Atlas_UniformBDU_04_oli_F
@@ -1597,29 +1668,373 @@ class Atlas_UniformBDU_04_m81_F: Atlas_UniformBDU_04_oli_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_m81_CO.paa",
-		"\A3_Aegis\characters_f_aegis\Uniforms\Data\U_Tanktop_oli_CO.paa"
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_m81_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\combatgloves_blk_co.paa"
 	};
 };
-class Atlas_UniformBDU_01_reservist_F: Atlas_UniformBDU_01_oli_F
+class Atlas_UniformBDU_03_reservist_F: Atlas_UniformBDU_03_oli_F
 {
     scope = protected;
     scopeCurator = private;
-	uniformClass =  Atlas_U_UniformBDU_01_reservist_F;
+	uniformClass =  Atlas_U_UniformBDU_03_reservist_F;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_reservist_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_reservist_CO.paa"
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_reservist_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\combatgloves_grn_co.paa"
 	};
 };
-class Atlas_UniformBDU_02_reservist_F: Atlas_UniformBDU_02_oli_F
+class Atlas_UniformBDU_04_reservist_F: Atlas_UniformBDU_04_oli_F
 {
     scope = protected;
     scopeCurator = private;
-	uniformClass =  Atlas_U_UniformBDU_02_reservist_F;
+	uniformClass =  Atlas_U_UniformBDU_04_reservist_F;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_reservist_CO.paa",
-		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_reservist_CO.paa"
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_reservist_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\combatgloves_grn_co.paa"
 	};
-};*/
+};
+class Atlas_UniformBDU_01_HI_F: Atlas_UniformBDU_01_oli_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_UniformBDU_01_HI_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_himf_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_himf_CO.paa"
+	};
+};
+class Atlas_UniformBDU_02_HI_F: Atlas_UniformBDU_02_oli_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_UniformBDU_02_HI_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_himf_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_UniformBDU_himf_CO.paa"
+	};
+};
 /* Battledress Uniform - End */
+
+/* Nordic Combat Uniform */
+class Atlas_I_E_SF_CombatUniformNCU_01_F: I_soldier_F
+{
+    scope = protected;
+    scopeCurator = private;
+	modelSides[] = {TFriendly};
+	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_CombatUniformNCU_01.p3d";
+	hiddenSelections[] =
+	{
+		camo,
+		camo2,
+		insignia
+	};
+	uniformClass =  Atlas_U_E_SF_CombatUniformNCU_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_ldf_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_grn_CO.paa"
+	};
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+        {
+            "A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu.rvmat",
+            "A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            "A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            INJURY_PERSONALITY_MATERIALS
+        };
+	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
+};
+class Atlas_I_E_SF_CombatUniformNCU_02_F: I_soldier_F
+{
+    scope = protected;
+    scopeCurator = private;
+	modelSides[] = {TFriendly};
+	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_CombatUniformNCU_02.p3d";
+	hiddenSelections[] =
+	{
+		camo,
+		camo2,
+		insignia
+	};
+	uniformClass =  Atlas_U_E_SF_CombatUniformNCU_02_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_ldf_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_grn_CO.paa"
+	};
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+        {
+            "A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu.rvmat",
+            "A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            "A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            INJURY_PERSONALITY_MATERIALS
+        };
+	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
+};
+class Atlas_I_E_SF_CombatUniformNCU_01_ard_F: I_soldier_F
+{
+    scope = protected;
+    scopeCurator = private;
+	modelSides[] = {TFriendly};
+	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_CombatUniformNCU_01.p3d";
+	hiddenSelections[] =
+	{
+		camo,
+		camo2,
+		insignia
+	};
+	uniformClass =  Atlas_U_E_SF_CombatUniformNCU_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_ldf_arid_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_khk_CO.paa"
+	};
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+        {
+            "A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu.rvmat",
+            "A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            "A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            INJURY_PERSONALITY_MATERIALS
+        };
+	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
+};
+class Atlas_I_E_SF_CombatUniformNCU_02_ard_F: I_soldier_F
+{
+    scope = protected;
+    scopeCurator = private;
+	modelSides[] = {TFriendly};
+	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_CombatUniformNCU_02.p3d";
+	hiddenSelections[] =
+	{
+		camo,
+		camo2,
+		insignia
+	};
+	uniformClass =  Atlas_U_E_SF_CombatUniformNCU_02_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_ldf_arid_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_khk_CO.paa"
+	};
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+        {
+            "A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu.rvmat",
+            "A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            "A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            INJURY_PERSONALITY_MATERIALS
+        };
+	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
+};
+class Atlas_CombatUniformNCU_01_flecktarn_F: Atlas_I_E_SF_CombatUniformNCU_01_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_CombatUniformNCU_01_flecktarn_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_flecktarn_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_grn_CO.paa"
+	};
+};
+class Atlas_CombatUniformNCU_02_flecktarn_F: Atlas_I_E_SF_CombatUniformNCU_02_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_CombatUniformNCU_02_flecktarn_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_flecktarn_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_grn_CO.paa"
+	};
+};
+class Atlas_CombatUniformNCU_01_multitarn_F: Atlas_I_E_SF_CombatUniformNCU_01_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_CombatUniformNCU_01_multitarn_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_multitarn_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_khk_CO.paa"
+	};
+};
+class Atlas_CombatUniformNCU_02_multitarn_F: Atlas_I_E_SF_CombatUniformNCU_02_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_CombatUniformNCU_02_multitarn_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_multitarn_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_khk_CO.paa"
+	};
+};
+class Atlas_CombatUniformNCU_01_mcam_F: Atlas_I_E_SF_CombatUniformNCU_01_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_CombatUniformNCU_01_mcam_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_mcam_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_khk_CO.paa"
+	};
+};
+class Atlas_CombatUniformNCU_02_mcam_F: Atlas_I_E_SF_CombatUniformNCU_02_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_CombatUniformNCU_02_mcam_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_mcam_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_khk_CO.paa"
+	};
+};
+class Atlas_CombatUniformNCU_01_mcam_wdl_F: Atlas_I_E_SF_CombatUniformNCU_01_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_CombatUniformNCU_02_mcam_wdl_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_mcam_wdl_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_grn_CO.paa"
+	};
+};
+class Atlas_CombatUniformNCU_02_mcam_wdl_F: Atlas_I_E_SF_CombatUniformNCU_02_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_CombatUniformNCU_02_mcam_wdl_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_mcam_wdl_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_grn_CO.paa"
+	};
+};
+/* Nordic Combat Uniform - End */
+/* European Field Uniform - Begin */
+class Atlas_CombatUniformEURO_01_F: I_soldier_F
+{
+    scope = protected;
+    scopeCurator = private;
+	modelSides[] = {TFriendly};
+	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_CombatUniformEURO_01.p3d";
+	hiddenSelections[] =
+	{
+		camo,
+		camo1,
+		camo2,
+		insignia
+	};
+	uniformClass =  Atlas_U_E_SF_CombatUniformEURO_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_euro_flecktarn_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_flecktarn_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_grn_CO.paa"
+	};
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+        {
+            "A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_euro.rvmat",
+            "A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_euro_injury.rvmat",
+			"A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_euro_injury.rvmat",
+			"A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu.rvmat",
+            "A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            "A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            INJURY_PERSONALITY_MATERIALS
+        };
+	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
+};
+class Atlas_CombatUniformEURO_02_F: I_soldier_F
+{
+    scope = protected;
+    scopeCurator = private;
+	modelSides[] = {TFriendly};
+	model = "\A3_Atlas\Characters_F_Atlas\Uniforms\U_CombatUniformEURO_02.p3d";
+	hiddenSelections[] =
+	{
+		camo,
+		camo1,
+		camo2,
+		insignia
+	};
+	uniformClass =  Atlas_U_E_SF_CombatUniformEURO_02_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_euro_flecktarn_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_flecktarn_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_grn_CO.paa"
+	};
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+        {
+            "A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_euro.rvmat",
+            "A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_euro_injury.rvmat",
+			"A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_euro_injury.rvmat",
+			"A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu.rvmat",
+            "A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            "A3_Atlas\characters_f_atlas\Uniforms\Data\clothing_ncu_injury.rvmat",
+            INJURY_PERSONALITY_MATERIALS
+        };
+	};
+	armorstructural = 4;	// We use the short rod collider, so lets double check damage values are correct
+};
+class Atlas_CombatUniformEURO_01_multitarn_F: Atlas_CombatUniformEURO_01_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_CombatUniformEURO_01_multitarn_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_euro_multitarn_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_multitarn_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_khk_CO.paa"
+	};
+};
+class Atlas_CombatUniformEURO_02_multitarn_F: Atlas_CombatUniformEURO_02_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  Atlas_U_CombatUniformEURO_02_multitarn_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_euro_multitarn_CO.paa",
+		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\clothing_ncu_multitarn_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\CombatGloves_khk_CO.paa"
+	};
+};
+class Atlas_I_A_PilotCoveralls_01_F: O_Pilot_F
+{
+	scope = protected;
+    scopeCurator = private;
+	uniformClass = Atlas_U_I_A_PilotCoveralls;
+	hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\U_Pilot_ardi_CO.paa"};
+};

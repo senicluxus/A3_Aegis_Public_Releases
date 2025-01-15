@@ -15,7 +15,18 @@ class CfgVehicles
 			{
 				displayName = $STR_A3_TEXTURESOURCES_DESERT0;
 				author = $STR_A3_A_AveryTheKitty;
-				textures[] = {"A3_Atlas\Air_F_Atlas\Heli_Light_01\Data\Heli_Light_01_ext_desert_CO.paa"};
+				textures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_01\Data\Heli_Light_01_ext_desert_CO.paa"};
+				factions[] = {};
+			};
+			class Jungle
+			{
+				displayName = $STR_A3_TEXTURESOURCES_JUNGLE0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+                {
+                   "\A3_Atlas\Air_F_Atlas\Heli_Light_01\Data\Heli_Light_01_ext_Jungle_CO.paa",
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
+                };
 				factions[] = {};
 			};
 		};
@@ -34,6 +45,14 @@ class CfgVehicles
                     "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
                 };
 			};
+			class Jungle: Jungle
+			{
+				textures[] =
+                {
+                    "\A3_Atlas\Air_F_Atlas\Heli_Light_01\Data\Heli_Light_01_ext_Jungle_CO.paa",
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
+                };
+			};
 		};
     };
     class Heli_Light_01_dynamicLoadout_base_F;
@@ -43,6 +62,7 @@ class CfgVehicles
     class B_Heli_Light_01_F;
     class B_Heli_Light_01_dynamicLoadout_F;
 	#include "cfgIDF.hpp"   // IDF
+	#include "cfgHIMF.hpp"	// HIMF
 
     /* Deprecated */
     #include "deprecated.hpp"

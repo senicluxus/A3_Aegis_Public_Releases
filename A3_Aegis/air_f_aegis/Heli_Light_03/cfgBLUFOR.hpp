@@ -131,6 +131,7 @@ class B_A_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F
 		verticalOffsetWorld = -0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
+    displayName = $STR_A3_A_CfgVehicles_B_A_heli_light_03_f0;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_light_03_dynamicLoadout_F.jpg";
 	scope = public;
 	side = TWest;
@@ -292,6 +293,7 @@ class B_A_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F
 		verticalOffsetWorld = -0.143;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
+    displayName = $STR_A3_A_CfgVehicles_B_A_heli_light_03_unarmed_f0;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Heli_light_03_unarmed_F.jpg";
 	scope = public;
 	side = TWest;

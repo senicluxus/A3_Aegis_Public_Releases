@@ -341,4 +341,62 @@ class CfgRecoils
 		};
         temporary = 0.0099999998;
     };
+
+	/* P320 Recoil */
+	class Aegis_recoil_pistol_P320: recoil_default
+	{
+		muzzleOuter[]={0.2,1,0.2,0.3};
+		kickBack[]={0.03,0.06};
+		temporary=0.03;
+	};
+
+	/* RP57 Recoil */
+	class Aegis_recoil_pistol_RP57: recoil_default
+	{
+		muzzleOuter[] = 
+		{
+			0.3,
+			0.8,
+			0.2,
+			0.2
+		};
+		kickBack[] = 
+		{
+			0.03,
+			0.06
+		};
+		temporary = 0.03;
+	};
+	/* M16E4 Recoil*/
+	class Aegis_recoil_rifle_M16A4: recoil_default
+    {
+        muzzleOuter[] = {
+			0.2,
+			0.9,
+			0.32,
+			0.28
+		};
+        kickBack[] = {
+			0.015,
+			0.035
+		};
+        temporary = 0.016;
+    };
+	/* PPL-20M */
+	class Aegis_recoil_Gepard: recoil_default
+	{
+		muzzleOuter[] =
+		{
+			0.22,
+			0.42,
+			0.31,
+			0.32
+		};
+		kickBack[] =
+		{
+			0.01,
+			0.03
+		};
+		temporary = 0.012;
+	};
 };

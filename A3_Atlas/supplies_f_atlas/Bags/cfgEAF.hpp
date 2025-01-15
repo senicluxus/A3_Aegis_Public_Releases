@@ -43,6 +43,7 @@ class Atlas_B_Carryall_green_ResAmmo_F: B_Carryall_green_F
 	{
 		mag_xx(30rnd_545x39_Steel_Mag_Red_F,6);
 		mag_xx(Aegis_60Rnd_545x39_Mag_Green_F,1);
+		mag_xx(Aegis_10Rnd_762x54_SVD_Red_Mag_F,2);
 		mag_xx(MRAWS_Heat55_F,1);
 		mag_xx(HandGrenade,2);
 		mag_xx(1Rnd_HE_Grenade_shell,6);

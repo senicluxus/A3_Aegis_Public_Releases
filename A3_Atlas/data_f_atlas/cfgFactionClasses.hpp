@@ -98,6 +98,14 @@ class CfgFactionClasses
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\icon_TKA_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Takistan_CO.paa";
 	};
+	class Atlas_OPF_PLANMC_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_Atlas_OPF_Marine_F0;
+		priority = 3;
+		side = TEast;
+		icon = "\A3_Aegis\Data_F_Aegis\FactionIcons\CfgFactionClasses_OPF_T_CA.paa";
+		flag = "\A3_Aegis\Data_F_Aegis\Flags\flag_China_CO.paa";
+	};
 	/*class Atlas_OPF_E_F
 	{
 		displayName = $STR_A3_A_CfgFactionClasses_OPF_E_F0;
@@ -170,5 +178,21 @@ class CfgFactionClasses
 		side = TWest;
 		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_BLU_M_CA.paa";
 		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Marar_CO.paa";
+	};
+	class Atlas_BLU_K_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_BLU_K_F0;
+		priority = 3;
+		side = TWest;
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_BLU_k_CA.paa";
+		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Karzeghistan_CO.paa";
+	};
+	class Atlas_IND_AR_F
+	{
+		displayName = $STR_A3_A_CfgFactionClasses_OPF_AR_F0;
+		priority = 3;
+		side = TGuerrila;
+		icon = "\A3_Atlas\Data_F_Atlas\FactionIcons\CfgFactionClasses_BLU_k_CA.paa";
+		flag = "\A3_Atlas\Data_F_Atlas\Flags\flag_Karzeghistan_CO.paa";
 	};
 };

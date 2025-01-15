@@ -3,7 +3,7 @@ class B_Heli_Light_01_F: Heli_Light_01_unarmed_base_F
 {
     textureList[] =
     {
-        Blu,1,
+        Green,1,
         Black,0
     };
 };
@@ -11,7 +11,7 @@ class B_Heli_Light_01_armed_F: Heli_Light_01_armed_base_F
 {
     textureList[] =
     {
-        Blu,1,
+        Green,1,
         Black,0
     };
 };
@@ -19,7 +19,7 @@ class B_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_base_F
 {
     textureList[] =
     {
-        Blu,1,
+        Green,1,
         Black,0
     };
 };

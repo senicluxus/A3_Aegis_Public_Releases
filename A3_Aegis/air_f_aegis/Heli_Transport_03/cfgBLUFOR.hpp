@@ -1,6 +1,6 @@
 /* US */
 class B_Heli_Transport_03_F: Heli_Transport_03_base_F{};
-class B_Heli_Transport_03_unarmed_F;
+class B_Heli_Transport_03_unarmed_F: Heli_Transport_03_unarmed_base_F{};
 
 /* US (Pacific) */
 class B_T_Heli_Transport_03_F: B_Heli_Transport_03_F
@@ -136,7 +136,10 @@ class B_T_Heli_Transport_03_F: B_Heli_Transport_03_F
     /* Turrets */
 	class Turrets: Turrets
 	{
-		class CopilotTurret;
+		class CopilotTurret: CopilotTurret
+        {
+            gunnerType = B_T_Helipilot_F;
+        };
 		class MainTurret: MainTurret
 		{
 		    gunnerType = B_T_Helicrew_F;
@@ -302,6 +305,13 @@ class B_T_Heli_Transport_03_unarmed_F: B_Heli_Transport_03_unarmed_F
 	{
 		weap_xx(arifle_MXC_khk_F,2);
 	};
+    class Turrets: Turrets
+	{
+		class CopilotTurret: CopilotTurret
+        {
+            gunnerType = B_T_Helipilot_F;
+        };
+	};
 };
 
 /* US (Woodland) */
@@ -438,7 +448,10 @@ class B_W_Heli_Transport_03_F: B_Heli_Transport_03_F
     /* Turrets */
 	class Turrets: Turrets
 	{
-		class CopilotTurret;
+		class CopilotTurret: CopilotTurret
+        {
+            gunnerType = B_W_Helipilot_F;
+        };
 		class MainTurret: MainTurret
 		{
 		    gunnerType = B_W_Helicrew_F;
@@ -604,6 +617,13 @@ class B_W_Heli_Transport_03_unarmed_F: B_Heli_Transport_03_unarmed_F
 	{
 		weap_xx(arifle_MXC_Black_F,2);
 	};
+    class Turrets: Turrets
+	{
+		class CopilotTurret: CopilotTurret
+        {
+            gunnerType = B_W_Helipilot_F;
+        };
+	};
 };
 
 /* US (Desert) */
@@ -628,7 +648,10 @@ class Aegis_B_D_Heli_Transport_03_F: B_Heli_Transport_03_F
      /* Turrets */
 	class Turrets: Turrets
 	{
-		class CopilotTurret;
+		class CopilotTurret: CopilotTurret
+        {
+            gunnerType = B_D_HeliPilot_lxWS;
+        };
 		class MainTurret: MainTurret
 		{
 		    gunnerType = Aegis_B_D_Helicrew_F;
@@ -656,5 +679,12 @@ class Aegis_B_D_Heli_Transport_03_unarmed_F: B_Heli_Transport_03_unarmed_F
 	{
 		"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Transport_03_ext01_sand_CO.paa",
 		"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Transport_03_ext02_sand_CO.paa"
+	};
+    class Turrets: Turrets
+	{
+		class CopilotTurret: CopilotTurret
+        {
+            gunnerType = B_D_HeliPilot_lxWS;
+        };
 	};
 };

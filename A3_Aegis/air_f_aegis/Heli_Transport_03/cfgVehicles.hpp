@@ -84,6 +84,10 @@ class CfgVehicles
 			"\A3_Aegis\Air_F_Aegis\Heli_Transport_03\Data\Heli_Transport_03_ext01_black_CO.paa",
 			"\A3_Aegis\Air_F_Aegis\Heli_Transport_03\Data\Heli_Transport_03_ext02_black_CO.paa"
 		};
+		class Turrets: Turrets
+		{
+			class CopilotTurret;
+		};
 	};
 
     /* Factions */

@@ -5,6 +5,7 @@ class CfgWeapons
 {
 	class UniformItem;
 	class Uniform_Base;
+	#include "cfgArdistan.hpp"			// Karzeghistan
     #include "cfgCivil.hpp"             // Civilians
 	#include "cfgViper.hpp"				// Viper
 	#include "cfgOpfor_Aegis.hpp"		// Belarus
@@ -15,17 +16,17 @@ class CfgWeapons
 	#include "cfgMarar.hpp"				// Marar
     #include "cfgAnzac.hpp"				// ANZAC
     #include "cfgHIMF.hpp"				// HIMF
-    //#include "cfgMorocco.hpp"			// Morocco
-    //#include "cfgKarzeghistan.hpp"		// Karzeghistan
+    #include "cfgMorocco.hpp"			// Morocco
+    #include "cfgKarzeg.hpp"			// Karzeghistan
     /*
 	#include "cfgCDF.hpp"				// CDF
 	*/
     #include "cfgIDF.hpp"				// IDF
     #include "cfgUNO.hpp"				// UNO
-	//#include "cfgIndep.hpp"				// AAF
+	#include "cfgIndep.hpp"			// AAF
 	#include "cfgEAF.hpp"				// LDF Reservists
 	#include "cfgJSOC.hpp"				// US JSOC
-	//#include "cfgBDU.hpp"				// BDUs
+	#include "cfgBDU.hpp"				// BDUs
     
     // Deprecated classes
     #include "deprecated.hpp"

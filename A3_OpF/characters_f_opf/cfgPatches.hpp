@@ -62,6 +62,7 @@ class CfgPatches
             Opf_O_S_Soldier_9_F,
             Opf_O_S_Soldier_Base_unarmed_F,
             Opf_O_S_Soldier_UAV_lxWS,
+            Opf_O_S_HeliPilot_F,
 
             // Insurgents
             Opf_I_I_Soldier_1_F,

@@ -53,6 +53,18 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Aegis\Air_F_Aegis\Heli_Light_03\Data\Heli_Light_03_base_eaf_arid_co.paa",
+					"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_CO.paa",
+					"\A3\Weapons_F\Ammoboxes\Data\AmmoBox_signs_CA.paa"
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class Heli_light_03_dynamicLoadout_base_F: Heli_light_03_base_F

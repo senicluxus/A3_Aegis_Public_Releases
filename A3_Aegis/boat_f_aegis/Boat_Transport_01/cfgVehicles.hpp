@@ -32,8 +32,10 @@ class CfgVehicles
 		};
 	};
 	class Rescue_duck_base_F;
+	class C_Rubberboat;
 
     /* Factions */
     #include "cfgBLUFOR.hpp"    // US
     #include "cfgRUS.hpp"       // Russia
+	#include "cfgCivil.hpp"		// Civilian Rework Factions
 };

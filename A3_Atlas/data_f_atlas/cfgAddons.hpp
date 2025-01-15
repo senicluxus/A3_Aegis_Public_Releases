@@ -67,6 +67,8 @@ class CfgAddons
                 A3_Atlas_Soft_F_Atlas_UGV_01,
                 A3_Atlas_Soft_F_Atlas_UGV_02,
                 A3_Atlas_Soft_F_Atlas_Van_02,
+                A3_Atlas_Soft_F_Atlas_RF,
+                A3_Atlas_Soft_F_Atlas_RF_Pickup_01,
                 A3_Atlas_Sounds_F_Atlas,
                 A3_Atlas_Static_F_Atlas,
                 A3_Atlas_Static_F_Atlas_AA_01,

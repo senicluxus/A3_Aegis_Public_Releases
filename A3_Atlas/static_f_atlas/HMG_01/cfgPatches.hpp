@@ -54,6 +54,10 @@ class CfgPatches
             Atlas_I_C_HMG_01_support_high_F,
             Atlas_I_C_HMG_01_weapon_F,
 
+            // Ardistan
+            Atlas_I_AR_HMG_01_F,
+            Atlas_I_AR_HMG_01_high_F,
+
             // IDF
             Atlas_I_I_HMG_01_A_F,
             Atlas_I_I_HMG_01_A_weapon_F,

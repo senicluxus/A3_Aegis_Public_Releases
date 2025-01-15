@@ -125,7 +125,7 @@ class Aegis_arifle_RPK12_aco_F: arifle_RPK12_F
 {
 	class LinkedItems
 	{
-		LINKED_TOP(optic_ACO_grn_AK_F);
+		LINKED_TOP(Aegis_optic_1p87);
 	};
 };
 class arifle_RPK12_arid_arco_snds_pointer_F: arifle_RPK12_arid_F
@@ -150,7 +150,7 @@ class arifle_AK12_545_aco_pointer_F: arifle_AK12_545_F
 {
 	class LinkedItems
 	{
-        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_TOP(Aegis_optic_1p87);
         LINKED_SIDE(acc_pointer_IR);
 	};
 };
@@ -174,7 +174,7 @@ class arifle_AK12_GL_545_aco_pointer_F: arifle_AK12_GL_545_F
 {
 	class LinkedItems
 	{
-        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_TOP(Aegis_optic_1p87);
         LINKED_SIDE(acc_pointer_IR);
 	};
 };
@@ -198,7 +198,7 @@ class arifle_AK12U_545_aco_F: arifle_AK12U_545_F
 {
 	class LinkedItems
 	{
-        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_TOP(Aegis_optic_1p87);
         LINKED_SIDE(acc_pointer_IR);
 	};
 };
@@ -206,7 +206,7 @@ class arifle_AK12U_545_aco_pointer_F: arifle_AK12U_545_F
 {
 	class LinkedItems
 	{
-        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_TOP(Aegis_optic_1p87);
         LINKED_SIDE(acc_pointer_IR);
 	};
 };
@@ -222,7 +222,7 @@ class arifle_AK12U_545_aco_flash_F: arifle_AK12U_545_F
 {
 	class LinkedItems
 	{
-        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_TOP(Aegis_optic_1p87);
         LINKED_SIDE(acc_flashlight);
 	};
 };
@@ -230,7 +230,7 @@ class arifle_AK12_545_lush_aco_flash_F: arifle_AK12_545_lush_F
 {
 	class LinkedItems
 	{
-        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_TOP(Aegis_optic_1p87);
         LINKED_SIDE(acc_flashlight);
 	};
 };
@@ -238,7 +238,7 @@ class arifle_AK12_GL_545_aco_flash_F: arifle_AK12_GL_545_lush_F
 {
 	class LinkedItems
 	{
-        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_TOP(Aegis_optic_1p87);
         LINKED_SIDE(acc_flashlight);
 	};
 };
@@ -254,7 +254,7 @@ class arifle_AK12U_545_lush_aco_flash_F: arifle_AK12U_545_lush_F
 {
 	class LinkedItems
 	{
-        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_TOP(Aegis_optic_1p87_lush);
         LINKED_SIDE(acc_flashlight);
 	};
 };
@@ -262,7 +262,7 @@ class Aegis_arifle_AK12_GL_545_aco_flash_F: arifle_AK12_GL_545_F
 {
 	class LinkedItems
 	{
-        LINKED_TOP(optic_ACO_grn_AK_F);
+        LINKED_TOP(Aegis_optic_1p87);
         LINKED_SIDE(acc_flashlight);
 	};
 };
@@ -278,6 +278,6 @@ class Aegis_arifle_RPK12_545_aco_F: Aegis_arifle_RPK12_545_F
 {
 	class LinkedItems
 	{
-		LINKED_TOP(optic_ACO_grn_AK_F);
+		LINKED_TOP(Aegis_optic_1p87);
 	};
 };

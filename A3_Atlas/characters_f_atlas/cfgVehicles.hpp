@@ -24,6 +24,7 @@ class CfgVehicles
     {
         class EventHandlers;
     };
+    class B_Sharpshooter_F;
     #include "cfgADF.hpp"       // Australia
     #include "cfgViper.hpp"     // Viper
     #include "cfgLegion.hpp"    // Legionnaires
@@ -36,6 +37,8 @@ class CfgVehicles
     #include "cfgMarar.hpp"		// Marar
     #include "cfgEAF.hpp"       // LDF Reservists
     #include "cfgJSOC.hpp"      // US JSOC
+    #include "cfgKarzeg.hpp"    // Karzeghistan
+    #include "cfgArdistan.hpp"    // Ardistan
 
     /* Uniforms */
     #include "cfgUniforms.hpp"

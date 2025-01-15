@@ -59,3 +59,9 @@ class C_Truck_02_box_F: Truck_02_box_base_F
         BlueGreen,1
     };
 };
+
+/* Civilian Rework Factions */
+#include "cfgCivArgana.hpp"
+#include "cfgCivLivonia.hpp"
+#include "cfgCivMalden.hpp"
+#include "cfgCivTanoa.hpp"

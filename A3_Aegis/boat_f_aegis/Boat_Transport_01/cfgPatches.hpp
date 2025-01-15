@@ -15,7 +15,11 @@ class CfgPatches
 
             /* From "cfgRUS.hpp" */
             O_R_Boat_Transport_01_ard_F,
-            O_R_Lifeboat_ard_F
+            O_R_Lifeboat_ard_F,
+
+            /* From "cfgCivil.hpp" */
+            Aegis_C_Rubberboat_F_Malden,
+            Aegis_C_Rubberboat_F_Tanoa
         };
 		weapons[] = {/* Automated */};
 	};

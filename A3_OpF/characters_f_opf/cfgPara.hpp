@@ -161,22 +161,22 @@ class Opf_O_P_soldier_AR_F: Opf_O_P_soldier_base_F
 	displayName = $STR_B_soldier_AR_F0;
 	weapons[] = 
 	{
-		arifle_RPK_F,
+		Aegis_arifle_RPK74M_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] = 
 	{
-		arifle_RPK_F,
+		Aegis_arifle_RPK74M_F,
 		DefaultManWeapons
 	};
 	magazines[] = 
 	{
-        mag_6(75Rnd_762x39_Mag_Green_F),
+        mag_6(Aegis_45Rnd_545x39_Mag_F),
         mag_2(HandGrenade_Guer)
 	};
 	respawnMagazines[] = 
 	{
-        mag_6(75Rnd_762x39_Mag_Green_F),
+        mag_6(Aegis_45Rnd_545x39_Mag_F),
         mag_2(HandGrenade_Guer)
 	};
 	cost = 220000;

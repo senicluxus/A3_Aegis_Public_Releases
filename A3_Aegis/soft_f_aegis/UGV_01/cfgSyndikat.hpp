@@ -2,7 +2,7 @@
 class Aegis_I_C_UGV_01_F: UGV_01_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_C_UGV_01_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_C_UGV_01_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_CFGVEHICLES_O_UGV_01_F;
@@ -21,7 +21,7 @@ class Aegis_I_C_UGV_01_F: UGV_01_base_F
 class Aegis_I_C_UGV_01_rcws_F: UGV_01_rcws_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_C_UGV_01_rcws_F.jpg";
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_C_UGV_01_rcws_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_CFGVEHICLES_O_UGV_01_RCWS_F;

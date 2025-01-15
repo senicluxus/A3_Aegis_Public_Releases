@@ -193,7 +193,7 @@ class Atlas_I_I_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_Stanag,24);
-		mag_xx(150Rnd_762x51_Box_Yellow,8);
+		mag_xx(Atlas_150Rnd_762x51_Box_Yellow,8);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
@@ -403,7 +403,7 @@ class Atlas_I_I_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_Stanag,24);
-		mag_xx(150Rnd_762x51_Box_Yellow,8);
+		mag_xx(Atlas_150Rnd_762x51_Box_Yellow,8);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
@@ -608,7 +608,7 @@ class Atlas_I_I_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 	class TransportMagazines
 	{
 		mag_xx(30Rnd_556x45_Stanag,24);
-		mag_xx(150Rnd_762x51_Box_Yellow,8);
+		mag_xx(Atlas_150Rnd_762x51_Box_Yellow,8);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(1Rnd_HE_Grenade_shell,6);

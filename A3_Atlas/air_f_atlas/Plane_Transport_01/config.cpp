@@ -19,7 +19,21 @@ class CfgVehicles
 				{
 					"\A3_atlas\Air_F_atlas\Plane_Transport_01\Data\Plane_Transport_01_body_adf_CO.paa",
 					"\A3_atlas\Air_F_atlas\Plane_Transport_01\Data\Plane_Transport_01_wings_adf_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					"\A3_Atlas\Air_F_Atlas\Plane_Transport_01\Data\Plane_Transport_01_decals_adf_CA.paa"
+				};
+				factions[] = {};
+			};
+			class HIMF
+			{
+				displayName = "HIMF";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_atlas\Air_F_atlas\Plane_Transport_01\Data\Plane_Transport_01_body_HIMF_CO.paa",
+					"\A3_atlas\Air_F_atlas\Plane_Transport_01\Data\Plane_Transport_01_wings_HIMF_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					"\A3_atlas\Air_F_atlas\Plane_Transport_01\Data\UV_Decals_HIMF_CO.paa"
 				};
 				factions[] = {};
 			};
@@ -30,4 +44,5 @@ class CfgVehicles
 	class Plane_Transport_01_vehicle_base_F: Plane_Transport_01_base_F{};
 	// Arma 3 Atlas
 	#include "cfgADF.hpp"				// ADF
+	#include "cfgHIMF.hpp"				//HIMF
 };

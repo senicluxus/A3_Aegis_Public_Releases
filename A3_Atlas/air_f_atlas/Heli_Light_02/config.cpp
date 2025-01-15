@@ -31,6 +31,20 @@ class CfgVehicles
 				textures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_02\Data\Heli_Light_02_ext_whex_CO.paa"};
 				faction[] = {};
 			};
+			class Takistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_TKHEX0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_02\Data\Heli_Light_02_ext_tk_CO.paa"};
+				faction[] = {};
+			};
+			class Ardistan
+			{
+				displayName = $STR_A3_A_TEXTURESOURCES_ardi0;
+				author = $STR_A3_A_Lowaltitude;
+				textures[] = {"\A3_Atlas\Air_F_Atlas\Heli_Light_02\Data\Heli_Light_02_ext_ardi_CO.paa"};
+				faction[] = {};
+			};
 		};
 	};
 	class Heli_Light_02_unarmed_base_F: Heli_Light_02_base_F{};
@@ -44,6 +58,7 @@ class CfgVehicles
 	#include "cfgVenezuela.hpp"			// Venezuela
 	#include "cfgMarar.hpp"				// Marar
 	#include "cfgUNO.hpp"				// United Nations
+	#include "cfgArdistan.hpp"			//Ardistan
     // Deprecated classes
     #include "deprecated.hpp"
 };

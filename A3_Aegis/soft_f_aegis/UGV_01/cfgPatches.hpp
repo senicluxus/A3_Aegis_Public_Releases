@@ -46,9 +46,13 @@ class CfgPatches
 
             /* From "cfgEAF.hpp" */
             I_E_UGV_01_medical_F,
+            Aegis_I_E_UGV_01_ard_F,
+            Aegis_I_E_UGV_01_rcws_ard_F,
             Aegis_B_E_UGV_01_F,
             Aegis_B_E_UGV_01_RCWS_F,
             Aegis_B_E_UGV_01_medical_F,
+            Aegis_B_E_UGV_01_ard_F,
+            Aegis_B_E_UGV_01_RCWS_ard_F,
 
             /* From "cfgION.hpp" */
             Aegis_B_ION_UGV_01_F,

@@ -2215,41 +2215,39 @@
 		class MFD
 		{
 		};
-		class Reflectors
+		/*class Reflectors
 		{
-		};
-		/*
+		};*/
 		class Reflectors
 		{
 			class Light
 			{
 				color[]={8000,6500,3500};
 				ambient[]={80,60,30};
-				intensity=50;
-				size=1;
-				innerAngle=5;
-				outerAngle=75;
-				coneFadeCoef=10;
-				position="Light_pos";
-				direction="Light_dir";
-				hitpoint="Light_hitpoint";
-				selection="Light";
-				useFlare=1;
-				flareSize=8;
-				flareMaxDistance=300;
+				intensity=0;
+				size=0;
+				innerAngle=0;
+				outerAngle=0;
+				coneFadeCoef=0;
+				position="";
+				direction="";
+				hitpoint="";
+				selection="";
+				useFlare=0;
+				flareSize=0;
+				flareMaxDistance=0;
 				dayLight=0;
 				class Attenuation
 				{
 					start=0;
 					constant=0;
-					linear=1;
+					linear=0;
 					quadratic=0;
-					hardLimitStart=200;
-					hardLimitEnd=250;
+					hardLimitStart=0;
+					hardLimitEnd=0;
 				};
 			};
 		};
-		*/
 		class Exhausts
 		{
 			class Exhaust1

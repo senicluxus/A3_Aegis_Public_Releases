@@ -72,7 +72,7 @@ class Opf_B_P_Soldier_A_F: Opf_B_P_Soldier_base_F
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
 	cost = 100000;
-	backpack = B_Carryall_green_Partisan_Ammo_F;
+	backpack = Opf_B_patrolBackpack_grn_Partisan_Ammo_F;
 	uniformClass = Opf_U_B_P_Uniform_01_Shortsleeve_F;
 	weapons[] =
 	{
@@ -149,13 +149,13 @@ class Opf_B_P_Soldier_AR_F: Opf_B_P_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_3(150Rnd_762x51_Box_Yellow),
+		mag_3(Atlas_150Rnd_762x51_Box_Yellow),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_3(150Rnd_762x51_Box_Yellow),
+		mag_3(Atlas_150Rnd_762x51_Box_Yellow),
         HandGrenade,
         SmokeShell
 	};
@@ -1246,5 +1246,48 @@ class Opf_B_P_Soldier_Advisor_F: Opf_B_P_Soldier_Base_F
 		H_HelmetB_Green,
 		NVGoggles_INDEP,
 		DefaultManLeaderLinkedItems
+	};
+};
+class Opf_B_P_HeavyGunner_F: Opf_B_P_Soldier_AR_F
+{
+    author = $STR_A3_A_Ravenholme;
+	editorPreview = "\A3_Opf\EditorPreviews_F_Opf\Data\CfgVehicles\Opf_B_P_HeavyGunner_F.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = $STR_A3_cfgVehicles_B_HeavyGunner_F0;
+	backpack = Opf_B_AssaultPack_flecktarn_Partisan_HG_F;
+    weapons[] =
+	{
+		Opf_MMG_FNMAG_RDSH_FL_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Opf_MMG_FNMAG_RDSH_FL_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_2(Aegis_200Rnd_762x51_MAG_Yellow_F),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_2(Aegis_200Rnd_762x51_MAG_Yellow_F),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_TacChestRig_grn_F,
+        H_Booniehat_flecktarn,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacChestRig_grn_F,
+        H_Booniehat_flecktarn,
+		DefaultManGuerillaLinkedItems
 	};
 };

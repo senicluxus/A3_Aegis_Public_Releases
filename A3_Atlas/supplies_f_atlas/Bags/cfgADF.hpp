@@ -86,7 +86,6 @@ class B_Kitbag_aucamo_BAAAR_F: B_Kitbag_aucamo_F
 	{
 		mag_xx(200Rnd_556x45_Box_Red_F,3);
 		mag_xx(200Rnd_556x45_Box_Tracer_Red_F,1);
-		mag_xx(130Rnd_338_Mag,2);
 	};
 	class TransportItems
 	{

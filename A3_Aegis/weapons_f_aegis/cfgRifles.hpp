@@ -446,7 +446,7 @@ class arifle_MXM_DMS_LP_BI_snds_F: arifle_MXM_F
 class arifle_MXC_Black_F: arifle_MXC_F
 {
     hiddenSelections[] = {"camo1"};
-	hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_short_Black_co.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Short_Black_CO.paa"};
     hiddenSelectionsMaterials[]=
 	{
 		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXC.rvmat"
@@ -455,7 +455,11 @@ class arifle_MXC_Black_F: arifle_MXC_F
 class arifle_MX_Black_F: arifle_MX_F
 {
     hiddenSelections[] = {"camo1","camo2"};
-	hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_Base_Black_co.paa","\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_short_Black_co.paa"};
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Base_Black_CO.paa",
+        "\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Short_Black_CO.paa"
+    };
     hiddenSelectionsMaterials[]=
 	{
         "\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MX.rvmat",
@@ -475,7 +479,7 @@ class arifle_MX_Black_Hamr_Pointer_Snds_F: arifle_MX_Black_F
 class arifle_MX_GL_Black_F: arifle_MX_GL_F
 {
     hiddenSelections[] = {"camo1","camo2"};
-	hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_Base_Black_co.paa","\A3\Weapons_F_EPB\Rifles\MX_Black\Data\GLX_Black_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_Base_Black_CO.paa","\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\GLX_Black_CO.paa"};
     hiddenSelectionsMaterials[]=
 	{
 		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MX.rvmat",
@@ -485,7 +489,7 @@ class arifle_MX_GL_Black_F: arifle_MX_GL_F
 class arifle_MX_SW_Black_F: arifle_MX_SW_F
 {
     hiddenSelections[] = {"camo1"};
-	hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_LMG_Black_co.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_LMG_Black_CO.paa"};
     hiddenSelectionsMaterials[]=
 	{
 		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXSW.rvmat"
@@ -544,7 +548,7 @@ class arifle_MX_SW_Black_Rifle_F: arifle_MX_SW_Black_F
 class arifle_MXM_Black_F: arifle_MXM_F
 {
     hiddenSelections[] = {"camo1"};
-	hiddenSelectionsTextures[] = {"\A3\Weapons_F_EPB\Rifles\MX_Black\Data\XMX_long_Black_co.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Aegis\Weapons_F_Aegis\Rifles\MX\Data\XMX_long_Black_co.paa"};
     hiddenSelectionsMaterials[]=
 	{
 		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXM.rvmat"
@@ -1197,3 +1201,20 @@ class arifle_SPAR_03_snd_F: arifle_SPAR_03_base_F
 		"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\data\arifle_SPAR_01_01.rvmat"
 	};
 };
+
+/* SR-25/M110 rifles */
+class Aegis_arifle_SR25_MR_blk_F;
+
+/* Western Sahara Rifles */
+class arifle_XMS_Base_lxWS;
+class arifle_XMS_M_lxWS;
+class arifle_XMS_Shot_lxWS;
+class arifle_XMS_GL_lxWS;
+class arifle_XMS_Base_sand_lxWS;
+class arifle_XMS_M_sand_lxWS;
+class arifle_XMS_Shot_sand_lxWS;
+class arifle_XMS_GL_sand_lxWS;
+class arifle_XMS_Base_khk_lxWS;
+class arifle_XMS_M_khk_lxWS;
+class arifle_XMS_Shot_khk_lxWS;
+class arifle_XMS_GL_khk_lxWS;

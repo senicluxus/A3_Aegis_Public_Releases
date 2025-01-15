@@ -86,7 +86,7 @@ class CfgVehicles
 			};
 			class ADF_01
 			{
-				displayName = $STR_A3_A_CfgFactionClasses_BLU_A_F1;
+				displayName = $STR_A3_A_CfgFactionClasses_BLU_AUS_F0;
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
@@ -97,12 +97,26 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class KZG_01
+			{
+				displayName = "Karzeghistan";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext01_kzg_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_ext02_kzg_CO.paa",
+					"\A3_Atlas\Armor_F_Atlas\MBT_03\Data\MBT_03_rcws_kzg_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
+				};
+				factions[] = {};
+			};
 		};
 	};
 
 	/* Factions */
 	#include "cfgGER.hpp"   // Germany
 	#include "cfgADF.hpp"	//ADF
+	#include "cfgKarzeg.hpp"	//Karzeghistan
 
     /* Deprecated */
     #include "deprecated.hpp"

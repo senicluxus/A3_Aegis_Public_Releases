@@ -6,7 +6,7 @@ class B_MRAP_01_hmg_F;
 /* US (Woodland) */
 class B_W_MRAP_01_F: B_MRAP_01_F
 {
-    author = $STR_A3_A_AveryTheKitty;
+    author = $STR_A3_A_BranFlakes;
     class SimpleObject
     {
         eden = true;
@@ -106,10 +106,10 @@ class B_W_MRAP_01_F: B_MRAP_01_F
     faction = BLU_W_F;
     crew = B_W_Soldier_F;
     typicalCargo[] = {B_W_Soldier_Lite_F};
-    textureList[] = {Olive,1};
+    textureList[] = {wdl,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3\Soft_F_Exp\MRAP_01\Data\MRAP_01_base_olive_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_01\Data\MRAP_01_base_wdl_CO.paa",
         "\A3\Soft_F_Exp\MRAP_01\Data\MRAP_01_adds_olive_CO.paa",
         "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
     };
@@ -239,10 +239,10 @@ class B_W_MRAP_01_gmg_F: B_MRAP_01_gmg_F
     faction = BLU_W_F;
     crew = B_W_Soldier_F;
     typicalCargo[] = {B_W_Soldier_Lite_F};
-    textureList[] = {Olive,1};
+    textureList[] = {wdl,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3\Soft_F_Exp\MRAP_01\Data\MRAP_01_base_olive_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_01\Data\MRAP_01_base_wdl_CO.paa",
         "\A3\Soft_F_Exp\MRAP_01\Data\MRAP_01_adds_olive_CO.paa",
         "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
     };
@@ -372,10 +372,10 @@ class B_W_MRAP_01_hmg_F: B_MRAP_01_hmg_F
     faction = BLU_W_F;
     crew = B_W_Soldier_F;
     typicalCargo[] = {B_W_Soldier_Lite_F};
-    textureList[] = {Olive,1};
+    textureList[] = {wdl,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3\Soft_F_Exp\MRAP_01\Data\MRAP_01_base_olive_CO.paa",
+        "\A3_Aegis\Soft_F_Aegis\MRAP_01\Data\MRAP_01_base_wdl_CO.paa",
         "\A3\Soft_F_Exp\MRAP_01\Data\MRAP_01_adds_olive_CO.paa",
         "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa"
     };

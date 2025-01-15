@@ -327,6 +327,17 @@ class B_APC_Wheeled_01_medical_F: B_APC_Wheeled_01_base_F
 					"",
       			};
         };
+        class EAF_Arid: EAF_Arid
+        {
+            textures[] = 
+      			{
+         			"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_base_medevac_EAF_Arid_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_adds_EAF_arid_CO.paa",
+					"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_EAF_arid_CO.paa",
+         			"",
+					"",
+      			};
+        };
 	};
 };
 class B_APC_Wheeled_01_cannon_F: B_APC_Wheeled_01_base_F
@@ -556,6 +567,11 @@ class B_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 		"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
 		"\A3\Armor_F\Data\cage_sand_CO.paa"
 	};
+};
+class B_APC_Wheeled_01_atgm_lxWS: APC_Wheeled_01_atgm_base_lxWS
+{
+    scope = protected;
+	scopeCurator = protected;
 };
 class B_APC_Wheeled_01_atgm_lxWS_v2: APC_Wheeled_01_atgm_base_v2
 {
@@ -2400,7 +2416,7 @@ class B_W_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 		verticalOffsetWorld = -0.091;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_APC_Wheeled_01_cannon_v2_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_W_APC_Wheeled_01_cannon_v2_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -2438,12 +2454,12 @@ class B_W_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 	{
 		bag_xx(B_AssaultPack_wdl_F,2);
 	};
-    
+    textureList[] = {WDL_01,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Exp\APC_Wheeled_01\Data\APC_Wheeled_01_base_olive_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_body_wdl_CO.paa",
 		"\A3\Armor_F_Exp\APC_Wheeled_01\Data\APC_Wheeled_01_adds_olive_CO.paa",
-		"\A3\Armor_F_Exp\APC_Wheeled_01\Data\APC_Wheeled_01_tows_olive_CO.paa",
+		"\A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\Data\APC_Wheeled_01_tows_wdl_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
@@ -2453,18 +2469,20 @@ class B_W_APC_Wheeled_01_atgm_lxWS_v2: B_T_APC_Wheeled_01_atgm_lxWS_v2
     author = $STR_A3_A_Ravenholme;
     scope = public;
     scopeCurator = public;
-    editorPreview = "\A3_Aegis\editorpreviews_f_aegis\Data\CfgVehicles\B_T_APC_Wheeled_01_atgm_lxWS.jpg"; 
+    editorPreview = "\A3_Aegis\editorpreviews_f_aegis\Data\CfgVehicles\B_W_APC_Wheeled_01_atgm_lxWS_v2.jpg"; 
     side = TWest;
 	faction = BLU_W_F;
 	crew = B_W_Crew_F;
 	typicalCargo[] = {B_W_Soldier_F};
-    hiddenSelectionsTextures[] = {
-      "A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_base_olive_CO.paa",
+    textureList[] = {WDL_01,1};
+    hiddenSelectionsTextures[] = 
+    {
+      "A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_body_wdl_CO.paa",
       "A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_adds_olive_co.paa",
-      "A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_tows_olive_co.paa",
+      "A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_tows_wdl_co.paa",
       "a3\Armor_F\Data\camonet_NATO_Green_CO.paa","a3\Armor_F\Data\cage_olive_CO.paa",
-      "lxws\vehicles_f_lxws\data\APC_Wheeled_01\APC_Wheeled_01_lxws_olive_CO.paa"};
-	textureList[] = {"Olive", 1};
+      "A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_lxws_wdl_CO.paa"
+    };
     /* Inventory */
 	class TransportWeapons
 	{
@@ -2500,6 +2518,7 @@ class B_T_APC_Wheeled_01_mortar_lxWS;
 class B_W_APC_Wheeled_01_mortar_lxWS: B_T_APC_Wheeled_01_mortar_lxWS
 {
     author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\editorpreviews_f_aegis\Data\CfgVehicles\B_W_APC_Wheeled_01_mortar_lxWS.jpg"; 
     side = TWest;
 	faction = BLU_W_F;
 	crew = B_W_Crew_F;
@@ -2512,11 +2531,21 @@ class B_W_APC_Wheeled_01_mortar_lxWS: B_T_APC_Wheeled_01_mortar_lxWS
          count = 2;
       };
    };
+   textureList[] = {WDL_01,1};
+    hiddenSelectionsTextures[] = 
+    {
+      "A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_body_wdl_CO.paa",
+      "A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_adds_olive_co.paa",
+      "A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_tows_wdl_co.paa",
+      "a3\Armor_F\Data\camonet_NATO_Green_CO.paa","a3\Armor_F\Data\cage_olive_CO.paa",
+      "A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_lxws_wdl_CO.paa"
+    };
 };
 class B_T_APC_Wheeled_01_command_lxWS;
 class B_W_APC_Wheeled_01_command_lxWS: B_T_APC_Wheeled_01_command_lxWS
 {
     author = $STR_A3_A_Ravenholme;
+    editorPreview = "\A3_Aegis\editorpreviews_f_aegis\Data\CfgVehicles\B_W_APC_Wheeled_01_command_lxWS.jpg"; 
     side = TWest;
 	faction = BLU_W_F;
 	crew = B_W_Crew_F;
@@ -2529,6 +2558,15 @@ class B_W_APC_Wheeled_01_command_lxWS: B_T_APC_Wheeled_01_command_lxWS
          count = 2;
       };
    };
+   textureList[] = {WDL_01,1};
+    hiddenSelectionsTextures[] = 
+    {
+      "A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_body_wdl_CO.paa",
+      "A3\Armor_F_Exp\APC_Wheeled_01\data\APC_Wheeled_01_adds_olive_co.paa",
+      "A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_tows_wdl_co.paa",
+      "a3\Armor_F\Data\camonet_NATO_Green_CO.paa","a3\Armor_F\Data\cage_olive_CO.paa",
+      "A3_Aegis\Armor_f_Aegis\APC_Wheeled_01\data\APC_Wheeled_01_lxws_wdl_CO.paa"
+    };
 };
 
 /*

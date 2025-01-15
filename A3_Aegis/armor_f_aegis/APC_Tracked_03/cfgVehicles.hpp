@@ -88,7 +88,7 @@ class CfgVehicles
 					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
 					"\A3\Armor_F\Data\cage_sand_CO.paa"
 				};
-				factions[] = {BLU_A_F};
+				factions[] = {};
 			};
 			class Olive_01
 			{
@@ -103,9 +103,20 @@ class CfgVehicles
 				};
 				factions[] =
 				{
-					BLU_A_tna_F,
-					BLU_A_wdl_F
 				};
+			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext_eaf_arid_co.paa",
+					"\A3_Aegis\Armor_F_Aegis\APC_Tracked_03\Data\APC_Tracked_03_Ext2_eaf_arid_co.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"\A3\Armor_F\Data\cage_sand_CO.paa"
+				};
+				factions[] = {};
 			};
 		};
 

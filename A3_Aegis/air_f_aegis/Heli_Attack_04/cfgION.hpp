@@ -67,6 +67,7 @@ class Aegis_B_ION_Heli_Attack_04_F: Aegis_Heli_Attack_04_base_F
 				class PylonLeft3: PylonLeft3
 				{
                     attachment = PylonWeapon_300Rnd_20mm_shells;
+					turret[] = {};
                 };
 				class PylonRight1: PylonRight1
                 {
@@ -79,6 +80,7 @@ class Aegis_B_ION_Heli_Attack_04_F: Aegis_Heli_Attack_04_base_F
                 class PylonRight3: PylonRight3
                 {
                     attachment = PylonWeapon_300Rnd_20mm_shells;
+					turret[] = {};
                 };
             };
             class Presets: Presets

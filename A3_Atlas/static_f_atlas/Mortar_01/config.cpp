@@ -26,6 +26,7 @@ class CfgVehicles
 	};
 	class B_Mortar_01_F;
 	class O_Mortar_01_F;
+	class O_R_Mortar_01_F;
 	class I_Mortar_01_F;
 	class Bag_Base;
 	class Weapon_Bag_Base: Bag_Base
@@ -42,6 +43,8 @@ class CfgVehicles
     #include "cfgVenezuela.hpp"			//Venezuela
 	#include "cfgADF.hpp"				// ADF
 	#include "cfgIDF.hpp"				// IDF
+	#include "cfgKarzeghistan.hpp"		// Karzeghistan
+	#include "cfgArdistan.hpp"			// Ardistan
     // Deprecated classes
     #include "deprecated.hpp"
 };

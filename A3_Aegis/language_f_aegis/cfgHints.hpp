@@ -166,6 +166,20 @@ class CfgHints
 			weapon = hgun_G17_F;
 			logicalOrder = 42;
 		};
+		class Aegis_GPMG
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_Aegis_FNMAG_F0},
+				{STR_A3_A_CfgWeapons_arifle_FNMAG_base_F_Library0}
+			};
+			image = "\a3\ui_f\data\gui\cfg\hints\Automatic_ca.paa";
+			weapon = Aegis_MMG_FNMAG_F;
+			logicalOrder = 46;
+		};
 		class SA80
 		{
 			displayName = %11;
@@ -180,20 +194,20 @@ class CfgHints
 			weapon = arifle_SA80_blk_F;
 			logicalOrder = 67;
 		};
-		/*class M16A2
+		class M16A4
 		{
 			displayName = %11;
 			description = %12;
 			tip = "";
 			arguments[] =
 			{
-				{STR_A3_A_CfgWeapons_arifle_M16_base_F0},
+				{STR_A3_A_CfgWeapons_arifle_M16A4_F0},
 				{STR_A3_A_CfgWeapons_arifle_M16_base_F_Library0}
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
-			weapon = Aegis_arifle_M16A2_F;
+			weapon = Aegis_arifle_M16A4_GL_F;
 			logicalOrder = 70;
-		};*/
+		};
 		class M32
 		{
 			displayName = %11;
@@ -348,6 +362,62 @@ class CfgHints
 			weapon = arifle_SCAR_F;
 			logicalOrder = 80;
 		};
+		class Aegis_P320
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_hgun_P320_base_F0},
+				{STR_A3_A_CfgWeapons_hgun_P320_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Handgun_CA.paa";
+			weapon = Aegis_hgun_P320_black_F;
+			logicalOrder = 89;
+		};
+		class Aegis_RP57
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_hgun_Pistol_R57_base_F0},
+				{STR_A3_A_CfgWeapons_hgun_Pistol_R57_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Handgun_CA.paa";
+			weapon = Aegis_hgun_Pistol_R57_F;
+			logicalOrder = 101;
+		};
+		class Aegis_SMG_Gepard
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_SMG_Gepard_base_F0},
+				{STR_A3_A_CfgWeapons_SMG_Gepard_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifles_CA.paa";
+			weapon = Aegis_SMG_Gepard_blk_F;
+			logicalOrder = 95;
+		};
+		class Aegis_SVD
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgWeapons_srifle_SVD_F0},
+				{STR_A3_A_CfgWeapons_srifle_SVD_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Rifle_CA.paa";
+			weapon = Aegis_srifle_SVD_f;
+			logicalOrder = 124;
+		};
 		/*class VektorSR1
 		{
 			displayName = %11;
@@ -442,7 +512,7 @@ class CfgHints
 			vehicle = O_R_APC_Wheeled_04_cannon_F;
 			logicalOrder = 8;
 		};
-		/*class APC_Wheeled_04_Nosorog
+		class APC_Wheeled_04_Nosorog
 		{
 			displayName = %11;
 			description = %12;
@@ -454,8 +524,8 @@ class CfgHints
 			};
 			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
 			vehicle = O_R_APC_Wheeled_04_cannon_v2_F;
-			logicalOrder = 8;
-		};*/
+			logicalOrder = 4;
+		};
 		class Boat_Civil_02
 		{
 			displayName = %11;
@@ -470,6 +540,21 @@ class CfgHints
 			vehicle = C_Boat_Civil_02_F;
 			modelScale = 1.2;
 			logicalOrder = 40;
+		};
+		class UAV_07
+		{
+			displayName = %11;
+			description = %12;
+			tip = "";
+			arguments[] =
+			{
+				{STR_A3_A_CfgVehicles_B_UAV_07_base_F0},
+				{STR_A3_A_CfgVehicles_UAV_07_base_F_Library0}
+			};
+			image = "\A3\UI_F\Data\GUI\cfg\hints\Miss_icon_CA.paa";
+			vehicle = Aegis_B_A_UAV_07_F;
+			modelScale = 0.6;
+			logicalOrder = 24;
 		};
 	};
 };

@@ -39,9 +39,9 @@ class CfgVehicles
         /* Liveries */
 		class TextureSources
 		{
-			class Blu
+			class Green
 			{
-				displayName = $STR_A3_TextureSources_Blu0;
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
 				author = $STR_A3_A_AveryTheKitty;
 				textures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_BLUFOR_CO.paa"};
 				factions[] = {};
@@ -69,13 +69,48 @@ class CfgVehicles
 			};
 		};
 	};
-    class Heli_Light_01_unarmed_base_F: Heli_Light_01_base_F{};
+    class Heli_Light_01_unarmed_base_F: Heli_Light_01_base_F
+	{
+		/* Liveries */
+		class TextureSources: TextureSources
+		{
+			class Green
+			{
+				displayName = $STR_A3_TEXTURESOURCES_GREEN0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_BLUFOR_CO.paa"};
+				factions[] = {};
+			};
+			class Black
+			{
+				displayName = $STR_A3_TextureSources_BLACK0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_ION_CO.paa"};
+				factions[] = {};
+			};
+			class Indep
+			{
+				displayName = $STR_A3_TextureSources_INDEP0;
+				author = $STR_A3_A_AveryTheKitty;
+				textures[] = {"\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa"};
+				factions[] = {};
+			};
+			class Sand
+			{
+				displayName = $STR_A3_TEXTURESOURCES_SAND0;
+				author = $STR_A3_A_Ravenholme;
+				textures[] = {"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Light_01_ext_sand_CO.paa"};
+				factions[] = {};
+			};
+		};
+
+	};
     class Heli_Light_01_armed_base_F: Heli_Light_01_base_F
     {
         /* Liveries */
 		class TextureSources: TextureSources
 		{
-			class Blu: Blu
+			class Green: Green
 			{
 				textures[] =
                 {
@@ -109,7 +144,45 @@ class CfgVehicles
 			};
 		};
     };
-	class Heli_Light_01_dynamicLoadout_base_F;
+	class Heli_Light_01_dynamicLoadout_base_F: Heli_Light_01_armed_base_F
+	{
+		/* Liveries */
+		class TextureSources: TextureSources
+		{
+			class Green: Green
+			{
+				textures[] =
+                {
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_BLUFOR_CO.paa",
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
+                };
+			};
+			class Black: Black
+			{
+				textures[] =
+                {
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_ION_CO.paa",
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
+                };
+			};
+			class Indep: Indep
+			{
+				textures[] =
+                {
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_INDP_CO.paa",
+                    "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
+                };
+			};
+			class Sand: Sand
+			{
+				textures[] = 
+				{
+					"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Light_01_ext_sand_CO.paa",
+					"a3\air_f\heli_light_01\data\heli_light_01_dot_ca.paa"
+				};
+			};
+		};
+	};
 	class Heli_Light_01_civil_base_F: Heli_Light_01_unarmed_base_F
 	{
         /* Liveries */
@@ -350,9 +423,11 @@ class CfgVehicles
 		};
         */
     };
+	class C_Heli_Light_01_Civil_F;
 
     /* Factions */
 	#include "cfgBLUFOR.hpp"    // US
 	#include "cfgIndep.hpp"     // AAF
 	#include "cfgION.hpp"       // ION
+	#include "cfgCivil.hpp"		// Civilian Rework Factions
 };

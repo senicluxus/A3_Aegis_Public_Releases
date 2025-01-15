@@ -1,0 +1,70 @@
+/* Macro */
+// special agent variants used by the Civilian Presence system
+#define CREATE_AGENT(type)\
+class CivilianPresence_##type##:type\
+{\
+	scope = 1;\
+	scopeCurator = 0;\
+	fsmDanger = "A3\Modules_F_Tacops\Ambient\CivilianPresence\FSM\danger.fsm";\
+	fsmFormation = "";\
+};
+
+/* Civilian Presence Units */
+CREATE_AGENT(Aegis_C_Man_casual_1_F_Enoch)
+CREATE_AGENT(Aegis_C_Man_casual_2_F_Enoch)
+CREATE_AGENT(Aegis_C_Man_casual_3_F_Enoch)
+CREATE_AGENT(Aegis_C_Man_casual_4_v2_F_Enoch)
+CREATE_AGENT(Aegis_C_Man_casual_5_v2_F_Enoch)
+CREATE_AGENT(Aegis_C_Man_casual_6_v2_F_Enoch)
+CREATE_AGENT(Aegis_C_Man_casual_7_F_Enoch)
+CREATE_AGENT(Aegis_C_Man_casual_8_F_Enoch)
+CREATE_AGENT(Aegis_C_Man_casual_9_F_Enoch)
+CREATE_AGENT(Aegis_C_man_polo_1_F_tanoan)
+CREATE_AGENT(Aegis_C_man_polo_2_F_tanoan)
+CREATE_AGENT(Aegis_C_man_polo_3_F_tanoan)
+CREATE_AGENT(Aegis_C_man_polo_4_F_tanoan)
+CREATE_AGENT(Aegis_C_man_polo_5_F_tanoan)
+CREATE_AGENT(Aegis_C_man_polo_6_F_tanoan)
+CREATE_AGENT(C_Man_Sport_1_F_Tanoan)
+CREATE_AGENT(C_Man_Sport_2_F_Tanoan)
+CREATE_AGENT(C_Man_Sport_3_F_Tanoan)
+CREATE_AGENT(Aegis_C_Man_casual_1_F_malden)
+CREATE_AGENT(Aegis_C_Man_casual_2_F_malden)
+CREATE_AGENT(Aegis_C_Man_casual_3_F_malden)
+CREATE_AGENT(Aegis_C_Man_casual_4_F_malden)
+CREATE_AGENT(Aegis_C_Man_casual_5_F_malden)
+CREATE_AGENT(Aegis_C_Man_casual_6_F_malden)
+CREATE_AGENT(Aegis_C_Man_casual_4_v2_F_malden)
+CREATE_AGENT(Aegis_C_Man_casual_5_v2_F_malden)
+CREATE_AGENT(Aegis_C_Man_casual_6_v2_F_malden)
+CREATE_AGENT(Aegis_C_Man_casual_7_F_malden)
+CREATE_AGENT(Aegis_C_Man_casual_8_F_malden)
+CREATE_AGENT(Aegis_C_Man_casual_9_F_malden)
+CREATE_AGENT(Aegis_C_man_polo_1_F_malden)
+CREATE_AGENT(Aegis_C_man_polo_2_F_malden)
+CREATE_AGENT(Aegis_C_man_polo_3_F_malden)
+CREATE_AGENT(Aegis_C_man_polo_4_F_malden)
+CREATE_AGENT(Aegis_C_man_polo_5_F_malden)
+CREATE_AGENT(Aegis_C_man_polo_6_F_malden)
+CREATE_AGENT(Aegis_C_Man_Sport_1_F_malden)
+CREATE_AGENT(Aegis_C_Man_Sport_2_F_malden)
+CREATE_AGENT(Aegis_C_Man_Sport_3_F_malden)
+CREATE_AGENT(C_Man_casual_1_F)
+CREATE_AGENT(C_Man_casual_2_F)
+CREATE_AGENT(C_Man_casual_3_F)
+CREATE_AGENT(C_Man_casual_4_F)
+CREATE_AGENT(C_Man_casual_5_F)
+CREATE_AGENT(C_Man_casual_6_F)
+CREATE_AGENT(C_Man_casual_7_F)
+CREATE_AGENT(C_Man_casual_8_F)
+CREATE_AGENT(C_Man_casual_9_F)
+CREATE_AGENT(C_man_polo_1_F)
+CREATE_AGENT(C_man_polo_2_F)
+CREATE_AGENT(C_man_polo_3_F)
+CREATE_AGENT(C_man_polo_4_F)
+CREATE_AGENT(C_man_polo_5_F)
+CREATE_AGENT(C_man_polo_6_F)
+CREATE_AGENT(C_man_1_1_F)
+CREATE_AGENT(C_man_1_2_F)
+CREATE_AGENT(C_man_1_3_F)
+

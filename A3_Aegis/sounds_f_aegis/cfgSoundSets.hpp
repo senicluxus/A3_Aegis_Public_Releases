@@ -460,7 +460,7 @@ class CfgSoundSets
 	{
 		soundShaders[] = {SMG04_silencerTailInterior_SoundShader};
 	};
-	// M4A1 5.56M
+	// M4A1 5.56mm
 	class Aegis_M4A1_Shot_SoundSet: Rifle_Shot_Base_SoundSet
 	{
 		soundShaders[]=
@@ -489,6 +489,71 @@ class CfgSoundSets
 		soundShaders[]=
 		{
 			"Aegis_M4A1_tailInterior_SoundShader"
+		};
+	};
+	class Aegis_M4A1_GL_Shot_Soundset: Rifle_Shot_base_SoundSet
+	{
+		soundShaders[]=
+		{
+			"UGL_Closure_SoundShader",
+			"Aegis_M4A1_GL_closeShot_SoundShader",
+			"Aegis_M4A1_GL_midShot_SoundShader",
+			"Aegis_M4A1_GL_distShot_SoundShader"
+		};
+		volumeFactor=1.9;
+	};
+	// P320 9mm
+	class Aegis_P320_Shot_SoundSet: Pistol_Shot_Base_SoundSet
+	{
+		soundShaders[]=
+		{
+			"Aegis_P320_Closure_SoundShader",
+			"Aegis_P320_closeShot_SoundShader",
+			"Aegis_P320_midShot_SoundShader",
+			"Aegis_P320_distShot_SoundShader"
+		};
+	};
+	class Aegis_P320_Tail_SoundSet: Pistol_Tail_Base_SoundSet
+	{
+		soundShaders[]=
+		{
+			"Aegis_P320_tailDistant_SoundShader",
+			"Aegis_P320_tailForest_SoundShader",
+			"Aegis_P320_tailHouses_SoundShader",
+			"Aegis_P320_tailMeadows_SoundShader",
+			"Aegis_P320_tailTrees_SoundShader"
+		};
+	};
+	class Aegis_P320_Tail_Interior_SoundSet: Pistol_InteriorTail_Base_SoundSet
+	{
+		soundShaders[]=
+		{
+			"Aegis_P320_tailInterior_SoundShader"
+		};
+	};
+	class Aegis_P320_suppressed_Shot_SoundSet: Pistol_silencerShot_Base_SoundSet
+	{
+		soundShaders[]=
+		{
+			"Aegis_P320_Closure_SoundShader",
+			"Aegis_P320_suppressed_Shot_SoundShader"
+		};
+	};
+	class Aegis_P320_suppressed_Tail_SoundSet: Pistol_silencerTail_Base_SoundSet
+	{
+		soundShaders[]=
+		{
+			"Aegis_P320_suppressed_TailTrees_SoundShader",
+			"Aegis_P320_suppressed_TailForest_SoundShader",
+			"Aegis_P320_suppressed_TailMeadows_SoundShader",
+			"Aegis_P320_suppressed_TailHouses_SoundShader"
+		};
+	};
+	class Aegis_P320_suppressed_Tail_Interior_SoundSet: Pistol_silencerInteriorTail_Base_SoundSet
+	{
+		soundShaders[]=
+		{
+			"Aegis_P320_suppressed_TailInterior_SoundShader"
 		};
 	};
 	// Misc Plane Soundsets

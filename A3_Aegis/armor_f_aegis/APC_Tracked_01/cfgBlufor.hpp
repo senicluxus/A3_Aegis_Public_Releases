@@ -467,7 +467,7 @@ class B_T_APC_Tracked_01_cannon_F: B_APC_Tracked_01_cannon_F
 /* US (Woodland) */
 class B_W_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
     class SimpleObject
 	{
 		eden = true;
@@ -683,14 +683,32 @@ class B_W_APC_Tracked_01_AA_F: B_APC_Tracked_01_AA_F
 	{
 		bag_xx(B_AssaultPack_wdl_F,2);
 	};
-
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Exp\APC_Tracked_01\Data\APC_Tracked_01_AA_body_olive_CO.paa",
-		"\A3\Armor_F_Exp\APC_Tracked_01\Data\MBT_01_body_olive_CO.paa",
-		"\A3\Armor_F_Exp\APC_Tracked_01\Data\APC_Tracked_01_AA_tower_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\APC_Tracked_01_AA_body_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\APC_Tracked_01_AA_tow_wdl_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 	};
+    textureList[] = {WDL_01,1};
+    class TextureSources
+    {
+        class TextureSources
+        {
+            class WDL_01
+            {
+                displayName = "Woodland";
+                factions[] = {};
+                textures[] = 
+                {
+                    "\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\APC_Tracked_01_AA_body_wdl_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\APC_Tracked_01_AA_tow_wdl_CO.paa",
+                    "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+                };
+            };
+        };
+    };
 };
 class B_W_APC_Tracked_01_cannon_F: B_APC_Tracked_01_cannon_F
 {
@@ -738,11 +756,30 @@ class B_W_APC_Tracked_01_cannon_F: B_APC_Tracked_01_cannon_F
 
 	hiddenSelectionsTextures[]=
 	{
-		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\APC_Tracked_01_body_olive_CO.paa",
-		"\A3\Armor_F_Exp\APC_Tracked_01\Data\MBT_01_body_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\APC_Tracked_01_Body_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
 		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\RCWS30_olive_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 	};
+    textureList[] = {WDL_01,1};
+    class TextureSources
+    {
+        class TextureSources
+        {
+            class WDL_01
+            {
+                displayName = $STR_A3_A_TEXTURESOURCES_WOODLAND0;
+                factions[] = {};
+                textures[] = 
+                {
+                    "\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\APC_Tracked_01_Body_wdl_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\RCWS30_olive_CO.paa",
+                    "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+                };
+            };
+        };
+    };
 };
 class B_W_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 {
@@ -918,12 +955,32 @@ class B_W_APC_Tracked_01_CRV_F: B_APC_Tracked_01_CRV_F
 
 	hiddenSelectionsTextures[]=
 	{
-		"\A3\Armor_F_Exp\APC_Tracked_01\Data\APC_Tracked_01_body_CRV_olive_CO.paa",
-		"\A3\Armor_F_Exp\APC_Tracked_01\Data\MBT_01_body_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\APC_Tracked_01_body_wdl_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
 		"\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa",
-		"\A3\Armor_F_Exp\APC_Tracked_01\Data\APC_Tracked_01_CRV_olive_CO.paa",
+		"\A3\Armor_F_Exp\APC_Tracked_01\Data\apc_tracked_01_crv_olive_co.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 	};
+    textureList[] = {WDL_01,1};
+    class TextureSources
+    {
+        class TextureSources
+        {
+            class WDL_01
+            {
+                displayName = "Woodland";
+                factions[] = {};
+                textures[] = 
+                {
+                    "\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\APC_Tracked_01_body_wdl_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+                    "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa",
+                    "\A3\Armor_F_Exp\APC_Tracked_01\Data\apc_tracked_01_crv_olive_co.paa",
+                    "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+                };
+            };
+        };
+    };
 };
 class B_W_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
 {
@@ -1099,9 +1156,28 @@ class B_W_APC_Tracked_01_rcws_F: B_APC_Tracked_01_rcws_F
     
 	hiddenSelectionsTextures[]=
 	{
-		"\A3\Armor_F_Exp\APC_Tracked_01\Data\APC_Tracked_01_body_olive_CO.paa",
-		"\A3\Armor_F_Exp\APC_Tracked_01\Data\MBT_01_body_olive_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\APC_Tracked_01_body_wdl_CO.paa",
+        "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
 		"\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
 	};
+    textureList[] = {WDL_01,1};
+    class TextureSources
+    {
+        class TextureSources
+        {
+            class WDL_01
+            {
+                displayName = "Woodland";
+                factions[] = {};
+                textures[] = 
+                {
+                    "\A3_Aegis\Armor_F_Aegis\APC_Tracked_01\Data\APC_Tracked_01_body_wdl_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\MBT_01\Data\MBT_01_body_wdl_CO.paa",
+                    "\A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa",
+                    "\A3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+                };
+            };
+        };
+    };
 };

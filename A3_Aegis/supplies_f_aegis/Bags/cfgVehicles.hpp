@@ -103,6 +103,7 @@ class CfgVehicles
 	class B_Carryall_khk;
 	class B_Carryall_cbr;
 	class B_Fieldpack_oli;
+	class B_Fieldpack_cbr;
 	class B_Carryall_oli;
 	class B_AssaultPack_Kerry: B_AssaultPack_mcamo
 	{
@@ -829,6 +830,8 @@ class CfgVehicles
     #include "cfgEAF.hpp"           // LDF
     #include "cfgION.hpp"           // ION
 	#include "cfgGuerrilla.hpp"		// FIA
+	#include "cfgTura.hpp"			// lxWS Tura
+	#include "cfgSyndikat.hpp"		// Syndikat
 
 	/* Patreon */
 	#include "patreon.hpp"

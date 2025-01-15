@@ -66,6 +66,19 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_Grave;
+				textures[] =
+				{
+					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext01_EAF_arid_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_ext02_EAF_arid_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\MBT_03\Data\MBT_03_rcws_EAF_arid_CO.paa",
+					"\A3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+				};
+				factions[] = {};
+			};
 		};
 		textureList[] =
 		{

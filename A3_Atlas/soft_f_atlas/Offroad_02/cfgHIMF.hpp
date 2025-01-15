@@ -140,7 +140,7 @@ class Atlas_B_H_Offroad_02_unarmed_F: Offroad_02_unarmed_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(Aegis_arifle_M4A1_grip_F,2);
+		weap_xx(Aegis_arifle_M16A4_FG_F,2);
 	};
 };
 class Atlas_B_H_Offroad_02_LMG_F: Offroad_02_LMG_base_F
@@ -364,7 +364,7 @@ class Atlas_B_H_Offroad_02_LMG_F: Offroad_02_LMG_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(Aegis_arifle_M4A1_grip_F,2);
+		weap_xx(Aegis_arifle_M16A4_FG_F,2);
 	};
 	class Turrets: Turrets
 	{
@@ -543,6 +543,6 @@ class Atlas_B_H_Offroad_02_AT_F: Offroad_02_AT_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(Aegis_arifle_M4A1_grip_F,2);
+		weap_xx(Aegis_arifle_M16A4_FG_F,2);
 	};
 };

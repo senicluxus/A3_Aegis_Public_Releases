@@ -100,9 +100,9 @@ class B_W_Plane_Transport_01_vehicle_F: B_Plane_Transport_01_vehicle_F
 class B_A_Plane_Transport_01_infantry_F: B_Plane_Transport_01_infantry_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Transport_01_infantry_F.jpg";
-	scope = protected;
-	scopeCurator = private;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Transport_01_infantry_F.jpg";
+	scope = public;
+	scopeCurator = public;
 	side = TWest;
 	faction = BLU_A_F;
 	crew = B_A_Pilot_F;
@@ -110,17 +110,18 @@ class B_A_Plane_Transport_01_infantry_F: B_Plane_Transport_01_infantry_F
 	textureList[] = {BAF,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_olive_BAF_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_olive_BAF_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_BAF_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_BAF_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decals_baf_ca.paa"
 	};
 };
 class B_A_Plane_Transport_01_vehicle_F: B_Plane_Transport_01_vehicle_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Transport_01_vehicle_F.jpg";
-	scope = protected;
-	scopeCurator = private;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Transport_01_infantry_F.jpg";
+	scope = public;
+	scopeCurator = public;
 	side = TWest;
 	faction = BLU_A_F;
 	crew = B_A_Pilot_F;
@@ -128,9 +129,10 @@ class B_A_Plane_Transport_01_vehicle_F: B_Plane_Transport_01_vehicle_F
 	textureList[] = {BAF,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_olive_BAF_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_olive_BAF_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_BAF_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_BAF_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decals_baf_ca.paa"
 	};
 };
 
@@ -138,18 +140,34 @@ class B_A_Plane_Transport_01_vehicle_F: B_Plane_Transport_01_vehicle_F
 class B_A_Plane_Transport_01_infantry_tna_F: B_A_Plane_Transport_01_infantry_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Transport_01_infantry_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Transport_01_infantry_tna_F.jpg";
 	faction = BLU_A_tna_F;
 	crew = B_A_Pilot_tna_F;
 	typicalCargo[] = {B_A_Pilot_tna_F};
+	textureList[] = {BAF_Grey,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_grey_BAF_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_grey_BAF_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decals_baf_ca.paa"
+	};
 };
 class B_A_Plane_Transport_01_vehicle_tna_F: B_A_Plane_Transport_01_vehicle_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Transport_01_vehicle_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_A_Plane_Transport_01_infantry_tna_F.jpg";
 	faction = BLU_A_tna_F;
 	crew = B_A_Pilot_tna_F;
 	typicalCargo[] = {B_A_Pilot_tna_F};
+	textureList[] = {BAF_Grey,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_body_grey_BAF_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_wings_grey_BAF_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_decals_baf_ca.paa"
+	};
 };
 
 /* BAF (Woodland) */

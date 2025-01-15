@@ -56,26 +56,32 @@ class Aegis_I_Raven_Heli_Attack_04_F: Aegis_Heli_Attack_04_base_F
                 class PylonLeft1: PylonLeft1
                 {
                     attachment = PylonRack_20Rnd_Rocket_80mm;
+					turret[] = {};
                 };
                 class PylonLeft2: PylonLeft2
                 {
                     attachment = PylonRack_20Rnd_Rocket_80mm;
+					turret[] = {};
                 };
 				class PylonLeft3: PylonLeft3
 				{
                     attachment = PylonWeapon_250Rnd_20mm_shells;
+					turret[] = {};
                 };
 				class PylonRight1: PylonRight1
                 {
                     attachment = PylonRack_20Rnd_Rocket_80mm;
+					turret[] = {};
                 };
                 class PylonRight2: PylonRight2
                 {
                     attachment = PylonRack_20Rnd_Rocket_80mm;
+					turret[] = {};
                 };
                 class PylonRight3: PylonRight3
                 {
                     attachment = PylonWeapon_250Rnd_20mm_shells;
+					turret[] = {};
                 };
             };
             class Presets: Presets

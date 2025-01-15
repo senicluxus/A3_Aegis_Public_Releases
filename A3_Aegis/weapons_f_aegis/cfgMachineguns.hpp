@@ -10,7 +10,7 @@ class LMG_Mk200_F: Rifle_Long_Base_F
     {
         class MuzzleSlot: asdg_MuzzleSlot_65
         {
-            compatibleItems[] =
+            /*compatibleItems[] =
             {
                 muzzle_snds_h,
                 muzzle_snds_h_khk_F,
@@ -18,22 +18,14 @@ class LMG_Mk200_F: Rifle_Long_Base_F
                 muzzle_snds_65_TI_blk_F,
                 muzzle_snds_65_TI_hex_F,
                 muzzle_snds_65_TI_ghex_F,
-                muzzle_tma_65,
-                muzzle_mzls_H
-            };
-            /*
-            class compatibleItems
-            {
-                muzzle_snds_h = true;
-                muzzle_snds_h_khk_F = true;
-                muzzle_snds_h_snd_F = true;
-                muzzle_snds_65_TI_blk_F = true;
-                muzzle_snds_65_TI_hex_F = true;
-                muzzle_snds_65_TI_ghex_F = true;
-                muzzle_tma_65 = true;
-                muzzle_mzls_H = true;
-            };
-            */
+                muzzle_mzls_H,
+				suppressor_m_lxWS,
+				suppressor_m_arid_lxWS,
+				suppressor_m_khaki_lxWS,
+				suppressor_m_lush_lxWS,
+				suppressor_m_sand_lxWS,
+				suppressor_m_snake_lxWS
+            };*/
         };
     };
     class GunParticles: GunParticles
@@ -216,3 +208,12 @@ class MMG_02_khaki_F: MMG_02_black_F
 		};
 	};
 };
+
+/* Western Sahara SA-77s */
+class LMG_S77_LxWS;
+class LMG_S77_AAF_LxWS;
+class LMG_S77_Desert_LxWS;
+class LMG_S77_GHex_LxWS;
+class LMG_S77_Hex_LxWS;
+class LMG_S77_Compact_LxWS;
+class LMG_S77_Compact_Snakeskin_LxWS;

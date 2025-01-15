@@ -194,28 +194,28 @@ class O_R_soldier_M_F: O_R_Soldier_Base_F
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_soldier_M_F.jpg";
     weapons[] =
     {
-        srifle_DMR_05_DMS_LP_BI_F,
+        srifle_DMR_01_black_DMS_LP_BI_F,
         hgun_Rook40_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        srifle_DMR_05_DMS_LP_BI_F,
+        srifle_DMR_01_black_DMS_LP_BI_F,
         hgun_Rook40_F,
         DefaultManWeapons,
         Rangefinder
     };
     magazines[] =
     {
-        mag_8(10Rnd_93x64_DMR_05_Mag),
+        mag_8(10Rnd_762x54_Mag),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_8(10Rnd_93x64_DMR_05_Mag),
+        mag_8(10Rnd_762x54_Mag),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
@@ -1551,22 +1551,22 @@ class O_R_helipilot_F: O_R_Soldier_Base_F
     };
 	weapons[] =
     {
-        SMG_02_ACO_F,
+        Aegis_SMG_Gepard_blk_ACO_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        SMG_02_ACO_F,
+        Aegis_SMG_Gepard_blk_ACO_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        mag_4(Aegis_40Rnd_9x21_Gepard_Green_Mag_F),
         SMOKESHELLS_OPFOR
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Green),
+        mag_4(Aegis_40Rnd_9x21_Gepard_Green_Mag_F),
         SMOKESHELLS_OPFOR
     };
 	camouflage = 2;
@@ -1810,8 +1810,7 @@ class O_R_officer_F: O_R_Soldier_Base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
-	//uniformClass = Aegis_U_O_Luchnik_officer_taiga_F;
-	uniformClass = Aegis_U_O_LightCombatFatigues_rutaiga_F;
+	uniformClass = Aegis_U_O_Luchnik_officer_taiga_F;
 	linkedItems[] =
 	{
 		V_Rangemaster_belt_taiga_F,
@@ -2307,6 +2306,61 @@ class O_R_RadioOperator_F: O_R_Soldier_F
         mag_2(SmokeShell)
     };
     role = RadioOperator;
+};
+class Aegis_O_R_Sharpshooter_F: O_R_Soldier_M_F
+{
+    author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+    class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[]=
+				{
+					"veh_infantry_sniper_s"
+				};
+				speechPlural[]=
+				{
+					"veh_infantry_sniper_p"
+				};
+			};
+		};
+	textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
+	nameSound = veh_infantry_sniper_s;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Sharpshooter_F.jpg";
+    displayName = $STR_A3_cfgVehicles_B_Sharpshooter_F0;
+    role = Marksman;
+    weapons[] =
+    {
+        srifle_DMR_05_DMS_LP_BI_F,
+        hgun_Rook40_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        srifle_DMR_05_DMS_LP_BI_F,
+        hgun_Rook40_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+    magazines[] =
+    {
+        mag_8(10Rnd_93x64_DMR_05_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_8(10Rnd_93x64_DMR_05_Mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(HandGrenade_East),
+        mag_2(SmokeShell)
+    };
+    cost = 150000;
 };
 class O_R_soldier_UAV_F: O_R_Soldier_Base_F
 {
@@ -3536,6 +3590,27 @@ class O_R_soldier_M_ard_F: O_R_soldier_M_F
 		O_NVGoggles_grn_F
 	};
 };
+class Aegis_O_R_Sharpshooter_ard_F: Aegis_O_R_Sharpshooter_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Sharpshooter_ard_F.jpg";
+	faction = OPF_R_ard_F;
+	uniformClass = U_O_R_CombatUniform_arid_F;
+	linkedItems[] =
+	{
+		V_SmershVest_01_F,
+		H_HelmetAggressor_cover_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
+	respawnLinkedItems[] =
+	{
+		V_SmershVest_01_F,
+		H_HelmetAggressor_cover_F,
+		DefaultManLinkedItems,
+		O_NVGoggles_grn_F
+	};
+};
 class O_R_soldier_AA_ard_F: O_R_soldier_AA_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -3556,8 +3631,7 @@ class O_R_officer_ard_F: O_R_officer_F
 	author = $STR_A3_A_AveryTheKitty;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_officer_ard_F.jpg";
 	faction = OPF_R_ard_F;
-	//uniformClass = Aegis_U_O_Luchnik_officer_arid_F;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_officer_arid_F;
 	linkedItems[] =
 	{
 		V_Rangemaster_belt,
@@ -4708,8 +4782,7 @@ class O_R_Fighter_Pilot_ard_F: O_R_Fighter_Pilot_F
 class Aegis_O_R_Conscript_Base_F: O_R_Soldier_Base_F
 {
 	editorSubcategory = EdSubcat_Personnel_Conscripts;
-	//uniformClass = Aegis_U_O_Luchnik_taiga_F;
-	uniformClass = Aegis_U_O_LightCombatFatigues_rutaiga_F;
+	uniformClass = Aegis_U_O_Luchnik_taiga_F;
 };
 class Aegis_O_R_Conscript_SL_F: Aegis_O_R_Conscript_Base_F
 {
@@ -4777,7 +4850,7 @@ class Aegis_O_R_Conscript_TL_F: Aegis_O_R_Conscript_Base_F
     scopeCurator = public;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_TL_F.jpg";
 	displayName = $STR_B_Soldier_TL_F0;
-	//uniformClass = Aegis_U_O_Luchnik_RolledUp_taiga_F;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_taiga_F;
 	role = Grenadier;
 	icon = iconManLeader;
     cost = 250000;
@@ -4900,7 +4973,7 @@ class Aegis_O_R_Conscript_AT_F: Aegis_O_R_Conscript_Base_F
     };
 	secondaryAmmoCoef = 0.5;
     backpack = Aegis_B_FieldPack_Taiga_ConLAT_F;
-	//uniform = Aegis_U_O_Luchnik_RolledUp_taiga_F;
+	uniform = Aegis_U_O_Luchnik_RolledUp_taiga_F;
 	weapons[] =
 	{
 		arifle_AK12U_545_F,
@@ -5061,7 +5134,7 @@ class Aegis_O_R_Conscript_AR_F: Aegis_O_R_Conscript_Base_F
         0.1,    // Armor
         0.3     // Air
     };
-	//uniformClass = Aegis_U_O_Luchnik_RolledUp_taiga_F;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_taiga_F;
 	weapons[] =
 	{
 		Aegis_arifle_RPK12_545_aco_F,
@@ -5220,8 +5293,7 @@ class Aegis_O_R_Conscript_SL_ard_F: Aegis_O_R_Conscript_SL_F
 	faction = OPF_R_ard_F;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_SL_ard_F.jpg";
 	backpack = B_RadioBag_01_arid_F;
-	//uniformClass = Aegis_U_O_Luchnik_arid_F;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_arid_F;
 	linkedItems[] =
 	{
 		Aegis_V_ChestrigEast_RUarid_F,
@@ -5239,8 +5311,7 @@ class Aegis_O_R_Conscript_TL_ard_F: Aegis_O_R_Conscript_TL_F
 {
 	faction = OPF_R_ard_F;
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_TL_ard_F.jpg";
-	//uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
 	linkedItems[] =
 	{
 		Aegis_V_ChestrigEast_RUarid_F,
@@ -5258,8 +5329,7 @@ class Aegis_O_R_Conscript_ard_F: Aegis_O_R_Conscript_F
 {
 	faction = OPF_R_ard_F;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_ard_F.jpg";
-	//uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
 	linkedItems[] =
 	{
 		Aegis_V_ChestrigEast_RUarid_F,
@@ -5277,8 +5347,8 @@ class Aegis_O_R_Conscript_AT_ard_F: Aegis_O_R_Conscript_AT_F
 {
 	faction = OPF_R_ard_F;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_AT_ard_F.jpg";
-	uniformClass = U_O_R_CombatUniform_tshirt_arid_F;
 	backpack = Aegis_B_FieldPack_Green_ConLAT_F;
+	uniformClass = Aegis_U_O_Luchnik_arid_F;
 	linkedItems[] =
 	{
 		Aegis_V_ChestrigEast_RUarid_F,
@@ -5296,8 +5366,7 @@ class Aegis_O_R_Conscript_M_ard_F: Aegis_O_R_Conscript_M_F
 {
 	faction = OPF_R_ard_F;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_M_ard_F.jpg";
-	//uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
 	linkedItems[] =
 	{
 		Aegis_V_ChestrigEast_RUarid_F,
@@ -5315,8 +5384,7 @@ class Aegis_O_R_Conscript_GL_ard_F: Aegis_O_R_Conscript_GL_F
 {
 	faction = OPF_R_ard_F;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_GL_ard_F.jpg";
-	//uniformClass = Aegis_U_O_Luchnik_arid_F;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_arid_F;
 	linkedItems[] =
 	{
 		Aegis_V_ChestrigEast_RUarid_F,
@@ -5334,7 +5402,7 @@ class Aegis_O_R_Conscript_AR_ard_F: Aegis_O_R_Conscript_AR_F
 {
 	faction = OPF_R_ard_F;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_AR_ard_F.jpg";
-	uniformClass =  U_O_R_CombatUniform_tshirt_arid_F;
+	uniformClass = Aegis_U_O_Luchnik_arid_F;
 	linkedItems[] =
 	{
 		Aegis_V_ChestrigEast_RUarid_F,
@@ -5352,8 +5420,7 @@ class Aegis_O_R_Conscript_Medic_ard_F: Aegis_O_R_Conscript_Medic_F
 {
 	faction = OPF_R_ard_F;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_Medic_ard_F.jpg";
-	//uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
 	backpack = B_FieldPack_green_Medic_F;
 	linkedItems[] =
 	{
@@ -5372,8 +5439,7 @@ class Aegis_O_R_Conscript_Repair_ard_F: Aegis_O_R_Conscript_Repair_F
 {
 	faction = OPF_R_ard_F;
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_O_R_Conscript_Repair_ard_F.jpg";
-	//uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
-	uniformClass = Aegis_U_O_LightCombatFatigues_ruarid_F;
+	uniformClass = Aegis_U_O_Luchnik_RolledUp_arid_F;
 	backpack = B_FieldPack_green_Repair_F;
 	linkedItems[] =
 	{

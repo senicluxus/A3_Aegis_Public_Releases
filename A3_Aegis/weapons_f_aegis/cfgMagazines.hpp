@@ -131,6 +131,9 @@ class CfgMagazines
 	class 10Rnd_762x54_Mag: 10Rnd_762x51_Mag
 	{
 		scope = public;
+		modelSpecial = "\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Mag_762x54R_SVD_10Rnd.p3d";
+		modelSpecialIsProxy = true;
+		descriptionShort = $STR_A3_A_cfgmagazines_10rnd_762x51_mag1;
 	};
 	class B_IR_Grenade: CA_Magazine
     {
@@ -252,6 +255,10 @@ class CfgMagazines
 	class 150Rnd_556x45_Drum_Sand_Mag_F: 150Rnd_556x45_Drum_Mag_F
 	{
 		displayName = $STR_A3_A_CfgMagazines_150Rnd_556x45_Drum_Sand_Mag_F0;
+		hiddenSelectionsTextures[]=
+		{
+			"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\Data\arifle_SPAR_01_02_Sand_Aegis_CO.paa"
+		};
 	};
 	class 150Rnd_556x45_Drum_Sand_Mag_Tracer_F: 150Rnd_556x45_Drum_Sand_Mag_F
 	{
@@ -260,6 +267,10 @@ class CfgMagazines
 	class 150Rnd_556x45_Drum_Green_Mag_F: 150Rnd_556x45_Drum_Mag_F
 	{
 		displayName = $STR_A3_A_CfgMagazines_150Rnd_556x45_Drum_Green_Mag_F0;
+		hiddenSelectionsTextures[]=
+		{
+			"A3_Aegis\weapons_f_aegis\Rifles\SPAR_01\Data\arifle_SPAR_01_02_khaki_Aegis_CO.paa"
+		};
 	};
 	class 150Rnd_556x45_Drum_Green_Mag_Tracer_F: 150Rnd_556x45_Drum_Green_Mag_F
 	{
@@ -485,13 +496,13 @@ class CfgMagazines
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
-		displayName = $STR_A3_A_CfgMagazines_7Rnd_127x33_Mag0;
-		ammo = B_127x33_Ball;
-		count = 7;
-		initSpeed = 470;
+		displayName = $STR_A3_A_CfgMagazines_8Rnd_44RM_Mag0;
+		ammo = Aegis_B_44RM_Ball;
+		count = 8;
+		initSpeed = 320;
 		picture = "\A3\Weapons_F\Data\UI\M_7Rnd_127x33_CA.paa";
 		tracersEvery = 0;
-		descriptionShort = $STR_A3_A_CfgMagazines_7Rnd_127x33_Mag1;
+		descriptionShort = $STR_A3_A_CfgMagazines_8Rnd_44RM_Mag1;
 		mass = 8;
 	};
 	class 8Rnd_12Gauge_Pellets: 2Rnd_12Gauge_Pellets
@@ -943,6 +954,8 @@ class CfgMagazines
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		scope = public;
+		scopeArsenal = public;
+		weaponpoolavailable = 1;
 		type = 64+128;
 		displayName = "25 mm 5Rnd HE Grenade";
 		displayNameShort = $STR_A3_CfgMagazines_1Rnd_HE_Grenade_shell_dns;
@@ -953,6 +966,7 @@ class CfgMagazines
 		nameSound = "";
 		descriptionShort = "Caliber: 25x40 mm HE<br />Rounds: 5 <br />Used in: Punisher";
 		mass = 16;
+		ace_arsenal_hide = -1;
 	};
 	class 5Rnd_25x40mm_airburst: 5Rnd_25x40mm_HE
 	{
@@ -964,6 +978,7 @@ class CfgMagazines
 		picture = "\A3\Weapons_F\Data\UI\gear_UGL_slug_CA.paa";
 		ammo = B_25x40mm_airburst;
 		descriptionShort = "Caliber: 25x40 mm Airburst<br />Rounds: 5 <br />Used in: Punisher";
+		ace_arsenal_hide = -1;
 	};
 
 	/* AK-74M Magazines*/
@@ -1015,14 +1030,14 @@ class CfgMagazines
 
 	class 30Rnd_545x39_Mag_Olive_F: 30Rnd_545x39_Mag_Sand_F
 	{
-		scope = protected;
+		//scope = protected;
 		displayName = "5.45 mm 30Rnd Olive Reload Tracer (Yellow) Mag";	// todo localize
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Olive_Mag_F_ca.paa";
 		hiddenSelectionsTextures[] = {"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\magazine_ak74_Olive_co.paa"};
 	};
 	class 30Rnd_545x39_Mag_Tracer_Olive_F: 30Rnd_545x39_Mag_Tracer_Sand_F
 	{
-		scope = protected;
+		//scope = protected;
 		displayName = "5.45 mm 30Rnd Olive Tracer (Yellow) Mag";	// todo localize
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_30Rnd_545x39_Olive_Mag_Yellow_F_ca.paa";
 		hiddenSelectionsTextures[] = {"A3_Aegis\weapons_f_Aegis\Rifles\AKM74\data\magazine_ak74_Olive_co.paa"};
@@ -1109,66 +1124,86 @@ class CfgMagazines
 			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_39_steel_gold.rvmat"
 		};
 	};
-	/*class Aegis_45Rnd_545x39_Mag_F: 30Rnd_545x39_Mag_F
+	class Aegis_45Rnd_545x39_Mag_F: 30Rnd_545x39_Mag_F
 	{
-		displayName = "5.45 mm 45Rnd Bakelite Reload Tracer (Yellow) Mag"; // todo localize
+		author = $STR_A3_A_Lukinator96;
+		displayName = "5.45 mm 45Rnd Reload Tracer (Yellow) Mag"; // todo localize
 		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
-		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_45rnd_545_mag_F_ca.paa";
-		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_45rnd.p3d";
-		hiddenSelections[] = {
-			"camo"
-		};
-		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_45rnd_bakelite_co.paa"
-		};
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\RPK74\Data\UI\icon_Aegis_45rnd_545_RPK_mag_F_ca.paa";
+		modelSpecial = "\A3_Aegis\Weapons_f_aegis\Rifles\RPK74\45rnd_mag.p3d";
 		count = 45;
-		mass = 20;
+		mass = 25;
 	};
 	class Aegis_45Rnd_545x39_Mag_Green_F: 30Rnd_545x39_Mag_Green_F
 	{
-		displayName = "5.45 mm 45Rnd Bakelite Reload Tracer (Green) Mag"; // todo localize
+		author = $STR_A3_A_Lukinator96;
+		displayName = "5.45 mm 45Rnd Reload Tracer (Green) Mag"; // todo localize
 		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
-		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_45rnd_545_mag_F_ca.paa";
-		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_45rnd.p3d";
-		hiddenSelections[] = {
-			"camo"
-		};
-		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_45rnd_bakelite_co.paa"
-		};
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\RPK74\Data\UI\icon_Aegis_45rnd_545_RPK_mag_F_ca.paa";
+		modelSpecial = "\A3_Aegis\Weapons_f_aegis\Rifles\RPK74\45rnd_mag.p3d";
 		count = 45;
-		mass = 20;
+		mass = 25;
 	};
 	class Aegis_45Rnd_545x39_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_F
 	{
-		displayName = "5.45 mm 45Rnd Bakelite Tracer (Yellow) Mag"; // todo localize
+		author = $STR_A3_A_Lukinator96;
+		displayName = "5.45 mm 45Rnd Tracer (Yellow) Mag"; // todo localize
 		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
-		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_45rnd_545_mag_Yellow_F_ca.paa";
-		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_45rnd.p3d";
-		hiddenSelections[] = {
-			"camo"
-		};
-		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_45rnd_bakelite_co.paa"
-		};
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\RPK74\Data\UI\icon_Aegis_45rnd_545_RPK_mag_Yellow_F_ca.paa";
+		modelSpecial = "\A3_Aegis\Weapons_f_aegis\Rifles\RPK74\45rnd_mag.p3d";
 		count = 45;
-		mass = 20;
+		mass = 25;
 	};
 	class Aegis_45Rnd_545x39_Mag_Tracer_Green_F: 30Rnd_545x39_Mag_Tracer_Green_F
 	{
+		author = $STR_A3_A_Lukinator96;
+		displayName = "5.45 mm 45Rnd Tracer (Green) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\RPK74\Data\UI\icon_Aegis_45rnd_545_RPK_mag_Green_F_ca.paa";
+		modelSpecial = "\A3_Aegis\Weapons_f_aegis\Rifles\RPK74\45rnd_mag.p3d";
+		count = 45;
+		mass = 25;
+	};
+	class Aegis_45Rnd_545x39_Bakelite_Mag_F: 30Rnd_545x39_Mag_F
+	{
+		author = $STR_A3_A_Lukinator96;
+		displayName = "5.45 mm 45Rnd Bakelite Reload Tracer (Yellow) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_45rnd_545_mag_F_ca.paa";
+		modelSpecial = "\A3_Aegis\Weapons_f_aegis\Rifles\RPK74\45rnd_mag_alt.p3d";
+		count = 45;
+		mass = 30;
+	};
+	class Aegis_45Rnd_545x39_Bakelite_Mag_Green_F: 30Rnd_545x39_Mag_Green_F
+	{
+		author = $STR_A3_A_Lukinator96;
+		displayName = "5.45 mm 45Rnd Bakelite Reload Tracer (Green) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_45rnd_545_mag_F_ca.paa";
+		modelSpecial = "\A3_Aegis\Weapons_f_aegis\Rifles\RPK74\45rnd_mag_alt.p3d";
+		count = 45;
+		mass = 30;
+	};
+	class Aegis_45Rnd_545x39_Bakelite_Mag_Tracer_F: 30Rnd_545x39_Mag_Tracer_F
+	{
+		author = $STR_A3_A_Lukinator96;
+		displayName = "5.45 mm 45Rnd Bakelite Tracer (Yellow) Mag"; // todo localize
+		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
+		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_45rnd_545_mag_Yellow_F_ca.paa";
+		modelSpecial = "\A3_Aegis\Weapons_f_aegis\Rifles\RPK74\45rnd_mag_alt.p3d";
+		count = 45;
+		mass = 30;
+	};
+	class Aegis_45Rnd_545x39_Bakelite_Mag_Tracer_Green_F: 30Rnd_545x39_Mag_Tracer_Green_F
+	{
+		author = $STR_A3_A_Lukinator96;
 		displayName = "5.45 mm 45Rnd Bakelite Tracer (Green) Mag"; // todo localize
 		descriptionShort = $STR_A3_A_CfgMagazines_45Rnd_545x39_Mag_F1;
 		picture = "\A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\UI\icon_Aegis_45rnd_545_mag_Green_F_ca.paa";
-		modelSpecial = "A3_Aegis\weapons_f_aegis\Rifles\AKM74\mag_545_45rnd.p3d";
-		hiddenSelections[] = {
-			"camo"
-		};
-		hiddenSelectionsTextures[] = {
-			"A3_Aegis\weapons_f_aegis\Rifles\AKM74\Data\mag_545_45rnd_bakelite_co.paa"
-		};
+		modelSpecial = "\A3_Aegis\Weapons_f_aegis\Rifles\RPK74\45rnd_mag_alt.p3d";
 		count = 45;
-		mass = 20;
-	};*/
+		mass = 30;
+	};
 	class Aegis_60Rnd_545x39_Mag_F: 30Rnd_545x39_Mag_F
 	{
 		displayName = "5.45 mm 60Rnd AK-12 Reload Tracer (Yellow) Mag"; // todo localize
@@ -1567,19 +1602,73 @@ class CfgMagazines
 	};
 	class Aegis_20Rnd_762x51_Tracer_Green_Sand_SMAG: Aegis_20Rnd_762x51_Tracer_Red_Sand_SMAG
 	{
-		author="Grave";
-		displayName="7.62 mm 20Rnd Tracer (Green) Sand Mag";
-		ammo="B_762x51_Tracer_Green";
-		picture="\A3_Aegis\weapons_f_aegis\data\UI\Icon_20Rnd_762x51_Green_SMAG_sand_CA.paa";
+		author = "Grave";
+		displayName = "7.62 mm 20Rnd Tracer (Green) Sand Mag";
+		ammo = "B_762x51_Tracer_Green";
+		picture = "\A3_Aegis\weapons_f_aegis\data\UI\Icon_20Rnd_762x51_Green_SMAG_sand_CA.paa";
 	};
 	class Aegis_20Rnd_762x51_Tracer_Yellow_Sand_SMAG: Aegis_20Rnd_762x51_Tracer_Red_Sand_SMAG
 	{
 		author="Grave";
 		displayName="7.62 mm 20Rnd Tracer (Yellow) Sand Mag";
-		ammo="B_762x51_Tracer_Yellow";
-		picture="\A3_Aegis\weapons_f_aegis\data\UI\Icon_20Rnd_762x51_Yellow_SMAG_sand_CA.paa";
+		ammo = "B_762x51_Tracer_Yellow";
+		picture = "\A3_Aegis\weapons_f_aegis\data\UI\Icon_20Rnd_762x51_Yellow_SMAG_sand_CA.paa";
 	};
 	/* Mk11/M110 7.62 Magazines - END */
+
+	/* GPMG 7.62/LWM-240 7.62 Magazines - Begin */
+	class Aegis_200Rnd_762x51_MAG_Red_F: 150Rnd_762x51_Box
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		picture = "\A3_Aegis\weapons_f_aegis\data\UI\icon_Aegis_200Rnd_762x51_MAG_F_CA.paa";
+		displayName = $STR_A3_A_CfgMagazines_200Rnd_762x51_MAG_Red_F0;
+		descriptionShort = $STR_A3_A_CfgMagazines_200Rnd_762x51_S77_DescriptionShort;
+		count = 200;
+		ammo = B_762x51_Tracer_Red;
+		initSpeed = 840;
+		mass = 67;
+	};
+	class Aegis_200Rnd_762x51_MAG_Red_Tracer_F: Aegis_200Rnd_762x51_MAG_Red_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		picture = "\A3_Aegis\weapons_f_aegis\data\UI\icon_Aegis_200Rnd_762x51_MAG_Red_Tracer_F_CA.paa";
+		displayName = $STR_A3_A_CfgMagazines_200Rnd_762x51_MAG_Red_Tracer_F0;
+		tracersEvery = 1;
+		lastRoundsTracer = 200;
+		displaynameshort = $STR_A3_tracer_dns;
+	};
+	class Aegis_200Rnd_762x51_MAG_Green_F: Aegis_200Rnd_762x51_MAG_Red_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		displayName = $STR_A3_A_CfgMagazines_200Rnd_762x51_MAG_Green_F0;
+		ammo = B_762x51_Tracer_Green;
+	};
+	class Aegis_200Rnd_762x51_MAG_Green_Tracer_F: Aegis_200Rnd_762x51_MAG_Green_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		picture = "\A3_Aegis\weapons_f_aegis\data\UI\icon_Aegis_200Rnd_762x51_MAG_Green_Tracer_F_CA.paa";
+		displayName = $STR_A3_A_CfgMagazines_200Rnd_762x51_MAG_Green_Tracer_F0;
+		tracersEvery = 1;
+		lastRoundsTracer = 200;
+		displaynameshort = $STR_A3_tracer_dns;
+	};
+	class Aegis_200Rnd_762x51_MAG_Yellow_F: Aegis_200Rnd_762x51_MAG_Red_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		displayName = $STR_A3_A_CfgMagazines_200Rnd_762x51_MAG_Yellow_F0;
+		ammo = B_762x51_Tracer_Yellow;
+	};
+	class Aegis_200Rnd_762x51_MAG_Yellow_Tracer_F: Aegis_200Rnd_762x51_MAG_Yellow_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		picture = "\A3_Aegis\weapons_f_aegis\data\UI\icon_Aegis_200Rnd_762x51_MAG_Yellow_Tracer_F_CA.paa";
+		displayName = $STR_A3_A_CfgMagazines_200Rnd_762x51_MAG_Yellow_Tracer_F0;
+		tracersEvery = 1;
+		lastRoundsTracer = 200;
+		displaynameshort = $STR_A3_tracer_dns;
+	};
+	/* GPMG 7.62/LWM-240 7.62 Magazines - END */
 
 	/* Hand Flare Magazines*/
 	class Aegis_HandFlare_Red: CA_Magazine
@@ -1609,6 +1698,151 @@ class CfgMagazines
 		ammo = "Aegis_GrenadeAmmo_HandFlare_Green";
 		displayNameShort = $STR_A3_A_CfgMagazines_HandFlare_Green;
 	};
+	class Aegis_SignalFlare_Red: Aegis_HandFlare_Red
+	{
+		author = $STR_A3_A_Grave;
+		displayName = $STR_A3_A_CfgMagazines_SignalFlare_Red;
+		displayNameShort = $STR_A3_A_CfgMagazines_SignalFlare_Red;
+		ammo = "Aegis_GrenadeAmmo_SignalFlare_Red";
+
+	};
+	class Aegis_SignalFlare_Green: Aegis_HandFlare_Green
+	{
+		author = $STR_A3_A_Grave;
+		displayName = $STR_A3_A_CfgMagazines_SignalFlare_Green;
+		ammo = "Aegis_GrenadeAmmo_SignalFlare_Green";
+		displayNameShort = $STR_A3_A_CfgMagazines_SignalFlare_Green;
+
+	};
+
+	/* 5.45 AP Magazines */
+	class Aegis_30Rnd_545x39_AP_Mag_F: 30Rnd_545x39_Mag_F
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = protected;
+		descriptionShort = "Caliber: 5.45x39 mm AP<br />Rounds: 30<br />Used in: AK-12";
+		displayName = "5.45 mm AP 30Rnd Reload Tracer (Green) Mag";
+		ammo = Aegis_B_545x39_AP_F;
+		initspeed = 880;
+	};
+	
+	/* GM6B Cheetah .50 Magazines */
+	class Aegis_5Rnd_127x99_Mag: CA_Magazine
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName = $STR_A3_A_cfgmagazines_5rnd_127x99_mag0;
+		descriptionShort = $STR_A3_A_cfgmagazines_5rnd_127x99_mag1;
+		ammo = B_127x99_Ball;
+		count = 5;
+		initSpeed = 880;
+		picture = "\A3\Weapons_F\Data\UI\M_5Rnd_127x108_CA.paa";
+		mass = 15;
+	};
+	class Aegis_5Rnd_127x99_AP_Mag: CA_Magazine
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName = $STR_A3_A_cfgmagazines_5rnd_127x99_ap_mag0;
+		descriptionShort = $STR_A3_A_cfgmagazines_5rnd_127x99_ap_mag1;
+		ammo = B_127x99_SLAP;
+		count = 5;
+		initSpeed = 880;
+		picture = "\A3\Weapons_F\Data\UI\M_5Rnd_127x108_CA.paa";
+		mass = 15;
+	};
+
+	/* RP57 5.7x28 mm Magazine */
+	class Aegis_10Rnd_570x28_RP57_Mag: CA_Magazine
+	{
+		author = $STR_A3_A_Ravenholme;
+		scope = public;
+		displayName = $STR_A3_A_cfgmagazines_10Rnd_570x28_RP57_Mag0;
+		ammo=  B_570x28_Ball;
+		count = 10;
+		initSpeed = 520;
+		picture = "\A3\weapons_f\data\ui\M_16Rnd_9x21_CA.paa";
+		tracersEvery = 0;
+		descriptionShort = $STR_A3_A_cfgmagazines_10Rnd_570x28_RP57_Mag1;
+		mass = 3;
+	};
+
+	/* Gepard 9x21 mm Magazines */
+	class Aegis_40Rnd_9x21_Gepard_Mag_F: CA_Magazine
+	{
+		author = $STR_A3_A_Lukinator;
+		scope = public;
+		displayName = $STR_A3_A_CfgMagazines_40Rnd_9x21_Gepard_Mag0;
+		ammo = B_9x21_Ball;
+		count = 40;
+		initSpeed = 380;
+		picture = "\A3\Weapons_F\Data\UI\M_30Rnd_45ACP_CA.paa";
+		modelSpecial = "\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Mag_9x21_Gepard_40Rnd.p3d";
+		modelSpecialIsProxy = true;
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\MagazineProxies\Data\Mag_9x21_Gepard_CO.paa"};
+		tracersEvery = 0;
+		descriptionShort = $STR_A3_A_CfgMagazines_40Rnd_9x21_Gepard_Mag1;
+		mass = 12;
+	};
+	class Aegis_40Rnd_9x21_Gepard_Yellow_Mag_F: Aegis_40Rnd_9x21_Gepard_Mag_F
+	{
+		author = $STR_A3_A_Lukinator;
+		displayName = $STR_A3_A_CfgMagazines_40Rnd_9x21_Gepard_yellow_mag0;
+		ammo = B_9x21_Ball_Tracer_Yellow;
+		lastRoundsTracer = 4;
+	};
+	class Aegis_40Rnd_9x21_Gepard_Green_Mag_F: Aegis_40Rnd_9x21_Gepard_Mag_F
+	{
+		author = $STR_A3_A_Lukinator;
+		displayName = $STR_A3_A_CfgMagazines_40Rnd_9x21_Gepard_yellow_mag0;
+		ammo = B_9x21_Ball_Tracer_Green;
+		lastRoundsTracer = 4;
+	};
+	class Aegis_20Rnd_9x21_Gepard_Mag_F: Aegis_40Rnd_9x21_Gepard_Mag_F
+	{
+		author = $STR_A3_A_Lukinator;
+		displayName = $STR_A3_A_CfgMagazines_20Rnd_9x21_Gepard_Mag0;
+		picture = "\A3\Weapons_F\Data\UI\M_30Rnd_45ACP_CA.paa";
+		modelSpecial = "\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Mag_9x21_Gepard_20Rnd.p3d";
+		modelSpecialIsProxy = true;
+		hiddenSelections[] = {camo};
+		hiddenSelectionsTextures[] = {"\A3_Aegis\weapons_f_aegis\MagazineProxies\Data\Mag_9x21_Gepard_CO.paa"};
+		count = 20;
+		mass = 6;
+		descriptionShort = $STR_A3_A_CfgMagazines_20Rnd_9x21_Gepard_Mag1;
+	};
+
+	/* SVD Dragunov Magazines */
+	/*class Aegis_10Rnd_762x54_SVD_Mag_F: 10Rnd_762x54_Mag
+	{
+		modelSpecial = "\A3_Aegis\Weapons_F_Aegis\MagazineProxies\Mag_762x54R_SVD_10Rnd.p3d";
+		modelSpecialIsProxy = true;
+	};*/
+	class Aegis_10Rnd_762x54_SVD_Yellow_Mag_F: 10Rnd_762x54_Mag
+	{
+		author = $STR_A3_A_Lukinator;
+		displayName = $STR_A3_A_cfgmagazines_10rnd_762x51_Mag_Yellow0;
+		ammo = B_762x54_Tracer_Yellow;
+		lastRoundsTracer = 3;
+	};
+	class Aegis_10Rnd_762x54_SVD_Green_Mag_F: 10Rnd_762x54_Mag
+	{
+		author = $STR_A3_A_Lukinator;
+		displayName = $STR_A3_A_cfgmagazines_10rnd_762x51_Mag_Green0;
+		ammo = B_762x54_Tracer_Green;
+		lastRoundsTracer = 3;
+	};
+	class Aegis_10Rnd_762x54_SVD_Red_Mag_F: 10Rnd_762x54_Mag
+	{
+		author = $STR_A3_A_Lukinator;
+		displayName = $STR_A3_A_cfgmagazines_10rnd_762x51_Mag_Red0;
+		ammo = B_762x54_Tracer_Red;
+		lastRoundsTracer = 3;
+	};
+
+
+
     /* Vehicles' Magazines */
     #include "cfgVehicleMagazines.hpp"
 

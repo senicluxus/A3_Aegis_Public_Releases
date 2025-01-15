@@ -20,7 +20,7 @@ class Opf_Box_Partisan_Wps_F: ReammoBox_F
 	{
 		mag_xx(30Rnd_556x45_Stanag,10);
 		mag_xx(30Rnd_556x45_Stanag_Tracer_Yellow,6);
-		mag_xx(150Rnd_762x51_Box_Yellow,2);
+		mag_xx(Atlas_150Rnd_762x51_Box_Yellow,2);
 		mag_xx(20rnd_460x30_mag_F,2);
 		mag_xx(20rnd_762x51_mag,6);
 		mag_xx(9rnd_45acp_mag,2);
@@ -61,7 +61,7 @@ class Opf_Box_Partisan_Ammo_F: ReammoBox_F
 	{
 		mag_xx(30Rnd_556x45_Stanag,24);
 		mag_xx(30Rnd_556x45_Stanag_Tracer_Yellow,12);
-		mag_xx(150Rnd_762x51_Box_Yellow,8);
+		mag_xx(Atlas_150Rnd_762x51_Box_Yellow,8);
 		mag_xx(20rnd_460x30_mag_F,12);
 		mag_xx(20rnd_762x51_mag,12);
 		mag_xx(9rnd_45acp_mag,6);

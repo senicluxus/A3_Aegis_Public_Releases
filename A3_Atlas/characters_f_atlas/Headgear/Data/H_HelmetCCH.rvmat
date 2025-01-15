@@ -1,13 +1,13 @@
 class StageTI
 {
-	texture="#(argb,8,8,3)color(0,0,0,0)";
+	texture="a3\data_f\default_vehicle_ti_ca.paa";
 };
 ambient[]={1,1,1,1};
 diffuse[]={1,1,1,1};
-forcedDiffuse[]={0,0,0,0};
-emmisive[]={0,0,0,1};
-specular[]={0.55000001,0.55000001,0.55000001,1};
-specularPower=50;
+forcedDiffuse[]={0,0,0,1};
+emmisive[]={0,0,0,0};
+specular[]={0.5529412,0.5529412,0.5529412,1};
+specularPower=45;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
@@ -72,12 +72,12 @@ class Stage5
 };
 class Stage6
 {
-	texture="#(ai,32,128,1)fresnel(2.45,0.75)";
+	texture="#(ai,64,64,1)fresnel(1,0.7)";
 	uvSource="none";
 };
 class Stage7
 {
-	texture="a3\data_f\env_co.paa";
+	texture="a3\data_f\env_co.tga";
 	uvSource="tex";
 	class uvTransform
 	{

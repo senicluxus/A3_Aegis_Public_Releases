@@ -50,8 +50,8 @@ class O_R_Static_AA_F: O_static_AA_F
 		init = "''";
 	};
 	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_Static_AA_F.jpg";
-    scope = public;
-    scopeCurator = public;
+      scope = public;
+      scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_O_R_Static_AA_F0;
 	faction = OPF_R_F;
 	crew = O_R_Soldier_F;

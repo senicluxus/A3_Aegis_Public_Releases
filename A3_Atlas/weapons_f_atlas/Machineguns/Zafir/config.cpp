@@ -33,8 +33,8 @@ class CfgWeapons
 	    picture = "\A3_Aegis\Weapons_F_Aegis\Machineguns\Zafir\Data\UI\icon_LMG_Zafir_black_F_X_CA.paa";
         magazines[] =
 		{
-			150Rnd_762x51_Box_Yellow,
-			150Rnd_762x51_Box_Tracer_Yellow
+			Atlas_150Rnd_762x51_Box_Yellow,
+			Atlas_150Rnd_762x51_Box_Tracer_Yellow
 		};
         magazineWell[] =
         {

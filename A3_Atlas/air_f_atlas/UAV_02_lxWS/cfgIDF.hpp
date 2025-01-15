@@ -28,7 +28,7 @@ class Atlas_I_I_UAV_02_lxWS: UAV_02_Base_lxWS
 		dissasembleTo[] = {Atlas_I_I_UAV_02_backpack_lxWS};
 	};
 	
-   lxws_droneWeapon[] = {"Atlas_LMG_Negev_black_F","150Rnd_762x51_Box_Yellow",""};	// weapon, prim mag, sec mag
+   lxws_droneWeapon[] = {"Atlas_LMG_Negev_black_F","Atlas_150Rnd_762x51_Box_Yellow",""};	// weapon, prim mag, sec mag
 };
 class Atlas_I_I_UAV_02_backpack_lxWS: Weapon_Bag_Base
 {

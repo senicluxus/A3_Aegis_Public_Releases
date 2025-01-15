@@ -166,6 +166,19 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[]=
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_LDF_arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_LDF_arid_CO.paa",
+					"\A3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"			
+				};
+				factions[] = {};
+			};
 		};
 
         /* Scripts */
@@ -292,6 +305,19 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[]=
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_LDF_arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_LDF_arid_CO.paa",
+					"\A3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"			
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class Truck_02_box_base_F: Truck_02_base_F
@@ -410,6 +436,19 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[]=
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_LDF_arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_LDF_arid_CO.paa",
+					"\A3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"			
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class Truck_02_medical_base_F: Truck_02_box_base_F
@@ -488,6 +527,19 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[]=
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_LDF_arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_LDF_arid_CO.paa",
+					"\A3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"			
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class Truck_02_Ammo_base_F: Truck_02_base_F
@@ -563,6 +615,19 @@ class CfgVehicles
 					"\lxws\vehicles_f_lxws\data\Truck_02\zamak_repair_africa_co.paa",
 					"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
 					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"
+				};
+				factions[] = {};
+			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[]=
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_LDF_arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_LDF_arid_CO.paa",
+					"\A3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"			
 				};
 				factions[] = {};
 			};
@@ -661,6 +726,19 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[]=
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_LDF_arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_fuel_LDF_arid_CO.paa",
+					"\A3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"			
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class Truck_02_MRL_base_F: Truck_02_base_F
@@ -740,6 +818,19 @@ class CfgVehicles
 					"\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
 					"lxws\vehicles_f_lxws\data\Truck_02\zamak_mrl_brown_co.paa",
 					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_OPFOR_CO.paa"
+				};
+				factions[] = {};
+			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[]=
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_LDF_arid_CO.paa",
+					"\A3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_MRL_LDF_arid_CO.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa"			
 				};
 				factions[] = {};
 			};
@@ -933,6 +1024,20 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[]=
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_LDF_arid_CO.paa",
+					"\lxws\vehicles_f_lxws\Truck_02\data\truck_02_cargo_EAF_CO.paa",
+					"\A3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"		
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class Truck_02_box_base_lxWS: Truck_02_Base_F
@@ -1098,6 +1203,20 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[]=
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_LDF_arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_LDF_arid_CO.paa",
+					"\A3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"		
+				};
+				factions[] = {};
+			};
 		};
 	};
 	class Truck_02_Ammo_base_lxWS: Truck_02_Base_F
@@ -1176,6 +1295,20 @@ class CfgVehicles
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+				};
+				factions[] = {};
+			};
+			class EAF_Arid
+			{
+				displayName = $STR_A3_A_CfgFactionClasses_IND_E_ard_F0;
+				author = $STR_A3_A_BranFlakes;
+				textures[]=
+				{
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_LDF_arid_CO.paa",
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_LDF_arid_CO.paa",
+					"\A3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+					"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"		
 				};
 				factions[] = {};
 			};
@@ -1302,14 +1435,14 @@ class CfgVehicles
 	};
 
     /* Factions */
+	#include "cargo_and_flatbed.h"
     #include "cfgOPFOR.hpp" // IAF & China
     #include "cfgIndep.hpp" // AAF
     #include "cfgCivil.hpp" // Civilians
     #include "cfgIDAP.hpp"  // IDAP
     #include "cfgRUS.hpp"   // Russia
-	
+	#include "cfgRaven.hpp"	// Raven Security
     #include "ION.h"
     #include "SFIA.h"
-	#include "cargo_and_flatbed.h"
 	#include "cfgEAF.hpp"	// LDF/BLUFOR
 };

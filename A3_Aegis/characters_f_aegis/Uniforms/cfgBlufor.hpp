@@ -288,3 +288,77 @@ class U_B_UBACS_vest_wdl_f: Uniform_Base
 		mass = 40;
 	};
 };
+
+/* Survival Fatigues */
+class Aegis_U_B_SurvivalFatigues_wdl_F : Uniform_Base
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_B_SurvivalFatigues_wdl_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_Aegis_U_B_SurvivalFatigues_wdl_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+	hiddenSelections[]=
+	{
+		"camo"
+	};
+	hiddenSelectionsTextures[]=
+	{
+		"a3\characters_f\common\data\diver_suit_nato_co.paa"
+	};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_B_SurvivalFatigues_wdl_F;
+		containerClass = Supply40;
+		uniformType = Neopren;
+		mass=60;
+	};
+};
+class Aegis_U_B_SurvivalFatigues_tna_F : Uniform_Base
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_B_SurvivalFatigues_tna_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_Aegis_U_B_SurvivalFatigues_tna_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+	hiddenSelections[]=
+	{
+		"camo"
+	};
+	hiddenSelectionsTextures[]=
+	{
+		"a3\characters_f\common\data\diver_suit_nato_co.paa"
+	};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_B_SurvivalFatigues_tna_F;
+		containerClass = Supply40;
+		uniformType = Neopren;
+		mass=60;
+	};
+};
+class Aegis_U_B_SurvivalFatigues_des_F : Uniform_Base
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_B_SurvivalFatigues_des_F0;
+	picture = "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\UI\icon_Aegis_U_B_SurvivalFatigues_des_F_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
+	hiddenSelections[]=
+	{
+		"camo"
+	};
+	hiddenSelectionsTextures[]=
+	{
+		"a3\characters_f\common\data\diver_suit_nato_co.paa"
+	};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Aegis_B_SurvivalFatigues_des_F;
+		containerClass = Supply40;
+		uniformType = Neopren;
+		mass=60;
+	};
+};

@@ -9,6 +9,7 @@ class CfgPatches
 			A3_Aegis_Air_F_Aegis_Heli_Attack_01,
 			A3_Aegis_Air_F_Aegis_Heli_Attack_02,
 			A3_Aegis_Air_F_Aegis_Heli_Attack_03,
+			A3_Aegis_Air_F_Aegis_Heli_Attack_04,
 			A3_Aegis_Air_F_Aegis_Heli_Light_01,
 			A3_Aegis_Air_F_Aegis_Heli_Light_02,
 			A3_Aegis_Air_F_Aegis_Heli_Light_03,
@@ -136,14 +137,20 @@ class CfgPatches
 			A3_Aegis_Weapons_F_Aegis_Pistols_G17,
 			A3_Aegis_Weapons_F_Aegis_Pistols_Mk26,
 			A3_Aegis_Weapons_F_Aegis_Rifles_AK12,
+			A3_Aegis_Weapons_F_Aegis_Rifles_AKM74,
+			A3_Aegis_Weapons_F_Aegis_Rifles_AKS,
+			A3_Aegis_Weapons_F_Aegis_Rifles_M4A1,
+			A3_Aegis_Weapons_F_Aegis_Rifles_M16,
 			A3_Aegis_Weapons_F_Aegis_Rifles_RPK,
+			A3_Aegis_Weapons_F_Aegis_Rifles_RPK74,
 			A3_Aegis_Weapons_F_Aegis_Rifles_SA80,
 			A3_Aegis_Weapons_F_Aegis_Rifles_SCAR,
 			A3_Aegis_Weapons_F_Aegis_Shotguns_AA40,
 			A3_Aegis_Weapons_F_Aegis_Shotguns_KSG,
 			A3_Aegis_Weapons_F_Aegis_Shotguns_M4_SSAS,
 			A3_Aegis_Weapons_F_Aegis_Shotguns_Mp153,
-			A3_Aegis_Weapons_F_Aegis_SMGs_SMG_04
+			A3_Aegis_Weapons_F_Aegis_SMGs_SMG_04,
+			A3_Aegis_Weapons_F_Aegis_SMGs_SMG_Gepard
 		};
 		requiredVersion = 0.1;
 		units[] = {/* Automated */};
